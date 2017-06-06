@@ -380,6 +380,18 @@
         <filterScope>Everything</filterScope>
         <label>Platinum and Gold SLA Customers</label>
     </listViews>
+    <recordTypes>
+        <fullName>Record_Type1</fullName>
+        <active>true</active>
+        <compactLayoutAssignment>Custom_Acc_Compact_Layout</compactLayoutAssignment>
+        <label>Record Type1</label>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Record_Type2</fullName>
+        <active>true</active>
+        <compactLayoutAssignment>Custom_Acc_Compact_Layout</compactLayoutAssignment>
+        <label>Record Type2</label>
+    </recordTypes>
     <searchLayouts>
         <customTabListAdditionalFields>ACCOUNT.NAME</customTabListAdditionalFields>
         <customTabListAdditionalFields>ACCOUNT.ADDRESS1_CITY</customTabListAdditionalFields>
