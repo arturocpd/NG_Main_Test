@@ -89,6 +89,13 @@
         <type>Default</type>
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>Custom_Contact_Compact_layout</fullName>
+        <fields>AccountId</fields>
+        <fields>Department</fields>
+        <fields>DoNotCall</fields>
+        <label>Custom Contact Compact layout</label>
+    </compactLayouts>
     <enableFeeds>true</enableFeeds>
     <enableHistory>false</enableHistory>
     <fields>
