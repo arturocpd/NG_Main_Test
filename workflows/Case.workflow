@@ -12,6 +12,18 @@
         <senderType>OrgWideEmailAddress</senderType>
         <template>unfiled$public/MarketingProductInquiryResponse</template>
     </alerts>
+    <alerts>
+        <fullName>Wide_org_email_alert</fullName>
+        <description>Wide org email alert</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>{!Environment.useremailalert}</recipient>
+            <type>user</type>
+        </recipients>
+        <senderAddress>{!Environment.arturogueznez}</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/MarketingProductInquiryResponse</template>
+    </alerts>
     <rules>
         <fullName>Org wide alert</fullName>
         <actions>
