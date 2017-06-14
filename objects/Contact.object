@@ -233,14 +233,13 @@
     </fields>
     <fields>
         <fullName>SGUID__c</fullName>
-        <externalId>true</externalId>
+        <externalId>false</externalId>
         <label>SGUID</label>
-        <precision>18</precision>
+        <length>30</length>
         <required>false</required>
-        <scale>0</scale>
         <trackFeedHistory>false</trackFeedHistory>
-        <type>Number</type>
-        <unique>true</unique>
+        <type>Text</type>
+        <unique>false</unique>
     </fields>
     <fields>
         <fullName>Title</fullName>
