@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Profile xmlns="http://soap.sforce.com/2006/04/metadata">
+    <loginIpRanges>
+        <endAddress>83.49.84.23</endAddress>
+        <startAddress>83.49.84.23</startAddress>
+    </loginIpRanges>
     <applicationVisibilities>
         <application>copado__Copado</application>
         <default>false</default>
@@ -1416,6 +1420,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Case.IsEscalated</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Case.Login_IP_restrictions__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
