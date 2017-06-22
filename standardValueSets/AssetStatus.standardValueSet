@@ -36,4 +36,9 @@
         <default>false</default>
         <label>Elisa Test US</label>
     </standardValue>
+    <standardValue>
+        <fullName>Elisa Test StandardValueSet</fullName>
+        <default>false</default>
+        <label>Elisa Test StandardValueSet</label>
+    </standardValue>
 </StandardValueSet>

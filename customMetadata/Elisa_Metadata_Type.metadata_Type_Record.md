@@ -4,6 +4,6 @@
     <protected>false</protected>
     <values>
         <field>Metadata_Type_Picklist__c</field>
-        <value xsi:type="xsd:string">PicklistValue2</value>
+        <value xsi:type="xsd:string">PicklistValue3</value>
     </values>
 </CustomMetadata>

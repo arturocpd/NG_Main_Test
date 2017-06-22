@@ -5,7 +5,7 @@
         <description>Email alert from wide</description>
         <protected>false</protected>
         <recipients>
-            <recipient>{!Environment.useremailalert}</recipient>
+            <recipient>insightssecurity@00d0y000001jzpeuai.com</recipient>
             <type>user</type>
         </recipients>
         <senderAddress>arturogueznez@gmail.com</senderAddress>
@@ -17,13 +17,22 @@
         <description>Wide org email alert</description>
         <protected>false</protected>
         <recipients>
-            <recipient>{!Environment.useremailalert}</recipient>
+            <recipient>insightssecurity@00d0y000001jzpeuai.com</recipient>
             <type>user</type>
         </recipients>
-        <senderAddress>{!Environment.arturogueznez}</senderAddress>
+        <senderAddress>arturogueznez@gmail.com</senderAddress>
         <senderType>OrgWideEmailAddress</senderType>
         <template>unfiled$public/MarketingProductInquiryResponse</template>
     </alerts>
+    <fieldUpdates>
+        <fullName>Update_Origin</fullName>
+        <field>Origin</field>
+        <literalValue>Email</literalValue>
+        <name>Update Origin</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
     <rules>
         <fullName>Org wide alert</fullName>
         <actions>

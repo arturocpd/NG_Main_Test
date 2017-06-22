@@ -34,9 +34,9 @@
     </actionOverrides>
     <deploymentStatus>Deployed</deploymentStatus>
     <enableFeeds>false</enableFeeds>
-    <enableReports>false</enableReports>
-    <enableSearch>false</enableSearch>
-    <externalDataSource>External_data_source</externalDataSource>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <externalDataSource>External_2</externalDataSource>
     <externalName>Table</externalName>
     <gender>Feminine</gender>
     <label>External Object</label>
