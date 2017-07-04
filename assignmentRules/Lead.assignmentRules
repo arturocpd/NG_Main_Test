@@ -4,7 +4,11 @@
         <fullName>Standard</fullName>
         <active>true</active>
         <ruleEntry>
+<<<<<<< HEAD
             <assignedTo>ngarturodev1cpd@gmail.com</assignedTo>
+=======
+            <assignedTo>\{!Environment.arusername\}</assignedTo>
+>>>>>>> feature/US-0000059
             <assignedToType>User</assignedToType>
             <criteriaItems>
                 <field>Lead.Country</field>
@@ -14,7 +18,11 @@
             <template>unfiled$public/SalesNewCustomerEmail</template>
         </ruleEntry>
         <ruleEntry>
+<<<<<<< HEAD
             <assignedTo>ngarturodev1cpd@gmail.com</assignedTo>
+=======
+            <assignedTo>\{!Environment.arusername\}</assignedTo>
+>>>>>>> feature/US-0000059
             <assignedToType>User</assignedToType>
             <criteriaItems>
                 <field>Lead.Country</field>
