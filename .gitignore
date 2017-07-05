@@ -13,7 +13,7 @@ package.xml
 #you can track incremental changes on Profiles and Permission sets using Copado "commit files" functionality.
 #Otherwise ignore profiles and permission sets until you are ready for it. 
 #You can deploy profiles and permission sets using Copado Deployer steps: Full profiles and Full Permission sets.
-#Below is how to ignore them
+
 #profiles/*
 #permissionsets/*
 
