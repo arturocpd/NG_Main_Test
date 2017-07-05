@@ -432,6 +432,12 @@
         <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
+    <validationRules>
+        <fullName>Validation</fullName>
+        <active>true</active>
+        <errorConditionFormula>Name  &lt;&gt; &apos;&apos;</errorConditionFormula>
+        <errorMessage>You must enter a name for the account</errorMessage>
+    </validationRules>
     <webLinks>
         <fullName>Billing</fullName>
         <availability>online</availability>
