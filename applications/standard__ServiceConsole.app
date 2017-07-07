@@ -174,7 +174,11 @@
     <tab>standard-Opportunity</tab>
     <tab>standard-Lead</tab>
     <tab>standard-Knowledge</tab>
+    <tab>Custom_Object__c</tab>
     <workspaceMappings>
+        <mapping>
+            <tab>Custom_Object__c</tab>
+        </mapping>
         <mapping>
             <tab>standard-Account</tab>
         </mapping>
