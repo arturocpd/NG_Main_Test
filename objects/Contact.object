@@ -93,6 +93,13 @@
         <type>Default</type>
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>Custom_Contact_Compact_layout</fullName>
+        <fields>AccountId</fields>
+        <fields>Department</fields>
+        <fields>DoNotCall</fields>
+        <label>Custom Contact Compact layout</label>
+    </compactLayouts>
     <enableFeeds>true</enableFeeds>
     <enableHistory>false</enableHistory>
     <fields>
@@ -236,8 +243,29 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>SGUID__c</fullName>
+        <externalId>false</externalId>
+        <label>SGUID</label>
+        <length>30</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>Title</fullName>
         <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>xyz_SGUID__c</fullName>
+        <caseSensitive>true</caseSensitive>
+        <externalId>true</externalId>
+        <label>xyz SGUID</label>
+        <length>40</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>true</unique>
     </fields>
     <listViews>
         <fullName>AllContacts</fullName>
