@@ -41,6 +41,13 @@
         <type>Checkbox</type>
     </fields>
     <fields>
+        <fullName>Activity_Custom_field_4__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Activity Custom field 4</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>check_formula__c</fullName>
         <externalId>false</externalId>
         <formula>true</formula>
