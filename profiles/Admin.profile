@@ -4649,12 +4649,12 @@
         <allowDelete>true</allowDelete>
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
-		<customizeSetup>true</customizeSetup>
+        <customizeSetup>true</customizeSetup>
         <deleteSetup>true</deleteSetup>
         <modifyAllRecords>true</modifyAllRecords>
         <object>Ext_Objt__x</object>
         <viewAllRecords>true</viewAllRecords>
-		<viewSetup>true</viewSetup>
+        <viewSetup>true</viewSetup>
     </objectPermissions>
     <objectPermissions>
         <allowCreate>true</allowCreate>
