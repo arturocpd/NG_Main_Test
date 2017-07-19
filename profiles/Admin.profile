@@ -1652,11 +1652,6 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
-        <field>Case.formula_check__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
         <editable>true</editable>
         <field>Case.Unique_Code__c</field>
         <readable>true</readable>
@@ -1664,6 +1659,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Case.Version_8_1__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Case.formula_check__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -1895,6 +1895,11 @@
         <editable>false</editable>
         <field>Elisa_Metadata_Type__mdt.Metadata_Type_Picklist__c</field>
         <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Event.Activity_Custom_field_3__c</field>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -2384,6 +2389,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Task.ActivityDate</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Task.Activity_Custom_field_3__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -4761,12 +4771,12 @@
         <allowDelete>true</allowDelete>
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
-		<customizeSetup>true</customizeSetup>
+        <customizeSetup>true</customizeSetup>
         <deleteSetup>true</deleteSetup>
         <modifyAllRecords>true</modifyAllRecords>
         <object>Ext_Objt__x</object>
         <viewAllRecords>true</viewAllRecords>
-		<viewSetup>true</viewSetup>
+        <viewSetup>true</viewSetup>
     </objectPermissions>
     <objectPermissions>
         <allowCreate>true</allowCreate>
