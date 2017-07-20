@@ -45,6 +45,7 @@
         <isNameField>false</isNameField>
         <isSortingDisabled>false</isSortingDisabled>
         <label>Last Modified Date</label>
+        <readOnlyProxy>true</readOnlyProxy>
         <required>false</required>
         <type>DateTime</type>
     </fields>
