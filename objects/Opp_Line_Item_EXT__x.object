@@ -39,11 +39,21 @@
     <externalDataSource>External_2</externalDataSource>
     <externalName>Table</externalName>
     <fields>
-        <fullName>LastModifiedDate__c</fullName>
+        <fullName>Date__c</fullName>
         <externalId>false</externalId>
         <isFilteringDisabled>false</isFilteringDisabled>
         <isNameField>false</isNameField>
         <isSortingDisabled>false</isSortingDisabled>
+        <label>Date</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>LastModifiedDate__c</fullName>
+        <externalId>false</externalId>
+        <isFilteringDisabled>false</isFilteringDisabled>
+        <isNameField>false</isNameField>
+        <isSortingDisabled>true</isSortingDisabled>
         <label>Last Modified Date</label>
         <required>false</required>
         <type>DateTime</type>
