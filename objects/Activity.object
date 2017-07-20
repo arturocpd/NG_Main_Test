@@ -33,6 +33,56 @@
         <type>Default</type>
     </actionOverrides>
     <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>Activity_Custom_field_2__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Activity Custom field 2</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Activity_Custom_field_3__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Activity Custom field 3</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Activity_Custom_field_4__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Activity Custom field 4</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Activity_Custom_field_5__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Activity Custom field 5</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Activity_Custom_field__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Activity Custom field</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Activity_ZZZ__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Activity ZZZ</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>check_formula__c</fullName>
+        <externalId>false</externalId>
+        <formula>true</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>check formula</label>
+        <type>Checkbox</type>
+    </fields>
     <listViews>
         <fullName>AllActivities</fullName>
         <filterScope>Team</filterScope>

@@ -242,8 +242,24 @@
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N0Y00000JpxAn</field>
+            <label>Test Commit A</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N0Y00000JpxAw</field>
+            <label>Test Commit B</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N0Y00000JpxaV</field>
+            <label>Test Commit C</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N0Y00000IOuml</field>
             <label>Tracking Number</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N0Y00000JocSl</field>
+            <label>xyz SGUID Opp</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
@@ -283,7 +299,11 @@
             <field>00N0Y00000IOumi</field>
             <field>00N0Y00000IOumj</field>
             <field>00N0Y00000IOumk</field>
+            <field>00N0Y00000JpxAn</field>
+            <field>00N0Y00000JpxAw</field>
+            <field>00N0Y00000JpxaV</field>
             <field>00N0Y00000IOuml</field>
+            <field>00N0Y00000JocSl</field>
         </opportunityListFieldsUnselectedSettings>
         <quotasSettings>
             <showQuotas>false</showQuotas>
@@ -454,8 +474,24 @@
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N0Y00000JpxAn</field>
+            <label>Test Commit A</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N0Y00000JpxAw</field>
+            <label>Test Commit B</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N0Y00000JpxaV</field>
+            <label>Test Commit C</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N0Y00000IOuml</field>
             <label>Tracking Number</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N0Y00000JocSl</field>
+            <label>xyz SGUID Opp</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
@@ -495,7 +531,11 @@
             <field>00N0Y00000IOumi</field>
             <field>00N0Y00000IOumj</field>
             <field>00N0Y00000IOumk</field>
+            <field>00N0Y00000JpxAn</field>
+            <field>00N0Y00000JpxAw</field>
+            <field>00N0Y00000JpxaV</field>
             <field>00N0Y00000IOuml</field>
+            <field>00N0Y00000JocSl</field>
         </opportunityListFieldsUnselectedSettings>
         <quotasSettings>
             <showQuotas>false</showQuotas>
@@ -666,8 +706,24 @@
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N0Y00000JpxAn</field>
+            <label>Test Commit A</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N0Y00000JpxAw</field>
+            <label>Test Commit B</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N0Y00000JpxaV</field>
+            <label>Test Commit C</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N0Y00000IOuml</field>
             <label>Tracking Number</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N0Y00000JocSl</field>
+            <label>xyz SGUID Opp</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
@@ -707,7 +763,11 @@
             <field>00N0Y00000IOumi</field>
             <field>00N0Y00000IOumj</field>
             <field>00N0Y00000IOumk</field>
+            <field>00N0Y00000JpxAn</field>
+            <field>00N0Y00000JpxAw</field>
+            <field>00N0Y00000JpxaV</field>
             <field>00N0Y00000IOuml</field>
+            <field>00N0Y00000JocSl</field>
         </opportunityListFieldsUnselectedSettings>
         <quotasSettings>
             <showQuotas>false</showQuotas>
@@ -878,8 +938,24 @@
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N0Y00000JpxAn</field>
+            <label>Test Commit A</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N0Y00000JpxAw</field>
+            <label>Test Commit B</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N0Y00000JpxaV</field>
+            <label>Test Commit C</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N0Y00000IOuml</field>
             <label>Tracking Number</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N0Y00000JocSl</field>
+            <label>xyz SGUID Opp</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
@@ -919,7 +995,11 @@
             <field>00N0Y00000IOumi</field>
             <field>00N0Y00000IOumj</field>
             <field>00N0Y00000IOumk</field>
+            <field>00N0Y00000JpxAn</field>
+            <field>00N0Y00000JpxAw</field>
+            <field>00N0Y00000JpxaV</field>
             <field>00N0Y00000IOuml</field>
+            <field>00N0Y00000JocSl</field>
         </opportunityListFieldsUnselectedSettings>
         <quotasSettings>
             <showQuotas>false</showQuotas>
@@ -1098,8 +1178,24 @@
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N0Y00000JpxAn</field>
+            <label>Test Commit A</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N0Y00000JpxAw</field>
+            <label>Test Commit B</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N0Y00000JpxaV</field>
+            <label>Test Commit C</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N0Y00000IOuml</field>
             <label>Tracking Number</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N0Y00000JocSl</field>
+            <label>xyz SGUID Opp</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
@@ -1141,7 +1237,11 @@
             <field>00N0Y00000IOumi</field>
             <field>00N0Y00000IOumj</field>
             <field>00N0Y00000IOumk</field>
+            <field>00N0Y00000JpxAn</field>
+            <field>00N0Y00000JpxAw</field>
+            <field>00N0Y00000JpxaV</field>
             <field>00N0Y00000IOuml</field>
+            <field>00N0Y00000JocSl</field>
         </opportunityListFieldsUnselectedSettings>
         <quotasSettings>
             <showQuotas>false</showQuotas>

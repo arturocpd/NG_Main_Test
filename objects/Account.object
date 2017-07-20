@@ -992,6 +992,18 @@
         <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
+    <validationRules>
+        <fullName>New_Validation_Acc</fullName>
+        <active>true</active>
+        <errorConditionFormula>false</errorConditionFormula>
+        <errorMessage>This error will be never displayed.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Validation</fullName>
+        <active>true</active>
+        <errorConditionFormula>Name  &lt;&gt; &apos;&apos;</errorConditionFormula>
+        <errorMessage>You must enter a name for the XXXXXXXXXXX account</errorMessage>
+    </validationRules>
     <webLinks>
         <fullName>Billing</fullName>
         <availability>online</availability>
