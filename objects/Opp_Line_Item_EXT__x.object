@@ -33,9 +33,10 @@
         <type>Default</type>
     </actionOverrides>
     <deploymentStatus>Deployed</deploymentStatus>
+    <description>DescriptionYYYY</description>
     <enableFeeds>false</enableFeeds>
-    <enableReports>false</enableReports>
-    <enableSearch>false</enableSearch>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
     <externalDataSource>External_2</externalDataSource>
     <externalName>Table</externalName>
     <fields>
@@ -51,14 +52,24 @@
     <fields>
         <fullName>LastModifiedDate__c</fullName>
         <externalId>false</externalId>
-        <isFilteringDisabled>false</isFilteringDisabled>
+        <isFilteringDisabled>true</isFilteringDisabled>
         <isNameField>false</isNameField>
         <isSortingDisabled>true</isSortingDisabled>
         <label>Last Modified Date</label>
         <required>false</required>
         <type>DateTime</type>
     </fields>
-    <gender>Feminine</gender>
+    <fields>
+        <fullName>check__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <isFilteringDisabled>false</isFilteringDisabled>
+        <isNameField>false</isNameField>
+        <isSortingDisabled>false</isSortingDisabled>
+        <label>check</label>
+        <type>Checkbox</type>
+    </fields>
+    <gender>Masculine</gender>
     <label>Opp Line Item EXT</label>
     <pluralLabel>Opp Line Item EXT</pluralLabel>
     <searchLayouts/>

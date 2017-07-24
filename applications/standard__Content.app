@@ -7,5 +7,4 @@
     <tab>standard-ContentSearch</tab>
     <tab>standard-ContentSubscriptions</tab>
     <tab>standard-ContentFavorites</tab>
-    <tab>Custom_Object__c</tab>
 </CustomApplication>

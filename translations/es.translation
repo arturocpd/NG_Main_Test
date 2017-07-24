@@ -1,7 +1,3 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Translations xmlns="http://soap.sforce.com/2006/04/metadata">
-    <customLabels>
-        <label>tranlation for custom label translation</label>
-        <name>AR_Custom_Label_from_Dev3</name>
-    </customLabels>
-</Translations>
+<Translations xmlns="http://soap.sforce.com/2006/04/metadata"/>
+

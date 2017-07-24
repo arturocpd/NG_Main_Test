@@ -34,6 +34,13 @@
     </actionOverrides>
     <enableFeeds>false</enableFeeds>
     <fields>
+        <fullName>Activity_Custom_field_2__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Activity Custom field 2</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>Activity_Custom_field_3__c</fullName>
         <defaultValue>false</defaultValue>
         <externalId>false</externalId>
@@ -52,6 +59,13 @@
         <defaultValue>false</defaultValue>
         <externalId>false</externalId>
         <label>Activity Custom field 5</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Activity_Custom_field__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Activity Custom field</label>
         <type>Checkbox</type>
     </fields>
     <fields>
