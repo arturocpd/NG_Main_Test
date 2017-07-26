@@ -52,14 +52,13 @@
     <fields>
         <fullName>LastModifiedDate__c</fullName>
         <externalId>false</externalId>
-        <isFilteringDisabled>false</isFilteringDisabled>
+        <isFilteringDisabled>true</isFilteringDisabled>
         <isNameField>false</isNameField>
         <isSortingDisabled>true</isSortingDisabled>
         <label>Last Modified Date</label>
-        <readOnlyProxy>true</readOnlyProxy>
         <required>false</required>
         <type>DateTime</type>
-</fields>
+    </fields>
     <fields>
         <fullName>check__c</fullName>
         <defaultValue>false</defaultValue>
