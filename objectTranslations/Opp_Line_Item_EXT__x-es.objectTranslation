@@ -16,5 +16,9 @@
         <label><!-- Last Modified Date --></label>
         <name>LastModifiedDate__c</name>
     </fields>
+    <fields>
+        <label><!-- check --></label>
+        <name>check__c</name>
+    </fields>
     <gender>Masculine</gender>
 </CustomObjectTranslation>
