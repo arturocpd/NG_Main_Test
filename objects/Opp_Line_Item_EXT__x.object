@@ -52,10 +52,11 @@
     <fields>
         <fullName>LastModifiedDate__c</fullName>
         <externalId>false</externalId>
-        <isFilteringDisabled>true</isFilteringDisabled>
+        <isFilteringDisabled>false</isFilteringDisabled>
         <isNameField>false</isNameField>
         <isSortingDisabled>true</isSortingDisabled>
         <label>Last Modified Date</label>
+        <readOnlyProxy>true</readOnlyProxy>
         <required>false</required>
         <type>DateTime</type>
     </fields>
@@ -67,6 +68,16 @@
         <isNameField>false</isNameField>
         <isSortingDisabled>false</isSortingDisabled>
         <label>check</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>www__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <isFilteringDisabled>false</isFilteringDisabled>
+        <isNameField>false</isNameField>
+        <isSortingDisabled>false</isSortingDisabled>
+        <label>www</label>
         <type>Checkbox</type>
     </fields>
     <gender>Masculine</gender>
