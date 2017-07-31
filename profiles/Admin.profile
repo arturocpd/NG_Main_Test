@@ -92,7 +92,7 @@
     </applicationVisibilities>
     <classAccesses>
         <apexClass>AppleWatch</apexClass>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>AppleWatchTest</apexClass>
