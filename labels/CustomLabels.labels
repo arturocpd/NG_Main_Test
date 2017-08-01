@@ -21,4 +21,11 @@
         <shortDescription>New CL from Dev3</shortDescription>
         <value>New CL from Dev3</value>
     </labels>
+    <labels>
+        <fullName>Translation_Test</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Translation Test</shortDescription>
+        <value>This is a transtlation test.</value>
+    </labels>
 </CustomLabels>
