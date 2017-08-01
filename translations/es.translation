@@ -4,4 +4,8 @@
         <label>Esta es una traduccion a Español.</label>
         <name>Translation_Test</name>
     </customLabels>
+    <customLabels>
+        <label>La nueva traduccion del custom label</label>
+        <name>Translation_Test_NEW</name>
+    </customLabels>
 </Translations>
