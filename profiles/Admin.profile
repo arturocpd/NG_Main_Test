@@ -57,15 +57,11 @@
     </applicationVisibilities>
     <classAccesses>
         <apexClass>AppleWatch</apexClass>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>AppleWatchTest</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>CoursManager</apexClass>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>CourseManagerTest</apexClass>
@@ -73,7 +69,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>CourseManagerX</apexClass>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
     </classAccesses>
     <custom>false</custom>
     <fieldPermissions>
@@ -543,6 +539,16 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Case.Case_AAA__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Case.Case_BBB__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Case.Case_YYY__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -1007,6 +1013,16 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>Event.add_metadata_1__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Event.add_metadata_2__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Event.check_formula__c</field>
         <readable>true</readable>
@@ -1174,6 +1190,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Opp_Line_Item_EXT__x.check__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Opp_Line_Item_EXT__x.www__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -1549,6 +1570,16 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Task.WhoId</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Task.add_metadata_1__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Task.add_metadata_2__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>

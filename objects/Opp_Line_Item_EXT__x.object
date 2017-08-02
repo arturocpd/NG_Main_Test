@@ -33,7 +33,7 @@
         <type>Default</type>
     </actionOverrides>
     <deploymentStatus>Deployed</deploymentStatus>
-    <description>DescriptionYYYY</description>
+    <description>DescriptionYYYYXXXXXZZZZZZ</description>
     <enableFeeds>false</enableFeeds>
     <enableReports>true</enableReports>
     <enableSearch>true</enableSearch>
@@ -67,6 +67,16 @@
         <isNameField>false</isNameField>
         <isSortingDisabled>false</isSortingDisabled>
         <label>check</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>www__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <isFilteringDisabled>false</isFilteringDisabled>
+        <isNameField>false</isNameField>
+        <isSortingDisabled>false</isSortingDisabled>
+        <label>www</label>
         <type>Checkbox</type>
     </fields>
     <gender>Masculine</gender>

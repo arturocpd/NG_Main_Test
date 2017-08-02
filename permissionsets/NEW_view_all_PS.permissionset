@@ -53,10 +53,6 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>CoursManager</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>CourseManagerTest</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -531,6 +527,16 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Case.Case_AAA__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Case.Case_BBB__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Case.Case_YYY__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -991,6 +997,16 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Event.add_metadata_1__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Event.add_metadata_2__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Event.check_formula__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -1157,6 +1173,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Opp_Line_Item_EXT__x.check__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Opp_Line_Item_EXT__x.www__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -1532,6 +1553,16 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Task.WhoId</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Task.add_metadata_1__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Task.add_metadata_2__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>

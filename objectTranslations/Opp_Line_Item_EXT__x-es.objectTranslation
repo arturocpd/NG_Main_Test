@@ -20,5 +20,9 @@
         <label><!-- check --></label>
         <name>check__c</name>
     </fields>
+    <fields>
+        <label><!-- www --></label>
+        <name>www__c</name>
+    </fields>
     <gender>Masculine</gender>
 </CustomObjectTranslation>
