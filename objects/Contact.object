@@ -313,7 +313,7 @@
     <validationRules>
         <fullName>AAA_validation</fullName>
         <active>true</active>
-        <errorConditionFormula>ISNULL(Account.Name)</errorConditionFormula>
-        <errorMessage>Account name cannot be null</errorMessage>
+        <errorConditionFormula>AND (ISNULL(Account.Name), ISNULL(Id))</errorConditionFormula>
+        <errorMessage>Account name cannot be null and Id cannot be null</errorMessage>
     </validationRules>
 </CustomObject>
