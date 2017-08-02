@@ -100,7 +100,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>CourseManagerY</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
 </classAccesses>
     <classAccesses>
         <apexClass>JiraIssueFetcher_Batch</apexClass>
