@@ -96,12 +96,12 @@
     </classAccesses>
     <classAccesses>
         <apexClass>CourseManagerX</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>CourseManagerY</apexClass>
         <enabled>true</enabled>
-</classAccesses>
+    </classAccesses>
     <classAccesses>
         <apexClass>JiraIssueFetcher_Batch</apexClass>
         <enabled>true</enabled>
