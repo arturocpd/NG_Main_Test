@@ -95,6 +95,14 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>CourseManagerX</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>CourseManagerY</apexClass>
+        <enabled>false</enabled>
+</classAccesses>
+    <classAccesses>
         <apexClass>JiraIssueFetcher_Batch</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -4649,12 +4657,12 @@
         <allowDelete>true</allowDelete>
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
-		<customizeSetup>true</customizeSetup>
+        <customizeSetup>true</customizeSetup>
         <deleteSetup>true</deleteSetup>
         <modifyAllRecords>true</modifyAllRecords>
         <object>Ext_Objt__x</object>
         <viewAllRecords>true</viewAllRecords>
-		<viewSetup>true</viewSetup>
+        <viewSetup>true</viewSetup>
     </objectPermissions>
     <objectPermissions>
         <allowCreate>true</allowCreate>
