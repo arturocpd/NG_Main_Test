@@ -338,4 +338,10 @@
         <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>ControlledByParent</sharingModel>
+    <validationRules>
+        <fullName>AAA_validation</fullName>
+        <active>true</active>
+        <errorConditionFormula>ISNULL(Account.Name)</errorConditionFormula>
+        <errorMessage>Account name cannot be null</errorMessage>
+    </validationRules>
 </CustomObject>
