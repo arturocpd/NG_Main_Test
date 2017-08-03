@@ -4,17 +4,29 @@
         <fullName>Standard</fullName>
         <active>true</active>
         <ruleEntry>
+<<<<<<< HEAD
             <assignedTo>ngarturodev1cpd@gmail.com</assignedTo>
+=======
+            <assignedTo>{!Environment.docusign.tranzact.replyemailaddress}</assignedTo>
+>>>>>>> feature/US-0000126
             <assignedToType>User</assignedToType>
             <criteriaItems>
                 <field>Lead.Country</field>
                 <operation>equals</operation>
+<<<<<<< HEAD
                 <value>US</value>
+=======
+                <value>US,SP</value>
+>>>>>>> feature/US-0000126
             </criteriaItems>
             <template>unfiled$public/SalesNewCustomerEmail</template>
         </ruleEntry>
         <ruleEntry>
+<<<<<<< HEAD
             <assignedTo>ngarturodev1cpd@gmail.com</assignedTo>
+=======
+            <assignedTo>{!Environment.docusign.tranzact.replyemailaddress}</assignedTo>
+>>>>>>> feature/US-0000126
             <assignedToType>User</assignedToType>
             <criteriaItems>
                 <field>Lead.Country</field>
