@@ -101,7 +101,7 @@
     <classAccesses>
         <apexClass>CourseManagerY</apexClass>
         <enabled>true</enabled>
-</classAccesses>
+    </classAccesses>
     <classAccesses>
         <apexClass>JiraIssueFetcher_Batch</apexClass>
         <enabled>true</enabled>
@@ -1810,6 +1810,11 @@
         <editable>true</editable>
         <field>Contract.StartDate</field>
         <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Elisa_Metadata_Type__mdt.email__c</field>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
