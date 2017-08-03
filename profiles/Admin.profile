@@ -112,7 +112,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>CourseManagerX</apexClass>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>CourseManagerY</apexClass>
@@ -1920,6 +1920,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Elisa_Metadata_Type__mdt.Metadata_Type_Picklist__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Elisa_Metadata_Type__mdt.email__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
