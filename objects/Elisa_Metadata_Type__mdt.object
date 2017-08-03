@@ -34,6 +34,15 @@
             </valueSetDefinition>
         </valueSet>
     </fields>
+    <fields>
+        <fullName>email__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>email</label>
+        <required>false</required>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
     <label>Elisa Metadata Type</label>
     <pluralLabel>Elisa Metadata Types</pluralLabel>
     <visibility>Public</visibility>
