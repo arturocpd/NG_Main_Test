@@ -63,6 +63,7 @@
     <fields>
         <fullName>Point_of_contact__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
+        <description>This is the description of the field.</description>
         <externalId>false</externalId>
         <label>Point of contact</label>
         <referenceTo>Contact</referenceTo>
