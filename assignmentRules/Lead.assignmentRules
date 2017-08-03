@@ -4,16 +4,17 @@
         <fullName>Standard</fullName>
         <active>true</active>
         <ruleEntry>
-            <assignedTo>ngarturoprodcpd@gmail.com</assignedTo>
+            <assignedTo>ngarturodev1cpd@gmail.com</assignedTo>
             <assignedToType>User</assignedToType>
             <criteriaItems>
                 <field>Lead.Country</field>
                 <operation>equals</operation>
-                <value>US,USA,United States,United States of America</value>
+                <value>US,SP</value>
             </criteriaItems>
+            <template>unfiled$public/SalesNewCustomerEmail</template>
         </ruleEntry>
         <ruleEntry>
-            <assignedTo>ngarturoprodcpd@gmail.com</assignedTo>
+            <assignedTo>ngarturodev1cpd@gmail.com</assignedTo>
             <assignedToType>User</assignedToType>
             <criteriaItems>
                 <field>Lead.Country</field>
