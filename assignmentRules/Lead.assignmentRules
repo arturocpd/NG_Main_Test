@@ -9,7 +9,11 @@
             <criteriaItems>
                 <field>Lead.Country</field>
                 <operation>equals</operation>
+<<<<<<< HEAD
                 <value>US</value>
+=======
+                <value>US,SP</value>
+>>>>>>> feature/US-0000123
             </criteriaItems>
             <template>unfiled$public/SalesNewCustomerEmail</template>
         </ruleEntry>
