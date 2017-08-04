@@ -101,7 +101,7 @@
     <classAccesses>
         <apexClass>CourseManagerY</apexClass>
         <enabled>true</enabled>
-</classAccesses>
+    </classAccesses>
     <classAccesses>
         <apexClass>JiraIssueFetcher_Batch</apexClass>
         <enabled>true</enabled>
@@ -1657,6 +1657,11 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>Contact.GoodBad__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Contact.HasOptedOutOfEmail</field>
         <readable>false</readable>
@@ -1904,6 +1909,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Lead.Fax</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Lead.GoodBad__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
