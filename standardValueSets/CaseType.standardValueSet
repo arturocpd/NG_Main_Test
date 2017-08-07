@@ -12,8 +12,8 @@
         <label>Electronic</label>
     </standardValue>
     <standardValue>
-        <fullName>Other4</fullName>
+        <fullName>Other5</fullName>
         <default>false</default>
-        <label>Other4</label>
+        <label>Other5</label>
     </standardValue>
 </StandardValueSet>
