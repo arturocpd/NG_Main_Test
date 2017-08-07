@@ -22,8 +22,8 @@
         <label>Structural</label>
     </standardValue>
     <standardValue>
-        <fullName>Other2</fullName>
+        <fullName>Other3</fullName>
         <default>false</default>
-        <label>Other2</label>
+        <label>Other3</label>
     </standardValue>
 </StandardValueSet>
