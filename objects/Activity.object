@@ -33,6 +33,17 @@
         <type>Default</type>
     </actionOverrides>
     <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>Time__c</fullName>
+        <externalId>false</externalId>
+        <label>Time</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Time</valueSetName>
+        </valueSet>
+    </fields>
     <listViews>
         <fullName>AllActivities</fullName>
         <filterScope>Team</filterScope>

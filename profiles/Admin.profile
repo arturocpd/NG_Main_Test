@@ -101,7 +101,7 @@
     <classAccesses>
         <apexClass>CourseManagerY</apexClass>
         <enabled>true</enabled>
-</classAccesses>
+    </classAccesses>
     <classAccesses>
         <apexClass>JiraIssueFetcher_Batch</apexClass>
         <enabled>true</enabled>
@@ -5558,6 +5558,11 @@
         <apexPage>copado__viewOrg</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
+    <recordTypeVisibilities>
+        <default>true</default>
+        <recordType>Event.Time</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>false</default>
         <recordType>Idea.InternalIdeasIdeaRecordType</recordType>
