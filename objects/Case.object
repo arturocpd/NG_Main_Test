@@ -110,6 +110,20 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>CaseTime__c</fullName>
+        <externalId>false</externalId>
+        <label>CaseTime</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Time</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>Case_YYY__c</fullName>
         <defaultValue>false</defaultValue>
         <externalId>false</externalId>
@@ -526,6 +540,17 @@
         <active>true</active>
         <businessProcess>Support Process</businessProcess>
         <label>Record Type</label>
+        <picklistValues>
+            <picklist>CaseTime__c</picklist>
+            <values>
+                <fullName>Tomorrow</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yesterday</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
         <picklistValues>
             <picklist>Priority</picklist>
             <values>
