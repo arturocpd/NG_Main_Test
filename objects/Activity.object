@@ -76,6 +76,17 @@
         <type>Checkbox</type>
     </fields>
     <fields>
+        <fullName>Time__c</fullName>
+        <externalId>false</externalId>
+        <label>Time</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Time</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>check_formula__c</fullName>
         <externalId>false</externalId>
         <formula>true</formula>
