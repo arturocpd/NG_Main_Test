@@ -526,6 +526,17 @@
         <active>true</active>
         <businessProcess>Support Process</businessProcess>
         <label>Record Type</label>
+        <picklistValues>
+            <picklist>Priority</picklist>
+            <values>
+                <fullName>Low</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Medium</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
     </recordTypes>
     <searchLayouts>
         <customTabListAdditionalFields>CASES.CASE_NUMBER</customTabListAdditionalFields>
