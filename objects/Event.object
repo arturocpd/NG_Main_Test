@@ -109,5 +109,10 @@
         <fullName>WhoId</fullName>
         <type>Lookup</type>
     </fields>
+    <recordTypes>
+        <fullName>Time</fullName>
+        <active>true</active>
+        <label>Time</label>
+    </recordTypes>
     <sharingModel>Private</sharingModel>
 </CustomObject>
