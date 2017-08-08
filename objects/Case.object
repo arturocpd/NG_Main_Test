@@ -548,14 +548,9 @@
                     <label>Tuesday</label>
                 </value>
                 <value>
-                    <fullName>Wednesday</fullName>
+                    <fullName>Jueves</fullName>
                     <default>false</default>
-                    <label>Wednesday</label>
-                </value>
-                <value>
-                    <fullName>Thursday</fullName>
-                    <default>false</default>
-                    <label>Thursday</label>
+                    <label>Jueves</label>
                 </value>
                 <value>
                     <fullName>Friday</fullName>
@@ -693,6 +688,10 @@
             </values>
             <values>
                 <fullName>Saturday</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jueves</fullName>
                 <default>false</default>
             </values>
             <values>
