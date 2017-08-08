@@ -135,6 +135,17 @@
         </valueSet>
     </fields>
     <fields>
+        <fullName>Year__c</fullName>
+        <externalId>false</externalId>
+        <label>Year</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Year</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>check_formula__c</fullName>
         <externalId>false</externalId>
         <formula>true</formula>
