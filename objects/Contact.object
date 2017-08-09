@@ -93,6 +93,13 @@
         <type>Default</type>
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>Custom_Contact_Compact_layout</fullName>
+        <fields>AccountId</fields>
+        <fields>Department</fields>
+        <fields>DoNotCall</fields>
+        <label>Custom Contact Compact layout</label>
+    </compactLayouts>
     <enableFeeds>true</enableFeeds>
     <enableHistory>false</enableHistory>
     <fields>
@@ -135,6 +142,30 @@
     <fields>
         <fullName>Fax</fullName>
         <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>GoodBad__c</fullName>
+        <externalId>false</externalId>
+        <label>GoodBad</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Good</fullName>
+                    <default>false</default>
+                    <label>Good</label>
+                </value>
+                <value>
+                    <fullName>Bad</fullName>
+                    <default>false</default>
+                    <label>Bad</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
     </fields>
     <fields>
         <fullName>HasOptedOutOfEmail</fullName>
@@ -236,6 +267,16 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>SGUID__c</fullName>
+        <externalId>false</externalId>
+        <label>SGUID</label>
+        <length>30</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>Title</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
@@ -246,6 +287,17 @@
         <label>UAT field</label>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>xyz_SGUID__c</fullName>
+        <caseSensitive>true</caseSensitive>
+        <externalId>true</externalId>
+        <label>xyz SGUID</label>
+        <length>40</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>true</unique>
     </fields>
     <listViews>
         <fullName>AllContacts</fullName>
@@ -313,7 +365,7 @@
     <validationRules>
         <fullName>AAA_validation</fullName>
         <active>true</active>
-        <errorConditionFormula>AND (ISNULL(Account.Name), ISNULL(Id))</errorConditionFormula>
-        <errorMessage>Account name cannot be null and Id cannot be null</errorMessage>
+        <errorConditionFormula>OR (ISNULL(Account.Name), ISNULL(Id))</errorConditionFormula>
+        <errorMessage>Account name cannot be null or Id cannot be null</errorMessage>
     </validationRules>
 </CustomObject>
