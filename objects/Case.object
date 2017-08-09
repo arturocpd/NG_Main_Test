@@ -291,6 +291,67 @@
         </valueSet>
     </fields>
     <fields>
+        <fullName>Primary_Category__c</fullName>
+        <externalId>false</externalId>
+        <label>Primary Category</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Type</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Bar</fullName>
+                    <default>false</default>
+                    <label>Bar</label>
+                </value>
+                <value>
+                    <fullName>Beach</fullName>
+                    <default>false</default>
+                    <label>Beach</label>
+                </value>
+                <value>
+                    <fullName>River</fullName>
+                    <default>false</default>
+                    <label>River</label>
+                </value>
+                <value>
+                    <fullName>Mountain</fullName>
+                    <default>false</default>
+                    <label>Mountain</label>
+                </value>
+                <value>
+                    <fullName>Lake</fullName>
+                    <default>false</default>
+                    <label>Lake</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Electrical</controllingFieldValue>
+                <controllingFieldValue>Customer Content Feedback</controllingFieldValue>
+                <valueName>Bar</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Electronic</controllingFieldValue>
+                <controllingFieldValue>Customer Content Feedback</controllingFieldValue>
+                <valueName>Beach</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Other5</controllingFieldValue>
+                <controllingFieldValue>Customer Content Feedback</controllingFieldValue>
+                <valueName>River</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Customer Content Feedback</controllingFieldValue>
+                <valueName>Mountain</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>Priority</fullName>
         <trackFeedHistory>true</trackFeedHistory>
         <trackHistory>true</trackHistory>
