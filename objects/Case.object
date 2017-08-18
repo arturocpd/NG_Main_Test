@@ -383,10 +383,12 @@
             </valueSetDefinition>
             <valueSettings>
                 <controllingFieldValue>Electrical</controllingFieldValue>
+                <controllingFieldValue>Customer Content Feedback</controllingFieldValue>
                 <valueName>Bar</valueName>
             </valueSettings>
             <valueSettings>
                 <controllingFieldValue>Electronic</controllingFieldValue>
+                <controllingFieldValue>Customer Content Feedback</controllingFieldValue>
                 <valueName>Beach</valueName>
             </valueSettings>
             <valueSettings>
