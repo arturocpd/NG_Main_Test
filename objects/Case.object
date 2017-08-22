@@ -908,6 +908,14 @@
                 <controllingFieldValue>Customer Content Feedback</controllingFieldValue>
                 <valueName>Mountain</valueName>
             </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Customer Content Feedback</controllingFieldValue>
+                <valueName>Add Access</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Customer Content Feedback</controllingFieldValue>
+                <valueName>Add Contact</valueName>
+            </valueSettings>
         </valueSet>
     </fields>
     <fields>
