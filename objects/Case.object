@@ -380,6 +380,556 @@
                     <default>false</default>
                     <label>Lake</label>
                 </value>
+                <value>
+                    <fullName>3PI</fullName>
+                    <default>false</default>
+                    <label>3PI</label>
+                </value>
+                <value>
+                    <fullName>Accessibility</fullName>
+                    <default>false</default>
+                    <label>Accessibility</label>
+                </value>
+                <value>
+                    <fullName>Accommodation</fullName>
+                    <default>false</default>
+                    <label>Accommodation</label>
+                </value>
+                <value>
+                    <fullName>Account Set-up</fullName>
+                    <default>false</default>
+                    <label>Account Set-up</label>
+                </value>
+                <value>
+                    <fullName>Add Access</fullName>
+                    <default>false</default>
+                    <label>Add Access</label>
+                </value>
+                <value>
+                    <fullName>Add Contact</fullName>
+                    <default>false</default>
+                    <label>Add Contact</label>
+                </value>
+                <value>
+                    <fullName>Admin Tools Issue</fullName>
+                    <default>false</default>
+                    <label>Admin Tools Issue</label>
+                </value>
+                <value>
+                    <fullName>Alert</fullName>
+                    <default>false</default>
+                    <label>Alert</label>
+                </value>
+                <value>
+                    <fullName>Amentities Incorrect</fullName>
+                    <default>false</default>
+                    <label>Amentities Incorrect</label>
+                </value>
+                <value>
+                    <fullName>AR Updates</fullName>
+                    <default>false</default>
+                    <label>AR Updates</label>
+                </value>
+                <value>
+                    <fullName>Atlantis</fullName>
+                    <default>false</default>
+                    <label>Atlantis</label>
+                </value>
+                <value>
+                    <fullName>Auto Renewals</fullName>
+                    <default>false</default>
+                    <label>Auto Renewals</label>
+                </value>
+                <value>
+                    <fullName>Availability Incorrect</fullName>
+                    <default>false</default>
+                    <label>Availability Incorrect</label>
+                </value>
+                <value>
+                    <fullName>Balcony</fullName>
+                    <default>false</default>
+                    <label>Balcony</label>
+                </value>
+                <value>
+                    <fullName>Beach Safety</fullName>
+                    <default>false</default>
+                    <label>Beach Safety</label>
+                </value>
+                <value>
+                    <fullName>Breakfast</fullName>
+                    <default>false</default>
+                    <label>Breakfast</label>
+                </value>
+                <value>
+                    <fullName>Business</fullName>
+                    <default>false</default>
+                    <label>Business</label>
+                </value>
+                <value>
+                    <fullName>Business Model Change</fullName>
+                    <default>false</default>
+                    <label>Business Model Change</label>
+                </value>
+                <value>
+                    <fullName>Cancellation Policy</fullName>
+                    <default>false</default>
+                    <label>Cancellation Policy</label>
+                </value>
+                <value>
+                    <fullName>Case Escalation Request</fullName>
+                    <default>false</default>
+                    <label>Case Escalation Request</label>
+                </value>
+                <value>
+                    <fullName>Child</fullName>
+                    <default>false</default>
+                    <label>Child</label>
+                </value>
+                <value>
+                    <fullName>Compensation Change</fullName>
+                    <default>false</default>
+                    <label>Compensation Change</label>
+                </value>
+                <value>
+                    <fullName>Confirmation</fullName>
+                    <default>false</default>
+                    <label>Confirmation</label>
+                </value>
+                <value>
+                    <fullName>Connectivity Partner Outage</fullName>
+                    <default>false</default>
+                    <label>Connectivity Partner Outage</label>
+                </value>
+                <value>
+                    <fullName>Connectivity Solution Change</fullName>
+                    <default>false</default>
+                    <label>Connectivity Solution Change</label>
+                </value>
+                <value>
+                    <fullName>Cruise</fullName>
+                    <default>false</default>
+                    <label>Cruise</label>
+                </value>
+                <value>
+                    <fullName>Customer</fullName>
+                    <default>false</default>
+                    <label>Customer</label>
+                </value>
+                <value>
+                    <fullName>Delete Contact</fullName>
+                    <default>false</default>
+                    <label>Delete Contact</label>
+                </value>
+                <value>
+                    <fullName>Disconnection</fullName>
+                    <default>false</default>
+                    <label>Disconnection</label>
+                </value>
+                <value>
+                    <fullName>Documentation Update</fullName>
+                    <default>false</default>
+                    <label>Documentation Update</label>
+                </value>
+                <value>
+                    <fullName>Electrical</fullName>
+                    <default>false</default>
+                    <label>Electrical</label>
+                </value>
+                <value>
+                    <fullName>EPC: Accounting</fullName>
+                    <default>false</default>
+                    <label>EPC: Accounting</label>
+                </value>
+                <value>
+                    <fullName>EPC: Contact Info update</fullName>
+                    <default>false</default>
+                    <label>EPC: Contact Info update</label>
+                </value>
+                <value>
+                    <fullName>EPC: Create Account</fullName>
+                    <default>false</default>
+                    <label>EPC: Create Account</label>
+                </value>
+                <value>
+                    <fullName>EPC: Deactivate Account</fullName>
+                    <default>false</default>
+                    <label>EPC: Deactivate Account</label>
+                </value>
+                <value>
+                    <fullName>EPC: Guest Reviews Real Time Feedback</fullName>
+                    <default>false</default>
+                    <label>EPC: Guest Reviews Real Time Feedback</label>
+                </value>
+                <value>
+                    <fullName>EPC: Help</fullName>
+                    <default>false</default>
+                    <label>EPC: Help</label>
+                </value>
+                <value>
+                    <fullName>EPC: Inventory &amp; Rate Plans</fullName>
+                    <default>false</default>
+                    <label>EPC: Inventory &amp; Rate Plans</label>
+                </value>
+                <value>
+                    <fullName>EPC: Landing page</fullName>
+                    <default>false</default>
+                    <label>EPC: Landing page</label>
+                </value>
+                <value>
+                    <fullName>EPC: Marketplace</fullName>
+                    <default>false</default>
+                    <label>EPC: Marketplace</label>
+                </value>
+                <value>
+                    <fullName>EPC: Modify Account</fullName>
+                    <default>false</default>
+                    <label>EPC: Modify Account</label>
+                </value>
+                <value>
+                    <fullName>EPC: Notification Settings</fullName>
+                    <default>false</default>
+                    <label>EPC: Notification Settings</label>
+                </value>
+                <value>
+                    <fullName>EPC: Onboarding</fullName>
+                    <default>false</default>
+                    <label>EPC: Onboarding</label>
+                </value>
+                <value>
+                    <fullName>EPC: Password Self Reset</fullName>
+                    <default>false</default>
+                    <label>EPC: Password Self Reset</label>
+                </value>
+                <value>
+                    <fullName>EPC: Promotions (DRRs)</fullName>
+                    <default>false</default>
+                    <label>EPC: Promotions (DRRs)</label>
+                </value>
+                <value>
+                    <fullName>EPC: Property Info</fullName>
+                    <default>false</default>
+                    <label>EPC: Property Info</label>
+                </value>
+                <value>
+                    <fullName>EPC: Reservations</fullName>
+                    <default>false</default>
+                    <label>EPC: Reservations</label>
+                </value>
+                <value>
+                    <fullName>EPC Issue</fullName>
+                    <default>false</default>
+                    <label>EPC Issue</label>
+                </value>
+                <value>
+                    <fullName>EPCO Issue</fullName>
+                    <default>false</default>
+                    <label>EPCO Issue</label>
+                </value>
+                <value>
+                    <fullName>EQC API Issue</fullName>
+                    <default>false</default>
+                    <label>EQC API Issue</label>
+                </value>
+                <value>
+                    <fullName>EQC Connectivity Rollout</fullName>
+                    <default>false</default>
+                    <label>EQC Connectivity Rollout</label>
+                </value>
+                <value>
+                    <fullName>EQC Vendor Management</fullName>
+                    <default>false</default>
+                    <label>EQC Vendor Management</label>
+                </value>
+                <value>
+                    <fullName>EQC Vendor Onboarding</fullName>
+                    <default>false</default>
+                    <label>EQC Vendor Onboarding</label>
+                </value>
+                <value>
+                    <fullName>Excursions</fullName>
+                    <default>false</default>
+                    <label>Excursions</label>
+                </value>
+                <value>
+                    <fullName>Expedia Tool Outage</fullName>
+                    <default>false</default>
+                    <label>Expedia Tool Outage</label>
+                </value>
+                <value>
+                    <fullName>Explosion</fullName>
+                    <default>false</default>
+                    <label>Explosion</label>
+                </value>
+                <value>
+                    <fullName>Extranet Settings</fullName>
+                    <default>false</default>
+                    <label>Extranet Settings</label>
+                </value>
+                <value>
+                    <fullName>Fire</fullName>
+                    <default>false</default>
+                    <label>Fire</label>
+                </value>
+                <value>
+                    <fullName>Food</fullName>
+                    <default>false</default>
+                    <label>Food</label>
+                </value>
+                <value>
+                    <fullName>Force Majeure</fullName>
+                    <default>false</default>
+                    <label>Force Majeure</label>
+                </value>
+                <value>
+                    <fullName>Gas</fullName>
+                    <default>false</default>
+                    <label>Gas</label>
+                </value>
+                <value>
+                    <fullName>GDS</fullName>
+                    <default>false</default>
+                    <label>GDS</label>
+                </value>
+                <value>
+                    <fullName>Glass</fullName>
+                    <default>false</default>
+                    <label>Glass</label>
+                </value>
+                <value>
+                    <fullName>Golf</fullName>
+                    <default>false</default>
+                    <label>Golf</label>
+                </value>
+                <value>
+                    <fullName>Injury</fullName>
+                    <default>false</default>
+                    <label>Injury</label>
+                </value>
+                <value>
+                    <fullName>Inquiry</fullName>
+                    <default>false</default>
+                    <label>Inquiry</label>
+                </value>
+                <value>
+                    <fullName>Internet</fullName>
+                    <default>false</default>
+                    <label>Internet</label>
+                </value>
+                <value>
+                    <fullName>Lifts</fullName>
+                    <default>false</default>
+                    <label>Lifts</label>
+                </value>
+                <value>
+                    <fullName>LPAS</fullName>
+                    <default>false</default>
+                    <label>LPAS</label>
+                </value>
+                <value>
+                    <fullName>Maintenance</fullName>
+                    <default>false</default>
+                    <label>Maintenance</label>
+                </value>
+                <value>
+                    <fullName>Mapping</fullName>
+                    <default>false</default>
+                    <label>Mapping</label>
+                </value>
+                <value>
+                    <fullName>Modify Contact</fullName>
+                    <default>false</default>
+                    <label>Modify Contact</label>
+                </value>
+                <value>
+                    <fullName>Multiple</fullName>
+                    <default>false</default>
+                    <label>Multiple</label>
+                </value>
+                <value>
+                    <fullName>New Connection</fullName>
+                    <default>false</default>
+                    <label>New Connection</label>
+                </value>
+                <value>
+                    <fullName>Notification Delivery Failure</fullName>
+                    <default>false</default>
+                    <label>Notification Delivery Failure</label>
+                </value>
+                <value>
+                    <fullName>Notification Delivery Failure (email/fax)</fullName>
+                    <default>false</default>
+                    <label>Notification Delivery Failure (email/fax)</label>
+                </value>
+                <value>
+                    <fullName>Notification Issue</fullName>
+                    <default>false</default>
+                    <label>Notification Issue</label>
+                </value>
+                <value>
+                    <fullName>Parking</fullName>
+                    <default>false</default>
+                    <label>Parking</label>
+                </value>
+                <value>
+                    <fullName>Password reset</fullName>
+                    <default>false</default>
+                    <label>Password reset</label>
+                </value>
+                <value>
+                    <fullName>Payouts Research</fullName>
+                    <default>false</default>
+                    <label>Payouts Research</label>
+                </value>
+                <value>
+                    <fullName>Pest-Control</fullName>
+                    <default>false</default>
+                    <label>Pest-Control</label>
+                </value>
+                <value>
+                    <fullName>Pets</fullName>
+                    <default>false</default>
+                    <label>Pets</label>
+                </value>
+                <value>
+                    <fullName>Pool</fullName>
+                    <default>false</default>
+                    <label>Pool</label>
+                </value>
+                <value>
+                    <fullName>Pool Safety</fullName>
+                    <default>false</default>
+                    <label>Pool Safety</label>
+                </value>
+                <value>
+                    <fullName>POS Wide Issue</fullName>
+                    <default>false</default>
+                    <label>POS Wide Issue</label>
+                </value>
+                <value>
+                    <fullName>Pricing model change</fullName>
+                    <default>false</default>
+                    <label>Pricing model change</label>
+                </value>
+                <value>
+                    <fullName>Property not displaying</fullName>
+                    <default>false</default>
+                    <label>Property not displaying</label>
+                </value>
+                <value>
+                    <fullName>Property sold out all dates</fullName>
+                    <default>false</default>
+                    <label>Property sold out all dates</label>
+                </value>
+                <value>
+                    <fullName>Quality</fullName>
+                    <default>false</default>
+                    <label>Quality</label>
+                </value>
+                <value>
+                    <fullName>Rate, Inventory, and Availability Issue</fullName>
+                    <default>false</default>
+                    <label>Rate, Inventory, and Availability Issue</label>
+                </value>
+                <value>
+                    <fullName>Rate Acquisition Type Change</fullName>
+                    <default>false</default>
+                    <label>Rate Acquisition Type Change</label>
+                </value>
+                <value>
+                    <fullName>Rates Incorrect</fullName>
+                    <default>false</default>
+                    <label>Rates Incorrect</label>
+                </value>
+                <value>
+                    <fullName>Reconnect after chaser disconnect</fullName>
+                    <default>false</default>
+                    <label>Reconnect after chaser disconnect</label>
+                </value>
+                <value>
+                    <fullName>Re-Contracting</fullName>
+                    <default>false</default>
+                    <label>Re-Contracting</label>
+                </value>
+                <value>
+                    <fullName>Remove Access</fullName>
+                    <default>false</default>
+                    <label>Remove Access</label>
+                </value>
+                <value>
+                    <fullName>Remove User</fullName>
+                    <default>false</default>
+                    <label>Remove User</label>
+                </value>
+                <value>
+                    <fullName>Report</fullName>
+                    <default>false</default>
+                    <label>Report</label>
+                </value>
+                <value>
+                    <fullName>Restaurant</fullName>
+                    <default>false</default>
+                    <label>Restaurant</label>
+                </value>
+                <value>
+                    <fullName>Restrictions Incorrect</fullName>
+                    <default>false</default>
+                    <label>Restrictions Incorrect</label>
+                </value>
+                <value>
+                    <fullName>Security/Verification</fullName>
+                    <default>false</default>
+                    <label>Security/Verification</label>
+                </value>
+                <value>
+                    <fullName>Ski</fullName>
+                    <default>false</default>
+                    <label>Ski</label>
+                </value>
+                <value>
+                    <fullName>Spa</fullName>
+                    <default>false</default>
+                    <label>Spa</label>
+                </value>
+                <value>
+                    <fullName>Special Project</fullName>
+                    <default>false</default>
+                    <label>Special Project</label>
+                </value>
+                <value>
+                    <fullName>Subscriptions</fullName>
+                    <default>false</default>
+                    <label>Subscriptions</label>
+                </value>
+                <value>
+                    <fullName>Taxes &amp; Fees</fullName>
+                    <default>false</default>
+                    <label>Taxes &amp; Fees</label>
+                </value>
+                <value>
+                    <fullName>Tech Bug Triage</fullName>
+                    <default>false</default>
+                    <label>Tech Bug Triage</label>
+                </value>
+                <value>
+                    <fullName>Tier escalation</fullName>
+                    <default>false</default>
+                    <label>Tier escalation</label>
+                </value>
+                <value>
+                    <fullName>Transport</fullName>
+                    <default>false</default>
+                    <label>Transport</label>
+                </value>
+                <value>
+                    <fullName>Vendor Change</fullName>
+                    <default>false</default>
+                    <label>Vendor Change</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
             </valueSetDefinition>
             <valueSettings>
                 <controllingFieldValue>Electrical</controllingFieldValue>
