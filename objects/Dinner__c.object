@@ -41,14 +41,20 @@
         <type>Default</type>
     </actionOverrides>
     <allowInChatterGroups>false</allowInChatterGroups>
-    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <compactLayoutAssignment>Cool_Dinner</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>Cool_Dinner</fullName>
+        <fields>LateDinner__c</fields>
+        <label>Cool Dinner</label>
+    </compactLayouts>
     <deploymentStatus>Deployed</deploymentStatus>
+    <description>Change description</description>
     <enableActivities>false</enableActivities>
     <enableBulkApi>true</enableBulkApi>
     <enableFeeds>false</enableFeeds>
     <enableHistory>false</enableHistory>
     <enableReports>false</enableReports>
-    <enableSearch>false</enableSearch>
+    <enableSearch>true</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>ReadWrite</externalSharingModel>
@@ -60,8 +66,26 @@
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
     </fields>
+    <fields>
+        <fullName>Point_of_contact__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>This is the description of the field.</description>
+        <externalId>false</externalId>
+        <label>Point of contact</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Dinners</relationshipLabel>
+        <relationshipName>Dinners</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
     <gender>Feminine</gender>
     <label>Dinner</label>
+    <listViews>
+        <fullName>All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
     <nameField>
         <label>Dinner Name</label>
         <type>Text</type>
