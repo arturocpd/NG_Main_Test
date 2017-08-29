@@ -26,7 +26,10 @@
     </actionOverrides>
     <actionOverrides>
         <actionName>New</actionName>
-        <type>Default</type>
+        <comment>Replaces standard New Record page with an action that pre-populates the Agreement Name field.</comment> 
+        <content>EQT_NewAgreementAction</content> 
+        <skipRecordTypeSelect>true</skipRecordTypeSelect> 
+        <type>LightningComponent</type> 
     </actionOverrides>
     <actionOverrides>
         <actionName>SaveEdit</actionName>
