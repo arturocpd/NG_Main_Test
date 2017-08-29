@@ -20,6 +20,6 @@
     <selfRegPage>CommunitiesSelfReg</selfRegPage>
     <siteAdmin>{!Environment.var_usernames}</siteAdmin>
     <siteType>ChatterNetwork</siteType>
-    <subdomain>arturong-developer-edition</subdomain>
+    <subdomain>{!Environment.var_commdomain}</subdomain>
     <urlPathPrefix>TestComm</urlPathPrefix>
 </CustomSite>
