@@ -26,10 +26,7 @@
     </actionOverrides>
     <actionOverrides>
         <actionName>New</actionName>
-        <comment>Replaces standard New Record page with an action that pre-populates the Agreement Name field.</comment> 
-        <content>EQT_NewAgreementAction</content> 
-        <skipRecordTypeSelect>true</skipRecordTypeSelect> 
-        <type>LightningComponent</type>
+        <type>Default</type>
     </actionOverrides>
     <actionOverrides>
         <actionName>SaveEdit</actionName>
@@ -51,7 +48,7 @@
         <label>Cool Dinner</label>
     </compactLayouts>
     <deploymentStatus>Deployed</deploymentStatus>
-    <description>Change description</description>
+    <description>Change description 2</description>
     <enableActivities>false</enableActivities>
     <enableBulkApi>true</enableBulkApi>
     <enableFeeds>false</enableFeeds>
