@@ -892,29 +892,15 @@
             </valueSetDefinition>
             <valueSettings>
                 <controllingFieldValue>Electrical</controllingFieldValue>
-                <controllingFieldValue>Customer Content Feedback</controllingFieldValue>
                 <valueName>Bar</valueName>
             </valueSettings>
             <valueSettings>
                 <controllingFieldValue>Electronic</controllingFieldValue>
-                <controllingFieldValue>Customer Content Feedback</controllingFieldValue>
                 <valueName>Beach</valueName>
             </valueSettings>
             <valueSettings>
                 <controllingFieldValue>Other5</controllingFieldValue>
                 <valueName>River</valueName>
-            </valueSettings>
-            <valueSettings>
-                <controllingFieldValue>Customer Content Feedback</controllingFieldValue>
-                <valueName>Mountain</valueName>
-            </valueSettings>
-            <valueSettings>
-                <controllingFieldValue>Customer Content Feedback</controllingFieldValue>
-                <valueName>Add Access</valueName>
-            </valueSettings>
-            <valueSettings>
-                <controllingFieldValue>Customer Content Feedback</controllingFieldValue>
-                <valueName>Add Contact</valueName>
             </valueSettings>
         </valueSet>
     </fields>
@@ -1214,6 +1200,13 @@
         <active>true</active>
         <businessProcess>Support Process</businessProcess>
         <label>Record Type</label>
+        <picklistValues>
+            <picklist>Primary_Category__c</picklist>
+            <values>
+                <fullName>Bar</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
         <picklistValues>
             <picklist>Week__c</picklist>
             <values>
