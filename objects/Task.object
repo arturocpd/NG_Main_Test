@@ -108,6 +108,10 @@
                 <fullName>1</fullName>
                 <default>false</default>
             </values>
+            <values>
+                <fullName>5</fullName>
+                <default>false</default>
+            </values>
         </picklistValues>
     </recordTypes>
     <sharingModel>Private</sharingModel>
