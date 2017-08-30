@@ -1201,6 +1201,13 @@
         <businessProcess>Support Process</businessProcess>
         <label>Record Type</label>
         <picklistValues>
+            <picklist>Primary_Category__c</picklist>
+            <values>
+                <fullName>Bar</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
             <picklist>Week__c</picklist>
             <values>
                 <fullName>Friday</fullName>
