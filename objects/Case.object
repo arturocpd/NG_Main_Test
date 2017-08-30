@@ -1270,6 +1270,10 @@
                 <fullName>Bar</fullName>
                 <default>false</default>
             </values>
+            <values>
+                <fullName>Beach</fullName>
+                <default>false</default>
+            </values>
         </picklistValues>
         <picklistValues>
             <picklist>Priority</picklist>
