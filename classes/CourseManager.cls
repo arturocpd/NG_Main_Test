@@ -1,7 +1,7 @@
 public class CourseManager {
 
     static void CreateManager(){
-    /*this is a comment*/
+    /*Test Shell - updating testCopado step #4*/
     }
         
 }
