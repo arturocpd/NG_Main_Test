@@ -105,7 +105,11 @@
         <picklistValues>
             <picklist>AAATask__c</picklist>
             <values>
-                <fullName>1</fullName>
+                <fullName>2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>4</fullName>
                 <default>false</default>
             </values>
             <values>
