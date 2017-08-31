@@ -103,6 +103,13 @@
         <active>true</active>
         <label>General</label>
         <picklistValues>
+            <picklist>Next_Time__c</picklist>
+            <values>
+                <fullName>Sunday</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
             <picklist>AAATask__c</picklist>
             <values>
                 <fullName>1</fullName>
