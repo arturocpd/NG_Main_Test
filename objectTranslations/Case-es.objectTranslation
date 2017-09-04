@@ -8,4 +8,8 @@
         <label>Caso bbb</label>
         <name>Case_BBB__c</name>
     </fields>
+    <fields>
+        <label>Caso yyy</label>
+        <name>Case_YYY__c</name>
+    </fields>
 </CustomObjectTranslation>
