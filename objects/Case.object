@@ -153,6 +153,11 @@
                     <default>false</default>
                     <label>FFF</label>
                 </value>
+                <value>
+                    <fullName>GGG</fullName>
+                    <default>false</default>
+                    <label>GGG</label>
+                </value>
             </valueSetDefinition>
         </valueSet>
     </fields>
