@@ -1,11 +1,3 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Translations xmlns="http://soap.sforce.com/2006/04/metadata">
-    <customLabels>
-        <label>Esta es una traduccion a Español.</label>
-        <name>Translation_Test</name>
-    </customLabels>
-    <customLabels>
-        <label>La nueva traduccion del custom label</label>
-        <name>Translation_Test_NEW</name>
-    </customLabels>
-</Translations>
+<Translations xmlns="http://soap.sforce.com/2006/04/metadata"/>
+
