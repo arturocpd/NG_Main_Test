@@ -142,6 +142,11 @@
                     <default>false</default>
                     <label>DDD</label>
                 </value>
+                <value>
+                    <fullName>EEE</fullName>
+                    <default>false</default>
+                    <label>EEE</label>
+                </value>
             </valueSetDefinition>
         </valueSet>
     </fields>
