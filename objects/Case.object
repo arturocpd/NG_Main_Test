@@ -147,6 +147,11 @@
                     <default>false</default>
                     <label>EEE</label>
                 </value>
+                <value>
+                    <fullName>FFF</fullName>
+                    <default>false</default>
+                    <label>FFF</label>
+                </value>
             </valueSetDefinition>
         </valueSet>
     </fields>
