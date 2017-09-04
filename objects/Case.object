@@ -138,6 +138,11 @@
                     <default>false</default>
                     <label>CCC</label>
                 </value>
+                <value>
+                    <fullName>DDD</fullName>
+                    <default>false</default>
+                    <label>DDD</label>
+                </value>
             </valueSetDefinition>
         </valueSet>
     </fields>
