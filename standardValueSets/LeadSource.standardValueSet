@@ -31,4 +31,9 @@
         <default>false</default>
         <label>Test CI</label>
     </standardValue>
+    <standardValue>
+        <fullName>One more CI test</fullName>
+        <default>false</default>
+        <label>One more CI test</label>
+    </standardValue>
 </StandardValueSet>
