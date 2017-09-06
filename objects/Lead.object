@@ -391,6 +391,10 @@
                 <default>false</default>
             </values>
             <values>
+                <fullName>Test CI</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Web</fullName>
                 <default>false</default>
             </values>
