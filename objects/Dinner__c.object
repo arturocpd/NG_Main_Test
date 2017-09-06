@@ -26,9 +26,9 @@
     </actionOverrides>
     <actionOverrides>
         <actionName>New</actionName>
-        <comment>Replaces standard New Record page with an action that pre-populates the Agreement Name field.</comment> 
-        <content>EQT_NewAgreementAction</content> 
-        <skipRecordTypeSelect>true</skipRecordTypeSelect> 
+        <comment>Replaces standard New Record page with an action that pre-populates the Agreement Name field.</comment>
+        <content>EQT_NewAgreementAction</content>
+        <skipRecordTypeSelect>true</skipRecordTypeSelect>
         <type>LightningComponent</type>
     </actionOverrides>
     <actionOverrides>
@@ -60,8 +60,23 @@
         <defaultValue>false</defaultValue>
         <externalId>false</externalId>
         <label>LateDinner</label>
+        <trackHistory>true</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Point_of_contact__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>This is the description of the field. 111111111</description>
+        <externalId>false</externalId>
+        <label>Point of contact</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Dinners</relationshipLabel>
+        <relationshipName>Dinners</relationshipName>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
     </fields>
     <gender>Feminine</gender>
     <label>Dinner</label>
