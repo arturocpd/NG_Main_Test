@@ -61,11 +61,11 @@
          <label>Automatic Renewal Clause</label>
          <picklist>
              <picklistValues>
-                 <fullName>Yes</fullName>
+                 <fullName>No</fullName>
                  <default>false</default>
              </picklistValues>
              <picklistValues>
-                 <fullName>No</fullName>
+                 <fullName>Yes</fullName>
                  <default>false</default>
              </picklistValues>
              <sorted>false</sorted>
