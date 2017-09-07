@@ -59,6 +59,9 @@
          <fullName>Automatic_Renewal_Clause__c</fullName>
          <externalId>false</externalId>
          <label>Automatic Renewal Clause</label>
+         <trackFeedHistory>false</trackFeedHistory>
+         <trackHistory>false</trackHistory>
+         <type>Picklist</type>
          <valueSet>
              <valueSetDefinition>
              <sorted>false</sorted>
@@ -72,9 +75,6 @@
              </value>
              </valueSetDefinition>
          </valueSet>
-         <trackFeedHistory>false</trackFeedHistory>
-         <trackHistory>false</trackHistory>
-         <type>Picklist</type>
      </fields>
     <fields>
         <fullName>LateDinner__c</fullName>
