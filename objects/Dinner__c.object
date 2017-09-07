@@ -61,6 +61,7 @@
          <label>Automatic Renewal Clause</label>
          <valueSet>
              <valueSetDefinition>
+             <sorted>false</sorted>
              <value>
                  <fullName>No</fullName>
                  <default>false</default>
@@ -69,7 +70,6 @@
                  <fullName>Yes</fullName>
                  <default>false</default>
              </value>
-             <sorted>false</sorted>
              </valueSetDefinition>
          </valueSet>
          <trackFeedHistory>false</trackFeedHistory>
