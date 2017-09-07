@@ -59,17 +59,19 @@
          <fullName>Automatic_Renewal_Clause__c</fullName>
          <externalId>false</externalId>
          <label>Automatic Renewal Clause</label>
-         <picklist>
-             <picklistValues>
+         <valueSet>
+             <valueSetDefinition>
+             <value>
                  <fullName>No</fullName>
                  <default>false</default>
-             </picklistValues>
-             <picklistValues>
+             </value>
+             <value>
                  <fullName>Yes</fullName>
                  <default>false</default>
-             </picklistValues>
+             </value>
              <sorted>false</sorted>
-         </picklist>
+             </valueSetDefinition>
+         </valueSet>
          <trackFeedHistory>false</trackFeedHistory>
          <trackHistory>false</trackHistory>
          <type>Picklist</type>
