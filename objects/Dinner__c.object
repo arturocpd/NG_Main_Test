@@ -56,6 +56,25 @@
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>ReadWrite</externalSharingModel>
     <fields>
+         <fullName>Automatic_Renewal_Clause__c</fullName>
+         <externalId>false</externalId>
+         <label>Automatic Renewal Clause</label>
+         <picklist>
+             <picklistValues>
+                 <fullName>Yes</fullName>
+                 <default>false</default>
+             </picklistValues>
+             <picklistValues>
+                 <fullName>No</fullName>
+                 <default>false</default>
+             </picklistValues>
+             <sorted>false</sorted>
+         </picklist>
+         <trackFeedHistory>false</trackFeedHistory>
+         <trackHistory>false</trackHistory>
+         <type>Picklist</type>
+     </fields>
+    <fields>
         <fullName>LateDinner__c</fullName>
         <defaultValue>false</defaultValue>
         <externalId>false</externalId>
