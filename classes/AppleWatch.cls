@@ -8,7 +8,7 @@ Public Class AppleWatch{
         t.WhatId      = opp.Id;
         insert t;
         
-        /*Run test test*/
+        /*Run test test {!Environment.VAR_NAME}*/
     }
 
  
