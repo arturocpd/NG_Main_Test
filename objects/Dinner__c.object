@@ -5,7 +5,6 @@
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
-    >>>>>>> refss/remotes/origin/mp
         <actionName>CancelEdit</actionName>
         <type>Default</type>
     </actionOverrides>
