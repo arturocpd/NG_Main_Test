@@ -10,6 +10,7 @@
     </actionOverrides>
     <actionOverrides>
         <actionName>Clone</actionName>
+        >>>>>>> refs/remotes/origin/mp
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
