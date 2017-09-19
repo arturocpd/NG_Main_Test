@@ -18,9 +18,11 @@
             </approver>
             <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
         </assignedApprover>
+        <description>Main step</description>
         <label>Step 1</label>
         <name>Step_1</name>
     </approvalStep>
+    <description>This is a description</description>
     <enableMobileDeviceAccess>false</enableMobileDeviceAccess>
     <entryCriteria>
         <criteriaItems>
@@ -29,7 +31,7 @@
             <value>Restaurant</value>
         </criteriaItems>
     </entryCriteria>
-    <finalApprovalRecordLock>true</finalApprovalRecordLock>
+    <finalApprovalRecordLock>false</finalApprovalRecordLock>
     <finalRejectionRecordLock>false</finalRejectionRecordLock>
     <label>Approve Dinner</label>
     <recordEditability>AdminOnly</recordEditability>
