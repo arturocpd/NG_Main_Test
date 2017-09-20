@@ -4,13 +4,13 @@
         <caseType>Nominative</caseType>
         <plural>false</plural>
         <possessive>None</possessive>
-        <value>TiliBBB</value>
+        <value></value>
     </caseValues>
     <caseValues>
         <caseType>Nominative</caseType>
         <plural>true</plural>
         <possessive>None</possessive>
-        <value>TilitBBB</value>
+        <value></value>
     </caseValues>
     <caseValues>
         <caseType>Nominative</caseType>
@@ -22,7 +22,7 @@
         <caseType>Nominative</caseType>
         <plural>true</plural>
         <possessive>First</possessive>
-        <value>Tilini</value>
+        <value></value>
     </caseValues>
     <caseValues>
         <caseType>Nominative</caseType>
