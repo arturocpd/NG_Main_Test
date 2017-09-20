@@ -12,4 +12,12 @@
         <label>Caso yyy</label>
         <name>Case_YYY__c</name>
     </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Divisa del casoo</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>case_currency</name>
+    </fields>
 </CustomObjectTranslation>
