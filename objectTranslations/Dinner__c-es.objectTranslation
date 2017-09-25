@@ -12,5 +12,10 @@
         <label><!-- LateDinner --></label>
         <name>LateDinner__c</name>
     </fields>
+    <fields>
+        <label><!-- Point of contact --></label>
+        <name>Point_of_contact__c</name>
+        <relationshipLabel><!-- Dinners --></relationshipLabel>
+    </fields>
     <gender>Feminine</gender>
 </CustomObjectTranslation>

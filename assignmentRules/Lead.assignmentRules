@@ -9,7 +9,7 @@
             <criteriaItems>
                 <field>Lead.Country</field>
                 <operation>equals</operation>
-                <value>US</value>
+                <value>US,SP</value>
             </criteriaItems>
             <template>unfiled$public/SalesNewCustomerEmail</template>
         </ruleEntry>

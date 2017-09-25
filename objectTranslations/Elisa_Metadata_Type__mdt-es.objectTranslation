@@ -28,5 +28,9 @@
             <translation><!-- PicklistValue4 --></translation>
         </picklistValues>
     </fields>
+    <fields>
+        <label><!-- email --></label>
+        <name>email__c</name>
+    </fields>
     <gender>Feminine</gender>
 </CustomObjectTranslation>

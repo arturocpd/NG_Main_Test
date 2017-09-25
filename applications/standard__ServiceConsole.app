@@ -174,7 +174,11 @@
     <tab>standard-Opportunity</tab>
     <tab>standard-Lead</tab>
     <tab>standard-Knowledge</tab>
+    <tab>Dinner__c</tab>
     <workspaceMappings>
+        <mapping>
+            <tab>Dinner__c</tab>
+        </mapping>
         <mapping>
             <tab>standard-Account</tab>
         </mapping>

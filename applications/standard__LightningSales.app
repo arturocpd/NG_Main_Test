@@ -25,7 +25,8 @@
     <tab>standard-OtherUserProfile</tab>
     <tab>standard-Case</tab>
     <tab>standard-News</tab>
-    <tab>standard-ForecastingLightning</tab>
+    <tab>standard-Forecasting3</tab>
     <tab>standard-EinsteinAnalytics</tab>
+    <tab>Dinner__c</tab>
     <uiType>Lightning</uiType>
 </CustomApplication>

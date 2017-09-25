@@ -261,6 +261,10 @@
             <field>00N0Y00000JocSl</field>
             <label>xyz SGUID Opp</label>
         </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>PARTNER.NAME</field>
+            <label>Account Name</label>
+        </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
             <field>ACCOUNT.NAME</field>
@@ -304,6 +308,7 @@
             <field>00N0Y00000JpxaV</field>
             <field>00N0Y00000IOuml</field>
             <field>00N0Y00000JocSl</field>
+            <field>PARTNER.NAME</field>
         </opportunityListFieldsUnselectedSettings>
         <quotasSettings>
             <showQuotas>false</showQuotas>
@@ -493,6 +498,10 @@
             <field>00N0Y00000JocSl</field>
             <label>xyz SGUID Opp</label>
         </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>PARTNER.NAME</field>
+            <label>Partner Account</label>
+        </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
             <field>ACCOUNT.NAME</field>
@@ -536,6 +545,7 @@
             <field>00N0Y00000JpxaV</field>
             <field>00N0Y00000IOuml</field>
             <field>00N0Y00000JocSl</field>
+            <field>PARTNER.NAME</field>
         </opportunityListFieldsUnselectedSettings>
         <quotasSettings>
             <showQuotas>false</showQuotas>
@@ -725,6 +735,10 @@
             <field>00N0Y00000JocSl</field>
             <label>xyz SGUID Opp</label>
         </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>PARTNER.NAME</field>
+            <label>Account Name</label>
+        </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
             <field>ACCOUNT.NAME</field>
@@ -768,6 +782,7 @@
             <field>00N0Y00000JpxaV</field>
             <field>00N0Y00000IOuml</field>
             <field>00N0Y00000JocSl</field>
+            <field>PARTNER.NAME</field>
         </opportunityListFieldsUnselectedSettings>
         <quotasSettings>
             <showQuotas>false</showQuotas>
@@ -957,6 +972,10 @@
             <field>00N0Y00000JocSl</field>
             <label>xyz SGUID Opp</label>
         </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>PARTNER.NAME</field>
+            <label>Partner Account</label>
+        </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
             <field>ACCOUNT.NAME</field>
@@ -1000,6 +1019,7 @@
             <field>00N0Y00000JpxaV</field>
             <field>00N0Y00000IOuml</field>
             <field>00N0Y00000JocSl</field>
+            <field>PARTNER.NAME</field>
         </opportunityListFieldsUnselectedSettings>
         <quotasSettings>
             <showQuotas>false</showQuotas>
@@ -1197,6 +1217,10 @@
             <field>00N0Y00000JocSl</field>
             <label>xyz SGUID Opp</label>
         </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>PARTNER.NAME</field>
+            <label>Partner Account</label>
+        </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
             <field>ACCOUNT.NAME</field>
@@ -1242,6 +1266,7 @@
             <field>00N0Y00000JpxaV</field>
             <field>00N0Y00000IOuml</field>
             <field>00N0Y00000JocSl</field>
+            <field>PARTNER.NAME</field>
         </opportunityListFieldsUnselectedSettings>
         <quotasSettings>
             <showQuotas>false</showQuotas>
