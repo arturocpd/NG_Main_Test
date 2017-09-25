@@ -5,6 +5,10 @@
         <name>Case_YYY__c</name>
     </fields>
     <fields>
+        <label></label>
+        <name>Metadata_Delete__c</name>
+    </fields>
+    <fields>
         <caseValues>
             <plural>false</plural>
             <value>Divisa del casoo</value>
