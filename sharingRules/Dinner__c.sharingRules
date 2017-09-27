@@ -11,4 +11,15 @@
             <role>CEO</role>
         </sharedFrom>
     </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Dinner_Sharing_Rule_MOD_API</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Dinner Sharing Rule</label>
+        <sharedTo>
+            <role>CFO</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>CEO</role>
+        </sharedFrom>
+    </sharingOwnerRules>
 </SharingRules>
