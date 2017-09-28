@@ -57,6 +57,18 @@
         <name>Case_BBB__c</name>
     </fields>
     <fields>
+        <label><!-- Case MMM --></label>
+        <name>Case_MMM__c</name>
+    </fields>
+    <fields>
+        <label><!-- Case NNN --></label>
+        <name>Case_NNN__c</name>
+    </fields>
+    <fields>
+        <label><!-- Case OOO --></label>
+        <name>Case_OOO__c</name>
+    </fields>
+    <fields>
         <label><!-- Case WWW --></label>
         <name>Case_WWW__c</name>
         <picklistValues>
@@ -663,6 +675,10 @@
     <fields>
         <label><!-- Unique Code --></label>
         <name>Unique_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- V9 test flow --></label>
+        <name>V9_test_flow__c</name>
     </fields>
     <fields>
         <label><!-- Version 8.1 --></label>
