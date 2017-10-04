@@ -1384,6 +1384,10 @@
         <picklistValues>
             <picklist>Case_WWW__c</picklist>
             <values>
+                <fullName>April</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>February</fullName>
                 <default>false</default>
             </values>
