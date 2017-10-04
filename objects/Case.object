@@ -1382,6 +1382,17 @@
         <businessProcess>Support Process</businessProcess>
         <label>Record Type</label>
         <picklistValues>
+            <picklist>Case_WWW__c</picklist>
+            <values>
+                <fullName>February</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>January</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
             <picklist>Primary_Category__c</picklist>
             <values>
                 <fullName>Bar</fullName>
