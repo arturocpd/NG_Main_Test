@@ -1459,10 +1459,6 @@
                 <fullName>January</fullName>
                 <default>false</default>
             </values>
-            <values>
-                <fullName>March</fullName>
-                <default>false</default>
-            </values>
         </picklistValues>
         <picklistValues>
             <picklist>Origin</picklist>
