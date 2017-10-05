@@ -720,6 +720,10 @@
         <label><!-- formula check --></label>
         <name>formula_check__c</name>
     </fields>
+    <fields>
+        <label><!-- rich --></label>
+        <name>rich__c</name>
+    </fields>
     <recordTypes>
         <label><!-- Record Type --></label>
         <name>Record_Type</name>
