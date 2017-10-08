@@ -3138,6 +3138,10 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
+        <name>UseWebLink</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
         <name>WorkDotComUserPerm</name>
     </userPermissions>
 </Profile>
