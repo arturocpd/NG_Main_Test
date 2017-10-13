@@ -56,14 +56,45 @@
         <actionName>View</actionName>
         <type>Default</type>
     </actionOverrides>
+    <businessProcesses>
+        <fullName>Support Process</fullName>
+        <isActive>true</isActive>
+        <values>
+            <fullName>Closed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Escalated</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Working</fullName>
+            <default>false</default>
+        </values>
+    </businessProcesses>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>true</enableFeeds>
+    <externalSharingModel>Private</externalSharingModel>
     <fields>
         <fullName>AccountId</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Admin_Checkbox__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Admin Checkbox</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
     </fields>
     <fields>
         <fullName>AssetId</fullName>
@@ -78,6 +109,167 @@
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>CI_Picklist_Test__c</fullName>
+        <externalId>false</externalId>
+        <label>CI Picklist Test</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>AAA</fullName>
+                    <default>false</default>
+                    <label>AAA</label>
+                </value>
+                <value>
+                    <fullName>BBB</fullName>
+                    <default>false</default>
+                    <label>BBB</label>
+                </value>
+                <value>
+                    <fullName>CCC</fullName>
+                    <default>false</default>
+                    <label>CCC</label>
+                </value>
+                <value>
+                    <fullName>DDD</fullName>
+                    <default>false</default>
+                    <label>DDD</label>
+                </value>
+                <value>
+                    <fullName>EEE</fullName>
+                    <default>false</default>
+                    <label>EEE</label>
+                </value>
+                <value>
+                    <fullName>FFF</fullName>
+                    <default>false</default>
+                    <label>FFF</label>
+                </value>
+                <value>
+                    <fullName>GGG</fullName>
+                    <default>false</default>
+                    <label>GGG</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>CaseTime__c</fullName>
+        <externalId>false</externalId>
+        <label>CaseTime</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Time</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Case_AAA__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Case AAA</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Case_BBB__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Case BBB</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Case_MMM__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Case MMM</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Case_NNN__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Case NNN</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Case_OOO__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Case OOO</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Case_WWW__c</fullName>
+        <externalId>false</externalId>
+        <label>Case WWW</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>January</fullName>
+                    <default>false</default>
+                    <label>January</label>
+                </value>
+                <value>
+                    <fullName>February</fullName>
+                    <default>false</default>
+                    <label>February</label>
+                </value>
+                <value>
+                    <fullName>March</fullName>
+                    <default>false</default>
+                    <label>March</label>
+                </value>
+                <value>
+                    <fullName>April</fullName>
+                    <default>false</default>
+                    <label>April</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Case_YYY__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Case YYY</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
     </fields>
     <fields>
         <fullName>ClosedDate</fullName>
@@ -111,6 +303,26 @@
         <trackTrending>false</trackTrending>
     </fields>
     <fields>
+        <fullName>DeleteMe2__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>DeleteMe2</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>DeleteMe__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>DeleteMe</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>Description</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>true</trackHistory>
@@ -129,6 +341,16 @@
         <unique>false</unique>
     </fields>
     <fields>
+        <fullName>Find_and_Replace__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Find and Replace</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>IsClosedOnCreate</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
@@ -141,10 +363,50 @@
         <trackTrending>false</trackTrending>
     </fields>
     <fields>
+        <fullName>KeepMe2__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>KeepMe2</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>KeepMe__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>KeepMe</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>Login_IP_restrictions__c</fullName>
         <defaultValue>false</defaultValue>
         <externalId>false</externalId>
         <label>Login IP restrictions</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Metadata_Delete__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Metadata Delete</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>New_report_test_field__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>New report test field</label>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
@@ -172,6 +434,16 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>Pckage_field__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Pckage field</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>PotentialLiability__c</fullName>
         <externalId>false</externalId>
         <label>Potential Liability</label>
@@ -194,6 +466,610 @@
                     <label>Yes</label>
                 </value>
             </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Primary_Category__c</fullName>
+        <externalId>false</externalId>
+        <label>Primary Category</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Type</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Bar</fullName>
+                    <default>false</default>
+                    <label>Bar</label>
+                </value>
+                <value>
+                    <fullName>Beach</fullName>
+                    <default>false</default>
+                    <label>Beach</label>
+                </value>
+                <value>
+                    <fullName>River</fullName>
+                    <default>false</default>
+                    <label>River</label>
+                </value>
+                <value>
+                    <fullName>Mountain</fullName>
+                    <default>false</default>
+                    <label>Mountain</label>
+                </value>
+                <value>
+                    <fullName>Lake</fullName>
+                    <default>false</default>
+                    <label>Lake</label>
+                </value>
+                <value>
+                    <fullName>3PI</fullName>
+                    <default>false</default>
+                    <label>3PI</label>
+                </value>
+                <value>
+                    <fullName>Accessibility</fullName>
+                    <default>false</default>
+                    <label>Accessibility</label>
+                </value>
+                <value>
+                    <fullName>Accommodation</fullName>
+                    <default>false</default>
+                    <label>Accommodation</label>
+                </value>
+                <value>
+                    <fullName>Account Set-up</fullName>
+                    <default>false</default>
+                    <label>Account Set-up</label>
+                </value>
+                <value>
+                    <fullName>Add Access</fullName>
+                    <default>false</default>
+                    <label>Add Access</label>
+                </value>
+                <value>
+                    <fullName>Add Contact</fullName>
+                    <default>false</default>
+                    <label>Add Contact</label>
+                </value>
+                <value>
+                    <fullName>Admin Tools Issue</fullName>
+                    <default>false</default>
+                    <label>Admin Tools Issue</label>
+                </value>
+                <value>
+                    <fullName>Alert</fullName>
+                    <default>false</default>
+                    <label>Alert</label>
+                </value>
+                <value>
+                    <fullName>Amentities Incorrect</fullName>
+                    <default>false</default>
+                    <label>Amentities Incorrect</label>
+                </value>
+                <value>
+                    <fullName>AR Updates</fullName>
+                    <default>false</default>
+                    <label>AR Updates</label>
+                </value>
+                <value>
+                    <fullName>Atlantis</fullName>
+                    <default>false</default>
+                    <label>Atlantis</label>
+                </value>
+                <value>
+                    <fullName>Auto Renewals</fullName>
+                    <default>false</default>
+                    <label>Auto Renewals</label>
+                </value>
+                <value>
+                    <fullName>Availability Incorrect</fullName>
+                    <default>false</default>
+                    <label>Availability Incorrect</label>
+                </value>
+                <value>
+                    <fullName>Balcony</fullName>
+                    <default>false</default>
+                    <label>Balcony</label>
+                </value>
+                <value>
+                    <fullName>Beach Safety</fullName>
+                    <default>false</default>
+                    <label>Beach Safety</label>
+                </value>
+                <value>
+                    <fullName>Breakfast</fullName>
+                    <default>false</default>
+                    <label>Breakfast</label>
+                </value>
+                <value>
+                    <fullName>Business</fullName>
+                    <default>false</default>
+                    <label>Business</label>
+                </value>
+                <value>
+                    <fullName>Business Model Change</fullName>
+                    <default>false</default>
+                    <label>Business Model Change</label>
+                </value>
+                <value>
+                    <fullName>Cancellation Policy</fullName>
+                    <default>false</default>
+                    <label>Cancellation Policy</label>
+                </value>
+                <value>
+                    <fullName>Case Escalation Request</fullName>
+                    <default>false</default>
+                    <label>Case Escalation Request</label>
+                </value>
+                <value>
+                    <fullName>Child</fullName>
+                    <default>false</default>
+                    <label>Child</label>
+                </value>
+                <value>
+                    <fullName>Compensation Change</fullName>
+                    <default>false</default>
+                    <label>Compensation Change</label>
+                </value>
+                <value>
+                    <fullName>Confirmation</fullName>
+                    <default>false</default>
+                    <label>Confirmation</label>
+                </value>
+                <value>
+                    <fullName>Connectivity Partner Outage</fullName>
+                    <default>false</default>
+                    <label>Connectivity Partner Outage</label>
+                </value>
+                <value>
+                    <fullName>Connectivity Solution Change</fullName>
+                    <default>false</default>
+                    <label>Connectivity Solution Change</label>
+                </value>
+                <value>
+                    <fullName>Cruise</fullName>
+                    <default>false</default>
+                    <label>Cruise</label>
+                </value>
+                <value>
+                    <fullName>Customer</fullName>
+                    <default>false</default>
+                    <label>Customer</label>
+                </value>
+                <value>
+                    <fullName>Delete Contact</fullName>
+                    <default>false</default>
+                    <label>Delete Contact</label>
+                </value>
+                <value>
+                    <fullName>Disconnection</fullName>
+                    <default>false</default>
+                    <label>Disconnection</label>
+                </value>
+                <value>
+                    <fullName>Documentation Update</fullName>
+                    <default>false</default>
+                    <label>Documentation Update</label>
+                </value>
+                <value>
+                    <fullName>Electrical</fullName>
+                    <default>false</default>
+                    <label>Electrical</label>
+                </value>
+                <value>
+                    <fullName>EPC: Accounting</fullName>
+                    <default>false</default>
+                    <label>EPC: Accounting</label>
+                </value>
+                <value>
+                    <fullName>EPC: Contact Info update</fullName>
+                    <default>false</default>
+                    <label>EPC: Contact Info update</label>
+                </value>
+                <value>
+                    <fullName>EPC: Create Account</fullName>
+                    <default>false</default>
+                    <label>EPC: Create Account</label>
+                </value>
+                <value>
+                    <fullName>EPC: Deactivate Account</fullName>
+                    <default>false</default>
+                    <label>EPC: Deactivate Account</label>
+                </value>
+                <value>
+                    <fullName>EPC: Guest Reviews Real Time Feedback</fullName>
+                    <default>false</default>
+                    <label>EPC: Guest Reviews Real Time Feedback</label>
+                </value>
+                <value>
+                    <fullName>EPC: Help</fullName>
+                    <default>false</default>
+                    <label>EPC: Help</label>
+                </value>
+                <value>
+                    <fullName>EPC: Inventory &amp; Rate Plans</fullName>
+                    <default>false</default>
+                    <label>EPC: Inventory &amp; Rate Plans</label>
+                </value>
+                <value>
+                    <fullName>EPC: Landing page</fullName>
+                    <default>false</default>
+                    <label>EPC: Landing page</label>
+                </value>
+                <value>
+                    <fullName>EPC: Marketplace</fullName>
+                    <default>false</default>
+                    <label>EPC: Marketplace</label>
+                </value>
+                <value>
+                    <fullName>EPC: Modify Account</fullName>
+                    <default>false</default>
+                    <label>EPC: Modify Account</label>
+                </value>
+                <value>
+                    <fullName>EPC: Notification Settings</fullName>
+                    <default>false</default>
+                    <label>EPC: Notification Settings</label>
+                </value>
+                <value>
+                    <fullName>EPC: Onboarding</fullName>
+                    <default>false</default>
+                    <label>EPC: Onboarding</label>
+                </value>
+                <value>
+                    <fullName>EPC: Password Self Reset</fullName>
+                    <default>false</default>
+                    <label>EPC: Password Self Reset</label>
+                </value>
+                <value>
+                    <fullName>EPC: Promotions (DRRs)</fullName>
+                    <default>false</default>
+                    <label>EPC: Promotions (DRRs)</label>
+                </value>
+                <value>
+                    <fullName>EPC: Property Info</fullName>
+                    <default>false</default>
+                    <label>EPC: Property Info</label>
+                </value>
+                <value>
+                    <fullName>EPC: Reservations</fullName>
+                    <default>false</default>
+                    <label>EPC: Reservations</label>
+                </value>
+                <value>
+                    <fullName>EPC Issue</fullName>
+                    <default>false</default>
+                    <label>EPC Issue</label>
+                </value>
+                <value>
+                    <fullName>EPCO Issue</fullName>
+                    <default>false</default>
+                    <label>EPCO Issue</label>
+                </value>
+                <value>
+                    <fullName>EQC API Issue</fullName>
+                    <default>false</default>
+                    <label>EQC API Issue</label>
+                </value>
+                <value>
+                    <fullName>EQC Connectivity Rollout</fullName>
+                    <default>false</default>
+                    <label>EQC Connectivity Rollout</label>
+                </value>
+                <value>
+                    <fullName>EQC Vendor Management</fullName>
+                    <default>false</default>
+                    <label>EQC Vendor Management</label>
+                </value>
+                <value>
+                    <fullName>EQC Vendor Onboarding</fullName>
+                    <default>false</default>
+                    <label>EQC Vendor Onboarding</label>
+                </value>
+                <value>
+                    <fullName>Excursions</fullName>
+                    <default>false</default>
+                    <label>Excursions</label>
+                </value>
+                <value>
+                    <fullName>Expedia Tool Outage</fullName>
+                    <default>false</default>
+                    <label>Expedia Tool Outage</label>
+                </value>
+                <value>
+                    <fullName>Explosion</fullName>
+                    <default>false</default>
+                    <label>Explosion</label>
+                </value>
+                <value>
+                    <fullName>Extranet Settings</fullName>
+                    <default>false</default>
+                    <label>Extranet Settings</label>
+                </value>
+                <value>
+                    <fullName>Fire</fullName>
+                    <default>false</default>
+                    <label>Fire</label>
+                </value>
+                <value>
+                    <fullName>Food</fullName>
+                    <default>false</default>
+                    <label>Food</label>
+                </value>
+                <value>
+                    <fullName>Force Majeure</fullName>
+                    <default>false</default>
+                    <label>Force Majeure</label>
+                </value>
+                <value>
+                    <fullName>Gas</fullName>
+                    <default>false</default>
+                    <label>Gas</label>
+                </value>
+                <value>
+                    <fullName>GDS</fullName>
+                    <default>false</default>
+                    <label>GDS</label>
+                </value>
+                <value>
+                    <fullName>Glass</fullName>
+                    <default>false</default>
+                    <label>Glass</label>
+                </value>
+                <value>
+                    <fullName>Golf</fullName>
+                    <default>false</default>
+                    <label>Golf</label>
+                </value>
+                <value>
+                    <fullName>Injury</fullName>
+                    <default>false</default>
+                    <label>Injury</label>
+                </value>
+                <value>
+                    <fullName>Inquiry</fullName>
+                    <default>false</default>
+                    <label>Inquiry</label>
+                </value>
+                <value>
+                    <fullName>Internet</fullName>
+                    <default>false</default>
+                    <label>Internet</label>
+                </value>
+                <value>
+                    <fullName>Lifts</fullName>
+                    <default>false</default>
+                    <label>Lifts</label>
+                </value>
+                <value>
+                    <fullName>LPAS</fullName>
+                    <default>false</default>
+                    <label>LPAS</label>
+                </value>
+                <value>
+                    <fullName>Maintenance</fullName>
+                    <default>false</default>
+                    <label>Maintenance</label>
+                </value>
+                <value>
+                    <fullName>Mapping</fullName>
+                    <default>false</default>
+                    <label>Mapping</label>
+                </value>
+                <value>
+                    <fullName>Modify Contact</fullName>
+                    <default>false</default>
+                    <label>Modify Contact</label>
+                </value>
+                <value>
+                    <fullName>Multiple</fullName>
+                    <default>false</default>
+                    <label>Multiple</label>
+                </value>
+                <value>
+                    <fullName>New Connection</fullName>
+                    <default>false</default>
+                    <label>New Connection</label>
+                </value>
+                <value>
+                    <fullName>Notification Delivery Failure</fullName>
+                    <default>false</default>
+                    <label>Notification Delivery Failure</label>
+                </value>
+                <value>
+                    <fullName>Notification Delivery Failure (email/fax)</fullName>
+                    <default>false</default>
+                    <label>Notification Delivery Failure (email/fax)</label>
+                </value>
+                <value>
+                    <fullName>Notification Issue</fullName>
+                    <default>false</default>
+                    <label>Notification Issue</label>
+                </value>
+                <value>
+                    <fullName>Parking</fullName>
+                    <default>false</default>
+                    <label>Parking</label>
+                </value>
+                <value>
+                    <fullName>Password reset</fullName>
+                    <default>false</default>
+                    <label>Password reset</label>
+                </value>
+                <value>
+                    <fullName>Payouts Research</fullName>
+                    <default>false</default>
+                    <label>Payouts Research</label>
+                </value>
+                <value>
+                    <fullName>Pest-Control</fullName>
+                    <default>false</default>
+                    <label>Pest-Control</label>
+                </value>
+                <value>
+                    <fullName>Pets</fullName>
+                    <default>false</default>
+                    <label>Pets</label>
+                </value>
+                <value>
+                    <fullName>Pool</fullName>
+                    <default>false</default>
+                    <label>Pool</label>
+                </value>
+                <value>
+                    <fullName>Pool Safety</fullName>
+                    <default>false</default>
+                    <label>Pool Safety</label>
+                </value>
+                <value>
+                    <fullName>POS Wide Issue</fullName>
+                    <default>false</default>
+                    <label>POS Wide Issue</label>
+                </value>
+                <value>
+                    <fullName>Pricing model change</fullName>
+                    <default>false</default>
+                    <label>Pricing model change</label>
+                </value>
+                <value>
+                    <fullName>Property not displaying</fullName>
+                    <default>false</default>
+                    <label>Property not displaying</label>
+                </value>
+                <value>
+                    <fullName>Property sold out all dates</fullName>
+                    <default>false</default>
+                    <label>Property sold out all dates</label>
+                </value>
+                <value>
+                    <fullName>Quality</fullName>
+                    <default>false</default>
+                    <label>Quality</label>
+                </value>
+                <value>
+                    <fullName>Rate, Inventory, and Availability Issue</fullName>
+                    <default>false</default>
+                    <label>Rate, Inventory, and Availability Issue</label>
+                </value>
+                <value>
+                    <fullName>Rate Acquisition Type Change</fullName>
+                    <default>false</default>
+                    <label>Rate Acquisition Type Change</label>
+                </value>
+                <value>
+                    <fullName>Rates Incorrect</fullName>
+                    <default>false</default>
+                    <label>Rates Incorrect</label>
+                </value>
+                <value>
+                    <fullName>Reconnect after chaser disconnect</fullName>
+                    <default>false</default>
+                    <label>Reconnect after chaser disconnect</label>
+                </value>
+                <value>
+                    <fullName>Re-Contracting</fullName>
+                    <default>false</default>
+                    <label>Re-Contracting</label>
+                </value>
+                <value>
+                    <fullName>Remove Access</fullName>
+                    <default>false</default>
+                    <label>Remove Access</label>
+                </value>
+                <value>
+                    <fullName>Remove User</fullName>
+                    <default>false</default>
+                    <label>Remove User</label>
+                </value>
+                <value>
+                    <fullName>Report</fullName>
+                    <default>false</default>
+                    <label>Report</label>
+                </value>
+                <value>
+                    <fullName>Restaurant</fullName>
+                    <default>false</default>
+                    <label>Restaurant</label>
+                </value>
+                <value>
+                    <fullName>Restrictions Incorrect</fullName>
+                    <default>false</default>
+                    <label>Restrictions Incorrect</label>
+                </value>
+                <value>
+                    <fullName>Security/Verification</fullName>
+                    <default>false</default>
+                    <label>Security/Verification</label>
+                </value>
+                <value>
+                    <fullName>Ski</fullName>
+                    <default>false</default>
+                    <label>Ski</label>
+                </value>
+                <value>
+                    <fullName>Spa</fullName>
+                    <default>false</default>
+                    <label>Spa</label>
+                </value>
+                <value>
+                    <fullName>Special Project</fullName>
+                    <default>false</default>
+                    <label>Special Project</label>
+                </value>
+                <value>
+                    <fullName>Subscriptions</fullName>
+                    <default>false</default>
+                    <label>Subscriptions</label>
+                </value>
+                <value>
+                    <fullName>Taxes &amp; Fees</fullName>
+                    <default>false</default>
+                    <label>Taxes &amp; Fees</label>
+                </value>
+                <value>
+                    <fullName>Tech Bug Triage</fullName>
+                    <default>false</default>
+                    <label>Tech Bug Triage</label>
+                </value>
+                <value>
+                    <fullName>Tier escalation</fullName>
+                    <default>false</default>
+                    <label>Tier escalation</label>
+                </value>
+                <value>
+                    <fullName>Transport</fullName>
+                    <default>false</default>
+                    <label>Transport</label>
+                </value>
+                <value>
+                    <fullName>Vendor Change</fullName>
+                    <default>false</default>
+                    <label>Vendor Change</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Electrical</controllingFieldValue>
+                <valueName>Bar</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Electronic</controllingFieldValue>
+                <valueName>Beach</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Other5</controllingFieldValue>
+                <valueName>River</valueName>
+            </valueSettings>
         </valueSet>
     </fields>
     <fields>
@@ -264,11 +1140,31 @@
         </valueSet>
     </fields>
     <fields>
+        <fullName>Pull_request_test__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Pull request test</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>Reason</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>true</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Report_test_Field__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Report test Field</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
     </fields>
     <fields>
         <fullName>SLAViolation__c</fullName>
@@ -294,6 +1190,23 @@
                 </value>
             </valueSetDefinition>
         </valueSet>
+    </fields>
+    <fields>
+        <fullName>SourceId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Standard_Checkbox__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Standard Checkbox</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
     </fields>
     <fields>
         <fullName>Status</fullName>
@@ -332,6 +1245,29 @@
         <type>Picklist</type>
     </fields>
     <fields>
+        <fullName>Unique_Code__c</fullName>
+        <caseSensitive>true</caseSensitive>
+        <externalId>true</externalId>
+        <label>Unique Code</label>
+        <length>10</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>V9_test_flow__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>V9 test flow</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>Version_8_1__c</fullName>
         <defaultValue>false</defaultValue>
         <externalId>false</externalId>
@@ -340,6 +1276,83 @@
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Week__c</fullName>
+        <externalId>false</externalId>
+        <label>Week</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Sunday</fullName>
+                    <default>false</default>
+                    <label>Sunday</label>
+                </value>
+                <value>
+                    <fullName>Monday</fullName>
+                    <default>false</default>
+                    <label>Monday</label>
+                </value>
+                <value>
+                    <fullName>Tuesday</fullName>
+                    <default>false</default>
+                    <label>Tuesday</label>
+                </value>
+                <value>
+                    <fullName>Jueves</fullName>
+                    <default>false</default>
+                    <label>Jueves</label>
+                </value>
+                <value>
+                    <fullName>Friday</fullName>
+                    <default>false</default>
+                    <label>Friday</label>
+                </value>
+                <value>
+                    <fullName>Saturday</fullName>
+                    <default>false</default>
+                    <label>Saturday</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>delete_test__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>delete test</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>formula_check__c</fullName>
+        <externalId>false</externalId>
+        <formula>true</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>formula check</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>rich__c</fullName>
+        <externalId>false</externalId>
+        <label>rich</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
     </fields>
     <listViews>
         <fullName>AllClosedCases</fullName>
@@ -383,6 +1396,249 @@
         </filters>
         <label>My Open Cases</label>
     </listViews>
+    <listViews>
+        <fullName>NA_Research_Case</fullName>
+        <filterScope>Queue</filterScope>
+        <label>NA - Research</label>
+        <queue>NA_Research</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>ZZZ_list_view</fullName>
+        <columns>CASES.CASE_NUMBER</columns>
+        <columns>NAME</columns>
+        <columns>CASES.SUBJECT</columns>
+        <columns>CASES.STATUS</columns>
+        <columns>CASES.PRIORITY</columns>
+        <columns>CASES.CREATED_DATE</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>CASES.ORIGIN</field>
+            <operation>equals</operation>
+            <value>Email</value>
+        </filters>
+        <label>ZZZ list view</label>
+        <language>en_US</language>
+    </listViews>
+    <recordTypeTrackFeedHistory>false</recordTypeTrackFeedHistory>
+    <recordTypeTrackHistory>true</recordTypeTrackHistory>
+    <recordTypes>
+        <fullName>Record_Type</fullName>
+        <active>true</active>
+        <businessProcess>Support Process</businessProcess>
+        <label>Record Type</label>
+        <picklistValues>
+            <picklist>CI_Picklist_Test__c</picklist>
+            <values>
+                <fullName>AAA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>BBB</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CCC</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>CaseTime__c</picklist>
+            <values>
+                <fullName>Tomorrow</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yesterday</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Case_WWW__c</picklist>
+            <values>
+                <fullName>April</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>February</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>January</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Origin</picklist>
+            <values>
+                <fullName>Email</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Phone</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Web</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>PotentialLiability__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Primary_Category__c</picklist>
+            <values>
+                <fullName>Bar</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Beach</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Priority</picklist>
+            <values>
+                <fullName>Low</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Medium</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Product__c</picklist>
+            <values>
+                <fullName>GC1020</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GC1040</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GC1060</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GC3020</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GC3040</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GC3060</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GC5020</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GC5040</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GC5060</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Reason</picklist>
+            <values>
+                <fullName>Breakdown</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Equipment Complexity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Equipment Design</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Feedback</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Installation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Performance</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SLAViolation__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type</picklist>
+            <values>
+                <fullName>Customer Content Feedback</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Electrical</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Electronic</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other5</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Week__c</picklist>
+            <values>
+                <fullName>Friday</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jueves</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Saturday</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tuesday</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
     <searchLayouts>
         <customTabListAdditionalFields>CASES.CASE_NUMBER</customTabListAdditionalFields>
         <customTabListAdditionalFields>CASES.SUBJECT</customTabListAdditionalFields>
@@ -404,7 +1660,7 @@
         <searchResultsAdditionalFields>CASES.CREATED_DATE</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
     </searchLayouts>
-    <sharingModel>ReadWriteTransfer</sharingModel>
+    <sharingModel>Private</sharingModel>
     <webLinks>
         <fullName>UpsellCrosssellOpportunity</fullName>
         <availability>online</availability>
