@@ -81,7 +81,7 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>Login_IP_restrictions__c</field>
+                <field>Pckage_field__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>

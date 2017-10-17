@@ -78,6 +78,7 @@
     </businessProcesses>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>true</enableFeeds>
+    <externalSharingModel>Private</externalSharingModel>
     <fields>
         <fullName>AccountId</fullName>
         <trackFeedHistory>false</trackFeedHistory>
@@ -110,6 +111,57 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>CI_Picklist_Test__c</fullName>
+        <externalId>false</externalId>
+        <label>CI Picklist Test</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>AAA</fullName>
+                    <default>false</default>
+                    <label>AAA</label>
+                </value>
+                <value>
+                    <fullName>BBB</fullName>
+                    <default>false</default>
+                    <label>BBB</label>
+                </value>
+                <value>
+                    <fullName>CCC</fullName>
+                    <default>false</default>
+                    <label>CCC</label>
+                </value>
+                <value>
+                    <fullName>DDD</fullName>
+                    <default>false</default>
+                    <label>DDD</label>
+                </value>
+                <value>
+                    <fullName>EEE</fullName>
+                    <default>false</default>
+                    <label>EEE</label>
+                </value>
+                <value>
+                    <fullName>FFF</fullName>
+                    <default>false</default>
+                    <label>FFF</label>
+                </value>
+                <value>
+                    <fullName>GGG</fullName>
+                    <default>false</default>
+                    <label>GGG</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>CaseTime__c</fullName>
         <externalId>false</externalId>
         <label>CaseTime</label>
@@ -128,6 +180,16 @@
         <defaultValue>false</defaultValue>
         <externalId>false</externalId>
         <label>Case AAA</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Case_BBB__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Case BBB</label>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
@@ -274,6 +336,16 @@
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Pckage_field__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Pckage field</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
     </fields>
     <fields>
         <fullName>PotentialLiability__c</fullName>
@@ -892,12 +964,10 @@
             </valueSetDefinition>
             <valueSettings>
                 <controllingFieldValue>Electrical</controllingFieldValue>
-                <controllingFieldValue>Customer Content Feedback</controllingFieldValue>
                 <valueName>Bar</valueName>
             </valueSettings>
             <valueSettings>
                 <controllingFieldValue>Electronic</controllingFieldValue>
-                <controllingFieldValue>Customer Content Feedback</controllingFieldValue>
                 <valueName>Beach</valueName>
             </valueSettings>
             <valueSettings>
@@ -907,14 +977,6 @@
             <valueSettings>
                 <controllingFieldValue>Customer Content Feedback</controllingFieldValue>
                 <valueName>Mountain</valueName>
-            </valueSettings>
-            <valueSettings>
-                <controllingFieldValue>Customer Content Feedback</controllingFieldValue>
-                <valueName>Add Access</valueName>
-            </valueSettings>
-            <valueSettings>
-                <controllingFieldValue>Customer Content Feedback</controllingFieldValue>
-                <valueName>Add Contact</valueName>
             </valueSettings>
         </valueSet>
     </fields>
@@ -1136,6 +1198,18 @@
                     <default>false</default>
                     <label>Saturday</label>
                 </value>
+                <value>
+                    <fullName>Thursday</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Thursday</label>
+                </value>
+                <value>
+                    <fullName>Wednesday</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Wednesday</label>
+                </value>
             </valueSetDefinition>
         </valueSet>
     </fields>
@@ -1209,11 +1283,168 @@
         <label>ZZZ list view</label>
         <language>en_US</language>
     </listViews>
+    <recordTypeTrackFeedHistory>false</recordTypeTrackFeedHistory>
+    <recordTypeTrackHistory>true</recordTypeTrackHistory>
     <recordTypes>
         <fullName>Record_Type</fullName>
         <active>true</active>
         <businessProcess>Support Process</businessProcess>
         <label>Record Type</label>
+        <picklistValues>
+            <picklist>CaseTime__c</picklist>
+            <values>
+                <fullName>Tomorrow</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yesterday</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Origin</picklist>
+            <values>
+                <fullName>Email</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Phone</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Web</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>PotentialLiability__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Primary_Category__c</picklist>
+            <values>
+                <fullName>Bar</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Beach</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Priority</picklist>
+            <values>
+                <fullName>Low</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Medium</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Product__c</picklist>
+            <values>
+                <fullName>GC1020</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GC1040</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GC1060</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GC3020</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GC3040</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GC3060</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GC5020</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GC5040</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GC5060</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Reason</picklist>
+            <values>
+                <fullName>Breakdown</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Equipment Complexity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Equipment Design</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Feedback</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Installation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Performance</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SLAViolation__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type</picklist>
+            <values>
+                <fullName>Electrical</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Electronic</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other5</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
         <picklistValues>
             <picklist>Week__c</picklist>
             <values>
@@ -1231,28 +1462,6 @@
             <values>
                 <fullName>Tuesday</fullName>
                 <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
-            <picklist>CaseTime__c</picklist>
-            <values>
-                <fullName>Tomorrow</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Yesterday</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
-            <picklist>Priority</picklist>
-            <values>
-                <fullName>Low</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Medium</fullName>
-                <default>true</default>
             </values>
         </picklistValues>
     </recordTypes>

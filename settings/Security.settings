@@ -28,9 +28,12 @@
         <enableXssProtection>true</enableXssProtection>
         <enforceIpRangesEveryRequest>false</enforceIpRangesEveryRequest>
         <forceLogoutOnSessionTimeout>true</forceLogoutOnSessionTimeout>
-        <forceRelogin>false</forceRelogin>
+        <forceRelogin>true</forceRelogin>
+        <identityConfirmationOnTwoFactorRegistrationEnabled>true</identityConfirmationOnTwoFactorRegistrationEnabled>
         <lockSessionsToDomain>true</lockSessionsToDomain>
         <lockSessionsToIp>false</lockSessionsToIp>
+        <requireHttpOnly>false</requireHttpOnly>
+        <requireHttps>true</requireHttps>
         <securityCentralKillSession>true</securityCentralKillSession>
         <sessionTimeout>TwoHours</sessionTimeout>
     </sessionSettings>

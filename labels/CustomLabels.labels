@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>ACE_Product_Translator_Requesting_System</fullName>
+        <categories>ACE</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ACE Product Translator Requesting System</shortDescription>
+        <value>SFI</value>
+    </labels>
+    <labels>
+        <fullName>CreatedBy_Name</fullName>
+        <categories>Communities</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CreatedBy.Name</shortDescription>
+        <value>CreatedBy.Name</value>
+    </labels>
+    <labels>
+        <fullName>IFW_PCAL</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>IFW_PCAL</shortDescription>
+        <value>https://api-test.schneider-electric.com/rest/erp/salesorder/3.0/salesorders/prices</value>
+    </labels>
+    <labels>
+        <fullName>Opportunity_Name_r_Proposal_Name_c</fullName>
+        <categories>Communities</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Opportunity_Name__r.Proposal_Name__c</shortDescription>
+        <value>Opportunity_Name__r.Proposal_Name__c</value>
+    </labels>
+    <labels>
+        <fullName>Owner</fullName>
+        <categories>Communities</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Owner</shortDescription>
+        <value>Owner</value>
+    </labels>
+    <labels>
+        <fullName>QuoteDeleteErrorMessage</fullName>
+        <categories>SPDRevLevelsInfoHandler class</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Quote Delete Error Message</shortDescription>
+        <value>You can only delete a Quote which is in Draft status and have SPD Rev Number as 0.</value>
+    </labels>
+    <labels>
+        <fullName>Quote_Type_Id</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Quote Type Id</shortDescription>
+        <value>00N4100000UY6pf</value>
+    </labels>
+    <labels>
+        <fullName>se_cl_Buy_America_justification</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Buy America justification</shortDescription>
+        <value>Buy America justification</value>
+    </labels>
+    <labels>
+        <fullName>se_cl_City_co</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>City</shortDescription>
+        <value>City</value>
+    </labels>
+    <labels>
+        <fullName>se_cl_DELETE</fullName>
+        <categories>Communities</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>DELETE</shortDescription>
+        <value>DELETE</value>
+    </labels>
+    <labels>
+        <fullName>se_cl_Message</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Message</shortDescription>
+        <value>Message</value>
+    </labels>
+    <labels>
+        <fullName>se_cl_Quote_name</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Quote name:</shortDescription>
+        <value>Quote name:</value>
+    </labels>
+    <labels>
+        <fullName>se_cl_Status_co</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Status:</shortDescription>
+        <value>Status:</value>
+    </labels>
+    <labels>
+        <fullName>se_cl_county</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>County</shortDescription>
+        <value>County</value>
+    </labels>
+    <labels>
+        <fullName>se_cl_zip_code</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>se_cl_zip_code</shortDescription>
+        <value>Zip Code</value>
+    </labels>
+    <labels>
+        <fullName>status_c</fullName>
+        <categories>Communities</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>status__c</shortDescription>
+        <value>status__c</value>
+    </labels>
+</CustomLabels>

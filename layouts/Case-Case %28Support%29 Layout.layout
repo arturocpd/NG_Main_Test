@@ -95,6 +95,10 @@
                 <behavior>Edit</behavior>
                 <field>Version_8_1__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Pckage_field__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
