@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
     <labels>
+        <fullName>AR_Custom_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>AR Custom Label</shortDescription>
+        <value>This AR custom label</value>
+    </labels>
+    <labels>
         <fullName>AR_Custom_Label_from_Dev3</fullName>
         <language>en_US</language>
         <protected>true</protected>
@@ -13,6 +20,13 @@
         <protected>true</protected>
         <shortDescription>New CL from Dev3</shortDescription>
         <value>New CL from Dev3</value>
+    </labels>
+    <labels>
+        <fullName>Record_Type</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Record Type</shortDescription>
+        <value>Record Type</value>
     </labels>
     <labels>
         <fullName>Translation_Test</fullName>
