@@ -57,6 +57,10 @@
                 <behavior>Edit</behavior>
                 <field>CaseId</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>ServiceContractId</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
@@ -74,6 +78,10 @@
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>AssetId</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>EntitlementId</field>
             </layoutItems>
         </layoutColumns>
         <style>TwoColumnsLeftToRight</style>
