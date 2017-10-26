@@ -144,6 +144,10 @@
                 <behavior>Edit</behavior>
                 <field>Case_JJJ__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Case_KKK__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
