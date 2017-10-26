@@ -34,6 +34,5 @@
         <label>cstm field translated daMOD</label>
         <name>cstm_field__c</name>
     </fields>
-    <gender><!-- Neuter --></gender>
     <nameFieldLabel><!-- CSTM Object Name --></nameFieldLabel>
 </CustomObjectTranslation>
