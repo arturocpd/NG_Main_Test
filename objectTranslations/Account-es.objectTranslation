@@ -11,7 +11,7 @@
     <fields>
         <caseValues>
             <plural>false</plural>
-            <value>Acceso a cuentames</value>
+            <value></value>
         </caseValues>
         <gender>Masculine</gender>
         <name>account_access</name>
