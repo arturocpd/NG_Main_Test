@@ -57,6 +57,10 @@
         <name>Case_KKK__c</name>
     </fields>
     <fields>
+        <label><!-- Case LLL --></label>
+        <name>Case_LLL__c</name>
+    </fields>
+    <fields>
         <label><!-- Case MMM --></label>
         <name>Case_MMM__c</name>
     </fields>
