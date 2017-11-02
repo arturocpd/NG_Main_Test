@@ -1039,6 +1039,11 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>Contact.IBM_ID_Blue_ID__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Contact.Jigsaw</field>
         <readable>true</readable>
@@ -2119,6 +2124,16 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>OrderLineItems__c.AssetLineItemId__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>OrderLineItems__c.ProposalId__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Product2.Description</field>
         <readable>true</readable>
@@ -2157,6 +2172,11 @@
         <editable>true</editable>
         <field>Product2.StockKeepingUnit</field>
         <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Quote_Proposal__c.Provisioning_Contact__c</field>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -2738,6 +2758,9 @@
         <layout>Asset-Asset Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>AssetLineItem__c-AssetLineItem Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>CSTM_Object__c-CSTM Object Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -2864,6 +2887,9 @@
         <layout>OrderItem-Order Product Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>OrderLineItems__c-OrderLineItems Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>PartnerFundAllocation-Partner Fund Allocation Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -2886,6 +2912,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>QuickText-Quick Text Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Quote_Proposal__c-Quote%2FProposal Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Scorecard-Scorecard Layout</layout>
