@@ -4,7 +4,6 @@
     <label>Sales Console</label>
     <navType>Console</navType>
     <tab>standard-home</tab>
-    <tab>standard-Feed</tab>
     <tab>standard-Lead</tab>
     <tab>standard-Account</tab>
     <tab>standard-Contact</tab>
