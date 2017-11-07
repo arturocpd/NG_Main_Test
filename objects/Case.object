@@ -1675,6 +1675,14 @@
         <picklistValues>
             <picklist>Type</picklist>
             <values>
+                <fullName>3rd Party</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3rd Party - Brand Change%2FReview</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Customer Content Feedback</fullName>
                 <default>false</default>
             </values>
