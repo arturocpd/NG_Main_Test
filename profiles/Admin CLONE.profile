@@ -2,7 +2,7 @@
 <Profile xmlns="http://soap.sforce.com/2006/04/metadata">
     <custom>true</custom>
     <layoutAssignments>
-        <layout>Contact-Admin clone Layout</layout>
+        <layout>Contact-Contact %28Marketing%29 Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Opportunity-Admin Clone Layout</layout>
