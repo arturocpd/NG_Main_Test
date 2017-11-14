@@ -108,6 +108,11 @@
         <type>Text</type>
     </nameField>
     <pluralLabel>Dinners</pluralLabel>
+    <recordTypes>
+        <fullName>Dinner_RT</fullName>
+        <active>true</active>
+        <label>Dinner RT</label>
+    </recordTypes>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
