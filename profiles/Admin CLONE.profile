@@ -2,11 +2,19 @@
 <Profile xmlns="http://soap.sforce.com/2006/04/metadata">
     <custom>true</custom>
     <layoutAssignments>
+        <layout>CSTM_Object__c-CSTM Layout 1</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Contact-Contact %28Marketing%29 Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Dinner__c-Dinner Layout</layout>
     </layoutAssignments>
+    <recordTypeVisibilities>
+        <default>true</default>
+        <recordType>CSTM_Object__c.CSTM_New_layout</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>true</default>
         <recordType>Dinner__c.Dinner_RT</recordType>
