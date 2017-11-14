@@ -8,6 +8,9 @@
         <layout>Contact-Contact %28Marketing%29 Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Contract-PageLayout1</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Dinner__c-Dinner Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -26,6 +29,11 @@
     <recordTypeVisibilities>
         <default>true</default>
         <recordType>CSTM_Object__c.CSTM_New_layout</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>true</default>
+        <recordType>Contract.RecordType1</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
