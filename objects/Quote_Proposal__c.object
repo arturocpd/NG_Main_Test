@@ -77,6 +77,11 @@
         <active>true</active>
         <label>RecordType1</label>
     </recordTypes>
+    <recordTypes>
+        <fullName>RecordType2</fullName>
+        <active>false</active>
+        <label>RecordType2</label>
+    </recordTypes>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>

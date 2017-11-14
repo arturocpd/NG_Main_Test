@@ -19,6 +19,10 @@
     <layoutAssignments>
         <layout>Quote_Proposal__c-PageLayout1</layout>
     </layoutAssignments>
+    <layoutAssignments>
+        <layout>Quote_Proposal__c-Quote%2FProposal Layout</layout>
+        <recordType>Quote_Proposal__c.RecordType2</recordType>
+    </layoutAssignments>
     <recordTypeVisibilities>
         <default>true</default>
         <recordType>CSTM_Object__c.CSTM_New_layout</recordType>
