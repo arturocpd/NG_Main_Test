@@ -2761,7 +2761,11 @@
         <layout>AssetLineItem__c-AssetLineItem Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>CSTM_Object__c-CSTM Object Layout</layout>
+        <layout>CSTM_Object__c-CSTM Layout 1</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CSTM_Object__c-CSTM Layout 1</layout>
+        <recordType>CSTM_Object__c.CSTM_New_layout</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Campaign-Campaign Layout</layout>
@@ -2798,7 +2802,11 @@
         <layout>ContentVersion-Content Version Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Contract-Contract Layout</layout>
+        <layout>Contract-PageLayout1</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Contract-PageLayout1</layout>
+        <recordType>Contract.RecordType1</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>ContractLineItem-Contract Line Item Layout</layout>
@@ -2808,6 +2816,10 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Dinner__c-Dinner Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Dinner__c-Dinner Layout</layout>
+        <recordType>Dinner__c.Dinner_RT</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>DuplicateRecordSet-Duplicate Record Set Layout</layout>
@@ -2884,10 +2896,18 @@
         <layout>Order-Order Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Order-PageLayout1</layout>
+        <recordType>Order.RecordType1</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>OrderItem-Order Product Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>OrderLineItems__c-OrderLineItems Layout</layout>
+        <layout>OrderLineItems__c-PageLayout1</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>OrderLineItems__c-PageLayout1</layout>
+        <recordType>OrderLineItems__c.RecordType1</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>PartnerFundAllocation-Partner Fund Allocation Layout</layout>
@@ -2914,7 +2934,15 @@
         <layout>QuickText-Quick Text Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Quote_Proposal__c-PageLayout1</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Quote_Proposal__c-PageLayout1</layout>
+        <recordType>Quote_Proposal__c.RecordType1</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Quote_Proposal__c-Quote%2FProposal Layout</layout>
+        <recordType>Quote_Proposal__c.RecordType2</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Scorecard-Scorecard Layout</layout>
@@ -3434,7 +3462,22 @@
     </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>true</default>
+        <recordType>CSTM_Object__c.CSTM_New_layout</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>true</default>
         <recordType>Case.Record_Type</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>true</default>
+        <recordType>Contract.RecordType1</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>true</default>
+        <recordType>Dinner__c.Dinner_RT</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
@@ -3460,6 +3503,21 @@
     <recordTypeVisibilities>
         <default>true</default>
         <recordType>Metric.Progress</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>true</default>
+        <recordType>Order.RecordType1</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>true</default>
+        <recordType>OrderLineItems__c.RecordType1</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>true</default>
+        <recordType>Quote_Proposal__c.RecordType1</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>

@@ -104,6 +104,12 @@
         <type>Text</type>
     </nameField>
     <pluralLabel>Dinners</pluralLabel>
+    <recordTypeTrackHistory>false</recordTypeTrackHistory>
+    <recordTypes>
+        <fullName>Dinner_RT</fullName>
+        <active>true</active>
+        <label>Dinner RT</label>
+    </recordTypes>
     <searchLayouts/>
     <sharingModel>Private</sharingModel>
     <visibility>Public</visibility>

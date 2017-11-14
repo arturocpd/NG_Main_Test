@@ -41,4 +41,8 @@
     </fields>
     <gender><!-- Neuter --></gender>
     <nameFieldLabel><!-- Dinner Name --></nameFieldLabel>
+    <recordTypes>
+        <label><!-- Dinner RT --></label>
+        <name>Dinner_RT</name>
+    </recordTypes>
 </CustomObjectTranslation>

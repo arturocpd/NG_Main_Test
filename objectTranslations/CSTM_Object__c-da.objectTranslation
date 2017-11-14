@@ -36,4 +36,8 @@
     </fields>
     <gender><!-- Neuter --></gender>
     <nameFieldLabel><!-- CSTM Object Name --></nameFieldLabel>
+    <recordTypes>
+        <label><!-- CSTM New layout --></label>
+        <name>CSTM_New_layout</name>
+    </recordTypes>
 </CustomObjectTranslation>

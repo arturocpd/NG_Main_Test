@@ -18,4 +18,8 @@
         <relationshipLabel><!-- Dinners --></relationshipLabel>
     </fields>
     <gender>Feminine</gender>
+    <recordTypes>
+        <label><!-- Dinner RT --></label>
+        <name>Dinner_RT</name>
+    </recordTypes>
 </CustomObjectTranslation>

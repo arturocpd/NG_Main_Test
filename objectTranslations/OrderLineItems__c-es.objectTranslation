@@ -19,4 +19,8 @@
         <relationshipLabel><!-- OrderLineItems --></relationshipLabel>
     </fields>
     <gender>Feminine</gender>
+    <recordTypes>
+        <label><!-- RecordType1 --></label>
+        <name>RecordType1</name>
+    </recordTypes>
 </CustomObjectTranslation>
