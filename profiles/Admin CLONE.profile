@@ -11,6 +11,10 @@
         <layout>Contract-PageLayout1</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Contract-PageLayout1</layout>
+        <recordType>Contract.RecordType1</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Dinner__c-Dinner Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
