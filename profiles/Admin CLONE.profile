@@ -13,6 +13,9 @@
     <layoutAssignments>
         <layout>Opportunity-Admin Clone Layout</layout>
     </layoutAssignments>
+    <layoutAssignments>
+        <layout>OrderLineItems__c-PageLayout1</layout>
+    </layoutAssignments>
     <recordTypeVisibilities>
         <default>true</default>
         <recordType>CSTM_Object__c.CSTM_New_layout</recordType>
@@ -21,6 +24,11 @@
     <recordTypeVisibilities>
         <default>true</default>
         <recordType>Dinner__c.Dinner_RT</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>true</default>
+        <recordType>OrderLineItems__c.RecordType1</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
     <userLicense>Salesforce</userLicense>
