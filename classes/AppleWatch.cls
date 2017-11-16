@@ -9,7 +9,7 @@ Public Class AppleWatch{
         insert t;
         
         /*ngarturodev1cpd@gmail.com */
-        /*Test Back Promote 2nd UpdateXXX*/
+        /*Test Back Promote 2nd UpdateYYY*/
     }
 
  
