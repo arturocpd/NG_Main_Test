@@ -8,8 +8,8 @@ Public Class AppleWatch{
         t.WhatId      = opp.Id;
         insert t;
         
-        /*{!Environment.VAR_Username} */
-        /*Extra comment MOD*/
+        /*{!Environment.UsernameXXX} */
+        /*Test Back Promote 2nd UpdateYYY*/
     }
 
  
