@@ -91,5 +91,12 @@
     </recordTypes>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
+    <validationRules>
+        <fullName>OLI_validation_rule</fullName>
+        <active>true</active>
+        <description>This is OLI validation</description>
+        <errorConditionFormula>false</errorConditionFormula>
+        <errorMessage>this is false</errorMessage>
+    </validationRules>
     <visibility>Public</visibility>
 </CustomObject>
