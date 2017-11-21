@@ -23,4 +23,8 @@
         <label><!-- RecordType1 --></label>
         <name>RecordType1</name>
     </recordTypes>
+    <validationRules>
+        <errorMessage>esto es falso MOD</errorMessage>
+        <name>OLI_validation_rule</name>
+    </validationRules>
 </CustomObjectTranslation>
