@@ -10,7 +10,7 @@
     </caseValues>
     <gender>Feminine</gender>
     <validationRules>
-        <errorMessage>esto es falso</errorMessage>
+        <errorMessage>this is false</errorMessage>
         <name>OLI_validation_rule</name>
     </validationRules>
 </CustomObjectTranslation>
