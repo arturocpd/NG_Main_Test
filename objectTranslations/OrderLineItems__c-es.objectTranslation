@@ -24,7 +24,7 @@
         <name>RecordType1</name>
     </recordTypes>
     <validationRules>
-        <errorMessage>esto es falso MOD</errorMessage>
+        <errorMessage>this is false</errorMessage>
         <name>OLI_validation_rule</name>
     </validationRules>
 </CustomObjectTranslation>

@@ -73,6 +73,10 @@
         <name>Case_OOO__c</name>
     </fields>
     <fields>
+        <label><!-- Case_RRR --></label>
+        <name>Case_RRR__c</name>
+    </fields>
+    <fields>
         <label><!-- Case WWW --></label>
         <name>Case_WWW__c</name>
         <picklistValues>
