@@ -53,11 +53,35 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>ReadWrite</externalSharingModel>
+    <fieldSets>
+        <fullName>OLI_field_set</fullName>
+        <availableFields>
+            <field>Name</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>ProposalId__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <description>Here</description>
+        <label>OLI field set</label>
+    </fieldSets>
     <fields>
         <fullName>AssetLineItemId__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <externalId>false</externalId>
         <label>AssetLineItemId</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>$Source.CreatedById</field>
+                <operation>notEqual</operation>
+                <value></value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
         <referenceTo>AssetLineItem__c</referenceTo>
         <relationshipLabel>OrderLineItems</relationshipLabel>
         <relationshipName>OrderLineItems</relationshipName>
@@ -77,13 +101,13 @@
         <trackTrending>false</trackTrending>
         <type>Lookup</type>
     </fields>
-    <gender>Feminine</gender>
-    <label>OrderLineItems</label>
+    <gender>Masculine</gender>
+    <label>OrderLineItemsESP</label>
     <nameField>
         <label>OrderLineItems Name</label>
         <type>Text</type>
     </nameField>
-    <pluralLabel>OrderLineItems</pluralLabel>
+    <pluralLabel>OrderLineItemsESP</pluralLabel>
     <recordTypes>
         <fullName>RecordType1</fullName>
         <active>true</active>
@@ -91,6 +115,10 @@
     </recordTypes>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
+    <sharingReasons>
+        <fullName>Sharing_reason__c</fullName>
+        <label>Sharing reason</label>
+    </sharingReasons>
     <validationRules>
         <fullName>OLI_validation_rule</fullName>
         <active>true</active>
@@ -99,4 +127,24 @@
         <errorMessage>this is false 2</errorMessage>
     </validationRules>
     <visibility>Public</visibility>
+    <webLinks>
+        <fullName>link</fullName>
+        <availability>online</availability>
+        <description>this is a link</description>
+        <displayType>link</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>link</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>www.google.com</url>
+    </webLinks>
 </CustomObject>

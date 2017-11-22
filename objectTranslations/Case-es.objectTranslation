@@ -61,10 +61,6 @@
         <name>Case_JJJ__c</name>
     </fields>
     <fields>
-        <label><!-- Case KKK --></label>
-        <name>Case_KKK__c</name>
-    </fields>
-    <fields>
         <label><!-- Case LLL --></label>
         <name>Case_LLL__c</name>
     </fields>
@@ -727,6 +723,10 @@
             <masterLabel>Tuesday</masterLabel>
             <translation><!-- Tuesday --></translation>
         </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Case KKK --></label>
+        <name>case_KKK__c</name>
     </fields>
     <fields>
         <label><!-- delete test --></label>
