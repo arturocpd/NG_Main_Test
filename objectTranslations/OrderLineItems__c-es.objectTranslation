@@ -9,8 +9,12 @@
         <value>OrderLineItems</value>
     </caseValues>
     <gender>Feminine</gender>
+    <recordTypes>
+        <label>tipo de registro</label>
+        <name>RecordType1</name>
+    </recordTypes>
     <validationRules>
-        <errorMessage>this is false</errorMessage>
+        <errorMessage>this is false MOD</errorMessage>
         <name>OLI_validation_rule</name>
     </validationRules>
 </CustomObjectTranslation>
