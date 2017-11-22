@@ -96,7 +96,7 @@
         <active>true</active>
         <description>This is OLI validation</description>
         <errorConditionFormula>false</errorConditionFormula>
-        <errorMessage>this is false</errorMessage>
+        <errorMessage>this is false 2</errorMessage>
     </validationRules>
     <visibility>Public</visibility>
 </CustomObject>
