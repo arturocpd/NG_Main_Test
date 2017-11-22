@@ -1,12 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <caseValues>
-        <plural>false</plural>
-        <value>OrderLineItems</value>
+        <plural>true</plural>
+        <value>OrderLineItemsESP</value>
     </caseValues>
     <caseValues>
-        <plural>true</plural>
-        <value>OrderLineItems</value>
+        <plural>false</plural>
+        <value>OrderLineItemsESP</value>
     </caseValues>
-    <gender>Feminine</gender>
+    <gender>Masculine</gender>
+    <nameFieldLabel>OrderLineItems Nombre</nameFieldLabel>
+    <recordTypes>
+        <label>tipo de registro</label>
+        <name>RecordType1</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage>this is false MOD</errorMessage>
+        <name>OLI_validation_rule</name>
+    </validationRules>
 </CustomObjectTranslation>
