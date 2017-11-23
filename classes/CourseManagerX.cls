@@ -1,7 +1,7 @@
 public class CourseManagerX {
 
     static void CreateManager(){
-    /*test CI*/
+    /*this is a new comment TEST2222 */
     }
         
 }
