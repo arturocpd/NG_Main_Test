@@ -203,6 +203,10 @@
                 <behavior>Edit</behavior>
                 <field>Case_RRR__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Case_QQQ__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>

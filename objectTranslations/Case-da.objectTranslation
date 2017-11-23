@@ -69,6 +69,10 @@
         <name>Case_OOO__c</name>
     </fields>
     <fields>
+        <label><!-- Case QQQ --></label>
+        <name>Case_QQQ__c</name>
+    </fields>
+    <fields>
         <label><!-- Case_RRR --></label>
         <name>Case_RRR__c</name>
     </fields>
