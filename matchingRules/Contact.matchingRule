@@ -30,4 +30,14 @@
         </matchingRuleItems>
         <ruleStatus>Inactive</ruleStatus>
     </matchingRules>
+    <matchingRules>
+        <fullName>Contact_Rule_D</fullName>
+        <label>Contact Rule D</label>
+        <matchingRuleItems>
+            <blankValueBehavior>NullNotAllowed</blankValueBehavior>
+            <fieldName>MailingPostalCode</fieldName>
+            <matchingMethod>Exact</matchingMethod>
+        </matchingRuleItems>
+        <ruleStatus>Inactive</ruleStatus>
+    </matchingRules>
 </MatchingRules>
