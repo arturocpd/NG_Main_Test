@@ -1,28 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>CaseCMT.CMT_record</members>
-        <name>CustomMetadata</name>
-    </types>
-    <types>
-        <members>CaseCMT__mdt</members>
-        <name>CustomObject</name>
-    </types>
-    <types>
-        <members>CaseCMT__mdt-es</members>
-        <name>CustomObjectTranslation</name>
-    </types>
-    <types>
-        <members>CaseCMT__mdt-CaseCMT Layout</members>
-        <name>Layout</name>
-    </types>
-    <types>
-        <members>CaseCMT__mdt.All</members>
-        <name>ListView</name>
-    </types>
-    <types>
-        <members>CaseCMT__mdt</members>
-        <name>Workflow</name>
+        <members>Case.Create_Case_AR_from_object</members>
+        <name>QuickAction</name>
     </types>
     <version>40.0</version>
 </Package>
