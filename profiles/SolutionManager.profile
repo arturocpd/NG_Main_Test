@@ -649,6 +649,11 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>Case.Add_metadata_field__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Case.Admin_Checkbox__c</field>
         <readable>false</readable>
@@ -711,11 +716,6 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Case.Case_QQQ__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Case.Case_RRR__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -961,6 +961,16 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Case.case_KKK__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Case.case_RRR__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Case.commit_file_field__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>

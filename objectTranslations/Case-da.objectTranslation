@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <fields>
+        <label><!-- Add metadata field --></label>
+        <name>Add_metadata_field__c</name>
+    </fields>
+    <fields>
         <label><!-- Admin Checkbox --></label>
         <name>Admin_Checkbox__c</name>
     </fields>
@@ -71,10 +75,6 @@
     <fields>
         <label><!-- Case QQQ --></label>
         <name>Case_QQQ__c</name>
-    </fields>
-    <fields>
-        <label><!-- Case_RRR --></label>
-        <name>Case_RRR__c</name>
     </fields>
     <fields>
         <label><!-- Case WWW --></label>
@@ -723,6 +723,14 @@
     <fields>
         <label><!-- Case KKK --></label>
         <name>case_KKK__c</name>
+    </fields>
+    <fields>
+        <label><!-- Case_RRR --></label>
+        <name>case_RRR__c</name>
+    </fields>
+    <fields>
+        <label><!-- commit file field --></label>
+        <name>commit_file_field__c</name>
     </fields>
     <fields>
         <label><!-- delete test --></label>
