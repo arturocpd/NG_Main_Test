@@ -1337,6 +1337,16 @@
         </valueSet>
     </fields>
     <fields>
+        <fullName>commit_file_field__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>commit file field</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>delete_test__c</fullName>
         <defaultValue>false</defaultValue>
         <externalId>false</externalId>
