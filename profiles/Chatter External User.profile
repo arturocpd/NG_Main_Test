@@ -123,7 +123,7 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>CourseManagerX</apexClass>
+        <apexClass>CourseManagerXY</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
