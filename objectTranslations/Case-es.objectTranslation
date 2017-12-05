@@ -61,6 +61,10 @@
         <name>Case_BBB__c</name>
     </fields>
     <fields>
+        <label><!-- Case EEE --></label>
+        <name>Case_EEE__c</name>
+    </fields>
+    <fields>
         <label><!-- Case JJJ --></label>
         <name>Case_JJJ__c</name>
     </fields>
