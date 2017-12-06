@@ -85,8 +85,16 @@
         <name>Case_OOO__c</name>
     </fields>
     <fields>
+        <label><!-- Case PPP --></label>
+        <name>Case_PPP__c</name>
+    </fields>
+    <fields>
         <label><!-- Case QQQ --></label>
         <name>Case_QQQ__c</name>
+    </fields>
+    <fields>
+        <label><!-- Case UUU --></label>
+        <name>Case_UUU__c</name>
     </fields>
     <fields>
         <label><!-- Case WWW --></label>
