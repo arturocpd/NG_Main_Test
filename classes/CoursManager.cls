@@ -1,7 +1,7 @@
 public class CoursManager {
 
     static void CreateManager(){
-    /*this is a uywertjg*/
+    /*this is a sadfs*/
     }
         
 }
