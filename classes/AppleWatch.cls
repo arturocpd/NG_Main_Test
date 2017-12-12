@@ -9,7 +9,7 @@ Public Class AppleWatch{
         insert t;
         
         /*{!Environment.VAR_Username} */
-        /*WRONG update */
+        /*VALID update */
         
     }
 
