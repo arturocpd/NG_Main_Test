@@ -134,6 +134,16 @@
         <type>Checkbox</type>
     </fields>
     <fields>
+        <fullName>Case_BMW__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Case BMW</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>Case_OOO__c</fullName>
         <defaultValue>false</defaultValue>
         <externalId>false</externalId>
