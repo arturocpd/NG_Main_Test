@@ -196,6 +196,34 @@
         <trackHistory>false</trackHistory>
         <type>Lookup</type>
     </fields>
+    <recordTypes>
+        <fullName>WOLI_RT</fullName>
+        <active>true</active>
+        <label>WOLI RT</label>
+        <picklistValues>
+            <picklist>Status</picklist>
+            <values>
+                <fullName>Canceled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cannot Complete</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>WOLI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>WOLI2</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
     <searchLayouts>
         <customTabListAdditionalFields>WorkOrder</customTabListAdditionalFields>
         <lookupDialogsAdditionalFields>WorkOrder</lookupDialogsAdditionalFields>
