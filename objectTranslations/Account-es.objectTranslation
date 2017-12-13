@@ -546,6 +546,10 @@
         <name>New_Validation_Acc</name>
     </validationRules>
     <validationRules>
+        <errorMessage><!-- This is always false --></errorMessage>
+        <name>Prevent_Edit_to_Relationship_Fields</name>
+    </validationRules>
+    <validationRules>
         <errorMessage>Debes introducir un nombre para la cuentaaa</errorMessage>
         <name>Validation</name>
     </validationRules>
