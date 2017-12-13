@@ -1018,7 +1018,7 @@
     <validationRules>
         <fullName>Prevent_Edit_to_Relationship_Fields</fullName>
         <active>true</active>
-        <errorConditionFormula>false</errorConditionFormula>
+        <errorConditionFormula>ISBLANK(Name)</errorConditionFormula>
         <errorMessage>This is always false</errorMessage>
     </validationRules>
     <validationRules>
