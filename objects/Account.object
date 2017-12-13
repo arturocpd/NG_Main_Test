@@ -1016,6 +1016,12 @@
         <errorMessage>This error will be never displayed.</errorMessage>
     </validationRules>
     <validationRules>
+        <fullName>Prevent_Edit_to_Relationship_Fields</fullName>
+        <active>true</active>
+        <errorConditionFormula>false</errorConditionFormula>
+        <errorMessage>This is always false</errorMessage>
+    </validationRules>
+    <validationRules>
         <fullName>Validation</fullName>
         <active>false</active>
         <errorConditionFormula>Name  &lt;&gt; &apos;&apos;</errorConditionFormula>
