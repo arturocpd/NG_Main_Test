@@ -44,4 +44,10 @@
         <label>Canceled</label>
         <groupingString>Canceled</groupingString>
     </standardValue>
+    <standardValue>
+        <fullName>WO Status custom</fullName>
+        <default>false</default>
+        <label>WO Status custom</label>
+        <groupingString>New</groupingString>
+    </standardValue>
 </StandardValueSet>
