@@ -18,4 +18,45 @@
     <tab>standard-File</tab>
     <uiType>Lightning</uiType>
     <utilityBar>LightningSalesConsole_UtilityBar</utilityBar>
+    <workspaceMappings>
+        <mapping>
+            <tab>standard-Account</tab>
+        </mapping>
+        <mapping>
+            <tab>standard-Campaign</tab>
+        </mapping>
+        <mapping>
+            <tab>standard-CollaborationGroup</tab>
+        </mapping>
+        <mapping>
+            <tab>standard-Contact</tab>
+        </mapping>
+        <mapping>
+            <tab>standard-Dashboard</tab>
+        </mapping>
+        <mapping>
+            <tab>standard-Event</tab>
+        </mapping>
+        <mapping>
+            <tab>standard-Feed</tab>
+        </mapping>
+        <mapping>
+            <tab>standard-File</tab>
+        </mapping>
+        <mapping>
+            <tab>standard-Lead</tab>
+        </mapping>
+        <mapping>
+            <tab>standard-Opportunity</tab>
+        </mapping>
+        <mapping>
+            <tab>standard-Task</tab>
+        </mapping>
+        <mapping>
+            <tab>standard-home</tab>
+        </mapping>
+        <mapping>
+            <tab>standard-report</tab>
+        </mapping>
+    </workspaceMappings>
 </CustomApplication>

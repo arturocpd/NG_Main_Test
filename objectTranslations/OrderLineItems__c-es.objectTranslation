@@ -8,6 +8,10 @@
         <plural>true</plural>
         <value>OrderLineItemsESP</value>
     </caseValues>
+    <fieldSets>
+        <label>OLI set de campo</label>
+        <name>OLI_field_set</name>
+    </fieldSets>
     <fields>
         <label><!-- AssetLineItemId --></label>
         <name>AssetLineItemId__c</name>

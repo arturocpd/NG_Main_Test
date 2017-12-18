@@ -231,6 +231,10 @@
                 <behavior>Edit</behavior>
                 <field>Porche__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Citroen__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>

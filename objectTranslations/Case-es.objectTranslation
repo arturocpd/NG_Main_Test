@@ -121,6 +121,10 @@
         <name>Case_YYY__c</name>
     </fields>
     <fields>
+        <label><!-- Citroen --></label>
+        <name>Citroen__c</name>
+    </fields>
+    <fields>
         <label><!-- DeleteMe2 --></label>
         <name>DeleteMe2__c</name>
     </fields>
