@@ -34,6 +34,15 @@
         <protected>false</protected>
     </fieldUpdates>
     <fieldUpdates>
+        <fullName>Test_10</fullName>
+        <field>Origin</field>
+        <literalValue>Phone</literalValue>
+        <name>Test 10</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
         <fullName>Test_2</fullName>
         <field>Origin</field>
         <literalValue>Phone</literalValue>
@@ -132,6 +141,10 @@
         <fullName>Test Thomson</fullName>
         <actions>
             <name>Test_1</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Test_10</name>
             <type>FieldUpdate</type>
         </actions>
         <actions>
