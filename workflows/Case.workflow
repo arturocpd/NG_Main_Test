@@ -25,6 +25,96 @@
         <template>unfiled$public/MarketingProductInquiryResponse</template>
     </alerts>
     <fieldUpdates>
+        <fullName>Test_1</fullName>
+        <field>Origin</field>
+        <literalValue>Phone</literalValue>
+        <name>Test 1</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Test_10</fullName>
+        <field>Origin</field>
+        <literalValue>Phone</literalValue>
+        <name>Test 10</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Test_2</fullName>
+        <field>Origin</field>
+        <literalValue>Phone</literalValue>
+        <name>Test 2</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Test_3</fullName>
+        <field>Origin</field>
+        <literalValue>Phone</literalValue>
+        <name>Test 3</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Test_4</fullName>
+        <field>Origin</field>
+        <literalValue>Phone</literalValue>
+        <name>Test 4</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Test_5</fullName>
+        <field>Origin</field>
+        <literalValue>Phone</literalValue>
+        <name>Test 5</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Test_6</fullName>
+        <field>Origin</field>
+        <literalValue>Phone</literalValue>
+        <name>Test 6</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Test_7</fullName>
+        <field>Origin</field>
+        <literalValue>Phone</literalValue>
+        <name>Test 7</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Test_8</fullName>
+        <field>Origin</field>
+        <literalValue>Phone</literalValue>
+        <name>Test 8</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Test_9</fullName>
+        <field>Origin</field>
+        <literalValue>Phone</literalValue>
+        <name>Test 9</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
         <fullName>Update_Origin</fullName>
         <field>Origin</field>
         <literalValue>Email</literalValue>
@@ -46,6 +136,55 @@
             <value>Default</value>
         </criteriaItems>
         <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>Test Thomson</fullName>
+        <actions>
+            <name>Test_1</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Test_10</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Test_2</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Test_3</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Test_4</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Test_5</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Test_6</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Test_7</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Test_8</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Test_9</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>false</active>
+        <criteriaItems>
+            <field>Case.OwnerId</field>
+            <operation>equals</operation>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
     </rules>
     <rules>
         <fullName>Update origin</fullName>
