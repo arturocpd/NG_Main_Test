@@ -167,6 +167,16 @@
         <location>full</location>
     </listPlacement>
     <listRefreshMethod>none</listRefreshMethod>
+    <pushNotifications>
+        <pushNotification>
+            <fieldNames>Phone</fieldNames>
+            <objectName>Account</objectName>
+        </pushNotification>
+        <pushNotification>
+            <fieldNames>BusinessHours</fieldNames>
+            <objectName>Case</objectName>
+        </pushNotification>
+    </pushNotifications>
     <saveUserSessions>true</saveUserSessions>
     <tab>standard-Account</tab>
     <tab>standard-Contact</tab>
