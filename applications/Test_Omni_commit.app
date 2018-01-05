@@ -180,6 +180,10 @@
             <fieldNames>Phone</fieldNames>
             <objectName>Account</objectName>
         </pushNotification>
+        <pushNotification>
+            <fieldNames>BusinessHours</fieldNames>
+            <objectName>Case</objectName>
+        </pushNotification>
     </pushNotifications>
     <saveUserSessions>true</saveUserSessions>
     <tab>standard-Case</tab>
