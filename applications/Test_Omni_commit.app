@@ -175,6 +175,12 @@
     </listPlacement>
     <listRefreshMethod>none</listRefreshMethod>
     <primaryTabColor>#0070D2</primaryTabColor>
+    <pushNotifications>
+        <pushNotification>
+            <fieldNames>Phone</fieldNames>
+            <objectName>Account</objectName>
+        </pushNotification>
+    </pushNotifications>
     <saveUserSessions>true</saveUserSessions>
     <tab>standard-Case</tab>
     <tab>standard-Lead</tab>
