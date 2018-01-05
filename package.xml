@@ -1,29 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>My_Exploration</members>
-        <members>SharedApp</members>
-        <members>Wave_for_Sales_Managers</members>
-        <name>WaveApplication</name>
+        <members>Case.Test_10</members>
+        <name>WorkflowFieldUpdate</name>
     </types>
     <types>
-        <members>SalesEdgeEltWorkflow</members>
-        <members>Wave_for_Sales_Managers</members>
-        <name>WaveDataflow</name>
+        <members>Case.Test Thomson</members>
+        <name>WorkflowRule</name>
     </types>
-    <types>
-        <members>event1</members>
-        <members>opportunities</members>
-        <members>opportunity1</members>
-        <members>opportunity_products1</members>
-        <members>pipeline_trending1</members>
-        <members>plain_quota1</members>
-        <members>products_opportunities</members>
-        <members>quota1</members>
-        <members>task1</members>
-        <members>user1</members>
-        <members>user_role1</members>
-        <name>WaveDataset</name>
-    </types>
-    <version>40.0</version>
+    <version>41.0</version>
 </Package>
