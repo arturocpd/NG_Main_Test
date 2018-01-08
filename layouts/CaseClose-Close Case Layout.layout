@@ -178,6 +178,10 @@
                 <behavior>Edit</behavior>
                 <field>Citroen__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>convert__c</field>
+            </layoutItems>
         </layoutColumns>
         <style>OneColumn</style>
     </layoutSections>

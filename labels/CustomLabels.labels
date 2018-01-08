@@ -15,6 +15,13 @@
         <value>AR Custom Label from Dev3</value>
     </labels>
     <labels>
+        <fullName>Angel</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Angel</shortDescription>
+        <value>This Angel&apos;s custom label</value>
+    </labels>
+    <labels>
         <fullName>New_CL_from_Dev3</fullName>
         <language>en_US</language>
         <protected>true</protected>
