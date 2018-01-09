@@ -116,15 +116,19 @@
         <picklistValues>
             <picklist>Next_Time__c</picklist>
             <values>
+                <fullName>Friday</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Juernes</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Saturday</fullName>
                 <default>false</default>
             </values>
             <values>
                 <fullName>Thursday</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Friday</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
