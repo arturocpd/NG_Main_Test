@@ -31,8 +31,16 @@
         <tuesdayStart>0</tuesdayStart>
     </loginHours>
     <loginIpRanges>
+        <endAddress>83.36.118.193</endAddress>
+        <startAddress>83.36.118.192</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
         <endAddress>83.36.118.192</endAddress>
         <startAddress>83.36.118.192</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>83.36.118.195</endAddress>
+        <startAddress>83.36.118.194</startAddress>
     </loginIpRanges>
     <recordTypeVisibilities>
         <default>true</default>
