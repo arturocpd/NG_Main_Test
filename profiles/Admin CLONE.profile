@@ -34,6 +34,16 @@
         <layout>Quote_Proposal__c-Quote%2FProposal Layout</layout>
         <recordType>Quote_Proposal__c.RecordType2</recordType>
     </layoutAssignments>
+    <loginHours>
+        <mondayEnd>1440</mondayEnd>
+        <mondayStart>0</mondayStart>
+        <tuesdayEnd>1440</tuesdayEnd>
+        <tuesdayStart>0</tuesdayStart>
+    </loginHours>
+    <loginIpRanges>
+        <endAddress>83.36.118.192</endAddress>
+        <startAddress>83.36.118.192</startAddress>
+    </loginIpRanges>
     <recordTypeVisibilities>
         <default>true</default>
         <recordType>CSTM_Object__c.CSTM_New_layout</recordType>
@@ -91,15 +101,7 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>AssignTopics</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
         <name>AssignUserToSkill</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>AuthorApex</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -179,10 +181,6 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>CreateTopics</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
         <name>CreateWorkspaces</name>
     </userPermissions>
     <userPermissions>
@@ -196,10 +194,6 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>DeleteActivatedContract</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>DeleteTopics</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -259,19 +253,7 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>EditReadonlyFields</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
         <name>EditTask</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>EditTopics</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>EmailMass</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -303,10 +285,6 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>InstallPackaging</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
         <name>LightningConsoleAllowedForUser</name>
     </userPermissions>
     <userPermissions>
@@ -315,15 +293,7 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>ListEmailSend</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
         <name>ManageAnalyticSnapshots</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>ManageAuthProviders</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -503,15 +473,7 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>MergeTopics</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
         <name>ModerateChatter</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>ModifyAllData</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
