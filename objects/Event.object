@@ -128,6 +128,10 @@
                 <default>false</default>
             </values>
             <values>
+                <fullName>SuSuSunday</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Thursday</fullName>
                 <default>false</default>
             </values>
