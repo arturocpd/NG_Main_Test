@@ -146,11 +146,23 @@
                 <default>false</default>
             </values>
             <values>
+                <fullName>Juernes</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Saturday</fullName>
                 <default>false</default>
             </values>
             <values>
+                <fullName>SuSuSunday</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Thursday</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Wednesday</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
