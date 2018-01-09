@@ -1,12 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Case.Test_10</members>
-        <name>WorkflowFieldUpdate</name>
+        <members>Activity.Next_Time__c</members>
+        <members>Activity.Time__c</members>
+        <name>CustomField</name>
     </types>
     <types>
-        <members>Case.Test Thomson</members>
-        <name>WorkflowRule</name>
+        <members>Time</members>
+        <name>GlobalValueSet</name>
+    </types>
+    <types>
+        <members>Event.Time</members>
+        <name>RecordType</name>
     </types>
     <version>41.0</version>
 </Package>
