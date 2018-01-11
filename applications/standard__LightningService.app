@@ -10,9 +10,13 @@
     <tab>standard-report</tab>
     <tab>standard-Dashboard</tab>
     <tab>standard-home</tab>
+    <tab>CSTM_Object__c</tab>
     <uiType>Lightning</uiType>
     <utilityBar>LightningService_UtilityBar</utilityBar>
     <workspaceMappings>
+        <mapping>
+            <tab>CSTM_Object__c</tab>
+        </mapping>
         <mapping>
             <tab>standard-Account</tab>
         </mapping>

@@ -4,4 +4,5 @@
     <formFactors>Large</formFactors>
     <tab>standard-AppLauncher</tab>
     <tab>Dinner__c</tab>
+    <tab>CSTM_Object__c</tab>
 </CustomApplication>

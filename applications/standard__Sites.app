@@ -3,4 +3,5 @@
     <defaultLandingTab>standard-home</defaultLandingTab>
     <tab>standard-Chatter</tab>
     <tab>Dinner__c</tab>
+    <tab>CSTM_Object__c</tab>
 </CustomApplication>

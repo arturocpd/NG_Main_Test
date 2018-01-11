@@ -184,7 +184,11 @@
     <tab>standard-Opportunity</tab>
     <tab>standard-Lead</tab>
     <tab>Dinner__c</tab>
+    <tab>CSTM_Object__c</tab>
     <workspaceMappings>
+        <mapping>
+            <tab>CSTM_Object__c</tab>
+        </mapping>
         <mapping>
             <tab>Dinner__c</tab>
         </mapping>

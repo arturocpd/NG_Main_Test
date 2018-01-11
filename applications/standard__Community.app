@@ -10,4 +10,5 @@
     <tab>standard-report</tab>
     <tab>standard-Dashboard</tab>
     <tab>Dinner__c</tab>
+    <tab>CSTM_Object__c</tab>
 </CustomApplication>

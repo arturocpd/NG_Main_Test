@@ -22,5 +22,6 @@
     <tab>standard-Case</tab>
     <tab>standard-Forecasting3</tab>
     <tab>Dinner__c</tab>
+    <tab>CSTM_Object__c</tab>
     <uiType>Lightning</uiType>
 </CustomApplication>

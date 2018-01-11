@@ -7,4 +7,5 @@
     <tab>standard-ContentSearch</tab>
     <tab>standard-ContentSubscriptions</tab>
     <tab>Dinner__c</tab>
+    <tab>CSTM_Object__c</tab>
 </CustomApplication>

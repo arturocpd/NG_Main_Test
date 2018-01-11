@@ -188,7 +188,11 @@
     <saveUserSessions>true</saveUserSessions>
     <tab>standard-Case</tab>
     <tab>standard-Lead</tab>
+    <tab>CSTM_Object__c</tab>
     <workspaceMappings>
+        <mapping>
+            <tab>CSTM_Object__c</tab>
+        </mapping>
         <mapping>
             <tab>standard-Case</tab>
         </mapping>
