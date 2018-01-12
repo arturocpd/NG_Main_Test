@@ -135,6 +135,16 @@
                     <default>false</default>
                     <label>Juernes</label>
                 </value>
+                <value>
+                    <fullName>SuSuSunday</fullName>
+                    <default>false</default>
+                    <label>SuSuSunday</label>
+                </value>
+                <value>
+                    <fullName>Momomonday</fullName>
+                    <default>false</default>
+                    <label>Momomonday</label>
+                </value>
             </valueSetDefinition>
         </valueSet>
     </fields>
