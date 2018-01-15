@@ -49,10 +49,10 @@
     <enableFeeds>false</enableFeeds>
     <enableHistory>false</enableHistory>
     <enableReports>false</enableReports>
-    <enableSearch>false</enableSearch>
+    <enableSearch>true</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
-    <externalSharingModel>ReadWrite</externalSharingModel>
+    <externalSharingModel>Private</externalSharingModel>
     <fields>
         <fullName>cstm_field__c</fullName>
         <defaultValue>false</defaultValue>
@@ -63,6 +63,11 @@
     </fields>
     <gender>Feminine</gender>
     <label>CSTM Object</label>
+    <listViews>
+        <fullName>All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
     <nameField>
         <label>CSTM Object Name</label>
         <type>Text</type>
@@ -74,6 +79,6 @@
         <label>CSTM New layout</label>
     </recordTypes>
     <searchLayouts/>
-    <sharingModel>ReadWrite</sharingModel>
+    <sharingModel>Private</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>
