@@ -124,15 +124,7 @@
                 <default>false</default>
             </values>
             <values>
-                <fullName>Momomonday</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>Saturday</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>SuSuSunday</fullName>
                 <default>false</default>
             </values>
             <values>
