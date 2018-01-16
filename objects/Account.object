@@ -325,6 +325,11 @@
                     <default>false</default>
                     <label>Bronze</label>
                 </value>
+                <value>
+                    <fullName>Iron</fullName>
+                    <default>false</default>
+                    <label>Iron</label>
+                </value>
             </valueSetDefinition>
         </valueSet>
     </fields>
@@ -450,6 +455,29 @@
         <active>true</active>
         <compactLayoutAssignment>Custom_Acc_Compact_Layout</compactLayoutAssignment>
         <label>Record Type1</label>
+        <picklistValues>
+            <picklist>SLA__c</picklist>
+            <values>
+                <fullName>Bronze</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Gold</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Iron</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Platinum</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Silver</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
         <picklistValues>
             <picklist>CustomerPriority__c</picklist>
             <values>
@@ -669,25 +697,6 @@
             </values>
         </picklistValues>
         <picklistValues>
-            <picklist>SLA__c</picklist>
-            <values>
-                <fullName>Bronze</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Gold</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Platinum</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Silver</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
             <picklist>Type</picklist>
             <values>
                 <fullName>Channel Partner %2F Reseller</fullName>
@@ -739,6 +748,29 @@
         <active>true</active>
         <compactLayoutAssignment>Custom_Acc_Compact_Layout</compactLayoutAssignment>
         <label>Record Type2</label>
+        <picklistValues>
+            <picklist>SLA__c</picklist>
+            <values>
+                <fullName>Bronze</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Gold</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Iron</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Platinum</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Silver</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
         <picklistValues>
             <picklist>AccountSource</picklist>
             <values>
@@ -950,25 +982,6 @@
             </values>
             <values>
                 <fullName>Warm</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
-            <picklist>SLA__c</picklist>
-            <values>
-                <fullName>Bronze</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Gold</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Platinum</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Silver</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
