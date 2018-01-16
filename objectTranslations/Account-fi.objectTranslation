@@ -433,6 +433,18 @@
         <name>External_Id__c</name>
     </fields>
     <fields>
+        <label><!-- Field 1 --></label>
+        <name>Field_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Field 2 --></label>
+        <name>Field_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Field 3 --></label>
+        <name>Field_3__c</name>
+    </fields>
+    <fields>
         <label><!-- Number of Locations --></label>
         <name>NumberofLocations__c</name>
     </fields>
@@ -456,12 +468,20 @@
             <translation><!-- Gold --></translation>
         </picklistValues>
         <picklistValues>
+            <masterLabel>Iron</masterLabel>
+            <translation><!-- Iron --></translation>
+        </picklistValues>
+        <picklistValues>
             <masterLabel>Platinum</masterLabel>
             <translation><!-- Platinum --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Silver</masterLabel>
             <translation><!-- Silver --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wood</masterLabel>
+            <translation><!-- Wood --></translation>
         </picklistValues>
     </fields>
     <fields>

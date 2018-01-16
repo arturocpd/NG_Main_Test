@@ -249,6 +249,21 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Account.Field_1__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.Field_2__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.Field_3__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Account.Industry</field>
         <readable>true</readable>
     </fieldPermissions>
