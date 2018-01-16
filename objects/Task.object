@@ -108,6 +108,10 @@
                 <fullName>Sunday</fullName>
                 <default>false</default>
             </values>
+            <values>
+                <fullName>TuTuTuesday</fullName>
+                <default>false</default>
+            </values>
         </picklistValues>
         <picklistValues>
             <picklist>AAATask__c</picklist>

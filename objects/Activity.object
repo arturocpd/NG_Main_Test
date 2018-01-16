@@ -145,6 +145,11 @@
                     <default>false</default>
                     <label>Momomonday</label>
                 </value>
+                <value>
+                    <fullName>TuTuTuesday</fullName>
+                    <default>false</default>
+                    <label>TuTuTuesday</label>
+                </value>
             </valueSetDefinition>
         </valueSet>
     </fields>
