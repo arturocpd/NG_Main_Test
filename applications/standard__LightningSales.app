@@ -5,6 +5,24 @@
     <formFactors>Large</formFactors>
     <label>Sales</label>
     <navType>Standard</navType>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>FlexiAcc</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.Record_Type2</recordType>
+        <type>Flexipage</type>
+        <profile>Admin CLONE</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>FlexiAcc</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.Record_Type1</recordType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
     <tab>standard-home</tab>
     <tab>standard-Opportunity</tab>
     <tab>standard-Lead</tab>

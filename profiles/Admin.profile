@@ -159,6 +159,10 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>MyContactListController</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>MyProfilePageController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
