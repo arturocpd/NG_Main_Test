@@ -187,6 +187,7 @@
         <enabled>false</enabled>
     </classAccesses>
     <custom>true</custom>
+    <description>Profile description</description>
     <fieldPermissions>
         <editable>true</editable>
         <field>Account.AccountNumber</field>
