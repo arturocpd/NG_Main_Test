@@ -4,10 +4,5 @@
         <members>Account.SLA__c</members>
         <name>CustomField</name>
     </types>
-    <types>
-        <members>Account.Record_Type1</members>
-        <members>Account.Record_Type2</members>
-        <name>RecordType</name>
-    </types>
     <version>41.0</version>
 </Package>
