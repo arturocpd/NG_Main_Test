@@ -141,6 +141,10 @@
         <name>Find_and_Replace__c</name>
     </fields>
     <fields>
+        <label><!-- Jaguar --></label>
+        <name>Jaguar__c</name>
+    </fields>
+    <fields>
         <label><!-- KeepMe2 --></label>
         <name>KeepMe2__c</name>
     </fields>

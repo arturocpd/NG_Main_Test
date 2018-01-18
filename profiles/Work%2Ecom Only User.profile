@@ -829,6 +829,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Case.Jaguar__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Case.KeepMe2__c</field>
         <readable>false</readable>
     </fieldPermissions>

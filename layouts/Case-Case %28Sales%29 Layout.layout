@@ -239,6 +239,10 @@
                 <behavior>Edit</behavior>
                 <field>convert__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Jaguar__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
