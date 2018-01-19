@@ -1,18 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>AppleWatch</members>
-        <members>AppleWatchTest</members>
-        <name>ApexClass</name>
+        <members>Contact-cs</members>
+        <name>CustomObjectTranslation</name>
     </types>
     <types>
-        <members>AppleWatch</members>
-        <name>ApexTrigger</name>
-    </types>
-    <types>
-        <members>Case.Ford__c</members>
-        <members>Case.case_KKK__c</members>
-        <name>CustomField</name>
+        <members>Contact-Admin clone Layout</members>
+        <name>Layout</name>
     </types>
     <version>41.0</version>
 </Package>
