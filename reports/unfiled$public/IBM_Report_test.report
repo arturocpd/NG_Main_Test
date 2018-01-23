@@ -3,13 +3,17 @@
     <columns>
         <field>AssetLineItem__c$Name</field>
     </columns>
-    <columns>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
         <field>AssetLineItem__c.OrderLineItems__r$Name</field>
-    </columns>
-    <columns>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
         <field>AssetLineItem__c.OrderLineItems__r$ProposalId__c.Provisioning_Contact__c.IBM_ID_Blue_ID__c</field>
-    </columns>
-    <format>Tabular</format>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
     <name>IBM Report test</name>
     <params>
         <name>co</name>
