@@ -139,7 +139,7 @@
             </processMetadataValues>
             <field>City</field>
             <value>
-                <stringValue>Madrid</stringValue>
+                <stringValue>Zamora</stringValue>
             </value>
         </inputAssignments>
         <object>Lead</object>
