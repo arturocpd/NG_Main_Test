@@ -8,8 +8,8 @@ Public Class AppleWatch{
         t.WhatId      = opp.Id;
         insert t;
         
-        /*ngarturodev1cpd@gmail.com */
-        /*VALID update */
+        /*{!Environment.UsernameXXX} */
+        /*US test */
         
     }
 
