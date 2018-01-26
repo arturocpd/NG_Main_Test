@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>AppleWatch</members>
-        <members>AppleWatchTest</members>
-        <name>ApexClass</name>
+        <members>Dinner__c</members>
+        <name>CustomObject</name>
     </types>
     <types>
-        <members>Case.BitCoin__c</members>
-        <name>CustomField</name>
+        <members>Dinner__c-Dinner Layout</members>
+        <name>Layout</name>
     </types>
     <version>41.0</version>
 </Package>
