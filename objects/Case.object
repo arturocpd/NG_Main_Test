@@ -164,11 +164,6 @@
                     <label>DDD</label>
                 </value>
                 <value>
-                    <fullName>EEE</fullName>
-                    <default>false</default>
-                    <label>EEE</label>
-                </value>
-                <value>
                     <fullName>FFF</fullName>
                     <default>false</default>
                     <label>FFF</label>
@@ -177,6 +172,12 @@
                     <fullName>GGG</fullName>
                     <default>false</default>
                     <label>GGG</label>
+                </value>
+                <value>
+                    <fullName>EEE</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>EEE</label>
                 </value>
             </valueSetDefinition>
         </valueSet>
@@ -210,6 +211,16 @@
         <defaultValue>false</defaultValue>
         <externalId>false</externalId>
         <label>Case BBB</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Case_BMW__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Case BMW</label>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
@@ -296,6 +307,16 @@
         <type>Checkbox</type>
     </fields>
     <fields>
+        <fullName>Case_TTT__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Case TTT</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>Case_UUU__c</fullName>
         <defaultValue>false</defaultValue>
         <externalId>false</externalId>
@@ -346,6 +367,16 @@
         <defaultValue>false</defaultValue>
         <externalId>false</externalId>
         <label>Case YYY</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Case_prod_field__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Case prod field</label>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
@@ -442,6 +473,16 @@
         <defaultValue>false</defaultValue>
         <externalId>false</externalId>
         <label>Find and Replace</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Ford__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Ford</label>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
@@ -1472,6 +1513,11 @@
                     <default>false</default>
                     <label>Saturday</label>
                 </value>
+                <value>
+                    <fullName>Thursday</fullName>
+                    <default>false</default>
+                    <label>Thursday</label>
+                </value>
             </valueSetDefinition>
         </valueSet>
     </fields>
@@ -1848,7 +1894,15 @@
                 <default>false</default>
             </values>
             <values>
+                <fullName>Monday</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Saturday</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Thursday</fullName>
                 <default>false</default>
             </values>
             <values>

@@ -714,6 +714,11 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>Case.Case_BMW__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Case.Case_EEE__c</field>
         <readable>true</readable>
@@ -754,6 +759,11 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>Case.Case_TTT__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Case.Case_UUU__c</field>
         <readable>true</readable>
@@ -767,6 +777,11 @@
         <editable>true</editable>
         <field>Case.Case_YYY__c</field>
         <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Case.Case_prod_field__c</field>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -817,6 +832,11 @@
         <editable>true</editable>
         <field>Case.Find_and_Replace__c</field>
         <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Case.Ford__c</field>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -3125,6 +3145,10 @@
         <tuesdayEnd>1440</tuesdayEnd>
         <tuesdayStart>0</tuesdayStart>
     </loginHours>
+    <loginIpRanges>
+        <endAddress>83.36.118.192</endAddress>
+        <startAddress>83.36.118.192</startAddress>
+    </loginIpRanges>
     <loginIpRanges>
         <endAddress>83.36.118.193</endAddress>
         <startAddress>83.36.118.192</startAddress>

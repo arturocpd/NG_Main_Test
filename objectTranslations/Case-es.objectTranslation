@@ -40,10 +40,6 @@
             <translation><!-- DDD --></translation>
         </picklistValues>
         <picklistValues>
-            <masterLabel>EEE</masterLabel>
-            <translation><!-- EEE --></translation>
-        </picklistValues>
-        <picklistValues>
             <masterLabel>FFF</masterLabel>
             <translation><!-- FFF --></translation>
         </picklistValues>
@@ -63,6 +59,10 @@
     <fields>
         <label>Caso bbb2</label>
         <name>Case_BBB__c</name>
+    </fields>
+    <fields>
+        <label><!-- Case BMW --></label>
+        <name>Case_BMW__c</name>
     </fields>
     <fields>
         <label><!-- Case EEE --></label>
@@ -97,6 +97,10 @@
         <name>Case_QQQ__c</name>
     </fields>
     <fields>
+        <label><!-- Case TTT --></label>
+        <name>Case_TTT__c</name>
+    </fields>
+    <fields>
         <label><!-- Case UUU --></label>
         <name>Case_UUU__c</name>
     </fields>
@@ -125,6 +129,10 @@
         <name>Case_YYY__c</name>
     </fields>
     <fields>
+        <label><!-- Case prod field --></label>
+        <name>Case_prod_field__c</name>
+    </fields>
+    <fields>
         <label><!-- Citroen --></label>
         <name>Citroen__c</name>
     </fields>
@@ -143,6 +151,10 @@
     <fields>
         <label><!-- Find and Replace --></label>
         <name>Find_and_Replace__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ford --></label>
+        <name>Ford__c</name>
     </fields>
     <fields>
         <label><!-- Jaguar --></label>
@@ -750,6 +762,10 @@
         <picklistValues>
             <masterLabel>Sunday</masterLabel>
             <translation><!-- Sunday --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Thursday</masterLabel>
+            <translation><!-- Thursday --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Tuesday</masterLabel>

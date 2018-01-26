@@ -9,7 +9,7 @@ Public Class AppleWatch{
         insert t;
         
         /*ngarturodev1cpd@gmail.com */
-        /*US test */
+        /*commit on UAT */
         
     }
 
