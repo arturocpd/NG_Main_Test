@@ -1364,6 +1364,11 @@
                     <default>false</default>
                     <label>Saturday</label>
                 </value>
+                <value>
+                    <fullName>Thursday</fullName>
+                    <default>false</default>
+                    <label>Thursday</label>
+                </value>
             </valueSetDefinition>
         </valueSet>
     </fields>
