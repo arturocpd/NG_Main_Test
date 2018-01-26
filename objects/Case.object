@@ -1613,10 +1613,6 @@
                 <default>false</default>
             </values>
             <values>
-                <fullName>Wednesday</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>Monday</fullName>
                 <default>false</default>
             </values>
