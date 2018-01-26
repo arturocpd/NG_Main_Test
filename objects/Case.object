@@ -154,11 +154,6 @@
                     <label>DDD</label>
                 </value>
                 <value>
-                    <fullName>EEE</fullName>
-                    <default>false</default>
-                    <label>EEE</label>
-                </value>
-                <value>
                     <fullName>FFF</fullName>
                     <default>false</default>
                     <label>FFF</label>
@@ -200,6 +195,16 @@
         <defaultValue>false</defaultValue>
         <externalId>false</externalId>
         <label>Case BBB</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Case_BMW__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Case BMW</label>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
@@ -256,6 +261,16 @@
         <type>Checkbox</type>
     </fields>
     <fields>
+        <fullName>Case_OOO__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Case OOO</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>Case_PPP__c</fullName>
         <defaultValue>false</defaultValue>
         <externalId>false</externalId>
@@ -280,6 +295,16 @@
         <defaultValue>false</defaultValue>
         <externalId>false</externalId>
         <label>Case_RRR</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Case_TTT__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Case TTT</label>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
@@ -342,20 +367,10 @@
         <type>Checkbox</type>
     </fields>
     <fields>
-        <fullName>Citroen__c</fullName>
+        <fullName>Case_prod_field__c</fullName>
         <defaultValue>false</defaultValue>
         <externalId>false</externalId>
-        <label>Citroen</label>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Checkbox</type>
-    </fields>
-    <fields>
-        <fullName>Citroen__c</fullName>
-        <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
-        <label>Citroen</label>
+        <label>Case prod field</label>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
@@ -1433,8 +1448,23 @@
                     <default>false</default>
                     <label>Saturday</label>
                 </value>
+                <value>
+                    <fullName>Thursday</fullName>
+                    <default>false</default>
+                    <label>Thursday</label>
+                </value>
             </valueSetDefinition>
         </valueSet>
+    </fields>
+    <fields>
+        <fullName>case_KKK__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Case KKK</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
     </fields>
     <fields>
         <fullName>commit_file_field__c</fullName>
@@ -1532,15 +1562,33 @@
         <businessProcess>Support Process</businessProcess>
         <label>Record Type</label>
         <picklistValues>
+            <picklist>Priority</picklist>
+            <values>
+                <fullName>Medium</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Low</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Case_WWW__c</picklist>
+            <values>
+                <fullName>January</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>February</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>April</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
             <picklist>Type</picklist>
-            <values>
-                <fullName>3rd Party</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>3rd Party - Brand Change%2FReview</fullName>
-                <default>false</default>
-            </values>
             <values>
                 <fullName>Customer Content Feedback</fullName>
                 <default>false</default>
@@ -1550,49 +1598,20 @@
                 <default>false</default>
             </values>
             <values>
-                <fullName>Electronic</fullName>
+                <fullName>3rd Party</fullName>
                 <default>false</default>
             </values>
             <values>
                 <fullName>Other5</fullName>
                 <default>false</default>
             </values>
-        </picklistValues>
-        <picklistValues>
-            <picklist>Case_WWW__c</picklist>
             <values>
-                <fullName>April</fullName>
+                <fullName>3rd Party - Brand Change%2FReview</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>February</fullName>
+                <fullName>Electronic</fullName>
                 <default>false</default>
-            </values>
-            <values>
-                <fullName>January</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
-            <picklist>Primary_Category__c</picklist>
-            <values>
-                <fullName>Bar</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Beach</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
-            <picklist>Priority</picklist>
-            <values>
-                <fullName>Low</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Medium</fullName>
-                <default>true</default>
             </values>
         </picklistValues>
         <picklistValues>
@@ -1613,10 +1632,6 @@
                 <default>false</default>
             </values>
             <values>
-                <fullName>Monday</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>Saturday</fullName>
                 <default>false</default>
             </values>
@@ -1629,7 +1644,22 @@
                 <default>false</default>
             </values>
             <values>
+                <fullName>Monday</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Tuesday</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Primary_Category__c</picklist>
+            <values>
+                <fullName>Beach</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Bar</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
