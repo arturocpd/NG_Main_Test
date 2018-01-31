@@ -5,9 +5,5 @@
         <members>AccountOperationsTest</members>
         <name>ApexClass</name>
     </types>
-    <types>
-        <members>AccountDefaultDescription</members>
-        <name>ApexTrigger</name>
-    </types>
     <version>41.0</version>
 </Package>
