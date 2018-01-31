@@ -183,6 +183,7 @@
     <tab>standard-Case</tab>
     <tab>standard-Opportunity</tab>
     <tab>standard-Lead</tab>
+    <tab>standard-Knowledge</tab>
     <tab>Dinner__c</tab>
     <tab>CSTM_Object__c</tab>
     <workspaceMappings>
@@ -202,6 +203,9 @@
         <mapping>
             <fieldName>AccountId</fieldName>
             <tab>standard-Contact</tab>
+        </mapping>
+        <mapping>
+            <tab>standard-Knowledge</tab>
         </mapping>
         <mapping>
             <tab>standard-Lead</tab>

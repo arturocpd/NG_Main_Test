@@ -255,6 +255,10 @@
                 <behavior>Edit</behavior>
                 <field>BitCoin__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Test_Diageo__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
