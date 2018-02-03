@@ -34,7 +34,6 @@
     </actionOverrides>
     <deploymentStatus>Deployed</deploymentStatus>
     <description>DescriptionYYYYXXXXXZZZZZZ</description>
-    <enableChangeDataCapture>false</enableChangeDataCapture>
     <enableFeeds>false</enableFeeds>
     <enableReports>true</enableReports>
     <enableSearch>true</enableSearch>

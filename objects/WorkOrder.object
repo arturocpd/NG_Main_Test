@@ -177,6 +177,16 @@
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
+        <fullName>ReturnOrderId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ReturnOrderLineItemId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
         <fullName>RootWorkOrderId</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
