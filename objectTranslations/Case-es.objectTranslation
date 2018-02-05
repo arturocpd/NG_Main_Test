@@ -755,6 +755,10 @@
             <masterLabel>6</masterLabel>
             <translation><!-- 6 --></translation>
         </picklistValues>
+        <picklistValues>
+            <masterLabel>7</masterLabel>
+            <translation><!-- 7 --></translation>
+        </picklistValues>
     </fields>
     <fields>
         <label><!-- Unique Code --></label>

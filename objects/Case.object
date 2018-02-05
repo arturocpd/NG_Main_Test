@@ -1473,6 +1473,11 @@
                     <default>false</default>
                     <label>6</label>
                 </value>
+                <value>
+                    <fullName>7</fullName>
+                    <default>false</default>
+                    <label>7</label>
+                </value>
             </valueSetDefinition>
         </valueSet>
     </fields>
@@ -1918,6 +1923,10 @@
             </values>
             <values>
                 <fullName>6</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>7</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
