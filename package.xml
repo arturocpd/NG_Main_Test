@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Case.Test_Diageo__c</members>
-        <name>CustomField</name>
+        <members>FPT_Permission_Set</members>
+        <name>PermissionSet</name>
+    </types>
+    <types>
+        <members>Read Only Clone FPT</members>
+        <name>Profile</name>
     </types>
     <version>41.0</version>
 </Package>
