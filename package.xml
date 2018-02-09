@@ -1,24 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Case.Leaseplan_email_alert</members>
-        <name>WorkflowAlert</name>
-    </types>
-    <types>
-        <members>Case.Leaseplan_Update</members>
-        <name>WorkflowFieldUpdate</name>
-    </types>
-    <types>
-        <members>Case.Leaseplan_outbound</members>
-        <name>WorkflowOutboundMessage</name>
-    </types>
-    <types>
-        <members>Case.Leaseplan</members>
-        <name>WorkflowRule</name>
-    </types>
-    <types>
-        <members>Case.leaseplan_task</members>
-        <name>WorkflowTask</name>
+        <members>LiveChatTranscriptActive-Live Chat Transcript %28In Progress%29 Layout</members>
+        <name>Layout</name>
     </types>
     <version>41.0</version>
 </Package>
