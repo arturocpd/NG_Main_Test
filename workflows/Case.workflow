@@ -13,17 +13,6 @@
         <template>unfiled$public/MarketingProductInquiryResponse</template>
     </alerts>
     <alerts>
-        <fullName>Leaseplan_email_alert</fullName>
-        <description>Leaseplan email alert</description>
-        <protected>false</protected>
-        <recipients>
-            <recipient>{!Environment.VAR_Username}</recipient>
-            <type>user</type>
-        </recipients>
-        <senderType>CurrentUser</senderType>
-        <template>email_folder/template_test</template>
-    </alerts>
-    <alerts>
         <fullName>Wide_org_email_alert</fullName>
         <description>Wide org email alert</description>
         <protected>false</protected>
@@ -143,18 +132,6 @@
         <operation>Literal</operation>
         <protected>false</protected>
     </fieldUpdates>
-    <outboundMessages>
-        <fullName>Leaseplan_outbound</fullName>
-        <apiVersion>42.0</apiVersion>
-        <endpointUrl>http://www.google.com</endpointUrl>
-        <fields>AccountId</fields>
-        <fields>Id</fields>
-        <includeSessionId>false</includeSessionId>
-        <integrationUser>{!Environment.VAR_Username}</integrationUser>
-        <name>Leaseplan outbound</name>
-        <protected>false</protected>
-        <useDeadLetterQueue>false</useDeadLetterQueue>
-    </outboundMessages>
     <rules>
         <fullName>Leaseplan</fullName>
         <actions>
@@ -258,15 +235,4 @@
         </criteriaItems>
         <triggerType>onCreateOnly</triggerType>
     </rules>
-    <tasks>
-        <fullName>leaseplan_task</fullName>
-        <assignedTo>{!Environment.VAR_Username}</assignedTo>
-        <assignedToType>user</assignedToType>
-        <dueDateOffset>0</dueDateOffset>
-        <notifyAssignee>false</notifyAssignee>
-        <priority>High</priority>
-        <protected>false</protected>
-        <status>In Progress</status>
-        <subject>leaseplan task</subject>
-    </tasks>
 </Workflow>
