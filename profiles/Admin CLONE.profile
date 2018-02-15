@@ -70,11 +70,11 @@
         <tuesdayStart>0</tuesdayStart>
     </loginHours>
     <loginIpRanges>
-        <endAddress>83.36.118.193</endAddress>
+        <endAddress>83.36.118.192</endAddress>
         <startAddress>83.36.118.192</startAddress>
     </loginIpRanges>
     <loginIpRanges>
-        <endAddress>83.36.118.192</endAddress>
+        <endAddress>83.36.118.193</endAddress>
         <startAddress>83.36.118.192</startAddress>
     </loginIpRanges>
     <loginIpRanges>
@@ -146,6 +146,10 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>AllowViewKnowledge</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ApexRestServices</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -242,6 +246,10 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>CustomizeApplication</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>DataExport</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -646,6 +654,10 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>ViewPublicReports</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ViewRoles</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>

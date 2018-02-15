@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>CSTM_Object__c.CSTM_JH_Dup_Rule</members>
-        <name>DuplicateRule</name>
+        <members>Case.BusinessHoursId</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>Admin CLONE</members>
+        <members>Admin CLONE 2</members>
+        <name>Profile</name>
     </types>
     <version>41.0</version>
 </Package>
