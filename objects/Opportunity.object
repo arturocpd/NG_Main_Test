@@ -88,7 +88,7 @@
         <externalId>false</externalId>
         <label>Delivery/Installation Status</label>
         <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
+        <trackFeedHistory>true</trackFeedHistory>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
         <valueSet>
