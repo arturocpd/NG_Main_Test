@@ -4,21 +4,5 @@
         <members>Knowledge__kav.Body__c</members>
         <name>CustomField</name>
     </types>
-    <types>
-        <members>Knowledge__kav</members>
-        <name>CustomObject</name>
-    </types>
-    <types>
-        <members>Admin</members>
-        <name>Profile</name>
-    </types>
-    <types>
-        <members>Knowledge__kav.Support</members>
-        <name>RecordType</name>
-    </types>
-    <types>
-        <members>Knowledge_Articles</members>
-        <name>ReportType</name>
-    </types>
     <version>41.0</version>
 </Package>

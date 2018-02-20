@@ -27,8 +27,8 @@
         <externalId>false</externalId>
         <label>Body</label>
         <length>32768</length>
-        <type>LongTextArea</type>
-        <visibleLines>3</visibleLines>
+        <type>Html</type>
+        <visibleLines>20</visibleLines>
     </fields>
     <gender>Feminine</gender>
     <label>Knowledge</label>
