@@ -8,6 +8,11 @@
     <custom>true</custom>
     <description>Profile description</description>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>Case.BusinessHoursId</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Event.Location</field>
         <readable>false</readable>
