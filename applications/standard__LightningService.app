@@ -11,11 +11,15 @@
     <tab>standard-Dashboard</tab>
     <tab>standard-home</tab>
     <tab>CSTM_Object__c</tab>
+    <tab>Knowledge__kav</tab>
     <uiType>Lightning</uiType>
     <utilityBar>LightningService_UtilityBar</utilityBar>
     <workspaceMappings>
         <mapping>
             <tab>CSTM_Object__c</tab>
+        </mapping>
+        <mapping>
+            <tab>Knowledge__kav</tab>
         </mapping>
         <mapping>
             <tab>standard-Account</tab>

@@ -11,4 +11,5 @@
     <tab>standard-Dashboard</tab>
     <tab>Dinner__c</tab>
     <tab>CSTM_Object__c</tab>
+    <tab>Knowledge__kav</tab>
 </CustomApplication>
