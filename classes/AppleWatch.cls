@@ -10,7 +10,7 @@ Public Class AppleWatch{
         
         /*{!Environment.VAR_Username} */
         /*commit on UAT XXXX */
-        /*CONSTRUCTOR*/
+        
         
     }
 
