@@ -1344,6 +1344,9 @@
         <layout>Asset-Asset Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>AssetRelationship-Asset Relationship Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Campaign-Campaign Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -1442,6 +1445,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>SocialPersona-Social Persona Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SocialPost-Social Post Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Solution-Solution Layout</layout>
@@ -1654,9 +1660,9 @@
         <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>false</modifyAllRecords>
         <object>Document</object>
@@ -2333,6 +2339,10 @@
     </userPermissions>
     <userPermissions>
         <enabled>false</enabled>
+        <name>CreateMultiforce</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
         <name>CreateReportFolders</name>
     </userPermissions>
     <userPermissions>
@@ -2416,11 +2426,11 @@
         <name>EditOppLineItemUnitPrice</name>
     </userPermissions>
     <userPermissions>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
         <name>EditPublicDocuments</name>
     </userPermissions>
     <userPermissions>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
         <name>EditPublicFilters</name>
     </userPermissions>
     <userPermissions>
@@ -2494,6 +2504,10 @@
     <userPermissions>
         <enabled>false</enabled>
         <name>ImportPersonal</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>InstallMultiforce</name>
     </userPermissions>
     <userPermissions>
         <enabled>false</enabled>
@@ -2730,6 +2744,10 @@
     <userPermissions>
         <enabled>false</enabled>
         <name>PreventClassicExperience</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>PublishMultiforce</name>
     </userPermissions>
     <userPermissions>
         <enabled>false</enabled>
