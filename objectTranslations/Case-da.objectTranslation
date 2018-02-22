@@ -721,6 +721,30 @@
         <name>Standard_Checkbox__c</name>
     </fields>
     <fields>
+        <label><!-- Support Analysis --></label>
+        <name>Support_Analysis__c</name>
+        <picklistValues>
+            <masterLabel>Copado Knowledge</masterLabel>
+            <translation><!-- Copado Knowledge --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Git Knowledge</masterLabel>
+            <translation><!-- Git Knowledge --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Metadata API Knowledge</masterLabel>
+            <translation><!-- Metadata API Knowledge --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Salesforce Knowledge</masterLabel>
+            <translation><!-- Salesforce Knowledge --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
         <label><!-- Test Diageo --></label>
         <name>Test_Diageo__c</name>
         <picklistValues>

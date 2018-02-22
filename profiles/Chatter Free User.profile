@@ -1022,6 +1022,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Case.Support_Analysis__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Case.Test_Diageo__c</field>
         <readable>false</readable>
     </fieldPermissions>

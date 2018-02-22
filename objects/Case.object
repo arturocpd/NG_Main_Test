@@ -1431,6 +1431,48 @@
         <trackTrending>false</trackTrending>
     </fields>
     <fields>
+        <fullName>Support_Analysis__c</fullName>
+        <externalId>false</externalId>
+        <label>Support Analysis</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Copado Knowledge</fullName>
+                    <default>false</default>
+                    <label>Copado Knowledge</label>
+                </value>
+                <value>
+                    <fullName>Salesforce Knowledge</fullName>
+                    <default>false</default>
+                    <label>Salesforce Knowledge</label>
+                </value>
+                <value>
+                    <fullName>Metadata API Knowledge</fullName>
+                    <default>false</default>
+                    <label>Metadata API Knowledge</label>
+                </value>
+                <value>
+                    <fullName>Git Knowledge</fullName>
+                    <default>false</default>
+                    <label>Git Knowledge</label>
+                </value>
+                <value>
+                    <fullName>N/A</fullName>
+                    <default>false</default>
+                    <label>N/A</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
         <fullName>Test_Diageo__c</fullName>
         <externalId>false</externalId>
         <label>Test Diageo</label>
@@ -1904,6 +1946,29 @@
             </values>
             <values>
                 <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Support_Analysis__c</picklist>
+            <values>
+                <fullName>Copado Knowledge</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Git Knowledge</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Metadata API Knowledge</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>N%2FA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Salesforce Knowledge</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
