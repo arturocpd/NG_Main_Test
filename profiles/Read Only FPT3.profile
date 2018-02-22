@@ -2400,7 +2400,7 @@
         <name>EditEvent</name>
     </userPermissions>
     <userPermissions>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
         <name>EditHtmlTemplates</name>
     </userPermissions>
     <userPermissions>
