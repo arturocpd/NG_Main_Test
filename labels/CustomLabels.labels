@@ -9,44 +9,12 @@
         <value>Account Summary</value>
     </labels>
     <labels>
-        <fullName>ADD</fullName>
+        <fullName>ACTIVATE_USERS</fullName>
         <categories>Copado</categories>
         <language>en_US</language>
         <protected>true</protected>
-        <shortDescription>ADD</shortDescription>
-        <value>Add</value>
-    </labels>
-    <labels>
-        <fullName>ADD_AUTHENTICATION</fullName>
-        <categories>Copado</categories>
-        <language>en_US</language>
-        <protected>true</protected>
-        <shortDescription>ADD_AUTHENTICATION</shortDescription>
-        <value>Add Authentication</value>
-    </labels>
-    <labels>
-        <fullName>ADD_DESTINATION_ORG</fullName>
-        <categories>Copado</categories>
-        <language>en_US</language>
-        <protected>true</protected>
-        <shortDescription>ADD DESTINATION ORG</shortDescription>
-        <value>Add Destination Org</value>
-    </labels>
-    <labels>
-        <fullName>ADD_ENVIRONMENT_STEPS</fullName>
-        <categories>Copado</categories>
-        <language>en_US</language>
-        <protected>true</protected>
-        <shortDescription>ADD_ENVIRONMENT_STEPS</shortDescription>
-        <value>You can add Environments and Branches to the flow by making use of the Deployment Flow Steps related list below.</value>
-    </labels>
-    <labels>
-        <fullName>ADD_OAUTH</fullName>
-        <categories>Copado</categories>
-        <language>en_US</language>
-        <protected>true</protected>
-        <shortDescription>ADD_OAUTH</shortDescription>
-        <value>Set OAuth Authentication</value>
+        <shortDescription>ACTIVATE USERS</shortDescription>
+        <value>Activate users</value>
     </labels>
     <labels>
         <fullName>ADD_REMOVE_TEST_CASE_DESCRIPTION</fullName>
@@ -65,14 +33,6 @@
         <value>Add selected User Stories</value>
     </labels>
     <labels>
-        <fullName>ADD_STEP</fullName>
-        <categories>Copado</categories>
-        <language>en_US</language>
-        <protected>true</protected>
-        <shortDescription>ADD STEP</shortDescription>
-        <value>Add Step</value>
-    </labels>
-    <labels>
         <fullName>ADD_USERPASS</fullName>
         <categories>Copado</categories>
         <language>en_US</language>
@@ -81,12 +41,20 @@
         <value>Set username &amp; password</value>
     </labels>
     <labels>
-        <fullName>ALL</fullName>
+        <fullName>ADVANCED_METADATA_FILTERS</fullName>
         <categories>Copado</categories>
         <language>en_US</language>
         <protected>true</protected>
-        <shortDescription>ALL</shortDescription>
-        <value>All</value>
+        <shortDescription>ADVANCED METADATA FILTERS</shortDescription>
+        <value>Advanced Metadata Filter</value>
+    </labels>
+    <labels>
+        <fullName>ANALYSIS_SCORE</fullName>
+        <categories>Copado</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ANALYSIS SCORE</shortDescription>
+        <value>Analysis Score</value>
     </labels>
     <labels>
         <fullName>APEX_RULES_SET</fullName>
@@ -97,28 +65,20 @@
         <value>Apex Rules Set</value>
     </labels>
     <labels>
-        <fullName>APEX_TESTS_BELONG_TO_MULTIPLE_NAMESPACES</fullName>
-        <categories>Copado</categories>
-        <language>en_US</language>
-        <protected>true</protected>
-        <shortDescription>APEX TESTS BELONG TO MULTIPLE NAMESPACES</shortDescription>
-        <value>The Apex tests selected are part of more than one namespace. Please ensure that all your test classes belong to the same namespace and try again.</value>
-    </labels>
-    <labels>
-        <fullName>APEX_TESTS_RESULTS_TRIMMED</fullName>
-        <categories>Copado</categories>
-        <language>en_US</language>
-        <protected>true</protected>
-        <shortDescription>APEX TESTS RESULTS TRIMMED</shortDescription>
-        <value>Results were trimmed to 1000. Check the Salesforce Org with id {0} for more information.</value>
-    </labels>
-    <labels>
         <fullName>APEX_TEST_RESULT_SUMMARY_INFO</fullName>
         <categories>Copado</categories>
         <language>en_US</language>
         <protected>true</protected>
         <shortDescription>APEX TEST RESULT SUMMARY INFO</shortDescription>
         <value>The Class Coverage and Trigger Coverage progress status bar as well as this message will not be shown when printing.</value>
+    </labels>
+    <labels>
+        <fullName>API_KEY</fullName>
+        <categories>Copado</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>API KEY</shortDescription>
+        <value>API Key</value>
     </labels>
     <labels>
         <fullName>ARE_YOU_SURE</fullName>
@@ -137,6 +97,22 @@
         <value>Assign CAD License</value>
     </labels>
     <labels>
+        <fullName>ASSIGN_CCM_LICENSE</fullName>
+        <categories>Copado</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ASSIGN CCM LICENSE</shortDescription>
+        <value>Assign CCM License</value>
+    </labels>
+    <labels>
+        <fullName>ASSIGN_COPADO_LICENSE</fullName>
+        <categories>Copado</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ASSIGN COPADO LICENSE</shortDescription>
+        <value>Assign Copado License</value>
+    </labels>
+    <labels>
         <fullName>ATTENTION_REQUIRED</fullName>
         <categories>Copado</categories>
         <language>en_US</language>
@@ -145,20 +121,11 @@
         <value>ATTENTION REQUIRED!</value>
     </labels>
     <labels>
-        <fullName>AVAILABLE_FIELDS</fullName>
-        <categories>Copado</categories>
+        <fullName>AUTO_RESOLVED_CONFLICTS</fullName>
         <language>en_US</language>
         <protected>true</protected>
-        <shortDescription>AVAILABLE_FIELDS</shortDescription>
-        <value>Available Fields</value>
-    </labels>
-    <labels>
-        <fullName>Add_Filter_Logic</fullName>
-        <categories>ComplianceRuleCriteria</categories>
-        <language>en_US</language>
-        <protected>true</protected>
-        <shortDescription>Add Filter Logic</shortDescription>
-        <value>Add Filter Logic</value>
+        <shortDescription>AUTO RESOLVED CONFLICTS</shortDescription>
+        <value>Auto Resolved Conflicts</value>
     </labels>
     <labels>
         <fullName>Angel</fullName>
@@ -176,12 +143,44 @@
         <value>Back</value>
     </labels>
     <labels>
-        <fullName>BALANCE_STATUS</fullName>
+        <fullName>BACK_PROMOTION_NOT_ENABLED</fullName>
         <categories>Copado</categories>
         <language>en_US</language>
         <protected>true</protected>
-        <shortDescription>BALANCE STATUS</shortDescription>
-        <value>Balance Status</value>
+        <shortDescription>BACK PROMOTION NOT ENABLED</shortDescription>
+        <value>The Back Promotion feature is only available when the Project or Release is linked to a Branch Management deployment flow. A deployment flow is of type Branch Management if it has a Git Repository and a Main Branch assigned.</value>
+    </labels>
+    <labels>
+        <fullName>BASE_COMPARING_US_FLOW</fullName>
+        <categories>User Story Metadata Pull Request</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>BASE-COMPARING US FLOW</shortDescription>
+        <value>Base user story and comparing user story need to be linked to the same deployment flow</value>
+    </labels>
+    <labels>
+        <fullName>BEFORE_EDITING_PRESS_EDIT_BUTTON</fullName>
+        <categories>Copado</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>BEFORE_EDITING_PRESS_EDIT_BUTTON</shortDescription>
+        <value>Before Editing press Edit Selection button</value>
+    </labels>
+    <labels>
+        <fullName>BLOG</fullName>
+        <categories>Copado</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>BLOG</shortDescription>
+        <value>Copado Blog</value>
+    </labels>
+    <labels>
+        <fullName>BRANCH</fullName>
+        <categories>Copado</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>BRANCH</shortDescription>
+        <value>Branch</value>
     </labels>
     <labels>
         <fullName>BRANCH_AND_SOURCE_ENVIRONMENT_EQUALS</fullName>
@@ -192,36 +191,28 @@
         <value>The Source Environment&apos;s Name and Branch have to be the same.</value>
     </labels>
     <labels>
-        <fullName>BUY_CREDITS_BTN_LABEL</fullName>
+        <fullName>CAD_LICENSES_USED</fullName>
         <categories>Copado</categories>
         <language>en_US</language>
         <protected>true</protected>
-        <shortDescription>BUY CREDITS BTN LABEL</shortDescription>
-        <value>Buy credits</value>
+        <shortDescription>CAD LICENSES USED</shortDescription>
+        <value>Agile Delivery Licenses Used</value>
     </labels>
     <labels>
-        <fullName>CANCELLING</fullName>
+        <fullName>CCH_LICENSES_USED</fullName>
         <categories>Copado</categories>
         <language>en_US</language>
         <protected>true</protected>
-        <shortDescription>CANCELLING</shortDescription>
-        <value>Cancelling</value>
+        <shortDescription>CCH LICENSES USED</shortDescription>
+        <value>Compliance Hub Licenses Used</value>
     </labels>
     <labels>
-        <fullName>CCH_LICENSE_NOT_ENABLED</fullName>
+        <fullName>CCH_LICENSE_LIMIT_REACHED</fullName>
         <categories>Copado</categories>
         <language>en_US</language>
         <protected>true</protected>
-        <shortDescription>CCH LICENSE NOT ENABLED</shortDescription>
-        <value>Compliance Hub License not enabled for your user. Please contact your administrator.</value>
-    </labels>
-    <labels>
-        <fullName>CCM_DESTINATION_ORG_INVALID</fullName>
-        <categories>Copado</categories>
-        <language>en_US</language>
-        <protected>true</protected>
-        <shortDescription>CCM_DESTINATION_ORG_INVALID</shortDescription>
-        <value>CCM users can only promote and deploy to Sandbox Orgs.</value>
+        <shortDescription>CCH LICENSE LIMIT REACHED</shortDescription>
+        <value>The Copado Compliance Hub license limit has been reached.</value>
     </labels>
     <labels>
         <fullName>CCM_LICENSES_USED</fullName>
@@ -240,6 +231,14 @@
         <value>The Change Management license limit has been reached.</value>
     </labels>
     <labels>
+        <fullName>CLASS_COVERAGE</fullName>
+        <categories>Copado</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>CLASS COVERAGE</shortDescription>
+        <value>Class coverage</value>
+    </labels>
+    <labels>
         <fullName>CLICK_DEPLOYMENT_JOB_TO_VIEW_RESULTS</fullName>
         <categories>Copado</categories>
         <language>en_US</language>
@@ -248,12 +247,28 @@
         <value>To view results, please click the flag icon.</value>
     </labels>
     <labels>
-        <fullName>COMMAND</fullName>
+        <fullName>CLICK_FOR_STEP_DETAILS</fullName>
         <categories>Copado</categories>
         <language>en_US</language>
         <protected>true</protected>
-        <shortDescription>COMMAND</shortDescription>
-        <value>Command</value>
+        <shortDescription>CLICK FOR STEP DETAILS</shortDescription>
+        <value>Click to view and edit step details</value>
+    </labels>
+    <labels>
+        <fullName>CLONE</fullName>
+        <categories>Copado</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>CLONE</shortDescription>
+        <value>Clone</value>
+    </labels>
+    <labels>
+        <fullName>CLOSE</fullName>
+        <categories>Copado</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>CLOSE</shortDescription>
+        <value>Close</value>
     </labels>
     <labels>
         <fullName>COMMITS_BEHIND</fullName>
@@ -261,14 +276,6 @@
         <protected>true</protected>
         <shortDescription>COMMITS BEHIND</shortDescription>
         <value>Commits Behind</value>
-    </labels>
-    <labels>
-        <fullName>COMMITS_BEING_RETRIEVED</fullName>
-        <categories>Copado</categories>
-        <language>en_US</language>
-        <protected>true</protected>
-        <shortDescription>COMMITS_BEING_RETRIEVED</shortDescription>
-        <value>Commits are being retrieved now...</value>
     </labels>
     <labels>
         <fullName>COMMIT_FILES_NOT_ALLOWED</fullName>
@@ -279,28 +286,28 @@
         <value>The running of Commit Files has been disabled for this record.  Please verify the Snapshot Permissions picklist.</value>
     </labels>
     <labels>
-        <fullName>COMPLIANCE_RULE_MISSING_FLS</fullName>
-        <categories>ComplianceRuleCriteria</categories>
-        <language>en_US</language>
-        <protected>true</protected>
-        <shortDescription>COMPLIANCE RULE MISSING FLS</shortDescription>
-        <value>Due to missing permissions, the page couldn&apos;t be initialized correctly</value>
-    </labels>
-    <labels>
-        <fullName>CONDITION_NOT_DEFINED_BUT_REF</fullName>
-        <categories>ComplianceRuleCriteria</categories>
-        <language>en_US</language>
-        <protected>true</protected>
-        <shortDescription>CONDITION NOT DEFINED BUT REF</shortDescription>
-        <value>Some filter conditions are not defined but referenced in your filter logic. (Node, Field and Operator should have proper values.)</value>
-    </labels>
-    <labels>
-        <fullName>COPADO_EXTENSION_NOT_INSTALLED</fullName>
+        <fullName>COMMIT_NOW</fullName>
         <categories>Copado</categories>
         <language>en_US</language>
         <protected>true</protected>
-        <shortDescription>COPADO EXTENSION NOT INSTALLED</shortDescription>
-        <value>Copado Recorder Extension is not installed. Please read the instructions below to install the Chrome Extension.</value>
+        <shortDescription>COMMIT_NOW</shortDescription>
+        <value>Commit Files</value>
+    </labels>
+    <labels>
+        <fullName>COMPAIRING_US_DEPLOYMENT_FLOW</fullName>
+        <categories>User Story Metadata Pull Request</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>COMPAIRING US DEPLOYMENT FLOW</shortDescription>
+        <value>&apos;Comparing user story&apos;s project or release should have a deployment flow link.&apos;</value>
+    </labels>
+    <labels>
+        <fullName>COMPLIANCE_SCAN_REQUESTED</fullName>
+        <categories>Copado</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>COMPLIANCE SCAN REQUESTED</shortDescription>
+        <value>Compliance Scan Requested Successfully!</value>
     </labels>
     <labels>
         <fullName>COPADO_LICENSES_USED</fullName>
@@ -311,35 +318,12 @@
         <value>Copado Licenses Used</value>
     </labels>
     <labels>
-        <fullName>COPADO_ORG_SETUP</fullName>
+        <fullName>COPADO_ORG_SETUP_TIP_STEP_2</fullName>
         <categories>Copado</categories>
         <language>en_US</language>
         <protected>true</protected>
-        <shortDescription>COPADO ORG SETUP</shortDescription>
-        <value>Copado Org Credential Setup</value>
-    </labels>
-    <labels>
-        <fullName>COPADO_ORG_SETUP_DESCRIPTION</fullName>
-        <categories>Copado</categories>
-        <language>en_US</language>
-        <protected>true</protected>
-        <shortDescription>COPADO ORG SETUP DESCRIPTION</shortDescription>
-        <value>This is the Org Credential for this Environment.  Don&apos;t forget that once you are returned to the edit page you can optionally set the running of all Apex tests on a nightly basis.</value>
-    </labels>
-    <labels>
-        <fullName>COPADO_ORG_SETUP_ORG_USERNAME</fullName>
-        <language>en_US</language>
-        <protected>true</protected>
-        <shortDescription>COPADO_ORG_SETUP_ORG_USERNAME</shortDescription>
-        <value>Username:</value>
-    </labels>
-    <labels>
-        <fullName>COPADO_ORG_SETUP_TIP_STEP_1</fullName>
-        <categories>Copado</categories>
-        <language>en_US</language>
-        <protected>true</protected>
-        <shortDescription>COPADO ORG SETUP TIP STEP 1</shortDescription>
-        <value>1. When prompted enter the username and password for the following user:</value>
+        <shortDescription>COPADO ORG SETUP TIP STEP 2</shortDescription>
+        <value>2. Press the ALLOW button when prompted.</value>
     </labels>
     <labels>
         <fullName>COPADO_SETUP_WIZARD_DESCRIPTION</fullName>
@@ -350,12 +334,36 @@
         <value>This setup screen will guide you through the steps necessary in order for you to use all the features that Copado has to offer.</value>
     </labels>
     <labels>
+        <fullName>COPADO_TIP</fullName>
+        <categories>Copado</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>COPADO_TIP</shortDescription>
+        <value>Copado Tip</value>
+    </labels>
+    <labels>
         <fullName>COVERAGE</fullName>
         <categories>Copado</categories>
         <language>en_US</language>
         <protected>true</protected>
         <shortDescription>COVERAGE</shortDescription>
         <value>Coverage</value>
+    </labels>
+    <labels>
+        <fullName>COVERAGE_STATUS</fullName>
+        <categories>Copado</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>COVERAGE STATUS</shortDescription>
+        <value>Coverage Status</value>
+    </labels>
+    <labels>
+        <fullName>CREATE</fullName>
+        <categories>Copado</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>CREATE</shortDescription>
+        <value>Create</value>
     </labels>
     <labels>
         <fullName>CREATEDBY</fullName>
@@ -366,12 +374,28 @@
         <value>Created By</value>
     </labels>
     <labels>
-        <fullName>CREATE_DEPLOYMENT</fullName>
+        <fullName>CREATEDDATE</fullName>
         <categories>Copado</categories>
         <language>en_US</language>
         <protected>true</protected>
-        <shortDescription>CREATE DEPLOYMENT</shortDescription>
-        <value>Create Deployment</value>
+        <shortDescription>CREATEDDATE</shortDescription>
+        <value>Created Date</value>
+    </labels>
+    <labels>
+        <fullName>CREATED_BACK_PROMOTIONS</fullName>
+        <categories>MassBackPromote CBM2</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>CREATED BACK PROMOTIONS</shortDescription>
+        <value>CREATED BACK PROMOTIONS</value>
+    </labels>
+    <labels>
+        <fullName>CREATE_CRON_EXPRESSION</fullName>
+        <categories>Copado</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>CREATE CRON EXPRESSION</shortDescription>
+        <value>Create Cron Expression</value>
     </labels>
     <labels>
         <fullName>CREATE_DEPLOYMENT_TITLE</fullName>
@@ -382,12 +406,12 @@
         <value>Would you like to add a Deployment? (Optional)</value>
     </labels>
     <labels>
-        <fullName>CREATE_ENVIRONMENT_INSTRUCTIONS</fullName>
+        <fullName>CREATE_GIT_REPOSITORY_DESCRIPTION</fullName>
         <categories>Copado</categories>
         <language>en_US</language>
         <protected>true</protected>
-        <shortDescription>CREATE ENVIRONMENT INSTRUCTIONS</shortDescription>
-        <value>Create Environment instructions</value>
+        <shortDescription>CREATE GIT REPOSITORY DESCRIPTION</shortDescription>
+        <value>A Git Repository record in Copado creates the authentication to the repository that can then later be used for Git Snapshots, Continuous Integrations and Git Metadata deployments.</value>
     </labels>
     <labels>
         <fullName>CREATE_GIT_REPOSITORY_TITLE</fullName>
@@ -398,52 +422,12 @@
         <value>Would you like to add a Git Repository? (Optional)</value>
     </labels>
     <labels>
-        <fullName>CREATE_GIT_SNAPSHOT_DESCRIPTION</fullName>
-        <categories>Copado</categories>
-        <language>en_US</language>
-        <protected>true</protected>
-        <shortDescription>CREATE GIT SNAPSHOT DESCRIPTION</shortDescription>
-        <value>A Git Snapshot is a picture in time of your Salesforce Environment that is backed up into a Git Repository.  The can be scheduled to a daily basis.</value>
-    </labels>
-    <labels>
         <fullName>CREATE_ORG_DIFFERENCE_DESCRIPTION</fullName>
         <categories>Copado</categories>
         <language>en_US</language>
         <protected>true</protected>
         <shortDescription>CREATE ORG DIFFERENCE DESCRIPTION</shortDescription>
         <value>The Org Difference features uses a Last Modified Date returned by the Salesforce API to calculate differences.  Whilst this difference calculation is quicker than the Snapshot Difference feature (see below), you do not see the exact changes made.  Creating a deployment from the Org Difference feature is more precise because the individual metadata can be selected (e.g. 1 validation rule or custom field on the Account), rather than the entire file Salesforce returns.  An understanding of the Metadata API is advised here, as not all changes in Salesforce update the Last Modified Date (e.g. changes to picklist values will not update the picklist&apos;s last modified date).</value>
-    </labels>
-    <labels>
-        <fullName>CREATE_SELENIUM_SETTINGS_INFO</fullName>
-        <categories>Copado</categories>
-        <language>en_US</language>
-        <protected>true</protected>
-        <shortDescription>CREATE SELENIUM SETTINGS INFO</shortDescription>
-        <value>No Quick Run Setting found for your User. Complete the below fields to create one.</value>
-    </labels>
-    <labels>
-        <fullName>CREATE_SNAPSHOT_DIFFERENCE_DESCRIPTION</fullName>
-        <categories>Copado</categories>
-        <language>en_US</language>
-        <protected>true</protected>
-        <shortDescription>CREATE SNAPSHOT DIFFERENCE DESCRIPTION</shortDescription>
-        <value>The Snapshot Difference feature allows the XML differences to be displayed.  Copado is using Git to calculate the differences in the XML files returned by Salesforce and highlight these to you.  This means you can see what has changes (e.g. in a custom field or a validation rule on the Account) have been made.  However, creating a deployment from here will add the entire account object to the deployment (a file based deployment), where you thereby deploy all related metadata, such as all validation rules, custom fields, list views etc...  The Org Difference feature is different in this respect as it deploys individual metadata items (e.g. the 1 validation rule or custom field you selected on the Account).</value>
-    </labels>
-    <labels>
-        <fullName>CREATE_SNAPSHOT_DIFFERENCE_TITLE</fullName>
-        <categories>Copado</categories>
-        <language>en_US</language>
-        <protected>true</protected>
-        <shortDescription>CREATE SNAPSHOT DIFFERENCE TITLE</shortDescription>
-        <value>Would you like to add a Snapshot Difference? (Optional)</value>
-    </labels>
-    <labels>
-        <fullName>CST_LICENSE_LIMIT_REACHED</fullName>
-        <categories>Copado</categories>
-        <language>en_US</language>
-        <protected>true</protected>
-        <shortDescription>CST LICENSE LIMIT REACHED</shortDescription>
-        <value>The Selenium Testing license limit has been reached.</value>
     </labels>
     <labels>
         <fullName>CUSTOMER_ORG_NOT_VALIDATED</fullName>
@@ -454,12 +438,12 @@
         <value>You need to validate the Org where Copado is installed in order to schedule Test executions, Git Snapshots and Deployments.</value>
     </labels>
     <labels>
-        <fullName>Cancel</fullName>
+        <fullName>Change_Management_Feature_Not_Enabled</fullName>
         <categories>Copado</categories>
         <language>en_US</language>
         <protected>true</protected>
-        <shortDescription>Cancel</shortDescription>
-        <value>Cancel</value>
+        <shortDescription>Change Management Feature Not Enabled</shortDescription>
+        <value>The Feature &quot;Change Management&quot; is not enabled. Please contact sales@copa.do</value>
     </labels>
     <labels>
         <fullName>Clear_al_ldynamic_data</fullName>
@@ -478,44 +462,28 @@
         <value>Compliance Findings were found with Abort Process Action please &lt;a href=/{0} target=blank&gt;click here&lt;/a&gt; to view more details</value>
     </labels>
     <labels>
-        <fullName>DAY_S</fullName>
+        <fullName>Create_Pull_Request</fullName>
         <categories>Copado</categories>
         <language>en_US</language>
         <protected>true</protected>
-        <shortDescription>DAY_S</shortDescription>
-        <value>day(s)</value>
+        <shortDescription>Create Pull Request</shortDescription>
+        <value>Pull Request</value>
     </labels>
     <labels>
-        <fullName>DEPLOYMENT_COMPLETED_SUCCESSFULLY</fullName>
+        <fullName>DEPLOYMENT</fullName>
         <categories>Copado</categories>
         <language>en_US</language>
         <protected>true</protected>
-        <shortDescription>DEPLOYMENT_COMPLETED_SUCCESSFULLY</shortDescription>
-        <value>Deployment Completed Successfully</value>
+        <shortDescription>DEPLOYMENT</shortDescription>
+        <value>Deployment</value>
     </labels>
     <labels>
-        <fullName>DEPLOYMENT_JOB_ERRORS</fullName>
+        <fullName>DEPLOYMENT_JOB</fullName>
         <categories>Copado</categories>
         <language>en_US</language>
         <protected>true</protected>
-        <shortDescription>DEPLOYMENT JOB ERRORS</shortDescription>
-        <value>Deployment Job Errors</value>
-    </labels>
-    <labels>
-        <fullName>DEPLOYMENT_JOB_NOT_STARTED_YET</fullName>
-        <categories>Copado</categories>
-        <language>en_US</language>
-        <protected>true</protected>
-        <shortDescription>DEPLOYMENT JOB NOT STARTED YET</shortDescription>
-        <value>Deployment Job not started yet.</value>
-    </labels>
-    <labels>
-        <fullName>DEPLOYMENT_STARTING</fullName>
-        <categories>Copado</categories>
-        <language>en_US</language>
-        <protected>true</protected>
-        <shortDescription>DEPLOYMENT_STARTING</shortDescription>
-        <value>Your deployment will start shortly...</value>
+        <shortDescription>DEPLOYMENT JOB</shortDescription>
+        <value>Deployment Job</value>
     </labels>
     <labels>
         <fullName>DEPLOYMENT_STATUS</fullName>
@@ -526,28 +494,28 @@
         <value>Deployment Status</value>
     </labels>
     <labels>
-        <fullName>DESTINATION_ORG</fullName>
+        <fullName>DEPLOY_COMPONENTS</fullName>
         <categories>Copado</categories>
         <language>en_US</language>
         <protected>true</protected>
-        <shortDescription>DESTINATION ORG</shortDescription>
-        <value>Destination Org</value>
+        <shortDescription>DEPLOY COMPONENTS</shortDescription>
+        <value>Deploy Components</value>
     </labels>
     <labels>
-        <fullName>DESTINATION_ORG_SAVED</fullName>
+        <fullName>DEPLOY_NOW_OR_LATER</fullName>
         <categories>Copado</categories>
         <language>en_US</language>
         <protected>true</protected>
-        <shortDescription>DESTINATION ORG SAVED</shortDescription>
-        <value>Destination Org saved</value>
+        <shortDescription>DEPLOY_NOW_OR_LATER</shortDescription>
+        <value>Deploy now or later?</value>
     </labels>
     <labels>
-        <fullName>DESTINATION_REGRESSION_SELENIUM_TESTS</fullName>
+        <fullName>DESTINATION_ORG_ALREADY_SELECTED</fullName>
         <categories>Copado</categories>
         <language>en_US</language>
         <protected>true</protected>
-        <shortDescription>DESTINATION REGRESSION SELENIUM TESTS</shortDescription>
-        <value>Destination Regression Selenium Tests</value>
+        <shortDescription>DESTINATION ORG ALREADY SELECTED</shortDescription>
+        <value>That destination org is already selected</value>
     </labels>
     <labels>
         <fullName>DESTINATION_REGRESSION_TESTS</fullName>
@@ -558,12 +526,12 @@
         <value>Destination Regression Tests</value>
     </labels>
     <labels>
-        <fullName>DETAIL</fullName>
+        <fullName>DESTINATION_USER_STORY_SELENIUM_TESTS</fullName>
         <categories>Copado</categories>
         <language>en_US</language>
         <protected>true</protected>
-        <shortDescription>DETAIL</shortDescription>
-        <value>Detail</value>
+        <shortDescription>DESTINATION USER STORY SELENIUM TESTS</shortDescription>
+        <value>Destination User Story Selenium Tests</value>
     </labels>
     <labels>
         <fullName>DETAILS</fullName>
@@ -574,14 +542,6 @@
         <value>Details</value>
     </labels>
     <labels>
-        <fullName>DONT_REMIND_ME_AGAIN</fullName>
-        <categories>Copado</categories>
-        <language>en_US</language>
-        <protected>true</protected>
-        <shortDescription>DONT_REMIND_ME_AGAIN</shortDescription>
-        <value>Don&apos;t remind me again</value>
-    </labels>
-    <labels>
         <fullName>DOWN</fullName>
         <categories>Copado</categories>
         <language>en_US</language>
@@ -590,20 +550,44 @@
         <value>Down</value>
     </labels>
     <labels>
-        <fullName>DeploymentTask_DeleteConfirm</fullName>
+        <fullName>DURATION</fullName>
         <categories>Copado</categories>
         <language>en_US</language>
         <protected>true</protected>
-        <shortDescription>DeploymentTask_DeleteConfirm</shortDescription>
-        <value>Are you sure you want to delete this Deployment Task?</value>
+        <shortDescription>DURATION</shortDescription>
+        <value>Duration</value>
     </labels>
     <labels>
-        <fullName>DeploymentTask_Task_Description</fullName>
+        <fullName>DeploymentTask_Alert_OrgCred</fullName>
         <categories>Copado</categories>
         <language>en_US</language>
         <protected>true</protected>
-        <shortDescription>DeploymentTask_Task_Description</shortDescription>
-        <value>Task Description</value>
+        <shortDescription>DeploymentTask_Alert_OrgCred</shortDescription>
+        <value>Selected User Story must be associated with an org credential</value>
+    </labels>
+    <labels>
+        <fullName>DeploymentTask_Alert_ProperUS</fullName>
+        <categories>Copado</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>DeploymentTask_Alert_ProperUS</shortDescription>
+        <value>Please select a proper User Story</value>
+    </labels>
+    <labels>
+        <fullName>DeploymentTask_Perform_Source</fullName>
+        <categories>Copado</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>DeploymentTask_Perform_Source</shortDescription>
+        <value>Perform in Source Org</value>
+    </labels>
+    <labels>
+        <fullName>DeploymentTask_Task_Details</fullName>
+        <categories>Copado</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>DeploymentTask_Task_Details</shortDescription>
+        <value>Task Details</value>
     </labels>
     <labels>
         <fullName>Disable_Auto_Selection_Overwrite</fullName>
@@ -612,14 +596,6 @@
         <protected>true</protected>
         <shortDescription>Disable Auto Selection Overwrite</shortDescription>
         <value>Disable Auto Selection Overwrite</value>
-    </labels>
-    <labels>
-        <fullName>Dynamic_Data</fullName>
-        <categories>Copado</categories>
-        <language>en_US</language>
-        <protected>true</protected>
-        <shortDescription>Dynamic Data</shortDescription>
-        <value>Dynamic Data</value>
     </labels>
     <labels>
         <fullName>Dynamic_Data_Exp_1</fullName>
@@ -638,6 +614,30 @@
         <value>You can add/remove/rename columns and values, by typing in the corresponding cell, or you can right click to add/remove rows and columns.</value>
     </labels>
     <labels>
+        <fullName>EDIT_SELECTION</fullName>
+        <categories>Copado</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>EDIT_SELECTION</shortDescription>
+        <value>Edit Selection</value>
+    </labels>
+    <labels>
+        <fullName>ENABLE_AUTO_RECHARGE</fullName>
+        <categories>Copado</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ENABLE AUTO RECHARGE</shortDescription>
+        <value>Enable auto-recharge</value>
+    </labels>
+    <labels>
+        <fullName>ENDING_COMMIT</fullName>
+        <categories>Copado</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ENDING_COMMIT</shortDescription>
+        <value>Ending Commit</value>
+    </labels>
+    <labels>
         <fullName>END_TIME</fullName>
         <categories>Copado</categories>
         <language>en_US</language>
@@ -646,44 +646,12 @@
         <value>End Time</value>
     </labels>
     <labels>
-        <fullName>ENTER_COMMIT_MESSAGE</fullName>
+        <fullName>ENV_VARS_COMMIT</fullName>
         <categories>Copado</categories>
         <language>en_US</language>
         <protected>true</protected>
-        <shortDescription>ENTER_COMMIT_MESSAGE</shortDescription>
-        <value>Enter a Commit Message.</value>
-    </labels>
-    <labels>
-        <fullName>ENTER_VAR_NAME</fullName>
-        <categories>Copado</categories>
-        <language>en_US</language>
-        <protected>true</protected>
-        <shortDescription>ENTER_VAR_NAME</shortDescription>
-        <value>Please, enter a name for the variable</value>
-    </labels>
-    <labels>
-        <fullName>ENV_VARS_DEPLOY</fullName>
-        <categories>Copado</categories>
-        <language>en_US</language>
-        <protected>true</protected>
-        <shortDescription>ENV_VARS_DEPLOY</shortDescription>
-        <value>Variables get replaced by Values when deploying</value>
-    </labels>
-    <labels>
-        <fullName>ENV_VARS_DOCS</fullName>
-        <categories>Copado</categories>
-        <language>en_US</language>
-        <protected>true</protected>
-        <shortDescription>ENV_VARS_DOCS</shortDescription>
-        <value>http://docs.copa.do/copado/environments</value>
-    </labels>
-    <labels>
-        <fullName>ENV_VARS_DUPLICATE_VAL_ENV</fullName>
-        <categories>Copado</categories>
-        <language>en_US</language>
-        <protected>true</protected>
-        <shortDescription>ENV_VARS_DUPLICATE_VAL_ENV</shortDescription>
-        <value>Duplicate Value: {0} found on: {1}</value>
+        <shortDescription>ENV_VARS_COMMIT</shortDescription>
+        <value>Values get replaced by Variables when committing</value>
     </labels>
     <labels>
         <fullName>ENV_VARS_MISSING_VALS</fullName>
@@ -702,14 +670,6 @@
         <value>More information at</value>
     </labels>
     <labels>
-        <fullName>ENV_VARS_VALUE_REQUIRED</fullName>
-        <categories>Copado</categories>
-        <language>en_US</language>
-        <protected>true</protected>
-        <shortDescription>ENV_VARS_VALUE_REQUIRED</shortDescription>
-        <value>Values for all Environments are required</value>
-    </labels>
-    <labels>
         <fullName>ERROR</fullName>
         <categories>Copado</categories>
         <language>en_US</language>
@@ -718,36 +678,20 @@
         <value>Error</value>
     </labels>
     <labels>
-        <fullName>ERROR_MSG_PREV_META_MISSING</fullName>
+        <fullName>EVERY</fullName>
         <categories>Copado</categories>
         <language>en_US</language>
         <protected>true</protected>
-        <shortDescription>ERROR_MSG_PREV_META_MISSING</shortDescription>
-        <value>Some items were not found. Please refresh cache or review the metadata filters on the From Org. e.g:</value>
+        <shortDescription>EVERY</shortDescription>
+        <value>Every</value>
     </labels>
     <labels>
-        <fullName>ERROR_TEST_GIT_CONNECTIONS</fullName>
+        <fullName>EXTERNAL_CI_JOB</fullName>
         <categories>Copado</categories>
         <language>en_US</language>
         <protected>true</protected>
-        <shortDescription>ERROR_TEST_GIT_CONNECTIONS</shortDescription>
-        <value>Error, please click &quot;Test connections&quot; button for more information.</value>
-    </labels>
-    <labels>
-        <fullName>EVERY_WEEK_DAY</fullName>
-        <categories>Copado</categories>
-        <language>en_US</language>
-        <protected>true</protected>
-        <shortDescription>EVERY WEEK DAY</shortDescription>
-        <value>Every Week Day</value>
-    </labels>
-    <labels>
-        <fullName>EXTERNAL_ID</fullName>
-        <categories>Copado</categories>
-        <language>en_US</language>
-        <protected>true</protected>
-        <shortDescription>EXTERNAL_ID</shortDescription>
-        <value>External Id</value>
+        <shortDescription>EXTERNAL CI JOB</shortDescription>
+        <value>External CI</value>
     </labels>
     <labels>
         <fullName>Enable_Auto_Selection_Overwrite</fullName>
@@ -758,12 +702,12 @@
         <value>Enable Auto Selection Overwrite</value>
     </labels>
     <labels>
-        <fullName>FEATURE_NOT_SUPPORTED</fullName>
+        <fullName>FEATURES</fullName>
         <categories>Copado</categories>
         <language>en_US</language>
         <protected>true</protected>
-        <shortDescription>FEATURE NOT SUPPORTED</shortDescription>
-        <value>Feature not supported for your license:</value>
+        <shortDescription>FEATURES</shortDescription>
+        <value>Features</value>
     </labels>
     <labels>
         <fullName>FETCHING_COMMITS_FOR_USER_STORY</fullName>
@@ -772,14 +716,6 @@
         <protected>true</protected>
         <shortDescription>FETCHING COMMITS FOR USER STORY</shortDescription>
         <value>Fetching git commit(s) and adding these to the User Story</value>
-    </labels>
-    <labels>
-        <fullName>FIELDS</fullName>
-        <categories>Copado</categories>
-        <language>en_US</language>
-        <protected>true</protected>
-        <shortDescription>FIELDS</shortDescription>
-        <value>Fields</value>
     </labels>
     <labels>
         <fullName>FILE</fullName>
@@ -797,54 +733,44 @@
         <value>File Differences</value>
     </labels>
     <labels>
-        <fullName>FIRST_SELECT_A_USER</fullName>
+        <fullName>FINDREPLACE_CONFIRM</fullName>
+        <categories>Global Find and Replace editor</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>FindReplace_Confirm</shortDescription>
+        <value>Would you like to save it with errors?</value>
+    </labels>
+    <labels>
+        <fullName>FRACTION_OUT_OF_LABEL</fullName>
         <categories>Copado</categories>
         <language>en_US</language>
         <protected>true</protected>
-        <shortDescription>FIRST SELECT A USER</shortDescription>
-        <value>First select a user</value>
+        <shortDescription>FRACTION OUT OF LABEL</shortDescription>
+        <value>out of</value>
     </labels>
     <labels>
-        <fullName>FLOW_CREDENTIAL_ERROR</fullName>
+        <fullName>FRIDAY</fullName>
         <categories>Copado</categories>
         <language>en_US</language>
         <protected>true</protected>
-        <shortDescription>FLOW CREDENTIAL ERROR</shortDescription>
-        <value>Please check that the following criteria have been met:
-- The Environment is part of the project deployment flow
-- You own the Org Credentials to both Source and Destination Environments</value>
+        <shortDescription>FRIDAY</shortDescription>
+        <value>Friday</value>
     </labels>
     <labels>
-        <fullName>Field</fullName>
-        <categories>ComplianceRuleCriteria</categories>
-        <language>en_US</language>
-        <protected>true</protected>
-        <shortDescription>Field</shortDescription>
-        <value>Field</value>
-    </labels>
-    <labels>
-        <fullName>GETTING_STARTED</fullName>
+        <fullName>GETTING_APEX_TEST_CLASSES</fullName>
         <categories>Copado</categories>
         <language>en_US</language>
         <protected>true</protected>
-        <shortDescription>GETTING STARTED</shortDescription>
-        <value>Getting Started</value>
+        <shortDescription>GETTING APEX TEST CLASSES</shortDescription>
+        <value>Getting Apex Test Classes...</value>
     </labels>
     <labels>
-        <fullName>GETTING_STARTED_DESCRIPTION_SHORT</fullName>
+        <fullName>GET_LICENSE_INFORMATION</fullName>
         <categories>Copado</categories>
         <language>en_US</language>
         <protected>true</protected>
-        <shortDescription>GETTING STARTED DESCRIPTION SHORT</shortDescription>
-        <value>Copado - leading provider of Salesforce Enterprise-class release management.</value>
-    </labels>
-    <labels>
-        <fullName>GET_FIELDS</fullName>
-        <categories>Copado</categories>
-        <language>en_US</language>
-        <protected>true</protected>
-        <shortDescription>GET_FIELDS</shortDescription>
-        <value>Get Fields</value>
+        <shortDescription>GET LICENSE INFORMATION</shortDescription>
+        <value>Get License Information</value>
     </labels>
     <labels>
         <fullName>GIT_BACKUP_EDIT_DESCRIPTION</fullName>
@@ -853,22 +779,6 @@
         <protected>true</protected>
         <shortDescription>GIT_BACKUP_EDIT_DESCRIPTION</shortDescription>
         <value>A Git Snapshot record in Copado controls which Salesforce Org will be backed up to and to which Git repository. It also sets the frequency of the execution. Bear in mind that only metadata is backed up, no data at the moment. By default all metadata types will be  backed up unless advanced metadata filters are used. Metadata types will be displayed only after an Org is selected.</value>
-    </labels>
-    <labels>
-        <fullName>GIT_BACKUP_EDIT_TITLE</fullName>
-        <categories>Copado</categories>
-        <language>en_US</language>
-        <protected>true</protected>
-        <shortDescription>GIT_BACKUP_EDIT_TITLE</shortDescription>
-        <value>Git Snapshot Edition</value>
-    </labels>
-    <labels>
-        <fullName>GIT_SNAPSHOT_DEFAULT_COMMENT</fullName>
-        <categories>Copado</categories>
-        <language>en_US</language>
-        <protected>true</protected>
-        <shortDescription>GIT_SNAPSHOT_DEFAULT_COMMENT</shortDescription>
-        <value>Copado Snapshot</value>
     </labels>
     <labels>
         <fullName>GIT_UPSERTS</fullName>
@@ -919,14 +829,6 @@
         <value>Select destination orgs to which you want to deploy components, users or data.</value>
     </labels>
     <labels>
-        <fullName>HEADER_SETUP_SCHEDULE</fullName>
-        <categories>Copado</categories>
-        <language>en_US</language>
-        <protected>true</protected>
-        <shortDescription>HEADER SETUP SCHEDULE</shortDescription>
-        <value>4/4 Setup deployment schedule</value>
-    </labels>
-    <labels>
         <fullName>HELP_FOR_THIS_PAGE</fullName>
         <categories>Copado</categories>
         <language>en_US</language>
@@ -935,12 +837,12 @@
         <value>Help for this Page</value>
     </labels>
     <labels>
-        <fullName>HELP_GET_DESCRIPTION_SHORT</fullName>
+        <fullName>HIDE_KEY</fullName>
         <categories>Copado</categories>
         <language>en_US</language>
         <protected>true</protected>
-        <shortDescription>HELP GET DESCRIPTION SHORT</shortDescription>
-        <value>Search for a solution, review our FAQ and/or contact our support team.</value>
+        <shortDescription>HIDE KEY</shortDescription>
+        <value>Hide Key</value>
     </labels>
     <labels>
         <fullName>HIDE_MESSAGE</fullName>
@@ -951,6 +853,14 @@
         <value>Hide message</value>
     </labels>
     <labels>
+        <fullName>HOURLY</fullName>
+        <categories>Copado</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>HOURLY</shortDescription>
+        <value>Hourly</value>
+    </labels>
+    <labels>
         <fullName>HOUR_S</fullName>
         <categories>Copado</categories>
         <language>en_US</language>
@@ -959,76 +869,84 @@
         <value>hour(s)</value>
     </labels>
     <labels>
-        <fullName>IM_DONE</fullName>
+        <fullName>INPROGRESS</fullName>
         <categories>Copado</categories>
         <language>en_US</language>
         <protected>true</protected>
-        <shortDescription>IM DONE</shortDescription>
-        <value>I&apos;m done</value>
+        <shortDescription>INPROGRESS</shortDescription>
+        <value>In progress</value>
     </labels>
     <labels>
-        <fullName>INFO</fullName>
+        <fullName>INSUFFICENT_ACCESS</fullName>
         <categories>Copado</categories>
         <language>en_US</language>
         <protected>true</protected>
-        <shortDescription>INFO</shortDescription>
-        <value>Information</value>
+        <shortDescription>INSUFFICENT ACCESS</shortDescription>
+        <value>Insufficient Access</value>
     </labels>
     <labels>
-        <fullName>INFO_URL</fullName>
+        <fullName>JOB_UNSCHEDULED_SUCCESSFULLY</fullName>
         <categories>Copado</categories>
         <language>en_US</language>
         <protected>true</protected>
-        <shortDescription>INFO_URL</shortDescription>
-        <value>INFO URL</value>
+        <shortDescription>JOB UNSCHEDULED SUCCESSFULLY</shortDescription>
+        <value>Job Unscheduled Successfully</value>
     </labels>
     <labels>
-        <fullName>IN_USERSTORY</fullName>
+        <fullName>JQX_PAGERPREVIOUSBUTTONSTRING</fullName>
         <categories>Copado</categories>
         <language>en_US</language>
         <protected>true</protected>
-        <shortDescription>IN USERSTORY</shortDescription>
-        <value>In User Story</value>
+        <shortDescription>JQX PAGERPREVIOUSBUTTONSTRING</shortDescription>
+        <value>previous</value>
     </labels>
     <labels>
-        <fullName>JOB_SETUP</fullName>
+        <fullName>JQX_PAGERSHOWROWSSTRING</fullName>
         <categories>Copado</categories>
         <language>en_US</language>
         <protected>true</protected>
-        <shortDescription>JOB SETUP</shortDescription>
-        <value>Job Setup</value>
+        <shortDescription>JQX PAGERSHOWROWSSTRING</shortDescription>
+        <value>Show rows:</value>
     </labels>
     <labels>
-        <fullName>JQX_PAGERGOTOPAGESTRING</fullName>
+        <fullName>JQX_SORTDESCENDINGSTRING</fullName>
         <categories>Copado</categories>
         <language>en_US</language>
         <protected>true</protected>
-        <shortDescription>JQX_PAGERGOTOPAGESTRING</shortDescription>
-        <value>Go to page:</value>
+        <shortDescription>JQX SORTDESCENDINGSTRING</shortDescription>
+        <value>Sort Descending</value>
     </labels>
     <labels>
-        <fullName>JQX_SORTASCENDINGSTRING</fullName>
+        <fullName>JQX_SORTREMOVESTRING</fullName>
         <categories>Copado</categories>
         <language>en_US</language>
         <protected>true</protected>
-        <shortDescription>JQX SORTASCENDINGSTRING</shortDescription>
-        <value>Sort Ascending</value>
+        <shortDescription>JQX SORTREMOVESTRING</shortDescription>
+        <value>Remove Sort</value>
     </labels>
     <labels>
-        <fullName>KANBAN_BOARD_DESCRIPTION</fullName>
+        <fullName>KANBAN_BOARD_COLUMNS</fullName>
         <categories>Copado</categories>
         <language>en_US</language>
         <protected>true</protected>
-        <shortDescription>KANBAN BOARD DESCRIPTION</shortDescription>
-        <value>The Kanban board editor allows admins to define the Kanban board definition, giving users complete flexibility on the Kanban board function and usage.  Any object can be queried and any picklist or lookup field can be updated.</value>
+        <shortDescription>KANBAN BOARD COLUMNS</shortDescription>
+        <value>Board Columns</value>
     </labels>
     <labels>
-        <fullName>KANBAN_BOARD_INFORMATION</fullName>
+        <fullName>KANBAN_COLUMNS_FROM_PICKLIST</fullName>
         <categories>Copado</categories>
         <language>en_US</language>
         <protected>true</protected>
-        <shortDescription>KANBAN_BOARD_INFORMATION</shortDescription>
-        <value>Board information</value>
+        <shortDescription>KANBAN COLUMNS FROM PICKLIST</shortDescription>
+        <value>Columns from picklist</value>
+    </labels>
+    <labels>
+        <fullName>KANBAN_COLUMNS_HELP</fullName>
+        <categories>Copado</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>KANBAN COLUMNS HELP</shortDescription>
+        <value>Reorder the list by dragging the items, and check the values you want to use as columns.</value>
     </labels>
     <labels>
         <fullName>KEY_CONTENT</fullName>
@@ -1039,20 +957,28 @@
         <value>Key Content</value>
     </labels>
     <labels>
-        <fullName>LASTMODIFIEDBY</fullName>
-        <categories>Copado</categories>
-        <language>en_US</language>
-        <protected>true</protected>
-        <shortDescription>LASTMODIFIEDBY</shortDescription>
-        <value>Last Modifed By</value>
-    </labels>
-    <labels>
         <fullName>LASTMODIFIEDDATE</fullName>
         <categories>Copado</categories>
         <language>en_US</language>
         <protected>true</protected>
         <shortDescription>LASTMODIFIEDDATE</shortDescription>
         <value>Last Modified</value>
+    </labels>
+    <labels>
+        <fullName>LAST_EXECUTION</fullName>
+        <categories>Copado</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>LAST EXECUTION</shortDescription>
+        <value>Last Execution</value>
+    </labels>
+    <labels>
+        <fullName>LATEST_SYNC_LOGS</fullName>
+        <categories>MassBackPromote CBM2</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>LATEST SYNC LOGS</shortDescription>
+        <value>Latest Sync Logs</value>
     </labels>
     <labels>
         <fullName>LEAVE_A_COMMENT_PLASEHOLDER</fullName>
@@ -1063,52 +989,92 @@
         <value>Please leave a comment here in order to track your manual activity.</value>
     </labels>
     <labels>
-        <fullName>LICENSE_MANAGER_INACTIVE_DESCRIPTON</fullName>
+        <fullName>LEVEL</fullName>
         <categories>Copado</categories>
         <language>en_US</language>
         <protected>true</protected>
-        <shortDescription>LICENSE MANAGER INACTIVE DESCRIPTON</shortDescription>
-        <value>The Copado License Manager is only used for organisations that have both Copado and Copado Change Management licenses enabled.  Organisations that have only Professional or Enterprise Edition licenses will need to use the standard Salesforce license management feature against the Copado package to add or remove users.</value>
+        <shortDescription>LEVEL</shortDescription>
+        <value>Level</value>
     </labels>
     <labels>
-        <fullName>LIST_TC_PREV_VERSION</fullName>
+        <fullName>LICENSE_MANAGER_DEACTIVATED</fullName>
         <categories>Copado</categories>
         <language>en_US</language>
         <protected>true</protected>
-        <shortDescription>LIST_TC_PREV_VERSION</shortDescription>
-        <value>List of test Test Cases per Suite where previous version is used.</value>
+        <shortDescription>LICENSE MANAGER DEACTIVATED</shortDescription>
+        <value>The Copado License Manager has been deactivated.</value>
     </labels>
     <labels>
-        <fullName>MANAGE_SUBSCRIPTION</fullName>
+        <fullName>LINES_COVERED_TOTAL_LINES</fullName>
         <categories>Copado</categories>
         <language>en_US</language>
         <protected>true</protected>
-        <shortDescription>MANAGE SUBSCRIPTION</shortDescription>
-        <value>Manage subscription</value>
+        <shortDescription>LINES_COVERED_TOTAL_LINES</shortDescription>
+        <value>Lines covered/Total lines</value>
     </labels>
     <labels>
-        <fullName>METADATA_FILTERED</fullName>
+        <fullName>LIST_TC_CURRENT_VERSION</fullName>
         <categories>Copado</categories>
         <language>en_US</language>
         <protected>true</protected>
-        <shortDescription>METADATA_FILTERED</shortDescription>
-        <value>The Metadata is filtered in the Org record. Click this icon to manage the filters.</value>
+        <shortDescription>LIST_TC_CURRENT_VERSION</shortDescription>
+        <value>List of test Test Cases per Suite where current version is used.</value>
     </labels>
     <labels>
-        <fullName>METADATA_NOT_FOUND</fullName>
+        <fullName>LOOK_UP_COPADO_WEBHOOK</fullName>
         <categories>Copado</categories>
         <language>en_US</language>
         <protected>true</protected>
-        <shortDescription>METADATA NOT FOUND</shortDescription>
-        <value>Metadata not found in the User Story. Static Code Analysis cannot be executed.</value>
+        <shortDescription>LOOK UP COPADO WEBHOOK</shortDescription>
+        <value>Look up Copado Webhook</value>
     </labels>
     <labels>
-        <fullName>METADATA_NOT_FOUND_COMPLIANCE</fullName>
+        <fullName>MANAGE_AUTO_RECHARGE</fullName>
         <categories>Copado</categories>
         <language>en_US</language>
         <protected>true</protected>
-        <shortDescription>METADATA NOT FOUND COMPLIANCE</shortDescription>
-        <value>Metadata not found in the User Story. The Compliance Scan cannot be executed.</value>
+        <shortDescription>MANAGE AUTO RECHARGE</shortDescription>
+        <value>Manage auto-recharge</value>
+    </labels>
+    <labels>
+        <fullName>MASS_BACK_PROMOTE_USER_STORIES</fullName>
+        <categories>MassBackPromote CBM2</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>MASS BACK PROMOTE USER STORIES</shortDescription>
+        <value>MASS BACK PROMOTE USER STORIES</value>
+    </labels>
+    <labels>
+        <fullName>MERGED_FILES</fullName>
+        <categories>Copado</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Merged Files</shortDescription>
+        <value>Merged Files</value>
+    </labels>
+    <labels>
+        <fullName>MESSAGE</fullName>
+        <categories>Copado</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>MESSAGE</shortDescription>
+        <value>Message</value>
+    </labels>
+    <labels>
+        <fullName>MESSAGE_CAPITALS</fullName>
+        <categories>Copado</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>MESSAGE CAPITALS</shortDescription>
+        <value>MESSAGE</value>
+    </labels>
+    <labels>
+        <fullName>METHODS</fullName>
+        <categories>Copado</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>METHODS</shortDescription>
+        <value>Methods</value>
     </labels>
     <labels>
         <fullName>MINUTES</fullName>
@@ -1119,52 +1085,20 @@
         <value>minutes</value>
     </labels>
     <labels>
-        <fullName>MISSING_DEST_ORGS_MESSAGE</fullName>
+        <fullName>MUST_BUILD_VALID_AND_TESTED_QUERY</fullName>
         <categories>Copado</categories>
         <language>en_US</language>
         <protected>true</protected>
-        <shortDescription>MISSING_DEST_ORGS_MESSAGE</shortDescription>
-        <value>You must add destination orgs to your deployment.</value>
+        <shortDescription>MUST BUILD VALID AND TESTED QUERY</shortDescription>
+        <value>Please, test the query before save.</value>
     </labels>
     <labels>
-        <fullName>MISSING_PERMISSIONS_CBM_FLOW</fullName>
+        <fullName>NEW_DESTINATION_ORG_PENDING</fullName>
         <categories>Copado</categories>
         <language>en_US</language>
         <protected>true</protected>
-        <shortDescription>MISSING PERMISSIONS CBM FLOW</shortDescription>
-        <value>The feature branch for this user story cannot be created because of missing access permissions for Copado objects and fields. Contact your administrator to enable access to the Deployment Flow, Deployment Flow Step, Git Repository, Git Snapshot and Promotion objects and fields.</value>
-    </labels>
-    <labels>
-        <fullName>MONDAY</fullName>
-        <categories>Copado</categories>
-        <language>en_US</language>
-        <protected>true</protected>
-        <shortDescription>MONDAY</shortDescription>
-        <value>Monday</value>
-    </labels>
-    <labels>
-        <fullName>MUST_HAVE_SOURCE_AND_DESTINATION</fullName>
-        <categories>Copado</categories>
-        <language>en_US</language>
-        <protected>true</protected>
-        <shortDescription>MUST_HAVE_SOURCE_AND_DESTINATION</shortDescription>
-        <value>All Deployment Flow Steps must have Source and Destination.</value>
-    </labels>
-    <labels>
-        <fullName>MUST_LEAVE_A_COMMENT_ERROR</fullName>
-        <categories>Copado</categories>
-        <language>en_US</language>
-        <protected>true</protected>
-        <shortDescription>MUST LEAVE A COMMENT ERROR</shortDescription>
-        <value>You must leave a comment.</value>
-    </labels>
-    <labels>
-        <fullName>NEW_ENVIRONMENT_OVERRIDE_INSTRUCTIONS</fullName>
-        <categories>Copado</categories>
-        <language>en_US</language>
-        <protected>true</protected>
-        <shortDescription>NEW ENVIRONMENT OVERRIDE INSTRUCTIONS</shortDescription>
-        <value>A new Environment cannot be created here. Please create an Org Credential and a suitable Environment will be created for that Org.</value>
+        <shortDescription>NEW DESTINATION ORG PENDING</shortDescription>
+        <value>You already have a new Destination Org to complete.</value>
     </labels>
     <labels>
         <fullName>NEW_STEP_ORDER_SAVED</fullName>
@@ -1199,6 +1133,22 @@
         <value>No Apex Test classes could be found.  Check that the selected Metadata has Apex Test classes included.</value>
     </labels>
     <labels>
+        <fullName>NO_APEX_TESTS_FOUND_REFRESH_USER_STORY</fullName>
+        <categories>Copado</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>NO APEX TESTS FOUND REFRESH USER STORY</shortDescription>
+        <value>If you have added Apex Tests to this User Story press, &quot;OK&quot; otherwise press, &quot;Cancel&quot; add then add your Apex Tests to the User Story.</value>
+    </labels>
+    <labels>
+        <fullName>NO_APEX_TESTS_SELECTED</fullName>
+        <categories>Copado</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>NO APEX TESTS SELECTED</shortDescription>
+        <value>You have no Apex Tests selected.</value>
+    </labels>
+    <labels>
         <fullName>NO_DATA_TO_DISPLAY</fullName>
         <categories>Copado</categories>
         <language>en_US</language>
@@ -1215,12 +1165,28 @@
         <value>Please specify destination environment for flow step :</value>
     </labels>
     <labels>
-        <fullName>NO_JOB_FOUND</fullName>
+        <fullName>NO_PERMISSIONS_FOUND</fullName>
         <categories>Copado</categories>
         <language>en_US</language>
         <protected>true</protected>
-        <shortDescription>NO JOB FOUND</shortDescription>
-        <value>No job found</value>
+        <shortDescription>NO_PERMISSIONS_FOUND</shortDescription>
+        <value>No Permissions where found for the Persona selected.</value>
+    </labels>
+    <labels>
+        <fullName>NO_SETTING_SELECTED</fullName>
+        <categories>Copado</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>NO SETTING SELECTED</shortDescription>
+        <value>Please select a setting first.</value>
+    </labels>
+    <labels>
+        <fullName>NO_SOURCE_ENV_DF_STEP</fullName>
+        <categories>BranchManagement</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>NO SOURCE ENV DF STEP</shortDescription>
+        <value>Please specify source environment for flow step :</value>
     </labels>
     <labels>
         <fullName>NO_STATIC_CODE_ATTACHMENT</fullName>
@@ -1231,52 +1197,60 @@
         <value>No Static Code Analysis Attachment was found!</value>
     </labels>
     <labels>
-        <fullName>NO_US_TO_SELECT</fullName>
-        <categories>MassBackPromote CBM2</categories>
-        <language>en_US</language>
-        <protected>true</protected>
-        <shortDescription>NO US TO SELECT</shortDescription>
-        <value>No user story to be selected</value>
-    </labels>
-    <labels>
-        <fullName>OBJECT</fullName>
+        <fullName>NO_STATIC_CODE_RESULTS</fullName>
         <categories>Copado</categories>
         <language>en_US</language>
         <protected>true</protected>
-        <shortDescription>OBJECT</shortDescription>
-        <value>Object</value>
+        <shortDescription>NO STATIC CODE RESULTS</shortDescription>
+        <value>No Static Code Analysis Results were found!</value>
     </labels>
     <labels>
-        <fullName>OR</fullName>
+        <fullName>Node</fullName>
+        <categories>ComplianceRuleCriteria</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Node</shortDescription>
+        <value>Node</value>
+    </labels>
+    <labels>
+        <fullName>OK</fullName>
         <categories>Copado</categories>
         <language>en_US</language>
         <protected>true</protected>
-        <shortDescription>OR</shortDescription>
-        <value>Or</value>
+        <shortDescription>OK</shortDescription>
+        <value>OK</value>
     </labels>
     <labels>
-        <fullName>ORG_NAME</fullName>
+        <fullName>ORDERS</fullName>
         <categories>Copado</categories>
         <language>en_US</language>
         <protected>true</protected>
-        <shortDescription>ORG NAME</shortDescription>
-        <value>Org Name</value>
+        <shortDescription>ORDERS</shortDescription>
+        <value>Orders</value>
     </labels>
     <labels>
-        <fullName>ORG_NOT_VALIDATED</fullName>
+        <fullName>ORG_DIFF_DESCRIPTION</fullName>
         <categories>Copado</categories>
         <language>en_US</language>
         <protected>true</protected>
-        <shortDescription>ORG NOT VALIDATED</shortDescription>
-        <value>The org you have selected is not validated.</value>
+        <shortDescription>ORG DIFF DESCRIPTION</shortDescription>
+        <value>This screen displays the differences between your From Org (Source Org) and the To Org (Destination Org). The difference is calculated based on the last modified date of each metadata item.  By default all metadata types are taken in consideration for the difference unless advanced metadata filters are used. Metadata types will be displayed only after a from Org is selected. Use this page to review the Org differences and create a deployment by selecting the appropriate checkboxes to include insertions, updates and deletions when creating a deployment.</value>
     </labels>
     <labels>
-        <fullName>OS_VERSION</fullName>
+        <fullName>ORG_EDIT_DESCRIPTION</fullName>
         <categories>Copado</categories>
         <language>en_US</language>
         <protected>true</protected>
-        <shortDescription>OS VERSION</shortDescription>
-        <value>OS Version</value>
+        <shortDescription>ORG_EDIT_DESCRIPTION</shortDescription>
+        <value>An Org record is used to create an OAuth connection to a salesforce environment. First save the record, then use the Set OAuth Authentication button and follow the instructions. By default all metadata types will be retrieved unless advanced metadata filters are used. Metadata types will be displayed only after a successful connection is established.</value>
+    </labels>
+    <labels>
+        <fullName>OTHER_INFORMATION</fullName>
+        <categories>Copado</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>OTHER INFORMATION</shortDescription>
+        <value>Other information</value>
     </labels>
     <labels>
         <fullName>OWNER_ALIAS</fullName>
@@ -1285,6 +1259,14 @@
         <protected>true</protected>
         <shortDescription>OWNER ALIAS</shortDescription>
         <value>Owner Alias</value>
+    </labels>
+    <labels>
+        <fullName>Operator</fullName>
+        <categories>ComplianceRuleCriteria</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Operator</shortDescription>
+        <value>Operator</value>
     </labels>
     <labels>
         <fullName>PASSWORD</fullName>
@@ -1303,6 +1285,14 @@
         <value>Passed/Failed</value>
     </labels>
     <labels>
+        <fullName>PAYMENT_CANCELLED_DETAIL</fullName>
+        <categories>Copado</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>PAYMENT_CANCELLED_DETAIL</shortDescription>
+        <value>The payment was cancelled at the user&apos;s request.</value>
+    </labels>
+    <labels>
         <fullName>PAYMENT_CANCELLED_TITLE</fullName>
         <categories>Copado</categories>
         <language>en_US</language>
@@ -1319,20 +1309,36 @@
         <value>Payment details</value>
     </labels>
     <labels>
-        <fullName>PERMISSION_SET_SOBJECT_NAME</fullName>
+        <fullName>PAYMENT_ERROR_SUMMARY</fullName>
         <categories>Copado</categories>
         <language>en_US</language>
         <protected>true</protected>
-        <shortDescription>PERMISSION_SET_SOBJECT_NAME</shortDescription>
-        <value>PermissionSet</value>
+        <shortDescription>PAYMENT_ERROR_SUMMARY</shortDescription>
+        <value>Error summary text</value>
     </labels>
     <labels>
-        <fullName>PLEASE_ENTER_VALID_URL</fullName>
+        <fullName>PAYMENT_SUCCESS_SUMMARY</fullName>
         <categories>Copado</categories>
         <language>en_US</language>
         <protected>true</protected>
-        <shortDescription>PLEASE ENTER VALID URL</shortDescription>
-        <value>The endpoint URL is not valid. Please enter valid URL.</value>
+        <shortDescription>PAYMENT_SUCCESS_SUMMARY</shortDescription>
+        <value>Thank you for your payment. The credits have been allocated to your account.</value>
+    </labels>
+    <labels>
+        <fullName>PAYMENT_SUCCESS_TITLE</fullName>
+        <categories>Copado</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>PAYMENT_SUCCESS_TITLE</shortDescription>
+        <value>Payment successful</value>
+    </labels>
+    <labels>
+        <fullName>PESONAL_API_KEY</fullName>
+        <categories>Copado</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>PESONAL_API_KEY</shortDescription>
+        <value>Personal API key valid for:</value>
     </labels>
     <labels>
         <fullName>POPUP_BLOCKER_MESSAGE</fullName>
@@ -1343,12 +1349,12 @@
         <value>Please ensure you don&apos;t have a pop-up blocker enabled.</value>
     </labels>
     <labels>
-        <fullName>PRELOAD_FILTER_USER_STORIES</fullName>
+        <fullName>PRE_POST_BUILD_AUTOMATION</fullName>
         <categories>Copado</categories>
         <language>en_US</language>
         <protected>true</protected>
-        <shortDescription>PRELOAD FILTER USER STORIES</shortDescription>
-        <value>Pre-Load or filter existing User Stories</value>
+        <shortDescription>PRE/POST BUILD AUTOMATION</shortDescription>
+        <value>Pre/Post-Build Automation</value>
     </labels>
     <labels>
         <fullName>PRIORITY</fullName>
@@ -1367,92 +1373,44 @@
         <value>There was a problem retrieving the Git/MetaData attachment!</value>
     </labels>
     <labels>
-        <fullName>PROMOTE_TEST_CASE_DESCRIPTION</fullName>
+        <fullName>PROMOTION_RUN_SOURCE_TESTS_USER_STORY</fullName>
         <categories>Copado</categories>
         <language>en_US</language>
         <protected>true</protected>
-        <shortDescription>PROMOTE TEST CASE DESCRIPTION</shortDescription>
-        <value>This page allows users to increase the version number of the selected Selenium Test Suites.</value>
+        <shortDescription>PROMOTION_RUN_SOURCE_TESTS_USER_STORY</shortDescription>
+        <value>Run source user story</value>
     </labels>
     <labels>
-        <fullName>PROMOTION_FLOW_INACTIVE</fullName>
+        <fullName>PROMOTION_USER_STORY_METADATA</fullName>
         <categories>Copado</categories>
         <language>en_US</language>
         <protected>true</protected>
-        <shortDescription>PROMOTION_FLOW_INACTIVE</shortDescription>
-        <value>The deployment flow linked to the project or release is inactive. Please activate it and try again.</value>
+        <shortDescription>PROMOTION USER STORY METADATA</shortDescription>
+        <value>Promotion User Story Metadata</value>
     </labels>
     <labels>
-        <fullName>PROMOTION_RUN_DESTINATION_TESTS</fullName>
+        <fullName>QUERY_BUILDER</fullName>
         <categories>Copado</categories>
         <language>en_US</language>
         <protected>true</protected>
-        <shortDescription>PROMOTION RUN DESTINATION TESTS</shortDescription>
-        <value>Run all destination tests</value>
+        <shortDescription>QUERY_BUILDER</shortDescription>
+        <value>Query Builder</value>
     </labels>
     <labels>
-        <fullName>PROMOTION_RUN_RUNNING</fullName>
+        <fullName>QUICK_CREATE_USERSTORY_DESCRIPTION</fullName>
         <categories>Copado</categories>
         <language>en_US</language>
         <protected>true</protected>
-        <shortDescription>PROMOTION_RUN_RUNNING</shortDescription>
-        <value>Running tests...</value>
+        <shortDescription>QUICK CREATE USERSTORY DESCRIPTION</shortDescription>
+        <value>Use this page to quickly create User Stories and add these to a Project.  User Stories can later be edited to add more information.</value>
     </labels>
     <labels>
-        <fullName>PROMOTION_RUN_SOURCE_TESTS_REGRESSION</fullName>
+        <fullName>RATE_COPADO_NOW</fullName>
         <categories>Copado</categories>
         <language>en_US</language>
         <protected>true</protected>
-        <shortDescription>PROMOTION_RUN_SOURCE_TESTS_REGRESSION</shortDescription>
-        <value>Run source regression</value>
-    </labels>
-    <labels>
-        <fullName>PROMOTION_SELENIUM_TESTS</fullName>
-        <categories>Copado</categories>
-        <language>en_US</language>
-        <protected>true</protected>
-        <shortDescription>PROMOTION SELENIUM TESTS</shortDescription>
-        <value>Promotion Selenium Tests</value>
-    </labels>
-    <labels>
-        <fullName>PULL_REQUEST_VALIDATION</fullName>
-        <categories>Pull Request US-USMD-Promotion</categories>
-        <language>en_US</language>
-        <protected>true</protected>
-        <shortDescription>PULL REQUEST VALIDATION</shortDescription>
-        <value>Related repository must have a pull request base URL and a Git provider type selected</value>
-    </labels>
-    <labels>
-        <fullName>QUERY</fullName>
-        <categories>Copado</categories>
-        <language>en_US</language>
-        <protected>true</protected>
-        <shortDescription>QUERY</shortDescription>
-        <value>Query</value>
-    </labels>
-    <labels>
-        <fullName>QUICK_CREATE_USER_STORIES</fullName>
-        <categories>Copado</categories>
-        <language>en_US</language>
-        <protected>true</protected>
-        <shortDescription>QUICK CREATE USER STORIES</shortDescription>
-        <value>Quick Create User Stories</value>
-    </labels>
-    <labels>
-        <fullName>Quick_Save</fullName>
-        <categories>Copado</categories>
-        <language>en_US</language>
-        <protected>true</protected>
-        <shortDescription>Quick Save</shortDescription>
-        <value>Quick Save</value>
-    </labels>
-    <labels>
-        <fullName>RATECOPADO_DEPLOYSUCCESS</fullName>
-        <categories>Copado</categories>
-        <language>en_US</language>
-        <protected>true</protected>
-        <shortDescription>RATECOPADO_DEPLOYSUCCESS</shortDescription>
-        <value>You have successfully completed a deployment. Help us spread the word about Copado by rating it on the AppExchange.</value>
+        <shortDescription>RATE_COPADO_NOW</shortDescription>
+        <value>Rate Copado now</value>
     </labels>
     <labels>
         <fullName>REARRANGE_ENVIRONMENTS</fullName>
@@ -1479,6 +1437,14 @@
         <value>Refresh Git Selections</value>
     </labels>
     <labels>
+        <fullName>REGRESSION</fullName>
+        <categories>Copado</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>REGRESSION</shortDescription>
+        <value>Regression</value>
+    </labels>
+    <labels>
         <fullName>RELOAD</fullName>
         <categories>Copado</categories>
         <language>en_US</language>
@@ -1487,12 +1453,12 @@
         <value>Reload</value>
     </labels>
     <labels>
-        <fullName>REMOVE</fullName>
+        <fullName>REMOVE_SELECTED_USER_STORIES</fullName>
         <categories>Copado</categories>
         <language>en_US</language>
         <protected>true</protected>
-        <shortDescription>REMOVE</shortDescription>
-        <value>Remove</value>
+        <shortDescription>REMOVE SELECTED USER STORIES</shortDescription>
+        <value>Remove selected User Stories</value>
     </labels>
     <labels>
         <fullName>REORDER_STEPS</fullName>
@@ -1503,12 +1469,28 @@
         <value>Reorder Steps</value>
     </labels>
     <labels>
-        <fullName>ROLLBACK_SELENIUM_TC_VERSION</fullName>
+        <fullName>REPEATED_BRANCH_NAME</fullName>
         <categories>Copado</categories>
         <language>en_US</language>
         <protected>true</protected>
-        <shortDescription>ROLLBACK_SELENIUM_TC_VERSION</shortDescription>
-        <value>Rollback Test Case Version</value>
+        <shortDescription>REPEATED_BRANCH_NAME</shortDescription>
+        <value>Some of the branches are repeated in your Deployment Flow Steps.</value>
+    </labels>
+    <labels>
+        <fullName>RESULTS_FOR_STEP_AND_DESTINATION_ORG</fullName>
+        <categories>Copado</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>RESULTS FOR STEP AND DESTINATION ORG</shortDescription>
+        <value>Results for Step: STEP_NAME and Destination Org: DESTINATION_ORG</value>
+    </labels>
+    <labels>
+        <fullName>ROLE_NAME</fullName>
+        <categories>Copado</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ROLE_NAME</shortDescription>
+        <value>Role</value>
     </labels>
     <labels>
         <fullName>RULES_VIOLATED</fullName>
@@ -1519,19 +1501,20 @@
         <value>No. Rules Violated</value>
     </labels>
     <labels>
-        <fullName>RUN_ALL_TESTS_TO_LOAD_TEST_RESULTS_FOR_ORG</fullName>
+        <fullName>Rule_Info</fullName>
+        <categories>ComplianceRuleCriteria</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Rule Info</shortDescription>
+        <value>Rule Information</value>
+    </labels>
+    <labels>
+        <fullName>SATURDAY</fullName>
         <categories>Copado</categories>
         <language>en_US</language>
         <protected>true</protected>
-        <shortDescription>RUN ALL TESTS TO LOAD TEST RESULTS FOR ORG</shortDescription>
-        <value>There is no data to display for the org. Press the &apos;Run all tests&apos; button to load the test results for this org.</value>
-    </labels>
-    <labels>
-        <fullName>Record_Type</fullName>
-        <language>en_US</language>
-        <protected>true</protected>
-        <shortDescription>Record Type</shortDescription>
-        <value>Record Type</value>
+        <shortDescription>SATURDAY</shortDescription>
+        <value>Saturday</value>
     </labels>
     <labels>
         <fullName>SAVE_AND_CLOSE</fullName>
@@ -1558,20 +1541,12 @@
         <value>You must first save the deployment</value>
     </labels>
     <labels>
-        <fullName>SAVE_SUCCESS</fullName>
+        <fullName>SCA_SETTINGS_NOT_FOUND</fullName>
         <categories>Copado</categories>
         <language>en_US</language>
         <protected>true</protected>
-        <shortDescription>SAVE SUCCESS</shortDescription>
-        <value>Save successful</value>
-    </labels>
-    <labels>
-        <fullName>SCHEDULE</fullName>
-        <categories>Copado</categories>
-        <language>en_US</language>
-        <protected>true</protected>
-        <shortDescription>SCHEDULE</shortDescription>
-        <value>Schedule</value>
+        <shortDescription>SCA SETTINGS NOT FOUND</shortDescription>
+        <value>Static Code Analysis Settings were not found!</value>
     </labels>
     <labels>
         <fullName>SCHEDULED_JOB</fullName>
@@ -1590,36 +1565,44 @@
         <value>Schedule Information</value>
     </labels>
     <labels>
-        <fullName>SECONDS</fullName>
+        <fullName>SCHEDULE_JOB</fullName>
         <categories>Copado</categories>
         <language>en_US</language>
         <protected>true</protected>
-        <shortDescription>SECONDS</shortDescription>
-        <value>seconds</value>
+        <shortDescription>SCHEDULE JOB</shortDescription>
+        <value>Schedule Job</value>
     </labels>
     <labels>
-        <fullName>SELECTED_FIELDS</fullName>
+        <fullName>SEE_DEPLOYMENT_PAGE_FOR_INFORMATION</fullName>
         <categories>Copado</categories>
         <language>en_US</language>
         <protected>true</protected>
-        <shortDescription>SELECTED_FIELDS</shortDescription>
-        <value>Selected Fields</value>
+        <shortDescription>SEE DEPLOYMENT PAGE FOR INFORMATION</shortDescription>
+        <value>Please see the deployment page for status information.</value>
     </labels>
     <labels>
-        <fullName>SELECT_AT_LEAST_ONE_RECORD</fullName>
+        <fullName>SELECTED_TYPES</fullName>
         <categories>Copado</categories>
         <language>en_US</language>
         <protected>true</protected>
-        <shortDescription>SELECT AT LEAST ONE RECORD</shortDescription>
-        <value>Select at least one record</value>
+        <shortDescription>SELECTED_TYPES</shortDescription>
+        <value>Selected Types (empty means all types)</value>
     </labels>
     <labels>
-        <fullName>SELECT_END_COMMIT</fullName>
+        <fullName>SELECT_GROUP_TO_ADD_RUNS</fullName>
         <categories>Copado</categories>
         <language>en_US</language>
         <protected>true</protected>
-        <shortDescription>SELECT END COMMIT</shortDescription>
-        <value>Select End Commit</value>
+        <shortDescription>SELECT GROUP TO ADD RUNS</shortDescription>
+        <value>Select a Selenium Test Group where to add all selected Test Runs. Pick only &quot;ManageTest Runs manually&quot; ones.</value>
+    </labels>
+    <labels>
+        <fullName>SELECT_INITIAL_COMMIT</fullName>
+        <categories>Copado</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>SELECT INITIAL COMMIT</shortDescription>
+        <value>Select Initial Commit</value>
     </labels>
     <labels>
         <fullName>SELECT_METADATA_TYPE</fullName>
@@ -1635,14 +1618,6 @@
         <protected>true</protected>
         <shortDescription>SELECT STEP TYPE FIRST</shortDescription>
         <value>You must first select a step type</value>
-    </labels>
-    <labels>
-        <fullName>SELENIUM_GETTING_STARTED_HEADER_SUBTITLE</fullName>
-        <categories>Copado</categories>
-        <language>en_US</language>
-        <protected>true</protected>
-        <shortDescription>SELENIUM GETTING STARTED HEADER SUBTITLE</shortDescription>
-        <value>Copado Selenium Testing Platform</value>
     </labels>
     <labels>
         <fullName>SELENIUM_NOT_ENABLED</fullName>
@@ -1661,6 +1636,22 @@
         <value>Selenium Test Results Summary</value>
     </labels>
     <labels>
+        <fullName>SETTINGS_RECORD_NOT_FOUND</fullName>
+        <categories>Copado</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>SETTINGS RECORD NOT FOUND</shortDescription>
+        <value>The settings record could not be found. Please contact Copado Support.</value>
+    </labels>
+    <labels>
+        <fullName>SETUP_PROCESS_NOT_COMPLETED</fullName>
+        <categories>Copado</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>SETUP_PROCESS_NOT_COMPLETED</shortDescription>
+        <value>SETUP PROCESS NOT COMPLETED</value>
+    </labels>
+    <labels>
         <fullName>SOBJECT</fullName>
         <categories>Copado</categories>
         <language>en_US</language>
@@ -1677,28 +1668,36 @@
         <value>The query needs to have at least one external ID, Please add one.</value>
     </labels>
     <labels>
-        <fullName>START_TIME</fullName>
+        <fullName>SOURCE_REGRESSION_TESTS</fullName>
         <categories>Copado</categories>
         <language>en_US</language>
         <protected>true</protected>
-        <shortDescription>START TIME</shortDescription>
-        <value>Start Time</value>
+        <shortDescription>SOURCE REGRESSION TESTS</shortDescription>
+        <value>Source Regression Tests</value>
     </labels>
     <labels>
-        <fullName>STATIC_CODE_ANALYSIS_REQUESTED</fullName>
+        <fullName>STARTING_COMMIT</fullName>
         <categories>Copado</categories>
         <language>en_US</language>
         <protected>true</protected>
-        <shortDescription>STATIC CODE ANALYSIS REQUESTED</shortDescription>
-        <value>Static Code Analysis Requested Successfully!</value>
+        <shortDescription>STARTING_COMMIT</shortDescription>
+        <value>Starting Commit</value>
     </labels>
     <labels>
-        <fullName>STATIC_RESOURCES_TITLE</fullName>
+        <fullName>STATIC_CODE_ANALYSIS_RUN</fullName>
         <categories>Copado</categories>
         <language>en_US</language>
         <protected>true</protected>
-        <shortDescription>STATIC_RESOURCES_TITLE</shortDescription>
-        <value>Static Resources to Unzip</value>
+        <shortDescription>STATIC CODE ANALYSIS RUN</shortDescription>
+        <value>Run Static Code Analysis</value>
+    </labels>
+    <labels>
+        <fullName>STATUS_MANAGER_CLEAR_STATUS</fullName>
+        <categories>Copado</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Status Manager Clear Status</shortDescription>
+        <value>Reset the status of this job</value>
     </labels>
     <labels>
         <fullName>STEP_DESCRIPTION_BULK_DATA</fullName>
@@ -1717,20 +1716,21 @@
         <value>Deployment of records using the Upsert call of the SOAP API. Data transformation is currently not supported. Batch size: 200.</value>
     </labels>
     <labels>
+        <fullName>STEP_DESCRIPTION_FULL_PROFILES</fullName>
+        <categories>Copado</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>STEP DESCRIPTION FULL PROFILES</shortDescription>
+        <value>Deployment of Profiles using the MetaData API. During deployment, profiles are automatically cleaned, removing any components that do not exist in the destination Org.
+Some limitations are imposed by the API. For details, please review the MetaData API documentation. “Full” Profiles are called like that because we do a full describe of your org, to make sure we included every single property of the profiles. Basic profile deployment, can be done using a Metadata Step, and profile’s properties deployed will be relative to the set of Metadata included in the same step.</value>
+    </labels>
+    <labels>
         <fullName>STEP_DESCRIPTION_METADATA</fullName>
         <categories>Copado</categories>
         <language>en_US</language>
         <protected>true</protected>
         <shortDescription>STEP DESCRIPTION METADATA</shortDescription>
         <value>Deployment of MetaData components. For a complete list of deployable meta data components please refer to the Salesforce MetaData API documentation.</value>
-    </labels>
-    <labels>
-        <fullName>STEP_DESCRIPTION_NONE_SELECTED</fullName>
-        <categories>Copado</categories>
-        <language>en_US</language>
-        <protected>true</protected>
-        <shortDescription>STEP DESCRIPTION NONE SELECTED</shortDescription>
-        <value>SELECT SOMETHING DUDE!!</value>
     </labels>
     <labels>
         <fullName>STEP_DESCRIPTION_TRANSLATIONS</fullName>
@@ -1741,12 +1741,53 @@
         <value>Deployment of full language translations. Selecting a language to be deployed will deploy all translated values for that language for all Salesforce components (not just those included in the deployment). Every single translatable piece that is translated will be deployed (including everything in the Translation Workbench and all that are NOT part of it as well, like labels, tabs, object names, etc).</value>
     </labels>
     <labels>
-        <fullName>STEP_TYPE_BULK_DATA</fullName>
+        <fullName>STEP_DESCRIPTION_USERS</fullName>
         <categories>Copado</categories>
         <language>en_US</language>
         <protected>true</protected>
-        <shortDescription>STEP TYPE BULK DATA</shortDescription>
-        <value>Bulk Data</value>
+        <shortDescription>STEP DESCRIPTION USERS</shortDescription>
+        <value>Deployment of Users and optionally User Territory assignments. For users with manager and/or delegated approver assignments, these are mapped across too.
+Only standard fields of users are deployed in a User step. Optionally you can use a Data step to move other fields of the User object (See Data and Bulk Data steps).</value>
+    </labels>
+    <labels>
+        <fullName>STEP_NOT_SUPPORTED</fullName>
+        <categories>Copado</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>STEP_NOT_SUPPORTED</shortDescription>
+        <value>Step type not supported</value>
+    </labels>
+    <labels>
+        <fullName>STEP_TYPE_APEX</fullName>
+        <categories>Copado</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>STEP TYPE APEX</shortDescription>
+        <value>Apex</value>
+    </labels>
+    <labels>
+        <fullName>STEP_TYPE_CUSTOM_SETTINGS</fullName>
+        <categories>Copado</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>STEP TYPE CUSTOM SETTINGS</shortDescription>
+        <value>Custom Settings</value>
+    </labels>
+    <labels>
+        <fullName>STEP_TYPE_DATA</fullName>
+        <categories>Copado</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>STEP TYPE DATA</shortDescription>
+        <value>Data</value>
+    </labels>
+    <labels>
+        <fullName>STEP_TYPE_FULL_PERMISSION_SETS</fullName>
+        <categories>Copado</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>STEP TYPE FULL PERMISSION SETS</shortDescription>
+        <value>Full Permission Sets</value>
     </labels>
     <labels>
         <fullName>STEP_TYPE_FULL_PROFILES</fullName>
@@ -1757,12 +1798,28 @@
         <value>Full Profiles</value>
     </labels>
     <labels>
+        <fullName>STEP_TYPE_GIT_METADATA</fullName>
+        <categories>Copado</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>STEP TYPE GIT METADATA</shortDescription>
+        <value>Git MetaData</value>
+    </labels>
+    <labels>
         <fullName>STEP_TYPE_GIT_PROMOTION</fullName>
         <categories>Copado</categories>
         <language>en_US</language>
         <protected>true</protected>
         <shortDescription>STEP_TYPE_GIT_PROMOTION</shortDescription>
         <value>Git Promotion</value>
+    </labels>
+    <labels>
+        <fullName>STEP_TYPE_REQUIRES_1_DESTINATION_ORG</fullName>
+        <categories>Copado</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>STEP TYPE REQUIRES 1 DESTINATION ORG</shortDescription>
+        <value>If more than 1 Destination Org has been selected, you cannot add &quot;__TYPE__&quot; steps.</value>
     </labels>
     <labels>
         <fullName>STEP_TYPE_REQUIRES_SOURCE_ORG</fullName>
@@ -1781,12 +1838,12 @@
         <value>Translations</value>
     </labels>
     <labels>
-        <fullName>STEP_TYPE_USERS</fullName>
+        <fullName>SUCCEEDED</fullName>
         <categories>Copado</categories>
         <language>en_US</language>
         <protected>true</protected>
-        <shortDescription>STEP TYPE USERS</shortDescription>
-        <value>Users</value>
+        <shortDescription>SUCCEEDED</shortDescription>
+        <value>Succeeded</value>
     </labels>
     <labels>
         <fullName>SUCCESS</fullName>
@@ -1805,20 +1862,20 @@
         <value>Sunday</value>
     </labels>
     <labels>
-        <fullName>SYNC_FEATURES</fullName>
-        <categories>Copado</categories>
+        <fullName>Select_All_User_Stories</fullName>
+        <categories>MassBackPromote CBM2</categories>
         <language>en_US</language>
         <protected>true</protected>
-        <shortDescription>SYNC_FEATURES</shortDescription>
-        <value>Sync Features</value>
+        <shortDescription>Select All User Stories</shortDescription>
+        <value>Select All User Stories</value>
     </labels>
     <labels>
-        <fullName>SprintWall_Action_Edit_Move_to_next_Sprint</fullName>
+        <fullName>SprintWall_Action_Edit</fullName>
         <categories>Copado</categories>
         <language>en_US</language>
         <protected>true</protected>
-        <shortDescription>SprintWall Action Edit Move to next Sprint</shortDescription>
-        <value>Move to next Sprint</value>
+        <shortDescription>SprintWall Action Edit</shortDescription>
+        <value>Edit</value>
     </labels>
     <labels>
         <fullName>SprintWall_Action_Remove_from_Sprint</fullName>
@@ -1829,20 +1886,12 @@
         <value>Remove from Sprint</value>
     </labels>
     <labels>
-        <fullName>SprintWall_Actual_Velocity</fullName>
+        <fullName>SprintWall_All_Sprints</fullName>
         <categories>Copado</categories>
         <language>en_US</language>
         <protected>true</protected>
-        <shortDescription>SprintWall Actual Velocity</shortDescription>
-        <value>Actual Velocity</value>
-    </labels>
-    <labels>
-        <fullName>SprintWall_Button_Cancel</fullName>
-        <categories>Copado</categories>
-        <language>en_US</language>
-        <protected>true</protected>
-        <shortDescription>SprintWall Button Cancel</shortDescription>
-        <value>Cancel</value>
+        <shortDescription>SprintWall All Sprints</shortDescription>
+        <value>All Sprints</value>
     </labels>
     <labels>
         <fullName>SprintWall_Button_MassUpdate</fullName>
@@ -1861,6 +1910,14 @@
         <value>Are you sure you want to delete this task?</value>
     </labels>
     <labels>
+        <fullName>SprintWall_DaysLeft_Closed</fullName>
+        <categories>Copado</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>SprintWall DaysLeft Closed</shortDescription>
+        <value>CLOSED</value>
+    </labels>
+    <labels>
         <fullName>SprintWall_DaysLeft_Not_Started</fullName>
         <categories>Copado</categories>
         <language>en_US</language>
@@ -1877,6 +1934,14 @@
         <value>Days Left</value>
     </labels>
     <labels>
+        <fullName>SprintWall_Days_Left_View_Sprint</fullName>
+        <categories>Copado</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>SprintWall Days Left View Sprint</shortDescription>
+        <value>View Sprint</value>
+    </labels>
+    <labels>
         <fullName>SprintWall_Header</fullName>
         <categories>Copado</categories>
         <language>en_US</language>
@@ -1885,60 +1950,92 @@
         <value>SPRINT WALL</value>
     </labels>
     <labels>
-        <fullName>SprintWall_Header_Status</fullName>
+        <fullName>SprintWall_Header_Assignee</fullName>
         <categories>Copado</categories>
         <language>en_US</language>
         <protected>true</protected>
-        <shortDescription>SprintWall_Header_Status</shortDescription>
-        <value>Status</value>
+        <shortDescription>SprintWall_Header_Assignee</shortDescription>
+        <value>Assignee</value>
     </labels>
     <labels>
-        <fullName>SprintWall_New_US_Record_Type</fullName>
+        <fullName>SprintWall_Header_Completed</fullName>
         <categories>Copado</categories>
         <language>en_US</language>
         <protected>true</protected>
-        <shortDescription>SprintWall New US Record Type</shortDescription>
-        <value>Select a record type</value>
+        <shortDescription>SprintWall Header Completed</shortDescription>
+        <value>Completed</value>
     </labels>
     <labels>
-        <fullName>SprintWall_Next_Sprint</fullName>
+        <fullName>SprintWall_Header_Tasks</fullName>
         <categories>Copado</categories>
         <language>en_US</language>
         <protected>true</protected>
-        <shortDescription>SprintWall Next Sprint</shortDescription>
-        <value>Next Sprint</value>
+        <shortDescription>SprintWall_Header_Tasks</shortDescription>
+        <value>Tasks</value>
     </labels>
     <labels>
-        <fullName>SprintWall_Tasks_Labels_Hours</fullName>
+        <fullName>SprintWall_Header_Title</fullName>
         <categories>Copado</categories>
         <language>en_US</language>
         <protected>true</protected>
-        <shortDescription>SprintWall_Tasks_Labels_Hours</shortDescription>
-        <value>Hours:</value>
+        <shortDescription>SprintWall_Header_Title</shortDescription>
+        <value>User Story Title</value>
     </labels>
     <labels>
-        <fullName>TC_REPLACE</fullName>
+        <fullName>SprintWall_Planned_Velocity</fullName>
         <categories>Copado</categories>
         <language>en_US</language>
         <protected>true</protected>
-        <shortDescription>TC_REPLACE</shortDescription>
-        <value>replace version</value>
+        <shortDescription>SprintWall Planned Velocity</shortDescription>
+        <value>Planned Velocity</value>
     </labels>
     <labels>
-        <fullName>TESTING</fullName>
+        <fullName>SprintWall_Task_Status_Completed</fullName>
         <categories>Copado</categories>
         <language>en_US</language>
         <protected>true</protected>
-        <shortDescription>TESTING</shortDescription>
-        <value>Testing</value>
+        <shortDescription>SprintWall Task Status Completed</shortDescription>
+        <value>Completed</value>
     </labels>
     <labels>
-        <fullName>TEST_CASES_PER_SUITE_DESCRIPTION</fullName>
+        <fullName>SprintWall_Task_Status_Not_Started</fullName>
         <categories>Copado</categories>
         <language>en_US</language>
         <protected>true</protected>
-        <shortDescription>TEST CASES PER SUITE DESCRIPTION</shortDescription>
-        <value>Use this page to add, remove and reorder Test Cases within a Selenium Test Suite.  Optionally, select a Dataset for data driven tests.</value>
+        <shortDescription>SprintWall Task Status Not Started</shortDescription>
+        <value>Not Started</value>
+    </labels>
+    <labels>
+        <fullName>TARGET</fullName>
+        <categories>Copado</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>TARGET</shortDescription>
+        <value>Target</value>
+    </labels>
+    <labels>
+        <fullName>TC_PROMOTED_SUCCESS</fullName>
+        <categories>Copado</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>TC_PROMOTED_SUCCESS</shortDescription>
+        <value>Test Case(s) promoted successfully:</value>
+    </labels>
+    <labels>
+        <fullName>TC_WITH</fullName>
+        <categories>Copado</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>TC_WITH</shortDescription>
+        <value>with</value>
+    </labels>
+    <labels>
+        <fullName>TEST_CASE_NEW_VERSION</fullName>
+        <categories>Copado</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>TEST CASE NEW VERSION</shortDescription>
+        <value>New Version of Test Case</value>
     </labels>
     <labels>
         <fullName>TEST_CASE_NO_NEXT_VERSION</fullName>
@@ -1957,30 +2054,12 @@
         <value>This Selenium Test Case has no previous version.</value>
     </labels>
     <labels>
-        <fullName>TEST_CLASSES_NOT_FOUND</fullName>
-        <categories>Copado</categories>
-        <language>en_US</language>
-        <protected>true</protected>
-        <shortDescription>TEST CLASSES NOT FOUND</shortDescription>
-        <value>The following test classes could not be found:</value>
-    </labels>
-    <labels>
         <fullName>TEST_CONNECTIONS</fullName>
         <categories>Copado</categories>
         <language>en_US</language>
         <protected>true</protected>
         <shortDescription>TEST_CONNECTIONS</shortDescription>
         <value>Test connections</value>
-    </labels>
-    <labels>
-        <fullName>TEST_REQUESTED</fullName>
-        <categories>Copado</categories>
-        <language>en_US</language>
-        <protected>true</protected>
-        <shortDescription>TEST_REQUESTED</shortDescription>
-        <value>Apex Test Execution requested successfully. A summary of the tests will be saved in Copado when finished. 
-Do not submit another Apex Test Execution request until this one is finished.
-For more details login to the Org and monitor the test execution under Setup/Develop/Apex Test Execution.</value>
     </labels>
     <labels>
         <fullName>TEST_REQUESTED_ERROR</fullName>
@@ -1991,36 +2070,12 @@ For more details login to the Org and monitor the test execution under Setup/Dev
         <value>Could not request Apex Test Execution. Please verify if another Apex Test Execution is already running on the org.</value>
     </labels>
     <labels>
-        <fullName>THURSDAY</fullName>
+        <fullName>TO</fullName>
         <categories>Copado</categories>
         <language>en_US</language>
         <protected>true</protected>
-        <shortDescription>THURSDAY</shortDescription>
-        <value>Thursday</value>
-    </labels>
-    <labels>
-        <fullName>TOTAL_CREDITS_ESTIMATED</fullName>
-        <categories>Copado</categories>
-        <language>en_US</language>
-        <protected>true</protected>
-        <shortDescription>TOTAL_CREDITS_ESTIMATED</shortDescription>
-        <value>Total credits estimated</value>
-    </labels>
-    <labels>
-        <fullName>TOTAL_NUMBER_OF_LINES</fullName>
-        <categories>Copado</categories>
-        <language>en_US</language>
-        <protected>true</protected>
-        <shortDescription>TOTAL NUMBER OF LINES</shortDescription>
-        <value>Total Number of Lines</value>
-    </labels>
-    <labels>
-        <fullName>TOTAL_ORG_COVERAGE</fullName>
-        <categories>Copado</categories>
-        <language>en_US</language>
-        <protected>true</protected>
-        <shortDescription>TOTAL ORG COVERAGE</shortDescription>
-        <value>Total Org Coverage</value>
+        <shortDescription>TO</shortDescription>
+        <value>to</value>
     </labels>
     <labels>
         <fullName>TO_SUFFIX</fullName>
@@ -2039,12 +2094,36 @@ For more details login to the Org and monitor the test execution under Setup/Dev
         <value>Transactions</value>
     </labels>
     <labels>
+        <fullName>TUESDAY</fullName>
+        <categories>Copado</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>TUESDAY</shortDescription>
+        <value>Tuesday</value>
+    </labels>
+    <labels>
         <fullName>Test_Per_Suite_1</fullName>
         <categories>Copado</categories>
         <language>en_US</language>
         <protected>true</protected>
         <shortDescription>Test Per Suite 1</shortDescription>
         <value>Search and select test cases using the search box at the top</value>
+    </labels>
+    <labels>
+        <fullName>Test_Per_Suite_2</fullName>
+        <categories>Copado</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Test Per Suite 2</shortDescription>
+        <value>Remove them by pressing the &quot;Delete&quot; on the test cases list.</value>
+    </labels>
+    <labels>
+        <fullName>Test_Per_Suite_3</fullName>
+        <categories>Copado</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Test Per Suite 3</shortDescription>
+        <value>Drag vertically on list to set the order in which test cases will be executed.</value>
     </labels>
     <labels>
         <fullName>This_test_is_already_running</fullName>
@@ -2055,6 +2134,29 @@ For more details login to the Org and monitor the test execution under Setup/Dev
         <value>This test is already running</value>
     </labels>
     <labels>
+        <fullName>Toggle_User_Stories_Ahead_and_Behind</fullName>
+        <categories>Copado</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Toggle User Stories Ahead and Behind</shortDescription>
+        <value>Toggle User Stories Ahead and Behind</value>
+    </labels>
+    <labels>
+        <fullName>Translation_Test</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Translation Test</shortDescription>
+        <value>This is a transtlation test.</value>
+    </labels>
+    <labels>
+        <fullName>UNSAVED_CHANGES</fullName>
+        <categories>Copado</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>UNSAVED CHANGES</shortDescription>
+        <value>You have unsaved changes. Please save or discard your changes before proceeding.</value>
+    </labels>
+    <labels>
         <fullName>UNZIP_STATICS_RESOURCES</fullName>
         <categories>Copado</categories>
         <language>en_US</language>
@@ -2063,44 +2165,29 @@ For more details login to the Org and monitor the test execution under Setup/Dev
         <value>Unzip Statics Resources</value>
     </labels>
     <labels>
-        <fullName>UNZIP_STATIC_RESOURCES_HELP</fullName>
+        <fullName>UPDATE_SAVE</fullName>
         <categories>Copado</categories>
         <language>en_US</language>
         <protected>true</protected>
-        <shortDescription>UNZIP_STATIC_RESOURCES_HELP</shortDescription>
-        <value>Selected Static Resources (ZIP files only), will be unzipped by Copado under the directory &quot;staticresources/_copado_unzip_&quot;.  You will therefore now be able to track changes in the contents of these Zip files using Copado and Git.  Static Resource files that are Binary will still be committed to the &quot;staticresources&quot; folder.</value>
+        <shortDescription>UPDATE/SAVE</shortDescription>
+        <value>Update/Save</value>
     </labels>
     <labels>
-        <fullName>UPDATE</fullName>
+        <fullName>URL_CALLOUT_REQUIRED_FIELDS_MESSAGE</fullName>
         <categories>Copado</categories>
         <language>en_US</language>
         <protected>true</protected>
-        <shortDescription>UPDATE</shortDescription>
-        <value>Update</value>
+        <shortDescription>URL CALLOUT REQUIRED FIELDS MESSAGE</shortDescription>
+        <value>Please ensure that all required fields are populated:
+Type, Method, URL.</value>
     </labels>
     <labels>
-        <fullName>URL_PARAMETERS</fullName>
+        <fullName>USDependency_Environment</fullName>
         <categories>Copado</categories>
         <language>en_US</language>
         <protected>true</protected>
-        <shortDescription>URL PARAMETERS</shortDescription>
-        <value>URL Parameters</value>
-    </labels>
-    <labels>
-        <fullName>USDependency_Deliverable</fullName>
-        <categories>Copado</categories>
-        <language>en_US</language>
-        <protected>true</protected>
-        <shortDescription>USDependency_Deliverable</shortDescription>
-        <value>Deliverable</value>
-    </labels>
-    <labels>
-        <fullName>USDependency_Dependency_Info</fullName>
-        <categories>Copado</categories>
-        <language>en_US</language>
-        <protected>true</protected>
-        <shortDescription>USDependency_Dependency_Info</shortDescription>
-        <value>Dependency Info</value>
+        <shortDescription>USDependency_Environment</shortDescription>
+        <value>Environment</value>
     </labels>
     <labels>
         <fullName>USDependency_IconTitle</fullName>
@@ -2111,36 +2198,44 @@ For more details login to the Org and monitor the test execution under Setup/Dev
         <value>Potential User Story dependency issue, click to view...</value>
     </labels>
     <labels>
-        <fullName>USDependency_ProviderTeam</fullName>
+        <fullName>USDependency_Name</fullName>
         <categories>Copado</categories>
         <language>en_US</language>
         <protected>true</protected>
-        <shortDescription>USDependency_ProviderTeam</shortDescription>
-        <value>Provider Team</value>
+        <shortDescription>USDependency_Name</shortDescription>
+        <value>Name</value>
     </labels>
     <labels>
-        <fullName>USDependency_Title</fullName>
+        <fullName>USDependency_Reference</fullName>
         <categories>Copado</categories>
         <language>en_US</language>
         <protected>true</protected>
-        <shortDescription>USDependency_Title</shortDescription>
-        <value>Title</value>
+        <shortDescription>USDependency_Reference</shortDescription>
+        <value>Provider Reference</value>
     </labels>
     <labels>
-        <fullName>USERSTORY_HAS_NO_ORG_CREDENTIAL_SUMMARY</fullName>
+        <fullName>USERNAME</fullName>
         <categories>Copado</categories>
         <language>en_US</language>
         <protected>true</protected>
-        <shortDescription>USERSTORY_HAS_NO_ORG_CREDENTIAL_SUMMARY</shortDescription>
-        <value>You should set the org credentials before run the tests of this user story.</value>
+        <shortDescription>USERNAME</shortDescription>
+        <value>Username</value>
     </labels>
     <labels>
-        <fullName>USERSTORY_HAS_NO_TEST_RESULTS_TITLE</fullName>
+        <fullName>USERSTORY_HAS_NO_TEST_RESULTS_SUMMARY</fullName>
         <categories>Copado</categories>
         <language>en_US</language>
         <protected>true</protected>
-        <shortDescription>USERSTORY HAS NO TEST RESULTS TITLE</shortDescription>
-        <value>This user story has no Apex Test Results.</value>
+        <shortDescription>USERSTORY HAS NO TEST RESULTS SUMMARY</shortDescription>
+        <value>Press the &apos;Run Apex tests&apos; button to start the process. Copado will run the Apex Tests that are contained in the selected Metadata for this User Story.</value>
+    </labels>
+    <labels>
+        <fullName>USER_NAME</fullName>
+        <categories>Copado</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>USER NAME</shortDescription>
+        <value>User Name</value>
     </labels>
     <labels>
         <fullName>USER_STORIES_BEHIND</fullName>
@@ -2150,100 +2245,52 @@ For more details login to the Org and monitor the test execution under Setup/Dev
         <value>User Stories Behind</value>
     </labels>
     <labels>
-        <fullName>USER_STORY_ANALYSIS_REQUESTED</fullName>
+        <fullName>USER_STORIES_TO_BE_PROMOTED</fullName>
         <categories>Copado</categories>
         <language>en_US</language>
         <protected>true</protected>
-        <shortDescription>USER STORY ANALYSIS REQUESTED</shortDescription>
-        <value>User Story Code Analysis successfully requested!</value>
+        <shortDescription>USER STORIES TO BE PROMOTED</shortDescription>
+        <value>User Stories to be Promoted</value>
     </labels>
     <labels>
-        <fullName>USER_STORY_COMMIT_INTM_DESCRIPTION</fullName>
+        <fullName>USER_STORY_ASSIGN_RELEASE</fullName>
+        <categories>copado</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>USER_STORY_ASSIGN_RELEASE</shortDescription>
+        <value>Assign User Stories to Release</value>
+    </labels>
+    <labels>
+        <fullName>USER_STORY_COMMIT_INTM_TITLE</fullName>
         <categories>Copado</categories>
         <language>en_US</language>
         <protected>true</protected>
-        <shortDescription>USER STORY COMMIT INTM DESCRIPTION</shortDescription>
-        <value>The selected Git Snapshot determines the Git Repository and the branch where the changes will be committed to.</value>
+        <shortDescription>USER STORY COMMIT INTM TITLE</shortDescription>
+        <value>Select a Snapshot for your User Story commit.</value>
     </labels>
     <labels>
-        <fullName>USER_STORY_COMMIT_NO_SNAPSHOT_FOUND</fullName>
+        <fullName>USER_STORY_COMMIT_NO_USER_STORY</fullName>
         <categories>Copado</categories>
         <language>en_US</language>
         <protected>true</protected>
-        <shortDescription>USER STORY COMMIT NO SNAPSHOT FOUND</shortDescription>
-        <value>No Snapshot records could be found to create your File Commit.  Please create a Git Snapshot that is linked to the environment specified in the User Story and try loading this page again.</value>
+        <shortDescription>USER STORY COMMIT NO USER STORY</shortDescription>
+        <value>A User Story must be set to access this page.</value>
     </labels>
     <labels>
-        <fullName>USER_STORY_FIELDS</fullName>
+        <fullName>Upload</fullName>
         <categories>Copado</categories>
         <language>en_US</language>
         <protected>true</protected>
-        <shortDescription>User Story Fields</shortDescription>
-        <value>User Story Fields</value>
+        <shortDescription>Upload</shortDescription>
+        <value>Upload</value>
     </labels>
     <labels>
-        <fullName>USER_STORY_METADATA_COMPLIANCE_SCAN</fullName>
+        <fullName>VALIDATE_EXTERNAL_CI</fullName>
         <categories>Copado</categories>
         <language>en_US</language>
         <protected>true</protected>
-        <shortDescription>USER STORY METADATA COMPLIANCE SCAN</shortDescription>
-        <value>Compliance Scan of User Story Metadata</value>
-    </labels>
-    <labels>
-        <fullName>USER_STORY_NOT_FOUND</fullName>
-        <categories>Copado</categories>
-        <language>en_US</language>
-        <protected>true</protected>
-        <shortDescription>USER STORY NOT FOUND</shortDescription>
-        <value>User Story not found!</value>
-    </labels>
-    <labels>
-        <fullName>USER_STORY_TEST</fullName>
-        <categories>Copado</categories>
-        <language>en_US</language>
-        <protected>true</protected>
-        <shortDescription>USER STORY TEST</shortDescription>
-        <value>User Story Test</value>
-    </labels>
-    <labels>
-        <fullName>USER_TERRITORIES</fullName>
-        <categories>Copado</categories>
-        <language>en_US</language>
-        <protected>true</protected>
-        <shortDescription>USER TERRITORIES</shortDescription>
-        <value>User territories</value>
-    </labels>
-    <labels>
-        <fullName>US_VALIDATE</fullName>
-        <categories>Copado</categories>
-        <language>en_US</language>
-        <protected>true</protected>
-        <shortDescription>US VALIDATE</shortDescription>
-        <value>Validate</value>
-    </labels>
-    <labels>
-        <fullName>US_VALIDATION_INPROGRESS</fullName>
-        <categories>Copado</categories>
-        <language>en_US</language>
-        <protected>true</protected>
-        <shortDescription>US VALIDATION INPROGRESS</shortDescription>
-        <value>Validation in progress</value>
-    </labels>
-    <labels>
-        <fullName>Unselect_All_Environments</fullName>
-        <categories>MassBackPromote CBM2</categories>
-        <language>en_US</language>
-        <protected>true</protected>
-        <shortDescription>Unselect All Environments</shortDescription>
-        <value>Unselect All Environments</value>
-    </labels>
-    <labels>
-        <fullName>Upload_progress</fullName>
-        <categories>Copado</categories>
-        <language>en_US</language>
-        <protected>true</protected>
-        <shortDescription>Upload progress</shortDescription>
-        <value>Upload progress</value>
+        <shortDescription>VALIDATE EXTERNAL CI</shortDescription>
+        <value>Validate Connection</value>
     </labels>
     <labels>
         <fullName>VIEW</fullName>
@@ -2254,68 +2301,44 @@ For more details login to the Org and monitor the test execution under Setup/Dev
         <value>View</value>
     </labels>
     <labels>
-        <fullName>VIEW_DEPLOYMENT_STATUS</fullName>
+        <fullName>VIEW_RESULTS</fullName>
         <categories>Copado</categories>
         <language>en_US</language>
         <protected>true</protected>
-        <shortDescription>VIEW DEPLOYMENT STATUS</shortDescription>
-        <value>View Deployment Status</value>
+        <shortDescription>VIEW RESULTS</shortDescription>
+        <value>View results</value>
     </labels>
     <labels>
-        <fullName>VISIT</fullName>
+        <fullName>WEDNESDAY</fullName>
         <categories>Copado</categories>
         <language>en_US</language>
         <protected>true</protected>
-        <shortDescription>VISIT</shortDescription>
-        <value>Visit</value>
+        <shortDescription>WEDNESDAY</shortDescription>
+        <value>Wednesday</value>
     </labels>
     <labels>
-        <fullName>Validation_Error</fullName>
-        <categories>User Story Validation</categories>
-        <language>en_US</language>
-        <protected>true</protected>
-        <shortDescription>Validation Error</shortDescription>
-        <value>Unexpected error!!. Please check your permissions and user story setup.</value>
-    </labels>
-    <labels>
-        <fullName>WEEKLY</fullName>
+        <fullName>WITH_CREATE</fullName>
         <categories>Copado</categories>
         <language>en_US</language>
         <protected>true</protected>
-        <shortDescription>WEEKLY</shortDescription>
-        <value>Weekly</value>
+        <shortDescription>WITH_CREATE</shortDescription>
+        <value>Include create</value>
     </labels>
     <labels>
-        <fullName>WHERE</fullName>
+        <fullName>WRONG_CREDENTIALS</fullName>
         <categories>Copado</categories>
         <language>en_US</language>
         <protected>true</protected>
-        <shortDescription>WHERE</shortDescription>
-        <value>Where</value>
+        <shortDescription>WRONG CREDENTIALS</shortDescription>
+        <value>Could not validate credentials</value>
     </labels>
     <labels>
-        <fullName>WITH_DELETE</fullName>
-        <categories>Copado</categories>
-        <language>en_US</language>
-        <protected>true</protected>
-        <shortDescription>WITH_DELETE</shortDescription>
-        <value>Include delete</value>
-    </labels>
-    <labels>
-        <fullName>WITH_UPDATE</fullName>
-        <categories>Copado</categories>
-        <language>en_US</language>
-        <protected>true</protected>
-        <shortDescription>WITH UPDATE</shortDescription>
-        <value>Include update</value>
-    </labels>
-    <labels>
-        <fullName>WorkManager_Alert_NoRecord</fullName>
+        <fullName>WorkManager_Button_AddPanel</fullName>
         <categories>copado</categories>
         <language>en_US</language>
         <protected>true</protected>
-        <shortDescription>WorkManager_Alert_NoRecord</shortDescription>
-        <value>Please select a record!</value>
+        <shortDescription>WorkManager_Button_AddPanel</shortDescription>
+        <value>Add Panel</value>
     </labels>
     <labels>
         <fullName>WorkManager_Button_Remove</fullName>
@@ -2332,29 +2355,5 @@ For more details login to the Org and monitor the test execution under Setup/Dev
         <protected>true</protected>
         <shortDescription>WorkManager_Config_Header</shortDescription>
         <value>New Panel Configuration</value>
-    </labels>
-    <labels>
-        <fullName>WorkManager_TableHeader_Name</fullName>
-        <categories>copado</categories>
-        <language>en_US</language>
-        <protected>true</protected>
-        <shortDescription>WorkManager_TableHeader_Name</shortDescription>
-        <value>Name</value>
-    </labels>
-    <labels>
-        <fullName>WorkManager_TableHeader_Points</fullName>
-        <categories>copado</categories>
-        <language>en_US</language>
-        <protected>true</protected>
-        <shortDescription>WorkManager_TableHeader_Points</shortDescription>
-        <value>POINTS</value>
-    </labels>
-    <labels>
-        <fullName>WorkManager_Title</fullName>
-        <categories>copado</categories>
-        <language>en_US</language>
-        <protected>true</protected>
-        <shortDescription>WorkManager_Title</shortDescription>
-        <value>WORK MANAGER</value>
     </labels>
 </CustomLabels>
