@@ -3,42 +3,46 @@
     <caseValues>
         <article>None</article>
         <plural>false</plural>
-        <value><!-- Dinnero --></value>
+        <value>Dinnerrrrr</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <value>Dinners</value>
     </caseValues>
     <caseValues>
         <article>Indefinite</article>
-        <plural>false</plural>
-        <value><!-- Dinner --></value>
+        <plural>true</plural>
+        <value>Dinners</value>
     </caseValues>
     <caseValues>
         <article>Definite</article>
         <plural>false</plural>
-        <value><!-- Dinner --></value>
+        <value>Dinner</value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>false</plural>
+        <value>Dinner</value>
     </caseValues>
     <caseValues>
         <article>None</article>
         <plural>true</plural>
-        <value><!-- Dinner --></value>
-    </caseValues>
-    <caseValues>
-        <article>Indefinite</article>
-        <plural>true</plural>
-        <value><!-- Dinner --></value>
-    </caseValues>
-    <caseValues>
-        <article>Definite</article>
-        <plural>true</plural>
-        <value><!-- Dinner --></value>
+        <value>Dinners</value>
     </caseValues>
     <fields>
         <label>Dinnnnner</label>
         <name>LateDinner__c</name>
     </fields>
     <fields>
-        <label><!-- Point of contact --></label>
+        <label></label>
         <name>Point_of_contact__c</name>
-        <relationshipLabel><!-- Dinners --></relationshipLabel>
+        <relationshipLabel></relationshipLabel>
     </fields>
-    <gender><!-- Neuter --></gender>
-    <nameFieldLabel><!-- Dinner Name --></nameFieldLabel>
+    <gender>Neuter</gender>
+    <nameFieldLabel></nameFieldLabel>
+    <recordTypes>
+        <label></label>
+        <name>Dinner_RT</name>
+    </recordTypes>
 </CustomObjectTranslation>
