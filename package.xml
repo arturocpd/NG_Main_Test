@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Custom_Perm2</members>
-        <name>CustomPermission</name>
+        <members>Dinner__c</members>
+        <name>CustomObject</name>
     </types>
     <types>
-        <members>Admin CLONE 3</members>
-        <members>Admin CLONE 5</members>
-        <name>Profile</name>
+        <members>Dinner__c-da</members>
+        <name>CustomObjectTranslation</name>
     </types>
     <version>41.0</version>
 </Package>
