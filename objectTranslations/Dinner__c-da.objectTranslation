@@ -39,7 +39,7 @@
         <name>Point_of_contact__c</name>
         <relationshipLabel></relationshipLabel>
     </fields>
-    <gender>Neuter</gender>
+    <gender><!-- Neuter --></gender>
     <nameFieldLabel></nameFieldLabel>
     <recordTypes>
         <label></label>
