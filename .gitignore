@@ -14,8 +14,8 @@ package.xml
 #Otherwise ignore profiles and permission sets until you are ready for it. 
 #You can deploy profiles and permission sets using Copado Deployer steps: Full profiles and Full Permission sets.
 
-profiles/*
-permissionsets/*
+#profiles/*
+#permissionsets/*
 
 #Flow definitions are read only for the Api, they get created automatically, therefore no need to track them.
 #As from Copado v7, you can commit and deploy Process Builder Flows. For such actions, you need to select the Flow 
