@@ -5,6 +5,10 @@
         <enabled>true</enabled>
         <name>Custom_Perm</name>
     </customPermissions>
+    <customPermissions>
+        <enabled>true</enabled>
+        <name>Custom_Perm2</name>
+    </customPermissions>
     <userLicense>Salesforce</userLicense>
     <userPermissions>
         <enabled>true</enabled>
