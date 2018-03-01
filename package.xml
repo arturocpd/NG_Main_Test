@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Dinner__c</members>
-        <name>CustomObject</name>
+        <members>Case_email_alert-1</members>
+        <name>Flow</name>
     </types>
     <types>
-        <members>Dinner__c-da</members>
-        <name>CustomObjectTranslation</name>
+        <members>Case_email_alert</members>
+        <name>FlowDefinition</name>
+    </types>
+    <types>
+        <members>Case.Case_email_alert</members>
+        <name>WorkflowAlert</name>
     </types>
     <version>41.0</version>
 </Package>
