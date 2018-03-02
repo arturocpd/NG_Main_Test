@@ -161,6 +161,10 @@
         <name>Jaguar__c</name>
     </fields>
     <fields>
+        <label><!-- Job done --></label>
+        <name>Job_done__c</name>
+    </fields>
+    <fields>
         <label><!-- KeepMe2 --></label>
         <name>KeepMe2__c</name>
     </fields>

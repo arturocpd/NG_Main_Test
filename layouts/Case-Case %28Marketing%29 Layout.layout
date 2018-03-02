@@ -259,6 +259,10 @@
                 <behavior>Edit</behavior>
                 <field>Test_Diageo__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Job_done__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
