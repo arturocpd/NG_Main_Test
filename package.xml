@@ -4,5 +4,11 @@
         <members>Case.Job_done__c</members>
         <name>CustomField</name>
     </types>
+    <types>
+        <members>Thomson2_Test_US1</members>
+        <members>Thomson3_Test_US1</members>
+        <members>Thomson_Test_US1</members>
+        <name>CustomLabel</name>
+    </types>
     <version>41.0</version>
 </Package>
