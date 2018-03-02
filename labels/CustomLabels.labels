@@ -1318,6 +1318,27 @@ Please try again later or call SE-Advantage help desk @ (800) 437-0083.</value>
         <value>Territory</value>
     </labels>
     <labels>
+        <fullName>Thomson2_Test_US1</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Thomson2 Test US1</shortDescription>
+        <value>Thomson2 Test US1</value>
+    </labels>
+    <labels>
+        <fullName>Thomson3_Test_US1</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Thomson3 Test US1</shortDescription>
+        <value>Thomson3 Test US1</value>
+    </labels>
+    <labels>
+        <fullName>Thomson_Test_US1</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Thomson Test US1</shortDescription>
+        <value>Thomson Test US1</value>
+    </labels>
+    <labels>
         <fullName>Translation_Test</fullName>
         <language>en_US</language>
         <protected>true</protected>
