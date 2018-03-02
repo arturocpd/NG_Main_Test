@@ -50,6 +50,13 @@
         <value>Thomson Test US1</value>
     </labels>
     <labels>
+        <fullName>Thomson_Test_US2</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Thomson Test US2</shortDescription>
+        <value>Thomson Test US2</value>
+    </labels>
+    <labels>
         <fullName>Translation_Test</fullName>
         <language>en_US</language>
         <protected>true</protected>
