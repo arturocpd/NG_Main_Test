@@ -8,13 +8,5 @@
         <plural>true</plural>
         <value>Knowledge</value>
     </caseValues>
-    <fields>
-        <label><!-- Body --></label>
-        <name>Body__c</name>
-    </fields>
     <gender>Feminine</gender>
-    <recordTypes>
-        <label><!-- Support --></label>
-        <name>Support</name>
-    </recordTypes>
 </CustomObjectTranslation>

@@ -8,18 +8,5 @@
         <plural>true</plural>
         <value>Quote/Proposals</value>
     </caseValues>
-    <fields>
-        <label><!-- Provisioning_Contact --></label>
-        <name>Provisioning_Contact__c</name>
-        <relationshipLabel><!-- Quote/Proposals --></relationshipLabel>
-    </fields>
     <gender>Feminine</gender>
-    <recordTypes>
-        <label><!-- RecordType1 --></label>
-        <name>RecordType1</name>
-    </recordTypes>
-    <recordTypes>
-        <label><!-- RecordType2 --></label>
-        <name>RecordType2</name>
-    </recordTypes>
 </CustomObjectTranslation>
