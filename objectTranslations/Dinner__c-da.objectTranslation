@@ -39,7 +39,7 @@
         <name>Point_of_contact__c</name>
         <relationshipLabel><!-- Dinners --></relationshipLabel>
     </fields>
-    <gender><!-- Neuter --></gender>
+    <gender>Neuter</gender>
     <nameFieldLabel><!-- Dinner Name --></nameFieldLabel>
     <recordTypes>
         <label><!-- Dinner RT --></label>
