@@ -8,5 +8,21 @@
         <plural>true</plural>
         <value>Opp Line Item EXT</value>
     </caseValues>
+    <fields>
+        <label><!-- Date --></label>
+        <name>Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Modified Date --></label>
+        <name>LastModifiedDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- check --></label>
+        <name>check__c</name>
+    </fields>
+    <fields>
+        <label><!-- www --></label>
+        <name>www__c</name>
+    </fields>
     <gender>Masculine</gender>
 </CustomObjectTranslation>

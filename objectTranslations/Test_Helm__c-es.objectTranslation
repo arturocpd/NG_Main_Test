@@ -8,5 +8,9 @@
         <plural>true</plural>
         <value>Test Helm</value>
     </caseValues>
+    <fields>
+        <label><!-- url --></label>
+        <name>url__c</name>
+    </fields>
     <gender>Neuter</gender>
 </CustomObjectTranslation>

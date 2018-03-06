@@ -8,5 +8,18 @@
         <plural>true</plural>
         <value>Dinners</value>
     </caseValues>
+    <fields>
+        <label><!-- LateDinner --></label>
+        <name>LateDinner__c</name>
+    </fields>
+    <fields>
+        <label><!-- Point of contact --></label>
+        <name>Point_of_contact__c</name>
+        <relationshipLabel><!-- Dinners --></relationshipLabel>
+    </fields>
     <gender>Feminine</gender>
+    <recordTypes>
+        <label><!-- Dinner RT --></label>
+        <name>Dinner_RT</name>
+    </recordTypes>
 </CustomObjectTranslation>

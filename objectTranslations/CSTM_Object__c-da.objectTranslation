@@ -30,6 +30,14 @@
         <plural>true</plural>
         <value><!-- CSTM Object --></value>
     </caseValues>
+    <fields>
+        <label>cstm field translated daMOD</label>
+        <name>cstm_field__c</name>
+    </fields>
     <gender><!-- Neuter --></gender>
     <nameFieldLabel><!-- CSTM Object Name --></nameFieldLabel>
+    <recordTypes>
+        <label><!-- CSTM New layout --></label>
+        <name>CSTM_New_layout</name>
+    </recordTypes>
 </CustomObjectTranslation>

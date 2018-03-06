@@ -30,6 +30,19 @@
         <plural>true</plural>
         <value><!-- Dinner --></value>
     </caseValues>
+    <fields>
+        <label>Dinnnnnerrrrrrrrrrrrrfield23232</label>
+        <name>LateDinner__c</name>
+    </fields>
+    <fields>
+        <label><!-- Point of contact --></label>
+        <name>Point_of_contact__c</name>
+        <relationshipLabel><!-- Dinners --></relationshipLabel>
+    </fields>
     <gender><!-- Neuter --></gender>
     <nameFieldLabel><!-- Dinner Name --></nameFieldLabel>
+    <recordTypes>
+        <label><!-- Dinner RT --></label>
+        <name>Dinner_RT</name>
+    </recordTypes>
 </CustomObjectTranslation>
