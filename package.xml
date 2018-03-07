@@ -2,6 +2,7 @@
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
         <members>Custom_Perm2</members>
+        <members>custom_perm_4</members>
         <name>CustomPermission</name>
     </types>
     <types>
