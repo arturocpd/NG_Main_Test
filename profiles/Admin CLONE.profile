@@ -8,7 +8,15 @@
     <custom>true</custom>
     <customPermissions>
         <enabled>true</enabled>
+        <name>Custom_Perm2</name>
+    </customPermissions>
+    <customPermissions>
+        <enabled>true</enabled>
         <name>custom_perm_3</name>
+    </customPermissions>
+    <customPermissions>
+        <enabled>true</enabled>
+        <name>custom_perm_4</name>
     </customPermissions>
     <description>Profile description</description>
     <fieldPermissions>
