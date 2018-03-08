@@ -81,6 +81,13 @@
         <value>TransQ</value>
     </labels>
     <labels>
+        <fullName>AR_Custom_Label_from_Dev3</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>AR Custom Label from Dev3</shortDescription>
+        <value>AR Custom Label from Dev3</value>
+    </labels>
+    <labels>
         <fullName>Account_Filter_on_Proposal_Party_Query</fullName>
         <categories>Proposal Calendar</categories>
         <language>en_US</language>
@@ -494,6 +501,13 @@
         <protected>false</protected>
         <shortDescription>Name</shortDescription>
         <value>Name</value>
+    </labels>
+    <labels>
+        <fullName>New_CL_from_Dev3</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>New CL from Dev3</shortDescription>
+        <value>New CL from Dev3</value>
     </labels>
     <labels>
         <fullName>Opportunity_Name_r_Proposal_Name_c</fullName>
@@ -1178,6 +1192,13 @@ Please try again later or call SE-Advantage help desk @ (800) 437-0083.</value>
         <value>Please select at least 1 record to proceed.</value>
     </labels>
     <labels>
+        <fullName>Record_Type</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Record Type</shortDescription>
+        <value>Record Type</value>
+    </labels>
+    <labels>
         <fullName>SE_CL_End_User</fullName>
         <language>en_US</language>
         <protected>false</protected>
@@ -1295,6 +1316,20 @@ Please try again later or call SE-Advantage help desk @ (800) 437-0083.</value>
         <protected>false</protected>
         <shortDescription>Territory</shortDescription>
         <value>Territory</value>
+    </labels>
+    <labels>
+        <fullName>Translation_Test</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Translation Test</shortDescription>
+        <value>This is a transtlation test.</value>
+    </labels>
+    <labels>
+        <fullName>Translation_Test_NEW</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Translation Test NEW</shortDescription>
+        <value>This is the new translation test</value>
     </labels>
     <labels>
         <fullName>URL_For_the_Org</fullName>
