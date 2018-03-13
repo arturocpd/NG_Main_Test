@@ -9,6 +9,10 @@
         <name>Admin_Checkbox__c</name>
     </fields>
     <fields>
+        <label><!-- BP Test --></label>
+        <name>BP_Test__c</name>
+    </fields>
+    <fields>
         <label><!-- BitCoin --></label>
         <name>BitCoin__c</name>
     </fields>
