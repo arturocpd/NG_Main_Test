@@ -18,6 +18,10 @@
         <enabled>true</enabled>
         <name>custom_perm_4</name>
     </customPermissions>
+    <customPermissions>
+        <enabled>true</enabled>
+        <name>custom_perm_5</name>
+    </customPermissions>
     <description>Profile description</description>
     <fieldPermissions>
         <editable>true</editable>
