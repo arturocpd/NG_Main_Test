@@ -1,26 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Case.Case_AAA__c</members>
-        <name>CustomField</name>
-    </types>
-    <types>
-        <members>Case</members>
-        <name>CustomObject</name>
-    </types>
-    <types>
-        <members>Case-Case %28Marketing%29 Layout</members>
-        <members>Case-Case %28Sales%29 Layout</members>
-        <members>Case-Case %28Support%29 Layout</members>
-        <members>Case-Case Layout</members>
-        <members>CaseClose-Close Case Layout</members>
-        <name>Layout</name>
-    </types>
-    <types>
-        <members>Admin CLONE</members>
-        <members>Admin CLONE 2</members>
-        <members>Admin CLONE 3</members>
-        <name>Profile</name>
+        <members>Case.Email_alert_on_Case_1</members>
+        <members>Case.Email_alert_on_Case_2</members>
+        <members>Case.Email_alert_on_Case_3</members>
+        <members>Case.Email_alert_on_Case_4</members>
+        <members>CaseComment.Email_alert_on_CaseComment_1</members>
+        <members>CaseComment.Email_alert_on_CaseComment_2</members>
+        <members>CaseComment.Email_alert_on_CaseComment_3</members>
+        <members>CaseComment.Email_alert_on_CaseComment_4</members>
+        <members>CaseComment.Email_alert_on_CaseComment_5</members>
+        <members>Contact.Email_alert_on_Contact_1</members>
+        <members>FeedItem.Email_alert_on_FeedItem_1</members>
+        <members>FeedItem.Email_alert_on_FeedItem_2</members>
+        <members>FeedItem.Email_alert_on_FeedItem_3</members>
+        <members>FeedItem.Email_alert_on_FeedItem_4</members>
+        <members>FeedItem.Email_alert_on_FeedItem_5</members>
+        <name>WorkflowAlert</name>
     </types>
     <version>41.0</version>
 </Package>
