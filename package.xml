@@ -1,21 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Case.Email_alert_on_Case_1</members>
-        <members>Case.Email_alert_on_Case_2</members>
-        <members>Case.Email_alert_on_Case_3</members>
-        <members>Case.Email_alert_on_Case_4</members>
-        <members>CaseComment.Email_alert_on_CaseComment_1</members>
-        <members>CaseComment.Email_alert_on_CaseComment_2</members>
-        <members>CaseComment.Email_alert_on_CaseComment_3</members>
-        <members>CaseComment.Email_alert_on_CaseComment_4</members>
-        <members>CaseComment.Email_alert_on_CaseComment_5</members>
-        <members>Contact.Email_alert_on_Contact_1</members>
-        <members>FeedItem.Email_alert_on_FeedItem_1</members>
-        <members>FeedItem.Email_alert_on_FeedItem_2</members>
-        <members>FeedItem.Email_alert_on_FeedItem_3</members>
-        <members>FeedItem.Email_alert_on_FeedItem_4</members>
-        <members>FeedItem.Email_alert_on_FeedItem_5</members>
+        <members>Contact.Email_alert_on_Contact_2</members>
         <name>WorkflowAlert</name>
     </types>
     <version>41.0</version>
