@@ -10,6 +10,16 @@
         <senderType>CurrentUser</senderType>
         <template>unfiled$public/MarketingProductInquiryResponse</template>
     </alerts>
+    <alerts>
+        <fullName>Email_alert_on_Contact_2</fullName>
+        <description>Email alert on Contact 2</description>
+        <protected>false</protected>
+        <recipients>
+            <type>creator</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/MarketingProductInquiryResponse</template>
+    </alerts>
     <fieldUpdates>
         <fullName>Update_contact</fullName>
         <field>Email</field>
