@@ -30,6 +30,18 @@
         <recipients>
             <type>creator</type>
         </recipients>
+        <recipients>
+            <recipient>integration@00d0y000001jzpeuai.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>ngarturo2dev1cpd@gmail.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>ngarturodev1cpd@gmail.com</recipient>
+            <type>user</type>
+        </recipients>
         <senderType>CurrentUser</senderType>
         <template>unfiled$public/MarketingProductInquiryResponse</template>
     </alerts>
