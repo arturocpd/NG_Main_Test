@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Contact.Email_alert_on_Contact_3</members>
-        <name>WorkflowAlert</name>
+        <members>Case.Case_OOO__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>Admin CLONE</members>
+        <name>Profile</name>
     </types>
     <version>41.0</version>
 </Package>
