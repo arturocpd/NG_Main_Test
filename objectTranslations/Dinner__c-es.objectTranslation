@@ -22,4 +22,8 @@
         <label><!-- Dinner RT --></label>
         <name>Dinner_RT</name>
     </recordTypes>
+    <recordTypes>
+        <label><!-- Dinner RT 2 --></label>
+        <name>Dinner_RT_2</name>
+    </recordTypes>
 </CustomObjectTranslation>

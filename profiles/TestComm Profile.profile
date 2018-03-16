@@ -3027,6 +3027,10 @@
         <recordType>Dinner__c.Dinner_RT</recordType>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Dinner__c-Dinner Layout</layout>
+        <recordType>Dinner__c.Dinner_RT_2</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>DuplicateRecordSet-Duplicate Record Set Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -3340,6 +3344,11 @@
     <recordTypeVisibilities>
         <default>false</default>
         <recordType>Dinner__c.Dinner_RT</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Dinner__c.Dinner_RT_2</recordType>
         <visible>false</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
