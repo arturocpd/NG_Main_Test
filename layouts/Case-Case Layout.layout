@@ -254,6 +254,10 @@
                 <behavior>Edit</behavior>
                 <field>Job_done__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>test_deploy__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
