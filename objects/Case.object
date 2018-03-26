@@ -4343,10 +4343,6 @@
                 <controllingFieldValue>CCE document</controllingFieldValue>
                 <valueName>Accepted</valueName>
             </valueSettings>
-            <valueSettings>
-                <controllingFieldValue>CCE document</controllingFieldValue>
-                <valueName>Account Change</valueName>
-            </valueSettings>
         </valueSet>
     </fields>
     <fields>
