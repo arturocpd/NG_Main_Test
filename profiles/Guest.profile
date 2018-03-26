@@ -802,6 +802,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Case.Category__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Case.Citroen__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -821,6 +826,11 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>Case.Controlling__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Case.DeleteMe2__c</field>
         <readable>true</readable>
@@ -829,6 +839,11 @@
         <editable>true</editable>
         <field>Case.DeleteMe__c</field>
         <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Case.Dependent__c</field>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -1003,6 +1018,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Case.StopStartDate</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Case.Sub_Category_1__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
