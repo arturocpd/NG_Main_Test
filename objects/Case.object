@@ -966,10 +966,6 @@
                 <controllingFieldValue>Controlling 3</controllingFieldValue>
                 <valueName>Dependent 2</valueName>
             </valueSettings>
-            <valueSettings>
-                <controllingFieldValue>Controlling 3</controllingFieldValue>
-                <valueName>Dependent 3</valueName>
-            </valueSettings>
         </valueSet>
     </fields>
     <fields>
