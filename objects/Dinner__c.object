@@ -62,10 +62,10 @@
     <fields>
         <fullName>LateDinner__c</fullName>
         <defaultValue>false</defaultValue>
+        <description>Description</description>
         <externalId>false</externalId>
         <label>LateDinner</label>
         <trackHistory>true</trackHistory>
-        <trackTrending>false</trackTrending>
         <type>Checkbox</type>
     </fields>
     <fields>
@@ -79,7 +79,7 @@
         <relationshipName>Dinners</relationshipName>
         <required>false</required>
         <trackHistory>true</trackHistory>
-        <trackTrending>false</trackTrending>
+        <trackTrending>true</trackTrending>
         <type>Lookup</type>
     </fields>
     <gender>Feminine</gender>
@@ -100,11 +100,11 @@
     </listViews>
     <nameField>
         <label>Dinner Name</label>
-        <trackHistory>false</trackHistory>
+        <trackHistory>true</trackHistory>
         <type>Text</type>
     </nameField>
     <pluralLabel>Dinners</pluralLabel>
-    <recordTypeTrackHistory>false</recordTypeTrackHistory>
+    <recordTypeTrackHistory>true</recordTypeTrackHistory>
     <recordTypes>
         <fullName>Dinner_RT</fullName>
         <active>true</active>
