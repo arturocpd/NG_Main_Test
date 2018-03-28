@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
+        <members>Dinner__c.LateDinner__c</members>
+        <members>Dinner__c.Name</members>
         <members>Dinner__c.OwnerId</members>
         <members>Dinner__c.Point_of_contact__c</members>
+        <members>Dinner__c.RecordTypeId</members>
         <name>CustomField</name>
     </types>
     <version>41.0</version>
