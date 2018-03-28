@@ -103,7 +103,7 @@
         <relationshipName>Dinners</relationshipName>
         <required>false</required>
         <trackHistory>true</trackHistory>
-        <trackTrending>false</trackTrending>
+        <trackTrending>true</trackTrending>
         <type>Lookup</type>
     </fields>
     <gender>Feminine</gender>
