@@ -65,7 +65,6 @@
         <externalId>false</externalId>
         <label>LateDinner</label>
         <trackHistory>true</trackHistory>
-        <trackTrending>false</trackTrending>
         <type>Checkbox</type>
     </fields>
     <fields>
@@ -79,7 +78,7 @@
         <relationshipName>Dinners</relationshipName>
         <required>false</required>
         <trackHistory>true</trackHistory>
-        <trackTrending>false</trackTrending>
+        <trackTrending>true</trackTrending>
         <type>Lookup</type>
     </fields>
     <gender>Feminine</gender>
