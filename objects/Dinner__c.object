@@ -88,8 +88,7 @@
         <defaultValue>false</defaultValue>
         <externalId>false</externalId>
         <label>LateDinner</label>
-        <trackHistory>true</trackHistory>
-        <trackTrending>false</trackTrending>
+        <trackHistory>false</trackHistory>
         <type>Checkbox</type>
     </fields>
     <fields>
@@ -102,7 +101,7 @@
         <relationshipLabel>Dinners</relationshipLabel>
         <relationshipName>Dinners</relationshipName>
         <required>false</required>
-        <trackHistory>true</trackHistory>
+        <trackHistory>false</trackHistory>
         <trackTrending>true</trackTrending>
         <type>Lookup</type>
     </fields>
