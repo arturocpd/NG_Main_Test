@@ -15,7 +15,7 @@
     <fields>
         <label><!-- Point of contact --></label>
         <name>Point_of_contact__c</name>
-        <relationshipLabel><!-- Dinners --></relationshipLabel>
+        <relationshipLabel>Cenas</relationshipLabel>
     </fields>
     <gender>Feminine</gender>
     <recordTypes>
