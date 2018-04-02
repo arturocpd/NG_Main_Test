@@ -4332,14 +4332,24 @@
                 <value>
                     <fullName>4</fullName>
                     <default>false</default>
-                    <isActive>false</isActive>
                     <label>4</label>
                 </value>
                 <value>
                     <fullName>5</fullName>
                     <default>false</default>
-                    <isActive>false</isActive>
                     <label>5</label>
+                </value>
+                <value>
+                    <fullName>6</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>6</label>
+                </value>
+                <value>
+                    <fullName>7</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>7</label>
                 </value>
             </valueSetDefinition>
         </valueSet>
