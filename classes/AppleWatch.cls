@@ -11,7 +11,7 @@ Public Class AppleWatch{
         /*test case*/
         
         /*
-        Removed!!
+        MODIFIED
         */
         
         /*
