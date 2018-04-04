@@ -14,13 +14,7 @@ Public Class AppleWatch{
         /*test case*/
         
         /*
-        Comment MOD
-        Line1.MOD
-        Line2.MOD
-        Line3.MOD
-        Line4.MOD
-        Line5.MOD
-        Line6.MOD
+       Update from Dev3
         */
         
         
