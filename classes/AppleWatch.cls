@@ -12,7 +12,7 @@ Public Class AppleWatch{
         /*test case*/
         
         /*
-       Update from Dev3
+       Commit from Dev7 branch
         */
         
         
