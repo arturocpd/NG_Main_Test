@@ -887,6 +887,16 @@
         </valueSet>
     </fields>
     <fields>
+        <fullName>Custom_Key__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Custom Key</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>Dependent__c</fullName>
         <externalId>false</externalId>
         <label>Dependent</label>
