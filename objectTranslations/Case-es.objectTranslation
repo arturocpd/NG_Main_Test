@@ -589,6 +589,10 @@
         <name>New_report_test_field__c</name>
     </fields>
     <fields>
+        <label><!-- Nitro --></label>
+        <name>Nitro__c</name>
+    </fields>
+    <fields>
         <label><!-- Pckage field --></label>
         <name>Pckage_field__c</name>
     </fields>
