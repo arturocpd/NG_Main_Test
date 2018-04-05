@@ -9,6 +9,10 @@
         <value>Test Helm</value>
     </caseValues>
     <fields>
+        <label><!-- Email --></label>
+        <name>Email__c</name>
+    </fields>
+    <fields>
         <label><!-- url --></label>
         <name>url__c</name>
     </fields>
