@@ -6,6 +6,5 @@
     <tab>standard-Workspace</tab>
     <tab>standard-ContentSearch</tab>
     <tab>standard-ContentSubscriptions</tab>
-    <tab>standard-ContentFavorites</tab>
-    <tab>Custom_Object__c</tab>
+    <tab>FlowPage</tab>
 </CustomApplication>

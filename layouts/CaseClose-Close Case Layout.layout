@@ -19,8 +19,8 @@
                 <field>Comments</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Login_IP_restrictions__c</field>
+                <behavior>Readonly</behavior>
+                <field>Days_Since_Last_Update__c</field>
             </layoutItems>
         </layoutColumns>
         <style>OneColumn</style>

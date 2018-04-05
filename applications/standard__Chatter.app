@@ -7,5 +7,5 @@
     <tab>standard-OtherUserProfile</tab>
     <tab>standard-CollaborationGroup</tab>
     <tab>standard-File</tab>
-    <tab>Custom_Object__c</tab>
+    <tab>FlowPage</tab>
 </CustomApplication>

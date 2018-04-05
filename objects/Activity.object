@@ -34,135 +34,35 @@
     </actionOverrides>
     <enableFeeds>false</enableFeeds>
     <fields>
-        <fullName>AAATask__c</fullName>
+        <fullName>DB_Activity_Type__c</fullName>
+        <description>This is a field that is installed by and used with the Adoption Dashboard AppExchange package.  If your org already has a similar field, you can change the reports that are part of the Adoption Dashboard package to use your custom field and then delete this field.</description>
         <externalId>false</externalId>
-        <label>AAATask</label>
+        <formula>IF(CONTAINS( Subject , &quot;Email&quot;), &quot;Email&quot;, IF(CONTAINS( Subject , &quot;Cold Call&quot;), &quot;Cold Call&quot;, IF(CONTAINS( Subject , &quot;Call&quot;), &quot;Call&quot;, IF(CONTAINS( Subject , &quot;Meeting&quot;), &quot;Meeting&quot;, IF(CONTAINS( Subject , &quot;On Site Visit&quot;), &quot;Site Visit&quot;, IF(CONTAINS( Subject , &quot;Quote&quot;), &quot;Send Letter/Quote&quot;, &quot;Other&quot;))))))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>DB Activity Type</label>
         <required>false</required>
-        <type>Picklist</type>
-        <valueSet>
-            <restricted>true</restricted>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>1</fullName>
-                    <default>false</default>
-                    <label>1</label>
-                </value>
-                <value>
-                    <fullName>2</fullName>
-                    <default>false</default>
-                    <label>2</label>
-                </value>
-                <value>
-                    <fullName>3</fullName>
-                    <default>false</default>
-                    <label>3</label>
-                </value>
-                <value>
-                    <fullName>4</fullName>
-                    <default>false</default>
-                    <label>4</label>
-                </value>
-                <value>
-                    <fullName>5</fullName>
-                    <default>false</default>
-                    <label>5</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
+        <type>Text</type>
+        <unique>false</unique>
     </fields>
     <fields>
-        <fullName>Activity_Custom_field_5__c</fullName>
-        <defaultValue>false</defaultValue>
+        <fullName>Data_Quality_Description__c</fullName>
         <externalId>false</externalId>
-        <label>Activity Custom field 5</label>
-        <type>Checkbox</type>
-    </fields>
-    <fields>
-        <fullName>Activity_ZZZ__c</fullName>
-        <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
-        <label>Activity ZZZ</label>
-        <type>Checkbox</type>
-    </fields>
-    <fields>
-        <fullName>Next_Time__c</fullName>
-        <externalId>false</externalId>
-        <label>Next Time</label>
+        <formula>IF( Data_Quality_Score__c =100, &quot;Key Event/Task Details Captured&quot;,&quot;Missing: &quot;&amp;IF( LEN( Subject ) &lt; 3,&quot;Quality Subject Description, &quot;,&quot;&quot;)&amp;&quot;&quot;&amp;IF(LEN(WhoId)=0,&quot;Contact/Lead Reference, &quot;,&quot;&quot;)&amp;&quot;&quot;&amp;IF(LEN(WhatId)=0,&quot;Account/Opportunity Reference&quot;,&quot;&quot;))</formula>
+        <label>Data Quality Description</label>
         <required>false</required>
-        <type>Picklist</type>
-        <valueSet>
-            <restricted>true</restricted>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>Sunday</fullName>
-                    <default>false</default>
-                    <label>Sunday</label>
-                </value>
-                <value>
-                    <fullName>Monday</fullName>
-                    <default>false</default>
-                    <label>Monday</label>
-                </value>
-                <value>
-                    <fullName>Tuesday</fullName>
-                    <default>false</default>
-                    <label>Tuesday</label>
-                </value>
-                <value>
-                    <fullName>Wednesday</fullName>
-                    <default>false</default>
-                    <label>Wednesday</label>
-                </value>
-                <value>
-                    <fullName>Thursday</fullName>
-                    <default>false</default>
-                    <label>Thursday</label>
-                </value>
-                <value>
-                    <fullName>Friday</fullName>
-                    <default>false</default>
-                    <label>Friday</label>
-                </value>
-                <value>
-                    <fullName>Saturday</fullName>
-                    <default>false</default>
-                    <label>Saturday</label>
-                </value>
-                <value>
-                    <fullName>Juernes</fullName>
-                    <default>false</default>
-                    <label>Juernes</label>
-                </value>
-                <value>
-                    <fullName>SuSuSunday</fullName>
-                    <default>false</default>
-                    <label>SuSuSunday</label>
-                </value>
-                <value>
-                    <fullName>Momomonday</fullName>
-                    <default>false</default>
-                    <label>Momomonday</label>
-                </value>
-                <value>
-                    <fullName>TuTuTuesday</fullName>
-                    <default>false</default>
-                    <label>TuTuTuesday</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
+        <type>Text</type>
+        <unique>false</unique>
     </fields>
     <fields>
-        <fullName>Time__c</fullName>
+        <fullName>Data_Quality_Score__c</fullName>
         <externalId>false</externalId>
-        <label>Time</label>
+        <formula>IF( LEN(  Subject  ) &lt; 3, 0,30) + IF( LEN(  WhoId ) = 0, 0,40) + IF( LEN(  WhatId ) = 0, 0,30)</formula>
+        <label>Data Quality Score</label>
+        <precision>18</precision>
         <required>false</required>
-        <type>Picklist</type>
-        <valueSet>
-            <restricted>true</restricted>
-            <valueSetName>Time</valueSetName>
-        </valueSet>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
     </fields>
     <listViews>
         <fullName>AllActivities</fullName>

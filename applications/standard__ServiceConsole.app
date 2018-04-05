@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customApplicationComponents>
+        <alignment>right</alignment>
+        <customApplicationComponent>Console.BuiltInComponent.macroBrowser</customApplicationComponent>
+    </customApplicationComponents>
     <defaultLandingTab>standard-home</defaultLandingTab>
     <detailPageRefreshMethod>none</detailPageRefreshMethod>
     <enableCustomizeMyTabs>false</enableCustomizeMyTabs>
@@ -174,10 +178,10 @@
     <tab>standard-Opportunity</tab>
     <tab>standard-Lead</tab>
     <tab>standard-Knowledge</tab>
-    <tab>Custom_Object__c</tab>
+    <tab>FlowPage</tab>
     <workspaceMappings>
         <mapping>
-            <tab>Custom_Object__c</tab>
+            <tab>FlowPage</tab>
         </mapping>
         <mapping>
             <tab>standard-Account</tab>

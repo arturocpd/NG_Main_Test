@@ -92,16 +92,18 @@
         <actionName>ViewSelfService</actionName>
         <type>Default</type>
     </actionOverrides>
-    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <compactLayoutAssignment>Phone_and_Email</compactLayoutAssignment>
     <compactLayouts>
-        <fullName>Custom_Contact_Compact_layout</fullName>
-        <fields>AccountId</fields>
-        <fields>Department</fields>
-        <fields>DoNotCall</fields>
-        <label>Custom Contact Compact layout</label>
+        <fullName>Phone_and_Email</fullName>
+        <fields>Name</fields>
+        <fields>Email</fields>
+        <fields>Phone</fields>
+        <fields>MobilePhone</fields>
+        <label>Phone and Email</label>
     </compactLayouts>
     <enableFeeds>true</enableFeeds>
     <enableHistory>false</enableHistory>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
     <fields>
         <fullName>AccountId</fullName>
         <trackFeedHistory>true</trackFeedHistory>
@@ -120,8 +122,32 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
+        <fullName>CanAllowPortalSelfReg</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
         <fullName>CleanStatus</fullName>
         <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>Data_Quality_Description__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( Data_Quality_Score__c =100,&quot;All Contact Details Captured&quot;, &quot;Missing: &quot;&amp;IF( LEN( Phone ) = 0, &quot;Phone, &quot;,&quot;&quot;)&amp;&quot;&quot;&amp;IF(LEN( Email) = 0, &quot;Email, &quot;,&quot;&quot;)&amp;&quot;&quot;&amp;IF( LEN( MailingStreet ) = 0, &quot;Complete Address, &quot;,&quot;&quot;)&amp;&quot;&quot;&amp;IF( LEN(Title) = 0, &quot;Job Title, &quot;,&quot;&quot;)&amp;&quot;&quot;&amp;IF( ISPICKVAL( Salutation,&quot;&quot;), &quot;Salutation&quot;,&quot;&quot;))</formula>
+        <label>Data Quality Description</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Data_Quality_Score__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( LEN( Phone) = 0, 0,20) + IF( LEN( Email) = 0, 0,20) + IF( LEN(MailingStreet) = 0, 0,20) + IF( LEN(Title) = 0, 0,20) + IF( ISPICKVAL(Salutation,&quot;&quot;), 0,20)</formula>
+        <label>Data Quality Score</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
     </fields>
     <fields>
         <fullName>Department</fullName>
@@ -144,30 +170,6 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
-        <fullName>GoodBad__c</fullName>
-        <externalId>false</externalId>
-        <label>GoodBad</label>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Picklist</type>
-        <valueSet>
-            <restricted>true</restricted>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>Good</fullName>
-                    <default>false</default>
-                    <label>Good</label>
-                </value>
-                <value>
-                    <fullName>Bad</fullName>
-                    <default>false</default>
-                    <label>Bad</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
-    </fields>
-    <fields>
         <fullName>HasOptedOutOfEmail</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
@@ -178,16 +180,6 @@
     <fields>
         <fullName>HomePhone</fullName>
         <trackFeedHistory>false</trackFeedHistory>
-    </fields>
-    <fields>
-        <fullName>IBM_ID_Blue_ID__c</fullName>
-        <externalId>false</externalId>
-        <label>IBM ID BLUE ID</label>
-        <length>23</length>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Text</type>
-        <unique>false</unique>
     </fields>
     <fields>
         <fullName>Jigsaw</fullName>
@@ -277,37 +269,8 @@
         <type>Lookup</type>
     </fields>
     <fields>
-        <fullName>SGUID__c</fullName>
-        <externalId>false</externalId>
-        <label>SGUID</label>
-        <length>30</length>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
         <fullName>Title</fullName>
         <trackFeedHistory>false</trackFeedHistory>
-    </fields>
-    <fields>
-        <fullName>UAT_field__c</fullName>
-        <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
-        <label>UAT field</label>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Checkbox</type>
-    </fields>
-    <fields>
-        <fullName>xyz_SGUID__c</fullName>
-        <caseSensitive>true</caseSensitive>
-        <externalId>true</externalId>
-        <label>xyz SGUID</label>
-        <length>40</length>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Text</type>
-        <unique>true</unique>
     </fields>
     <listViews>
         <fullName>AllContacts</fullName>
@@ -373,9 +336,29 @@
     </searchLayouts>
     <sharingModel>ControlledByParent</sharingModel>
     <validationRules>
-        <fullName>AAA_validation</fullName>
-        <active>true</active>
-        <errorConditionFormula>OR (ISNULL(Account.Name), ISNULL(Id))</errorConditionFormula>
-        <errorMessage>Account name cannot be null or Id cannot be null</errorMessage>
+        <fullName>Contact_must_be_in_Account_ZIP_Code</fullName>
+        <active>false</active>
+        <errorConditionFormula>NOT(ISBLANK(AccountId)) &amp;&amp;   (MailingPostalCode &lt;&gt; Account.ShippingPostalCode)</errorConditionFormula>
+        <errorDisplayField>MailingPostalCode</errorDisplayField>
+        <errorMessage>A contact with a MailingPostalCode that has an account and does not match the associated Account ShippingPostalCode</errorMessage>
     </validationRules>
+    <webLinks>
+        <fullName>Google_Info</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Google Info</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>http://google.com?q={!Contact.Name}</url>
+    </webLinks>
 </CustomObject>

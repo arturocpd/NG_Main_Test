@@ -3,5 +3,6 @@
     <defaultLandingTab>standard-home</defaultLandingTab>
     <formFactors>Large</formFactors>
     <tab>standard-AppLauncher</tab>
-    <tab>Custom_Object__c</tab>
+    <tab>FlowPage</tab>
+    <tab>standard-Quote</tab>
 </CustomApplication>

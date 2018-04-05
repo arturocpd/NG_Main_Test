@@ -1,0 +1,6 @@
+<apex:page >
+
+  <h1>Help for the Trail Object</h1>
+    <p>This is the help page for the custom object Trail</p>
+
+</apex:page>

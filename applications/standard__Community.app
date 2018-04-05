@@ -7,9 +7,7 @@
     <tab>standard-Account</tab>
     <tab>standard-Idea</tab>
     <tab>standard-IdeaTheme</tab>
-    <tab>standard-Answers</tab>
     <tab>standard-report</tab>
     <tab>standard-Dashboard</tab>
-    <tab>standard-Questions</tab>
-    <tab>Custom_Object__c</tab>
+    <tab>FlowPage</tab>
 </CustomApplication>
