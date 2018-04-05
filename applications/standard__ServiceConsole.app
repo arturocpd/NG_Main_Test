@@ -174,16 +174,95 @@
     <tab>standard-Opportunity</tab>
     <tab>standard-Lead</tab>
     <tab>standard-Knowledge</tab>
-    <tab>Custom_Object__c</tab>
+    <tab>Live_Agent2</tab>
+    <tab>Live_Agent3</tab>
+    <tab>Book__c</tab>
+    <tab>Temporary_Knowledge__c</tab>
+    <tab>Topic__c</tab>
+    <tab>Visit_Topic__c</tab>
+    <tab>MyWorkOrder__c</tab>
+    <tab>Autonumber__c</tab>
+    <tab>XYZ_Custom__c</tab>
+    <tab>Association__c</tab>
+    <tab>Change_Set__c</tab>
+    <tab>SFGA__Ad_Group__c</tab>
+    <tab>SFGA__Search_Phrase__c</tab>
+    <tab>SFGA__Google_Campaign__c</tab>
+    <tab>SFGA__Version_33_0_3__c</tab>
+    <tab>SFGA__Keyword__c</tab>
+    <tab>Many_to_Many__c</tab>
+    <tab>Opportunity_Contact_Role__c</tab>
+    <tab>ISC_Planning__c</tab>
+    <tab>Street__c</tab>
+    <tab>SFGA__Text_Ad__c</tab>
     <workspaceMappings>
         <mapping>
-            <tab>Custom_Object__c</tab>
+            <tab>Association__c</tab>
+        </mapping>
+        <mapping>
+            <tab>Autonumber__c</tab>
+        </mapping>
+        <mapping>
+            <tab>Book__c</tab>
+        </mapping>
+        <mapping>
+            <tab>Change_Set__c</tab>
+        </mapping>
+        <mapping>
+            <tab>ISC_Planning__c</tab>
+        </mapping>
+        <mapping>
+            <tab>Live_Agent2</tab>
+        </mapping>
+        <mapping>
+            <tab>Live_Agent3</tab>
+        </mapping>
+        <mapping>
+            <tab>Many_to_Many__c</tab>
+        </mapping>
+        <mapping>
+            <tab>MyWorkOrder__c</tab>
+        </mapping>
+        <mapping>
+            <tab>Opportunity_Contact_Role__c</tab>
+        </mapping>
+        <mapping>
+            <tab>SFGA__Ad_Group__c</tab>
+        </mapping>
+        <mapping>
+            <tab>SFGA__Google_Campaign__c</tab>
+        </mapping>
+        <mapping>
+            <tab>SFGA__Keyword__c</tab>
+        </mapping>
+        <mapping>
+            <tab>SFGA__Search_Phrase__c</tab>
+        </mapping>
+        <mapping>
+            <tab>SFGA__Text_Ad__c</tab>
+        </mapping>
+        <mapping>
+            <tab>SFGA__Version_33_0_3__c</tab>
+        </mapping>
+        <mapping>
+            <tab>Street__c</tab>
+        </mapping>
+        <mapping>
+            <tab>Temporary_Knowledge__c</tab>
+        </mapping>
+        <mapping>
+            <tab>Topic__c</tab>
+        </mapping>
+        <mapping>
+            <tab>Visit_Topic__c</tab>
+        </mapping>
+        <mapping>
+            <tab>XYZ_Custom__c</tab>
         </mapping>
         <mapping>
             <tab>standard-Account</tab>
         </mapping>
         <mapping>
-            <fieldName>AccountId</fieldName>
             <tab>standard-Case</tab>
         </mapping>
         <mapping>

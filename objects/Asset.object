@@ -55,8 +55,23 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>CurrencyIsoCode</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
         <fullName>Description</fullName>
         <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Family__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(Product2.Family)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Family</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
     </fields>
     <fields>
         <fullName>InstallDate</fullName>
@@ -126,6 +141,9 @@
         <type>Picklist</type>
     </fields>
     <fields>
+        <fullName>StockKeepingUnit</fullName>
+    </fields>
+    <fields>
         <fullName>UsageEndDate</fullName>
         <trackHistory>false</trackHistory>
     </fields>
@@ -158,4 +176,11 @@
         <searchResultsAdditionalFields>CONTACT.NAME</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>ControlledByParent</sharingModel>
+    <validationRules>
+        <fullName>Fields_available</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND (Family__c = &quot;Software&quot;,ISBLANK(Price))</errorConditionFormula>
+        <errorDisplayField>Price</errorDisplayField>
+        <errorMessage>la familia es software, tienes que introducir un precio</errorMessage>
+    </validationRules>
 </CustomObject>

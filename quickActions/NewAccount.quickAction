@@ -34,6 +34,7 @@
         </quickActionLayoutColumns>
     </quickActionLayout>
     <standardLabel>New</standardLabel>
+    <successMessage>\u00E9 \u00E8 \u00F9 \u00F4</successMessage>
     <targetObject>Account</targetObject>
     <type>Create</type>
 </QuickAction>

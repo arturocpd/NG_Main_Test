@@ -6,14 +6,10 @@
     <label>Sales</label>
     <navType>Standard</navType>
     <tab>standard-home</tab>
-    <tab>standard-Chatter</tab>
-    <tab>standard-WaveHome</tab>
     <tab>standard-Opportunity</tab>
-    <tab>standard-Quote</tab>
     <tab>standard-Lead</tab>
     <tab>standard-Task</tab>
     <tab>standard-File</tab>
-    <tab>standard-ContentNote</tab>
     <tab>standard-Account</tab>
     <tab>standard-Contact</tab>
     <tab>standard-Campaign</tab>
@@ -24,9 +20,20 @@
     <tab>standard-Event</tab>
     <tab>standard-OtherUserProfile</tab>
     <tab>standard-Case</tab>
-    <tab>standard-News</tab>
-    <tab>standard-ForecastingLightning</tab>
-    <tab>standard-EinsteinAnalytics</tab>
-    <tab>Custom_Object__c</tab>
+    <tab>standard-Forecasting3</tab>
+    <tab>XYZ_Custom__c</tab>
+    <tab>Association__c</tab>
+    <tab>Change_Set__c</tab>
+    <tab>SFGA__Ad_Group__c</tab>
+    <tab>SFGA__Search_Phrase__c</tab>
+    <tab>SFGA__Google_Campaign__c</tab>
+    <tab>SFGA__Version_33_0_3__c</tab>
+    <tab>SFGA__Keyword__c</tab>
+    <tab>Many_to_Many__c</tab>
+    <tab>Opportunity_Contact_Role__c</tab>
+    <tab>ISC_Planning__c</tab>
+    <tab>Street__c</tab>
+    <tab>SFGA__Text_Ad__c</tab>
+    <tab>standard-Quote</tab>
     <uiType>Lightning</uiType>
 </CustomApplication>

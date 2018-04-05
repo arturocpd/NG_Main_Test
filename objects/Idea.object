@@ -51,6 +51,12 @@
         <description>Record Type used to associate ideas with a specific community</description>
         <label>Internal Ideas: Idea Record Type</label>
     </recordTypes>
+    <recordTypes>
+        <fullName>Record_type_for_community_09aD0000000DLzdIAG_entity_Idea</fullName>
+        <active>true</active>
+        <description>Record type used to associate Idea with a specific community</description>
+        <label>Test comunity: Idea Record Type</label>
+    </recordTypes>
     <searchLayouts>
         <customTabListAdditionalFields>IDEA.TITLE</customTabListAdditionalFields>
         <customTabListAdditionalFields>IDEA.BODY</customTabListAdditionalFields>

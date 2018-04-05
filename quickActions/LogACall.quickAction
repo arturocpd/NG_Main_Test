@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QuickAction xmlns="http://soap.sforce.com/2006/04/metadata">
-    <optionsCreateFeedItem>true</optionsCreateFeedItem>
+    <optionsCreateFeedItem>false</optionsCreateFeedItem>
     <quickActionLayout>
         <layoutSectionStyle>TwoColumnsLeftToRight</layoutSectionStyle>
         <quickActionLayoutColumns>
@@ -29,6 +29,7 @@
         </quickActionLayoutColumns>
     </quickActionLayout>
     <standardLabel>LogACall</standardLabel>
+    <successMessage>\u00E9 \u00E8 \u00F9 \u00F4</successMessage>
     <targetObject>Task</targetObject>
     <type>LogACall</type>
 </QuickAction>

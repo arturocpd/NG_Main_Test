@@ -64,6 +64,11 @@
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
+        <fullName>QuoteLineItemId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
         <fullName>ServiceDate</fullName>
         <trackHistory>false</trackHistory>
     </fields>
@@ -74,4 +79,11 @@
         <fullName>UnitPrice</fullName>
         <trackHistory>false</trackHistory>
     </fields>
+    <validationRules>
+        <fullName>Validation</fullName>
+        <active>true</active>
+        <errorConditionFormula>Quantity  &gt; 10</errorConditionFormula>
+        <errorDisplayField>Quantity</errorDisplayField>
+        <errorMessage>Quantity must be less than 10</errorMessage>
+    </validationRules>
 </CustomObject>

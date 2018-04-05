@@ -82,6 +82,10 @@
         <trackHistory>true</trackHistory>
     </fields>
     <fields>
+        <fullName>CurrencyIsoCode</fullName>
+        <trackHistory>true</trackHistory>
+    </fields>
+    <fields>
         <fullName>CustomerSignedDate</fullName>
         <trackHistory>true</trackHistory>
     </fields>
@@ -105,6 +109,18 @@
     <fields>
         <fullName>Name</fullName>
         <trackHistory>true</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Opportunity__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Opportunity</label>
+        <referenceTo>Opportunity</referenceTo>
+        <relationshipLabel>Contracts</relationshipLabel>
+        <relationshipName>Contracts</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
     </fields>
     <fields>
         <fullName>OwnerExpirationNotice</fullName>
@@ -137,6 +153,14 @@
         <trackHistory>true</trackHistory>
         <type>Picklist</type>
     </fields>
+    <fields>
+        <fullName>fin_contrato__c</fullName>
+        <externalId>false</externalId>
+        <label>fin contrato</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
     <listViews>
         <fullName>AllActivatedContracts</fullName>
         <filterScope>Everything</filterScope>
@@ -149,8 +173,15 @@
     </listViews>
     <listViews>
         <fullName>AllContracts</fullName>
+        <columns>OWNER_EXPIRATION_NOTICE</columns>
+        <columns>CONTRACT.STATUS_CODE</columns>
+        <columns>CONTRACT.START_DATE</columns>
+        <columns>CONTRACT.END_DATE</columns>
+        <columns>CONTRACT.CONTRACT_NUMBER</columns>
+        <columns>SALES.ACCOUNT.NAME</columns>
         <filterScope>Everything</filterScope>
         <label>All Contracts</label>
+        <language>en_US</language>
     </listViews>
     <listViews>
         <fullName>AllDraftContracts</fullName>
@@ -202,11 +233,6 @@
         </filters>
         <label>My In Approval Contracts</label>
     </listViews>
-    <recordTypes>
-        <fullName>RecordType1</fullName>
-        <active>true</active>
-        <label>RecordType1</label>
-    </recordTypes>
     <searchLayouts>
         <customTabListAdditionalFields>CONTRACT.CONTRACT_NUMBER</customTabListAdditionalFields>
         <customTabListAdditionalFields>CONTRACT.NAME</customTabListAdditionalFields>
@@ -226,5 +252,5 @@
         <searchResultsAdditionalFields>CONTRACT.END_DATE</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>CONTRACT_TERM</searchResultsAdditionalFields>
     </searchLayouts>
-    <sharingModel>ReadWrite</sharingModel>
+    <sharingModel>Read</sharingModel>
 </CustomObject>

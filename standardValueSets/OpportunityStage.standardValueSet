@@ -6,8 +6,8 @@
         <default>false</default>
         <label>Prospecting</label>
         <closed>false</closed>
-        <forecastCategory>Pipeline</forecastCategory>
-        <probability>10</probability>
+        <forecastCategory>Omitted</forecastCategory>
+        <probability>15</probability>
         <won>false</won>
     </standardValue>
     <standardValue>
@@ -15,7 +15,7 @@
         <default>false</default>
         <label>Qualification</label>
         <closed>false</closed>
-        <forecastCategory>Pipeline</forecastCategory>
+        <forecastCategory>Omitted</forecastCategory>
         <probability>10</probability>
         <won>false</won>
     </standardValue>
@@ -24,7 +24,7 @@
         <default>false</default>
         <label>Needs Analysis</label>
         <closed>false</closed>
-        <forecastCategory>Pipeline</forecastCategory>
+        <forecastCategory>Forecast</forecastCategory>
         <probability>20</probability>
         <won>false</won>
     </standardValue>
@@ -35,15 +35,6 @@
         <closed>false</closed>
         <forecastCategory>Pipeline</forecastCategory>
         <probability>50</probability>
-        <won>false</won>
-    </standardValue>
-    <standardValue>
-        <fullName>Id. Decision Makers</fullName>
-        <default>false</default>
-        <label>Id. Decision Makers</label>
-        <closed>false</closed>
-        <forecastCategory>Pipeline</forecastCategory>
-        <probability>60</probability>
         <won>false</won>
     </standardValue>
     <standardValue>
@@ -60,7 +51,7 @@
         <default>false</default>
         <label>Proposal/Price Quote</label>
         <closed>false</closed>
-        <forecastCategory>Pipeline</forecastCategory>
+        <forecastCategory>Forecast</forecastCategory>
         <probability>75</probability>
         <won>false</won>
     </standardValue>
@@ -89,6 +80,78 @@
         <closed>true</closed>
         <forecastCategory>Omitted</forecastCategory>
         <probability>0</probability>
+        <won>false</won>
+    </standardValue>
+    <standardValue>
+        <fullName>Open</fullName>
+        <default>false</default>
+        <label>Open</label>
+        <closed>false</closed>
+        <forecastCategory>Pipeline</forecastCategory>
+        <probability>10</probability>
+        <won>false</won>
+    </standardValue>
+    <standardValue>
+        <fullName>Contract Signed</fullName>
+        <default>false</default>
+        <label>Contract Signed</label>
+        <closed>false</closed>
+        <forecastCategory>Pipeline</forecastCategory>
+        <probability>10</probability>
+        <won>false</won>
+    </standardValue>
+    <standardValue>
+        <fullName>Provisioing Completed</fullName>
+        <default>false</default>
+        <label>Provisioing Completed</label>
+        <closed>true</closed>
+        <forecastCategory>Closed</forecastCategory>
+        <probability>2</probability>
+        <won>true</won>
+    </standardValue>
+    <standardValue>
+        <fullName>Other other</fullName>
+        <default>false</default>
+        <label>Other other</label>
+        <closed>false</closed>
+        <forecastCategory>Pipeline</forecastCategory>
+        <probability>50</probability>
+        <won>false</won>
+    </standardValue>
+    <standardValue>
+        <fullName>1 Stage</fullName>
+        <default>false</default>
+        <label>1 Stage</label>
+        <closed>false</closed>
+        <forecastCategory>Pipeline</forecastCategory>
+        <probability>10</probability>
+        <won>false</won>
+    </standardValue>
+    <standardValue>
+        <fullName>2 Stage</fullName>
+        <default>false</default>
+        <label>2 Stage</label>
+        <closed>false</closed>
+        <forecastCategory>Pipeline</forecastCategory>
+        <probability>20</probability>
+        <won>false</won>
+    </standardValue>
+    <standardValue>
+        <fullName>3 Stage</fullName>
+        <default>false</default>
+        <label>3 Stage</label>
+        <closed>false</closed>
+        <forecastCategory>Pipeline</forecastCategory>
+        <probability>30</probability>
+        <won>false</won>
+    </standardValue>
+    <standardValue>
+        <fullName>4 Stage</fullName>
+        <default>false</default>
+        <label>4 Stage</label>
+        <closed>false</closed>
+        <forecastCategory>Pipeline</forecastCategory>
+        <probability>40</probability>
         <won>false</won>
     </standardValue>
 </StandardValueSet>

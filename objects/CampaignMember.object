@@ -94,6 +94,33 @@
         <type>Picklist</type>
     </fields>
     <fields>
+        <fullName>Mandatory_picklist__c</fullName>
+        <externalId>false</externalId>
+        <label>Mandatory picklist</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>1</fullName>
+                    <default>false</default>
+                    <label>1</label>
+                </value>
+                <value>
+                    <fullName>2</fullName>
+                    <default>false</default>
+                    <label>2</label>
+                </value>
+                <value>
+                    <fullName>3</fullName>
+                    <default>false</default>
+                    <label>3</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>MobilePhone</fullName>
     </fields>
     <fields>
@@ -101,6 +128,24 @@
     </fields>
     <fields>
         <fullName>PostalCode</fullName>
+    </fields>
+    <fields>
+        <fullName>Required_text_2__c</fullName>
+        <externalId>false</externalId>
+        <label>Required text 2</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Required_text__c</fullName>
+        <externalId>false</externalId>
+        <label>Required text</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
     </fields>
     <fields>
         <fullName>Salutation</fullName>
@@ -119,4 +164,24 @@
     <fields>
         <fullName>Title</fullName>
     </fields>
+    <recordTypes>
+        <fullName>RT_campaing_member</fullName>
+        <active>true</active>
+        <label>RT campaing member</label>
+        <picklistValues>
+            <picklist>Mandatory_picklist__c</picklist>
+            <values>
+                <fullName>1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
 </CustomObject>
