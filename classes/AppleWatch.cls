@@ -11,7 +11,7 @@ Public Class AppleWatch{
         /*test case*/
         
         /*
-        ngarturodev1cpd@gmail.com
+        {!Environment.UsernameXXX}
         */
         
         /*
