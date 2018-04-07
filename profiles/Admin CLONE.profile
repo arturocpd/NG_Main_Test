@@ -2984,7 +2984,7 @@
         <recordType>Account.Record_Type1</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Account-Account %28Support%29 Layout</layout>
+        <layout>Account-Account %28Marketing%29 Layout</layout>
         <recordType>Account.Record_Type2</recordType>
     </layoutAssignments>
     <layoutAssignments>
