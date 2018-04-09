@@ -2,7 +2,7 @@
 <CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
     <defaultLandingTab>standard-home</defaultLandingTab>
     <formFactors>Large</formFactors>
-    <tab>standard-AppLauncher</tab>
-    <tab>Dinner__c</tab>
-    <tab>CSTM_Object__c</tab>
+    <tabs>standard-AppLauncher</tabs>
+    <tabs>Dinner__c</tabs>
+    <tabs>CSTM_Object__c</tabs>
 </CustomApplication>

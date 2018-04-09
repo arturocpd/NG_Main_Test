@@ -9,7 +9,7 @@
         <translation><!-- Phone --></translation>
     </valueTranslation>
     <valueTranslation>
-        <masterLabel>Web</masterLabel>
-        <translation><!-- Web --></translation>
+        <masterLabel>WebPage2</masterLabel>
+        <translation><!-- WebPage2 --></translation>
     </valueTranslation>
 </StandardValueSetTranslation>

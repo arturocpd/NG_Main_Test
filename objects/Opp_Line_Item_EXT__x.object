@@ -32,6 +32,7 @@
         <actionName>View</actionName>
         <type>Default</type>
     </actionOverrides>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
     <description>DescriptionYYYYXXXXXZZZZZZ</description>
     <enableFeeds>false</enableFeeds>
