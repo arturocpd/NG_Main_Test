@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Dinner__c.Queue_for_approval_Dinner</members>
-        <name>ListView</name>
+        <members>Delete me</members>
+        <name>Profile</name>
     </types>
-    <types>
-        <members>Queue_for_approval</members>
-        <name>Queue</name>
-    </types>
-    <version>41.0</version>
+    <version>42.0</version>
 </Package>
