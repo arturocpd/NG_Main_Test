@@ -12,7 +12,7 @@
         <label>Email</label>
     </standardValue>
     <standardValue>
-        <fullName>WebPage</fullName>
+        <fullName>WebPage2</fullName>
         <default>false</default>
         <label>WebPage</label>
     </standardValue>
