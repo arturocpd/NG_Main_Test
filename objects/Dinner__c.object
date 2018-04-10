@@ -36,11 +36,11 @@
         <actionName>Tab</actionName>
         <type>Default</type>
     </actionOverrides>
-    <allowInChatterGroups>false</allowInChatterGroups>
     <actionOverrides>
         <actionName>View</actionName>
         <type>Default</type>
     </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>Cool_Dinner</compactLayoutAssignment>
     <compactLayouts>
         <fullName>Cool_Dinner</fullName>
