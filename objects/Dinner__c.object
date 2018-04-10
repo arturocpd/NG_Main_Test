@@ -62,7 +62,7 @@
     <fields>
         <fullName>LateDinner__c</fullName>
         <defaultValue>false</defaultValue>
-        <description>Description</description>
+        <description>Description New</description>
         <externalId>false</externalId>
         <label>LateDinner</label>
         <trackHistory>true</trackHistory>

@@ -118,7 +118,7 @@
         <defaultValue>false</defaultValue>
         <externalId>false</externalId>
         <label>BP Test</label>
-        <trackFeedHistory>false</trackFeedHistory>
+        <trackFeedHistory>true</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
@@ -365,7 +365,7 @@
                     <label>March</label>
                 </value>
                 <value>
-                    <fullName>April</fullName>
+                    <fullName>AprilMOD</fullName>
                     <default>false</default>
                     <label>April</label>
                 </value>
@@ -4924,7 +4924,7 @@
         <picklistValues>
             <picklist>Case_WWW__c</picklist>
             <values>
-                <fullName>April</fullName>
+                <fullName>AprilMOD</fullName>
                 <default>false</default>
             </values>
             <values>
