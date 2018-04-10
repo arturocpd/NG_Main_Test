@@ -12,7 +12,7 @@ Public Class AppleWatch{
         /*test case*/
         
         /*
-       New Test 3 jci 
+       New Test 4 jci 
         */
         
         
