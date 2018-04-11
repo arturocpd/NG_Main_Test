@@ -2613,6 +2613,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>User.ExternalId__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>WorkOrder.AccountId</field>
         <readable>true</readable>
     </fieldPermissions>

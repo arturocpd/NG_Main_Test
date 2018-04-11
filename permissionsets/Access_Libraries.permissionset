@@ -2407,6 +2407,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>User.ExternalId__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>WorkOrder.AccountId</field>
         <readable>false</readable>
     </fieldPermissions>
