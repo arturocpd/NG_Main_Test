@@ -11,7 +11,7 @@ Public Class AppleWatch{
         /*test case*/
         
         /*
-        {!Environment.UsernameXXX}
+        {!Environment.VAR_Username}
         */
         
         /*
