@@ -66,6 +66,12 @@
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <compactLayouts>
+        <fullName>Compact_Test</fullName>
+        <fields>Name</fields>
+        <fields>OwnerId</fields>
+        <label>Compact Test</label>
+    </compactLayouts>
+    <compactLayouts>
         <fullName>Custom_Acc_Compact_Layout</fullName>
         <fields>Name</fields>
         <fields>Industry</fields>
@@ -458,7 +464,7 @@
     <recordTypes>
         <fullName>Record_Type1</fullName>
         <active>true</active>
-        <compactLayoutAssignment>Custom_Acc_Compact_Layout</compactLayoutAssignment>
+        <compactLayoutAssignment>Compact_Test</compactLayoutAssignment>
         <label>Record Type1</label>
         <picklistValues>
             <picklist>AccountSource</picklist>

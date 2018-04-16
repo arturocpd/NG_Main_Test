@@ -4,31 +4,7 @@
         <field>Dinner__c$CreatedBy</field>
     </columns>
     <columns>
-        <field>Dinner__c$CreatedDate</field>
-    </columns>
-    <columns>
         <field>Dinner__c$Id</field>
-    </columns>
-    <columns>
-        <field>Dinner__c$Name</field>
-    </columns>
-    <columns>
-        <field>Dinner__c$LastModifiedBy</field>
-    </columns>
-    <columns>
-        <field>Dinner__c$LastModifiedDate</field>
-    </columns>
-    <columns>
-        <field>Dinner__c$LateDinner__c</field>
-    </columns>
-    <columns>
-        <field>Dinner__c$Owner</field>
-    </columns>
-    <columns>
-        <field>Dinner__c$Point_of_contact__c</field>
-    </columns>
-    <columns>
-        <field>Dinner__c$RecordType</field>
     </columns>
     <format>Summary</format>
     <groupingsDown>
