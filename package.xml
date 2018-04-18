@@ -7,6 +7,11 @@
         <name>CustomField</name>
     </types>
     <types>
+        <members>Case</members>
+        <members>Contact</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
         <members>Admin CLONE</members>
         <name>Profile</name>
     </types>
