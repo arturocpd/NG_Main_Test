@@ -1127,6 +1127,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Case.test_Schedule_deployment__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Case.test_deploy__c</field>
         <readable>false</readable>
     </fieldPermissions>

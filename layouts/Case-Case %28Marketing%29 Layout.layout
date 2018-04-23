@@ -287,6 +287,10 @@
                 <behavior>Edit</behavior>
                 <field>Nitro__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>test_Schedule_deployment__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>

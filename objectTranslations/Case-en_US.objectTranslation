@@ -3261,6 +3261,10 @@
         <name>rich__c</name>
     </fields>
     <fields>
+        <label><!-- test Schedule deployment --></label>
+        <name>test_Schedule_deployment__c</name>
+    </fields>
+    <fields>
         <label><!-- test deploy --></label>
         <name>test_deploy__c</name>
     </fields>
