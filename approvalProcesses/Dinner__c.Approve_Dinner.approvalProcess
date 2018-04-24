@@ -19,6 +19,14 @@
             <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
         </assignedApprover>
         <description>Main step</description>
+        <entryCriteria>
+            <criteriaItems>
+                <field>User.Profile</field>
+                <operation>equals</operation>
+                <value>Marketing User</value>
+            </criteriaItems>
+        </entryCriteria>
+        <ifCriteriaNotMet>ApproveRecord</ifCriteriaNotMet>
         <label>Step 1</label>
         <name>Step_1</name>
     </approvalStep>

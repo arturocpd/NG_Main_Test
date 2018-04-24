@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ActivitiesSettings xmlns="http://soap.sforce.com/2006/04/metadata">
     <allowUsersToRelateMultipleContactsToTasksAndEvents>false</allowUsersToRelateMultipleContactsToTasksAndEvents>
+    <autoRelateEventAttendees>false</autoRelateEventAttendees>
     <enableActivityReminders>true</enableActivityReminders>
     <enableClickCreateEvents>false</enableClickCreateEvents>
     <enableDragAndDropScheduling>true</enableDragAndDropScheduling>
@@ -18,5 +19,4 @@
     <showEventDetailsMultiUserCalendar>false</showEventDetailsMultiUserCalendar>
     <showHomePageHoverLinksForEvents>true</showHomePageHoverLinksForEvents>
     <showMyTasksHoverLinks>true</showMyTasksHoverLinks>
-    <showRequestedMeetingsOnHomePage>true</showRequestedMeetingsOnHomePage>
 </ActivitiesSettings>

@@ -78,12 +78,12 @@
         <type>Lookup</type>
     </fields>
     <gender>Feminine</gender>
-    <label>OrderLineItems</label>
+    <label>OrderLineItemsESP</label>
     <nameField>
         <label>OrderLineItems Name</label>
         <type>Text</type>
     </nameField>
-    <pluralLabel>OrderLineItems</pluralLabel>
+    <pluralLabel>OrderLineItemsESP</pluralLabel>
     <recordTypes>
         <fullName>RecordType1</fullName>
         <active>true</active>

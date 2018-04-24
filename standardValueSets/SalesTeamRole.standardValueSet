@@ -36,9 +36,4 @@
         <default>false</default>
         <label>Sales Rep</label>
     </standardValue>
-    <standardValue>
-        <fullName>New Role</fullName>
-        <default>false</default>
-        <label>New Role</label>
-    </standardValue>
 </StandardValueSet>

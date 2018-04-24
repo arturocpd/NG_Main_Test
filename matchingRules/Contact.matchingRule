@@ -30,4 +30,14 @@
         </matchingRuleItems>
         <ruleStatus>Inactive</ruleStatus>
     </matchingRules>
+    <matchingRules>
+        <fullName>MatchingRuleA</fullName>
+        <label>MatchingRuleA</label>
+        <matchingRuleItems>
+            <blankValueBehavior>NullNotAllowed</blankValueBehavior>
+            <fieldName>LastName</fieldName>
+            <matchingMethod>Exact</matchingMethod>
+        </matchingRuleItems>
+        <ruleStatus>Inactive</ruleStatus>
+    </matchingRules>
 </MatchingRules>

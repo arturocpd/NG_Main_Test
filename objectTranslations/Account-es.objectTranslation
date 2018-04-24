@@ -9,86 +9,6 @@
         <value>Cuentas</value>
     </caseValues>
     <fields>
-        <label>Activo</label>
-        <name>Active__c</name>
-        <picklistValues>
-            <masterLabel>No</masterLabel>
-            <translation></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>Yes</masterLabel>
-            <translation></translation>
-        </picklistValues>
-    </fields>
-    <fields>
-        <label></label>
-        <name>CustomerPriority__c</name>
-        <picklistValues>
-            <masterLabel>High</masterLabel>
-            <translation></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>Low</masterLabel>
-            <translation></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>Medium</masterLabel>
-            <translation></translation>
-        </picklistValues>
-    </fields>
-    <fields>
-        <label></label>
-        <name>External_Id__c</name>
-    </fields>
-    <fields>
-        <label></label>
-        <name>NumberofLocations__c</name>
-    </fields>
-    <fields>
-        <label></label>
-        <name>SLAExpirationDate__c</name>
-    </fields>
-    <fields>
-        <label></label>
-        <name>SLASerialNumber__c</name>
-    </fields>
-    <fields>
-        <label></label>
-        <name>SLA__c</name>
-        <picklistValues>
-            <masterLabel>Bronze</masterLabel>
-            <translation></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>Gold</masterLabel>
-            <translation></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>Platinum</masterLabel>
-            <translation></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>Silver</masterLabel>
-            <translation></translation>
-        </picklistValues>
-    </fields>
-    <fields>
-        <label></label>
-        <name>UpsellOpportunity__c</name>
-        <picklistValues>
-            <masterLabel>Maybe</masterLabel>
-            <translation></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>No</masterLabel>
-            <translation></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>Yes</masterLabel>
-            <translation></translation>
-        </picklistValues>
-    </fields>
-    <fields>
         <caseValues>
             <plural>false</plural>
             <value>Acceso a cuentamesMOD</value>
@@ -529,28 +449,144 @@
         <name>person_account_record</name>
     </fields>
     <fields>
-        <label></label>
+        <label><!-- Account Number --></label>
+        <name>Account_Number__c</name>
+    </fields>
+    <fields>
+        <label>Activo</label>
+        <name>Active__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Customer Priority --></label>
+        <name>CustomerPriority__c</name>
+        <picklistValues>
+            <masterLabel>High</masterLabel>
+            <translation><!-- High --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low</masterLabel>
+            <translation><!-- Low --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medium</masterLabel>
+            <translation><!-- Medium --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Email --></label>
+        <name>Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Id --></label>
+        <name>External_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Field 1 --></label>
+        <name>Field_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Field 2 --></label>
+        <name>Field_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Field 3 --></label>
+        <name>Field_3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Locations --></label>
+        <name>NumberofLocations__c</name>
+    </fields>
+    <fields>
+        <label><!-- SLA Expiration Date --></label>
+        <name>SLAExpirationDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- SLA Serial Number --></label>
+        <name>SLASerialNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- SLA --></label>
+        <name>SLA__c</name>
+        <picklistValues>
+            <masterLabel>Bronze</masterLabel>
+            <translation><!-- Bronze --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gold</masterLabel>
+            <translation><!-- Gold --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Iron</masterLabel>
+            <translation><!-- Iron --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Platinum</masterLabel>
+            <translation><!-- Platinum --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Silver</masterLabel>
+            <translation><!-- Silver --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wood</masterLabel>
+            <translation><!-- Wood --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Upsell Opportunity --></label>
+        <name>UpsellOpportunity__c</name>
+        <picklistValues>
+            <masterLabel>Maybe</masterLabel>
+            <translation><!-- Maybe --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- xyz Account Number --></label>
         <name>xyz_Account_Number__c</name>
     </fields>
     <gender>Feminine</gender>
     <recordTypes>
-        <label></label>
+        <label>Tipo de registro</label>
         <name>Record_Type1</name>
     </recordTypes>
     <recordTypes>
-        <label></label>
+        <label><!-- Record Type2 --></label>
         <name>Record_Type2</name>
     </recordTypes>
     <validationRules>
-        <errorMessage></errorMessage>
+        <errorMessage><!-- This error will be never displayed. --></errorMessage>
         <name>New_Validation_Acc</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- This is always false --></errorMessage>
+        <name>Prevent_Edit_to_Relationship_Fields</name>
     </validationRules>
     <validationRules>
         <errorMessage>Debes introducir un nombre para la cuentaaa</errorMessage>
         <name>Validation</name>
     </validationRules>
     <webLinks>
-        <label></label>
+        <label><!-- Billing --></label>
         <name>Billing</name>
     </webLinks>
 </CustomObjectTranslation>

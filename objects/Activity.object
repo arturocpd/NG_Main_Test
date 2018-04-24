@@ -72,10 +72,24 @@
         </valueSet>
     </fields>
     <fields>
+        <fullName>Activity_Custom_field_2__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Activity Custom field 2</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>Activity_Custom_field_5__c</fullName>
         <defaultValue>false</defaultValue>
         <externalId>false</externalId>
         <label>Activity Custom field 5</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Activity_Custom_field__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Activity Custom field</label>
         <type>Checkbox</type>
     </fields>
     <fields>
@@ -163,6 +177,13 @@
             <restricted>true</restricted>
             <valueSetName>Time</valueSetName>
         </valueSet>
+    </fields>
+    <fields>
+        <fullName>add_metadata_2__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>add metadata 2</label>
+        <type>Checkbox</type>
     </fields>
     <listViews>
         <fullName>AllActivities</fullName>
