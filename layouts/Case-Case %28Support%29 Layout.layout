@@ -81,19 +81,19 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>Find_and_Replace__c</field>
+                <field>Login_IP_restrictions__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>Report_test_Field__c</field>
+                <field>Case_TTT__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>New_report_test_field__c</field>
+                <field>Case_OOO__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>Version_8_1__c</field>
+                <field>Case_prod_field__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>

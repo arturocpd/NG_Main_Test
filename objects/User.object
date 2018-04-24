@@ -65,6 +65,16 @@
         <type>Hierarchy</type>
     </fields>
     <fields>
+        <fullName>Migration_Id__c</fullName>
+        <externalId>true</externalId>
+        <label>Migration Id</label>
+        <length>40</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>copado__API_URL__c</fullName>
         <deprecated>false</deprecated>
         <externalId>false</externalId>

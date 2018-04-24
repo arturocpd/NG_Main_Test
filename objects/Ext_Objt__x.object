@@ -32,12 +32,38 @@
         <actionName>View</actionName>
         <type>Default</type>
     </actionOverrides>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
     <enableFeeds>false</enableFeeds>
-    <enableReports>false</enableReports>
-    <enableSearch>false</enableSearch>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
     <externalDataSource>EXT_Data_Source</externalDataSource>
     <externalName>Table</externalName>
+    <fieldSets>
+        <fullName>field_set</fullName>
+        <availableFields>
+            <field>Id</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>ext_field__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <description>here</description>
+        <label>field set</label>
+    </fieldSets>
+    <fields>
+        <fullName>ext_field__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <isFilteringDisabled>false</isFilteringDisabled>
+        <isNameField>false</isNameField>
+        <isSortingDisabled>false</isSortingDisabled>
+        <label>ext field</label>
+        <type>Checkbox</type>
+    </fields>
     <gender>Feminine</gender>
     <label>Ext Objt</label>
     <pluralLabel>Ext Objts</pluralLabel>
