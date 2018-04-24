@@ -3,7 +3,7 @@ Public Class NewAppleWatch{
     for (Opportunity opp : lopt) {
         Task t        = new Task();
         t.Subject     = 'Apple Watch Promo';
-        t.Description = 'Send them one ASAP';
+        t.Description = 'Send them one as soon as possible';
         t.Priority    = 'High';
         t.WhatId      = opp.Id;
         insert t;
