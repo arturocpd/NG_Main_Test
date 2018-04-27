@@ -3255,6 +3255,9 @@
         <layout>WorkOrderLineItem-Work Order Line Item Layout</layout>
         <recordType>WorkOrderLineItem.WOLI_RT</recordType>
     </layoutAssignments>
+    <layoutAssignments>
+        <layout>test_test__c-test%2Etest Layout</layout>
+    </layoutAssignments>
     <objectPermissions>
         <allowCreate>false</allowCreate>
         <allowDelete>false</allowDelete>
