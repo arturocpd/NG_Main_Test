@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Account</members>
-        <members>Dinner__c</members>
-        <name>CustomObject</name>
+        <members>ACCOUNT_SUMMARY</members>
+        <name>CustomLabel</name>
     </types>
     <types>
-        <members>RO Clone Profile</members>
-        <name>Profile</name>
+        <members>es</members>
+        <name>Translations</name>
     </types>
     <version>42.0</version>
 </Package>
