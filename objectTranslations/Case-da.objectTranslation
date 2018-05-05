@@ -45,6 +45,14 @@
         </picklistValues>
     </fields>
     <fields>
+        <label><!-- CI test 1 --></label>
+        <name>CI_test_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- CI test 2 --></label>
+        <name>CI_test_2__c</name>
+    </fields>
+    <fields>
         <label><!-- CaseTime --></label>
         <name>CaseTime__c</name>
     </fields>
