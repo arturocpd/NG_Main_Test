@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata"
+      xmlns:n1="http://www.w3.org/2001/XMLSchema-instance">
     <actionOverrides>
         <actionName>Accept</actionName>
         <type>Default</type>
@@ -174,6 +175,16 @@
                 </value>
             </valueSetDefinition>
         </valueSet>
+    </fields>
+    <fields>
+        <fullName>CI_test_2__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>CI test 2</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
     </fields>
     <fields>
         <fullName>CaseTime__c</fullName>
@@ -5711,27 +5722,7 @@
             </values>
         </picklistValues>
     </recordTypes>
-    <searchLayouts>
-        <customTabListAdditionalFields>CASES.CASE_NUMBER</customTabListAdditionalFields>
-        <customTabListAdditionalFields>CASES.SUBJECT</customTabListAdditionalFields>
-        <customTabListAdditionalFields>CASES.CREATED_DATE</customTabListAdditionalFields>
-        <customTabListAdditionalFields>CASES.PRIORITY</customTabListAdditionalFields>
-        <lookupDialogsAdditionalFields>CASES.CASE_NUMBER</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>CASES.SUBJECT</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>NAME</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>ACCOUNT.NAME</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>CASES.STATUS</lookupDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>CASES.CASE_NUMBER</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>CASES.SUBJECT</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>NAME</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>ACCOUNT.NAME</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>CASES.STATUS</lookupPhoneDialogsAdditionalFields>
-        <searchResultsAdditionalFields>CASES.CASE_NUMBER</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>CASES.SUBJECT</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>CASES.STATUS</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>CASES.CREATED_DATE</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
-    </searchLayouts>
+    <searchLayouts n1:nil="true" />
     <sharingModel>ReadWriteTransfer</sharingModel>
     <webLinks>
         <fullName>UpsellCrosssellOpportunity</fullName>
