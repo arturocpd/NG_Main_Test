@@ -53,6 +53,10 @@
         <name>CI_test_2__c</name>
     </fields>
     <fields>
+        <label><!-- CI test 3 --></label>
+        <name>CI_test_3__c</name>
+    </fields>
+    <fields>
         <label><!-- CaseTime --></label>
         <name>CaseTime__c</name>
     </fields>
@@ -3247,6 +3251,10 @@
     <fields>
         <label><!-- commit file field --></label>
         <name>commit_file_field__c</name>
+    </fields>
+    <fields>
+        <label><!-- commit files fix --></label>
+        <name>commit_files_fix__c</name>
     </fields>
     <fields>
         <label><!-- convert --></label>

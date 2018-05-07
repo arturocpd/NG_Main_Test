@@ -727,6 +727,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Case.CI_test_3__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Case.CaseTime__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -1118,6 +1123,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Case.commit_file_field__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Case.commit_files_fix__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
