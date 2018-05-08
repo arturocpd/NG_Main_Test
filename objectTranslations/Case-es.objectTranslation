@@ -1153,6 +1153,10 @@
         </picklistValues>
     </fields>
     <fields>
+        <label><!-- Search --></label>
+        <name>Search__c</name>
+    </fields>
+    <fields>
         <label><!-- Standard Checkbox --></label>
         <name>Standard_Checkbox__c</name>
     </fields>

@@ -321,6 +321,12 @@
         </criteriaItems>
         <triggerType>onCreateOnly</triggerType>
     </rules>
+    <rules>
+        <fullName>WF Rule Deployment Test</fullName>
+        <active>true</active>
+        <formula>ISPICKVAL(Origin , &quot;Email&quot;)</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
     <tasks>
         <fullName>leaseplan_task</fullName>
         <assignedTo>ngarturodev1cpd@gmail.com</assignedTo>
