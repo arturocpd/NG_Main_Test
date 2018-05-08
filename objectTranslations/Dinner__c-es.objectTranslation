@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Dinner</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Dinners</value>
+    </caseValues>
+    <fields>
+        <label><!-- LateDinner --></label>
+        <name>LateDinner__c</name>
+    </fields>
+    <fields>
+        <label><!-- Point of contact --></label>
+        <name>Point_of_contact__c</name>
+        <relationshipLabel>Cenas</relationshipLabel>
+    </fields>
+    <gender>Feminine</gender>
+    <recordTypes>
+        <label><!-- Dinner RT --></label>
+        <name>Dinner_RT</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Dinner RT 2 --></label>
+        <name>Dinner_RT_2</name>
+    </recordTypes>
+</CustomObjectTranslation>
