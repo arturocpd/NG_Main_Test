@@ -4,9 +4,5 @@
         <members>Account.Field_3__c</members>
         <name>CustomField</name>
     </types>
-    <types>
-        <members>Case</members>
-        <name>CustomObject</name>
-    </types>
     <version>42.0</version>
 </Package>
