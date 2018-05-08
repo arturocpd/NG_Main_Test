@@ -8,7 +8,8 @@ Public Class AppleWatch{
         t.WhatId      = opp.Id;
         insert t;
        /*
-       <versionNumber>10.20</versionNumber>
+            TEST CI fix 3
+
        */
     }
 
