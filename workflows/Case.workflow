@@ -177,4 +177,10 @@
         </criteriaItems>
         <triggerType>onCreateOrTriggeringUpdate</triggerType>
     </rules>
+    <rules>
+        <fullName>WF Rule Deployment Test</fullName>
+        <active>true</active>
+        <formula>ISCHANGED( Priority )</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
 </Workflow>
