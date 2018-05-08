@@ -301,7 +301,7 @@
     <rules>
         <fullName>WF Rule Deployment Test</fullName>
         <active>true</active>
-        <formula>ISCHANGED( Priority )</formula>
-        <triggerType>onAllChanges</triggerType>
+        <formula>ISPICKVAL(Origin , &quot;Email&quot;)</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
     </rules>
 </Workflow>
