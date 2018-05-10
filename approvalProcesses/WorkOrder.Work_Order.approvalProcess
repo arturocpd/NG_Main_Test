@@ -14,8 +14,8 @@
         <allowDelegate>false</allowDelegate>
         <assignedApprover>
             <approver>
-                <name>NA_Research</name>
-                <type>queue</type>
+                <name>{!Environment.VAR_Username}</name>
+                <type>user</type>
             </approver>
             <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
         </assignedApprover>
