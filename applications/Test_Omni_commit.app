@@ -174,9 +174,9 @@
             <objectName>Case</objectName>
         </pushNotifications>
         <whitelistedDomains>domain1</whitelistedDomains>
-        <whitelistedDomains> domain2</whitelistedDomains>
-        <whitelistedDomains> domain3</whitelistedDomains>
-        <whitelistedDomains> domain4</whitelistedDomains>
+        <whitelistedDomains>domain2</whitelistedDomains>
+        <whitelistedDomains>domain3</whitelistedDomains>
+        <whitelistedDomains>domain4</whitelistedDomains>
     </consoleConfig>
     <defaultLandingTab>standard-home</defaultLandingTab>
     <isServiceCloudConsole>true</isServiceCloudConsole>
