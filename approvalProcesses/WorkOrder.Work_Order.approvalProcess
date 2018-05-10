@@ -14,8 +14,8 @@
         <allowDelegate>false</allowDelegate>
         <assignedApprover>
             <approver>
-                <name>NA_Research</name>
-                <type>queue</type>
+                <name>ngarturodev1cpd@gmail.com</name>
+                <type>user</type>
             </approver>
             <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
         </assignedApprover>

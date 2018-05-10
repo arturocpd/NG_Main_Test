@@ -173,7 +173,10 @@
             <fieldNames>BusinessHours</fieldNames>
             <objectName>Case</objectName>
         </pushNotifications>
-        <whitelistedDomains>yourdomai</whitelistedDomains>
+        <whitelistedDomains>domain1</whitelistedDomains>
+        <whitelistedDomains>domain2</whitelistedDomains>
+        <whitelistedDomains>domain3</whitelistedDomains>
+        <whitelistedDomains>domain4</whitelistedDomains>
     </consoleConfig>
     <defaultLandingTab>standard-home</defaultLandingTab>
     <isServiceCloudConsole>true</isServiceCloudConsole>
