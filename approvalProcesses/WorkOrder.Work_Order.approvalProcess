@@ -13,10 +13,7 @@
     <approvalStep>
         <allowDelegate>false</allowDelegate>
         <assignedApprover>
-            <approver>
-                <name>{!Environment.VAR_Username}</name>
-                <type>user</type>
-            </approver>
+            ngarturouatcpd@gmail.com
             <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
         </assignedApprover>
         <label>Step 1</label>

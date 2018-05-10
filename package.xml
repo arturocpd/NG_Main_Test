@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Test_Omni_commit</members>
-        <name>CustomApplication</name>
+        <members>WorkOrder.Work_Order</members>
+        <name>ApprovalProcess</name>
     </types>
     <version>42.0</version>
 </Package>
