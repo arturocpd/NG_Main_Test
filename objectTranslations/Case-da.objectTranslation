@@ -3288,6 +3288,10 @@
         <label><!-- Record Type --></label>
         <name>Record_Type</name>
     </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Never triggered --></errorMessage>
+        <name>VR_test_commit</name>
+    </validationRules>
     <webLinks>
         <label><!-- UpsellCrosssellOpportunity --></label>
         <name>UpsellCrosssellOpportunity</name>
