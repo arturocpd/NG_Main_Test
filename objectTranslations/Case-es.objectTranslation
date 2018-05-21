@@ -3277,6 +3277,10 @@
         <name>delete_test__c</name>
     </fields>
     <fields>
+        <label><!-- destructive --></label>
+        <name>destructive__c</name>
+    </fields>
+    <fields>
         <label><!-- formula check --></label>
         <name>formula_check__c</name>
     </fields>
@@ -3292,10 +3296,6 @@
         <label><!-- test deploy --></label>
         <name>test_deploy__c</name>
     </fields>
-    <recordTypes>
-        <label><!-- Record Type --></label>
-        <name>Record_Type</name>
-    </recordTypes>
     <validationRules>
         <errorMessage><!-- Never triggered --></errorMessage>
         <name>VR_test_commit</name>

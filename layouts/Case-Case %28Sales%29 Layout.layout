@@ -307,6 +307,10 @@
                 <behavior>Edit</behavior>
                 <field>Search__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>destructive__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
