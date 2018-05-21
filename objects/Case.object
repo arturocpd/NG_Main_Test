@@ -87,6 +87,16 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>Add_metadata_field__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Add metadata field</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>Admin_Checkbox__c</fullName>
         <defaultValue>false</defaultValue>
         <externalId>false</externalId>
@@ -173,6 +183,12 @@
                     <default>false</default>
                     <label>GGG</label>
                 </value>
+                <value>
+                    <fullName>EEE</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>EEE</label>
+                </value>
             </valueSetDefinition>
         </valueSet>
     </fields>
@@ -231,6 +247,16 @@
         <type>Checkbox</type>
     </fields>
     <fields>
+        <fullName>Case_BBB__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Case BBB</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>Case_BMW__c</fullName>
         <defaultValue>false</defaultValue>
         <externalId>false</externalId>
@@ -255,6 +281,16 @@
         <defaultValue>false</defaultValue>
         <externalId>false</externalId>
         <label>Case JJJ</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Case_LLL__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Case LLL</label>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
@@ -311,16 +347,6 @@
         <type>Checkbox</type>
     </fields>
     <fields>
-        <fullName>Case_RRR__c</fullName>
-        <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
-        <label>Case_RRR</label>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Checkbox</type>
-    </fields>
-    <fields>
         <fullName>Case_TTT__c</fullName>
         <defaultValue>false</defaultValue>
         <externalId>false</externalId>
@@ -369,7 +395,7 @@
                     <label>March</label>
                 </value>
                 <value>
-                    <fullName>April</fullName>
+                    <fullName>AprilMOD</fullName>
                     <default>false</default>
                     <label>April</label>
                 </value>
@@ -988,6 +1014,7 @@
             </valueSetDefinition>
             <valueSettings>
                 <controllingFieldValue>Controlling 1</controllingFieldValue>
+                <controllingFieldValue>Controlling 3</controllingFieldValue>
                 <valueName>Dependent 1</valueName>
             </valueSettings>
             <valueSettings>
@@ -1119,6 +1146,10 @@
         <type>Checkbox</type>
     </fields>
     <fields>
+        <fullName>MilestoneStatus</fullName>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
         <fullName>New_report_test_field__c</fullName>
         <defaultValue>false</defaultValue>
         <externalId>false</externalId>
@@ -1158,6 +1189,16 @@
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Pckage_field__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Pckage field</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
     </fields>
     <fields>
         <fullName>Porche__c</fullName>
@@ -1926,6 +1967,13 @@
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>SourceId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
     </fields>
     <fields>
         <fullName>Standard_Checkbox__c</fullName>
@@ -4499,6 +4547,48 @@
         <trackTrending>false</trackTrending>
     </fields>
     <fields>
+        <fullName>Support_Analysis__c</fullName>
+        <externalId>false</externalId>
+        <label>Support Analysis</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Copado Knowledge</fullName>
+                    <default>false</default>
+                    <label>Copado Knowledge</label>
+                </value>
+                <value>
+                    <fullName>Salesforce Knowledge</fullName>
+                    <default>false</default>
+                    <label>Salesforce Knowledge</label>
+                </value>
+                <value>
+                    <fullName>Metadata API Knowledge</fullName>
+                    <default>false</default>
+                    <label>Metadata API Knowledge</label>
+                </value>
+                <value>
+                    <fullName>Git Knowledge</fullName>
+                    <default>false</default>
+                    <label>Git Knowledge</label>
+                </value>
+                <value>
+                    <fullName>N/A</fullName>
+                    <default>false</default>
+                    <label>N/A</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
         <fullName>Test_Diageo__c</fullName>
         <externalId>false</externalId>
         <label>Test Diageo</label>
@@ -4653,6 +4743,16 @@
         <type>Checkbox</type>
     </fields>
     <fields>
+        <fullName>case_RRR__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Case_RRR</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>commit_file_field__c</fullName>
         <defaultValue>false</defaultValue>
         <externalId>false</externalId>
@@ -4673,6 +4773,18 @@
         <type>Checkbox</type>
     </fields>
     <fields>
+        <fullName>convert__c</fullName>
+        <externalId>false</externalId>
+        <label>convert</label>
+        <length>14</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>delete_test__c</fullName>
         <defaultValue>false</defaultValue>
         <externalId>false</externalId>
@@ -4691,6 +4803,17 @@
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>rich__c</fullName>
+        <externalId>false</externalId>
+        <label>rich</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
     </fields>
     <fields>
         <fullName>test_Schedule_deployment__c</fullName>
