@@ -256,6 +256,10 @@
                 <behavior>Edit</behavior>
                 <field>commit_files_fix__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>destructive__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
