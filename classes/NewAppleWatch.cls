@@ -1,4 +1,4 @@
-Public Class AppleWatch{
+Public Class NewAppleWatch{
  Public Static void AppleWatchmethod(list<Opportunity> lopt ){
     for (Opportunity opp : lopt) {
         Task t        = new Task();
@@ -7,11 +7,7 @@ Public Class AppleWatch{
         t.Priority    = 'High';
         t.WhatId      = opp.Id;
         insert t;
-     /*this change is made on master*/
-     /*change on dev1*/
-       
+  
     }
-
- 
  }
 }
