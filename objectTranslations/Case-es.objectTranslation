@@ -3213,6 +3213,10 @@
         <name>Unique_Code__c</name>
     </fields>
     <fields>
+        <label><!-- Update deployment flow --></label>
+        <name>Update_deployment_flow__c</name>
+    </fields>
+    <fields>
         <label><!-- V9 test flow --></label>
         <name>V9_test_flow__c</name>
     </fields>
@@ -3251,6 +3255,10 @@
             <masterLabel>Tuesday</masterLabel>
             <translation><!-- Tuesday --></translation>
         </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- bug test --></label>
+        <name>bug_test__c</name>
     </fields>
     <fields>
         <label><!-- Case KKK --></label>
