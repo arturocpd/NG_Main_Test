@@ -4763,6 +4763,16 @@
         </valueSet>
     </fields>
     <fields>
+        <fullName>bug_test__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>bug test</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>case_KKK__c</fullName>
         <defaultValue>false</defaultValue>
         <externalId>false</externalId>
