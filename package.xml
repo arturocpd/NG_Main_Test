@@ -5,8 +5,8 @@
         <name>ApexClass</name>
     </types>
     <types>
-        <members>Case-Delete Layout</members>
-        <name>Layout</name>
+        <members>Case.Update_deployment_flow__c</members>
+        <name>CustomField</name>
     </types>
     <version>42.0</version>
 </Package>
