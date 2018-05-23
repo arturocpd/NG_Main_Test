@@ -5,7 +5,7 @@
         <name>ApexClass</name>
     </types>
     <types>
-        <members>Case.Update_deployment_flow__c</members>
+        <members>Case.bug_test__c</members>
         <name>CustomField</name>
     </types>
     <version>42.0</version>
