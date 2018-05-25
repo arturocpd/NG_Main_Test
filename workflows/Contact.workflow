@@ -40,4 +40,21 @@
         <senderType>CurrentUser</senderType>
         <template>unfiled$public/MarketingProductInquiryResponse</template>
     </alerts>
+    <fieldUpdates>
+        <fullName>Update_contact</fullName>
+        <field>Email</field>
+        <name>Update contact</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Null</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <rules>
+        <fullName>Test WF rule</fullName>
+        <active>true</active>
+        <criteriaItems>
+            <field>Contact.AssistantName</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
 </Workflow>
