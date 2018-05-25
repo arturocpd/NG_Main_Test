@@ -1,0 +1,1087 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Admin Checkbox --></label>
+        <name>Admin_Checkbox__c</name>
+    </fields>
+    <fields>
+        <label><!-- CI Picklist Test --></label>
+        <name>CI_Picklist_Test__c</name>
+        <picklistValues>
+            <masterLabel>AAA</masterLabel>
+            <translation><!-- AAA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BBB</masterLabel>
+            <translation><!-- BBB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CCC</masterLabel>
+            <translation><!-- CCC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DDD</masterLabel>
+            <translation><!-- DDD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EEE</masterLabel>
+            <translation><!-- EEE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FFF</masterLabel>
+            <translation><!-- FFF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GGG</masterLabel>
+            <translation><!-- GGG --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- CaseTime --></label>
+        <name>CaseTime__c</name>
+    </fields>
+    <fields>
+        <label>AAA translated</label>
+        <name>Case_AAA__c</name>
+    </fields>
+    <fields>
+        <label>BBB Translated</label>
+        <name>Case_BBB__c</name>
+    </fields>
+    <fields>
+        <label><!-- Case BMW --></label>
+        <name>Case_BMW__c</name>
+    </fields>
+    <fields>
+        <label>OOO Translated</label>
+        <name>Case_OOO_del__c</name>
+    </fields>
+    <fields>
+        <label><!-- Case TTT --></label>
+        <name>Case_TTT__c</name>
+    </fields>
+    <fields>
+        <label><!-- Case YYY --></label>
+        <name>Case_YYY__c</name>
+    </fields>
+    <fields>
+        <label><!-- Case prod field --></label>
+        <name>Case_prod_field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Custom Key --></label>
+        <name>Custom_Key__c</name>
+    </fields>
+    <fields>
+        <label><!-- Engineering Req Number --></label>
+        <name>EngineeringReqNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Find and Replace --></label>
+        <name>Find_and_Replace__c</name>
+    </fields>
+    <fields>
+        <label><!-- KeepMe --></label>
+        <name>KeepMe__c</name>
+    </fields>
+    <fields>
+        <label><!-- Login IP restrictions --></label>
+        <name>Login_IP_restrictions__c</name>
+    </fields>
+    <fields>
+        <label><!-- Metadata Delete --></label>
+        <name>Metadata_Delete__c</name>
+    </fields>
+    <fields>
+        <label><!-- New report test field --></label>
+        <name>New_report_test_field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pckage field --></label>
+        <name>Pckage_field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Potential Liability --></label>
+        <name>PotentialLiability__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Primary Category --></label>
+        <name>Primary_Category__c</name>
+        <picklistValues>
+            <masterLabel>3PI</masterLabel>
+            <translation><!-- 3PI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AR Updates</masterLabel>
+            <translation><!-- AR Updates --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Accessibility</masterLabel>
+            <translation><!-- Accessibility --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Accommodation</masterLabel>
+            <translation><!-- Accommodation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Account Set-up</masterLabel>
+            <translation><!-- Account Set-up --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Add Access</masterLabel>
+            <translation><!-- Add Access --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Add Contact</masterLabel>
+            <translation><!-- Add Contact --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Admin Tools Issue</masterLabel>
+            <translation><!-- Admin Tools Issue --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Alert</masterLabel>
+            <translation><!-- Alert --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Amentities Incorrect</masterLabel>
+            <translation><!-- Amentities Incorrect --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Atlantis</masterLabel>
+            <translation><!-- Atlantis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Auto Renewals</masterLabel>
+            <translation><!-- Auto Renewals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Availability Incorrect</masterLabel>
+            <translation><!-- Availability Incorrect --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Balcony</masterLabel>
+            <translation><!-- Balcony --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bar</masterLabel>
+            <translation><!-- Bar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Beach</masterLabel>
+            <translation><!-- Beach --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Beach Safety</masterLabel>
+            <translation><!-- Beach Safety --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Breakfast</masterLabel>
+            <translation><!-- Breakfast --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Business</masterLabel>
+            <translation><!-- Business --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Business Model Change</masterLabel>
+            <translation><!-- Business Model Change --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancellation Policy</masterLabel>
+            <translation><!-- Cancellation Policy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Case Escalation Request</masterLabel>
+            <translation><!-- Case Escalation Request --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Child</masterLabel>
+            <translation><!-- Child --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Compensation Change</masterLabel>
+            <translation><!-- Compensation Change --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Confirmation</masterLabel>
+            <translation><!-- Confirmation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Connectivity Partner Outage</masterLabel>
+            <translation><!-- Connectivity Partner Outage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Connectivity Solution Change</masterLabel>
+            <translation><!-- Connectivity Solution Change --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cruise</masterLabel>
+            <translation><!-- Cruise --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer</masterLabel>
+            <translation><!-- Customer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Delete Contact</masterLabel>
+            <translation><!-- Delete Contact --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Disconnection</masterLabel>
+            <translation><!-- Disconnection --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Documentation Update</masterLabel>
+            <translation><!-- Documentation Update --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EPC Issue</masterLabel>
+            <translation><!-- EPC Issue --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EPC: Accounting</masterLabel>
+            <translation><!-- EPC: Accounting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EPC: Contact Info update</masterLabel>
+            <translation><!-- EPC: Contact Info update --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EPC: Create Account</masterLabel>
+            <translation><!-- EPC: Create Account --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EPC: Deactivate Account</masterLabel>
+            <translation><!-- EPC: Deactivate Account --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EPC: Guest Reviews Real Time Feedback</masterLabel>
+            <translation><!-- EPC: Guest Reviews Real Time Feedback --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EPC: Help</masterLabel>
+            <translation><!-- EPC: Help --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EPC: Inventory &amp; Rate Plans</masterLabel>
+            <translation><!-- EPC: Inventory &amp; Rate Plans --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EPC: Landing page</masterLabel>
+            <translation><!-- EPC: Landing page --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EPC: Marketplace</masterLabel>
+            <translation><!-- EPC: Marketplace --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EPC: Modify Account</masterLabel>
+            <translation><!-- EPC: Modify Account --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EPC: Notification Settings</masterLabel>
+            <translation><!-- EPC: Notification Settings --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EPC: Onboarding</masterLabel>
+            <translation><!-- EPC: Onboarding --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EPC: Password Self Reset</masterLabel>
+            <translation><!-- EPC: Password Self Reset --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EPC: Promotions (DRRs)</masterLabel>
+            <translation><!-- EPC: Promotions (DRRs) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EPC: Property Info</masterLabel>
+            <translation><!-- EPC: Property Info --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EPC: Reservations</masterLabel>
+            <translation><!-- EPC: Reservations --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EPCO Issue</masterLabel>
+            <translation><!-- EPCO Issue --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EQC API Issue</masterLabel>
+            <translation><!-- EQC API Issue --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EQC Connectivity Rollout</masterLabel>
+            <translation><!-- EQC Connectivity Rollout --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EQC Vendor Management</masterLabel>
+            <translation><!-- EQC Vendor Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EQC Vendor Onboarding</masterLabel>
+            <translation><!-- EQC Vendor Onboarding --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Electrical</masterLabel>
+            <translation><!-- Electrical --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Excursions</masterLabel>
+            <translation><!-- Excursions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expedia Tool Outage</masterLabel>
+            <translation><!-- Expedia Tool Outage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Explosion</masterLabel>
+            <translation><!-- Explosion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Extranet Settings</masterLabel>
+            <translation><!-- Extranet Settings --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fire</masterLabel>
+            <translation><!-- Fire --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Food</masterLabel>
+            <translation><!-- Food --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Force Majeure</masterLabel>
+            <translation><!-- Force Majeure --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GDS</masterLabel>
+            <translation><!-- GDS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gas</masterLabel>
+            <translation><!-- Gas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Glass</masterLabel>
+            <translation><!-- Glass --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Golf</masterLabel>
+            <translation><!-- Golf --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Injury</masterLabel>
+            <translation><!-- Injury --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inquiry</masterLabel>
+            <translation><!-- Inquiry --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Internet</masterLabel>
+            <translation><!-- Internet --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LPAS</masterLabel>
+            <translation><!-- LPAS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lake</masterLabel>
+            <translation><!-- Lake --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lifts</masterLabel>
+            <translation><!-- Lifts --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maintenance</masterLabel>
+            <translation><!-- Maintenance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mapping</masterLabel>
+            <translation><!-- Mapping --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Modify Contact</masterLabel>
+            <translation><!-- Modify Contact --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mountain</masterLabel>
+            <translation><!-- Mountain --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Multiple</masterLabel>
+            <translation><!-- Multiple --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Connection</masterLabel>
+            <translation><!-- New Connection --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Notification Delivery Failure</masterLabel>
+            <translation><!-- Notification Delivery Failure --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Notification Delivery Failure (email/fax)</masterLabel>
+            <translation><!-- Notification Delivery Failure (email/fax) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Notification Issue</masterLabel>
+            <translation><!-- Notification Issue --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>POS Wide Issue</masterLabel>
+            <translation><!-- POS Wide Issue --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Parking</masterLabel>
+            <translation><!-- Parking --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Password reset</masterLabel>
+            <translation><!-- Password reset --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payouts Research</masterLabel>
+            <translation><!-- Payouts Research --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pest-Control</masterLabel>
+            <translation><!-- Pest-Control --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pets</masterLabel>
+            <translation><!-- Pets --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pool</masterLabel>
+            <translation><!-- Pool --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pool Safety</masterLabel>
+            <translation><!-- Pool Safety --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pricing model change</masterLabel>
+            <translation><!-- Pricing model change --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Property not displaying</masterLabel>
+            <translation><!-- Property not displaying --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Property sold out all dates</masterLabel>
+            <translation><!-- Property sold out all dates --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quality</masterLabel>
+            <translation><!-- Quality --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rate Acquisition Type Change</masterLabel>
+            <translation><!-- Rate Acquisition Type Change --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rate, Inventory, and Availability Issue</masterLabel>
+            <translation><!-- Rate, Inventory, and Availability Issue --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rates Incorrect</masterLabel>
+            <translation><!-- Rates Incorrect --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Re-Contracting</masterLabel>
+            <translation><!-- Re-Contracting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reconnect after chaser disconnect</masterLabel>
+            <translation><!-- Reconnect after chaser disconnect --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Remove Access</masterLabel>
+            <translation><!-- Remove Access --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Remove User</masterLabel>
+            <translation><!-- Remove User --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Report</masterLabel>
+            <translation><!-- Report --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Restaurant</masterLabel>
+            <translation><!-- Restaurant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Restrictions Incorrect</masterLabel>
+            <translation><!-- Restrictions Incorrect --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>River</masterLabel>
+            <translation><!-- River --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Security/Verification</masterLabel>
+            <translation><!-- Security/Verification --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ski</masterLabel>
+            <translation><!-- Ski --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spa</masterLabel>
+            <translation><!-- Spa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Special Project</masterLabel>
+            <translation><!-- Special Project --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Subscriptions</masterLabel>
+            <translation><!-- Subscriptions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Taxes &amp; Fees</masterLabel>
+            <translation><!-- Taxes &amp; Fees --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tech Bug Triage</masterLabel>
+            <translation><!-- Tech Bug Triage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tier escalation</masterLabel>
+            <translation><!-- Tier escalation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transport</masterLabel>
+            <translation><!-- Transport --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vendor Change</masterLabel>
+            <translation><!-- Vendor Change --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Product --></label>
+        <name>Product__c</name>
+        <picklistValues>
+            <masterLabel>GC1020</masterLabel>
+            <translation><!-- GC1020 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GC1040</masterLabel>
+            <translation><!-- GC1040 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GC1060</masterLabel>
+            <translation><!-- GC1060 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GC3020</masterLabel>
+            <translation><!-- GC3020 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GC3040</masterLabel>
+            <translation><!-- GC3040 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GC3060</masterLabel>
+            <translation><!-- GC3060 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GC5020</masterLabel>
+            <translation><!-- GC5020 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GC5040</masterLabel>
+            <translation><!-- GC5040 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GC5060</masterLabel>
+            <translation><!-- GC5060 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Pull request test --></label>
+        <name>Pull_request_test__c</name>
+    </fields>
+    <fields>
+        <label><!-- Report test Field --></label>
+        <name>Report_test_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- SLA Violation --></label>
+        <name>SLAViolation__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Standard Checkbox --></label>
+        <name>Standard_Checkbox__c</name>
+    </fields>
+    <fields>
+        <label>Test Translation</label>
+        <name>Test_Translation100__c</name>
+    </fields>
+    <fields>
+        <label>Test Translation</label>
+        <name>Test_Translation10__c</name>
+    </fields>
+    <fields>
+        <label>Test Translation</label>
+        <name>Test_Translation11__c</name>
+    </fields>
+    <fields>
+        <label>Test Translation</label>
+        <name>Test_Translation12__c</name>
+    </fields>
+    <fields>
+        <label>Test Translation</label>
+        <name>Test_Translation13__c</name>
+    </fields>
+    <fields>
+        <label>Test Translation</label>
+        <name>Test_Translation14__c</name>
+    </fields>
+    <fields>
+        <label>Test Translation</label>
+        <name>Test_Translation15__c</name>
+    </fields>
+    <fields>
+        <label>Test Translation</label>
+        <name>Test_Translation16__c</name>
+    </fields>
+    <fields>
+        <label>Test Translation</label>
+        <name>Test_Translation17__c</name>
+    </fields>
+    <fields>
+        <label>Test Translation</label>
+        <name>Test_Translation18__c</name>
+    </fields>
+    <fields>
+        <label>Test Translation</label>
+        <name>Test_Translation19__c</name>
+    </fields>
+    <fields>
+        <label>Test Translation</label>
+        <name>Test_Translation1__c</name>
+    </fields>
+    <fields>
+        <label>Test Translation</label>
+        <name>Test_Translation20__c</name>
+    </fields>
+    <fields>
+        <label>Test Translation</label>
+        <name>Test_Translation21__c</name>
+    </fields>
+    <fields>
+        <label>Test Translation</label>
+        <name>Test_Translation22__c</name>
+    </fields>
+    <fields>
+        <label>Test Translation</label>
+        <name>Test_Translation23__c</name>
+    </fields>
+    <fields>
+        <label>Test Translation</label>
+        <name>Test_Translation24__c</name>
+    </fields>
+    <fields>
+        <label>Test Translation</label>
+        <name>Test_Translation25__c</name>
+    </fields>
+    <fields>
+        <label>Test Translation</label>
+        <name>Test_Translation26__c</name>
+    </fields>
+    <fields>
+        <label>Test Translation</label>
+        <name>Test_Translation27__c</name>
+    </fields>
+    <fields>
+        <label>Test Translation</label>
+        <name>Test_Translation28__c</name>
+    </fields>
+    <fields>
+        <label>Test Translation</label>
+        <name>Test_Translation29__c</name>
+    </fields>
+    <fields>
+        <label>Test Translation</label>
+        <name>Test_Translation2__c</name>
+    </fields>
+    <fields>
+        <label>Test Translation</label>
+        <name>Test_Translation30__c</name>
+    </fields>
+    <fields>
+        <label>Test Translation</label>
+        <name>Test_Translation31__c</name>
+    </fields>
+    <fields>
+        <label>Test Translation</label>
+        <name>Test_Translation32__c</name>
+    </fields>
+    <fields>
+        <label>Test Translation</label>
+        <name>Test_Translation33__c</name>
+    </fields>
+    <fields>
+        <label>Test Translation</label>
+        <name>Test_Translation34__c</name>
+    </fields>
+    <fields>
+        <label>Test Translation</label>
+        <name>Test_Translation35__c</name>
+    </fields>
+    <fields>
+        <label>Test Translation</label>
+        <name>Test_Translation36__c</name>
+    </fields>
+    <fields>
+        <label>Test Translation</label>
+        <name>Test_Translation37__c</name>
+    </fields>
+    <fields>
+        <label>Test Translation</label>
+        <name>Test_Translation38__c</name>
+    </fields>
+    <fields>
+        <label>Test Translation</label>
+        <name>Test_Translation39__c</name>
+    </fields>
+    <fields>
+        <label>Test Translation</label>
+        <name>Test_Translation3__c</name>
+    </fields>
+    <fields>
+        <label>Test Translation</label>
+        <name>Test_Translation40__c</name>
+    </fields>
+    <fields>
+        <label>Test Translation</label>
+        <name>Test_Translation41__c</name>
+    </fields>
+    <fields>
+        <label>Test Translation</label>
+        <name>Test_Translation42__c</name>
+    </fields>
+    <fields>
+        <label>Test Translation</label>
+        <name>Test_Translation43__c</name>
+    </fields>
+    <fields>
+        <label>Test Translation</label>
+        <name>Test_Translation44__c</name>
+    </fields>
+    <fields>
+        <label>Test Translation</label>
+        <name>Test_Translation45__c</name>
+    </fields>
+    <fields>
+        <label>Test Translation</label>
+        <name>Test_Translation46__c</name>
+    </fields>
+    <fields>
+        <label>Test Translation</label>
+        <name>Test_Translation47__c</name>
+    </fields>
+    <fields>
+        <label>Test Translation</label>
+        <name>Test_Translation48__c</name>
+    </fields>
+    <fields>
+        <label>Test Translation</label>
+        <name>Test_Translation49__c</name>
+    </fields>
+    <fields>
+        <label>Test Translation</label>
+        <name>Test_Translation4__c</name>
+    </fields>
+    <fields>
+        <label>Test Translation</label>
+        <name>Test_Translation50__c</name>
+    </fields>
+    <fields>
+        <label>Test Translation</label>
+        <name>Test_Translation51__c</name>
+    </fields>
+    <fields>
+        <label>Test Translation</label>
+        <name>Test_Translation52__c</name>
+    </fields>
+    <fields>
+        <label>Test Translation</label>
+        <name>Test_Translation53__c</name>
+    </fields>
+    <fields>
+        <label>Test Translation</label>
+        <name>Test_Translation54__c</name>
+    </fields>
+    <fields>
+        <label>Test Translation</label>
+        <name>Test_Translation55__c</name>
+    </fields>
+    <fields>
+        <label>Test Translation</label>
+        <name>Test_Translation56__c</name>
+    </fields>
+    <fields>
+        <label>Test Translation</label>
+        <name>Test_Translation57__c</name>
+    </fields>
+    <fields>
+        <label>Test Translation</label>
+        <name>Test_Translation58__c</name>
+    </fields>
+    <fields>
+        <label>Test Translation</label>
+        <name>Test_Translation59__c</name>
+    </fields>
+    <fields>
+        <label>Test Translation</label>
+        <name>Test_Translation5__c</name>
+    </fields>
+    <fields>
+        <label>Test Translation</label>
+        <name>Test_Translation60__c</name>
+    </fields>
+    <fields>
+        <label>Test Translation</label>
+        <name>Test_Translation61__c</name>
+    </fields>
+    <fields>
+        <label>Test Translation</label>
+        <name>Test_Translation62__c</name>
+    </fields>
+    <fields>
+        <label>Test Translation</label>
+        <name>Test_Translation63__c</name>
+    </fields>
+    <fields>
+        <label>Test Translation</label>
+        <name>Test_Translation64__c</name>
+    </fields>
+    <fields>
+        <label>Test Translation</label>
+        <name>Test_Translation65__c</name>
+    </fields>
+    <fields>
+        <label>Test Translation</label>
+        <name>Test_Translation66__c</name>
+    </fields>
+    <fields>
+        <label>Test Translation</label>
+        <name>Test_Translation67__c</name>
+    </fields>
+    <fields>
+        <label>Test Translation</label>
+        <name>Test_Translation68__c</name>
+    </fields>
+    <fields>
+        <label>Test Translation</label>
+        <name>Test_Translation69__c</name>
+    </fields>
+    <fields>
+        <label>Test Translation</label>
+        <name>Test_Translation6__c</name>
+    </fields>
+    <fields>
+        <label>Test Translation</label>
+        <name>Test_Translation70__c</name>
+    </fields>
+    <fields>
+        <label>Test Translation</label>
+        <name>Test_Translation71__c</name>
+    </fields>
+    <fields>
+        <label>Test Translation</label>
+        <name>Test_Translation72__c</name>
+    </fields>
+    <fields>
+        <label>Test Translation</label>
+        <name>Test_Translation73__c</name>
+    </fields>
+    <fields>
+        <label>Test Translation</label>
+        <name>Test_Translation74__c</name>
+    </fields>
+    <fields>
+        <label>Test Translation</label>
+        <name>Test_Translation75__c</name>
+    </fields>
+    <fields>
+        <label>Test Translation</label>
+        <name>Test_Translation76__c</name>
+    </fields>
+    <fields>
+        <label>Test Translation</label>
+        <name>Test_Translation77__c</name>
+    </fields>
+    <fields>
+        <label>Test Translation</label>
+        <name>Test_Translation78__c</name>
+    </fields>
+    <fields>
+        <label>Test Translation</label>
+        <name>Test_Translation79__c</name>
+    </fields>
+    <fields>
+        <label>Test Translation</label>
+        <name>Test_Translation80__c</name>
+    </fields>
+    <fields>
+        <label>Test Translation</label>
+        <name>Test_Translation81__c</name>
+    </fields>
+    <fields>
+        <label>Test Translation</label>
+        <name>Test_Translation82__c</name>
+    </fields>
+    <fields>
+        <label>Test Translation</label>
+        <name>Test_Translation83__c</name>
+    </fields>
+    <fields>
+        <label>Test Translation</label>
+        <name>Test_Translation84__c</name>
+    </fields>
+    <fields>
+        <label>Test Translation</label>
+        <name>Test_Translation85__c</name>
+    </fields>
+    <fields>
+        <label>Test Translation</label>
+        <name>Test_Translation86__c</name>
+    </fields>
+    <fields>
+        <label>Test Translation</label>
+        <name>Test_Translation87__c</name>
+    </fields>
+    <fields>
+        <label>Test Translation</label>
+        <name>Test_Translation88__c</name>
+    </fields>
+    <fields>
+        <label>Test Translation</label>
+        <name>Test_Translation89__c</name>
+    </fields>
+    <fields>
+        <label>Test Translation</label>
+        <name>Test_Translation8__c</name>
+    </fields>
+    <fields>
+        <label>Test Translation</label>
+        <name>Test_Translation90__c</name>
+    </fields>
+    <fields>
+        <label>Test Translation</label>
+        <name>Test_Translation91__c</name>
+    </fields>
+    <fields>
+        <label>Test Translation</label>
+        <name>Test_Translation92__c</name>
+    </fields>
+    <fields>
+        <label>Test Translation</label>
+        <name>Test_Translation93__c</name>
+    </fields>
+    <fields>
+        <label>Test Translation</label>
+        <name>Test_Translation94__c</name>
+    </fields>
+    <fields>
+        <label>Test Translation</label>
+        <name>Test_Translation95__c</name>
+    </fields>
+    <fields>
+        <label>Test Translation</label>
+        <name>Test_Translation96__c</name>
+    </fields>
+    <fields>
+        <label>Test Translation</label>
+        <name>Test_Translation97__c</name>
+    </fields>
+    <fields>
+        <label>Test Translation</label>
+        <name>Test_Translation98__c</name>
+    </fields>
+    <fields>
+        <label>Test Translation</label>
+        <name>Test_Translation99__c</name>
+    </fields>
+    <fields>
+        <label><!-- Test Translation --></label>
+        <name>Test_Translation9__c</name>
+    </fields>
+    <fields>
+        <label>German Test Translation</label>
+        <name>Test_Translation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Version 8.1 --></label>
+        <name>Version_8_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Week --></label>
+        <name>Week__c</name>
+        <picklistValues>
+            <masterLabel>Friday</masterLabel>
+            <translation><!-- Friday --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jueves</masterLabel>
+            <translation><!-- Jueves --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Monday</masterLabel>
+            <translation><!-- Monday --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Saturday</masterLabel>
+            <translation><!-- Saturday --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sunday</masterLabel>
+            <translation><!-- Sunday --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tuesday</masterLabel>
+            <translation><!-- Tuesday --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- bug test --></label>
+        <name>bug_test__c</name>
+    </fields>
+    <fields>
+        <label><!-- delete test --></label>
+        <name>delete_test__c</name>
+    </fields>
+    <webLinks>
+        <label><!-- UpsellCrosssellOpportunity --></label>
+        <name>UpsellCrosssellOpportunity</name>
+    </webLinks>
+</CustomObjectTranslation>
