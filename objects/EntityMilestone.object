@@ -1,5 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <enableFeeds>false</enableFeeds>
     <fields>
         <fullName>BusinessHoursId</fullName>
         <type>Lookup</type>
@@ -23,6 +45,11 @@
     </fields>
     <fields>
         <fullName>IsViolated</fullName>
+    </fields>
+    <fields>
+        <fullName>MilestoneId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
     </fields>
     <fields>
         <fullName>ParentEntityId</fullName>
@@ -69,4 +96,5 @@
     <fields>
         <fullName>TimeSinceTargetInMins</fullName>
     </fields>
+    <sharingModel>ReadWrite</sharingModel>
 </CustomObject>
