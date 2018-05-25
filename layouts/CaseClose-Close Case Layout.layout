@@ -88,10 +88,6 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>Case_BBB__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
                 <field>CaseTime__c</field>
             </layoutItems>
             <layoutItems>
@@ -197,6 +193,10 @@
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>Job_done__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>CI_test_4__c</field>
             </layoutItems>
         </layoutColumns>
         <style>OneColumn</style>

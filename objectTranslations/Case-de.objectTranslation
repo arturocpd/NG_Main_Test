@@ -45,6 +45,22 @@
         </picklistValues>
     </fields>
     <fields>
+        <label><!-- CI test 1 --></label>
+        <name>CI_test_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- CI test 2 --></label>
+        <name>CI_test_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- CI test 3 --></label>
+        <name>CI_test_3__c</name>
+    </fields>
+    <fields>
+        <label><!-- CI test 4 --></label>
+        <name>CI_test_4__c</name>
+    </fields>
+    <fields>
         <label><!-- CaseTime --></label>
         <name>CaseTime__c</name>
     </fields>
@@ -53,7 +69,7 @@
         <name>Case_AAA__c</name>
     </fields>
     <fields>
-        <label>BBB Translated</label>
+        <label><!-- Case BBB --></label>
         <name>Case_BBB__c</name>
     </fields>
     <fields>
@@ -67,6 +83,10 @@
     <fields>
         <label><!-- Case JJJ --></label>
         <name>Case_JJJ__c</name>
+    </fields>
+    <fields>
+        <label><!-- Case LLL --></label>
+        <name>Case_LLL__c</name>
     </fields>
     <fields>
         <label><!-- Case MMM --></label>
@@ -539,6 +559,10 @@
             <masterLabel>Dependent 3</masterLabel>
             <translation><!-- Dependent 3 --></translation>
         </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Duplicate test --></label>
+        <name>Duplicate_test__c</name>
     </fields>
     <fields>
         <label><!-- Engineering Req Number --></label>
@@ -1127,6 +1151,10 @@
             <masterLabel>Yes</masterLabel>
             <translation><!-- Yes --></translation>
         </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Search --></label>
+        <name>Search__c</name>
     </fields>
     <fields>
         <label><!-- Standard Checkbox --></label>
@@ -3135,6 +3163,26 @@
     <fields>
         <label><!-- Support Analysis --></label>
         <name>Support_Analysis__c</name>
+        <picklistValues>
+            <masterLabel>Copado Knowledge</masterLabel>
+            <translation><!-- Copado Knowledge --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Git Knowledge</masterLabel>
+            <translation><!-- Git Knowledge --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Metadata API Knowledge</masterLabel>
+            <translation><!-- Metadata API Knowledge --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Salesforce Knowledge</masterLabel>
+            <translation><!-- Salesforce Knowledge --></translation>
+        </picklistValues>
     </fields>
     <fields>
         <label><!-- Test Diageo --></label>
@@ -3158,14 +3206,6 @@
         <picklistValues>
             <masterLabel>5</masterLabel>
             <translation><!-- 5 --></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>6</masterLabel>
-            <translation><!-- 6 --></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>7</masterLabel>
-            <translation><!-- 7 --></translation>
         </picklistValues>
     </fields>
     <fields>
@@ -3573,6 +3613,10 @@
         <name>Unique_Code__c</name>
     </fields>
     <fields>
+        <label><!-- Update deployment flow --></label>
+        <name>Update_deployment_flow__c</name>
+    </fields>
+    <fields>
         <label><!-- V9 test flow --></label>
         <name>V9_test_flow__c</name>
     </fields>
@@ -3604,9 +3648,17 @@
             <translation><!-- Sunday --></translation>
         </picklistValues>
         <picklistValues>
+            <masterLabel>Thursday</masterLabel>
+            <translation><!-- Thursday --></translation>
+        </picklistValues>
+        <picklistValues>
             <masterLabel>Tuesday</masterLabel>
             <translation><!-- Tuesday --></translation>
         </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- bug test --></label>
+        <name>bug_test__c</name>
     </fields>
     <fields>
         <label><!-- Case KKK --></label>
@@ -3619,6 +3671,10 @@
     <fields>
         <label><!-- commit file field --></label>
         <name>commit_file_field__c</name>
+    </fields>
+    <fields>
+        <label><!-- commit files fix --></label>
+        <name>commit_files_fix__c</name>
     </fields>
     <fields>
         <label><!-- convert --></label>
@@ -3644,10 +3700,6 @@
         <label><!-- test deploy --></label>
         <name>test_deploy__c</name>
     </fields>
-    <recordTypes>
-        <label><!-- Record Type --></label>
-        <name>Record_Type</name>
-    </recordTypes>
     <webLinks>
         <label><!-- UpsellCrosssellOpportunity --></label>
         <name>UpsellCrosssellOpportunity</name>

@@ -1202,14 +1202,6 @@
         <label><!-- xyz Account Number --></label>
         <name>xyz_Account_Number__c</name>
     </fields>
-    <recordTypes>
-        <label><!-- Record Type1 --></label>
-        <name>Record_Type1</name>
-    </recordTypes>
-    <recordTypes>
-        <label><!-- Record Type2 --></label>
-        <name>Record_Type2</name>
-    </recordTypes>
     <validationRules>
         <errorMessage><!-- This error will be never displayed. --></errorMessage>
         <name>New_Validation_Acc</name>
