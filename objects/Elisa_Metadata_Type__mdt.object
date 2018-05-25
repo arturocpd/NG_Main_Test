@@ -43,7 +43,4 @@
         <type>Email</type>
         <unique>false</unique>
     </fields>
-    <label>Elisa Metadata Type</label>
-    <pluralLabel>Elisa Metadata Types</pluralLabel>
-    <visibility>Public</visibility>
 </CustomObject>
