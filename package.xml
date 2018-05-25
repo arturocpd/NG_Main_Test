@@ -1019,6 +1019,12 @@
     <name>QuickAction</name>
   </types>
   <types>
+    <members>FlexiAcc</members>
+    <members>LightningSalesConsole_UtilityBar</members>
+    <members>LightningService_UtilityBar</members>
+    <name>FlexiPage</name>
+  </types>
+  <types>
     <members>unfiled$public</members>
     <members>unfiled$public/Dinners_Report</members>
     <members>unfiled$public/IBM_Report_test</members>
@@ -1039,15 +1045,6 @@
     <members>Public_Folder/jxNVrCtMIAhzXLUmvBcdPDyBbScSFt</members>
     <members>Test_Deploy</members>
     <name>Dashboard</name>
-  </types>
-  <types>
-    <members>Public_Folder</members>
-    <members>Public_Folder/Picture.png</members>
-    <members>Public_Folder/bat.png</members>
-    <members>Public_Folder/jpg_image.jpg</members>
-    <members>Public_Folder/png_image.png</members>
-    <members>Public_Folder/test_image_for_dev03.png</members>
-    <name>Document</name>
   </types>
   <types>
     <members>Account.Billing</members>
@@ -1396,6 +1393,12 @@
     <name>CustomTab</name>
   </types>
   <types>
+    <members>Account</members>
+    <members>Contact</members>
+    <members>Lead</members>
+    <name>MatchingRules</name>
+  </types>
+  <types>
     <members>Access Libraries Read Only Clone</members>
     <members>Admin</members>
     <members>Admin CLONE</members>
@@ -1503,12 +1506,6 @@
     <name>FlowDefinition</name>
   </types>
   <types>
-    <members>FlexiAcc</members>
-    <members>LightningSalesConsole_UtilityBar</members>
-    <members>LightningService_UtilityBar</members>
-    <name>FlexiPage</name>
-  </types>
-  <types>
     <members>Case.Test_1</members>
     <members>Case.Test_2</members>
     <members>Case.Test_3</members>
@@ -1592,6 +1589,10 @@
     <members>CaseStatus-cs</members>
     <members>ForecastCategoryName-cs</members>
     <name>StandardValueSetTranslation</name>
+  </types>
+  <types>
+    <members>ApexDevNet</members>
+    <name>RemoteSiteSetting</name>
   </types>
   <types>
     <members>API_Libraries_2Factor</members>
@@ -1716,99 +1717,14 @@
     <name>CustomMetadata</name>
   </types>
   <types>
-    <members>Tabs</members>
-    <members>TestComm</members>
-    <name>ManagedTopics</name>
-  </types>
-  <types>
-    <members>Account</members>
-    <members>Contact</members>
-    <members>Lead</members>
-    <name>MatchingRules</name>
-  </types>
-  <types>
-    <members>Account.Rule1</members>
-    <members>Dinner__c.Dinner_Sharing_Rule_MOD_API</members>
-    <name>SharingOwnerRule</name>
-  </types>
-  <types>
-    <members>Account</members>
-    <members>Asset</members>
-    <members>AssetLineItem__c</members>
-    <members>CSTM_Object__c</members>
-    <members>Campaign</members>
-    <members>Car__c</members>
-    <members>Case</members>
-    <members>ChannelProgram</members>
-    <members>Contact</members>
-    <members>Custom_Objct__c</members>
-    <members>Dinner__c</members>
-    <members>LCRM_Account_Merge_UnMerge_Dup_Event__c</members>
-    <members>Lead</members>
-    <members>Opportunity</members>
-    <members>Order</members>
-    <members>OrderLineItems__c</members>
-    <members>Quote_Proposal__c</members>
-    <members>TestElisa__c</members>
-    <members>Test_Helm__c</members>
-    <members>User</members>
-    <members>WorkOrder</members>
-    <name>SharingRules</name>
-  </types>
-  <types>
-    <members>CSTM_Object__c.CSTM_JH_Dup_Rule</members>
-    <members>Contact.Regla_est_ndar_para_Contactos_con_Candidatos_duplicado</members>
-    <members>Lead.Regla_est_ndar_para_Candidatos_con_Contactos_duplicado</members>
-    <name>DuplicateRule</name>
-  </types>
-  <types>
-    <members>LeadConvertSettings</members>
-    <name>LeadConvertSettings</name>
-  </types>
-  <types>
-    <members>Tabs</members>
-    <members>TestComm</members>
-    <name>Network</name>
-  </types>
-  <types>
-    <members>Account</members>
-    <members>Activities</members>
-    <members>Address</members>
-    <members>BusinessHours</members>
-    <members>Case</members>
-    <members>Company</members>
-    <members>Contract</members>
-    <members>Entitlement</members>
-    <members>FieldService</members>
-    <members>FileUploadAndDownloadSecurity</members>
-    <members>Forecasting</members>
-    <members>Ideas</members>
-    <members>Knowledge</members>
-    <members>LiveAgent</members>
-    <members>Macro</members>
-    <members>Mobile</members>
-    <members>Name</members>
-    <members>OmniChannel</members>
-    <members>Opportunity</members>
-    <members>Order</members>
-    <members>OrgPreference</members>
-    <members>PathAssistant</members>
-    <members>PersonalJourney</members>
-    <members>Product</members>
-    <members>Quote</members>
-    <members>Search</members>
-    <members>Security</members>
-    <members>SocialCustomerService</members>
-    <name>Settings</name>
-  </types>
-  <types>
-    <members>DataCloudGeoLocation</members>
-    <name>CleanDataService</name>
-  </types>
-  <types>
     <members>AppSwitcher</members>
     <members>Salesforce1</members>
     <name>AppMenu</name>
+  </types>
+  <types>
+    <members>Tabs</members>
+    <members>TestComm</members>
+    <name>ManagedTopics</name>
   </types>
   <types>
     <members>Tabs1</members>
@@ -1854,6 +1770,35 @@
     <name>MilestoneType</name>
   </types>
   <types>
+    <members>Account.Rule1</members>
+    <members>Dinner__c.Dinner_Sharing_Rule_MOD_API</members>
+    <name>SharingOwnerRule</name>
+  </types>
+  <types>
+    <members>Account</members>
+    <members>Asset</members>
+    <members>AssetLineItem__c</members>
+    <members>CSTM_Object__c</members>
+    <members>Campaign</members>
+    <members>Car__c</members>
+    <members>Case</members>
+    <members>ChannelProgram</members>
+    <members>Contact</members>
+    <members>Custom_Objct__c</members>
+    <members>Dinner__c</members>
+    <members>LCRM_Account_Merge_UnMerge_Dup_Event__c</members>
+    <members>Lead</members>
+    <members>Opportunity</members>
+    <members>Order</members>
+    <members>OrderLineItems__c</members>
+    <members>Quote_Proposal__c</members>
+    <members>TestElisa__c</members>
+    <members>Test_Helm__c</members>
+    <members>User</members>
+    <members>WorkOrder</members>
+    <name>SharingRules</name>
+  </types>
+  <types>
     <members>entitlement no character</members>
     <members>test number 2</members>
     <name>EntitlementProcess</name>
@@ -1873,8 +1818,14 @@
     <name>NetworkBranding</name>
   </types>
   <types>
-    <members>ApexDevNet</members>
-    <name>RemoteSiteSetting</name>
+    <members>CSTM_Object__c.CSTM_JH_Dup_Rule</members>
+    <members>Contact.Regla_est_ndar_para_Contactos_con_Candidatos_duplicado</members>
+    <members>Lead.Regla_est_ndar_para_Candidatos_con_Contactos_duplicado</members>
+    <name>DuplicateRule</name>
+  </types>
+  <types>
+    <members>LeadConvertSettings</members>
+    <name>LeadConvertSettings</name>
   </types>
   <types>
     <members>Button_AAA</members>
@@ -1888,6 +1839,11 @@
     <members>TestComm.Members_without_contribution</members>
     <members>TestComm.Partner_and_Customer_members</members>
     <name>UserCriteria</name>
+  </types>
+  <types>
+    <members>Tabs</members>
+    <members>TestComm</members>
+    <name>Network</name>
   </types>
   <types>
     <members>AccountContactRole</members>
@@ -3225,6 +3181,37 @@
     <name>MatchingRule</name>
   </types>
   <types>
+    <members>Account</members>
+    <members>Activities</members>
+    <members>Address</members>
+    <members>BusinessHours</members>
+    <members>Case</members>
+    <members>Company</members>
+    <members>Contract</members>
+    <members>Entitlement</members>
+    <members>FieldService</members>
+    <members>FileUploadAndDownloadSecurity</members>
+    <members>Forecasting</members>
+    <members>Ideas</members>
+    <members>Knowledge</members>
+    <members>LiveAgent</members>
+    <members>Macro</members>
+    <members>Mobile</members>
+    <members>Name</members>
+    <members>OmniChannel</members>
+    <members>Opportunity</members>
+    <members>Order</members>
+    <members>OrgPreference</members>
+    <members>PathAssistant</members>
+    <members>PersonalJourney</members>
+    <members>Product</members>
+    <members>Quote</members>
+    <members>Search</members>
+    <members>Security</members>
+    <members>SocialCustomerService</members>
+    <name>Settings</name>
+  </types>
+  <types>
     <members>Tabs.Block_banned_keywords</members>
     <members>Tabs.Flag_banned</members>
     <members>Tabs.Freeze_for_frequent_posting</members>
@@ -3240,6 +3227,10 @@
   <types>
     <members>Internal Zone</members>
     <name>Community</name>
+  </types>
+  <types>
+    <members>DataCloudGeoLocation</members>
+    <name>CleanDataService</name>
   </types>
   <version>42.0</version>
 </Package>

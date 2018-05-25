@@ -4,6 +4,7 @@
         <componentList>
             <alignment>right</alignment>
             <components>Console.BuiltInComponent.mostRecentlyUsed</components>
+            <components>Console.BuiltInComponent.macroBrowser</components>
         </componentList>
         <detailPageRefreshMethod>none</detailPageRefreshMethod>
         <headerColor>#FFFFFF</headerColor>
