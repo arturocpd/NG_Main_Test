@@ -86,10 +86,10 @@
     <fields>
         <fullName>LateDinner__c</fullName>
         <defaultValue>false</defaultValue>
+        <description>Description New</description>
         <externalId>false</externalId>
         <label>LateDinner</label>
         <trackHistory>true</trackHistory>
-        <trackTrending>false</trackTrending>
         <type>Checkbox</type>
     </fields>
     <fields>
@@ -105,6 +105,14 @@
         <trackHistory>true</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Table__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Table</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
     </fields>
     <gender>Feminine</gender>
     <label>Dinner</label>
