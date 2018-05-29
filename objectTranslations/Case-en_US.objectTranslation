@@ -105,16 +105,8 @@
         <name>Case_LLL__c</name>
     </fields>
     <fields>
-        <label><!-- Case MMM --></label>
-        <name>Case_MMM__c</name>
-    </fields>
-    <fields>
         <label><!-- Case NNN --></label>
         <name>Case_NNN__c</name>
-    </fields>
-    <fields>
-        <label><!-- Case OOO --></label>
-        <name>Case_OOO__c</name>
     </fields>
     <fields>
         <label><!-- Case PPP --></label>
