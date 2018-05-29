@@ -39,6 +39,10 @@
         <name>Point_of_contact__c</name>
         <relationshipLabel><!-- Dinners --></relationshipLabel>
     </fields>
+    <fields>
+        <label><!-- Table --></label>
+        <name>Table__c</name>
+    </fields>
     <gender><!-- Neuter --></gender>
     <nameFieldLabel><!-- Dinner Name --></nameFieldLabel>
     <recordTypes>

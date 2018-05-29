@@ -17,6 +17,10 @@
         <name>Point_of_contact__c</name>
         <relationshipLabel>Cenas</relationshipLabel>
     </fields>
+    <fields>
+        <label><!-- Table --></label>
+        <name>Table__c</name>
+    </fields>
     <gender>Feminine</gender>
     <recordTypes>
         <label><!-- Dinner RT --></label>
