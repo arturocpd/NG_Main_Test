@@ -106,7 +106,6 @@
         <archiveAfterMonths>6</archiveAfterMonths>
         <archiveRetentionYears>5</archiveRetentionYears>
         <description>My field history retention</description>
-        <gracePeriodDays>10</gracePeriodDays>
     </historyRetentionPolicy>
     <label>Dinner</label>
     <nameField>
