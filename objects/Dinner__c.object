@@ -90,6 +90,14 @@
         <trackHistory>false</trackHistory>
         <type>Checkbox</type>
     </fields>
+    <fields>
+        <fullName>historyRetentionPolicy__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>historyRetentionPolicy</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
     <gender>Feminine</gender>
     <label>Dinner</label>
     <listViews>
