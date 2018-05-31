@@ -1,12 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>AppleWatch</members>
-        <name>ApexClass</name>
+        <members>Opportunity.MainCompetitors__c</members>
+        <members>Opportunity.Test_Commit_A__c</members>
+        <members>Opportunity.Test_Commit_B__c</members>
+        <members>Opportunity.Test_Commit_C__c</members>
+        <name>CustomField</name>
     </types>
     <types>
-        <members>Case.bug_test__c</members>
-        <name>CustomField</name>
+        <members>ADD_AUTHENTICATION</members>
+        <members>COMMITS_AHEAD</members>
+        <members>CREATE_DEPLOYMENT</members>
+        <members>DEPLOYMENT_NEW</members>
+        <name>CustomLabel</name>
+    </types>
+    <types>
+        <members>Account-es</members>
+        <members>Opportunity-es</members>
+        <name>CustomObjectTranslation</name>
+    </types>
+    <types>
+        <members>standard-Opportunity</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
+        <members>Opportunity-Admin Clone Layout</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>es</members>
+        <name>Translations</name>
     </types>
     <version>42.0</version>
 </Package>
