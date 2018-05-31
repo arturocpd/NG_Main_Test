@@ -21,6 +21,10 @@
         <label><!-- Table --></label>
         <name>Table__c</name>
     </fields>
+    <fields>
+        <label><!-- historyRetentionPolicy --></label>
+        <name>historyRetentionPolicy__c</name>
+    </fields>
     <gender>Feminine</gender>
     <recordTypes>
         <label><!-- Dinner RT --></label>

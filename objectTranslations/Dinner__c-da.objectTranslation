@@ -43,6 +43,10 @@
         <label><!-- Table --></label>
         <name>Table__c</name>
     </fields>
+    <fields>
+        <label><!-- historyRetentionPolicy --></label>
+        <name>historyRetentionPolicy__c</name>
+    </fields>
     <gender><!-- Neuter --></gender>
     <nameFieldLabel><!-- Dinner Name --></nameFieldLabel>
     <recordTypes>
