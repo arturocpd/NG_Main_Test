@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <caseValues>
-        <plural>true</plural>
-        <value>Cuentas</value>
-    </caseValues>
-    <caseValues>
         <plural>false</plural>
         <value>Cuentame</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Cuentas</value>
     </caseValues>
     <fields>
         <label>Activo</label>
@@ -543,6 +543,10 @@
     <validationRules>
         <errorMessage></errorMessage>
         <name>New_Validation_Acc</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Esto es siempre falso.</errorMessage>
+        <name>Prevent_Edit_to_Relationship_Fields</name>
     </validationRules>
     <validationRules>
         <errorMessage>Debes introducir un nombre para la cuentaaa</errorMessage>
