@@ -744,6 +744,11 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>Case.Case_BBB__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Case.Case_BMW__c</field>
         <readable>false</readable>
@@ -771,6 +776,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Case.Case_NNN__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Case.Case_OOO__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -3260,6 +3270,18 @@
         <tuesdayStart>0</tuesdayStart>
     </loginHours>
     <loginIpRanges>
+        <endAddress>2.137.120.33</endAddress>
+        <startAddress>2.137.120.33</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>2.137.120.35</endAddress>
+        <startAddress>2.137.120.35</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>2.137.120.44</endAddress>
+        <startAddress>2.137.120.44</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
         <endAddress>83.36.118.192</endAddress>
         <startAddress>83.36.118.192</startAddress>
     </loginIpRanges>
@@ -4383,10 +4405,6 @@
         <name>ManageInteraction</name>
     </userPermissions>
     <userPermissions>
-        <enabled>false</enabled>
-        <name>ManageInternalUsers</name>
-    </userPermissions>
-    <userPermissions>
         <enabled>true</enabled>
         <name>ManageIpAddresses</name>
     </userPermissions>
@@ -4469,10 +4487,6 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>ManageUnlistedGroups</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>ManageUsers</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
