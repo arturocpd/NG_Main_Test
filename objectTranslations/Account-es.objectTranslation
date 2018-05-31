@@ -545,7 +545,7 @@
         <name>New_Validation_Acc</name>
     </validationRules>
     <validationRules>
-        <errorMessage>Esto es siempre falso.</errorMessage>
+        <errorMessage>Otra modificacion mas.</errorMessage>
         <name>Prevent_Edit_to_Relationship_Fields</name>
     </validationRules>
     <validationRules>
