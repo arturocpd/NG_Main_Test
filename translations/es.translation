@@ -5,7 +5,7 @@
         <name>ACCOUNT_SUMMARY</name>
     </customLabels>
     <customLabels>
-        <label>Autenticacion</label>
+        <label>Autenticacion Modificadata en la segunda user story</label>
         <name>ADD_AUTHENTICATION</name>
     </customLabels>
     <customLabels>
@@ -13,7 +13,7 @@
         <name>COMMITS_AHEAD</name>
     </customLabels>
     <customLabels>
-        <label>crear deployment</label>
+        <label>modificado en el segundo deployment</label>
         <name>CREATE_DEPLOYMENT</name>
     </customLabels>
     <customLabels>
