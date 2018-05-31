@@ -4,4 +4,20 @@
         <label>Resumen de Cuenta MOD</label>
         <name>ACCOUNT_SUMMARY</name>
     </customLabels>
+    <customLabels>
+        <label>Autenticacion</label>
+        <name>ADD_AUTHENTICATION</name>
+    </customLabels>
+    <customLabels>
+        <label>Comit ahead</label>
+        <name>COMMITS_AHEAD</name>
+    </customLabels>
+    <customLabels>
+        <label>crear deployment</label>
+        <name>CREATE_DEPLOYMENT</name>
+    </customLabels>
+    <customLabels>
+        <label>Nuevo Deployment</label>
+        <name>DEPLOYMENT_NEW</name>
+    </customLabels>
 </Translations>
