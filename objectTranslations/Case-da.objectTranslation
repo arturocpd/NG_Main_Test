@@ -3285,6 +3285,10 @@
         <name>formula_check__c</name>
     </fields>
     <fields>
+        <label><!-- refactor --></label>
+        <name>refactor__c</name>
+    </fields>
+    <fields>
         <label><!-- rich --></label>
         <name>rich__c</name>
     </fields>
