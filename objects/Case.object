@@ -152,6 +152,12 @@
                     <default>false</default>
                     <label>GGG</label>
                 </value>
+                <value>
+                    <fullName>EEE</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>EEE</label>
+                </value>
             </valueSetDefinition>
         </valueSet>
     </fields>
@@ -278,7 +284,7 @@
                     <label>March</label>
                 </value>
                 <value>
-                    <fullName>April</fullName>
+                    <fullName>AprilMOD</fullName>
                     <default>false</default>
                     <label>April</label>
                 </value>
@@ -4503,20 +4509,24 @@
         <businessProcess>Support Process</businessProcess>
         <label>Record Type</label>
         <picklistValues>
-            <picklist>Priority</picklist>
+            <picklist>CI_Picklist_Test__c</picklist>
             <values>
-                <fullName>Medium</fullName>
-                <default>true</default>
+                <fullName>AAA</fullName>
+                <default>false</default>
             </values>
             <values>
-                <fullName>Low</fullName>
+                <fullName>BBB</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CCC</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
         <picklistValues>
             <picklist>Case_WWW__c</picklist>
             <values>
-                <fullName>January</fullName>
+                <fullName>AprilMOD</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -4524,7 +4534,18 @@
                 <default>false</default>
             </values>
             <values>
-                <fullName>April</fullName>
+                <fullName>January</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Priority</picklist>
+            <values>
+                <fullName>Medium</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Low</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
