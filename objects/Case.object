@@ -4522,6 +4522,10 @@
                 <fullName>CCC</fullName>
                 <default>false</default>
             </values>
+            <values>
+                <fullName>GGG</fullName>
+                <default>false</default>
+            </values>
         </picklistValues>
         <picklistValues>
             <picklist>Case_WWW__c</picklist>
