@@ -5861,6 +5861,7 @@
     <fields>
         <fullName>refactor__c</fullName>
         <defaultValue>false</defaultValue>
+        <description>This is a description.</description>
         <externalId>false</externalId>
         <label>refactor</label>
         <trackFeedHistory>false</trackFeedHistory>
