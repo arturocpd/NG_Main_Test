@@ -3293,7 +3293,8 @@
         <name>formula_check__c</name>
     </fields>
     <fields>
-        <label><!-- refactor --></label>
+        <help><!-- This is the help text --></help>
+        <label><!-- refactor2 --></label>
         <name>refactor__c</name>
     </fields>
     <fields>
