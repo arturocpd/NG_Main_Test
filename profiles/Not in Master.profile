@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Profile xmlns="http://soap.sforce.com/2006/04/metadata">
+    <custom>true</custom>
+    <loginHours>
+        <mondayEnd>1440</mondayEnd>
+        <mondayStart>0</mondayStart>
+        <tuesdayEnd>1440</tuesdayEnd>
+        <tuesdayStart>0</tuesdayStart>
+    </loginHours>
+    <loginIpRanges>
+        <endAddress>2.137.120.33</endAddress>
+        <startAddress>2.137.120.33</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>192.168.13.35</endAddress>
+        <startAddress>2.137.120.35</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>2.137.120.44</endAddress>
+        <startAddress>2.137.120.44</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>2.137.120.77</endAddress>
+        <startAddress>2.137.120.77</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>83.36.118.192</endAddress>
+        <startAddress>83.36.118.192</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>83.36.118.193</endAddress>
+        <startAddress>83.36.118.192</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>83.36.118.195</endAddress>
+        <startAddress>83.36.118.194</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>167.68.254.254</endAddress>
+        <startAddress>167.68.0.1</startAddress>
+    </loginIpRanges>
+    <userLicense>Salesforce</userLicense>
+    
+</Profile>
