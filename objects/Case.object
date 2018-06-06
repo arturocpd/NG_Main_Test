@@ -4697,6 +4697,57 @@
         <type>Checkbox</type>
     </fields>
     <fields>
+        <fullName>Version__c</fullName>
+        <externalId>false</externalId>
+        <label>Version</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>1.0.0</fullName>
+                    <default>false</default>
+                    <label>1.0.0</label>
+                </value>
+                <value>
+                    <fullName>1.0.1</fullName>
+                    <default>false</default>
+                    <label>1.0.1</label>
+                </value>
+                <value>
+                    <fullName>2.0.0</fullName>
+                    <default>false</default>
+                    <label>2.0.0</label>
+                </value>
+                <value>
+                    <fullName>2.0.1</fullName>
+                    <default>false</default>
+                    <label>2.0.1</label>
+                </value>
+                <value>
+                    <fullName>2.1.0</fullName>
+                    <default>false</default>
+                    <label>2.1.0</label>
+                </value>
+                <value>
+                    <fullName>2.1.1</fullName>
+                    <default>false</default>
+                    <label>2.1.1</label>
+                </value>
+                <value>
+                    <fullName>2.1.2</fullName>
+                    <default>false</default>
+                    <label>2.1.2</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>Week__c</fullName>
         <externalId>false</externalId>
         <label>Week</label>
@@ -4937,6 +4988,25 @@
         <active>true</active>
         <businessProcess>Support Process</businessProcess>
         <label>Record Type</label>
+        <picklistValues>
+            <picklist>Version__c</picklist>
+            <values>
+                <fullName>1%2E0%2E0</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2%2E0%2E0</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2%2E1%2E0</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2%2E1%2E2</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
         <picklistValues>
             <picklist>CI_Picklist_Test__c</picklist>
             <values>
