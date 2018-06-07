@@ -3217,6 +3217,38 @@
         <name>Version_8_1__c</name>
     </fields>
     <fields>
+        <label><!-- Version --></label>
+        <name>Version__c</name>
+        <picklistValues>
+            <masterLabel>1.0.0</masterLabel>
+            <translation><!-- 1.0.0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1.0.1</masterLabel>
+            <translation><!-- 1.0.1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2.0.0</masterLabel>
+            <translation><!-- 2.0.0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2.0.1</masterLabel>
+            <translation><!-- 2.0.1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2.1.0</masterLabel>
+            <translation><!-- 2.1.0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2.1.1</masterLabel>
+            <translation><!-- 2.1.1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2.1.2</masterLabel>
+            <translation><!-- 2.1.2 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
         <label><!-- Week --></label>
         <name>Week__c</name>
         <picklistValues>
