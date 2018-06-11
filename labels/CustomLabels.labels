@@ -6,7 +6,7 @@
         <language>en_US</language>
         <protected>true</protected>
         <shortDescription>ACCOUNT SUMMARY</shortDescription>
-        <value>Account Summary</value>
+        <value>{!Environment.ACCOUNT_SUMMARY}</value>
     </labels>
     <labels>
         <fullName>ADD_AUTHENTICATION</fullName>
