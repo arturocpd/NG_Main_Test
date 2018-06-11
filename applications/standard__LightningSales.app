@@ -5,28 +5,26 @@
     <formFactors>Large</formFactors>
     <label>Sales</label>
     <navType>Standard</navType>
-    <tab>standard-home</tab>
-    <tab>standard-Chatter</tab>
-    <tab>standard-WaveHome</tab>
-    <tab>standard-Opportunity</tab>
-    <tab>standard-Quote</tab>
-    <tab>standard-Lead</tab>
-    <tab>standard-Task</tab>
-    <tab>standard-File</tab>
-    <tab>standard-ContentNote</tab>
-    <tab>standard-Account</tab>
-    <tab>standard-Contact</tab>
-    <tab>standard-Campaign</tab>
-    <tab>standard-Dashboard</tab>
-    <tab>standard-report</tab>
-    <tab>standard-Feed</tab>
-    <tab>standard-CollaborationGroup</tab>
-    <tab>standard-Event</tab>
-    <tab>standard-OtherUserProfile</tab>
-    <tab>standard-Case</tab>
-    <tab>standard-News</tab>
-    <tab>standard-ForecastingLightning</tab>
-    <tab>standard-EinsteinAnalytics</tab>
-    <tab>Custom_Object__c</tab>
+    <tabs>standard-home</tabs>
+    <tabs>standard-Opportunity</tabs>
+    <tabs>standard-Lead</tabs>
+    <tabs>standard-Task</tabs>
+    <tabs>standard-File</tabs>
+    <tabs>standard-ContentNote</tabs>
+    <tabs>standard-Account</tabs>
+    <tabs>standard-Contact</tabs>
+    <tabs>standard-Campaign</tabs>
+    <tabs>standard-Dashboard</tabs>
+    <tabs>standard-report</tabs>
+    <tabs>standard-Feed</tabs>
+    <tabs>standard-CollaborationGroup</tabs>
+    <tabs>standard-Event</tabs>
+    <tabs>standard-OtherUserProfile</tabs>
+    <tabs>standard-Case</tabs>
+    <tabs>standard-News</tabs>
+    <tabs>standard-Forecasting3</tabs>
+    <tabs>standard-Quote</tabs>
+    <tabs>vlocity_cmt__PricingVariable__c</tabs>
+    <tabs>User_Time_Record__c</tabs>
     <uiType>Lightning</uiType>
 </CustomApplication>
