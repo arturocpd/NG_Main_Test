@@ -34,6 +34,41 @@
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
+    <fieldSets>
+        <fullName>vlocity_cmt__StoryFieldSet</fullName>
+        <description>Display in story list</description>
+        <displayedFields>
+            <field>Subject</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>ActivityDate</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Status</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Priority</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Type</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Description</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>StoryFieldSet</label>
+    </fieldSets>
     <fields>
         <fullName>ActivityDate</fullName>
     </fields>
@@ -57,6 +92,12 @@
     </fields>
     <fields>
         <fullName>IsRecurrence</fullName>
+    </fields>
+    <fields>
+        <fullName>IsReminderSet</fullName>
+    </fields>
+    <fields>
+        <fullName>IsVisibleInSelfService</fullName>
     </fields>
     <fields>
         <fullName>OwnerId</fullName>
@@ -99,56 +140,94 @@
         <type>Lookup</type>
     </fields>
     <recordTypes>
-        <fullName>General</fullName>
+        <fullName>vlocity_cmt__MobilePhoneTask</fullName>
         <active>true</active>
-        <label>General</label>
+        <description>Mobile Phone Task</description>
+        <label>MobilePhoneTask</label>
         <picklistValues>
-            <picklist>Next_Time__c</picklist>
+            <picklist>Priority</picklist>
             <values>
-                <fullName>Friday</fullName>
+                <fullName>High</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Monday</fullName>
+                <fullName>Low</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Saturday</fullName>
+                <fullName>Normal</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status</picklist>
+            <values>
+                <fullName>Completed</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Sunday</fullName>
+                <fullName>Deferred</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Thursday</fullName>
+                <fullName>In Progress</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>TuTuTuesday</fullName>
-                <default>false</default>
+                <fullName>Not Started</fullName>
+                <default>true</default>
             </values>
             <values>
-                <fullName>Tuesday</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Wednesday</fullName>
+                <fullName>Waiting on someone else</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
         <picklistValues>
-            <picklist>AAATask__c</picklist>
+            <picklist>Subject</picklist>
             <values>
-                <fullName>2</fullName>
+                <fullName>Call</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>4</fullName>
+                <fullName>Other</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>5</fullName>
+                <fullName>Send Letter</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Send Quote</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type</picklist>
+            <values>
+                <fullName>Call</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Meeting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>vlocity_cmt__EventStatus__c</picklist>
+            <values>
+                <fullName>In Progress</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Started</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Shared</fullName>
                 <default>false</default>
             </values>
         </picklistValues>

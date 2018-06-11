@@ -7,7 +7,7 @@
         <enableDashboardIPadApp>true</enableDashboardIPadApp>
     </dashboardMobile>
     <salesforceMobile>
-        <enableMobileLite>false</enableMobileLite>
+        <enableMobileLite>true</enableMobileLite>
         <enableUserToDeviceLinking>false</enableUserToDeviceLinking>
     </salesforceMobile>
     <touchMobile>
