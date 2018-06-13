@@ -43,7 +43,7 @@
     <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
-    <description>Description on Dev3</description>
+    <description>Description on Dev1</description>
     <enableActivities>false</enableActivities>
     <enableBulkApi>true</enableBulkApi>
     <enableChangeDataCapture>false</enableChangeDataCapture>
@@ -58,8 +58,8 @@
     <label>Cloud</label>
     <nameField>
         <displayFormat>A-{0000}</displayFormat>
-        <label>Cloud Name</label>
-        <trackHistory>false</trackHistory>
+        <label>Cloud Name Record ID</label>
+        <trackHistory>true</trackHistory>
         <type>AutoNumber</type>
     </nameField>
     <pluralLabel>Clouds</pluralLabel>
