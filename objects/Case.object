@@ -4372,6 +4372,15 @@
         <type>Checkbox</type>
     </fields>
     <fields>
+        <fullName>Vlocity_Folder_test__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Vlocity Folder test</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>Week__c</fullName>
         <externalId>false</externalId>
         <label>Week</label>
