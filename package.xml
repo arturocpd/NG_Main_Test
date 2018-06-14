@@ -4,5 +4,9 @@
         <members>Case.CI_Picklist_Test__c</members>
         <name>CustomField</name>
     </types>
+    <types>
+        <members>Case.delete_me</members>
+        <name>ValidationRule</name>
+    </types>
     <version>42.0</version>
 </Package>
