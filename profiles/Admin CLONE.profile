@@ -26,6 +26,11 @@
         <visible>true</visible>
     </applicationVisibilities>
     <applicationVisibilities>
+        <application>standard__LightningInstrumentation</application>
+        <default>false</default>
+        <visible>true</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
         <application>standard__LightningSales</application>
         <default>false</default>
         <visible>true</visible>
@@ -209,6 +214,16 @@
     <custom>true</custom>
     <description>Profile description</description>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.AccountNumber</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.AccountSource</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Account.Account_Number__c</field>
         <readable>false</readable>
@@ -220,7 +235,32 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Account.AnnualRevenue</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.BillingAddress</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Account.CleanStatus</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Account.CustomerPriority__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.Description</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Account.DunsNumber</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -231,6 +271,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Account.External_Id__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.Fax</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -250,7 +295,47 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Account.Industry</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.Jigsaw</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Account.NaicsCode</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Account.NaicsDesc</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.NumberOfEmployees</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Account.NumberofLocations__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.Ownership</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.Phone</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.Rating</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -270,7 +355,52 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Account.ShippingAddress</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.Sic</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.SicDesc</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.Site</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.TickerSymbol</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Account.Tradestyle</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.Type</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Account.UpsellOpportunity__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.Website</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Account.YearStarted</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -280,7 +410,162 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Asset.Description</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Asset.InstallDate</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Asset.IsCompetitorProduct</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Asset.Price</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Asset.ProductCode</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Asset.PurchaseDate</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Asset.Quantity</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Asset.SerialNumber</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Asset.Status</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Asset.StockKeepingUnit</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Asset.UsageEndDate</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>AssetRelationship.RelationshipType</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>CSTM_Object__c.cstm_field__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Campaign.ActualCost</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Campaign.AmountAllOpportunities</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Campaign.AmountWonOpportunities</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Campaign.BudgetedCost</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Campaign.Description</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Campaign.EndDate</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Campaign.ExpectedResponse</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Campaign.ExpectedRevenue</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Campaign.IsActive</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Campaign.NumberOfContacts</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Campaign.NumberOfConvertedLeads</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Campaign.NumberOfLeads</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Campaign.NumberOfOpportunities</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Campaign.NumberOfResponses</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Campaign.NumberOfWonOpportunities</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Campaign.NumberSent</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Campaign.StartDate</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Campaign.Status</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Campaign.Type</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -414,6 +699,11 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>Case.ClosedDate</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Case.Controlling__c</field>
         <readable>true</readable>
@@ -439,6 +729,11 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>Case.Description</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Case.Duplicate_test__c</field>
         <readable>false</readable>
@@ -457,6 +752,11 @@
         <editable>false</editable>
         <field>Case.Ford__c</field>
         <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Case.IsEscalated</field>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -500,6 +800,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Case.Origin</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Case.Pckage_field__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -520,12 +825,22 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Case.Priority</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Case.Product__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
         <field>Case.Pull_request_test__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Case.Reason</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -551,6 +866,31 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Case.Sub_Category_1__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Case.Subject</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Case.SuppliedCompany</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Case.SuppliedEmail</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Case.SuppliedName</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Case.SuppliedPhone</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -1065,6 +1405,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Case.Type</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Case.Unique_Code__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -1082,6 +1427,11 @@
         <editable>true</editable>
         <field>Case.Version_8_1__c</field>
         <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Case.Version__c</field>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -1129,6 +1479,11 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>Case.refactor__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Case.rich__c</field>
         <readable>true</readable>
@@ -1145,7 +1500,52 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Contact.AssistantName</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Contact.AssistantPhone</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Contact.Birthdate</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Contact.CleanStatus</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Contact.Department</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Contact.Description</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Contact.Email</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Contact.Fax</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Contact.GoodBad__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Contact.HomePhone</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -1155,7 +1555,17 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Contact.Jigsaw</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Contact.Languages__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Contact.LeadSource</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -1165,7 +1575,37 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Contact.MailingAddress</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Contact.MobilePhone</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Contact.OtherAddress</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Contact.OtherPhone</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Contact.Phone</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Contact.SGUID__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Contact.Title</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -1176,6 +1616,101 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Contact.xyz_SGUID__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Contract.ActivatedDate</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Contract.BillingAddress</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Contract.CompanySignedDate</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Contract.ContractTerm</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Contract.CustomerSignedDate</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Contract.CustomerSignedTitle</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Contract.Description</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Contract.EndDate</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Contract.OwnerExpirationNotice</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Contract.SpecialTerms</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Contract.StartDate</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>ContractLineItem.Description</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>ContractLineItem.Discount</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>ContractLineItem.EndDate</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>ContractLineItem.ListPrice</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>ContractLineItem.StartDate</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>ContractLineItem.Status</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>ContractLineItem.Subtotal</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>ContractLineItem.TotalPrice</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -1210,16 +1745,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Dinner__c_hd.Point_of_contact__c_hpr</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Dinner__c_hd.Point_of_contact__c_hst</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
         <field>Elisa_Metadata_Type__mdt.Metadata_Type_Picklist__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -1227,6 +1752,41 @@
         <editable>false</editable>
         <field>Elisa_Metadata_Type__mdt.email__c</field>
         <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Entitlement.CasesPerEntitlement</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Entitlement.EndDate</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Entitlement.IsPerIncident</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Entitlement.RemainingCases</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Entitlement.StartDate</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Entitlement.Status</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Entitlement.Type</field>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -1254,6 +1814,21 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>Event.Description</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Event.IsAllDayEvent</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Event.Location</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Event.Next_Time__c</field>
         <readable>false</readable>
@@ -1272,6 +1847,36 @@
         <editable>false</editable>
         <field>Goal.OrigGoalId__c</field>
         <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Idea.Status</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>IdeaTheme.Categories</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>IdeaTheme.Description</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>IdeaTheme.EndDate</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>IdeaTheme.StartDate</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>IdeaTheme.Status</field>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -1325,7 +1930,42 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Lead.Address</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Lead.AnnualRevenue</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Lead.CleanStatus</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Lead.CompanyDunsNumber</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Lead.CurrentGenerators__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Lead.Description</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Lead.Email</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Lead.Fax</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -1335,7 +1975,37 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Lead.Industry</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Lead.Jigsaw</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Lead.LeadSource</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Lead.MobilePhone</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Lead.NumberOfEmployees</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Lead.NumberofLocations__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Lead.Phone</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -1350,13 +2020,223 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Lead.Rating</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Lead.SICCode__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Lead.Title</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Lead.Website</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LiveAgentSession.ChatReqAssigned</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LiveAgentSession.ChatReqDeclined</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LiveAgentSession.ChatReqEngaged</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LiveAgentSession.ChatReqTimedOut</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LiveAgentSession.NumFlagLoweredAgent</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LiveAgentSession.NumFlagLoweredSupervisor</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LiveAgentSession.NumFlagRaised</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LiveAgentSession.TimeAtCapacity</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LiveAgentSession.TimeIdle</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LiveAgentSession.TimeInAwayStatus</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LiveAgentSession.TimeInChats</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LiveAgentSession.TimeInOnlineStatus</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LiveChatTranscript.Abandoned</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LiveChatTranscript.AverageResponseTimeOperator</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LiveChatTranscript.AverageResponseTimeVisitor</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LiveChatTranscript.Body</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LiveChatTranscript.Browser</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LiveChatTranscript.BrowserLanguage</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LiveChatTranscript.ChatDuration</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LiveChatTranscript.ChatKey</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LiveChatTranscript.EndTime</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LiveChatTranscript.EndedBy</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LiveChatTranscript.IpAddress</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LiveChatTranscript.Location</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LiveChatTranscript.MaxResponseTimeOperator</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LiveChatTranscript.MaxResponseTimeVisitor</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LiveChatTranscript.OperatorMessageCount</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LiveChatTranscript.Platform</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LiveChatTranscript.ReferrerUri</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LiveChatTranscript.RequestTime</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LiveChatTranscript.ScreenResolution</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LiveChatTranscript.StartTime</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LiveChatTranscript.Status</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LiveChatTranscript.SupervisorTranscriptBody</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LiveChatTranscript.UserAgent</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LiveChatTranscript.VisitorMessageCount</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LiveChatTranscript.VisitorNetwork</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LiveChatTranscript.WaitTime</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Metric.OrigMetricId__c</field>
         <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Opportunity.Amount</field>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -1370,12 +2250,42 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Opportunity.Description</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Opportunity.ExpectedRevenue</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Opportunity.IsPrivate</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Opportunity.LeadSource</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Opportunity.MainCompetitors__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Opportunity.NextStep</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Opportunity.OrderNumber__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Opportunity.Probability</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -1395,12 +2305,122 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Opportunity.TotalOpportunityQuantity</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Opportunity.TrackingNumber__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Opportunity.Type</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Opportunity.xyz_SGUID_Opp__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>OpportunityLineItem.Description</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>OpportunityLineItem.ListPrice</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>OpportunityLineItem.ProductCode</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>OpportunityLineItem.ServiceDate</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>OpportunityLineItem.TotalPrice</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Order.ActivatedDate</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Order.BillingAddress</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Order.CompanyAuthorizedDate</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Order.CustomerAuthorizedDate</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Order.Description</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Order.OrderReferenceNumber</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Order.PoDate</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Order.PoNumber</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Order.ShippingAddress</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Order.TotalAmount</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Order.Type</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>OrderItem.Description</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>OrderItem.EndDate</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>OrderItem.ListPrice</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>OrderItem.ServiceDate</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -1415,12 +2435,192 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>PartnerFundAllocation.Description</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>PartnerFundClaim.Description</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>PartnerFundClaim.Status</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>PartnerFundRequest.Activity</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>PartnerFundRequest.Amount</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>PartnerFundRequest.Description</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>PartnerFundRequest.DesiredOutcome</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>PartnerFundRequest.Status</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>PartnerMarketingBudget.Description</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Product2.Description</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Product2.DisplayUrl</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Product2.ExternalId</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Product2.Family</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Product2.ProductCode</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Product2.QuantityUnitOfMeasure</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Product2.StockKeepingUnit</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Quote_Proposal__c.Provisioning_Contact__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>ServiceContract.ActivationDate</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>ServiceContract.ApprovalStatus</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>ServiceContract.BillingAddress</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>ServiceContract.Description</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>ServiceContract.Discount</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>ServiceContract.EndDate</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>ServiceContract.GrandTotal</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>ServiceContract.ShippingAddress</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>ServiceContract.ShippingHandling</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>ServiceContract.SpecialTerms</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>ServiceContract.StartDate</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>ServiceContract.Status</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>ServiceContract.Subtotal</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>ServiceContract.Tax</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>ServiceContract.Term</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>ServiceContract.TotalPrice</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Solution.IsPublished</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Solution.IsPublishedInPublicKb</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Solution.SolutionNote</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Task.AAATask__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Task.ActivityDate</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -1444,6 +2644,11 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>Task.Description</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Task.Next_Time__c</field>
         <readable>false</readable>
@@ -1458,6 +2663,206 @@
         <field>Task.add_metadata_2__c</field>
         <readable>true</readable>
     </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>WorkOrder.Address</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>WorkOrder.Description</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>WorkOrder.Discount</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>WorkOrder.Duration</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>WorkOrder.DurationInMinutes</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>WorkOrder.DurationType</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>WorkOrder.EndDate</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>WorkOrder.GrandTotal</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>WorkOrder.IsClosed</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>WorkOrder.IsStopped</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>WorkOrder.LineItemCount</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>WorkOrder.MilestoneStatus</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>WorkOrder.Priority</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>WorkOrder.ServiceAppointmentCount</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>WorkOrder.SlaExitDate</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>WorkOrder.SlaStartDate</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>WorkOrder.StartDate</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>WorkOrder.Status</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>WorkOrder.StatusCategory</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>WorkOrder.StopStartDate</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>WorkOrder.Subject</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>WorkOrder.Subtotal</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>WorkOrder.Tax</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>WorkOrder.TotalPrice</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>WorkOrderLineItem.Address</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>WorkOrderLineItem.Description</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>WorkOrderLineItem.Discount</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>WorkOrderLineItem.EndDate</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>WorkOrderLineItem.IsClosed</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>WorkOrderLineItem.ListPrice</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>WorkOrderLineItem.Priority</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>WorkOrderLineItem.Quantity</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>WorkOrderLineItem.ServiceAppointmentCount</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>WorkOrderLineItem.StartDate</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>WorkOrderLineItem.Status</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>WorkOrderLineItem.StatusCategory</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>WorkOrderLineItem.Subject</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>WorkOrderLineItem.Subtotal</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>WorkOrderLineItem.TotalPrice</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>WorkOrderLineItem.UnitPrice</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <layoutAssignments>
         <layout>Account-Account %28Marketing%29 Layout</layout>
     </layoutAssignments>
@@ -1468,6 +2873,9 @@
     <layoutAssignments>
         <layout>Account-Account %28Marketing%29 Layout</layout>
         <recordType>Account.Record_Type2</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>AccountBrand-Account BrandLayout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Address-Address Layout</layout>
@@ -1527,6 +2935,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>ChannelProgramMember-Channel Program Member Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Cloud__c-Cloud Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Contact-Contact %28Marketing%29 Layout</layout>
@@ -1874,16 +3285,776 @@
         <tuesdayStart>0</tuesdayStart>
     </loginHours>
     <loginIpRanges>
-        <endAddress>83.36.118.192</endAddress>
-        <startAddress>83.36.118.192</startAddress>
+        <endAddress>5.32.60.255</endAddress>
+        <startAddress>5.32.60.224</startAddress>
     </loginIpRanges>
     <loginIpRanges>
-        <endAddress>83.36.118.193</endAddress>
-        <startAddress>83.36.118.192</startAddress>
+        <endAddress>12.45.249.25</endAddress>
+        <startAddress>12.45.248.0</startAddress>
     </loginIpRanges>
     <loginIpRanges>
-        <endAddress>83.36.118.195</endAddress>
-        <startAddress>83.36.118.194</startAddress>
+        <endAddress>12.155.10.255</endAddress>
+        <startAddress>12.155.10.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>12.193.208.255</endAddress>
+        <startAddress>12.193.208.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>23.253.68.51</endAddress>
+        <startAddress>23.253.68.51</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>24.38.37.255</endAddress>
+        <startAddress>24.38.37.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>24.89.173.15</endAddress>
+        <startAddress>24.89.173.8</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>24.206.164.31</endAddress>
+        <startAddress>24.206.164.31</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>40.84.6.162</endAddress>
+        <startAddress>40.84.6.162</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>40.123.47.58</endAddress>
+        <startAddress>40.123.47.58</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>41.164.132.131</endAddress>
+        <startAddress>41.164.132.131</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>41.164.132.132</endAddress>
+        <startAddress>41.164.132.132</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>46.14.169.18</endAddress>
+        <startAddress>46.14.169.18</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>46.14.201.242</endAddress>
+        <startAddress>46.14.201.242</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>46.237.217.59</endAddress>
+        <startAddress>46.237.217.59</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>47.23.135.175</endAddress>
+        <startAddress>47.23.135.168</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>50.16.247.245</endAddress>
+        <startAddress>50.16.247.245</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>50.74.163.110</endAddress>
+        <startAddress>50.74.163.97</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>50.168.21.81</endAddress>
+        <startAddress>50.168.21.81</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>52.183.81.11</endAddress>
+        <startAddress>52.183.81.11</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>52.183.92.124</endAddress>
+        <startAddress>52.183.92.124</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>54.165.97.15</endAddress>
+        <startAddress>54.165.97.15</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>54.225.196.105</endAddress>
+        <startAddress>54.225.196.105</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>59.144.10.255</endAddress>
+        <startAddress>59.144.10.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>62.2.201.43</endAddress>
+        <startAddress>62.2.201.43</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>62.2.219.234</endAddress>
+        <startAddress>62.2.219.234</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>62.97.114.223</endAddress>
+        <startAddress>62.97.114.192</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>62.119.71.255</endAddress>
+        <startAddress>62.119.71.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>63.251.57.31</endAddress>
+        <startAddress>63.251.57.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>64.61.33.163</endAddress>
+        <startAddress>64.61.33.163</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>65.210.74.255</endAddress>
+        <startAddress>65.210.74.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>66.249.67.76</endAddress>
+        <startAddress>66.249.67.76</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>68.44.105.106</endAddress>
+        <startAddress>68.44.105.106</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>68.95.99.70</endAddress>
+        <startAddress>68.95.99.70</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>69.248.168.193</endAddress>
+        <startAddress>69.248.168.193</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>71.9.232.130</endAddress>
+        <startAddress>71.9.232.130</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>71.23.218.115</endAddress>
+        <startAddress>71.23.218.115</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>73.197.178.105</endAddress>
+        <startAddress>73.197.178.105</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>74.62.18.18</endAddress>
+        <startAddress>74.62.18.18</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>76.80.27.166</endAddress>
+        <startAddress>76.80.27.166</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>80.152.133.219</endAddress>
+        <startAddress>80.152.133.219</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>80.169.192.254</endAddress>
+        <startAddress>80.169.192.61</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>82.198.216.35</endAddress>
+        <startAddress>82.198.216.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>83.111.204.130</endAddress>
+        <startAddress>83.111.204.130</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>83.138.167.191</endAddress>
+        <startAddress>83.138.167.176</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>84.18.191.255</endAddress>
+        <startAddress>84.18.160.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>84.18.172.130</endAddress>
+        <startAddress>84.18.172.130</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>91.109.20.196</endAddress>
+        <startAddress>91.109.20.196</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>96.56.43.223</endAddress>
+        <startAddress>96.56.43.216</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>99.99.47.5</endAddress>
+        <startAddress>99.99.47.5</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>106.39.107.255</endAddress>
+        <startAddress>106.39.107.224</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>111.93.141.3</endAddress>
+        <startAddress>111.93.141.3</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>111.93.141.4</endAddress>
+        <startAddress>111.93.141.4</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>111.93.191.10</endAddress>
+        <startAddress>111.93.191.10</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>115.111.16.255</endAddress>
+        <startAddress>115.111.16.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>115.111.64.226</endAddress>
+        <startAddress>115.111.64.226</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>115.111.69.62</endAddress>
+        <startAddress>115.111.69.62</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>115.249.46.209</endAddress>
+        <startAddress>115.249.46.209</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>121.241.0.66</endAddress>
+        <startAddress>121.241.0.66</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>124.124.1.57</endAddress>
+        <startAddress>124.124.1.57</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>124.124.42.161</endAddress>
+        <startAddress>124.124.42.160</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>124.211.59.63</endAddress>
+        <startAddress>124.211.59.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>125.7.7.255</endAddress>
+        <startAddress>125.7.7.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>137.116.72.115</endAddress>
+        <startAddress>137.116.72.115</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>159.220.3.255</endAddress>
+        <startAddress>159.220.0.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>159.220.255.255</endAddress>
+        <startAddress>159.220.0.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>159.220.255.254</endAddress>
+        <startAddress>159.220.0.1</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>159.220.7.255</endAddress>
+        <startAddress>159.220.4.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>159.220.11.255</endAddress>
+        <startAddress>159.220.8.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>159.220.13.255</endAddress>
+        <startAddress>159.220.12.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>159.220.15.255</endAddress>
+        <startAddress>159.220.14.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>159.220.19.255</endAddress>
+        <startAddress>159.220.16.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>159.220.23.255</endAddress>
+        <startAddress>159.220.20.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>159.220.25.255</endAddress>
+        <startAddress>159.220.24.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>159.220.27.255</endAddress>
+        <startAddress>159.220.26.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>159.220.31.255</endAddress>
+        <startAddress>159.220.28.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>159.220.35.255</endAddress>
+        <startAddress>159.220.32.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>159.220.36.255</endAddress>
+        <startAddress>159.220.36.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>159.220.37.255</endAddress>
+        <startAddress>159.220.37.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>159.220.39.255</endAddress>
+        <startAddress>159.220.38.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>159.220.43.255</endAddress>
+        <startAddress>159.220.40.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>159.220.47.255</endAddress>
+        <startAddress>159.220.44.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>159.220.51.255</endAddress>
+        <startAddress>159.220.48.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>159.220.52.255</endAddress>
+        <startAddress>159.220.52.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>159.220.53.255</endAddress>
+        <startAddress>159.220.53.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>159.220.55.255</endAddress>
+        <startAddress>159.220.54.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>159.220.56.255</endAddress>
+        <startAddress>159.220.56.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>159.220.57.255</endAddress>
+        <startAddress>159.220.57.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>159.220.58.255</endAddress>
+        <startAddress>159.220.58.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>159.220.59.255</endAddress>
+        <startAddress>159.220.59.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>159.220.60.255</endAddress>
+        <startAddress>159.220.60.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>159.220.61.255</endAddress>
+        <startAddress>159.220.61.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>159.220.62.255</endAddress>
+        <startAddress>159.220.62.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>159.220.63.255</endAddress>
+        <startAddress>159.220.63.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>159.220.67.255</endAddress>
+        <startAddress>159.220.64.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>159.220.72.255</endAddress>
+        <startAddress>159.220.72.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>159.220.73.255</endAddress>
+        <startAddress>159.220.73.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>159.220.74.255</endAddress>
+        <startAddress>159.220.74.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>159.220.75.255</endAddress>
+        <startAddress>159.220.75.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>159.220.75.254</endAddress>
+        <startAddress>159.220.75.1</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>159.220.76.255</endAddress>
+        <startAddress>159.220.76.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>159.220.76.254</endAddress>
+        <startAddress>159.220.76.1</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>159.220.77.255</endAddress>
+        <startAddress>159.220.77.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>159.220.78.255</endAddress>
+        <startAddress>159.220.78.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>159.220.79.255</endAddress>
+        <startAddress>159.220.79.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>159.220.233.255</endAddress>
+        <startAddress>159.220.233.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>159.220.235.255</endAddress>
+        <startAddress>159.220.235.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>159.220.236.255</endAddress>
+        <startAddress>159.220.236.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>163.231.15.255</endAddress>
+        <startAddress>163.231.0.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>163.231.6.26</endAddress>
+        <startAddress>163.231.6.26</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>163.231.6.64</endAddress>
+        <startAddress>163.231.6.64</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>163.231.6.71</endAddress>
+        <startAddress>163.231.6.71</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>164.179.255.255</endAddress>
+        <startAddress>164.179.0.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>167.68.63.255</endAddress>
+        <startAddress>167.68.0.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>167.68.254.254</endAddress>
+        <startAddress>167.68.0.1</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>167.68.115.255</endAddress>
+        <startAddress>167.68.114.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>167.206.188.127</endAddress>
+        <startAddress>167.206.188.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>167.206.189.255</endAddress>
+        <startAddress>167.206.189.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>173.31.255.255</endAddress>
+        <startAddress>173.16.0.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>173.227.255.254</endAddress>
+        <startAddress>173.226.0.1</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>174.70.10.88</endAddress>
+        <startAddress>174.70.10.88</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>177.43.177.26</endAddress>
+        <startAddress>177.43.177.26</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>177.99.218.50</endAddress>
+        <startAddress>177.99.218.50</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>180.151.201.250</endAddress>
+        <startAddress>180.151.201.250</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>181.118.126.231</endAddress>
+        <startAddress>181.118.126.231</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>186.129.255.136</endAddress>
+        <startAddress>186.129.255.136</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>186.215.156.243</endAddress>
+        <startAddress>186.215.156.243</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>189.21.230.159</endAddress>
+        <startAddress>189.21.230.128</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>190.93.208.40</endAddress>
+        <startAddress>190.93.208.40</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>190.191.171.62</endAddress>
+        <startAddress>190.191.171.62</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>190.192.44.113</endAddress>
+        <startAddress>190.192.44.113</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>192.152.33.255</endAddress>
+        <startAddress>192.152.33.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>192.152.33.10</endAddress>
+        <startAddress>192.152.33.10</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>192.155.151.255</endAddress>
+        <startAddress>192.155.151.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>192.165.223.255</endAddress>
+        <startAddress>192.165.208.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>192.168.1.5</endAddress>
+        <startAddress>192.168.1.5</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>192.189.224.255</endAddress>
+        <startAddress>192.189.224.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>192.189.228.255</endAddress>
+        <startAddress>192.189.228.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>192.251.4.255</endAddress>
+        <startAddress>192.251.4.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>192.251.7.255</endAddress>
+        <startAddress>192.251.7.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>193.41.153.255</endAddress>
+        <startAddress>193.41.152.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>195.127.226.200</endAddress>
+        <startAddress>195.127.226.200</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>196.23.48.34</endAddress>
+        <startAddress>196.23.48.34</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>198.22.181.255</endAddress>
+        <startAddress>198.22.181.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>198.62.183.255</endAddress>
+        <startAddress>198.62.183.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>198.80.129.255</endAddress>
+        <startAddress>198.80.129.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>198.80.151.255</endAddress>
+        <startAddress>198.80.151.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>198.80.152.255</endAddress>
+        <startAddress>198.80.152.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>198.80.153.255</endAddress>
+        <startAddress>198.80.153.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>198.80.155.255</endAddress>
+        <startAddress>198.80.155.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>198.80.157.255</endAddress>
+        <startAddress>198.80.157.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>198.80.191.255</endAddress>
+        <startAddress>198.80.160.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>198.176.133.255</endAddress>
+        <startAddress>198.176.133.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>198.179.136.255</endAddress>
+        <startAddress>198.179.136.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>198.179.137.254</endAddress>
+        <startAddress>198.179.137.1</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>198.179.137.255</endAddress>
+        <startAddress>198.179.137.192</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>198.179.138.255</endAddress>
+        <startAddress>198.179.138.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>198.179.139.255</endAddress>
+        <startAddress>198.179.139.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>198.244.15.254</endAddress>
+        <startAddress>198.244.12.1</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>199.224.149.255</endAddress>
+        <startAddress>199.224.149.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>199.224.150.31</endAddress>
+        <startAddress>199.224.150.16</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>199.244.150.255</endAddress>
+        <startAddress>199.244.150.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>199.248.238.255</endAddress>
+        <startAddress>199.248.238.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>200.24.255.50</endAddress>
+        <startAddress>200.24.255.50</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>200.61.174.180</endAddress>
+        <startAddress>200.61.174.180</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>200.184.26.9</endAddress>
+        <startAddress>200.184.26.9</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>200.184.46.14</endAddress>
+        <startAddress>200.184.46.14</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>200.251.63.3</endAddress>
+        <startAddress>200.251.63.3</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>201.224.80.195</endAddress>
+        <startAddress>201.224.80.195</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>201.238.206.235</endAddress>
+        <startAddress>201.238.206.235</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>202.69.223.255</endAddress>
+        <startAddress>202.69.208.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>202.126.166.255</endAddress>
+        <startAddress>202.126.166.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>203.191.132.255</endAddress>
+        <startAddress>203.191.132.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>204.16.153.143</endAddress>
+        <startAddress>204.16.153.136</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>204.153.91.255</endAddress>
+        <startAddress>204.153.88.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>205.210.47.255</endAddress>
+        <startAddress>205.210.47.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>206.112.185.255</endAddress>
+        <startAddress>206.112.185.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>207.86.142.110</endAddress>
+        <startAddress>207.86.142.110</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>209.167.231.5</endAddress>
+        <startAddress>209.167.231.5</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>209.242.154.86</endAddress>
+        <startAddress>209.242.154.82</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>212.203.92.239</endAddress>
+        <startAddress>212.203.92.224</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>213.61.236.95</endAddress>
+        <startAddress>213.61.236.64</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>216.88.130.94</endAddress>
+        <startAddress>216.88.130.94</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>216.178.113.255</endAddress>
+        <startAddress>216.178.113.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>216.190.112.63</endAddress>
+        <startAddress>216.190.112.32</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>217.33.133.95</endAddress>
+        <startAddress>217.33.133.88</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>217.33.208.255</endAddress>
+        <startAddress>217.33.208.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>217.33.216.255</endAddress>
+        <startAddress>217.33.216.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>217.92.47.197</endAddress>
+        <startAddress>217.92.47.197</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>218.30.179.255</endAddress>
+        <startAddress>218.30.179.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>223.72.183.79</endAddress>
+        <startAddress>223.72.183.64</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>223.72.183.65</endAddress>
+        <startAddress>223.72.183.65</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>223.72.183.78</endAddress>
+        <startAddress>223.72.183.78</startAddress>
     </loginIpRanges>
     <objectPermissions>
         <allowCreate>true</allowCreate>

@@ -45,6 +45,10 @@
         <name>ACE_Product_Translator_Settings_Key</name>
     </customLabels>
     <customLabels>
+        <label>Autenticacion Modificadata en la segunda user story</label>
+        <name>ADD_AUTHENTICATION</name>
+    </customLabels>
+    <customLabels>
         <label><!-- AR Custom Label from Dev3 --></label>
         <name>AR_Custom_Label_from_Dev3</name>
     </customLabels>
@@ -113,8 +117,16 @@
         <name>CLLSE43001</name>
     </customLabels>
     <customLabels>
+        <label>Comit ahead</label>
+        <name>COMMITS_AHEAD</name>
+    </customLabels>
+    <customLabels>
         <label><!-- CPQ DEAL MANAGER PUNCH URL --></label>
         <name>CPQ_DEAL_MANAGER_PUNCH_URL</name>
+    </customLabels>
+    <customLabels>
+        <label>modificado en el segundo deployment</label>
+        <name>CREATE_DEPLOYMENT</name>
     </customLabels>
     <customLabels>
         <label><!-- Checked Label --></label>
@@ -151,6 +163,10 @@
     <customLabels>
         <label><!-- Customer name --></label>
         <name>Customer_name</name>
+    </customLabels>
+    <customLabels>
+        <label>Nuevo Deployment</label>
+        <name>DEPLOYMENT_NEW</name>
     </customLabels>
     <customLabels>
         <label><!-- DNB Password --></label>

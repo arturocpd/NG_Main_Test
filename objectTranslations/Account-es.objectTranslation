@@ -570,7 +570,7 @@
         <name>New_Validation_Acc</name>
     </validationRules>
     <validationRules>
-        <errorMessage><!-- This is always false --></errorMessage>
+        <errorMessage>Otra modificacion mas.</errorMessage>
         <name>Prevent_Edit_to_Relationship_Fields</name>
     </validationRules>
     <validationRules>

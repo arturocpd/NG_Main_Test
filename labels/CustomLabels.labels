@@ -6,7 +6,7 @@
         <language>en_US</language>
         <protected>true</protected>
         <shortDescription>ACCOUNT SUMMARY</shortDescription>
-        <value>Account Summary</value>
+        <value>https://fakeurl.html</value>
     </labels>
     <labels>
         <fullName>ACE_Product_Selector_Authorization_Token</fullName>
@@ -87,6 +87,14 @@
         <protected>false</protected>
         <shortDescription>ACE Product Translator Settings Key</shortDescription>
         <value>TransQ</value>
+    </labels>
+    <labels>
+        <fullName>ADD_AUTHENTICATION</fullName>
+        <categories>Copado</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ADD_AUTHENTICATION</shortDescription>
+        <value>Add Authentication</value>
     </labels>
     <labels>
         <fullName>AR_Custom_Label_from_Dev3</fullName>
@@ -219,11 +227,26 @@
         <value>US_CRM</value>
     </labels>
     <labels>
+        <fullName>COMMITS_AHEAD</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>COMMITS AHEAD</shortDescription>
+        <value>Commits Ahead</value>
+    </labels>
+    <labels>
         <fullName>CPQ_DEAL_MANAGER_PUNCH_URL</fullName>
         <language>en_US</language>
         <protected>false</protected>
         <shortDescription>CPQ DEAL MANAGER PUNCH URL</shortDescription>
         <value>http://cisnt112.c076.us.schneider-electric.com:8080/dealmgt/cpq_login2.jsp</value>
+    </labels>
+    <labels>
+        <fullName>CREATE_DEPLOYMENT</fullName>
+        <categories>Copado</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>CREATE DEPLOYMENT</shortDescription>
+        <value>Create Deployment</value>
     </labels>
     <labels>
         <fullName>Checked_Label</fullName>
@@ -293,6 +316,14 @@
         <protected>false</protected>
         <shortDescription>Customer name</shortDescription>
         <value>Customer name</value>
+    </labels>
+    <labels>
+        <fullName>DEPLOYMENT_NEW</fullName>
+        <categories>Copado</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>DEPLOYMENT NEW</shortDescription>
+        <value>New Deployment</value>
     </labels>
     <labels>
         <fullName>DNB_Password</fullName>
