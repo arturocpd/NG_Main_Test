@@ -117,7 +117,7 @@
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
-        <type>Picklist</type>
+        <type>MultiselectPicklist</type>
         <valueSet>
             <restricted>true</restricted>
             <valueSetDefinition>
@@ -152,8 +152,15 @@
                     <default>false</default>
                     <label>GGG</label>
                 </value>
+                <value>
+                    <fullName>EEE</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>EEE</label>
+                </value>
             </valueSetDefinition>
         </valueSet>
+        <visibleLines>3</visibleLines>
     </fields>
     <fields>
         <fullName>CaseTime__c</fullName>
