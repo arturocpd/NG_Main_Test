@@ -7800,6 +7800,12 @@
         <errorConditionFormula>false</errorConditionFormula>
         <errorMessage>Never triggered</errorMessage>
     </validationRules>
+    <validationRules>
+        <fullName>delete_me</fullName>
+        <active>true</active>
+        <errorConditionFormula>INCLUDES( CI_Picklist_Test__c , &quot;AAA&quot;)</errorConditionFormula>
+        <errorMessage>case validation rule delete me</errorMessage>
+    </validationRules>
     <webLinks>
         <fullName>UpsellCrosssellOpportunity</fullName>
         <availability>online</availability>

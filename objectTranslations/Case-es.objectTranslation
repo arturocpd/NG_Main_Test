@@ -3345,6 +3345,10 @@
         <errorMessage><!-- Never triggered --></errorMessage>
         <name>VR_test_commit</name>
     </validationRules>
+    <validationRules>
+        <errorMessage><!-- case validation rule delete me --></errorMessage>
+        <name>delete_me</name>
+    </validationRules>
     <webLinks>
         <label><!-- UpsellCrosssellOpportunity --></label>
         <name>UpsellCrosssellOpportunity</name>
