@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>mobile-cpq-asset-grid (a2D1I000000DyAPUA0)</members>
-        <members>mobile-cpq-base-grid (a2D1I000000DyAQUA0)</members>
+        <members>mobile-cpq-home (a2D1I000000DyASUA0)</members>
+        <members>mobile-cpq-home-action (a2D1I000000DyATUA0)</members>
         <name>VlocityUILayout</name>
     </types>
     <version>42.0</version>
