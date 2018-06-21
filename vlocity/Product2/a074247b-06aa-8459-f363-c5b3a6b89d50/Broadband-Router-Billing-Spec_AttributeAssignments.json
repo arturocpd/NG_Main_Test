@@ -65,7 +65,7 @@
         "Name": "BILL-CODE",
         "VlocityDataPackType": "SObject",
         "VlocityRecordSObjectType": "%vlocity_namespace%__AttributeAssignment__c",
-        "VlocityRecordSourceKey": "%vlocity_namespace%__AttributeAssignment__c/%vlocity_namespace%__Attribute__c/ATTRIBUTE-117/Product2/a074247b-06aa-8459-f363-c5b3a6b89d50"
+        "VlocityRecordSourceKey": "VlocityRecordSourceKey:a0H1I000001nKhTUAU"
     },
     {
         "%vlocity_namespace%__AddDate__c": "",
@@ -133,7 +133,7 @@
         "Name": "BIL-LIT",
         "VlocityDataPackType": "SObject",
         "VlocityRecordSObjectType": "%vlocity_namespace%__AttributeAssignment__c",
-        "VlocityRecordSourceKey": "%vlocity_namespace%__AttributeAssignment__c/%vlocity_namespace%__Attribute__c/ATTRIBUTE-116/Product2/a074247b-06aa-8459-f363-c5b3a6b89d50"
+        "VlocityRecordSourceKey": "VlocityRecordSourceKey:a0H1I000001nKhUUAU"
     },
     {
         "%vlocity_namespace%__AddDate__c": "",
@@ -201,7 +201,7 @@
         "Name": "NRC",
         "VlocityDataPackType": "SObject",
         "VlocityRecordSObjectType": "%vlocity_namespace%__AttributeAssignment__c",
-        "VlocityRecordSourceKey": "%vlocity_namespace%__AttributeAssignment__c/%vlocity_namespace%__Attribute__c/ATTRIBUTE-122/Product2/a074247b-06aa-8459-f363-c5b3a6b89d50"
+        "VlocityRecordSourceKey": "VlocityRecordSourceKey:a0H1I000001nKhVUAU"
     },
     {
         "%vlocity_namespace%__AddDate__c": "",
@@ -269,6 +269,6 @@
         "Name": "MRC",
         "VlocityDataPackType": "SObject",
         "VlocityRecordSObjectType": "%vlocity_namespace%__AttributeAssignment__c",
-        "VlocityRecordSourceKey": "%vlocity_namespace%__AttributeAssignment__c/%vlocity_namespace%__Attribute__c/ATTRIBUTE-121/Product2/a074247b-06aa-8459-f363-c5b3a6b89d50"
+        "VlocityRecordSourceKey": "VlocityRecordSourceKey:a0H1I000001nKhWUAU"
     }
 ]

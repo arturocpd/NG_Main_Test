@@ -94,7 +94,7 @@
         "Name": "DownloadSpeed",
         "VlocityDataPackType": "SObject",
         "VlocityRecordSObjectType": "%vlocity_namespace%__AttributeAssignment__c",
-        "VlocityRecordSourceKey": "%vlocity_namespace%__AttributeAssignment__c/%vlocity_namespace%__Attribute__c/ATTRIBUTE-120/Product2/e5190636-25f0-3115-cf5c-4f0d8614e520"
+        "VlocityRecordSourceKey": "VlocityRecordSourceKey:a0H1I000001nKhAUAU"
     },
     {
         "%vlocity_namespace%__AddDate__c": "",
@@ -191,6 +191,6 @@
         "Name": "UploadSpeed",
         "VlocityDataPackType": "SObject",
         "VlocityRecordSObjectType": "%vlocity_namespace%__AttributeAssignment__c",
-        "VlocityRecordSourceKey": "%vlocity_namespace%__AttributeAssignment__c/%vlocity_namespace%__Attribute__c/ATTRIBUTE-127/Product2/e5190636-25f0-3115-cf5c-4f0d8614e520"
+        "VlocityRecordSourceKey": "VlocityRecordSourceKey:a0H1I000001nKhBUAU"
     }
 ]

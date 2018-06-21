@@ -73,6 +73,6 @@
         "Name": "VPBX-CAT",
         "VlocityDataPackType": "SObject",
         "VlocityRecordSObjectType": "%vlocity_namespace%__AttributeAssignment__c",
-        "VlocityRecordSourceKey": "%vlocity_namespace%__AttributeAssignment__c/%vlocity_namespace%__Attribute__c/VPBX-CAT/Product2/c91a6404-d696-8f00-1cb7-493c1d80494c"
+        "VlocityRecordSourceKey": "VlocityRecordSourceKey:a0H1I000001nKi2UAE"
     }
 ]

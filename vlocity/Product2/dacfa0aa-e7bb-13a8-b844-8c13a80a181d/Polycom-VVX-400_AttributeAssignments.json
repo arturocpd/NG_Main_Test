@@ -73,7 +73,7 @@
         "Name": "VPBX-CAT",
         "VlocityDataPackType": "SObject",
         "VlocityRecordSObjectType": "%vlocity_namespace%__AttributeAssignment__c",
-        "VlocityRecordSourceKey": "%vlocity_namespace%__AttributeAssignment__c/%vlocity_namespace%__Attribute__c/VPBX-CAT/Product2/dacfa0aa-e7bb-13a8-b844-8c13a80a181d"
+        "VlocityRecordSourceKey": "VlocityRecordSourceKey:a0H1I000001nKiEUAU"
     },
     {
         "%vlocity_namespace%__AddDate__c": "",
@@ -170,6 +170,6 @@
         "Name": "Device_Price_Opt",
         "VlocityDataPackType": "SObject",
         "VlocityRecordSObjectType": "%vlocity_namespace%__AttributeAssignment__c",
-        "VlocityRecordSourceKey": "%vlocity_namespace%__AttributeAssignment__c/%vlocity_namespace%__Attribute__c/Device_Price_Opt/Product2/dacfa0aa-e7bb-13a8-b844-8c13a80a181d"
+        "VlocityRecordSourceKey": "VlocityRecordSourceKey:a0H1I000001nKiCUAU"
     }
 ]

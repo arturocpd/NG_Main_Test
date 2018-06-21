@@ -65,6 +65,6 @@
         "Name": "ATTRIBUTE-021",
         "VlocityDataPackType": "SObject",
         "VlocityRecordSObjectType": "%vlocity_namespace%__AttributeAssignment__c",
-        "VlocityRecordSourceKey": "%vlocity_namespace%__AttributeAssignment__c/%vlocity_namespace%__Attribute__c/ATTRIBUTE-021/VlocityRecordSourceKey:01t1I0000017Et1QAE"
+        "VlocityRecordSourceKey": "VlocityRecordSourceKey:a0H1I000001nKYnUAM"
     }
 ]

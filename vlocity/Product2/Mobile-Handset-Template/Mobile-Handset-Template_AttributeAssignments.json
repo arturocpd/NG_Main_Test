@@ -94,7 +94,7 @@
         "Name": "ATTRIBUTE-016",
         "VlocityDataPackType": "SObject",
         "VlocityRecordSObjectType": "%vlocity_namespace%__AttributeAssignment__c",
-        "VlocityRecordSourceKey": "%vlocity_namespace%__AttributeAssignment__c/%vlocity_namespace%__Attribute__c/ATTRIBUTE-016/VlocityRecordSourceKey:01t1I0000017EvQQAU"
+        "VlocityRecordSourceKey": "VlocityRecordSourceKey:a0H1I000001nKZkUAM"
     },
     {
         "%vlocity_namespace%__AddDate__c": "",
@@ -184,7 +184,7 @@
         "Name": "ATTRIBUTE-017",
         "VlocityDataPackType": "SObject",
         "VlocityRecordSObjectType": "%vlocity_namespace%__AttributeAssignment__c",
-        "VlocityRecordSourceKey": "%vlocity_namespace%__AttributeAssignment__c/%vlocity_namespace%__Attribute__c/ATTRIBUTE-017/VlocityRecordSourceKey:01t1I0000017EvQQAU"
+        "VlocityRecordSourceKey": "VlocityRecordSourceKey:a0H1I000001nKZlUAM"
     },
     {
         "%vlocity_namespace%__AddDate__c": "",
@@ -252,7 +252,7 @@
         "Name": "ATTRIBUTE-064",
         "VlocityDataPackType": "SObject",
         "VlocityRecordSObjectType": "%vlocity_namespace%__AttributeAssignment__c",
-        "VlocityRecordSourceKey": "%vlocity_namespace%__AttributeAssignment__c/%vlocity_namespace%__Attribute__c/ATTRIBUTE-064/VlocityRecordSourceKey:01t1I0000017EvQQAU"
+        "VlocityRecordSourceKey": "VlocityRecordSourceKey:a0H1I000001nKZmUAM"
     },
     {
         "%vlocity_namespace%__AddDate__c": "",
@@ -320,7 +320,7 @@
         "Name": "ATTRIBUTE-065",
         "VlocityDataPackType": "SObject",
         "VlocityRecordSObjectType": "%vlocity_namespace%__AttributeAssignment__c",
-        "VlocityRecordSourceKey": "%vlocity_namespace%__AttributeAssignment__c/%vlocity_namespace%__Attribute__c/ATTRIBUTE-065/VlocityRecordSourceKey:01t1I0000017EvQQAU"
+        "VlocityRecordSourceKey": "VlocityRecordSourceKey:a0H1I000001nKZnUAM"
     },
     {
         "%vlocity_namespace%__AddDate__c": "",
@@ -388,6 +388,6 @@
         "Name": "ATTRIBUTE-066",
         "VlocityDataPackType": "SObject",
         "VlocityRecordSObjectType": "%vlocity_namespace%__AttributeAssignment__c",
-        "VlocityRecordSourceKey": "%vlocity_namespace%__AttributeAssignment__c/%vlocity_namespace%__Attribute__c/ATTRIBUTE-066/VlocityRecordSourceKey:01t1I0000017EvQQAU"
+        "VlocityRecordSourceKey": "VlocityRecordSourceKey:a0H1I000001nKZoUAM"
     }
 ]

@@ -85,7 +85,7 @@
         "Name": "ATTRIBUTE-016",
         "VlocityDataPackType": "SObject",
         "VlocityRecordSObjectType": "%vlocity_namespace%__AttributeAssignment__c",
-        "VlocityRecordSourceKey": "%vlocity_namespace%__AttributeAssignment__c/%vlocity_namespace%__Attribute__c/ATTRIBUTE-016/VlocityRecordSourceKey:01t1I0000017EriQAE"
+        "VlocityRecordSourceKey": "VlocityRecordSourceKey:a0H1I000001nKa3UAE"
     },
     {
         "%vlocity_namespace%__AddDate__c": "",
@@ -153,7 +153,7 @@
         "Name": "ATTRIBUTE-071",
         "VlocityDataPackType": "SObject",
         "VlocityRecordSObjectType": "%vlocity_namespace%__AttributeAssignment__c",
-        "VlocityRecordSourceKey": "%vlocity_namespace%__AttributeAssignment__c/%vlocity_namespace%__Attribute__c/ATTRIBUTE-071/VlocityRecordSourceKey:01t1I0000017EriQAE"
+        "VlocityRecordSourceKey": "VlocityRecordSourceKey:a0H1I000001nKacUAE"
     },
     {
         "%vlocity_namespace%__AddDate__c": "",
@@ -221,7 +221,7 @@
         "Name": "ATTRIBUTE-064",
         "VlocityDataPackType": "SObject",
         "VlocityRecordSObjectType": "%vlocity_namespace%__AttributeAssignment__c",
-        "VlocityRecordSourceKey": "%vlocity_namespace%__AttributeAssignment__c/%vlocity_namespace%__Attribute__c/ATTRIBUTE-064/VlocityRecordSourceKey:01t1I0000017EriQAE"
+        "VlocityRecordSourceKey": "VlocityRecordSourceKey:a0H1I000001nKa5UAE"
     },
     {
         "%vlocity_namespace%__AddDate__c": "",
@@ -289,7 +289,7 @@
         "Name": "ATTRIBUTE-066",
         "VlocityDataPackType": "SObject",
         "VlocityRecordSObjectType": "%vlocity_namespace%__AttributeAssignment__c",
-        "VlocityRecordSourceKey": "%vlocity_namespace%__AttributeAssignment__c/%vlocity_namespace%__Attribute__c/ATTRIBUTE-066/VlocityRecordSourceKey:01t1I0000017EriQAE"
+        "VlocityRecordSourceKey": "VlocityRecordSourceKey:a0H1I000001nKa7UAE"
     },
     {
         "%vlocity_namespace%__AddDate__c": "",
@@ -362,7 +362,7 @@
         "Name": "ATTRIBUTE-065",
         "VlocityDataPackType": "SObject",
         "VlocityRecordSObjectType": "%vlocity_namespace%__AttributeAssignment__c",
-        "VlocityRecordSourceKey": "%vlocity_namespace%__AttributeAssignment__c/%vlocity_namespace%__Attribute__c/ATTRIBUTE-065/VlocityRecordSourceKey:01t1I0000017EriQAE"
+        "VlocityRecordSourceKey": "VlocityRecordSourceKey:a0H1I000001nKa6UAE"
     },
     {
         "%vlocity_namespace%__AddDate__c": "",
@@ -464,6 +464,6 @@
         "Name": "ATTRIBUTE-017",
         "VlocityDataPackType": "SObject",
         "VlocityRecordSObjectType": "%vlocity_namespace%__AttributeAssignment__c",
-        "VlocityRecordSourceKey": "%vlocity_namespace%__AttributeAssignment__c/%vlocity_namespace%__Attribute__c/ATTRIBUTE-017/VlocityRecordSourceKey:01t1I0000017EriQAE"
+        "VlocityRecordSourceKey": "VlocityRecordSourceKey:a0H1I000001nKa4UAE"
     }
 ]
