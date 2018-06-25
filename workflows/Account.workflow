@@ -21,6 +21,11 @@
             <operation>equals</operation>
             <value>Yes</value>
         </criteriaItems>
+        <criteriaItems>
+            <field>Account.NumberOfEmployees</field>
+            <operation>equals</operation>
+            <value>3</value>
+        </criteriaItems>
         <triggerType>onCreateOnly</triggerType>
         <workflowTimeTriggers>
             <actions>
