@@ -7,8 +7,10 @@ Public Class AppleWatch{
         t.Priority    = 'High';
         t.WhatId      = opp.Id;
         insert t;
-     /*conflict here*/
-     /*change on dev1 MOD*/
+     /*conflict here test 2*/
+     //another comment
+     /* new comment*/
+     
        
     }
 
