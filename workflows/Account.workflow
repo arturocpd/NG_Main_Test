@@ -33,6 +33,15 @@
                 <type>FieldUpdate</type>
             </actions>
             <offsetFromField>Account.CreatedDate</offsetFromField>
+            <timeLength>29</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+        <workflowTimeTriggers>
+            <actions>
+                <name>update_account</name>
+                <type>FieldUpdate</type>
+            </actions>
+            <offsetFromField>Account.CreatedDate</offsetFromField>
             <timeLength>30</timeLength>
             <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
         </workflowTimeTriggers>
