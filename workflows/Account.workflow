@@ -11,7 +11,7 @@
     </fieldUpdates>
     <rules>
         <fullName>TB WF rule</fullName>
-        <active>true</active>
+        <active>false</active>
         <criteriaItems>
             <field>Account.Name</field>
             <operation>notEqual</operation>
