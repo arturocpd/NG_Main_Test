@@ -8,7 +8,9 @@ Public Class AppleWatch{
         t.WhatId      = opp.Id;
         insert t;
      /*conflict here test 2*/
-     /*change on dev1 MOD*/
+     //another comment
+     /* new comment*/
+     
        
     }
 
