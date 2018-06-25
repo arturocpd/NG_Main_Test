@@ -11,7 +11,7 @@
     </fieldUpdates>
     <rules>
         <fullName>TB WF rule</fullName>
-        <active>true</active>
+        <active>false</active>
         <criteriaItems>
             <field>Account.Name</field>
             <operation>notEqual</operation>
@@ -27,6 +27,15 @@
             <value>3</value>
         </criteriaItems>
         <triggerType>onCreateOnly</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>update_account</name>
+                <type>FieldUpdate</type>
+            </actions>
+            <offsetFromField>Account.CreatedDate</offsetFromField>
+            <timeLength>29</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
         <workflowTimeTriggers>
             <actions>
                 <name>update_account</name>
