@@ -21,7 +21,21 @@
             <operation>equals</operation>
             <value>Yes</value>
         </criteriaItems>
+        <criteriaItems>
+            <field>Account.NumberOfEmployees</field>
+            <operation>equals</operation>
+            <value>3</value>
+        </criteriaItems>
         <triggerType>onCreateOnly</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>update_account</name>
+                <type>FieldUpdate</type>
+            </actions>
+            <offsetFromField>Account.CreatedDate</offsetFromField>
+            <timeLength>29</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
         <workflowTimeTriggers>
             <actions>
                 <name>update_account</name>
