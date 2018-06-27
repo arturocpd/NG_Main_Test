@@ -13,6 +13,10 @@
         <name>ADD_AUTHENTICATION</name>
     </customLabels>
     <customLabels>
+        <label>Informacion basica</label>
+        <name>BASIC_INFORMATION</name>
+    </customLabels>
+    <customLabels>
         <label>Comit ahead</label>
         <name>COMMITS_AHEAD</name>
     </customLabels>
