@@ -199,6 +199,14 @@
         <value>Attractiveness</value>
     </labels>
     <labels>
+        <fullName>BASIC_INFORMATION</fullName>
+        <categories>Copado</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>BASIC_INFORMATION</shortDescription>
+        <value>Basic information</value>
+    </labels>
+    <labels>
         <fullName>BEMCertificate</fullName>
         <language>en_US</language>
         <protected>false</protected>
