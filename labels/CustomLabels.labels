@@ -47,6 +47,14 @@
         <value>Basic information</value>
     </labels>
     <labels>
+        <fullName>CCM_LICENSES_USED</fullName>
+        <categories>Copado</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>CCM LICENSES USED</shortDescription>
+        <value>Change Management Licenses Used</value>
+    </labels>
+    <labels>
         <fullName>COMMITS_AHEAD</fullName>
         <language>en_US</language>
         <protected>true</protected>
