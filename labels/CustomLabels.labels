@@ -89,6 +89,14 @@
         <value>TransQ</value>
     </labels>
     <labels>
+        <fullName>ACTION_COLUMN_HEADER</fullName>
+        <categories>Copado</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ACTION COLUMN HEADER</shortDescription>
+        <value>Action</value>
+    </labels>
+    <labels>
         <fullName>ADD_AUTHENTICATION</fullName>
         <categories>Copado</categories>
         <language>en_US</language>
