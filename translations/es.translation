@@ -5,6 +5,10 @@
         <name>ACCOUNT_SUMMARY</name>
     </customLabels>
     <customLabels>
+        <label>Cabecera Columna Accion</label>
+        <name>ACTION_COLUMN_HEADER</name>
+    </customLabels>
+    <customLabels>
         <label>Autenticacion Modificadata en la segunda user story</label>
         <name>ADD_AUTHENTICATION</name>
     </customLabels>
