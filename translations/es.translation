@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Translations xmlns="http://soap.sforce.com/2006/04/metadata">
     <customLabels>
-        <label>Cabecera Columna Accion</label>
-        <name>ACTION_COLUMN_HEADER</name>
+        <label>Informacion basica Modified</label>
+        <name>BASIC_INFORMATION</name>
+    </customLabels>
+    <customLabels>
+        <label>CCM licencias usadas</label>
+        <name>CCM_LICENSES_USED</name>
     </customLabels>
 </Translations>

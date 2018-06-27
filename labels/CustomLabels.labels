@@ -199,6 +199,14 @@
         <value>Attractiveness</value>
     </labels>
     <labels>
+        <fullName>BASIC_INFORMATION</fullName>
+        <categories>Copado</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>BASIC_INFORMATION</shortDescription>
+        <value>Basic information</value>
+    </labels>
+    <labels>
         <fullName>BEMCertificate</fullName>
         <language>en_US</language>
         <protected>false</protected>
@@ -226,6 +234,14 @@
         <protected>false</protected>
         <shortDescription>Bill to Name Id</shortDescription>
         <value>00N4100000UY6n8</value>
+    </labels>
+    <labels>
+        <fullName>CCM_LICENSES_USED</fullName>
+        <categories>Copado</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>CCM LICENSES USED</shortDescription>
+        <value>Change Management Licenses Used</value>
     </labels>
     <labels>
         <fullName>CLLSE43001</fullName>
