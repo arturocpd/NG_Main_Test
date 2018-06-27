@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Translations xmlns="http://soap.sforce.com/2006/04/metadata">
     <customLabels>
-        <label>Cabecera Columna Accion</label>
-        <name>ACTION_COLUMN_HEADER</name>
+        <label>comparando us projecto o release</label>
+        <name>COMPAIRING_US_PROJECT_OR_RELEASE</name>
     </customLabels>
 </Translations>
