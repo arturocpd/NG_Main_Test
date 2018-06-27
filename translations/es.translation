@@ -25,6 +25,10 @@
         <name>COMMITS_AHEAD</name>
     </customLabels>
     <customLabels>
+        <label>comparando us projecto o release</label>
+        <name>COMPAIRING_US_PROJECT_OR_RELEASE</name>
+    </customLabels>
+    <customLabels>
         <label>modificado en el segundo deployment</label>
         <name>CREATE_DEPLOYMENT</name>
     </customLabels>
