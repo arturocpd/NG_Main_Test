@@ -335,6 +335,10 @@
                 <behavior>Edit</behavior>
                 <field>Version__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Refresh_test__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>

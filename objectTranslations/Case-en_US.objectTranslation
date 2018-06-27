@@ -1137,6 +1137,10 @@
         <name>Pull_request_test__c</name>
     </fields>
     <fields>
+        <label><!-- Refresh test --></label>
+        <name>Refresh_test__c</name>
+    </fields>
+    <fields>
         <label><!-- Report test Field --></label>
         <name>Report_test_Field__c</name>
     </fields>

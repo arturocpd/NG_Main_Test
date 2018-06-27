@@ -822,6 +822,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Case.Refresh_test__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Case.Report_test_Field__c</field>
         <readable>false</readable>
     </fieldPermissions>
