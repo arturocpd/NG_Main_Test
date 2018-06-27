@@ -258,6 +258,14 @@
         <value>Commits Ahead</value>
     </labels>
     <labels>
+        <fullName>COMPAIRING_US_PROJECT_OR_RELEASE</fullName>
+        <categories>User Story Metadata Pull Request</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>COMPAIRING US PROJECT OR RELEASE</shortDescription>
+        <value>Comparing user story need to have link to a Project or to a Release</value>
+    </labels>
+    <labels>
         <fullName>CPQ_DEAL_MANAGER_PUNCH_URL</fullName>
         <language>en_US</language>
         <protected>false</protected>
