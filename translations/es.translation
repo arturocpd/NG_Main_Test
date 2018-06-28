@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Translations xmlns="http://soap.sforce.com/2006/04/metadata">
     <customLabels>
-        <label>Resumen de Cuenta MOD</label>
+        <label>Resumen de Cuenta Modified</label>
         <name>ACCOUNT_SUMMARY</name>
     </customLabels>
     <customLabels>
-        <label><!-- ACTION COLUMN HEADER --></label>
+        <label>Cabecera Columna Accion MODIFIED</label>
         <name>ACTION_COLUMN_HEADER</name>
     </customLabels>
     <customLabels>
@@ -209,7 +209,7 @@
         <name>BASE_US_PROJECT_OR_RELEASE</name>
     </customLabels>
     <customLabels>
-        <label><!-- BASIC_INFORMATION --></label>
+        <label>Informacion basica Modified</label>
         <name>BASIC_INFORMATION</name>
     </customLabels>
     <customLabels>
@@ -329,7 +329,7 @@
         <name>CCM_DESTINATION_ORG_INVALID</name>
     </customLabels>
     <customLabels>
-        <label><!-- CCM LICENSES USED --></label>
+        <label>CCM licencias usadas</label>
         <name>CCM_LICENSES_USED</name>
     </customLabels>
     <customLabels>
@@ -401,7 +401,7 @@
         <name>COMPAIRING_US_DEPLOYMENT_FLOW</name>
     </customLabels>
     <customLabels>
-        <label><!-- COMPAIRING US PROJECT OR RELEASE --></label>
+        <label>comparando us projecto o release</label>
         <name>COMPAIRING_US_PROJECT_OR_RELEASE</name>
     </customLabels>
     <customLabels>
