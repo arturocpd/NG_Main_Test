@@ -4,7 +4,7 @@ Body - https://Dev1fakeurl.html
 
 This is the URL that must be changed in UAT:
 
-{!Environment.Template_Url}
+{!Environment.Template_Url}content/mytr/en/signin.html%26
 
 Thanks,
 Kind regards,
