@@ -25,7 +25,7 @@
         "%vlocity_namespace%__TypeFieldName__c": null,
         "%vlocity_namespace%__TypeFieldValue__c": null,
         "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
-        "VlocityLookupRecordSourceKey": "VlocityRecordSourceKey:a2A1I000000YfBFUA0",
+        "VlocityLookupRecordSourceKey": "%vlocity_namespace%__VlocityStateModel__c/Contract State Model",
         "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityStateModel__c"
     },
     "%vlocity_namespace%__URL__c": "/{0}",

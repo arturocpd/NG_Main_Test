@@ -1,0 +1,136 @@
+[
+    {
+        "%vlocity_namespace%__CalculationMatrixId__c": {
+            "Name": "Internet Attribute Based Pricing",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__CalculationMatrix__c/Internet Attribute Based Pricing",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrix__c"
+        },
+        "%vlocity_namespace%__CalculationProcedureId__c": {
+            "Name": "Attribute Based Pricing",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationProcedure__c/Attribute Based Pricing",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedure__c"
+        },
+        "%vlocity_namespace%__CalculationProcedureVersionId__c": {
+            "%vlocity_namespace%__CalculationProcedureId__r.Name": "Attribute Based Pricing",
+            "%vlocity_namespace%__VersionNumber__c": 4,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationProcedureVersion__c/4/%vlocity_namespace%__CalculationProcedure__c/Attribute Based Pricing",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedureVersion__c"
+        },
+        "%vlocity_namespace%__Function__c": "Matrix Lookup",
+        "%vlocity_namespace%__Input__c": "[{\"columnKey\":\"d71d2d\",\"dataType\":\"Text\",\"label\":null,\"listValues\":null,\"name\":\"Product\"},{\"columnKey\":\"5eab63\",\"dataType\":\"Text\",\"label\":null,\"listValues\":null,\"name\":\"ATTRIBUTE-120\"},{\"columnKey\":\"8d7fe4\",\"dataType\":\"Text\",\"label\":null,\"listValues\":null,\"name\":\"ATTRIBUTE-127\"}]",
+        "%vlocity_namespace%__IsConditionalStep__c": false,
+        "%vlocity_namespace%__IsIncludedInResult__c": true,
+        "%vlocity_namespace%__OutputJSON__c": "[{\"columnKey\":\"a1e1ce\",\"dataType\":\"Currency\",\"label\":null,\"listValues\":null,\"name\":\"OneTimeChargeOverride\"},{\"columnKey\":\"a9d736\",\"dataType\":\"Currency\",\"label\":null,\"listValues\":null,\"name\":\"RecurringChargeOverride\"}]",
+        "%vlocity_namespace%__OutputMappingJSON__c": "{\"OneTimeChargeOverride\":\"InternetAttributeBasedPricing__OneTimeChargeOverride\",\"RecurringChargeOverride\":\"InternetAttributeBasedPricing__RecurringChargeOverride\"}",
+        "%vlocity_namespace%__Sequence__c": 1,
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedureStep__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationFormulaTags__c": "[{\"text\":\"OneTimeChargeOverride ( Internet Attribute Based Pricing )\",\"alias\":\"InternetAttributeBasedPricing__OneTimeChargeOverride\",\"userDefined\":false,\"dataType\":\"Currency\"}]",
+        "%vlocity_namespace%__CalculationFormula__c": "InternetAttributeBasedPricing__OneTimeChargeOverride",
+        "%vlocity_namespace%__CalculationProcedureId__c": {
+            "Name": "Attribute Based Pricing",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationProcedure__c/Attribute Based Pricing",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedure__c"
+        },
+        "%vlocity_namespace%__CalculationProcedureVersionId__c": {
+            "%vlocity_namespace%__CalculationProcedureId__r.Name": "Attribute Based Pricing",
+            "%vlocity_namespace%__VersionNumber__c": 4,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationProcedureVersion__c/4/%vlocity_namespace%__CalculationProcedure__c/Attribute Based Pricing",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedureVersion__c"
+        },
+        "%vlocity_namespace%__Function__c": "Calculation",
+        "%vlocity_namespace%__Input__c": "[]",
+        "%vlocity_namespace%__IsConditionalStep__c": false,
+        "%vlocity_namespace%__IsIncludedInResult__c": true,
+        "%vlocity_namespace%__OutputJSON__c": "{\"name\":\"OneTimeCalculatedPrice\",\"dataType\":\"Currency\",\"alias\":\"OneTimeCalculatedPrice\"}",
+        "%vlocity_namespace%__OutputMappingJSON__c": "{\"OneTimeCalculatedPrice\":\"OneTimeCalculatedPrice\"}",
+        "%vlocity_namespace%__Sequence__c": 2,
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedureStep__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationFormulaTags__c": "[{\"text\":\"RecurringChargeOverride ( Internet Attribute Based Pricing )\",\"alias\":\"InternetAttributeBasedPricing__RecurringChargeOverride\",\"userDefined\":false,\"dataType\":\"Currency\"}]",
+        "%vlocity_namespace%__CalculationFormula__c": "InternetAttributeBasedPricing__RecurringChargeOverride",
+        "%vlocity_namespace%__CalculationProcedureId__c": {
+            "Name": "Attribute Based Pricing",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationProcedure__c/Attribute Based Pricing",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedure__c"
+        },
+        "%vlocity_namespace%__CalculationProcedureVersionId__c": {
+            "%vlocity_namespace%__CalculationProcedureId__r.Name": "Attribute Based Pricing",
+            "%vlocity_namespace%__VersionNumber__c": 4,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationProcedureVersion__c/4/%vlocity_namespace%__CalculationProcedure__c/Attribute Based Pricing",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedureVersion__c"
+        },
+        "%vlocity_namespace%__Function__c": "Calculation",
+        "%vlocity_namespace%__Input__c": "[]",
+        "%vlocity_namespace%__IsConditionalStep__c": false,
+        "%vlocity_namespace%__IsIncludedInResult__c": true,
+        "%vlocity_namespace%__OutputJSON__c": "{\"name\":\"RecurringCalculatedPrice\",\"dataType\":\"Currency\",\"alias\":\"RecurringCalculatedPrice\"}",
+        "%vlocity_namespace%__OutputMappingJSON__c": "{\"RecurringCalculatedPrice\":\"RecurringCalculatedPrice\"}",
+        "%vlocity_namespace%__Sequence__c": 3,
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedureStep__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationFormulaTags__c": "[{\"text\":\"RecurringCalculatedPrice\",\"alias\":\"RecurringCalculatedPrice\",\"userDefined\":true,\"dataType\":\"Currency\"},{\"text\":\"*\",\"alias\":\"*\"},{\"text\":\"Quantity\",\"alias\":\"Quantity\",\"userDefined\":true,\"dataType\":\"Number\"}]",
+        "%vlocity_namespace%__CalculationFormula__c": "RecurringCalculatedPrice * Quantity",
+        "%vlocity_namespace%__CalculationProcedureId__c": {
+            "Name": "Attribute Based Pricing",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationProcedure__c/Attribute Based Pricing",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedure__c"
+        },
+        "%vlocity_namespace%__CalculationProcedureVersionId__c": {
+            "%vlocity_namespace%__CalculationProcedureId__r.Name": "Attribute Based Pricing",
+            "%vlocity_namespace%__VersionNumber__c": 4,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationProcedureVersion__c/4/%vlocity_namespace%__CalculationProcedure__c/Attribute Based Pricing",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedureVersion__c"
+        },
+        "%vlocity_namespace%__Function__c": "Calculation",
+        "%vlocity_namespace%__Input__c": "[{\"name\":\"RecurringCalculatedPrice\",\"dataType\":\"Currency\"},{\"name\":\"Quantity\",\"dataType\":\"Number\"}]",
+        "%vlocity_namespace%__IsConditionalStep__c": false,
+        "%vlocity_namespace%__IsIncludedInResult__c": true,
+        "%vlocity_namespace%__OutputJSON__c": "{\"name\":\"RecurringTotal\",\"dataType\":\"Currency\",\"alias\":\"RecurringTotal\"}",
+        "%vlocity_namespace%__OutputMappingJSON__c": "{\"RecurringTotal\":\"RecurringTotal\"}",
+        "%vlocity_namespace%__Sequence__c": 4,
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedureStep__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationFormulaTags__c": "[{\"text\":\"OneTimeCalculatedPrice\",\"alias\":\"OneTimeCalculatedPrice\",\"userDefined\":true,\"dataType\":\"Currency\"},{\"text\":\"*\",\"alias\":\"*\"},{\"text\":\"Quantity\",\"alias\":\"Quantity\",\"userDefined\":true,\"dataType\":\"Number\"}]",
+        "%vlocity_namespace%__CalculationFormula__c": "OneTimeCalculatedPrice * Quantity",
+        "%vlocity_namespace%__CalculationProcedureId__c": {
+            "Name": "Attribute Based Pricing",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationProcedure__c/Attribute Based Pricing",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedure__c"
+        },
+        "%vlocity_namespace%__CalculationProcedureVersionId__c": {
+            "%vlocity_namespace%__CalculationProcedureId__r.Name": "Attribute Based Pricing",
+            "%vlocity_namespace%__VersionNumber__c": 4,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationProcedureVersion__c/4/%vlocity_namespace%__CalculationProcedure__c/Attribute Based Pricing",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedureVersion__c"
+        },
+        "%vlocity_namespace%__Function__c": "Calculation",
+        "%vlocity_namespace%__Input__c": "[{\"name\":\"OneTimeCalculatedPrice\",\"dataType\":\"Currency\"},{\"name\":\"Quantity\",\"dataType\":\"Number\"}]",
+        "%vlocity_namespace%__IsConditionalStep__c": false,
+        "%vlocity_namespace%__IsIncludedInResult__c": true,
+        "%vlocity_namespace%__OutputJSON__c": "{\"name\":\"OneTimeTotal\",\"dataType\":\"Currency\",\"alias\":\"OneTimeTotal\"}",
+        "%vlocity_namespace%__OutputMappingJSON__c": "{\"OneTimeTotal\":\"OneTimeTotal\"}",
+        "%vlocity_namespace%__Sequence__c": 5,
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedureStep__c"
+    }
+]
