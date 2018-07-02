@@ -8,10 +8,10 @@
     "ParentId": {
         "%vlocity_namespace%__GlobalKey__c": null,
         "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
-        "VlocityLookupRecordSourceKey": "VlocityRecordSourceKey:01t1I0000017EqxQAE",
+        "VlocityLookupRecordSourceKey": "VlocityRecordSourceKey:01t1I0000017Er6QAE",
         "VlocityRecordSObjectType": "Product2"
     },
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "Attachment",
-    "VlocityRecordSourceKey": "Attachment/VlocityRecordSourceKey:01t1I0000017EqxQAE/TNInstallation.png"
+    "VlocityRecordSourceKey": "Attachment/VlocityRecordSourceKey:01t1I0000017Er6QAE/TNInstallation.png"
 }

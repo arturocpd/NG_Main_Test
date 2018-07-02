@@ -12,18 +12,18 @@
         "VlocityLookupRecordSourceKey": "%vlocity_namespace%__OrchestrationPlanDefinition__c/Billing",
         "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationPlanDefinition__c"
     },
-    "%vlocity_namespace%__DependencyType__c": "Depends On",
+    "%vlocity_namespace%__DependencyType__c": "Should Be Processed Before",
     "%vlocity_namespace%__GlobalKey__c": "",
     "%vlocity_namespace%__OrchestrationItemDefinitionId__c": {
-        "%vlocity_namespace%__OrchestrationPlanDefinitionId__r.Name": "Cancel E2E",
-        "Name": "Complete Cancel Order",
+        "%vlocity_namespace%__OrchestrationPlanDefinitionId__r.Name": "Cancel TV",
+        "Name": "Cancel TV",
         "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
-        "VlocityLookupRecordSourceKey": "%vlocity_namespace%__OrchestrationItemDefinition__c/Complete Cancel Order/%vlocity_namespace%__OrchestrationPlanDefinition__c/Cancel E2E",
+        "VlocityLookupRecordSourceKey": "%vlocity_namespace%__OrchestrationItemDefinition__c/Cancel TV/%vlocity_namespace%__OrchestrationPlanDefinition__c/Cancel TV",
         "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationItemDefinition__c"
     },
     "%vlocity_namespace%__Scope__c": "",
     "Name": "Update Billing",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationDependencyDefinition__c",
-    "VlocityRecordSourceKey": "VlocityRecordSourceKey:a2Y1I000000XvXfUAK"
+    "VlocityRecordSourceKey": "VlocityRecordSourceKey:a2Y1I000000XvXiUAK"
 }
