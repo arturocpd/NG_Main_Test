@@ -1322,6 +1322,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Event.Type</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Event.Year__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -2183,6 +2188,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Task.Time__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Task.Type</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
