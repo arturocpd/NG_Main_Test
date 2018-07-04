@@ -59,6 +59,9 @@
         <fullName>IsRecurrence</fullName>
     </fields>
     <fields>
+        <fullName>IsReminderSet</fullName>
+    </fields>
+    <fields>
         <fullName>OwnerId</fullName>
         <type>Lookup</type>
     </fields>
@@ -98,60 +101,5 @@
         <fullName>WhoId</fullName>
         <type>Lookup</type>
     </fields>
-    <recordTypes>
-        <fullName>General</fullName>
-        <active>true</active>
-        <label>General</label>
-        <picklistValues>
-            <picklist>Next_Time__c</picklist>
-            <values>
-                <fullName>Friday</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Monday</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Saturday</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Sunday</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Thursday</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>TuTuTuesday</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Tuesday</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Wednesday</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
-            <picklist>AAATask__c</picklist>
-            <values>
-                <fullName>2</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>4</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>5</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-    </recordTypes>
     <sharingModel>Private</sharingModel>
 </CustomObject>

@@ -5,11 +5,19 @@
         <settingValue>false</settingValue>
     </preferences>
     <preferences>
+        <settingName>DeleteMonitoringDataEnabled</settingName>
+        <settingValue>false</settingValue>
+    </preferences>
+    <preferences>
         <settingName>SendThroughGmailPref</settingName>
         <settingValue>false</settingValue>
     </preferences>
     <preferences>
         <settingName>LoginForensicsEnabled</settingName>
+        <settingValue>false</settingValue>
+    </preferences>
+    <preferences>
+        <settingName>ReportDataCaptureEnabled</settingName>
         <settingValue>false</settingValue>
     </preferences>
     <preferences>
@@ -25,18 +33,6 @@
         <settingValue>true</settingValue>
     </preferences>
     <preferences>
-        <settingName>XssProtection</settingName>
-        <settingValue>true</settingValue>
-    </preferences>
-    <preferences>
-        <settingName>ContentSniffingProtection</settingName>
-        <settingValue>true</settingValue>
-    </preferences>
-    <preferences>
-        <settingName>UpgradeInsecureRequestsPref</settingName>
-        <settingValue>false</settingValue>
-    </preferences>
-    <preferences>
         <settingName>PathAssistantsEnabled</settingName>
         <settingValue>false</settingValue>
     </preferences>
@@ -46,14 +42,10 @@
     </preferences>
     <preferences>
         <settingName>Translation</settingName>
-        <settingValue>true</settingValue>
+        <settingValue>false</settingValue>
     </preferences>
     <preferences>
-        <settingName>S1DesktopEnabled</settingName>
-        <settingValue>true</settingValue>
-    </preferences>
-    <preferences>
-        <settingName>NotesReservedPref01</settingName>
+        <settingName>UseLanguageFallback</settingName>
         <settingValue>false</settingValue>
     </preferences>
     <preferences>
@@ -61,12 +53,12 @@
         <settingValue>false</settingValue>
     </preferences>
     <preferences>
-        <settingName>NetworksEnabled</settingName>
+        <settingName>ApexApprovalLockUnlock</settingName>
         <settingValue>false</settingValue>
     </preferences>
     <preferences>
-        <settingName>AnalyticsSharingEnable</settingName>
-        <settingValue>true</settingValue>
+        <settingName>NetworksEnabled</settingName>
+        <settingValue>false</settingValue>
     </preferences>
     <preferences>
         <settingName>VoiceEnabled</settingName>
@@ -89,6 +81,14 @@
         <settingValue>false</settingValue>
     </preferences>
     <preferences>
+        <settingName>VoiceCoachingEnabled</settingName>
+        <settingValue>false</settingValue>
+    </preferences>
+    <preferences>
+        <settingName>VoiceCallRecordingEnabled</settingName>
+        <settingValue>false</settingValue>
+    </preferences>
+    <preferences>
         <settingName>S1OfflinePref</settingName>
         <settingValue>true</settingValue>
     </preferences>
@@ -107,5 +107,65 @@
     <preferences>
         <settingName>SelfSetPasswordInApi</settingName>
         <settingValue>true</settingValue>
+    </preferences>
+    <preferences>
+        <settingName>VerifyOn2faRegistration</settingName>
+        <settingValue>true</settingValue>
+    </preferences>
+    <preferences>
+        <settingName>VerifyOnEmailChange</settingName>
+        <settingValue>false</settingValue>
+    </preferences>
+    <preferences>
+        <settingName>XssProtection</settingName>
+        <settingValue>true</settingValue>
+    </preferences>
+    <preferences>
+        <settingName>ContentSniffingProtection</settingName>
+        <settingValue>true</settingValue>
+    </preferences>
+    <preferences>
+        <settingName>UpgradeInsecureRequestsPref</settingName>
+        <settingValue>true</settingValue>
+    </preferences>
+    <preferences>
+        <settingName>ReferrerPolicy</settingName>
+        <settingValue>true</settingValue>
+    </preferences>
+    <preferences>
+        <settingName>HstsSitesCommunities</settingName>
+        <settingValue>false</settingValue>
+    </preferences>
+    <preferences>
+        <settingName>RedirectionWarning</settingName>
+        <settingValue>true</settingValue>
+    </preferences>
+    <preferences>
+        <settingName>S1DesktopEnabled</settingName>
+        <settingValue>true</settingValue>
+    </preferences>
+    <preferences>
+        <settingName>UsersAreLightningOnly</settingName>
+        <settingValue>false</settingValue>
+    </preferences>
+    <preferences>
+        <settingName>RemoveThemeBrandBanner</settingName>
+        <settingValue>false</settingValue>
+    </preferences>
+    <preferences>
+        <settingName>NotesReservedPref01</settingName>
+        <settingValue>false</settingValue>
+    </preferences>
+    <preferences>
+        <settingName>AnalyticsSharingEnable</settingName>
+        <settingValue>true</settingValue>
+    </preferences>
+    <preferences>
+        <settingName>TerritoryManagement2Enable</settingName>
+        <settingValue>false</settingValue>
+    </preferences>
+    <preferences>
+        <settingName>CompileOnDeploy</settingName>
+        <settingValue>false</settingValue>
     </preferences>
 </OrgPreferenceSettings>
