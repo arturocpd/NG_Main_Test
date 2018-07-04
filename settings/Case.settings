@@ -27,7 +27,7 @@
     <useSystemUserAsDefaultCaseUser>false</useSystemUserAsDefaultCaseUser>
     <webToCase>
         <caseOrigin>Web</caseOrigin>
-        <defaultResponseTemplate>unfiled$public/SupportCaseCreatedWebInquiries</defaultResponseTemplate>
+        <defaultResponseTemplate>AR_template_folder/SupportCaseCreatedWebInquiries</defaultResponseTemplate>
         <enableWebToCase>true</enableWebToCase>
     </webToCase>
 </CaseSettings>
