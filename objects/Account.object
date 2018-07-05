@@ -226,6 +226,10 @@
         <fullName>IsCustomerPortal</fullName>
     </fields>
     <fields>
+        <fullName>IsExcludedFromRealign</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
         <fullName>IsPartner</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
