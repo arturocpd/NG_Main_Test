@@ -66,6 +66,12 @@
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <compactLayouts>
+        <fullName>Compact_Test</fullName>
+        <fields>Name</fields>
+        <fields>OwnerId</fields>
+        <label>Compact Test</label>
+    </compactLayouts>
+    <compactLayouts>
         <fullName>Custom_Acc_Compact_Layout</fullName>
         <fields>Name</fields>
         <fields>Industry</fields>
@@ -117,6 +123,12 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
+        <fullName>ChannelProgramLevelName</fullName>
+    </fields>
+    <fields>
+        <fullName>ChannelProgramName</fullName>
+    </fields>
+    <fields>
         <fullName>CleanStatus</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
@@ -144,6 +156,11 @@
                     <fullName>Medium</fullName>
                     <default>false</default>
                     <label>Medium</label>
+                </value>
+                <value>
+                    <fullName>None</fullName>
+                    <default>false</default>
+                    <label>None</label>
                 </value>
             </valueSetDefinition>
         </valueSet>
@@ -177,12 +194,40 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
+        <fullName>Field_1__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Field 1</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Field_2__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Field 2</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Field_3__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Field 3</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>Industry</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Picklist</type>
     </fields>
     <fields>
         <fullName>IsCustomerPortal</fullName>
+    </fields>
+    <fields>
+        <fullName>IsExcludedFromRealign</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
         <fullName>IsPartner</fullName>
@@ -300,6 +345,11 @@
                     <fullName>Iron</fullName>
                     <default>false</default>
                     <label>Iron</label>
+                </value>
+                <value>
+                    <fullName>Wood</fullName>
+                    <default>false</default>
+                    <label>Wood</label>
                 </value>
             </valueSetDefinition>
         </valueSet>
@@ -424,31 +474,8 @@
     <recordTypes>
         <fullName>Record_Type1</fullName>
         <active>true</active>
-        <compactLayoutAssignment>Custom_Acc_Compact_Layout</compactLayoutAssignment>
+        <compactLayoutAssignment>Compact_Test</compactLayoutAssignment>
         <label>Record Type1</label>
-        <picklistValues>
-            <picklist>SLA__c</picklist>
-            <values>
-                <fullName>Bronze</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Gold</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Iron</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Platinum</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Silver</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
         <picklistValues>
             <picklist>AccountSource</picklist>
             <values>
@@ -495,6 +522,10 @@
             </values>
             <values>
                 <fullName>Medium</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>None</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -660,6 +691,33 @@
             </values>
             <values>
                 <fullName>Warm</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SLA__c</picklist>
+            <values>
+                <fullName>Bronze</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Gold</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Iron</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Platinum</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Silver</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Wood</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -716,29 +774,6 @@
         <compactLayoutAssignment>Custom_Acc_Compact_Layout</compactLayoutAssignment>
         <label>Record Type2</label>
         <picklistValues>
-            <picklist>SLA__c</picklist>
-            <values>
-                <fullName>Bronze</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Gold</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Iron</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Platinum</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Silver</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
             <picklist>AccountSource</picklist>
             <values>
                 <fullName>Other</fullName>
@@ -949,6 +984,33 @@
             </values>
             <values>
                 <fullName>Warm</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SLA__c</picklist>
+            <values>
+                <fullName>Bronze</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Gold</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Iron</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Platinum</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Silver</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Wood</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -1007,10 +1069,6 @@
         <lookupDialogsAdditionalFields>ACCOUNT.SITE</lookupDialogsAdditionalFields>
         <lookupDialogsAdditionalFields>CORE.USERS.ALIAS</lookupDialogsAdditionalFields>
         <lookupDialogsAdditionalFields>ACCOUNT.TYPE</lookupDialogsAdditionalFields>
-        <lookupFilterFields>ACCOUNT.NAME</lookupFilterFields>
-        <lookupFilterFields>ACCOUNT.SITE</lookupFilterFields>
-        <lookupFilterFields>CORE.USERS.ALIAS</lookupFilterFields>
-        <lookupFilterFields>ACCOUNT.TYPE</lookupFilterFields>
         <lookupPhoneDialogsAdditionalFields>ACCOUNT.NAME</lookupPhoneDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>ACCOUNT.SITE</lookupPhoneDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>CORE.USERS.ALIAS</lookupPhoneDialogsAdditionalFields>
