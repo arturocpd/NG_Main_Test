@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>ACTION_COLUMN_HEADER</members>
-        <name>CustomLabel</name>
-    </types>
-    <types>
-        <members>es</members>
-        <name>Translations</name>
+        <members>FLS_Version_8_field</members>
+        <members>FPT_Permission_Set</members>
+        <members>NEW_view_all_PS</members>
+        <members>New_PS</members>
+        <name>PermissionSet</name>
     </types>
     <version>42.0</version>
 </Package>
