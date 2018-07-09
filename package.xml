@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Case.Bug_Fix_Test3__c</members>
-        <name>CustomField</name>
-    </types>
-    <types>
-        <members>Test Bug Fix (a211I000000OXetQAG)</members>
-        <name>VlocityAction</name>
+        <members>VDO Move English (a1I1I000001CCNeUAO)</members>
+        <name>OmniScript</name>
     </types>
     <version>42.0</version>
 </Package>
