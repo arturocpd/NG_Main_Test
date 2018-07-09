@@ -7,8 +7,8 @@ Public Class AppleWatch{
         t.Priority    = 'High';
         t.WhatId      = opp.Id;
         insert t;
-     /*this change is made on master*/
-     /*change on dev1*/
+     /*conflict here*/
+     /*change on dev1 MOD*/
        
     }
 
