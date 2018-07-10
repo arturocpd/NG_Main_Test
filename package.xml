@@ -10,7 +10,7 @@
     </types>
     <types>
         <members>Account.Business_Account</members>
-        <members>Account.PersonAccount</members>
+        <members>PersonAccount.PersonAccount</members>
         <name>RecordType</name>
     </types>
     <version>42.0</version>

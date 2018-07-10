@@ -326,6 +326,11 @@
                     <default>false</default>
                     <label>Wood</label>
                 </value>
+                <value>
+                    <fullName>Plastic</fullName>
+                    <default>false</default>
+                    <label>Plastic</label>
+                </value>
             </valueSetDefinition>
         </valueSet>
     </fields>
@@ -459,6 +464,10 @@
             </values>
             <values>
                 <fullName>Gold</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Plastic</fullName>
                 <default>false</default>
             </values>
             <values>
