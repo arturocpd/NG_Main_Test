@@ -5,6 +5,11 @@
         <name>CustomField</name>
     </types>
     <types>
+        <members>Account</members>
+        <members>PersonAccount</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
         <members>Account.Business_Account</members>
         <members>Account.PersonAccount</members>
         <name>RecordType</name>
