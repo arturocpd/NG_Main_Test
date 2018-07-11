@@ -320,14 +320,29 @@
                     <label>Bronze</label>
                 </value>
                 <value>
+                    <fullName>Wood</fullName>
+                    <default>false</default>
+                    <label>Wood</label>
+                </value>
+                <value>
                     <fullName>Plastic</fullName>
                     <default>false</default>
                     <label>Plastic</label>
                 </value>
                 <value>
-                    <fullName>Wood</fullName>
+                    <fullName>PLUS 1500 (0597)</fullName>
                     <default>false</default>
-                    <label>Wood</label>
+                    <label>PLUS 1500 (0597)</label>
+                </value>
+                <value>
+                    <fullName>PLUS 1500 0597</fullName>
+                    <default>false</default>
+                    <label>PLUS 1500 0597</label>
+                </value>
+                <value>
+                    <fullName>Carbon</fullName>
+                    <default>false</default>
+                    <label>Carbon</label>
                 </value>
             </valueSetDefinition>
         </valueSet>
@@ -460,7 +475,19 @@
                 <default>false</default>
             </values>
             <values>
+                <fullName>Carbon</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Gold</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PLUS 1500 %280597%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PLUS 1500 0597</fullName>
                 <default>false</default>
             </values>
             <values>
