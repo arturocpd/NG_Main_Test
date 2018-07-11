@@ -380,6 +380,10 @@
                 <default>false</default>
             </values>
             <values>
+                <fullName>Carbon</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Gold</fullName>
                 <default>false</default>
             </values>
