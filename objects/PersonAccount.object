@@ -388,6 +388,10 @@
                 <default>false</default>
             </values>
             <values>
+                <fullName>PLUS 1500 0597</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Plastic</fullName>
                 <default>false</default>
             </values>
