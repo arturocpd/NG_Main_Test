@@ -336,6 +336,11 @@
                     <default>false</default>
                     <label>PLUS 1500 (0597)</label>
                 </value>
+                <value>
+                    <fullName>PLUS 1500 0597</fullName>
+                    <default>false</default>
+                    <label>PLUS 1500 0597</label>
+                </value>
             </valueSetDefinition>
         </valueSet>
     </fields>
@@ -473,6 +478,10 @@
             </values>
             <values>
                 <fullName>PLUS 1500 %280597%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PLUS 1500 0597</fullName>
                 <default>false</default>
             </values>
             <values>
