@@ -1140,6 +1140,10 @@
         <label><!-- SLA Violation --></label>
         <name>SLAViolation__c</name>
         <picklistValues>
+            <masterLabel>Maybe</masterLabel>
+            <translation><!-- Maybe --></translation>
+        </picklistValues>
+        <picklistValues>
             <masterLabel>No</masterLabel>
             <translation><!-- No --></translation>
         </picklistValues>
@@ -3336,6 +3340,10 @@
     <fields>
         <label><!-- test deploy --></label>
         <name>test_deploy__c</name>
+    </fields>
+    <fields>
+        <label><!-- validatecommit --></label>
+        <name>validatecommit__c</name>
     </fields>
     <validationRules>
         <errorMessage><!-- Never triggered --></errorMessage>

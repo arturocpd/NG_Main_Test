@@ -2020,6 +2020,11 @@
                     <default>false</default>
                     <label>Yes</label>
                 </value>
+                <value>
+                    <fullName>Maybe</fullName>
+                    <default>false</default>
+                    <label>Maybe</label>
+                </value>
             </valueSetDefinition>
         </valueSet>
     </fields>
@@ -5007,6 +5012,16 @@
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
     </fields>
+    <fields>
+        <fullName>validatecommit__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>validatecommit</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
     <listViews>
         <fullName>AllClosedCases</fullName>
         <columns>CASES.CASE_NUMBER</columns>
@@ -5661,6 +5676,10 @@
         </picklistValues>
         <picklistValues>
             <picklist>SLAViolation__c</picklist>
+            <values>
+                <fullName>Maybe</fullName>
+                <default>false</default>
+            </values>
             <values>
                 <fullName>No</fullName>
                 <default>false</default>

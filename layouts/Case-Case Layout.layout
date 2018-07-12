@@ -326,6 +326,10 @@
                 <behavior>Edit</behavior>
                 <field>Refresh_test__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>validatecommit__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
