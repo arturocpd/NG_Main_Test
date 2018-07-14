@@ -65,9 +65,12 @@
     </fields>
     <gender>Feminine</gender>
     <label>Delete me</label>
-    <nameField n1:nil="true" />
+    <nameField>
+        <label>Delete me Name</label>
+        <type>Text</type>
+    </nameField>
     <pluralLabel>delete me</pluralLabel>
-    <searchLayouts n1:nil="true" />
+    <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>
