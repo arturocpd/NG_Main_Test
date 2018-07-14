@@ -8,5 +8,9 @@
         <members>Delete_me__c-Delete me Layout</members>
         <name>Layout</name>
     </types>
+    <types>
+        <members>Admin CLONE</members>
+        <name>Profile</name>
+    </types>
     <version>42.0</version>
 </Package>
