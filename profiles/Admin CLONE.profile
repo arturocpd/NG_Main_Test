@@ -1509,6 +1509,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Delete_me__c.check1__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Dinner__c.LateDinner__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -3292,6 +3297,9 @@
         <layout>DandBCompany-D%26B Company Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Delete_me__c-Delete me Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Dinner__c-Dinner Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -4688,15 +4696,6 @@
         <modifyAllRecords>true</modifyAllRecords>
         <object>DandBCompany</object>
         <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>Delete_me__c</object>
-        <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
         <allowCreate>true</allowCreate>
