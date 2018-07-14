@@ -65,6 +65,14 @@
         <name>CI_test_3__c</name>
     </fields>
     <fields>
+        <label><!-- CO1 --></label>
+        <name>CO1__c</name>
+    </fields>
+    <fields>
+        <label><!-- CO2 --></label>
+        <name>CO2__c</name>
+    </fields>
+    <fields>
         <label><!-- CaseTime --></label>
         <name>CaseTime__c</name>
     </fields>
