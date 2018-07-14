@@ -285,6 +285,11 @@
                     <default>false</default>
                     <label>Value3</label>
                 </value>
+                <value>
+                    <fullName>PLUS 1500 (0597)</fullName>
+                    <default>false</default>
+                    <label>PLUS 1500 (0597)</label>
+                </value>
             </valueSetDefinition>
         </valueSet>
     </fields>
@@ -502,6 +507,10 @@
         <label>Business Account</label>
         <picklistValues>
             <picklist>PA_Test_Field__c</picklist>
+            <values>
+                <fullName>PLUS 1500 %280597%29</fullName>
+                <default>false</default>
+            </values>
             <values>
                 <fullName>Value 1</fullName>
                 <default>false</default>
