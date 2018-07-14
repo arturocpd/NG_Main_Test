@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata"
+      xmlns:n1="http://www.w3.org/2001/XMLSchema-instance">
     <compactLayoutAssignment>SYSTEMPersonAccount</compactLayoutAssignment>
+    <description n1:nil="true" />
     <enableHistory>false</enableHistory>
+    <nameField n1:nil="true" />
     <recordTypes>
         <fullName>PA_record_Type</fullName>
         <active>true</active>
@@ -322,6 +325,10 @@
         <label>PersonAccount</label>
         <picklistValues>
             <picklist>PA_Test_Field__c</picklist>
+            <values>
+                <fullName>PLUS 1500 %280597%29</fullName>
+                <default>false</default>
+            </values>
             <values>
                 <fullName>Value 1</fullName>
                 <default>false</default>
@@ -650,5 +657,6 @@
             </values>
         </picklistValues>
     </recordTypes>
+    <searchLayouts n1:nil="true" />
     <sharingModel>ReadWrite</sharingModel>
 </CustomObject>
