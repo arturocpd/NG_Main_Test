@@ -258,6 +258,30 @@
         <type>Picklist</type>
     </fields>
     <fields>
+        <fullName>PA_Test_Field__c</fullName>
+        <externalId>false</externalId>
+        <label>PA Test Field</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Value 1</fullName>
+                    <default>false</default>
+                    <label>Value 1</label>
+                </value>
+                <value>
+                    <fullName>Value 2</fullName>
+                    <default>false</default>
+                    <label>Value 2</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>ParentId</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Hierarchy</type>
@@ -453,6 +477,17 @@
         <fullName>Business_Account</fullName>
         <active>true</active>
         <label>Business Account</label>
+        <picklistValues>
+            <picklist>PA_Test_Field__c</picklist>
+            <values>
+                <fullName>Value 1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Value 2</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
         <picklistValues>
             <picklist>SLA__c</picklist>
             <values>
