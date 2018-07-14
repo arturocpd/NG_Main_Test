@@ -321,6 +321,25 @@
         <active>true</active>
         <label>PersonAccount</label>
         <picklistValues>
+            <picklist>PA_Test_Field__c</picklist>
+            <values>
+                <fullName>PLUS 1500 %280597%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Value 1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Value 2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Value3</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
             <picklist>AccountSource</picklist>
             <values>
                 <fullName>Other</fullName>
@@ -531,17 +550,6 @@
             </values>
             <values>
                 <fullName>Subsidiary</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
-            <picklist>PA_Test_Field__c</picklist>
-            <values>
-                <fullName>Value 1</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Value 2</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
