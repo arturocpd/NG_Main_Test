@@ -290,6 +290,10 @@
                 <behavior>Edit</behavior>
                 <field>CO2__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Destructive_changes_test__c</field>
+            </layoutItems>
         </layoutColumns>
         <style>OneColumn</style>
     </layoutSections>

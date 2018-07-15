@@ -537,6 +537,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Case.Destructive_changes_test__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Case.Duplicate_test__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -1043,6 +1048,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>ContractLineItem.TotalPrice</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Delete_me__c.check1__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>

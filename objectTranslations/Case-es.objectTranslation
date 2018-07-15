@@ -569,6 +569,10 @@
         </picklistValues>
     </fields>
     <fields>
+        <label><!-- Destructive changes test --></label>
+        <name>Destructive_changes_test__c</name>
+    </fields>
+    <fields>
         <label><!-- Duplicate test --></label>
         <name>Duplicate_test__c</name>
     </fields>
