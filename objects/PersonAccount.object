@@ -345,10 +345,6 @@
                 <fullName>Value3</fullName>
                 <default>false</default>
             </values>
-            <values>
-                <fullName>Value5</fullName>
-                <default>false</default>
-            </values>
         </picklistValues>
         <picklistValues>
             <picklist>AccountSource</picklist>
