@@ -2,7 +2,7 @@
 <OpportunitySettings xmlns="http://soap.sforce.com/2006/04/metadata">
     <autoActivateNewReminders>true</autoActivateNewReminders>
     <enableFindSimilarOpportunities>false</enableFindSimilarOpportunities>
-    <enableOpportunityTeam>true</enableOpportunityTeam>
+    <enableOpportunityTeam>false</enableOpportunityTeam>
     <enableUpdateReminders>true</enableUpdateReminders>
     <promptToAddProducts>false</promptToAddProducts>
 </OpportunitySettings>

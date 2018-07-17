@@ -2,12 +2,15 @@
 <CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
     <defaultLandingTab>standard-home</defaultLandingTab>
     <formFactors>Large</formFactors>
-    <tab>standard-Chatter</tab>
-    <tab>standard-Campaign</tab>
-    <tab>standard-Lead</tab>
-    <tab>standard-Contact</tab>
-    <tab>standard-Opportunity</tab>
-    <tab>standard-report</tab>
-    <tab>standard-Dashboard</tab>
-    <tab>Custom_Object__c</tab>
+    <tabs>standard-Chatter</tabs>
+    <tabs>standard-File</tabs>
+    <tabs>standard-Campaign</tabs>
+    <tabs>standard-Lead</tabs>
+    <tabs>standard-Contact</tabs>
+    <tabs>standard-Opportunity</tabs>
+    <tabs>standard-report</tabs>
+    <tabs>standard-Dashboard</tabs>
+    <tabs>standard-Quote</tabs>
+    <tabs>vlocity_cmt__PricingVariable__c</tabs>
+    <tabs>User_Time_Record__c</tabs>
 </CustomApplication>

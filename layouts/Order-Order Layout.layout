@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Layout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <excludeButtons>Submit</excludeButtons>
     <layoutSections>
         <customLabel>false</customLabel>
         <detailHeading>false</detailHeading>
         <editHeading>true</editHeading>
         <label>Order Information</label>
         <layoutColumns>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>OwnerId</field>
-            </layoutItems>
             <layoutItems>
                 <behavior>Readonly</behavior>
                 <field>OrderNumber</field>
@@ -112,6 +109,7 @@
         <customLabel>false</customLabel>
         <detailHeading>false</detailHeading>
         <editHeading>false</editHeading>
+        <label>Custom Links</label>
         <layoutColumns/>
         <layoutColumns/>
         <layoutColumns/>
@@ -120,10 +118,12 @@
     <relatedLists>
         <fields>Product2</fields>
         <fields>ProductCode</fields>
+        <fields>vlocity_cmt__LineNumber__c</fields>
+        <fields>vlocity_cmt__ProvisioningStatus__c</fields>
+        <fields>vlocity_cmt__ServiceAccountId__c</fields>
         <fields>Quantity</fields>
-        <fields>UnitPrice</fields>
-        <fields>TotalPrice</fields>
-        <fields>Description</fields>
+        <fields>vlocity_cmt__OneTimeTotal__c</fields>
+        <fields>vlocity_cmt__RecurringTotal__c</fields>
         <relatedList>RelatedOrderItemList</relatedList>
     </relatedLists>
     <relatedLists>
@@ -156,4 +156,10 @@
     <showEmailCheckbox>false</showEmailCheckbox>
     <showRunAssignmentRulesCheckbox>false</showRunAssignmentRulesCheckbox>
     <showSubmitAndAttachButton>false</showSubmitAndAttachButton>
+    <summaryLayout>
+        <masterLabel>00h36000002Gwbk</masterLabel>
+        <sizeX>4</sizeX>
+        <sizeY>0</sizeY>
+        <summaryLayoutStyle>Default</summaryLayoutStyle>
+    </summaryLayout>
 </Layout>
