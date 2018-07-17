@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
-    <defaultLandingTab>standard-home</defaultLandingTab>
+    <defaultLandingTab>standard-AppLauncher</defaultLandingTab>
     <formFactors>Large</formFactors>
-    <tab>standard-AppLauncher</tab>
-    <tab>Custom_Object__c</tab>
+    <tabs>standard-AppLauncher</tabs>
+    <tabs>standard-Quote</tabs>
+    <tabs>vlocity_cmt__PricingVariable__c</tabs>
+    <tabs>User_Time_Record__c</tabs>
 </CustomApplication>
