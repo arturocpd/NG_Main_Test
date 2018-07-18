@@ -4902,6 +4902,16 @@
         <type>Checkbox</type>
     </fields>
     <fields>
+        <fullName>depth_deplo__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>depth deplo</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>depth_test__c</fullName>
         <defaultValue>false</defaultValue>
         <externalId>false</externalId>
