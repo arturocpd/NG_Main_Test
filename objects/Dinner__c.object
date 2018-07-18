@@ -60,6 +60,16 @@
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
     <fields>
+        <fullName>External_Auto__c</fullName>
+        <externalId>true</externalId>
+        <label>External Auto</label>
+        <length>30</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>LateDinner__c</fullName>
         <defaultValue>false</defaultValue>
         <description>Description New</description>

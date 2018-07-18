@@ -9,6 +9,10 @@
         <value>Dinners</value>
     </caseValues>
     <fields>
+        <label><!-- External Auto --></label>
+        <name>External_Auto__c</name>
+    </fields>
+    <fields>
         <label><!-- LateDinner --></label>
         <name>LateDinner__c</name>
     </fields>

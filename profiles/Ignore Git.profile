@@ -571,6 +571,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Case.CI_Test_deploy__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Case.CI_test_1__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -1222,6 +1227,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Delete_me__c.check1__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Dinner__c.External_Auto__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>

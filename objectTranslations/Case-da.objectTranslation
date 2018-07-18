@@ -45,6 +45,10 @@
         </picklistValues>
     </fields>
     <fields>
+        <label><!-- CI Test deploy --></label>
+        <name>CI_Test_deploy__c</name>
+    </fields>
+    <fields>
         <label><!-- CI test 1 --></label>
         <name>CI_test_1__c</name>
     </fields>
