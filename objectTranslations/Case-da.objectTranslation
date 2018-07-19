@@ -3333,6 +3333,14 @@
         <name>delete_test__c</name>
     </fields>
     <fields>
+        <label><!-- depth deplo --></label>
+        <name>depth_deplo__c</name>
+    </fields>
+    <fields>
+        <label><!-- depth test --></label>
+        <name>depth_test__c</name>
+    </fields>
+    <fields>
         <label><!-- destructive --></label>
         <name>destructive__c</name>
     </fields>
