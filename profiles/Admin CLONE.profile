@@ -1136,7 +1136,7 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Case.depth_deplo__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
