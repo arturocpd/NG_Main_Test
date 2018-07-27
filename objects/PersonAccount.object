@@ -330,6 +330,10 @@
                 <default>false</default>
             </values>
             <values>
+                <fullName>Test PA</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Value 1</fullName>
                 <default>false</default>
             </values>
@@ -347,6 +351,10 @@
             </values>
             <values>
                 <fullName>Value5</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>new</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
