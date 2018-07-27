@@ -278,6 +278,36 @@
                     <default>false</default>
                     <label>Value 2</label>
                 </value>
+                <value>
+                    <fullName>Value3</fullName>
+                    <default>false</default>
+                    <label>Value3</label>
+                </value>
+                <value>
+                    <fullName>PLUS 1500 (0597)</fullName>
+                    <default>false</default>
+                    <label>PLUS 1500 (0597)</label>
+                </value>
+                <value>
+                    <fullName>Value 4</fullName>
+                    <default>false</default>
+                    <label>Value 4</label>
+                </value>
+                <value>
+                    <fullName>Value5</fullName>
+                    <default>false</default>
+                    <label>Value5</label>
+                </value>
+                <value>
+                    <fullName>new</fullName>
+                    <default>false</default>
+                    <label>new</label>
+                </value>
+                <value>
+                    <fullName>Test PA</fullName>
+                    <default>false</default>
+                    <label>Test PA</label>
+                </value>
             </valueSetDefinition>
         </valueSet>
     </fields>
@@ -495,11 +525,35 @@
         <picklistValues>
             <picklist>PA_Test_Field__c</picklist>
             <values>
+                <fullName>PLUS 1500 %280597%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Test PA</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Value 1</fullName>
                 <default>false</default>
             </values>
             <values>
                 <fullName>Value 2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Value 4</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Value3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Value5</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>new</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
