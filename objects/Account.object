@@ -300,6 +300,16 @@
                     <default>false</default>
                     <label>Value5</label>
                 </value>
+                <value>
+                    <fullName>new</fullName>
+                    <default>false</default>
+                    <label>new</label>
+                </value>
+                <value>
+                    <fullName>Test PA</fullName>
+                    <default>false</default>
+                    <label>Test PA</label>
+                </value>
             </valueSetDefinition>
         </valueSet>
     </fields>
@@ -522,6 +532,10 @@
                 <default>false</default>
             </values>
             <values>
+                <fullName>Test PA</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Value 1</fullName>
                 <default>false</default>
             </values>
@@ -539,6 +553,10 @@
             </values>
             <values>
                 <fullName>Value5</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>new</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
