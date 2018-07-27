@@ -10,6 +10,17 @@
         <active>true</active>
         <label>PA record Type</label>
         <picklistValues>
+            <picklist>PA_Test_Field__c</picklist>
+            <values>
+                <fullName>Value 1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Value 2</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
             <picklist>AccountSource</picklist>
             <values>
                 <fullName>Other</fullName>
@@ -224,17 +235,6 @@
             </values>
         </picklistValues>
         <picklistValues>
-            <picklist>PA_Test_Field__c</picklist>
-            <values>
-                <fullName>Value 1</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Value 2</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
             <picklist>Rating</picklist>
             <values>
                 <fullName>Cold</fullName>
@@ -330,6 +330,10 @@
                 <default>false</default>
             </values>
             <values>
+                <fullName>Test PA</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Value 1</fullName>
                 <default>false</default>
             </values>
@@ -343,6 +347,14 @@
             </values>
             <values>
                 <fullName>Value3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Value5</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>new</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
