@@ -93,105 +93,83 @@
         <type>Default</type>
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
-    <compactLayouts>
-        <fullName>Custom_Contact_Compact_layout</fullName>
-        <fields>AccountId</fields>
-        <fields>Department</fields>
-        <fields>DoNotCall</fields>
-        <label>Custom Contact Compact layout</label>
-    </compactLayouts>
     <enableFeeds>true</enableFeeds>
-    <enableHistory>false</enableHistory>
+    <enableHistory>true</enableHistory>
     <fields>
         <fullName>AccountId</fullName>
         <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
         <type>Lookup</type>
     </fields>
     <fields>
         <fullName>AssistantName</fullName>
         <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>AssistantPhone</fullName>
         <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>Birthdate</fullName>
         <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>CleanStatus</fullName>
         <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>CurrencyIsoCode</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>Department</fullName>
         <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>Description</fullName>
         <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>DoNotCall</fullName>
         <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>Email</fullName>
         <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>Fax</fullName>
         <trackFeedHistory>false</trackFeedHistory>
-    </fields>
-    <fields>
-        <fullName>GoodBad__c</fullName>
-        <externalId>false</externalId>
-        <label>GoodBad</label>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Picklist</type>
-        <valueSet>
-            <restricted>true</restricted>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>Good</fullName>
-                    <default>false</default>
-                    <label>Good</label>
-                </value>
-                <value>
-                    <fullName>Bad</fullName>
-                    <default>false</default>
-                    <label>Bad</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
+        <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>HasOptedOutOfEmail</fullName>
         <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>HasOptedOutOfFax</fullName>
         <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>HomePhone</fullName>
         <trackFeedHistory>false</trackFeedHistory>
-    </fields>
-    <fields>
-        <fullName>IBM_ID_Blue_ID__c</fullName>
-        <externalId>false</externalId>
-        <label>IBM ID BLUE ID</label>
-        <length>23</length>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Text</type>
-        <unique>false</unique>
+        <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>Jigsaw</fullName>
         <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>Languages__c</fullName>
@@ -200,6 +178,7 @@
         <length>100</length>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
         <type>Text</type>
         <unique>false</unique>
     </fields>
@@ -212,6 +191,7 @@
     <fields>
         <fullName>LeadSource</fullName>
         <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
         <type>Picklist</type>
     </fields>
     <fields>
@@ -220,6 +200,7 @@
         <label>Level</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
         <type>Picklist</type>
         <valueSet>
             <valueSetDefinition>
@@ -245,69 +226,60 @@
     <fields>
         <fullName>MailingAddress</fullName>
         <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>MobilePhone</fullName>
         <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>Name</fullName>
         <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>OtherAddress</fullName>
         <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>OtherPhone</fullName>
         <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>OwnerId</fullName>
         <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
         <type>Lookup</type>
     </fields>
     <fields>
         <fullName>Phone</fullName>
         <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>ReportsToId</fullName>
         <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
         <type>Lookup</type>
     </fields>
     <fields>
-        <fullName>SGUID__c</fullName>
+        <fullName>SSN_encrypted__c</fullName>
         <externalId>false</externalId>
-        <label>SGUID</label>
-        <length>30</length>
+        <label>SSN encrypted</label>
+        <length>15</length>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
         <type>Text</type>
         <unique>false</unique>
     </fields>
     <fields>
         <fullName>Title</fullName>
         <trackFeedHistory>false</trackFeedHistory>
-    </fields>
-    <fields>
-        <fullName>UAT_field__c</fullName>
-        <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
-        <label>UAT field</label>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Checkbox</type>
-    </fields>
-    <fields>
-        <fullName>xyz_SGUID__c</fullName>
-        <caseSensitive>true</caseSensitive>
-        <externalId>true</externalId>
-        <label>xyz SGUID</label>
-        <length>40</length>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Text</type>
-        <unique>true</unique>
+        <trackHistory>false</trackHistory>
     </fields>
     <listViews>
         <fullName>AllContacts</fullName>
@@ -372,10 +344,4 @@
         <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>ControlledByParent</sharingModel>
-    <validationRules>
-        <fullName>AAA_validation</fullName>
-        <active>true</active>
-        <errorConditionFormula>OR (ISNULL(Account.Name), ISNULL(Id))</errorConditionFormula>
-        <errorMessage>Account name cannot be null or Id cannot be null</errorMessage>
-    </validationRules>
 </CustomObject>
