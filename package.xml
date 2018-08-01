@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Opportunity</members>
-        <name>CustomObject</name>
-    </types>
-    <types>
-        <members>Read Only Clone</members>
-        <name>Profile</name>
+        <members>Case.depth_deplo__c</members>
+        <members>Case.depth_test__c</members>
+        <name>CustomField</name>
     </types>
     <version>42.0</version>
 </Package>
