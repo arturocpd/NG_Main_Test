@@ -11,11 +11,10 @@
     </types>
     <types>
         <members>Account.Business_Account</members>
-        <members>PersonAccount.PA_record_Type</members>
+        <members>PersonAccount.PersonAccount</members>
         <name>RecordType</name>
     </types>
     <types>
-        <members>AccountRating</members>
         <members>AccountRating</members>
         <name>StandardValueSet</name>
     </types>
