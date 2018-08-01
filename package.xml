@@ -10,11 +10,16 @@
         <name>DuplicateRule</name>
     </types>
     <types>
+        <members>PersonAccount.PA_Matching_Rule</members>
+        <name>MatchingRule</name>
+    </types>
+    <types>
         <members>Account.Business_Account</members>
         <members>PersonAccount.PersonAccount</members>
         <name>RecordType</name>
     </types>
     <types>
+        <members>AccountRating</members>
         <members>AccountRating</members>
         <name>StandardValueSet</name>
     </types>
