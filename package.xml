@@ -4,9 +4,5 @@
         <members>No_active_PB-1</members>
         <name>Flow</name>
     </types>
-    <types>
-        <members>No_active_PB</members>
-        <name>FlowDefinition</name>
-    </types>
     <version>42.0</version>
 </Package>

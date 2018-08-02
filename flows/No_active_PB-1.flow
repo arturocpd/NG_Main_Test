@@ -145,7 +145,7 @@
             </processMetadataValues>
             <field>BitCoin__c</field>
             <value>
-                <booleanValue>true</booleanValue>
+                <booleanValue>false</booleanValue>
             </value>
         </inputAssignments>
         <object>Case</object>
