@@ -20,5 +20,4 @@
         <startAddress>83.36.118.194</startAddress>
     </loginIpRanges>
     <userLicense>Salesforce</userLicense>
-    
 </Profile>
