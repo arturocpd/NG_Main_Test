@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>OLS_Test__c</members>
-        <name>CustomObject</name>
+        <members>Lead-14</members>
+        <name>Flow</name>
     </types>
     <types>
-        <members>Read Only Clone</members>
-        <name>Profile</name>
+        <members>Lead</members>
+        <name>FlowDefinition</name>
     </types>
     <version>42.0</version>
 </Package>
