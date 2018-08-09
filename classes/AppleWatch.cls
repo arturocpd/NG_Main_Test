@@ -12,6 +12,7 @@ Public Class AppleWatch{
      /* test new commit user story*/
      /* extra comment comment*/
      //testing comment
+     //new line
        
     }
 
