@@ -9,8 +9,8 @@ Public Class AppleWatch{
         insert t;
      /*conflict here test 2334*/
      //testing Git Metadata Step 2
-     /* test new commit user story YYYYY*/
-     /* Yeah!!*/
+     /* test new commit user story DDDDDD*/
+     /* Yeah!!EEEE*/
      //forcing conflict
      //new line
        
