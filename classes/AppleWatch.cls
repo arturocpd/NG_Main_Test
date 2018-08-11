@@ -8,11 +8,11 @@ Public Class AppleWatch{
         t.WhatId      = opp.Id;
         insert t;
      /*conflict here test 2334*/
-     //MOD in Dev 8 to test delete step on CI - second test
-     /* test new commit user story*/
-     /* extra comment comment*/
-     //testing comment
-     //Commit from Dev8 branch
+     //testing Git Metadata Step 2
+     /* test new commit user story YYYYY*/
+     /* Yeah!!*/
+     //forcing conflict
+     //new line
        
     }
 
