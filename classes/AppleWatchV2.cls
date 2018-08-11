@@ -1,4 +1,4 @@
-Public Class AppleWatch{
+Public Class AppleWatchV2{
  Public Static void AppleWatchmethod(list<Opportunity> lopt ){
     for (Opportunity opp : lopt) {
         Task t        = new Task();
@@ -8,11 +8,10 @@ Public Class AppleWatch{
         t.WhatId      = opp.Id;
         insert t;
      /*conflict here test 2334*/
-     //testing Git Metadata Step 2
-     /* test new commit user story XXXX*/
-     /* comment extra line*/
-     //testing comment trying to force a conflict here
-     //new line
+     //another comment MOD
+     /* new comment with more comments*/
+     /* extra comment comment*/
+     //testing comment
        
     }
 
