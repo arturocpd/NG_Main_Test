@@ -276,7 +276,7 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Case.Priority</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -885,6 +885,10 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
+        <name>ManageTerritories</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
         <name>ManageTranslation</name>
     </userPermissions>
     <userPermissions>
@@ -906,6 +910,10 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>ModifyAllData</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ModifyMetadata</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
