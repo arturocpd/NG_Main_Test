@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>AccountsFolder</members>
-        <members>AccountsFolder/AccoutsReport</members>
-        <name>Report</name>
+        <members>Case.Priority</members>
+        <members>Case.Product__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>Admin CLONE</members>
+        <members>Admin CLONE 2</members>
+        <members>Admin CLONE 3</members>
+        <name>Profile</name>
+    </types>
+    <types>
+        <members>CasePriority</members>
+        <name>StandardValueSet</name>
     </types>
     <version>43.0</version>
 </Package>
