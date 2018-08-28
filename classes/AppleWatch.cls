@@ -7,8 +7,12 @@ Public Class AppleWatch{
         t.Priority    = 'High';
         t.WhatId      = opp.Id;
         insert t;
-     /*this change is made on master*/
-     /*change on dev1*/
+     /*conflict here test 2334*/
+     //testing Git Metadata Step 2
+     /* test new commit user story ZZZZ*/
+     /* yes!! line*/
+     //testing 2 comment trying to force a conflict here
+     //new line
        
     }
 
