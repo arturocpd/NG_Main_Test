@@ -9,7 +9,7 @@ Public Class AppleWatch{
         insert t;
      /*conflict here*/
      
-/*line1*/
+/*lineX*/
 /*line2*/
 /*line3*/
 /*line4*/
@@ -17,7 +17,7 @@ Public Class AppleWatch{
 
 
 /*line1*/
-/*line2*/
+/*lineX*/
 /*line3*/
 /*line4*/
 /*line5*/
@@ -25,14 +25,14 @@ Public Class AppleWatch{
 
 /*line1*/
 /*line2*/
-/*line3*/
+/*lineX*/
 /*line4*/
 /*line5*/
 
 /*line1*/
 /*line2*/
 /*line3*/
-/*line4*/
+/*lineX*/
 /*line5*/
 
 
@@ -40,7 +40,7 @@ Public Class AppleWatch{
 /*line2*/
 /*line3*/
 /*line4*/
-/*line5*/
+/*lineX*/
        
     }
 
