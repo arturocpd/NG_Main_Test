@@ -8,24 +8,32 @@
                 <region>Right</region>
                 <sidebarComponents>
                     <componentType>Lookup</componentType>
+                    <createAction>NewAccount</createAction>
+                    <enableLinking>true</enableLinking>
                     <height>100</height>
                     <lookup>Account</lookup>
                     <unit>Percentage</unit>
                 </sidebarComponents>
                 <sidebarComponents>
                     <componentType>Lookup</componentType>
+                    <createAction>NewCase</createAction>
+                    <enableLinking>true</enableLinking>
                     <height>100</height>
                     <lookup>Case</lookup>
                     <unit>Percentage</unit>
                 </sidebarComponents>
                 <sidebarComponents>
                     <componentType>Lookup</componentType>
+                    <createAction>NewContact</createAction>
+                    <enableLinking>true</enableLinking>
                     <height>100</height>
                     <lookup>Contact</lookup>
                     <unit>Percentage</unit>
                 </sidebarComponents>
                 <sidebarComponents>
                     <componentType>Lookup</componentType>
+                    <createAction>NewLead</createAction>
+                    <enableLinking>true</enableLinking>
                     <height>100</height>
                     <lookup>Lead</lookup>
                     <unit>Percentage</unit>
@@ -37,9 +45,10 @@
         </primaryTabComponents>
     </customConsoleComponents>
     <layoutSections>
-        <customLabel>false</customLabel>
+        <customLabel>true</customLabel>
         <detailHeading>false</detailHeading>
         <editHeading>true</editHeading>
+        <label>Fields</label>
         <layoutColumns>
             <layoutItems>
                 <behavior>Readonly</behavior>
@@ -158,17 +167,13 @@
         </layoutColumns>
         <style>TwoColumnsTopToBottom</style>
     </layoutSections>
-    <layoutSections>
-        <customLabel>false</customLabel>
-        <detailHeading>false</detailHeading>
-        <editHeading>false</editHeading>
-        <label>Custom Links</label>
-        <layoutColumns/>
-        <layoutColumns/>
-        <layoutColumns/>
-        <style>CustomLinks</style>
-    </layoutSections>
     <showEmailCheckbox>false</showEmailCheckbox>
     <showRunAssignmentRulesCheckbox>false</showRunAssignmentRulesCheckbox>
     <showSubmitAndAttachButton>false</showSubmitAndAttachButton>
+    <summaryLayout>
+        <masterLabel>00h0Y0000038UW1</masterLabel>
+        <sizeX>4</sizeX>
+        <sizeY>0</sizeY>
+        <summaryLayoutStyle>Default</summaryLayoutStyle>
+    </summaryLayout>
 </Layout>

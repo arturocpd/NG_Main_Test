@@ -179,6 +179,8 @@
         <whitelistedDomains>domain4</whitelistedDomains>
     </consoleConfig>
     <defaultLandingTab>standard-home</defaultLandingTab>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
     <isServiceCloudConsole>true</isServiceCloudConsole>
     <label>Test Omni commit</label>
     <preferences>
@@ -195,9 +197,13 @@
     <tabs>standard-Case</tabs>
     <tabs>standard-Lead</tabs>
     <tabs>CSTM_Object__c</tabs>
+    <tabs>IdeasVFTab</tabs>
     <workspaceConfig>
         <mappings>
             <tab>CSTM_Object__c</tab>
+        </mappings>
+        <mappings>
+            <tab>IdeasVFTab</tab>
         </mappings>
         <mappings>
             <tab>standard-Case</tab>

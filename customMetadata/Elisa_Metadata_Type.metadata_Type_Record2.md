@@ -8,6 +8,6 @@
     </values>
     <values>
         <field>email__c</field>
-        <value xsi:type="xsd:string">{!Environment.docusign.tranzact.replyemailaddress}</value>
+        <value xsi:nil="true"/>
     </values>
 </CustomMetadata>

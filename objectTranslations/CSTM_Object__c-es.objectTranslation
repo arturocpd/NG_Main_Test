@@ -13,4 +13,8 @@
         <name>cstm_field__c</name>
     </fields>
     <gender>Feminine</gender>
+    <recordTypes>
+        <label><!-- CSTM New layout --></label>
+        <name>CSTM_New_layout</name>
+    </recordTypes>
 </CustomObjectTranslation>

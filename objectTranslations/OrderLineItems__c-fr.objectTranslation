@@ -8,6 +8,10 @@
         <plural>true</plural>
         <value>OrderLineItems</value>
     </caseValues>
+    <fieldSets>
+        <label><!-- OLI field set --></label>
+        <name>OLI_field_set</name>
+    </fieldSets>
     <fields>
         <label><!-- AssetLineItemId --></label>
         <name>AssetLineItemId__c</name>
@@ -24,9 +28,17 @@
         <label><!-- RecordType1 --></label>
         <name>RecordType1</name>
     </recordTypes>
+    <sharingReasons>
+        <label><!-- Sharing reason --></label>
+        <name>Sharing_reason</name>
+    </sharingReasons>
     <startsWith>Vowel</startsWith>
     <validationRules>
         <errorMessage><!-- this is false 2 --></errorMessage>
         <name>OLI_validation_rule</name>
     </validationRules>
+    <webLinks>
+        <label><!-- link --></label>
+        <name>link</name>
+    </webLinks>
 </CustomObjectTranslation>

@@ -9,6 +9,10 @@
         <value>Dinners</value>
     </caseValues>
     <fields>
+        <label><!-- External Auto --></label>
+        <name>External_Auto__c</name>
+    </fields>
+    <fields>
         <label><!-- LateDinner --></label>
         <name>LateDinner__c</name>
     </fields>
@@ -16,6 +20,14 @@
         <label><!-- Point of contact --></label>
         <name>Point_of_contact__c</name>
         <relationshipLabel>Cenas</relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Table --></label>
+        <name>Table__c</name>
+    </fields>
+    <fields>
+        <label><!-- historyRetentionPolicy --></label>
+        <name>historyRetentionPolicy__c</name>
     </fields>
     <gender>Feminine</gender>
     <recordTypes>

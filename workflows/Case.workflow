@@ -5,7 +5,7 @@
         <description>Case email alert</description>
         <protected>false</protected>
         <recipients>
-            <recipient>{!Environment.VAR_Username}</recipient>
+            <recipient>ngarturodev1cpd@gmail.com</recipient>
             <type>user</type>
         </recipients>
         <senderType>CurrentUser</senderType>
@@ -39,7 +39,7 @@
             <type>user</type>
         </recipients>
         <recipients>
-            <recipient>{!Environment.VAR_Username}</recipient>
+            <recipient>ngarturodev1cpd@gmail.com</recipient>
             <type>user</type>
         </recipients>
         <senderType>CurrentUser</senderType>
@@ -74,6 +74,17 @@
         </recipients>
         <senderType>CurrentUser</senderType>
         <template>unfiled$public/MarketingProductInquiryResponse</template>
+    </alerts>
+    <alerts>
+        <fullName>Leaseplan_email_alert</fullName>
+        <description>Leaseplan email alert</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>ngarturodev1cpd@gmail.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>email_folder/template_test</template>
     </alerts>
     <alerts>
         <fullName>Wide_org_email_alert</fullName>
@@ -195,6 +206,18 @@
         <operation>Literal</operation>
         <protected>false</protected>
     </fieldUpdates>
+    <outboundMessages>
+        <fullName>Leaseplan_outbound</fullName>
+        <apiVersion>42.0</apiVersion>
+        <endpointUrl>http://www.google.com</endpointUrl>
+        <fields>AccountId</fields>
+        <fields>Id</fields>
+        <includeSessionId>false</includeSessionId>
+        <integrationUser>ngarturodev1cpd@gmail.com</integrationUser>
+        <name>Leaseplan outbound</name>
+        <protected>false</protected>
+        <useDeadLetterQueue>false</useDeadLetterQueue>
+    </outboundMessages>
     <rules>
         <fullName>Leaseplan</fullName>
         <actions>
@@ -304,4 +327,15 @@
         <formula>ISPICKVAL(Origin , &quot;Email&quot;)</formula>
         <triggerType>onCreateOrTriggeringUpdate</triggerType>
     </rules>
+    <tasks>
+        <fullName>leaseplan_task</fullName>
+        <assignedTo>ngarturodev1cpd@gmail.com</assignedTo>
+        <assignedToType>user</assignedToType>
+        <dueDateOffset>0</dueDateOffset>
+        <notifyAssignee>false</notifyAssignee>
+        <priority>High</priority>
+        <protected>false</protected>
+        <status>In Progress</status>
+        <subject>leaseplan task</subject>
+    </tasks>
 </Workflow>

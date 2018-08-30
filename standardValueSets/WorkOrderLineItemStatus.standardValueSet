@@ -45,15 +45,15 @@
         <groupingString>Canceled</groupingString>
     </standardValue>
     <standardValue>
-        <fullName>WOLI</fullName>
-        <default>false</default>
-        <label>WOLI</label>
-        <groupingString>New</groupingString>
-    </standardValue>
-    <standardValue>
         <fullName>WOLI2</fullName>
         <default>false</default>
         <label>WOLI2</label>
+        <groupingString>New</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>WOLI</fullName>
+        <default>false</default>
+        <label>WOLI</label>
         <groupingString>New</groupingString>
     </standardValue>
 </StandardValueSet>

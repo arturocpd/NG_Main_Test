@@ -8,7 +8,7 @@
             <fieldName>MailingCity</fieldName>
             <matchingMethod>Exact</matchingMethod>
         </matchingRuleItems>
-        <ruleStatus>Active</ruleStatus>
+        <ruleStatus>Inactive</ruleStatus>
     </matchingRules>
     <matchingRules>
         <fullName>Contact_Rule_B</fullName>
@@ -36,6 +36,16 @@
         <matchingRuleItems>
             <blankValueBehavior>NullNotAllowed</blankValueBehavior>
             <fieldName>MailingPostalCode</fieldName>
+            <matchingMethod>Exact</matchingMethod>
+        </matchingRuleItems>
+        <ruleStatus>Inactive</ruleStatus>
+    </matchingRules>
+    <matchingRules>
+        <fullName>MatchingRuleA</fullName>
+        <label>MatchingRuleA</label>
+        <matchingRuleItems>
+            <blankValueBehavior>NullNotAllowed</blankValueBehavior>
+            <fieldName>LastName</fieldName>
             <matchingMethod>Exact</matchingMethod>
         </matchingRuleItems>
         <ruleStatus>Inactive</ruleStatus>

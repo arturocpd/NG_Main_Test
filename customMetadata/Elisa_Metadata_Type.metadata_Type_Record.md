@@ -4,10 +4,10 @@
     <protected>false</protected>
     <values>
         <field>Metadata_Type_Picklist__c</field>
-        <value xsi:type="xsd:string">PicklistValue4</value>
+        <value xsi:type="xsd:string">PicklistValue3</value>
     </values>
     <values>
         <field>email__c</field>
-        <value xsi:type="xsd:string">{!Environment.docusign.tranzact.replyemailaddress}</value>
+        <value xsi:nil="true"/>
     </values>
 </CustomMetadata>

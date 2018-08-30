@@ -180,10 +180,6 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>Case_NNN__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
                 <field>Case_OOO__c</field>
             </layoutItems>
             <layoutItems>
@@ -197,10 +193,6 @@
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>Case_LLL__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>case_RRR__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>

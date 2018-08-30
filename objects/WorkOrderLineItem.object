@@ -132,6 +132,16 @@
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
+        <fullName>ReturnOrderId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ReturnOrderLineItemId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
         <fullName>RootWorkOrderLineItemId</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
@@ -196,10 +206,31 @@
         <trackHistory>false</trackHistory>
         <type>Lookup</type>
     </fields>
+    <recordTypeTrackFeedHistory>false</recordTypeTrackFeedHistory>
+    <recordTypeTrackHistory>false</recordTypeTrackHistory>
     <recordTypes>
         <fullName>WOLI_RT</fullName>
         <active>true</active>
         <label>WOLI RT</label>
+        <picklistValues>
+            <picklist>Priority</picklist>
+            <values>
+                <fullName>Critical</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>High</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Low</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Medium</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
         <picklistValues>
             <picklist>Status</picklist>
             <values>
@@ -213,10 +244,6 @@
             <values>
                 <fullName>New</fullName>
                 <default>true</default>
-            </values>
-            <values>
-                <fullName>WOLI</fullName>
-                <default>false</default>
             </values>
             <values>
                 <fullName>WOLI2</fullName>

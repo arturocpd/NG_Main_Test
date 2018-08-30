@@ -59,6 +59,9 @@
         <fullName>IsRecurrence</fullName>
     </fields>
     <fields>
+        <fullName>IsReminderSet</fullName>
+    </fields>
+    <fields>
         <fullName>IsVisibleInSelfService</fullName>
     </fields>
     <fields>
@@ -106,6 +109,21 @@
         <active>true</active>
         <label>General</label>
         <picklistValues>
+            <picklist>AAATask__c</picklist>
+            <values>
+                <fullName>1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>4</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
             <picklist>Next_Time__c</picklist>
             <values>
                 <fullName>Friday</fullName>
@@ -129,52 +147,6 @@
             </values>
             <values>
                 <fullName>TuTuTuesday</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Tuesday</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Wednesday</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
-            <picklist>AAATask__c</picklist>
-            <values>
-                <fullName>2</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>4</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>5</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
-            <picklist>Next_Time__c</picklist>
-            <values>
-                <fullName>Friday</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Monday</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Saturday</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Sunday</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Thursday</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -218,6 +190,10 @@
             <values>
                 <fullName>Not Started</fullName>
                 <default>true</default>
+            </values>
+            <values>
+                <fullName>Waiting</fullName>
+                <default>false</default>
             </values>
             <values>
                 <fullName>Waiting on someone else</fullName>
@@ -265,15 +241,15 @@
                 <fullName>Other</fullName>
                 <default>false</default>
             </values>
-            <values>
-                <fullName>2</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>4</fullName>
-                <default>false</default>
-            </values>
         </picklistValues>
     </recordTypes>
+    <searchLayouts/>
     <sharingModel>Private</sharingModel>
+    <validationRules>
+        <fullName>False</fullName>
+        <active>true</active>
+        <description>Always false</description>
+        <errorConditionFormula>False</errorConditionFormula>
+        <errorMessage>Irrelevant</errorMessage>
+    </validationRules>
 </CustomObject>

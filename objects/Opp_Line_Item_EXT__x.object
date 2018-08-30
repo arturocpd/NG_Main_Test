@@ -32,8 +32,9 @@
         <actionName>View</actionName>
         <type>Default</type>
     </actionOverrides>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
-    <description>DescriptionYYYY</description>
+    <description>DescriptionYYYYXXXXXZZZZZZ</description>
     <enableFeeds>false</enableFeeds>
     <enableReports>true</enableReports>
     <enableSearch>true</enableSearch>
@@ -52,11 +53,10 @@
     <fields>
         <fullName>LastModifiedDate__c</fullName>
         <externalId>false</externalId>
-        <isFilteringDisabled>false</isFilteringDisabled>
+        <isFilteringDisabled>true</isFilteringDisabled>
         <isNameField>false</isNameField>
         <isSortingDisabled>true</isSortingDisabled>
         <label>Last Modified Date</label>
-        <readOnlyProxy>true</readOnlyProxy>
         <required>false</required>
         <type>DateTime</type>
     </fields>
