@@ -8,7 +8,7 @@ Public Class AppleWatch{
         t.WhatId      = opp.Id;
         insert t;
      /*conflict here test 2334*/
-     //testing Git Metadata Step 2
+     //testing Git Metadata Step 3
      /* test new commit user story ZZZZ*/
      /* yes!! line*/
      //testing 2 comment trying to force a conflict here
