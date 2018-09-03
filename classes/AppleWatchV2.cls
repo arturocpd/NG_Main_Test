@@ -9,9 +9,9 @@ Public Class AppleWatchV2{
         insert t;
      /*conflict here test 2334*/
      //another comment MOD
-     /* new comment with DDDDD more comments*/
-     /* boombastic comment comment*/
-     //comment 234 to force conflict
+     /* new comment with XXX more comments*/
+     /* boom comment comment*/
+     //comment
        
     }
 
