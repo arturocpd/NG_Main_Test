@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>AR Git Metadata deployment (a211I000000OXsvQAG)</members>
-        <name>VlocityAction</name>
+        <members>VDO Move English (a1I1I000001CCNeUAO)</members>
+        <name>OmniScript</name>
     </types>
     <version>43.0</version>
 </Package>
