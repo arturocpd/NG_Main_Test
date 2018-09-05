@@ -1,0 +1,11 @@
+{
+    "%vlocity_namespace%__Author__c": "",
+    "%vlocity_namespace%__Definition__c": "Whole-Life-Mobile-Policy.json",
+    "%vlocity_namespace%__GlobalKey__c": "",
+    "%vlocity_namespace%__ParentID__c": "",
+    "%vlocity_namespace%__Type__c": "",
+    "Name": "Whole Life Mobile Policy",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityCard__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__VlocityCard__c/Whole Life Mobile Policy"
+}

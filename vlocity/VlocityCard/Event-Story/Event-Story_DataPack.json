@@ -1,0 +1,11 @@
+{
+    "%vlocity_namespace%__Author__c": "Parent",
+    "%vlocity_namespace%__Definition__c": "Event-Story.json",
+    "%vlocity_namespace%__GlobalKey__c": "Event Story/Parent/1514291809584",
+    "%vlocity_namespace%__ParentID__c": "",
+    "%vlocity_namespace%__Type__c": "",
+    "Name": "Event Story",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityCard__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__VlocityCard__c/Event Story"
+}

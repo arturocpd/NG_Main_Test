@@ -1,0 +1,11 @@
+{
+    "%vlocity_namespace%__Author__c": "Copado Developers",
+    "%vlocity_namespace%__Definition__c": "Campaign-Attribute-Categories.json",
+    "%vlocity_namespace%__GlobalKey__c": "Campaign Attribute Categories/Copado Developers/1524484706629",
+    "%vlocity_namespace%__ParentID__c": "",
+    "%vlocity_namespace%__Type__c": "",
+    "Name": "Campaign Attribute Categories",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityCard__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__VlocityCard__c/Campaign Attribute Categories"
+}
