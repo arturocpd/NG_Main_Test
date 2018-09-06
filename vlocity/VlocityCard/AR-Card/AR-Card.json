@@ -1,0 +1,46 @@
+{
+    "dataSource": {
+        "type": "DataRaptor",
+        "value": {
+            "bundle": "Catalog Migration",
+            "interval": 2000,
+            "timeout": 1
+        }
+    },
+    "filter": {
+    },
+    "states": [
+        {
+            "conditions": [
+                {
+                    "field": "$scope.data.status",
+                    "operator": "===",
+                    "type": "system",
+                    "value": "active"
+                }
+            ],
+            "definedActions": {
+                "actions": [
+                ]
+            },
+            "editMode": false,
+            "fields": [
+                {
+                    "collapse": true,
+                    "data": {
+                    },
+                    "displayLabel": "<<Custom Field>>",
+                    "editing": false,
+                    "fieldType": "custom",
+                    "label": "AR field template",
+                    "name": "AR Field",
+                    "type": "string"
+                }
+            ],
+            "filter": "$scope.data.status === 'active'",
+            "name": "AR State Card",
+            "templateUrl": "campaign-member-detail"
+        }
+    ],
+    "title": "AR Card"
+}
