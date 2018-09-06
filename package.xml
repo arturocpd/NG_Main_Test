@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>AR cpq-product-addon (a2D1I000000UgRdUAK)</members>
-        <name>VlocityUILayout</name>
-    </types>
-    <types>
-        <members>campaign-member-detail (a2E1I000000UaYaUAK)</members>
-        <members>cpq-product-addon (a2E1I000000UacDUAS)</members>
-        <members>cpq-product-addon-item-separate-section (a2E1I000000UacGUAS)</members>
-        <name>VlocityUITemplate</name>
+        <members>VDO Move English (a1I1I000001CCNeUAO)</members>
+        <name>OmniScript</name>
     </types>
     <version>43.0</version>
 </Package>
