@@ -197,13 +197,9 @@
     <tabs>standard-Case</tabs>
     <tabs>standard-Lead</tabs>
     <tabs>CSTM_Object__c</tabs>
-    <tabs>IdeasVFTab</tabs>
     <workspaceConfig>
         <mappings>
             <tab>CSTM_Object__c</tab>
-        </mappings>
-        <mappings>
-            <tab>IdeasVFTab</tab>
         </mappings>
         <mappings>
             <tab>standard-Case</tab>
