@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>VDO Move English (a1I1I000001CCNeUAO)</members>
-        <name>OmniScript</name>
+        <members>AR cpq-product-addon (a2D1I000000UgRdUAK)</members>
+        <name>VlocityUILayout</name>
     </types>
     <version>43.0</version>
 </Package>
