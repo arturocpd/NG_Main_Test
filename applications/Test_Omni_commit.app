@@ -196,11 +196,7 @@
     </preferences>
     <tabs>standard-Case</tabs>
     <tabs>standard-Lead</tabs>
-    <tabs>CSTM_Object__c</tabs>
     <workspaceConfig>
-        <mappings>
-            <tab>CSTM_Object__c</tab>
-        </mappings>
         <mappings>
             <tab>standard-Case</tab>
         </mappings>
