@@ -203,9 +203,6 @@
             <tab>CSTM_Object__c</tab>
         </mappings>
         <mappings>
-            <tab>IdeasVFTab</tab>
-        </mappings>
-        <mappings>
             <tab>standard-Case</tab>
         </mappings>
         <mappings>
