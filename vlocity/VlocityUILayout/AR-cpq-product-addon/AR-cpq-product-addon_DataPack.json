@@ -1,0 +1,13 @@
+{
+    "%vlocity_namespace%__Author__c": "Copado",
+    "%vlocity_namespace%__Definition__c": "AR-cpq-product-addon.json",
+    "%vlocity_namespace%__Description__c": "",
+    "%vlocity_namespace%__GlobalKey__c": "AR cpq-product-addon/2/Copado/1536242008055",
+    "%vlocity_namespace%__ParentID__c": "cpq-product-addon/1/Vlocity/1500409050698",
+    "%vlocity_namespace%__Type__c": "Layout",
+    "%vlocity_namespace%__Version__c": 2,
+    "Name": "AR cpq-product-addon",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityUILayout__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__VlocityUILayout__c/AR cpq-product-addon"
+}
