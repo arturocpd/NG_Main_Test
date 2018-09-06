@@ -198,7 +198,6 @@
     <tabs>standard-Lead</tabs>
     <tabs>CSTM_Object__c</tabs>
     <tabs>IdeasVFTab</tabs>
-    <tabs>standard-home</tabs>
     <workspaceConfig>
         <mappings>
             <tab>CSTM_Object__c</tab>
@@ -211,9 +210,6 @@
         </mappings>
         <mappings>
             <tab>standard-Lead</tab>
-        </mappings>
-        <mappings>
-            <tab>standard-home</tab>
         </mappings>
     </workspaceConfig>
 </CustomApplication>
