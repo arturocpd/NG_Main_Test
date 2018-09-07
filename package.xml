@@ -4,5 +4,9 @@
         <members>Lead-17</members>
         <name>Flow</name>
     </types>
+    <types>
+        <members>Lead</members>
+        <name>FlowDefinition</name>
+    </types>
     <version>43.0</version>
 </Package>
