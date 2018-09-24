@@ -6,6 +6,22 @@
     <enableHistory>false</enableHistory>
     <nameField n1:nil="true" />
     <recordTypes>
+        <fullName>PA_Issues</fullName>
+        <active>true</active>
+        <label>PA Issues</label>
+        <picklistValues>
+            <picklist>PA_Test_Field__c</picklist>
+            <values>
+                <fullName>Value 1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Value 2</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
         <fullName>PA_record_Type</fullName>
         <active>true</active>
         <label>PA record Type</label>

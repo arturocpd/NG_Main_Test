@@ -1,0 +1,17 @@
+{
+    "Body": "File_TNWatchEdition-png",
+    "BodyLength": 49019,
+    "ContentType": "image/png",
+    "Description": "",
+    "IsPrivate": false,
+    "Name": "TNWatchEdition.png",
+    "ParentId": {
+        "%vlocity_namespace%__GlobalKey__c": null,
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "VlocityRecordSourceKey:01t1I0000017EsDQAU",
+        "VlocityRecordSObjectType": "Product2"
+    },
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Attachment",
+    "VlocityRecordSourceKey": "Attachment/VlocityRecordSourceKey:01t1I0000017EsDQAU/TNWatchEdition.png"
+}
