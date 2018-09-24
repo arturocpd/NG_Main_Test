@@ -260,6 +260,66 @@
         <type>Picklist</type>
     </fields>
     <fields>
+        <fullName>PA_Test_Field__c</fullName>
+        <externalId>false</externalId>
+        <label>PA Test Field</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Value 1</fullName>
+                    <default>false</default>
+                    <label>Value 1</label>
+                </value>
+                <value>
+                    <fullName>Value 2</fullName>
+                    <default>false</default>
+                    <label>Value 2</label>
+                </value>
+                <value>
+                    <fullName>Value3</fullName>
+                    <default>false</default>
+                    <label>Value3</label>
+                </value>
+                <value>
+                    <fullName>PLUS 1500 (0597)</fullName>
+                    <default>false</default>
+                    <label>PLUS 1500 (0597)</label>
+                </value>
+                <value>
+                    <fullName>Value 4</fullName>
+                    <default>false</default>
+                    <label>Value 4</label>
+                </value>
+                <value>
+                    <fullName>Value5</fullName>
+                    <default>false</default>
+                    <label>Value5</label>
+                </value>
+                <value>
+                    <fullName>new</fullName>
+                    <default>false</default>
+                    <label>new</label>
+                </value>
+                <value>
+                    <fullName>Test PA</fullName>
+                    <default>false</default>
+                    <label>Test PA</label>
+                </value>
+                <value>
+                    <fullName>PA Fix</fullName>
+                    <default>false</default>
+                    <label>PA Fix</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>ParentId</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Hierarchy</type>
