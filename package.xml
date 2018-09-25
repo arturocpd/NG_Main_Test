@@ -5,7 +5,7 @@
         <name>CustomField</name>
     </types>
     <types>
-        <members>PersonAccount.PA_Issues</members>
+        <members>Account.Business_Account</members>
         <name>RecordType</name>
     </types>
     <version>43.0</version>
