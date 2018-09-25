@@ -541,6 +541,10 @@
                 <fullName>Value 2</fullName>
                 <default>false</default>
             </values>
+            <values>
+                <fullName>Value3</fullName>
+                <default>false</default>
+            </values>
         </picklistValues>
         <picklistValues>
             <picklist>Rating</picklist>
