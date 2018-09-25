@@ -79,27 +79,6 @@
     <enableHistory>false</enableHistory>
     <externalSharingModel>Private</externalSharingModel>
     <fields>
-        <fullName>AccountLookup__c</fullName>
-        <deleteConstraint>SetNull</deleteConstraint>
-        <externalId>false</externalId>
-        <label>AccountLookup</label>
-        <lookupFilter>
-            <active>true</active>
-            <filterItems>
-                <field>$Source.RecordTypeId</field>
-                <operation>equals</operation>
-                <value>Record Type1</value>
-            </filterItems>
-            <isOptional>false</isOptional>
-        </lookupFilter>
-        <referenceTo>Account</referenceTo>
-        <relationshipLabel>Accounts</relationshipLabel>
-        <relationshipName>Accounts</relationshipName>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Lookup</type>
-    </fields>
-    <fields>
         <fullName>AccountNumber</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
@@ -281,6 +260,66 @@
         <type>Picklist</type>
     </fields>
     <fields>
+        <fullName>PA_Test_Field__c</fullName>
+        <externalId>false</externalId>
+        <label>PA Test Field</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Value 1</fullName>
+                    <default>false</default>
+                    <label>Value 1</label>
+                </value>
+                <value>
+                    <fullName>Value 2</fullName>
+                    <default>false</default>
+                    <label>Value 2</label>
+                </value>
+                <value>
+                    <fullName>Value3</fullName>
+                    <default>false</default>
+                    <label>Value3</label>
+                </value>
+                <value>
+                    <fullName>PLUS 1500 (0597)</fullName>
+                    <default>false</default>
+                    <label>PLUS 1500 (0597)</label>
+                </value>
+                <value>
+                    <fullName>Value 4</fullName>
+                    <default>false</default>
+                    <label>Value 4</label>
+                </value>
+                <value>
+                    <fullName>Value5</fullName>
+                    <default>false</default>
+                    <label>Value5</label>
+                </value>
+                <value>
+                    <fullName>new</fullName>
+                    <default>false</default>
+                    <label>new</label>
+                </value>
+                <value>
+                    <fullName>Test PA</fullName>
+                    <default>false</default>
+                    <label>Test PA</label>
+                </value>
+                <value>
+                    <fullName>PA Fix</fullName>
+                    <default>false</default>
+                    <label>PA Fix</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>ParentId</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Hierarchy</type>
@@ -343,14 +382,29 @@
                     <label>Bronze</label>
                 </value>
                 <value>
-                    <fullName>Iron</fullName>
-                    <default>false</default>
-                    <label>Iron</label>
-                </value>
-                <value>
                     <fullName>Wood</fullName>
                     <default>false</default>
                     <label>Wood</label>
+                </value>
+                <value>
+                    <fullName>Plastic</fullName>
+                    <default>false</default>
+                    <label>Plastic</label>
+                </value>
+                <value>
+                    <fullName>PLUS 1500 (0597)</fullName>
+                    <default>false</default>
+                    <label>PLUS 1500 (0597)</label>
+                </value>
+                <value>
+                    <fullName>PLUS 1500 0597</fullName>
+                    <default>false</default>
+                    <label>PLUS 1500 0597</label>
+                </value>
+                <value>
+                    <fullName>Carbon</fullName>
+                    <default>false</default>
+                    <label>Carbon</label>
                 </value>
             </valueSetDefinition>
         </valueSet>
@@ -474,9 +528,78 @@
     <nameField n1:nil="true" />
     <recordTypeTrackFeedHistory>false</recordTypeTrackFeedHistory>
     <recordTypes>
-        <fullName>DeleteRTacc</fullName>
+        <fullName>Business_Account</fullName>
         <active>true</active>
-        <label>DeleteRTacc</label>
+        <label>Business Account</label>
+        <picklistValues>
+            <picklist>PA_Test_Field__c</picklist>
+            <values>
+                <fullName>Value 1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Value 2</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Rating</picklist>
+            <values>
+                <fullName>Cold</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hot</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PA Test</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Warm</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SLA__c</picklist>
+            <values>
+                <fullName>Bronze</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Carbon</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Gold</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PLUS 1500 %280597%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PLUS 1500 0597</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Plastic</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Platinum</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Silver</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Wood</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
     </recordTypes>
     <recordTypes>
         <fullName>Record_Type1</fullName>
@@ -1081,6 +1204,10 @@
         <lookupPhoneDialogsAdditionalFields>CORE.USERS.ALIAS</lookupPhoneDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>ACCOUNT.TYPE</lookupPhoneDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>ACCOUNT.PHONE1</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>PC_PHONE3</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>PC_PHONE4</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>PC_PHONE5</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>PC_PHONE6</lookupPhoneDialogsAdditionalFields>
         <searchResultsAdditionalFields>ACCOUNT.NAME</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>ACCOUNT.SITE</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>ACCOUNT.PHONE1</searchResultsAdditionalFields>
