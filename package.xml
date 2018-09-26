@@ -2,6 +2,7 @@
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
         <members>Account.Field_2__c</members>
+        <members>Case.BitCoin__c</members>
         <name>CustomField</name>
     </types>
     <version>43.0</version>
