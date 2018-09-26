@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Account.PA_Test_Field__c</members>
+        <members>Account.Field_2__c</members>
+        <members>Account.Field_3__c</members>
+        <members>Case.BitCoin__c</members>
         <name>CustomField</name>
     </types>
     <types>
-        <members>Account.Business_Account</members>
-        <name>RecordType</name>
+        <members>Case.VR_test_commit</members>
+        <name>ValidationRule</name>
     </types>
     <version>43.0</version>
 </Package>
