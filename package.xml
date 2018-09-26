@@ -5,8 +5,8 @@
         <name>CustomField</name>
     </types>
     <types>
-        <members>Case.VR_test_commit</members>
-        <name>ValidationRule</name>
+        <members>ADD</members>
+        <name>CustomLabel</name>
     </types>
     <version>43.0</version>
 </Package>
