@@ -6,5 +6,9 @@
         <members>Case.BitCoin__c</members>
         <name>CustomField</name>
     </types>
+    <types>
+        <members>Case.VR_test_commit</members>
+        <name>ValidationRule</name>
+    </types>
     <version>43.0</version>
 </Package>
