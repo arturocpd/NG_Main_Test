@@ -4753,6 +4753,13 @@
         <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>ReadWriteTransfer</sharingModel>
+    <validationRules>
+        <fullName>VR_test_commit</fullName>
+        <active>true</active>
+        <description>this is a VR for testing commits</description>
+        <errorConditionFormula>false</errorConditionFormula>
+        <errorMessage>Never triggered</errorMessage>
+    </validationRules>
     <webLinks>
         <fullName>UpsellCrosssellOpportunity</fullName>
         <availability>online</availability>
