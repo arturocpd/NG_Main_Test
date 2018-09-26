@@ -4,9 +4,5 @@
         <members>Account.Field_2__c</members>
         <name>CustomField</name>
     </types>
-    <types>
-        <members>ADD</members>
-        <name>CustomLabel</name>
-    </types>
     <version>43.0</version>
 </Package>
