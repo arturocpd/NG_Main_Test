@@ -9,7 +9,7 @@ Public Class AppleWatch{
         insert t;
      /*conflict here test 2334*/
      //testing Git Metadata Step 3
-     /* testin CI order*/
+     /* testin CI orderXXX*/
      /* yes!! line*/
      //testing 2 comment trying to force a conflict here
      //new line
