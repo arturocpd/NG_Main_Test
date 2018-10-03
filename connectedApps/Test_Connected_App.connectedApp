@@ -4,7 +4,6 @@
         <accessMethod>Post</accessMethod>
         <canvasUrl>https://localhost:8443/examples/hello-world/index.jsp</canvasUrl>
         <locations>Chatter</locations>
-        <locations>Visualforce</locations>
         <locations>Aura</locations>
         <locations>Publisher</locations>
         <locations>ChatterFeed</locations>
