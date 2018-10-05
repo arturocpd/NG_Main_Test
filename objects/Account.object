@@ -91,7 +91,7 @@
         <fullName>Account_Number__c</fullName>
         <externalId>false</externalId>
         <label>Account Number</label>
-        <length>30</length>
+        <length>20</length>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Text</type>
@@ -248,6 +248,14 @@
         <fullName>OperatingHoursId</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Override_1__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Override 1</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
     </fields>
     <fields>
         <fullName>OwnerId</fullName>
