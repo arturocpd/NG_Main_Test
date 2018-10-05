@@ -9,31 +9,31 @@
         <value>OportunidadesMOD</value>
     </caseValues>
     <fields>
-        <label><!-- Current Generator(s) --></label>
+        <label></label>
         <name>CurrentGenerators__c</name>
     </fields>
     <fields>
-        <label><!-- Delivery/Installation Status --></label>
+        <label></label>
         <name>DeliveryInstallationStatus__c</name>
         <picklistValues>
             <masterLabel>Completed</masterLabel>
-            <translation><!-- Completed --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>In progress</masterLabel>
-            <translation><!-- In progress --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Yet to begin</masterLabel>
-            <translation><!-- Yet to begin --></translation>
+            <translation></translation>
         </picklistValues>
     </fields>
     <fields>
-        <label>modificado</label>
+        <label>Competidor principal</label>
         <name>MainCompetitors__c</name>
     </fields>
     <fields>
-        <label><!-- Order Number --></label>
+        <label></label>
         <name>OrderNumber__c</name>
     </fields>
     <fields>
@@ -41,7 +41,7 @@
         <name>Test_Commit_A__c</name>
     </fields>
     <fields>
-        <label>Prueba Modificado Comit B</label>
+        <label>Prueba Comit B</label>
         <name>Test_Commit_B__c</name>
     </fields>
     <fields>
@@ -49,16 +49,23 @@
         <name>Test_Commit_C__c</name>
     </fields>
     <fields>
-        <label><!-- Tracking Number --></label>
+        <label></label>
         <name>TrackingNumber__c</name>
     </fields>
     <fields>
-        <label><!-- xyz SGUID Opp --></label>
+        <label></label>
         <name>xyz_SGUID_Opp__c</name>
     </fields>
     <gender>Feminine</gender>
+    <layouts>
+        <layout>Admin Clone Layout</layout>
+        <sections>
+            <label>Link personalizado</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <webLinks>
-        <label><!-- DeliveryStatus --></label>
+        <label></label>
         <name>DeliveryStatus</name>
     </webLinks>
 </CustomObjectTranslation>

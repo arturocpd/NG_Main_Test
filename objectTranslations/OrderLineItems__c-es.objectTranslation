@@ -13,14 +13,14 @@
         <name>OLI_field_set</name>
     </fieldSets>
     <fields>
-        <label><!-- AssetLineItemId --></label>
+        <label></label>
         <name>AssetLineItemId__c</name>
-        <relationshipLabel><!-- OrderLineItems --></relationshipLabel>
+        <relationshipLabel></relationshipLabel>
     </fields>
     <fields>
         <label>Propuesta Id</label>
         <name>ProposalId__c</name>
-        <relationshipLabel><!-- OrderLineItems --></relationshipLabel>
+        <relationshipLabel></relationshipLabel>
     </fields>
     <gender>Masculine</gender>
     <nameFieldLabel>OrderLineItems Nombre</nameFieldLabel>

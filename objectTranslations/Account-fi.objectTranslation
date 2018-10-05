@@ -4,19 +4,19 @@
         <caseType>Nominative</caseType>
         <plural>false</plural>
         <possessive>None</possessive>
-        <value>TiliZZZ</value>
+        <value></value>
     </caseValues>
     <caseValues>
         <caseType>Nominative</caseType>
         <plural>true</plural>
         <possessive>None</possessive>
-        <value>TilitZZZ</value>
+        <value></value>
     </caseValues>
     <caseValues>
         <caseType>Nominative</caseType>
         <plural>false</plural>
         <possessive>First</possessive>
-        <value>TiliniZZZ</value>
+        <value>TilisiGIT</value>
     </caseValues>
     <caseValues>
         <caseType>Nominative</caseType>
@@ -28,7 +28,7 @@
         <caseType>Nominative</caseType>
         <plural>false</plural>
         <possessive>Second</possessive>
-        <value>TilisiZZZ</value>
+        <value>TilisiBBB</value>
     </caseValues>
     <caseValues>
         <caseType>Nominative</caseType>
@@ -397,127 +397,123 @@
         <value>Tilejäsi</value>
     </caseValues>
     <fields>
-        <label><!-- Active --></label>
+        <label></label>
         <name>Active__c</name>
         <picklistValues>
             <masterLabel>No</masterLabel>
-            <translation><!-- No --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Yes</masterLabel>
-            <translation><!-- Yes --></translation>
+            <translation></translation>
         </picklistValues>
     </fields>
     <fields>
-        <label><!-- Customer Priority --></label>
+        <label></label>
         <name>CustomerPriority__c</name>
         <picklistValues>
             <masterLabel>High</masterLabel>
-            <translation><!-- High --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Low</masterLabel>
-            <translation><!-- Low --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Medium</masterLabel>
-            <translation><!-- Medium --></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>None</masterLabel>
-            <translation><!-- None --></translation>
+            <translation></translation>
         </picklistValues>
     </fields>
     <fields>
-        <label><!-- External Id --></label>
+        <label></label>
         <name>External_Id__c</name>
     </fields>
     <fields>
-        <label><!-- Field 1 --></label>
+        <label></label>
         <name>Field_1__c</name>
     </fields>
     <fields>
-        <label><!-- Field 2 --></label>
+        <label></label>
         <name>Field_2__c</name>
     </fields>
     <fields>
-        <label><!-- Field 3 --></label>
+        <label></label>
         <name>Field_3__c</name>
     </fields>
     <fields>
-        <label><!-- Number of Locations --></label>
+        <label></label>
         <name>NumberofLocations__c</name>
     </fields>
     <fields>
-        <label><!-- SLA Expiration Date --></label>
+        <label></label>
         <name>SLAExpirationDate__c</name>
     </fields>
     <fields>
-        <label><!-- SLA Serial Number --></label>
+        <label></label>
         <name>SLASerialNumber__c</name>
     </fields>
     <fields>
-        <label><!-- SLA --></label>
+        <label></label>
         <name>SLA__c</name>
         <picklistValues>
             <masterLabel>Bronze</masterLabel>
-            <translation><!-- Bronze --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Gold</masterLabel>
-            <translation><!-- Gold --></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>Iron</masterLabel>
-            <translation><!-- Iron --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Platinum</masterLabel>
-            <translation><!-- Platinum --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Silver</masterLabel>
-            <translation><!-- Silver --></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>Wood</masterLabel>
-            <translation><!-- Wood --></translation>
+            <translation></translation>
         </picklistValues>
     </fields>
     <fields>
-        <label><!-- Upsell Opportunity --></label>
+        <label></label>
         <name>UpsellOpportunity__c</name>
         <picklistValues>
             <masterLabel>Maybe</masterLabel>
-            <translation><!-- Maybe --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>No</masterLabel>
-            <translation><!-- No --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Yes</masterLabel>
-            <translation><!-- Yes --></translation>
+            <translation></translation>
         </picklistValues>
     </fields>
     <fields>
-        <label><!-- xyz Account Number --></label>
+        <label></label>
         <name>xyz_Account_Number__c</name>
     </fields>
+    <recordTypes>
+        <label></label>
+        <name>Record_Type1</name>
+    </recordTypes>
+    <recordTypes>
+        <label></label>
+        <name>Record_Type2</name>
+    </recordTypes>
     <validationRules>
-        <errorMessage><!-- This error will be never displayed. --></errorMessage>
+        <errorMessage></errorMessage>
         <name>New_Validation_Acc</name>
     </validationRules>
     <validationRules>
-        <errorMessage><!-- This is always false --></errorMessage>
+        <errorMessage></errorMessage>
         <name>Prevent_Edit_to_Relationship_Fields</name>
     </validationRules>
     <validationRules>
-        <errorMessage><!-- You must enter a name for the XXXXXXXXXXX account --></errorMessage>
+        <errorMessage></errorMessage>
         <name>Validation</name>
     </validationRules>
     <webLinks>
-        <label><!-- Billing --></label>
+        <label></label>
         <name>Billing</name>
     </webLinks>
 </CustomObjectTranslation>
