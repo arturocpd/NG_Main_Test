@@ -1543,7 +1543,7 @@
         <fullName>Prevent_Edit_to_Relationship_Fields</fullName>
         <active>true</active>
         <errorConditionFormula>ISBLANK(Name)</errorConditionFormula>
-        <errorMessage>This is always false</errorMessage>
+        <errorMessage>This is going to be always false no matter what.</errorMessage>
     </validationRules>
     <validationRules>
         <fullName>Validation</fullName>
