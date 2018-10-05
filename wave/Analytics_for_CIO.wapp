@@ -5,7 +5,7 @@
     <masterLabel>Analytics for CIO</masterLabel>
     <shares>
         <accessLevel>Manage</accessLevel>
-        <sharedTo>arturoeinsteinanalytics@gmail.com</sharedTo>
+        <sharedTo>{!Environment.Wave_US}</sharedTo>
         <sharedToType>User</sharedToType>
     </shares>
     <templateOrigin>sfdc_internal__AdminAnalytics</templateOrigin>
