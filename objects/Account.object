@@ -88,10 +88,10 @@
         <type>Picklist</type>
     </fields>
     <fields>
-        <fullName>Account_Number__c</fullName>
+        <fullName>Account_Number2__c</fullName>
         <externalId>false</externalId>
         <label>Account Number</label>
-        <length>20</length>
+        <length>10</length>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Text</type>
@@ -144,7 +144,7 @@
                 <sorted>false</sorted>
                 <value>
                     <fullName>High</fullName>
-                    <default>false</default>
+                    <default>true</default>
                     <label>High</label>
                 </value>
                 <value>
