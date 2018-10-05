@@ -202,8 +202,8 @@
         <type>Checkbox</type>
     </fields>
     <fields>
-        <fullName>Industry</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
+        <fullName>IndustryYYY</fullName>
+        <trackFeedHistory>True</trackFeedHistory>
         <type>Picklist</type>
     </fields>
     <fields>
