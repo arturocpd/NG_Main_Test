@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata"
-      xmlns:n1="http://www.w3.org/2001/XMLSchema-instance">
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
     <actionOverrides>
         <actionName>CallHighlightAction</actionName>
         <type>Default</type>
@@ -67,35 +66,51 @@
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <compactLayouts>
+        <fullName>Compact_Test</fullName>
+        <fields>Name</fields>
+        <fields>OwnerId</fields>
+        <label>Compact Test</label>
+    </compactLayouts>
+    <compactLayouts>
         <fullName>Custom_Acc_Compact_Layout</fullName>
         <fields>Name</fields>
         <fields>Industry</fields>
         <fields>Type</fields>
         <label>Custom Acc Compact Layout</label>
     </compactLayouts>
-    <description n1:nil="true" />
     <enableEnhancedLookup>true</enableEnhancedLookup>
     <enableFeeds>true</enableFeeds>
     <enableHistory>false</enableHistory>
     <externalSharingModel>Private</externalSharingModel>
     <fields>
-        <fullName>AccountNumber</fullName>
+        <fullName>AccountLookup__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>AccountLookup</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>$Source.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Record Type1</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Accounts</relationshipLabel>
+        <relationshipName>Accounts</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>AccountNumberXXXX</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
         <fullName>AccountSource</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Picklist</type>
-    </fields>
-    <fields>
-        <fullName>Account_Number__c</fullName>
-        <externalId>false</externalId>
-        <label>Account Number</label>
-        <length>20</length>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Text</type>
-        <unique>false</unique>
     </fields>
     <fields>
         <fullName>Active__c</fullName>
@@ -127,6 +142,12 @@
     <fields>
         <fullName>BillingAddress</fullName>
         <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>ChannelProgramLevelName</fullName>
+    </fields>
+    <fields>
+        <fullName>ChannelProgramName</fullName>
     </fields>
     <fields>
         <fullName>CleanStatus</fullName>
@@ -194,10 +215,18 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
-        <fullName>Field_1__c</fullName>
+        <fullName>Field_2__c</fullName>
         <defaultValue>false</defaultValue>
         <externalId>false</externalId>
-        <label>Field 1</label>
+        <label>Field 2</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Field_3__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Field 3</label>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Checkbox</type>
     </fields>
@@ -210,12 +239,24 @@
         <fullName>IsCustomerPortal</fullName>
     </fields>
     <fields>
+        <fullName>IsExcludedFromRealign</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
         <fullName>IsPartner</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
         <fullName>Jigsaw</fullName>
         <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>Lets_Override_3__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Lets Override 3</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
     </fields>
     <fields>
         <fullName>NaicsCode</fullName>
@@ -250,6 +291,14 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>Override_1__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Override 1</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>OwnerId</fullName>
         <trackFeedHistory>true</trackFeedHistory>
         <type>Lookup</type>
@@ -258,66 +307,6 @@
         <fullName>Ownership</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Picklist</type>
-    </fields>
-    <fields>
-        <fullName>PA_Test_Field__c</fullName>
-        <externalId>false</externalId>
-        <label>PA Test Field</label>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
-        <type>Picklist</type>
-        <valueSet>
-            <restricted>true</restricted>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>Value 1</fullName>
-                    <default>false</default>
-                    <label>Value 1</label>
-                </value>
-                <value>
-                    <fullName>Value 2</fullName>
-                    <default>false</default>
-                    <label>Value 2</label>
-                </value>
-                <value>
-                    <fullName>Value3</fullName>
-                    <default>false</default>
-                    <label>Value3</label>
-                </value>
-                <value>
-                    <fullName>PLUS 1500 (0597)</fullName>
-                    <default>false</default>
-                    <label>PLUS 1500 (0597)</label>
-                </value>
-                <value>
-                    <fullName>Value 4</fullName>
-                    <default>false</default>
-                    <label>Value 4</label>
-                </value>
-                <value>
-                    <fullName>Value5</fullName>
-                    <default>false</default>
-                    <label>Value5</label>
-                </value>
-                <value>
-                    <fullName>new</fullName>
-                    <default>false</default>
-                    <label>new</label>
-                </value>
-                <value>
-                    <fullName>Test PA</fullName>
-                    <default>false</default>
-                    <label>Test PA</label>
-                </value>
-                <value>
-                    <fullName>PA Fix</fullName>
-                    <default>false</default>
-                    <label>PA Fix</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
     </fields>
     <fields>
         <fullName>ParentId</fullName>
@@ -382,29 +371,14 @@
                     <label>Bronze</label>
                 </value>
                 <value>
+                    <fullName>Iron</fullName>
+                    <default>false</default>
+                    <label>Iron</label>
+                </value>
+                <value>
                     <fullName>Wood</fullName>
                     <default>false</default>
                     <label>Wood</label>
-                </value>
-                <value>
-                    <fullName>Plastic</fullName>
-                    <default>false</default>
-                    <label>Plastic</label>
-                </value>
-                <value>
-                    <fullName>PLUS 1500 (0597)</fullName>
-                    <default>false</default>
-                    <label>PLUS 1500 (0597)</label>
-                </value>
-                <value>
-                    <fullName>PLUS 1500 0597</fullName>
-                    <default>false</default>
-                    <label>PLUS 1500 0597</label>
-                </value>
-                <value>
-                    <fullName>Carbon</fullName>
-                    <default>false</default>
-                    <label>Carbon</label>
                 </value>
             </valueSetDefinition>
         </valueSet>
@@ -424,6 +398,14 @@
     <fields>
         <fullName>Site</fullName>
         <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>Test_Override_2__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Test Override 2</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
     </fields>
     <fields>
         <fullName>TickerSymbol</fullName>
@@ -483,6 +465,14 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
+        <fullName>search_layout__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>search layout</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>xyz_Account_Number__c</fullName>
         <caseSensitive>true</caseSensitive>
         <externalId>true</externalId>
@@ -533,20 +523,223 @@
         <filterScope>Everything</filterScope>
         <label>Platinum and Gold SLA Customers</label>
     </listViews>
-    <nameField n1:nil="true" />
     <recordTypeTrackFeedHistory>false</recordTypeTrackFeedHistory>
     <recordTypes>
-        <fullName>Business_Account</fullName>
+        <fullName>DeleteRTacc</fullName>
         <active>true</active>
-        <label>Business Account</label>
+        <label>DeleteRTacc</label>
         <picklistValues>
-            <picklist>PA_Test_Field__c</picklist>
+            <picklist>AccountSource</picklist>
             <values>
-                <fullName>Value 1</fullName>
+                <fullName>One more CI test</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Value 2</fullName>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Partner Referral</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Phone Inquiry</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Purchased List</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>RT test with CI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Test CI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Web</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Active__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>CustomerPriority__c</picklist>
+            <values>
+                <fullName>High</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Low</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Medium</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>None</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Industry</picklist>
+            <values>
+                <fullName>Agriculture</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Apparel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Banking</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Biotechnology</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Chemicals</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Communications</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Construction</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Consulting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Education</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Electronics</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Energy</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Engineering</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Entertainment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Environmental</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Finance</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Food %26 Beverage</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Government</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Healthcare</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hospitality</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Insurance</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Machinery</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Manufacturing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Media</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not For Profit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Recreation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Retail</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Shipping</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Technology</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Telecommunications</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Transportation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Utilities</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Ownership</picklist>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Private</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Public</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Subsidiary</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -561,10 +754,6 @@
                 <default>false</default>
             </values>
             <values>
-                <fullName>PA Test</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>Warm</fullName>
                 <default>false</default>
             </values>
@@ -576,23 +765,11 @@
                 <default>false</default>
             </values>
             <values>
-                <fullName>Carbon</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>Gold</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>PLUS 1500 %280597%29</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>PLUS 1500 0597</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Plastic</fullName>
+                <fullName>Iron</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -608,11 +785,57 @@
                 <default>false</default>
             </values>
         </picklistValues>
+        <picklistValues>
+            <picklist>Type</picklist>
+            <values>
+                <fullName>Channel Partner %2F Reseller</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer - Channel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer - Direct</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Installation Partner</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Prospect</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Technology Partner</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>UpsellOpportunity__c</picklist>
+            <values>
+                <fullName>Maybe</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
     </recordTypes>
     <recordTypes>
         <fullName>Record_Type1</fullName>
         <active>true</active>
-        <compactLayoutAssignment>Custom_Acc_Compact_Layout</compactLayoutAssignment>
+        <compactLayoutAssignment>Compact_Test</compactLayoutAssignment>
         <label>Record Type1</label>
         <picklistValues>
             <picklist>AccountSource</picklist>
@@ -894,14 +1117,6 @@
             <picklist>UpsellOpportunity__c</picklist>
             <values>
                 <fullName>Maybe</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>No</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Yes</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -1212,10 +1427,6 @@
         <lookupPhoneDialogsAdditionalFields>CORE.USERS.ALIAS</lookupPhoneDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>ACCOUNT.TYPE</lookupPhoneDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>ACCOUNT.PHONE1</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>PC_PHONE3</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>PC_PHONE4</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>PC_PHONE5</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>PC_PHONE6</lookupPhoneDialogsAdditionalFields>
         <searchResultsAdditionalFields>ACCOUNT.NAME</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>ACCOUNT.SITE</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>ACCOUNT.PHONE1</searchResultsAdditionalFields>
@@ -1236,7 +1447,7 @@
         <fullName>Prevent_Edit_to_Relationship_Fields</fullName>
         <active>true</active>
         <errorConditionFormula>ISBLANK(Name)</errorConditionFormula>
-        <errorMessage>This is always false</errorMessage>
+        <errorMessage>Always false no matter what</errorMessage>
     </validationRules>
     <validationRules>
         <fullName>Validation</fullName>
