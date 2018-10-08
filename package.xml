@@ -4,10 +4,5 @@
         <members>AppleWatch</members>
         <name>ApexClass</name>
     </types>
-    <types>
-        <members>CSTM_Object__c.Name</members>
-        <members>Dinner__c.Name</members>
-        <name>CustomField</name>
-    </types>
     <version>43.0</version>
 </Package>
