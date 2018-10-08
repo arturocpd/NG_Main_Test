@@ -104,7 +104,7 @@
         <type>Lookup</type>
     </fields>
     <fields>
-        <fullName>AccountNumber</fullName>
+        <fullName>AccountNumberXXXX</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
