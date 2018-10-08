@@ -1433,13 +1433,13 @@
         <fullName>New_Validation_Acc</fullName>
         <active>true</active>
         <errorConditionFormula>false</errorConditionFormula>
-        <errorMessage>This error will be never displayed.</errorMessage>
+        <errorMessage>XXXXXXX.</errorMessage>
     </validationRules>
     <validationRules>
         <fullName>Prevent_Edit_to_Relationship_Fields</fullName>
         <active>true</active>
         <errorConditionFormula>ISBLANK(Name)</errorConditionFormula>
-        <errorMessage>Always false no matter what</errorMessage>
+        <errorMessage>valdiation error</errorMessage>
     </validationRules>
     <validationRules>
         <fullName>Validation</fullName>
