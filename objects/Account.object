@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata"
+      xmlns:n1="http://www.w3.org/2001/XMLSchema-instance">
     <actionOverrides>
         <actionName>CallHighlightAction</actionName>
         <type>Default</type>
@@ -72,6 +73,7 @@
         <fields>Type</fields>
         <label>Custom Acc Compact Layout</label>
     </compactLayouts>
+    <description n1:nil="true" />
     <enableEnhancedLookup>true</enableEnhancedLookup>
     <enableFeeds>true</enableFeeds>
     <enableHistory>false</enableHistory>
@@ -84,6 +86,16 @@
         <fullName>AccountSource</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Account_Number__c</fullName>
+        <externalId>false</externalId>
+        <label>Account Number</label>
+        <length>20</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
     </fields>
     <fields>
         <fullName>Active__c</fullName>
@@ -145,6 +157,11 @@
                     <default>false</default>
                     <label>Medium</label>
                 </value>
+                <value>
+                    <fullName>None</fullName>
+                    <default>false</default>
+                    <label>None</label>
+                </value>
             </valueSetDefinition>
         </valueSet>
     </fields>
@@ -175,6 +192,14 @@
     <fields>
         <fullName>Fax</fullName>
         <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>Field_1__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Field 1</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
     </fields>
     <fields>
         <fullName>Industry</fullName>
@@ -233,6 +258,66 @@
         <fullName>Ownership</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>PA_Test_Field__c</fullName>
+        <externalId>false</externalId>
+        <label>PA Test Field</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Value 1</fullName>
+                    <default>false</default>
+                    <label>Value 1</label>
+                </value>
+                <value>
+                    <fullName>Value 2</fullName>
+                    <default>false</default>
+                    <label>Value 2</label>
+                </value>
+                <value>
+                    <fullName>Value3</fullName>
+                    <default>false</default>
+                    <label>Value3</label>
+                </value>
+                <value>
+                    <fullName>PLUS 1500 (0597)</fullName>
+                    <default>false</default>
+                    <label>PLUS 1500 (0597)</label>
+                </value>
+                <value>
+                    <fullName>Value 4</fullName>
+                    <default>false</default>
+                    <label>Value 4</label>
+                </value>
+                <value>
+                    <fullName>Value5</fullName>
+                    <default>false</default>
+                    <label>Value5</label>
+                </value>
+                <value>
+                    <fullName>new</fullName>
+                    <default>false</default>
+                    <label>new</label>
+                </value>
+                <value>
+                    <fullName>Test PA</fullName>
+                    <default>false</default>
+                    <label>Test PA</label>
+                </value>
+                <value>
+                    <fullName>PA Fix</fullName>
+                    <default>false</default>
+                    <label>PA Fix</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
     </fields>
     <fields>
         <fullName>ParentId</fullName>
@@ -297,9 +382,29 @@
                     <label>Bronze</label>
                 </value>
                 <value>
-                    <fullName>Iron</fullName>
+                    <fullName>Wood</fullName>
                     <default>false</default>
-                    <label>Iron</label>
+                    <label>Wood</label>
+                </value>
+                <value>
+                    <fullName>Plastic</fullName>
+                    <default>false</default>
+                    <label>Plastic</label>
+                </value>
+                <value>
+                    <fullName>PLUS 1500 (0597)</fullName>
+                    <default>false</default>
+                    <label>PLUS 1500 (0597)</label>
+                </value>
+                <value>
+                    <fullName>PLUS 1500 0597</fullName>
+                    <default>false</default>
+                    <label>PLUS 1500 0597</label>
+                </value>
+                <value>
+                    <fullName>Carbon</fullName>
+                    <default>false</default>
+                    <label>Carbon</label>
                 </value>
             </valueSetDefinition>
         </valueSet>
@@ -420,12 +525,42 @@
         <filterScope>Everything</filterScope>
         <label>Platinum and Gold SLA Customers</label>
     </listViews>
+    <nameField n1:nil="true" />
     <recordTypeTrackFeedHistory>false</recordTypeTrackFeedHistory>
     <recordTypes>
-        <fullName>Record_Type1</fullName>
+        <fullName>Business_Account</fullName>
         <active>true</active>
-        <compactLayoutAssignment>Custom_Acc_Compact_Layout</compactLayoutAssignment>
-        <label>Record Type1</label>
+        <label>Business Account</label>
+        <picklistValues>
+            <picklist>PA_Test_Field__c</picklist>
+            <values>
+                <fullName>Value 1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Value 2</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Rating</picklist>
+            <values>
+                <fullName>Cold</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hot</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PA Test</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Warm</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
         <picklistValues>
             <picklist>SLA__c</picklist>
             <values>
@@ -433,11 +568,23 @@
                 <default>false</default>
             </values>
             <values>
+                <fullName>Carbon</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Gold</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Iron</fullName>
+                <fullName>PLUS 1500 %280597%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PLUS 1500 0597</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Plastic</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -448,7 +595,17 @@
                 <fullName>Silver</fullName>
                 <default>false</default>
             </values>
+            <values>
+                <fullName>Wood</fullName>
+                <default>false</default>
+            </values>
         </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Record_Type1</fullName>
+        <active>true</active>
+        <compactLayoutAssignment>Custom_Acc_Compact_Layout</compactLayoutAssignment>
+        <label>Record Type1</label>
         <picklistValues>
             <picklist>AccountSource</picklist>
             <values>
@@ -495,6 +652,10 @@
             </values>
             <values>
                 <fullName>Medium</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>None</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -660,6 +821,33 @@
             </values>
             <values>
                 <fullName>Warm</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SLA__c</picklist>
+            <values>
+                <fullName>Bronze</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Gold</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Iron</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Platinum</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Silver</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Wood</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -716,29 +904,6 @@
         <compactLayoutAssignment>Custom_Acc_Compact_Layout</compactLayoutAssignment>
         <label>Record Type2</label>
         <picklistValues>
-            <picklist>SLA__c</picklist>
-            <values>
-                <fullName>Bronze</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Gold</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Iron</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Platinum</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Silver</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
             <picklist>AccountSource</picklist>
             <values>
                 <fullName>Other</fullName>
@@ -949,6 +1114,33 @@
             </values>
             <values>
                 <fullName>Warm</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SLA__c</picklist>
+            <values>
+                <fullName>Bronze</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Gold</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Iron</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Platinum</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Silver</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Wood</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -1007,15 +1199,15 @@
         <lookupDialogsAdditionalFields>ACCOUNT.SITE</lookupDialogsAdditionalFields>
         <lookupDialogsAdditionalFields>CORE.USERS.ALIAS</lookupDialogsAdditionalFields>
         <lookupDialogsAdditionalFields>ACCOUNT.TYPE</lookupDialogsAdditionalFields>
-        <lookupFilterFields>ACCOUNT.NAME</lookupFilterFields>
-        <lookupFilterFields>ACCOUNT.SITE</lookupFilterFields>
-        <lookupFilterFields>CORE.USERS.ALIAS</lookupFilterFields>
-        <lookupFilterFields>ACCOUNT.TYPE</lookupFilterFields>
         <lookupPhoneDialogsAdditionalFields>ACCOUNT.NAME</lookupPhoneDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>ACCOUNT.SITE</lookupPhoneDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>CORE.USERS.ALIAS</lookupPhoneDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>ACCOUNT.TYPE</lookupPhoneDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>ACCOUNT.PHONE1</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>PC_PHONE3</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>PC_PHONE4</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>PC_PHONE5</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>PC_PHONE6</lookupPhoneDialogsAdditionalFields>
         <searchResultsAdditionalFields>ACCOUNT.NAME</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>ACCOUNT.SITE</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>ACCOUNT.PHONE1</searchResultsAdditionalFields>

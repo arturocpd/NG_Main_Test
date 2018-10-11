@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Translations xmlns="http://soap.sforce.com/2006/04/metadata">
     <customLabels>
-        <label>Autenticacion</label>
-        <name>ADD_AUTHENTICATION</name>
-    </customLabels>
-    <customLabels>
-        <label>Comit ahead</label>
-        <name>COMMITS_AHEAD</name>
-    </customLabels>
-    <customLabels>
-        <label>crear deployment</label>
-        <name>CREATE_DEPLOYMENT</name>
-    </customLabels>
-    <customLabels>
-        <label>Nuevo Deployment</label>
-        <name>DEPLOYMENT_NEW</name>
+        <label>Cabecera Columna Accion</label>
+        <name>ACTION_COLUMN_HEADER</name>
     </customLabels>
 </Translations>
