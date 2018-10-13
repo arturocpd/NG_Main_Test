@@ -408,7 +408,7 @@
     <fields>
         <fullName>Override_1__c</fullName>
         <defaultValue>false</defaultValue>
-        <description>Description</description>
+        <description>Description 2</description>
         <externalId>false</externalId>
         <label>Override 1</label>
         <trackFeedHistory>false</trackFeedHistory>
