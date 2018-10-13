@@ -4,4 +4,8 @@
         <label>Cabecera Columna Accion MODIFIED2</label>
         <name>ACTION_COLUMN_HEADER</name>
     </customLabels>
+    <customLabels>
+        <label>Informacion basica</label>
+        <name>BASIC_INFORMATION</name>
+    </customLabels>
 </Translations>
