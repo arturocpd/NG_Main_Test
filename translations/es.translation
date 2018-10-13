@@ -5,7 +5,11 @@
         <name>ACTION_COLUMN_HEADER</name>
     </customLabels>
     <customLabels>
-        <label>Informacion basica</label>
+        <label>Informacion basica Modified</label>
         <name>BASIC_INFORMATION</name>
+    </customLabels>
+    <customLabels>
+        <label>CCM licencias usadas</label>
+        <name>CCM_LICENSES_USED</name>
     </customLabels>
 </Translations>
