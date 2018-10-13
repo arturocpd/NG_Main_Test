@@ -406,15 +406,6 @@
         <type>Lookup</type>
     </fields>
     <fields>
-        <fullName>Override_1__c</fullName>
-        <defaultValue>false</defaultValue>
-        <description>Description 2</description>
-        <externalId>false</externalId>
-        <label>Override 1</label>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Checkbox</type>
-    </fields>
-    <fields>
         <fullName>OwnerId</fullName>
         <trackFeedHistory>true</trackFeedHistory>
         <type>Lookup</type>
@@ -571,6 +562,15 @@
     <fields>
         <fullName>YearStarted</fullName>
         <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>override_1__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Description 2</description>
+        <externalId>false</externalId>
+        <label>Override 1</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
     </fields>
     <fields>
         <fullName>search_layout__c</fullName>
