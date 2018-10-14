@@ -16,7 +16,7 @@
     <label>Connected App YAML</label>
     <oauthConfig>
         <callbackUrl>https://logoin.salesforce.com/service/oauth2/callback</callbackUrl>
-        consumerKey
+        <consumerKey></consumerKey>
         <scopes>Basic</scopes>
         <scopes>CustomPermissions</scopes>
     </oauthConfig>
