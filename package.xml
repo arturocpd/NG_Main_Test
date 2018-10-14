@@ -5,12 +5,5 @@
         <members>AppleWatchTest</members>
         <name>ApexClass</name>
     </types>
-    <types>
-        <members>Case.BP_Test__c</members>
-        <members>Case.BitCoin__c</members>
-        <members>Case.CI_Picklist_Test__c</members>
-        <members>Case.CI_Test_deploy__c</members>
-        <name>CustomField</name>
-    </types>
     <version>43.0</version>
 </Package>
