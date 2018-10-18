@@ -20,4 +20,11 @@
         <gender>Feminine</gender>
         <name>case_currency</name>
     </fields>
+    <layouts>
+        <layout>Case Layout</layout>
+        <sections>
+            <label>Link Custom</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
 </CustomObjectTranslation>
