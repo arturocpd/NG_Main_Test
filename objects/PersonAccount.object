@@ -12,6 +12,10 @@
         <picklistValues>
             <picklist>PA_Test_Field__c</picklist>
             <values>
+                <fullName>PA Fix</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Value 1</fullName>
                 <default>true</default>
             </values>
