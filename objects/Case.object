@@ -935,11 +935,6 @@
                     <default>false</default>
                     <label>Dependent 3</label>
                 </value>
-                <value>
-                    <fullName>Inactive</fullName>
-                    <default>false</default>
-                    <label>Inactive</label>
-                </value>
             </valueSetDefinition>
             <valueSettings>
                 <controllingFieldValue>Controlling 1</controllingFieldValue>
