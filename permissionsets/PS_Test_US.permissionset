@@ -3,11 +3,7 @@
     <hasActivationRequired>false</hasActivationRequired>
     <label>PS Test US</label>
     <tabSettings>
-        <tab>CSTM_Object__c</tab>
-        <visibility>Visible</visibility>
-    </tabSettings>
-    <tabSettings>
-        <tab>Dinner__c</tab>
+        <tab>OLS_Test__c</tab>
         <visibility>Available</visibility>
     </tabSettings>
 </PermissionSet>
