@@ -12,7 +12,7 @@ Public Class AppleWatch{
      /* test new commit user story ZZZZ*/
      /* conflict here in master*/
      //testing 2 comment trying to force a conflict here
-     //new line
+     //new line XXXXXX
        
     }
 
