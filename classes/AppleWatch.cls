@@ -10,9 +10,9 @@ Public Class AppleWatch{
      /*conflict here test 2334*/
      //testing Git Metadata Step 2
      /* test new commit user story ZZZZ*/
-     /* conflict here in master*/
+     /* yes!! line*/
      //testing 2 comment trying to force a conflict here
-     //new line XXXXXX
+     //changes on Dev1
        
     }
 
