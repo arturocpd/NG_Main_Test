@@ -35,7 +35,7 @@
         <name>cstm_field__c</name>
     </fields>
     <gender><!-- Neuter --></gender>
-    <nameFieldLabel><!-- CSTM Object Name --></nameFieldLabel>
+    <nameFieldLabel><!-- CSTM Object --></nameFieldLabel>
     <recordTypes>
         <label><!-- CSTM New layout --></label>
         <name>CSTM_New_layout</name>

@@ -64,8 +64,9 @@
     <gender>Feminine</gender>
     <label>Delete me</label>
     <nameField>
+        <displayFormat>A-{0000}</displayFormat>
         <label>Delete me Name</label>
-        <type>Text</type>
+        <type>AutoNumber</type>
     </nameField>
     <pluralLabel>delete me</pluralLabel>
     <searchLayouts/>

@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
     <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
     <label>Service Console</label>
     <navType>Console</navType>
     <setupExperience>service</setupExperience>
@@ -12,6 +14,8 @@
     <tabs>standard-home</tabs>
     <tabs>CSTM_Object__c</tabs>
     <tabs>Knowledge__kav</tabs>
+    <tabs>IdeasVFTab</tabs>
+    <tabs>OLS_Test__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>LightningService_UtilityBar</utilityBar>
     <workspaceConfig>
@@ -19,7 +23,13 @@
             <tab>CSTM_Object__c</tab>
         </mappings>
         <mappings>
+            <tab>IdeasVFTab</tab>
+        </mappings>
+        <mappings>
             <tab>Knowledge__kav</tab>
+        </mappings>
+        <mappings>
+            <tab>OLS_Test__c</tab>
         </mappings>
         <mappings>
             <tab>standard-Account</tab>

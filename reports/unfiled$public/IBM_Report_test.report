@@ -22,6 +22,8 @@
     <reportType>Report_test__c</reportType>
     <scope>user</scope>
     <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
     <timeFrameFilter>
         <dateColumn>AssetLineItem__c$CreatedDate</dateColumn>
         <interval>INTERVAL_CURRENT</interval>

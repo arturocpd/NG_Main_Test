@@ -243,6 +243,7 @@
             </values>
         </picklistValues>
     </recordTypes>
+    <searchLayouts/>
     <sharingModel>Private</sharingModel>
     <validationRules>
         <fullName>False</fullName>

@@ -181,10 +181,6 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>Case_NNN__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
                 <field>Case_OOO__c</field>
             </layoutItems>
             <layoutItems>
@@ -198,10 +194,6 @@
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>Case_LLL__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>case_RRR__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
@@ -358,6 +350,18 @@
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>depth_deplo__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Commit_test_field__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Back_Promote_Field__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>TestAutonumber__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>

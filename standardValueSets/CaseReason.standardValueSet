@@ -37,10 +37,4 @@
         <label>Feedback</label>
         <cssExposed>false</cssExposed>
     </standardValue>
-    <standardValue>
-        <fullName>Other</fullName>
-        <default>false</default>
-        <label>Other</label>
-        <cssExposed>false</cssExposed>
-    </standardValue>
 </StandardValueSet>

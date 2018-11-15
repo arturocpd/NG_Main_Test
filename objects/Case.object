@@ -76,7 +76,12 @@
             <default>false</default>
         </values>
     </businessProcesses>
-    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <compactLayoutAssignment>New_Default_Compact</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>New_Default_Compact</fullName>
+        <fields>AccountId</fields>
+        <label>New Default Compact</label>
+    </compactLayouts>
     <enableFeeds>true</enableFeeds>
     <externalSharingModel>Private</externalSharingModel>
     <fieldSets>
@@ -149,6 +154,16 @@
         <externalId>false</externalId>
         <label>BP Test</label>
         <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Back_Promote_Field__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Back Promote Field</label>
+        <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
@@ -362,16 +377,6 @@
         <defaultValue>false</defaultValue>
         <externalId>false</externalId>
         <label>Case MMM</label>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Checkbox</type>
-    </fields>
-    <fields>
-        <fullName>Case_NNN__c</fullName>
-        <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
-        <label>Case NNN</label>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
@@ -970,6 +975,17 @@
     <fields>
         <fullName>Comments</fullName>
         <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>Commit_test_field__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>Useless help text!</inlineHelpText>
+        <label>Commit test field</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
     </fields>
     <fields>
         <fullName>ContactEmail</fullName>
@@ -4713,6 +4729,14 @@
         <visibleLines>5</visibleLines>
     </fields>
     <fields>
+        <fullName>TestAutonumber__c</fullName>
+        <externalId>false</externalId>
+        <label>TestAutonumber</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>AutoNumber</type>
+    </fields>
+    <fields>
         <fullName>Test_Diageo__c</fullName>
         <externalId>false</externalId>
         <label>Test Diageo</label>
@@ -4932,16 +4956,6 @@
         <defaultValue>false</defaultValue>
         <externalId>false</externalId>
         <label>Case KKK</label>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Checkbox</type>
-    </fields>
-    <fields>
-        <fullName>case_RRR__c</fullName>
-        <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
-        <label>Case_RRR</label>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
@@ -5173,6 +5187,7 @@
         <fullName>Record_Type</fullName>
         <active>true</active>
         <businessProcess>Support Process</businessProcess>
+        <compactLayoutAssignment>New_Default_Compact</compactLayoutAssignment>
         <label>Record Type</label>
         <picklistValues>
             <picklist>CI_Picklist_Test__c</picklist>
@@ -5723,10 +5738,6 @@
             </values>
             <values>
                 <fullName>Installation</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Other</fullName>
                 <default>false</default>
             </values>
             <values>

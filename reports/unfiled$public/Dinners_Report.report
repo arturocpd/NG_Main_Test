@@ -20,6 +20,8 @@
     <reportType>Dinners__c</reportType>
     <scope>organization</scope>
     <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
     <timeFrameFilter>
         <dateColumn>Dinner__c$CreatedDate</dateColumn>
         <interval>INTERVAL_CURRENT</interval>

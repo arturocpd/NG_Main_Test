@@ -31,6 +31,11 @@
         <value>KontoerSSS</value>
     </caseValues>
     <fields>
+        <label><!-- AccountLookup --></label>
+        <name>AccountLookup__c</name>
+        <relationshipLabel><!-- Accounts --></relationshipLabel>
+    </fields>
+    <fields>
         <label><!-- Active --></label>
         <name>Active__c</name>
         <picklistValues>
@@ -67,16 +72,16 @@
         <name>External_Id__c</name>
     </fields>
     <fields>
-        <label><!-- Field 1 --></label>
-        <name>Field_1__c</name>
-    </fields>
-    <fields>
         <label><!-- Field 2 --></label>
         <name>Field_2__c</name>
     </fields>
     <fields>
         <label><!-- Field 3 --></label>
         <name>Field_3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lets Override 3 --></label>
+        <name>Lets_Override_3__c</name>
     </fields>
     <fields>
         <label><!-- Number of Locations --></label>
@@ -119,6 +124,10 @@
         </picklistValues>
     </fields>
     <fields>
+        <label><!-- Test Override 2 --></label>
+        <name>Test_Override_2__c</name>
+    </fields>
+    <fields>
         <label><!-- Upsell Opportunity --></label>
         <name>UpsellOpportunity__c</name>
         <picklistValues>
@@ -135,16 +144,40 @@
         </picklistValues>
     </fields>
     <fields>
+        <label><!-- 2nd override test --></label>
+        <name>X2nd_override_test__c</name>
+    </fields>
+    <fields>
+        <label><!-- Override 1 --></label>
+        <name>override_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- search layout --></label>
+        <name>search_layout__c</name>
+    </fields>
+    <fields>
         <label><!-- xyz Account Number --></label>
         <name>xyz_Account_Number__c</name>
     </fields>
     <gender>Feminine</gender>
+    <recordTypes>
+        <label><!-- DeleteRTacc --></label>
+        <name>DeleteRTacc</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Record Type1 --></label>
+        <name>Record_Type1</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Record Type2 --></label>
+        <name>Record_Type2</name>
+    </recordTypes>
     <validationRules>
         <errorMessage><!-- This error will be never displayed. --></errorMessage>
         <name>New_Validation_Acc</name>
     </validationRules>
     <validationRules>
-        <errorMessage><!-- This is always false --></errorMessage>
+        <errorMessage><!-- Always false no matter what --></errorMessage>
         <name>Prevent_Edit_to_Relationship_Fields</name>
     </validationRules>
     <validationRules>

@@ -3,6 +3,8 @@
     <formFactors>Small</formFactors>
     <formFactors>Medium</formFactors>
     <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
     <label>Sales</label>
     <navType>Standard</navType>
     <profileActionOverrides>
@@ -41,5 +43,7 @@
     <tabs>standard-Forecasting3</tabs>
     <tabs>Dinner__c</tabs>
     <tabs>CSTM_Object__c</tabs>
+    <tabs>IdeasVFTab</tabs>
+    <tabs>OLS_Test__c</tabs>
     <uiType>Lightning</uiType>
 </CustomApplication>

@@ -4,6 +4,7 @@
         <componentList>
             <alignment>right</alignment>
             <components>Console.BuiltInComponent.mostRecentlyUsed</components>
+            <components>Console.BuiltInComponent.servicePresence</components>
             <components>Console.BuiltInComponent.macroBrowser</components>
         </componentList>
         <detailPageRefreshMethod>none</detailPageRefreshMethod>
@@ -179,6 +180,8 @@
         <whitelistedDomains>domain4</whitelistedDomains>
     </consoleConfig>
     <defaultLandingTab>standard-home</defaultLandingTab>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
     <isServiceCloudConsole>true</isServiceCloudConsole>
     <label>Test Omni commit</label>
     <preferences>
@@ -194,10 +197,10 @@
     </preferences>
     <tabs>standard-Case</tabs>
     <tabs>standard-Lead</tabs>
-    <tabs>CSTM_Object__c</tabs>
+    <tabs>OLS_Test__c</tabs>
     <workspaceConfig>
         <mappings>
-            <tab>CSTM_Object__c</tab>
+            <tab>OLS_Test__c</tab>
         </mappings>
         <mappings>
             <tab>standard-Case</tab>

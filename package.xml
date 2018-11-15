@@ -1,34 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Case_email_alert</members>
-        <members>Lead</members>
-        <members>Lead-1</members>
-        <members>Lead-10</members>
-        <members>Lead-11</members>
-        <members>Lead-12</members>
-        <members>Lead-14</members>
-        <members>Lead-15</members>
-        <members>Lead-16</members>
-        <members>Lead-17</members>
-        <members>Lead-2</members>
-        <members>Lead-3</members>
-        <members>Lead-4</members>
-        <members>Lead-5</members>
-        <members>Lead-6</members>
-        <members>Lead-7</members>
-        <members>Lead-8</members>
-        <members>Lead-9</members>
-        <members>No_active_PB-1</members>
-        <members>Test_Elisa</members>
-        <members>Test_Elisa-1</members>
-        <members>Test_Toyota</members>
-        <members>Test_Toyota-1</members>
-        <members>Test_Toyota-2</members>
-        <members>Third_Flow</members>
-        <members>dinner</members>
-        <members>dinner-1</members>
-        <name>Flow</name>
+        <members>Button_AAA</members>
+        <name>LiveChatButton</name>
     </types>
     <version>43.0</version>
 </Package>

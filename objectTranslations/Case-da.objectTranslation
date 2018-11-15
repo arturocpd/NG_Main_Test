@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- Support Field Set --></label>
+        <name>Support_Field_Set</name>
+    </fieldSets>
     <fields>
         <label><!-- Add metadata field --></label>
         <name>Add_metadata_field__c</name>
@@ -11,6 +15,10 @@
     <fields>
         <label><!-- BP Test --></label>
         <name>BP_Test__c</name>
+    </fields>
+    <fields>
+        <label><!-- Back Promote Field --></label>
+        <name>Back_Promote_Field__c</name>
     </fields>
     <fields>
         <label><!-- BitCoin --></label>
@@ -99,10 +107,6 @@
     <fields>
         <label><!-- Case MMM --></label>
         <name>Case_MMM__c</name>
-    </fields>
-    <fields>
-        <label><!-- Case NNN --></label>
-        <name>Case_NNN__c</name>
     </fields>
     <fields>
         <label><!-- Case OOO --></label>
@@ -523,6 +527,11 @@
     <fields>
         <label><!-- Citroen --></label>
         <name>Citroen__c</name>
+    </fields>
+    <fields>
+        <help><!-- Useless help text! --></help>
+        <label><!-- Commit test field --></label>
+        <name>Commit_test_field__c</name>
     </fields>
     <fields>
         <label><!-- Controlling --></label>
@@ -3201,6 +3210,10 @@
         </picklistValues>
     </fields>
     <fields>
+        <label><!-- TestAutonumber --></label>
+        <name>TestAutonumber__c</name>
+    </fields>
+    <fields>
         <label><!-- Test Diageo --></label>
         <name>Test_Diageo__c</name>
         <picklistValues>
@@ -3313,10 +3326,6 @@
         <name>case_KKK__c</name>
     </fields>
     <fields>
-        <label><!-- Case_RRR --></label>
-        <name>case_RRR__c</name>
-    </fields>
-    <fields>
         <label><!-- commit file field --></label>
         <name>commit_file_field__c</name>
     </fields>
@@ -3369,6 +3378,10 @@
         <label><!-- validatecommit --></label>
         <name>validatecommit__c</name>
     </fields>
+    <recordTypes>
+        <label><!-- Record Type --></label>
+        <name>Record_Type</name>
+    </recordTypes>
     <validationRules>
         <errorMessage><!-- Never triggered --></errorMessage>
         <name>VR_test_commit</name>

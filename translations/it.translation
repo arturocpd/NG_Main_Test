@@ -3196,6 +3196,10 @@
         <label><!-- WorkManager_Title --></label>
         <name>WorkManager_Title</name>
     </customLabels>
+    <customTabs>
+        <label><!-- IdeasVFTab --></label>
+        <name>IdeasVFTab</name>
+    </customTabs>
     <quickActions>
         <label><!-- Create Case AR --></label>
         <name>Create_Case_AR</name>
@@ -3237,8 +3241,8 @@
         <name>NewOpportunity</name>
     </quickActions>
     <quickActions>
-        <label><!-- NewTask --></label>
-        <name>NewTask</name>
+        <label><!-- New Task --></label>
+        <name>NewTask2</name>
     </quickActions>
     <quickActions>
         <label><!-- SendEmail --></label>

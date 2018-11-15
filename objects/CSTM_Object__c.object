@@ -69,7 +69,7 @@
         <label>All</label>
     </listViews>
     <nameField>
-        <label>CSTM Object Name</label>
+        <label>CSTM Object</label>
         <type>Text</type>
     </nameField>
     <pluralLabel>CSTM Objects</pluralLabel>
