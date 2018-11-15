@@ -49,7 +49,7 @@
         <dataType>Boolean</dataType>
         <expression>true</expression>
     </formulas>
-    <interviewLabel>Lead-20_InterviewLabel</interviewLabel>
+    <interviewLabel>Lead-22_InterviewLabel</interviewLabel>
     <label>Lead</label>
     <processMetadataValues>
         <name>ObjectType</name>
@@ -139,7 +139,7 @@
             </processMetadataValues>
             <field>City</field>
             <value>
-                <stringValue>Version20</stringValue>
+                <stringValue>Version22</stringValue>
             </value>
         </inputAssignments>
         <object>Lead</object>
