@@ -93,6 +93,14 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>TEST_US__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>TEST US</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>Table__c</fullName>
         <defaultValue>false</defaultValue>
         <externalId>false</externalId>
