@@ -84,15 +84,6 @@
         </valueSet>
     </fields>
     <fields>
-        <fullName>LateDinner__c</fullName>
-        <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
-        <label>LateDinner</label>
-        <trackHistory>true</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Checkbox</type>
-    </fields>
-    <fields>
         <fullName>Point_of_contact__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <description>This is the description of the field. 11115555555</description>
