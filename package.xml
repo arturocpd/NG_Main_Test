@@ -1,8 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Admin CLONE 2</members>
-        <name>Profile</name>
+        <members>Dinner__c.Cool_Dinner</members>
+        <name>CompactLayout</name>
     </types>
-    <version>42.0</version>
+    <types>
+        <members>Dinner__c.LateDinner__c</members>
+        <members>Dinner__c.TEST_US__c</members>
+        <members>Dinner__c.Table__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>Dinner__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Dinner__c</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
+        <members>Dinner__c-Dinner Layout</members>
+        <name>Layout</name>
+    </types>
+    <version>43.0</version>
 </Package>
