@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Lead-22</members>
-        <name>Flow</name>
+        <members>Dinner__c</members>
+        <name>CustomObject</name>
     </types>
     <types>
-        <members>Lead</members>
-        <name>FlowDefinition</name>
+        <members>Dinner__c-Dinner Layout</members>
+        <name>Layout</name>
     </types>
     <version>43.0</version>
 </Package>
