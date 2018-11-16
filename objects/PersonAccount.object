@@ -39,6 +39,10 @@
                 <fullName>Value5</fullName>
                 <default>false</default>
             </values>
+            <values>
+                <fullName>new</fullName>
+                <default>false</default>
+            </values>
         </picklistValues>
         <picklistValues>
             <picklist>Type</picklist>
