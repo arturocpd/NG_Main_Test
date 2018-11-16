@@ -106,14 +106,6 @@
         <trackTrending>false</trackTrending>
         <type>Lookup</type>
     </fields>
-    <fields>
-        <fullName>Table__c</fullName>
-        <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
-        <label>Table</label>
-        <trackHistory>false</trackHistory>
-        <type>Checkbox</type>
-    </fields>
     <gender>Feminine</gender>
     <label>Dinner</label>
     <listViews>
