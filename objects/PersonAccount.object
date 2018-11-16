@@ -16,6 +16,10 @@
                 <default>false</default>
             </values>
             <values>
+                <fullName>Test PA</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Value 1</fullName>
                 <default>true</default>
             </values>
