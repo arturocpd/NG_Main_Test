@@ -93,14 +93,6 @@
         <type>Lookup</type>
     </fields>
     <fields>
-        <fullName>Table__c</fullName>
-        <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
-        <label>Table</label>
-        <trackHistory>false</trackHistory>
-        <type>Checkbox</type>
-    </fields>
-    <fields>
         <fullName>historyRetentionPolicy__c</fullName>
         <defaultValue>false</defaultValue>
         <externalId>false</externalId>
