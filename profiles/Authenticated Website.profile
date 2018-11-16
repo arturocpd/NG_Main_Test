@@ -1547,11 +1547,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Dinner__c.Table__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
         <field>Dinner__c.historyRetentionPolicy__c</field>
         <readable>false</readable>
     </fieldPermissions>
