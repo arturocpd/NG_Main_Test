@@ -8,11 +8,10 @@ Public Class AppleWatch{
         t.WhatId      = opp.Id;
         insert t;
      /*conflict here test 2334*/
-     //qwrfqewrfaerf
-     /* test wqefdqf it user story ZZZZ*/
-     /* yes!! line*/
-     /* yes!! line*rferf/
-     //testing 2 comment trying to force a conflict here
+     //testing Git Metadata Step 2
+     /* test newwedfaf commit user story ZZZZ*/
+     /* yes!! lasdfaine*/
+     //testingasfca 2 comment trying to force a conflict here
      //Force a conflictXXXXXXXXXXXXXXXX when merging into soruce branch.
        
     }
