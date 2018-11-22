@@ -12,7 +12,7 @@ Public Class AppleWatch{
      /* test new commit user story ZZZZ*/
      /* yes!! line*/
      //testing 2 comment trying to force a conflict here
-     //changes on Dev1
+     //Force a conflict when merging into soruce branch.
        
     }
 
