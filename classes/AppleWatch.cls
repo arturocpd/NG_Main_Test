@@ -7,10 +7,13 @@ Public Class AppleWatch{
         t.Priority    = 'High';
         t.WhatId      = opp.Id;
         insert t;
-        
-        /*{!Environment.VAR_Username} */
-        /*Test No CBM ewasfasdfradfadfafasftwwr */
-    
+     /*conflict here test 2334*/
+     //testing Git Metadata Step 2
+     /* test new commit user story ZZZZ*/
+     /* yes!! line*/
+     //testing 2 comment trying to force a conflict here
+     //Force a conflict when merging into soruce branch.
+       
     }
 
  
