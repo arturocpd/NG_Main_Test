@@ -4383,6 +4383,16 @@
         <trackTrending>false</trackTrending>
     </fields>
     <fields>
+        <fullName>Test_BETA_fix__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Test BETA fix</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>Test_Diageo__c</fullName>
         <externalId>false</externalId>
         <label>Test Diageo</label>
