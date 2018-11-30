@@ -3277,6 +3277,38 @@
         <tuesdayEnd>1440</tuesdayEnd>
         <tuesdayStart>0</tuesdayStart>
     </loginHours>
+    <loginIpRanges>
+        <endAddress>167.68.254.254</endAddress>
+        <startAddress>167.68.0.1</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>2.137.120.33</endAddress>
+        <startAddress>2.137.120.33</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>192.168.13.35</endAddress>
+        <startAddress>2.137.120.35</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>2.137.120.44</endAddress>
+        <startAddress>2.137.120.44</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>2.137.120.77</endAddress>
+        <startAddress>2.137.120.77</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>83.36.118.192</endAddress>
+        <startAddress>83.36.118.192</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>83.36.118.193</endAddress>
+        <startAddress>83.36.118.192</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>83.36.118.195</endAddress>
+        <startAddress>83.36.118.194</startAddress>
+    </loginIpRanges>
     <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
