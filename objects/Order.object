@@ -215,6 +215,10 @@
                 <fullName>Draft</fullName>
                 <default>false</default>
             </values>
+            <values>
+                <fullName>Test New Value</fullName>
+                <default>false</default>
+            </values>
         </picklistValues>
     </recordTypes>
     <searchLayouts>
