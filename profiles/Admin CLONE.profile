@@ -880,6 +880,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Case.FLS_commit_test__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Case.Find_and_Replace__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -3296,6 +3301,10 @@
     <loginIpRanges>
         <endAddress>2.137.120.77</endAddress>
         <startAddress>2.137.120.77</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>33.33.77.77</endAddress>
+        <startAddress>33.33.77.77</startAddress>
     </loginIpRanges>
     <loginIpRanges>
         <endAddress>83.36.118.192</endAddress>
