@@ -111,13 +111,14 @@
     </fields>
     <fields>
         <fullName>CI_Picklist_Test__c</fullName>
+        <description>description</description>
         <externalId>false</externalId>
         <label>CI Picklist Test</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
-        <type>Picklist</type>
+        <type>MultiselectPicklist</type>
         <valueSet>
             <restricted>true</restricted>
             <valueSetDefinition>
@@ -152,8 +153,15 @@
                     <default>false</default>
                     <label>GGG</label>
                 </value>
+                <value>
+                    <fullName>EEE</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>EEE</label>
+                </value>
             </valueSetDefinition>
         </valueSet>
+        <visibleLines>5</visibleLines>
     </fields>
     <fields>
         <fullName>CI_test_2__c</fullName>
@@ -4625,7 +4633,35 @@
         <fullName>Record_Type</fullName>
         <active>true</active>
         <businessProcess>Support Process</businessProcess>
+        <compactLayoutAssignment>New_Default_Compact</compactLayoutAssignment>
         <label>Record Type</label>
+        <picklistValues>
+            <picklist>CI_Picklist_Test__c</picklist>
+            <values>
+                <fullName>AAA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>BBB</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CCC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DDD</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FFF</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GGG</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
         <picklistValues>
             <picklist>Priority</picklist>
             <values>
