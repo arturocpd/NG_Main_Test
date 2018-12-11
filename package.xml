@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Case.Trimming_fix__c</members>
-        <name>CustomField</name>
+        <members>Delete_me__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Delete_me__c</members>
+        <name>CustomTab</name>
     </types>
     <types>
         <members>Admin CLONE</members>

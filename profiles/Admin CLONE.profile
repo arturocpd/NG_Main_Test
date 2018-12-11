@@ -5315,6 +5315,10 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>Delete_me__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>Dinner__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
