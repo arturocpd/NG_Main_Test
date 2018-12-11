@@ -22,6 +22,6 @@
     </objectPermissions>
     <tabSettings>
         <tab>Delete_me__c</tab>
-        <visibility>Visible</visibility>
+        <visibility>Available</visibility>
     </tabSettings>
 </PermissionSet>
