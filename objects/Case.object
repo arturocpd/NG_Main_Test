@@ -167,6 +167,7 @@
     </fields>
     <fields>
         <fullName>CI_Picklist_Test__c</fullName>
+        <description>description</description>
         <externalId>false</externalId>
         <label>CI Picklist Test</label>
         <required>false</required>
@@ -216,7 +217,7 @@
                 </value>
             </valueSetDefinition>
         </valueSet>
-        <visibleLines>3</visibleLines>
+        <visibleLines>5</visibleLines>
     </fields>
     <fields>
         <fullName>CI_Test_deploy__c</fullName>
@@ -5119,6 +5120,7 @@
         <fullName>Record_Type</fullName>
         <active>true</active>
         <businessProcess>Support Process</businessProcess>
+        <compactLayoutAssignment>New_Default_Compact</compactLayoutAssignment>
         <label>Record Type</label>
         <picklistValues>
             <picklist>CI_Picklist_Test__c</picklist>
@@ -5132,6 +5134,14 @@
             </values>
             <values>
                 <fullName>CCC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DDD</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FFF</fullName>
                 <default>false</default>
             </values>
             <values>
