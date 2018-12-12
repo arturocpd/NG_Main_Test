@@ -1435,6 +1435,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Delete_me__c.Delete_field__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Delete_me__c.check1__c</field>
         <readable>true</readable>
     </fieldPermissions>
