@@ -21,7 +21,7 @@
         <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <tabSettings>
-        <tab>CSTM_Object__c</tab>
+        <tab>Delete_me__c</tab>
         <visibility>Visible</visibility>
     </tabSettings>
 </PermissionSet>
