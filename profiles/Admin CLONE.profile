@@ -1140,6 +1140,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Case.pruebapermisos__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Case.rich__c</field>
         <readable>true</readable>
     </fieldPermissions>
