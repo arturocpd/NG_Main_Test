@@ -24,12 +24,4 @@
         <tab>CSTM_Object__c</tab>
         <visibility>Visible</visibility>
     </tabSettings>
-    <tabSettings>
-        <tab>Dinner__c</tab>
-        <visibility>Available</visibility>
-    </tabSettings>
-    <tabSettings>
-        <tab>standard-Case</tab>
-        <visibility>Visible</visibility>
-    </tabSettings>
 </PermissionSet>
