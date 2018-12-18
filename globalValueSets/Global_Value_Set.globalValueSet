@@ -15,6 +15,21 @@
         <default>false</default>
         <label>Global 3</label>
     </customValue>
+    <customValue>
+        <fullName>Global 4</fullName>
+        <default>false</default>
+        <label>Global 4</label>
+    </customValue>
+    <customValue>
+        <fullName>Global 5</fullName>
+        <default>false</default>
+        <label>Global 5</label>
+    </customValue>
+    <customValue>
+        <fullName>Global 6</fullName>
+        <default>false</default>
+        <label>Global 6</label>
+    </customValue>
     <masterLabel>Global Value Set</masterLabel>
     <sorted>false</sorted>
 </GlobalValueSet>
