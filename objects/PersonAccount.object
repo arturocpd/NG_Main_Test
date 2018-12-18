@@ -10,6 +10,21 @@
         <active>true</active>
         <label>PA Issues</label>
         <picklistValues>
+            <picklist>Global_Picklist__c</picklist>
+            <values>
+                <fullName>Global 1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Global 2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Global 3</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
             <picklist>PA_Test_Field__c</picklist>
             <values>
                 <fullName>Value 1</fullName>
