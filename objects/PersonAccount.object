@@ -12,15 +12,15 @@
         <picklistValues>
             <picklist>Global_Picklist__c</picklist>
             <values>
-                <fullName>Global 4</fullName>
+                <fullName>Global 1</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Global 5</fullName>
+                <fullName>Global 2</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Global 6</fullName>
+                <fullName>Global 3</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
