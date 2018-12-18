@@ -202,6 +202,19 @@
         <type>Checkbox</type>
     </fields>
     <fields>
+        <fullName>Global_Picklist__c</fullName>
+        <externalId>false</externalId>
+        <label>Global Picklist</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Global_Value_Set</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>Industry</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Picklist</type>
