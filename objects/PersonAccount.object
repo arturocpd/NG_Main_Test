@@ -10,13 +10,83 @@
         <active>true</active>
         <label>PA Issues</label>
         <picklistValues>
-            <picklist>PA_Test_Field__c</picklist>
+            <picklist>Global_Picklist__c</picklist>
             <values>
-                <fullName>Value 1</fullName>
+                <fullName>Global 4</fullName>
                 <default>false</default>
             </values>
             <values>
+                <fullName>Global 5</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Global 6</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>PA_Test_Field__c</picklist>
+            <values>
+                <fullName>PA Fix</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Test PA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Value 1</fullName>
+                <default>true</default>
+            </values>
+            <values>
                 <fullName>Value 2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Value 4</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Value3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Value5</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>new</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type</picklist>
+            <values>
+                <fullName>Channel Partner %2F Reseller</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer - Channel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer - Direct</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Installation Partner</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Prospect</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Technology Partner</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -33,21 +103,6 @@
             </values>
             <values>
                 <fullName>Value 2</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
-            <picklist>Rating</picklist>
-            <values>
-                <fullName>Cold</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Hot</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Warm</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -262,6 +317,21 @@
             </values>
             <values>
                 <fullName>Subsidiary</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Rating</picklist>
+            <values>
+                <fullName>Cold</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hot</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Warm</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
