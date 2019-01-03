@@ -240,6 +240,16 @@
         <type>Checkbox</type>
     </fields>
     <fields>
+        <fullName>CI_test_1__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>CI test 1</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>CI_test_2__c</fullName>
         <defaultValue>false</defaultValue>
         <externalId>false</externalId>
