@@ -13,7 +13,7 @@
     "currencyCode": "",
     "elementTypeToHTMLTemplateMapping": {
     },
-    "enableKnowledge": false,
+    "enableKnowledge": true,
     "hideStepChart": false,
     "knowledgeArticleTypeQueryFieldsMap": {
     },
