@@ -366,7 +366,7 @@
         <caseSensitive>true</caseSensitive>
         <externalId>true</externalId>
         <label>xyz Account Number</label>
-        <length>40</length>
+        <length>45</length>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Text</type>
