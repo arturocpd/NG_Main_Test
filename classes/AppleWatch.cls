@@ -12,7 +12,7 @@ Public Class AppleWatch{
      /* test newwedfaf commit user story ZZZZ*/
      /* yes!! lasdfaine*/
      //testingasfca 2 comment trying to force a conflict here
-     //Force a conflictXXXXXXXXXXXXXXXX when merging into soruce branch.
+     //Force a SSSSSSSSSSSSSSSSSSS when merging into soruce branch.
        
     }
 
