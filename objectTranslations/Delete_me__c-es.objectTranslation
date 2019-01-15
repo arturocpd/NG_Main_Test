@@ -9,6 +9,10 @@
         <value>delete me</value>
     </caseValues>
     <fields>
+        <label><!-- Delete field --></label>
+        <name>Delete_field__c</name>
+    </fields>
+    <fields>
         <label><!-- check1 --></label>
         <name>check1__c</name>
     </fields>

@@ -57,10 +57,6 @@
         <name>CI_Test_deploy__c</name>
     </fields>
     <fields>
-        <label><!-- CI test 1 --></label>
-        <name>CI_test_1__c</name>
-    </fields>
-    <fields>
         <label><!-- CI test 2 --></label>
         <name>CI_test_2__c</name>
     </fields>
@@ -95,6 +91,10 @@
     <fields>
         <label><!-- Case EEE --></label>
         <name>Case_EEE__c</name>
+    </fields>
+    <fields>
+        <label><!-- Case Field 1 --></label>
+        <name>Case_Field_1__c</name>
     </fields>
     <fields>
         <label><!-- Case JJJ --></label>
@@ -584,6 +584,10 @@
     <fields>
         <label><!-- Engineering Req Number --></label>
         <name>EngineeringReqNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- FLS commit test --></label>
+        <name>FLS_commit_test__c</name>
     </fields>
     <fields>
         <label><!-- Find and Replace --></label>
@@ -3214,6 +3218,10 @@
         <name>TestAutonumber__c</name>
     </fields>
     <fields>
+        <label><!-- Test BETA fix --></label>
+        <name>Test_BETA_fix__c</name>
+    </fields>
+    <fields>
         <label><!-- Test Diageo --></label>
         <name>Test_Diageo__c</name>
         <picklistValues>
@@ -3236,6 +3244,10 @@
             <masterLabel>5</masterLabel>
             <translation><!-- 5 --></translation>
         </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Trimming fix --></label>
+        <name>Trimming_fix__c</name>
     </fields>
     <fields>
         <label><!-- Unique Code --></label>
@@ -3356,6 +3368,10 @@
     <fields>
         <label><!-- formula check --></label>
         <name>formula_check__c</name>
+    </fields>
+    <fields>
+        <label><!-- pruebapermisos --></label>
+        <name>pruebapermisos__c</name>
     </fields>
     <fields>
         <help><!-- This is the help text --></help>

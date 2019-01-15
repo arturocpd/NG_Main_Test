@@ -187,6 +187,7 @@
     </fields>
     <fields>
         <fullName>CI_Picklist_Test__c</fullName>
+        <description>description</description>
         <externalId>false</externalId>
         <label>CI Picklist Test</label>
         <required>false</required>
@@ -236,23 +237,13 @@
                 </value>
             </valueSetDefinition>
         </valueSet>
-        <visibleLines>3</visibleLines>
+        <visibleLines>5</visibleLines>
     </fields>
     <fields>
         <fullName>CI_Test_deploy__c</fullName>
         <defaultValue>false</defaultValue>
         <externalId>false</externalId>
         <label>CI Test deploy</label>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Checkbox</type>
-    </fields>
-    <fields>
-        <fullName>CI_test_1__c</fullName>
-        <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
-        <label>CI test 1</label>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
@@ -347,6 +338,16 @@
         <defaultValue>false</defaultValue>
         <externalId>false</externalId>
         <label>Case EEE</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Case_Field_1__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Case Field 1</label>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
@@ -1091,6 +1092,7 @@
             </valueSetDefinition>
             <valueSettings>
                 <controllingFieldValue>Controlling 1</controllingFieldValue>
+                <controllingFieldValue>Controlling 2</controllingFieldValue>
                 <controllingFieldValue>Controlling 3</controllingFieldValue>
                 <valueName>Dependent 1</valueName>
             </valueSettings>
@@ -1146,6 +1148,16 @@
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>FLS_commit_test__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>FLS commit test</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
     </fields>
     <fields>
         <fullName>Find_and_Replace__c</fullName>
@@ -4737,6 +4749,16 @@
         <type>AutoNumber</type>
     </fields>
     <fields>
+        <fullName>Test_BETA_fix__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Test BETA fix</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>Test_Diageo__c</fullName>
         <externalId>false</externalId>
         <label>Test Diageo</label>
@@ -4788,6 +4810,16 @@
                 </value>
             </valueSetDefinition>
         </valueSet>
+    </fields>
+    <fields>
+        <fullName>Trimming_fix__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Trimming fix</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
     </fields>
     <fields>
         <fullName>Type</fullName>
@@ -5044,6 +5076,16 @@
         <type>Checkbox</type>
     </fields>
     <fields>
+        <fullName>pruebapermisos__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>pruebapermisos</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>refactor__c</fullName>
         <defaultValue>false</defaultValue>
         <description>This is a description.</description>
@@ -5201,6 +5243,14 @@
             </values>
             <values>
                 <fullName>CCC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DDD</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FFF</fullName>
                 <default>false</default>
             </values>
             <values>

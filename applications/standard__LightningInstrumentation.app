@@ -8,5 +8,6 @@
     <tabs>standard-LightningInstrumentation</tabs>
     <tabs>IdeasVFTab</tabs>
     <tabs>OLS_Test__c</tabs>
+    <tabs>Delete_me__c</tabs>
     <uiType>Lightning</uiType>
 </CustomApplication>

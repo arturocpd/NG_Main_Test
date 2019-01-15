@@ -16,11 +16,15 @@
     <tabs>Knowledge__kav</tabs>
     <tabs>IdeasVFTab</tabs>
     <tabs>OLS_Test__c</tabs>
+    <tabs>Delete_me__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>LightningService_UtilityBar</utilityBar>
     <workspaceConfig>
         <mappings>
             <tab>CSTM_Object__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Delete_me__c</tab>
         </mappings>
         <mappings>
             <tab>IdeasVFTab</tab>

@@ -21,4 +21,5 @@
     <tabs>CSTM_Object__c</tabs>
     <tabs>IdeasVFTab</tabs>
     <tabs>OLS_Test__c</tabs>
+    <tabs>Delete_me__c</tabs>
 </CustomApplication>

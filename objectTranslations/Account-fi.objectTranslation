@@ -402,6 +402,10 @@
         <relationshipLabel><!-- Accounts --></relationshipLabel>
     </fields>
     <fields>
+        <label><!-- Accoutn Field 1 --></label>
+        <name>Accoutn_Field_1__c</name>
+    </fields>
+    <fields>
         <label><!-- Active --></label>
         <name>Active__c</name>
         <picklistValues>
@@ -432,6 +436,10 @@
             <masterLabel>None</masterLabel>
             <translation><!-- None --></translation>
         </picklistValues>
+        <picklistValues>
+            <masterLabel>Plus</masterLabel>
+            <translation><!-- Plus --></translation>
+        </picklistValues>
     </fields>
     <fields>
         <label><!-- External Id --></label>
@@ -444,6 +452,10 @@
     <fields>
         <label><!-- Field 3 --></label>
         <name>Field_3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Install --></label>
+        <name>Install__c</name>
     </fields>
     <fields>
         <label><!-- Lets Override 3 --></label>
@@ -492,6 +504,10 @@
     <fields>
         <label><!-- Test Override 2 --></label>
         <name>Test_Override_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Trimming Acc --></label>
+        <name>Trimming_Acc__c</name>
     </fields>
     <fields>
         <label><!-- Upsell Opportunity --></label>

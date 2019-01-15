@@ -22,6 +22,10 @@
         <relationshipLabel>Cenas</relationshipLabel>
     </fields>
     <fields>
+        <label><!-- TEST US --></label>
+        <name>TEST_US__c</name>
+    </fields>
+    <fields>
         <label><!-- Table --></label>
         <name>Table__c</name>
     </fields>
