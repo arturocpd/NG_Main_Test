@@ -4,9 +4,5 @@
         <members>Case.Install_package__c</members>
         <name>CustomField</name>
     </types>
-    <types>
-        <members>sf_com_apps</members>
-        <name>InstalledPackage</name>
-    </types>
     <version>43.0</version>
 </Package>
