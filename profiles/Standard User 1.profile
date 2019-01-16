@@ -142,10 +142,6 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>borrados</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>myOuterClass</apexClass>
         <enabled>false</enabled>
     </classAccesses>
