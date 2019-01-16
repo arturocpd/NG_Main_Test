@@ -6842,7 +6842,7 @@
         <visible>true</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
-        <default>false</default>
+        <default>true</default>
         <recordType>ContentVersion.Test_general</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
