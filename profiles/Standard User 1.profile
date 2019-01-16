@@ -102,10 +102,6 @@
         <visible>false</visible>
     </applicationVisibilities>
     <classAccesses>
-        <apexClass>AppleWatchTest</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>ChatterAnswersAuthProviderRegistration</apexClass>
         <enabled>false</enabled>
     </classAccesses>
