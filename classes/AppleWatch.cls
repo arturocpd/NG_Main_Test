@@ -9,11 +9,11 @@ Public Class AppleWatch{
         insert t;
      /*conflict here test 2334*/
      //testing Git Metadata Step 2
-     /* test new commit user story ZZZZ*/
-     /* yes!! line*/
-     //testing 2 comment trying to force a conflict here
-     // Added in master
-     
+     /* test newwedfaf commit user story ZZZZ*/
+     /* yes!! lasdfaine*/
+     //testingasfca 2 comment trying to force a conflict here
+     //Force a SSSSSSSSSSSSSSSSSSS when merging into soruce branch.
+       
     }
 
  
