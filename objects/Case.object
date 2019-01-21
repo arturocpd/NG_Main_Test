@@ -975,16 +975,6 @@
         <type>Checkbox</type>
     </fields>
     <fields>
-        <fullName>Destructive_Test_6__c</fullName>
-        <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
-        <label>Destructive Test 6</label>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Checkbox</type>
-    </fields>
-    <fields>
         <fullName>Destructive_Test_7__c</fullName>
         <defaultValue>false</defaultValue>
         <externalId>false</externalId>
