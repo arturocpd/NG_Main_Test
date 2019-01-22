@@ -20,16 +20,6 @@
     <tabs>standard-Opportunity</tabs>
     <tabs>standard-Campaign</tabs>
     <tabs>standard-Task</tabs>
-    <tabs>standard-Event</tabs>
-    <tabs>standard-report</tabs>
-    <tabs>standard-Dashboard</tabs>
-    <tabs>standard-Feed</tabs>
-    <tabs>standard-CollaborationGroup</tabs>
-    <tabs>standard-File</tabs>
-    <tabs>CSTM_Object__c</tabs>
-    <tabs>IdeasVFTab</tabs>
-    <tabs>OLS_Test__c</tabs>
-    <tabs>Delete_me__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>LightningSalesConsole_UtilityBar</utilityBar>
     <workspaceConfig>
