@@ -13,13 +13,7 @@
         <type>Flexipage</type>
         <profile>Admin CLONE</profile>
     </profileActionOverrides>
-    <tabs>standard-home</tabs>
-    <tabs>standard-Lead</tabs>
     <tabs>standard-Account</tabs>
-    <tabs>standard-Contact</tabs>
-    <tabs>standard-Opportunity</tabs>
-    <tabs>standard-Campaign</tabs>
-    <tabs>standard-Task</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>LightningSalesConsole_UtilityBar</utilityBar>
     <workspaceConfig>
