@@ -26,41 +26,5 @@
         <mappings>
             <tab>standard-Account</tab>
         </mappings>
-        <mappings>
-            <tab>standard-Campaign</tab>
-        </mappings>
-        <mappings>
-            <tab>standard-CollaborationGroup</tab>
-        </mappings>
-        <mappings>
-            <tab>standard-Contact</tab>
-        </mappings>
-        <mappings>
-            <tab>standard-Dashboard</tab>
-        </mappings>
-        <mappings>
-            <tab>standard-Event</tab>
-        </mappings>
-        <mappings>
-            <tab>standard-Feed</tab>
-        </mappings>
-        <mappings>
-            <tab>standard-File</tab>
-        </mappings>
-        <mappings>
-            <tab>standard-Lead</tab>
-        </mappings>
-        <mappings>
-            <tab>standard-Opportunity</tab>
-        </mappings>
-        <mappings>
-            <tab>standard-Task</tab>
-        </mappings>
-        <mappings>
-            <tab>standard-home</tab>
-        </mappings>
-        <mappings>
-            <tab>standard-report</tab>
-        </mappings>
     </workspaceConfig>
 </CustomApplication>
