@@ -612,7 +612,6 @@
     <recordTypes>
         <fullName>Record_Type1</fullName>
         <active>true</active>
-        <compactLayoutAssignment>Compact_Test</compactLayoutAssignment>
         <label>Record Type1</label>
         <picklistValues>
             <picklist>AccountSource</picklist>
