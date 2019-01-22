@@ -24,18 +24,6 @@
     <utilityBar>LightningSalesConsole_UtilityBar</utilityBar>
     <workspaceConfig>
         <mappings>
-            <tab>CSTM_Object__c</tab>
-        </mappings>
-        <mappings>
-            <tab>Delete_me__c</tab>
-        </mappings>
-        <mappings>
-            <tab>IdeasVFTab</tab>
-        </mappings>
-        <mappings>
-            <tab>OLS_Test__c</tab>
-        </mappings>
-        <mappings>
             <tab>standard-Account</tab>
         </mappings>
         <mappings>
