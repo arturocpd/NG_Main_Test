@@ -3,5 +3,7 @@
     <defaultLandingTab>standard-home</defaultLandingTab>
     <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
-    <tabs>standard-Account</tabs>
+    <tabs>standard-Chatter</tabs>
+    <tabs>standard-Campaign</tabs>
+    <tabs>standard-Lead</tabs>
 </CustomApplication>
