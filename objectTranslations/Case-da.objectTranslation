@@ -574,6 +574,46 @@
         </picklistValues>
     </fields>
     <fields>
+        <label><!-- Destructive Test 10 --></label>
+        <name>Destructive_Test_10__c</name>
+    </fields>
+    <fields>
+        <label><!-- Destructive Test 1 --></label>
+        <name>Destructive_Test_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Destructive Test 2 --></label>
+        <name>Destructive_Test_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Destructive Test 3 --></label>
+        <name>Destructive_Test_3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Destructive Test 4 --></label>
+        <name>Destructive_Test_4__c</name>
+    </fields>
+    <fields>
+        <label><!-- Destructive Test 5 --></label>
+        <name>Destructive_Test_5__c</name>
+    </fields>
+    <fields>
+        <label><!-- Destructive Test 6 --></label>
+        <name>Destructive_Test_6__c</name>
+    </fields>
+    <fields>
+        <label><!-- Destructive Test 7 --></label>
+        <name>Destructive_Test_7__c</name>
+    </fields>
+    <fields>
+        <label><!-- Destructive Test 8 --></label>
+        <name>Destructive_Test_8__c</name>
+    </fields>
+    <fields>
+        <label><!-- Destructive Test 9 --></label>
+        <name>Destructive_Test_9__c</name>
+    </fields>
+    <fields>
         <label><!-- Destructive changes test --></label>
         <name>Destructive_changes_test__c</name>
     </fields>
