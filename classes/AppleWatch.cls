@@ -1,4 +1,4 @@
-Public Class AppleWatch{
+Public with sharing Class AppleWatch{
  Public Static void appleWatchmethod(list<Opportunity> lopt ){
     for (Opportunity opp : lopt) {
         Task t        = new Task();
