@@ -1,5 +1,5 @@
 Public Class AppleWatch{
- Public Static void AppleWatchmethod(list<Opportunity> lopt ){
+ Public Static void appleWatchmethod(list<Opportunity> lopt ){
     for (Opportunity opp : lopt) {
         Task t        = new Task();
         t.Subject     = 'Apple Watch Promo';
