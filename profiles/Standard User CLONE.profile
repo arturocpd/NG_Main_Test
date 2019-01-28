@@ -3,11 +3,6 @@
     <fullName>Standard User CLONE</fullName>
     <custom>true</custom>
     <fieldPermissions>
-        <editable>false</editable>
-        <field>Dinner__c.LateDinner__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
         <editable>true</editable>
         <field>Dinner__c.Point_of_contact__c</field>
         <readable>true</readable>
@@ -32,5 +27,4 @@
         <visible>false</visible>
     </recordTypeVisibilities>
     <userLicense>Salesforce</userLicense>
-    
 </Profile>
