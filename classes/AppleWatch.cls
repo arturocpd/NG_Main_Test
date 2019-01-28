@@ -8,6 +8,8 @@ Public with sharing Class AppleWatch{
         t.WhatId      = opp.Id;
         insert t;
      /*conflict here test 2334*/ 
+   }
+  
   }
+ 
  }
-}
