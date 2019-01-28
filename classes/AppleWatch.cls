@@ -7,15 +7,7 @@ Public with sharing Class AppleWatch{
         t.Priority    = 'High';
         t.WhatId      = opp.Id;
         insert t;
-     /*conflict here test 2334*/
-     //testing Git Metadata Step 2
-     /* test newwedfaf commit user story ZZZZ*/
-     /* yes!! lasdfaine*/
-     //testingasfca 2 comment trying to force a conflict here
-     //Force a SSSSSSSSSSSSSSSSSSS when merging into soruce branch.
-       
-    }
-
- 
+     /*conflict here test 2334*/ 
+  }
  }
 }
