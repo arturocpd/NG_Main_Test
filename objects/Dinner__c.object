@@ -44,7 +44,6 @@
     <compactLayoutAssignment>Cool_Dinner</compactLayoutAssignment>
     <compactLayouts>
         <fullName>Cool_Dinner</fullName>
-        <fields>LateDinner__c</fields>
         <label>Cool Dinner</label>
     </compactLayouts>
     <deploymentStatus>Deployed</deploymentStatus>
@@ -68,15 +67,6 @@
         <trackHistory>false</trackHistory>
         <type>Text</type>
         <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>LateDinner__c</fullName>
-        <defaultValue>false</defaultValue>
-        <description>Description New</description>
-        <externalId>false</externalId>
-        <label>LateDinner</label>
-        <trackHistory>true</trackHistory>
-        <type>Checkbox</type>
     </fields>
     <fields>
         <fullName>Point_of_contact__c</fullName>
