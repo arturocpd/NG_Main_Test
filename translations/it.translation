@@ -3201,6 +3201,10 @@
         <name>IdeasVFTab</name>
     </customTabs>
     <quickActions>
+        <label><!-- Email --></label>
+        <name>AR_send_email_global</name>
+    </quickActions>
+    <quickActions>
         <label><!-- Create Case AR --></label>
         <name>Create_Case_AR</name>
     </quickActions>

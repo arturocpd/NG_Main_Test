@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QuickAction xmlns="http://soap.sforce.com/2006/04/metadata">
-    <label>Create Case AR</label>
-    <optionsCreateFeedItem>true</optionsCreateFeedItem>
+    <optionsCreateFeedItem>false</optionsCreateFeedItem>
     <quickActionLayout>
         <layoutSectionStyle>TwoColumnsLeftToRight</layoutSectionStyle>
         <quickActionLayoutColumns>
@@ -28,8 +27,7 @@
         </quickActionLayoutColumns>
         <quickActionLayoutColumns/>
     </quickActionLayout>
-    <successMessage>Success! on blobal action</successMessage>
-    <targetObject>Case</targetObject>
-    <targetRecordType>Case.Record_Type</targetRecordType>
-    <type>Create</type>
+    <standardLabel>SendEmail</standardLabel>
+    <successMessage>Success!</successMessage>
+    <type>Update</type>
 </QuickAction>
