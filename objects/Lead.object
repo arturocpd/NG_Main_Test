@@ -269,6 +269,8 @@
     </fields>
     <fields>
         <fullName>PartnerAccountId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
         <type>Lookup</type>
     </fields>
     <fields>
