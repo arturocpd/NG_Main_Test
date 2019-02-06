@@ -49,12 +49,12 @@
         <dataType>Boolean</dataType>
         <expression>true</expression>
     </formulas>
-    <interviewLabel>Lead-34_InterviewLabel</interviewLabel>
-    <label>Lead</label>
+    <interviewLabel>Third_Flow-1_InterviewLabel</interviewLabel>
+    <label>Third Flow</label>
     <processMetadataValues>
         <name>ObjectType</name>
         <value>
-            <stringValue>Lead</stringValue>
+            <stringValue>Account</stringValue>
         </value>
     </processMetadataValues>
     <processMetadataValues>
@@ -92,7 +92,7 @@
         <processMetadataValues>
             <name>reference</name>
             <value>
-                <stringValue>[Lead]</stringValue>
+                <stringValue>[Account]</stringValue>
             </value>
         </processMetadataValues>
         <name>myRule_1_A1</name>
@@ -116,7 +116,7 @@
             <processMetadataValues>
                 <name>dataType</name>
                 <value>
-                    <stringValue>String</stringValue>
+                    <stringValue>Picklist</stringValue>
                 </value>
             </processMetadataValues>
             <processMetadataValues>
@@ -128,21 +128,27 @@
             <processMetadataValues>
                 <name>leftHandSideLabel</name>
                 <value>
-                    <stringValue>City</stringValue>
+                    <stringValue>Active</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>leftHandSideReferenceTo</name>
+                <value>
+                    <stringValue></stringValue>
                 </value>
             </processMetadataValues>
             <processMetadataValues>
                 <name>rightHandSideType</name>
                 <value>
-                    <stringValue>String</stringValue>
+                    <stringValue>Picklist</stringValue>
                 </value>
             </processMetadataValues>
-            <field>City</field>
+            <field>Active__c</field>
             <value>
-                <stringValue>Version34</stringValue>
+                <stringValue>Yes</stringValue>
             </value>
         </inputAssignments>
-        <object>Lead</object>
+        <object>Account</object>
     </recordUpdates>
     <startElementReference>myVariable_waitStartTimeAssignment</startElementReference>
     <status>Active</status>
@@ -152,7 +158,7 @@
         <isCollection>false</isCollection>
         <isInput>true</isInput>
         <isOutput>true</isOutput>
-        <objectType>Lead</objectType>
+        <objectType>Account</objectType>
     </variables>
     <variables>
         <name>myVariable_old</name>
@@ -160,7 +166,7 @@
         <isCollection>false</isCollection>
         <isInput>true</isInput>
         <isOutput>false</isOutput>
-        <objectType>Lead</objectType>
+        <objectType>Account</objectType>
     </variables>
     <variables>
         <name>myVariable_waitStartTimeVariable</name>
