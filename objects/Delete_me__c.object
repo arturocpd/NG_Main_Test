@@ -43,13 +43,14 @@
     <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
+    <description>This is the description.</description>
     <enableActivities>false</enableActivities>
     <enableBulkApi>true</enableBulkApi>
     <enableChangeDataCapture>false</enableChangeDataCapture>
     <enableFeeds>false</enableFeeds>
     <enableHistory>false</enableHistory>
     <enableReports>false</enableReports>
-    <enableSearch>false</enableSearch>
+    <enableSearch>true</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>ReadWrite</externalSharingModel>
@@ -63,9 +64,15 @@
     </fields>
     <gender>Feminine</gender>
     <label>Delete me</label>
+    <listViews>
+        <fullName>All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
     <nameField>
-        <label>Delete me Name</label>
-        <type>Text</type>
+        <displayFormat>A-{0000}</displayFormat>
+        <label>Delete me NameMOD</label>
+        <type>AutoNumber</type>
     </nameField>
     <pluralLabel>delete me</pluralLabel>
     <searchLayouts/>
