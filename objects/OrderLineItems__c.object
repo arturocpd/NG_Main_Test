@@ -108,11 +108,6 @@
         <type>Text</type>
     </nameField>
     <pluralLabel>OrderLineItemsESP</pluralLabel>
-    <recordTypes>
-        <fullName>RecordType1</fullName>
-        <active>true</active>
-        <label>RecordType1</label>
-    </recordTypes>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <sharingReasons>

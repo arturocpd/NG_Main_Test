@@ -112,16 +112,6 @@
     </nameField>
     <pluralLabel>Dinners</pluralLabel>
     <recordTypeTrackHistory>true</recordTypeTrackHistory>
-    <recordTypes>
-        <fullName>Dinner_RT</fullName>
-        <active>true</active>
-        <label>Dinner RT</label>
-    </recordTypes>
-    <recordTypes>
-        <fullName>Dinner_RT_2</fullName>
-        <active>true</active>
-        <label>Dinner RT 2</label>
-    </recordTypes>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
