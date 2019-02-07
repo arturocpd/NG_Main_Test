@@ -3450,6 +3450,10 @@
         <label><!-- Record Type --></label>
         <name>Record_Type</name>
     </recordTypes>
+    <recordTypes>
+        <label><!-- Record Type 2 --></label>
+        <name>Record_Type_2</name>
+    </recordTypes>
     <validationRules>
         <errorMessage><!-- Never triggered --></errorMessage>
         <name>VR_test_commit</name>

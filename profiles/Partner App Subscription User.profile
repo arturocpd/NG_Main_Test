@@ -3441,6 +3441,10 @@
         <recordType>Case.Record_Type</recordType>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Case-Case Layout</layout>
+        <recordType>Case.Record_Type_2</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>CaseCMT__mdt-CaseCMT Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -3995,6 +3999,11 @@
     <recordTypeVisibilities>
         <default>false</default>
         <recordType>Case.Record_Type</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Case.Record_Type_2</recordType>
         <visible>false</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
