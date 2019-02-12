@@ -1,20 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Territory_Model_1</members>
-        <members>Territory_Model_2</members>
-        <name>Territory2Model</name>
+        <members>Case.Test_IBM__c</members>
+        <name>CustomField</name>
     </types>
     <types>
-        <members>Territory_Model_1.TM1_Rule_1</members>
-        <members>Territory_Model_2.TM_2_Rule_1</members>
-        <members>Territory_Model_2.TM_2_Rule_2</members>
-        <members>Territory_Model_2.TM_2_Rule_3</members>
-        <name>Territory2Rule</name>
-    </types>
-    <types>
-        <members>Territory_Type_1</members>
-        <name>Territory2Type</name>
+        <members>Admin CLONE</members>
+        <members>Admin CLONE 2</members>
+        <members>Admin CLONE 3</members>
+        <members>Admin CLONE 5</members>
+        <name>Profile</name>
     </types>
     <version>44.0</version>
 </Package>
