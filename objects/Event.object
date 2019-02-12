@@ -109,33 +109,5 @@
         <fullName>WhoId</fullName>
         <type>Lookup</type>
     </fields>
-    <recordTypes>
-        <fullName>Time</fullName>
-        <active>true</active>
-        <label>Time</label>
-        <picklistValues>
-            <picklist>Next_Time__c</picklist>
-            <values>
-                <fullName>Friday</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Juernes</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Saturday</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Thursday</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Wednesday</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-    </recordTypes>
     <sharingModel>Private</sharingModel>
 </CustomObject>
