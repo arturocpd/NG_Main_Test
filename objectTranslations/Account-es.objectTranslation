@@ -50,10 +50,6 @@
     </fields>
     <fields>
         <label></label>
-        <name>SLASerialNumber__c</name>
-    </fields>
-    <fields>
-        <label></label>
         <name>SLA__c</name>
         <picklistValues>
             <masterLabel>Bronze</masterLabel>
