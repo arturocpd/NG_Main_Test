@@ -370,6 +370,10 @@
                 <behavior>Edit</behavior>
                 <field>Destructive_Test_10__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Test_IBM__c</field>
+            </layoutItems>
         </layoutColumns>
         <style>OneColumn</style>
     </layoutSections>

@@ -1239,6 +1239,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Case.Test_IBM__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Case.Trimming_fix__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -3609,6 +3614,9 @@
         <layout>OLS_Test__c-OLS Test Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>ObjectTerritory2AssignmentRule-Object Territory Assignment Rule Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>OperatingHours-Operating Hours Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -3769,6 +3777,9 @@
     <layoutAssignments>
         <layout>Task-Task Layout</layout>
         <recordType>Task.General</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Territory2Model-Territory Model Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Test_Bug__c-Test Bug Layout</layout>

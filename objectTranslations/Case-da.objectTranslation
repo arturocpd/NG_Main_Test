@@ -3290,6 +3290,10 @@
         </picklistValues>
     </fields>
     <fields>
+        <label><!-- Test IBM --></label>
+        <name>Test_IBM__c</name>
+    </fields>
+    <fields>
         <label><!-- Trimming fix --></label>
         <name>Trimming_fix__c</name>
     </fields>
