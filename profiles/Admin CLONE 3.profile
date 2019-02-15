@@ -310,11 +310,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Account.NumberOfEmployees</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>Account.NumberofLocations__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -1436,11 +1431,6 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Delete_me__c.check1__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Dinner__c.LateDinner__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
