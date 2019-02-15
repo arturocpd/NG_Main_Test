@@ -1,10 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Case.Support Process</members>
-        <members>Lead.Comercial Lead Process</members>
-        <members>Opportunity.Business Process 1</members>
-        <name>BusinessProcess</name>
+        <members>comp-assets-base-grid (a4I1U000000kFefUAE)</members>
+        <members>comp-assets-contract-layout (a4I1U000000kFegUAE)</members>
+        <members>comp-assets-header (a4I1U000000kFehUAE)</members>
+        <members>cpq-product-cart (a4I1U000000kFeyUAE)</members>
+        <members>cpq-product-cart-config (a4I1U000000kFezUAE)</members>
+        <members>cpq-product-cart-item-cell-detail (a4I1U000000kFf0UAE)</members>
+        <members>cpq-product-list (a4I1U000000kFf6UAE)</members>
+        <members>cpq-promotions-list (a4I1U000000kFf7UAE)</members>
+        <members>cpq-slds-prompt (a4I1U000000kFf8UAE)</members>
+        <members>cpq-total-bar (a4I1U000000kFf9UAE)</members>
+        <members>mobile-action-grid-contact (a4I1U000000kFfSUAU)</members>
+        <name>VlocityUILayout</name>
     </types>
     <version>44.0</version>
 </Package>
