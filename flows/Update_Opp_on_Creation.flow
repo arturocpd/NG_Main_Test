@@ -41,7 +41,7 @@
             <connector>
                 <targetReference>myRule_1_A1</targetReference>
             </connector>
-            <label>All</label>
+            <label>Always</label>
         </rules>
     </decisions>
     <formulas>
@@ -49,8 +49,8 @@
         <dataType>Boolean</dataType>
         <expression>true</expression>
     </formulas>
-    <interviewLabel>Test_Info_Error-2_InterviewLabel</interviewLabel>
-    <label>Test Info Error</label>
+    <interviewLabel>Update_Opp_on_Creation-5_InterviewLabel</interviewLabel>
+    <label>Update Opp on Creation</label>
     <processMetadataValues>
         <name>ObjectType</name>
         <value>
@@ -84,6 +84,9 @@
             </value>
         </processMetadataValues>
         <processMetadataValues>
+            <name>extraTypeInfo</name>
+        </processMetadataValues>
+        <processMetadataValues>
             <name>isChildRelationship</name>
             <value>
                 <booleanValue>false</booleanValue>
@@ -94,6 +97,9 @@
             <value>
                 <stringValue>[Opportunity]</stringValue>
             </value>
+        </processMetadataValues>
+        <processMetadataValues>
+            <name>referenceTargetField</name>
         </processMetadataValues>
         <name>myRule_1_A1</name>
         <label>Update</label>
@@ -116,7 +122,7 @@
             <processMetadataValues>
                 <name>dataType</name>
                 <value>
-                    <stringValue>Currency</stringValue>
+                    <stringValue>String</stringValue>
                 </value>
             </processMetadataValues>
             <processMetadataValues>
@@ -128,7 +134,7 @@
             <processMetadataValues>
                 <name>leftHandSideLabel</name>
                 <value>
-                    <stringValue>Amount</stringValue>
+                    <stringValue>Description</stringValue>
                 </value>
             </processMetadataValues>
             <processMetadataValues>
@@ -140,18 +146,18 @@
             <processMetadataValues>
                 <name>rightHandSideType</name>
                 <value>
-                    <stringValue>Currency</stringValue>
+                    <stringValue>String</stringValue>
                 </value>
             </processMetadataValues>
-            <field>Amount</field>
+            <field>Description</field>
             <value>
-                <numberValue>2.0</numberValue>
+                <stringValue>Description</stringValue>
             </value>
         </inputAssignments>
         <object>Opportunity</object>
     </recordUpdates>
     <startElementReference>myVariable_waitStartTimeAssignment</startElementReference>
-    <status>Obsolete</status>
+    <status>Active</status>
     <variables>
         <name>myVariable_current</name>
         <dataType>SObject</dataType>
