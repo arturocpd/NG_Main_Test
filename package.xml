@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Test_Case_PS</members>
+        <members>PS_Test_US</members>
         <name>PermissionSet</name>
     </types>
     <types>
