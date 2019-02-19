@@ -8,9 +8,20 @@ private class Update_Opp_on_CreationTest {
     opp.Name = 'Swift Deal';
     opp.StageName = 'Prospecting';
     opp.CloseDate = Date.today();
+      Test.startTest();
+           System.debug(opp.Description);
+
     insert opp;
+     System.debug(opp.Description);
+
+      Test.stopTest();
     System.debug(opp.Description);
-    System.assertEquals(('Description'), opp.Description);
+
+      
+    Opportunity opp2 = [SELECT Id, Description FROM Opportunity WHERE Id = :opp.Id];
+      
+    System.debug(opp2.Description);
+    System.assertEquals(('Description'), opp2.Description);
   }
 
   
