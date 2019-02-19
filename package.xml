@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>AppleWatch</members>
-        <members>AppleWatchTest</members>
-        <name>ApexClass</name>
+        <members>Test_Case_PS</members>
+        <name>PermissionSet</name>
     </types>
     <types>
-        <members>AppleWatch</members>
-        <name>ApexTrigger</name>
+        <members>Case.Record_Type</members>
+        <members>Case.Record_Type_2</members>
+        <name>RecordType</name>
     </types>
     <version>44.0</version>
 </Package>
