@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>PS_Test_US</members>
-        <name>PermissionSet</name>
+        <members>Opportunity.Business Process 1</members>
+        <members>Opportunity.Business Process 2</members>
+        <members>Opportunity.Opp Business P2</members>
+        <name>BusinessProcess</name>
     </types>
     <types>
-        <members>Case.Record_Type</members>
-        <members>Case.Record_Type_2</members>
+        <members>Opportunity.Opp_RT_1</members>
         <name>RecordType</name>
     </types>
     <version>44.0</version>
