@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Opportunity.Business Process 1</members>
-        <members>Opportunity.Business Process 2</members>
-        <members>Opportunity.Opp Business P2</members>
-        <name>BusinessProcess</name>
-    </types>
-    <types>
-        <members>Opportunity.Opp_RT_1</members>
-        <name>RecordType</name>
+        <members>Account.article_test__c</members>
+        <name>CustomField</name>
     </types>
     <version>44.0</version>
 </Package>
