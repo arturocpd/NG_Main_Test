@@ -93,6 +93,10 @@
                 <behavior>Edit</behavior>
                 <field>Accoutn_Field_1__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>article_test__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>

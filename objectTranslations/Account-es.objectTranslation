@@ -582,6 +582,10 @@
         <name>X2nd_override_test__c</name>
     </fields>
     <fields>
+        <label><!-- article test --></label>
+        <name>article_test__c</name>
+    </fields>
+    <fields>
         <label><!-- Override 1 --></label>
         <name>override_1__c</name>
     </fields>
