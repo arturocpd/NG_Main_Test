@@ -23,7 +23,7 @@
         <criteriaItems>
             <field>Name</field>
             <operation>equals</operation>
-            <value>Super</value>
+            <value>SuperDuper</value>
         </criteriaItems>
     </sharingCriteriaRules>
 </SharingRules>
