@@ -36,7 +36,7 @@
         <criteriaItems>
             <field>Name</field>
             <operation>equals</operation>
-            <value>Super</value>
+            <value>DuperSuper</value>
         </criteriaItems>
     </sharingCriteriaRules>
 </SharingRules>
