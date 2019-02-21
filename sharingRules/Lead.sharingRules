@@ -1,18 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
-    <sharingCriteriaRules>
-        <fullName>Sharing_YYY</fullName>
-        <accessLevel>Edit</accessLevel>
-        <label>Sharing YYY</label>
-        <sharedTo>
-            <roleAndSubordinatesInternal>CIO</roleAndSubordinatesInternal>
-        </sharedTo>
-        <criteriaItems>
-            <field>City</field>
-            <operation>notEqual</operation>
-            <value>Madrid</value>
-        </criteriaItems>
-    </sharingCriteriaRules>
     <sharingOwnerRules>
         <fullName>Sharing_SSS</fullName>
         <accessLevel>Read</accessLevel>
