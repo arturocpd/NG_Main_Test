@@ -170,7 +170,7 @@
                 <field>SLAExpirationDate__c</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Edit</behavior>
+                <behavior>Required</behavior>
                 <field>NumberofLocations__c</field>
             </layoutItems>
             <layoutItems>
@@ -184,7 +184,7 @@
                 <field>SLA__c</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Edit</behavior>
+                <behavior>Required</behavior>
                 <field>SLASerialNumber__c</field>
             </layoutItems>
             <layoutItems>
