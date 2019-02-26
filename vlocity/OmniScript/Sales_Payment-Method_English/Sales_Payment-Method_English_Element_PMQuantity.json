@@ -24,9 +24,6 @@
         "dataType": "Number",
         "dateFormat": "MM-dd-yyyy",
         "disOnTplt": false,
-        "documentNames": [
-            "CABHBBAJAa088abbf78af430992e1b954e738bf5b"
-        ],
         "expression": "COUNT(%PaymentMethods%)",
         "hide": true,
         "hideGroupSep": false,

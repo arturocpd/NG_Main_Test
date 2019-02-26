@@ -33,9 +33,6 @@
         "consoleTabLabel": "New",
         "controlWidth": 12,
         "dataJSON": false,
-        "documentNames": [
-            "CABHBBAJAa088abbf78af430992e1b954e738bf5b"
-        ],
         "elementTypeToHTMLTemplateMapping": {
         },
         "enableKnowledge": false,

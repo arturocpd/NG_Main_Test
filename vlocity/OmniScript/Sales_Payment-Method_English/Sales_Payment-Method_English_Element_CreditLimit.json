@@ -29,9 +29,6 @@
         "dataType": "Currency",
         "dateFormat": "MM-dd-yyyy",
         "disOnTplt": false,
-        "documentNames": [
-            "CABHBBAJAa088abbf78af430992e1b954e738bf5b"
-        ],
         "expression": "IF(%S018_Response:listaInfoBalance:infoBalance:listaInfoCredito:infoCredito:limiteCreditoRemanente%,%S018_Response:listaInfoBalance:infoBalance:listaInfoCredito:infoCredito:limiteCreditoRemanente%,0)",
         "hide": true,
         "hideGroupSep": false,
