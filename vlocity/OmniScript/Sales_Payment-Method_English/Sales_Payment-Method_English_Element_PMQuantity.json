@@ -28,10 +28,10 @@
         "hide": true,
         "hideGroupSep": false,
         "inputWidth": 12,
-        "label": null,
+        "label": "Label",
         "mask": null,
         "show": null,
-        "showInputWidth": false
+        "showInputWidth": true
     },
     "%vlocity_namespace%__ReusableOmniScript__c": true,
     "%vlocity_namespace%__Type__c": "Formula",
