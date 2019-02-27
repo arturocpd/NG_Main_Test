@@ -13,18 +13,18 @@
         "controlWidth": 12,
         "disOnTplt": false,
         "elementValueMap": {
-            "isExceptionalOperation": "=IF(%BillingOrder:Gestion__c%=='Compra de Pack' || %BillingOrder:Gestion__c%=='Recarga' || %BillingOrder:Gestion__c%=='Reseteo de Cuota' , true, false)"
+            "isExceptionalOperation2": "=IF(%BillingOrder:Gestion__c%=='Compra de Pack' || %BillingOrder:Gestion__c%=='Recarga' || %BillingOrder:Gestion__c%=='Reseteo de Cuota' , true, false)"
         },
         "label": "SetIsExceptionalOperaction",
         "message": {
         },
         "show": null,
         "showPersistentComponent": [
-            false,
+            true,
             false
         ],
         "ssm": false,
-        "validationRequired": "None",
+        "validationRequired": "Submit",
         "wpm": false
     },
     "%vlocity_namespace%__ReusableOmniScript__c": true,
