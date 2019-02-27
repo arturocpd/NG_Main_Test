@@ -1,5 +1,6 @@
 {
     "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__InternalNotes__c": "Internal Notes",
     "%vlocity_namespace%__Level__c": 0,
     "%vlocity_namespace%__OmniScriptId__c": {
         "Name": "PaymentMethod",
@@ -45,7 +46,7 @@
             "postTransformBundle": "",
             "preTransformBundle": ""
         },
-        "remoteTimeout": 30000,
+        "remoteTimeout": 3000,
         "responseJSONNode": "S018_Response",
         "responseJSONPath": "",
         "sendJSONNode": "",
@@ -53,7 +54,7 @@
         "show": null,
         "showPersistentComponent": [
             false,
-            false
+            true
         ],
         "ssm": false,
         "svgIcon": "",
