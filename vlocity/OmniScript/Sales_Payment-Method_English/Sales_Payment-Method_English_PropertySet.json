@@ -1,23 +1,18 @@
 {
-    "allowSaveForLater": true,
+    "allowSaveForLater": false,
     "autoFocus": false,
     "autoSaveOnStepNext": false,
-    "bLK": false,
     "cancelRedirectPageName": "OmniScriptCancelled",
     "cancelRedirectTemplateUrl": "vlcCancelled.html",
     "cancelSource": "%ContextId%",
     "cancelType": "SObject",
-    "consoleTabIcon": "custom:custom18",
     "consoleTabLabel": "New",
-    "consoleTabTitle": null,
     "currencyCode": "",
     "elementTypeToHTMLTemplateMapping": {
     },
-    "enableKnowledge": false,
-    "hideStepChart": false,
+    "enableKnowledge": true,
     "knowledgeArticleTypeQueryFieldsMap": {
     },
-    "lkObjName": null,
     "message": {
     },
     "persistentComponent": [
@@ -63,10 +58,9 @@
                 "preTransformBundle": ""
             },
             "remoteTimeout": 30000,
-            "render": false
+            "render": true
         }
     ],
-    "rtpSeed": false,
     "saveContentEncoded": false,
     "saveExpireInDays": null,
     "saveForLaterRedirectPageName": "sflRedirect",
@@ -83,6 +77,7 @@
     "trackingCustomData": {
     },
     "visualforcePagesAvailableInPreview": {
+        "GlobalFlow": "c__taSalesGlobalFlow"
     },
     "wpm": false
 }
