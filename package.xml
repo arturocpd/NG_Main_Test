@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Main_Folder</members>
-        <members>SubFolder</members>
-        <members>SubFolder/Report_SubFolder_Uk7</members>
-        <name>Report</name>
+        <members>Admin CLONE 2</members>
+        <name>Profile</name>
     </types>
     <version>44.0</version>
 </Package>
