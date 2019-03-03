@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Sales Payment Method English (a2I1U0000005XfWUAU)</members>
-        <name>OmniScript</name>
+        <members>Case.test_wave__c</members>
+        <name>CustomField</name>
     </types>
     <version>44.0</version>
 </Package>
