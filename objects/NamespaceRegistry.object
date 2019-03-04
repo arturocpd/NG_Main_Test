@@ -5,27 +5,11 @@
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
-        <actionName>Clone</actionName>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
         <actionName>Delete</actionName>
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
-        <actionName>Edit</actionName>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
-        <actionName>GeneratePdf</actionName>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
         <actionName>List</actionName>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
-        <actionName>New</actionName>
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
@@ -40,10 +24,21 @@
         <actionName>View</actionName>
         <type>Default</type>
     </actionOverrides>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <enableFeeds>false</enableFeeds>
     <fields>
-        <fullName>Status</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
-        <type>Picklist</type>
+        <fullName>NamespacePrefix</fullName>
+        <trackHistory>true</trackHistory>
     </fields>
+    <listViews>
+        <fullName>All_Namespace_Registries</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All Namespace Registries</label>
+    </listViews>
+    <searchLayouts>
+        <searchResultsAdditionalFields>NamespacePrefix</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CreatedDate</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CreatedBy</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
 </CustomObject>
