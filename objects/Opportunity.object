@@ -74,7 +74,7 @@
         </values>
     </businessProcesses>
     <businessProcesses>
-        <fullName>Business Process 2</fullName>
+        <fullName>test sales</fullName>
         <isActive>true</isActive>
         <values>
             <fullName>Closed Lost</fullName>
@@ -82,6 +82,10 @@
         </values>
         <values>
             <fullName>Closed Won</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Id%2E Decision Makers</fullName>
             <default>false</default>
         </values>
         <values>
@@ -93,7 +97,11 @@
             <default>false</default>
         </values>
         <values>
-            <fullName>New Stage</fullName>
+            <fullName>Perception Analysis</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Proposal%2FPrice Quote</fullName>
             <default>false</default>
         </values>
         <values>
@@ -104,16 +112,8 @@
             <fullName>Qualification</fullName>
             <default>false</default>
         </values>
-    </businessProcesses>
-    <businessProcesses>
-        <fullName>Opp Business P2</fullName>
-        <isActive>true</isActive>
         <values>
-            <fullName>Prospecting</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Qualification</fullName>
+            <fullName>Value Proposition</fullName>
             <default>false</default>
         </values>
     </businessProcesses>
@@ -203,10 +203,6 @@
         <trackTrending>false</trackTrending>
     </fields>
     <fields>
-        <fullName>IsExcludedFromTerritory2Filter</fullName>
-        <trackTrending>false</trackTrending>
-    </fields>
-    <fields>
         <fullName>IsPrivate</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <trackTrending>false</trackTrending>
@@ -256,11 +252,6 @@
         <type>Lookup</type>
     </fields>
     <fields>
-        <fullName>PartnerAccountId</fullName>
-        <trackTrending>false</trackTrending>
-        <type>Lookup</type>
-    </fields>
-    <fields>
         <fullName>Pricebook2Id</fullName>
         <trackTrending>false</trackTrending>
         <type>Lookup</type>
@@ -275,11 +266,6 @@
         <trackFeedHistory>true</trackFeedHistory>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
-    </fields>
-    <fields>
-        <fullName>Territory2Id</fullName>
-        <trackTrending>false</trackTrending>
-        <type>Lookup</type>
     </fields>
     <fields>
         <fullName>Test_Commit_A__c</fullName>
@@ -437,12 +423,6 @@
         </filters>
         <label>Won</label>
     </listViews>
-    <recordTypes>
-        <fullName>Opp_RT_1</fullName>
-        <active>true</active>
-        <businessProcess>Business Process 2</businessProcess>
-        <label>Opp RT 1</label>
-    </recordTypes>
     <searchLayouts>
         <customTabListAdditionalFields>OPPORTUNITY.NAME</customTabListAdditionalFields>
         <customTabListAdditionalFields>ACCOUNT.NAME</customTabListAdditionalFields>
@@ -460,7 +440,7 @@
         <searchResultsAdditionalFields>OPPORTUNITY.CLOSE_DATE</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
     </searchLayouts>
-    <sharingModel>ReadWrite</sharingModel>
+    <sharingModel>Private</sharingModel>
     <webLinks>
         <fullName>DeliveryStatus</fullName>
         <availability>online</availability>

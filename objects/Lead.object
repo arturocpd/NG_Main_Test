@@ -367,43 +367,6 @@
         <filterScope>Everything</filterScope>
         <label>View - Custom 2</label>
     </listViews>
-    <recordTypes>
-        <fullName>Comercial_Lead_Record_Type</fullName>
-        <active>true</active>
-        <businessProcess>Comercial Lead Process</businessProcess>
-        <label>Comercial Lead Record Type</label>
-        <picklistValues>
-            <picklist>LeadSource</picklist>
-            <values>
-                <fullName>Other</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Partner Referral</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Phone Inquiry</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Purchased List</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>RT test with CI</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Test CI</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Web</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-    </recordTypes>
     <searchLayouts>
         <customTabListAdditionalFields>FULL_NAME</customTabListAdditionalFields>
         <customTabListAdditionalFields>LEAD.COMPANY</customTabListAdditionalFields>
