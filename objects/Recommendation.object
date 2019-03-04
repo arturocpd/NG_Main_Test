@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
     <actionOverrides>
-        <actionName>Accept</actionName>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
         <actionName>CancelEdit</actionName>
         <type>Default</type>
     </actionOverrides>
@@ -40,39 +36,36 @@
         <actionName>View</actionName>
         <type>Default</type>
     </actionOverrides>
-    <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
-    <deploymentStatus>Deployed</deploymentStatus>
-    <enableActivities>false</enableActivities>
-    <enableBulkApi>true</enableBulkApi>
     <enableFeeds>false</enableFeeds>
-    <enableHistory>false</enableHistory>
-    <enableReports>false</enableReports>
-    <enableSearch>true</enableSearch>
-    <enableSharing>true</enableSharing>
-    <enableStreamingApi>true</enableStreamingApi>
-    <externalSharingModel>Private</externalSharingModel>
     <fields>
-        <fullName>cstm_field__c</fullName>
-        <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
-        <label>cstm field</label>
-        <trackTrending>false</trackTrending>
-        <type>Checkbox</type>
+        <fullName>AcceptanceLabel</fullName>
     </fields>
-    <gender>Feminine</gender>
-    <label>CSTM Object</label>
-    <listViews>
-        <fullName>All</fullName>
-        <filterScope>Everything</filterScope>
-        <label>All</label>
-    </listViews>
-    <nameField>
-        <label>CSTM Object</label>
-        <type>Text</type>
-    </nameField>
-    <pluralLabel>CSTM Objects</pluralLabel>
-    <searchLayouts/>
-    <sharingModel>Private</sharingModel>
-    <visibility>Public</visibility>
+    <fields>
+        <fullName>ActionReference</fullName>
+    </fields>
+    <fields>
+        <fullName>Description</fullName>
+    </fields>
+    <fields>
+        <fullName>ImageId</fullName>
+        <inlineHelpText>For best results, use a 1000 px x 380 px image at 72 dpi or one with a similar ratio.</inlineHelpText>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>IsActionActive</fullName>
+    </fields>
+    <fields>
+        <fullName>Name</fullName>
+    </fields>
+    <fields>
+        <fullName>RejectionLabel</fullName>
+    </fields>
+    <searchLayouts>
+        <customTabListAdditionalFields>Description</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>Description</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Description</lookupPhoneDialogsAdditionalFields>
+        <searchResultsAdditionalFields>Description</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
 </CustomObject>
