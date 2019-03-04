@@ -5,19 +5,7 @@
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
-        <actionName>Clone</actionName>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
         <actionName>Delete</actionName>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
-        <actionName>Edit</actionName>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
-        <actionName>GeneratePdf</actionName>
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
@@ -40,10 +28,23 @@
         <actionName>View</actionName>
         <type>Default</type>
     </actionOverrides>
+    <enableFeeds>false</enableFeeds>
     <fields>
-        <fullName>Status</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
-        <type>Picklist</type>
+        <fullName>AgentId</fullName>
+        <type>Lookup</type>
     </fields>
+    <fields>
+        <fullName>Detail</fullName>
+    </fields>
+    <fields>
+        <fullName>LiveChatTranscriptId</fullName>
+        <type>MasterDetail</type>
+    </fields>
+    <fields>
+        <fullName>Time</fullName>
+    </fields>
+    <fields>
+        <fullName>Type</fullName>
+    </fields>
+    <sharingModel>ControlledByParent</sharingModel>
 </CustomObject>
