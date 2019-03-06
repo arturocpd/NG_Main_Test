@@ -41,7 +41,7 @@
             <connector>
                 <targetReference>myRule_1_A1</targetReference>
             </connector>
-            <label>Always</label>
+            <label>All</label>
         </rules>
     </decisions>
     <formulas>
@@ -49,8 +49,8 @@
         <dataType>Boolean</dataType>
         <expression>true</expression>
     </formulas>
-    <interviewLabel>Update_Opp_on_Creation-6_InterviewLabel</interviewLabel>
-    <label>Update Opp on Creation</label>
+    <interviewLabel>Flow_Level-1_InterviewLabel</interviewLabel>
+    <label>Flow Level</label>
     <processMetadataValues>
         <name>ObjectType</name>
         <value>
@@ -151,13 +151,13 @@
             </processMetadataValues>
             <field>Description</field>
             <value>
-                <stringValue>Description</stringValue>
+                <stringValue>NewDescription</stringValue>
             </value>
         </inputAssignments>
         <object>Opportunity</object>
     </recordUpdates>
     <startElementReference>myVariable_waitStartTimeAssignment</startElementReference>
-    <status>Obsolete</status>
+    <status>Active</status>
     <variables>
         <name>myVariable_current</name>
         <dataType>SObject</dataType>

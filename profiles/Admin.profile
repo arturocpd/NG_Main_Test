@@ -132,6 +132,10 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>Flow_LevelTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>ForgotPasswordController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
