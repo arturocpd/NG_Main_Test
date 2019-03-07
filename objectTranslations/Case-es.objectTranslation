@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <fields>
-        <label>Caso aaa</label>
+        <label>Caso aaaadf</label>
         <name>Case_AAA__c</name>
     </fields>
     <fields>
-        <label>Caso bbb</label>
+        <label>Caso aaaaWdaadf</label>
+        <name>Case_AAA__c</name>
+    </fields>
+    <fields>
+        <label>Caso bbbafda</label>
         <name>Case_BBB__c</name>
     </fields>
     <fields>
-        <label>Caso yyy</label>
+        <label>Caso yyywefr</label>
         <name>Case_YYY__c</name>
     </fields>
     <fields>
@@ -17,7 +21,7 @@
             <plural>false</plural>
             <value>Divisa del casoo</value>
         </caseValues>
-        <gender>Feminine</gender>
+        <gender><!--Neuter--></gender>
         <name>case_currency</name>
     </fields>
 </CustomObjectTranslation>
