@@ -1,5 +1,5 @@
 {
-    "%vlocity_namespace%__AdditionalInformation__c": "AR - Merge PFTA-11552",
+    "%vlocity_namespace%__AdditionalInformation__c": "AR V5 - Merge PFTA-11552",
     "%vlocity_namespace%__Element__c": [
         "Sales_Payment-Method_English_Element_CalculatePaymentMethodQuantity.json",
         "Sales_Payment-Method_English_Element_CreditLimit.json",
