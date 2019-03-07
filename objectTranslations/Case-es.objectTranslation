@@ -3322,7 +3322,7 @@
             <plural>false</plural>
             <value>Divisa del casoo</value>
         </caseValues>
-        <gender>Feminine</gender>
+        <gender><!-- Neuter --></gender>
         <name>case_currency</name>
     </fields>
     <fields>
