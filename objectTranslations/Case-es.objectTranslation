@@ -21,7 +21,7 @@
             <plural>false</plural>
             <value>Divisa del casoo</value>
         </caseValues>
-        <gender><!--Neuter--></gender>
+        <gender><!-- Neuter --></gender>
         <name>case_currency</name>
     </fields>
 </CustomObjectTranslation>
