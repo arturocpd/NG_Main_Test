@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <fields>
-        <label>Caso aaaadf</label>
+        <label><!-- Case_AAA__c --></label>
         <name>Case_AAA__c</name>
     </fields>
     <fields>
