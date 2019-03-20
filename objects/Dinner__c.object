@@ -107,7 +107,6 @@
         <externalId>false</externalId>
         <label>Point of contact</label>
         <referenceTo>Contact</referenceTo>
-        <relationshipLabel>Dinners</relationshipLabel>
         <relationshipName>Dinners</relationshipName>
         <required>false</required>
         <trackHistory>true</trackHistory>
