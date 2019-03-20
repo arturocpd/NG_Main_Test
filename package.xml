@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Flow_LevelTest</members>
+        <members>AppleWatch</members>
+        <members>AppleWatchTest</members>
         <name>ApexClass</name>
-    </types>
-    <types>
-        <members>Flow_Level</members>
-        <name>Flow</name>
     </types>
     <version>44.0</version>
 </Package>
