@@ -1,16 +1,202 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Kundenvorgang</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Kundenvorgängeef</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Kundenvorgang</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Kundenvorgänge</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Kundenvorgangs</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Kundenvorgänge</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Kundenvorgang</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Kundenvorgängen</value>
+    </caseValues>
     <fieldSets>
         <label><!-- Support Field Set --></label>
         <name>Support_Field_Set</name>
     </fieldSets>
     <fields>
         <caseValues>
+            <caseType>Nominative</caseType>
             <plural>false</plural>
-            <value>Origen del casot</value>
+            <value>Zuordnungsregel für Kundenvorgänge</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>true</plural>
+            <value>Zuordnungsregeln für Kundenvorgängeef</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>case_assignment_rule</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>false</plural>
+            <value>Kundenvorgang schließen</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>true</plural>
+            <value>Kundenvorgängeef schließen</value>
         </caseValues>
         <gender>Masculine</gender>
-        <name>case_origin</name>
+        <name>case_close</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>false</plural>
+            <value>Kundenvorgang geschlossen</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>true</plural>
+            <value>Kundenvorgängeef geschlossen</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>case_closed</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>false</plural>
+            <value>Kundenvorgang erstellt am</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>true</plural>
+            <value>Kundenvorgängeef erstellt am</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>case_created_date</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>false</plural>
+            <value>Kundenvorgang erstellt von</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>true</plural>
+            <value>Kundenvorgängeef erstellt von</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>case_creator</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>false</plural>
+            <value>Kundenvorgang bearbeiten</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>true</plural>
+            <value>Kundenvorgängeef bearbeiten</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>case_edit</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>false</plural>
+            <value>Kundenvorgang zuletzt geändert</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>true</plural>
+            <value>Kundenvorgängeef zuletzt geändert</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>case_last_modified</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>false</plural>
+            <value>Detailseite für Kundenvorgänge</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>true</plural>
+            <value>Detailseiten für Kundenvorgängeef</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>cases_detail_page</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>false</plural>
+            <value>Registerkarte Kundenvorgänge</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>true</plural>
+            <value>Registerkarten Kundenvorgängeef</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>cases_tab</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>false</plural>
+            <value>Zugehöriger Kundenvorgang</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>true</plural>
+            <value>Zugehörige Kundenvorgängeef</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>child_case</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>false</plural>
+            <value>Übergeordneter Kundenvorgang</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>true</plural>
+            <value>Übergeordnete Kundenvorgängeef</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>parent_case</name>
     </fields>
     <fields>
         <label><!-- Add metadata field --></label>
@@ -85,11 +271,11 @@
         <name>CaseTime__c</name>
     </fields>
     <fields>
-        <label>Caso aaa2</label>
+        <label><!-- Case AAA --></label>
         <name>Case_AAA__c</name>
     </fields>
     <fields>
-        <label>Caso bbb2</label>
+        <label><!-- Case BBB --></label>
         <name>Case_BBB__c</name>
     </fields>
     <fields>
@@ -157,7 +343,7 @@
         </picklistValues>
     </fields>
     <fields>
-        <label>Caso yyy2</label>
+        <label><!-- Case YYY --></label>
         <name>Case_YYY__c</name>
     </fields>
     <fields>
@@ -3450,6 +3636,7 @@
         <label><!-- validatecommit --></label>
         <name>validatecommit__c</name>
     </fields>
+    <gender>Masculine</gender>
     <recordTypes>
         <label><!-- Record Type --></label>
         <name>Record_Type</name>
