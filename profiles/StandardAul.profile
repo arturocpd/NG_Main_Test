@@ -1017,6 +1017,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Case.FLS_Test__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Case.FLS_commit_test__c</field>
         <readable>false</readable>
     </fieldPermissions>

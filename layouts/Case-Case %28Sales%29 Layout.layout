@@ -427,6 +427,10 @@
                 <behavior>Edit</behavior>
                 <field>Test_IBM__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>FLS_Test__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>

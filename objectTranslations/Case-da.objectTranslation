@@ -626,6 +626,10 @@
         <name>EngineeringReqNumber__c</name>
     </fields>
     <fields>
+        <label><!-- FLS Test --></label>
+        <name>FLS_Test__c</name>
+    </fields>
+    <fields>
         <label><!-- FLS commit test --></label>
         <name>FLS_commit_test__c</name>
     </fields>

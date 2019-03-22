@@ -846,7 +846,7 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Case.Case_MMM__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -876,7 +876,7 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Case.Case_WWW__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -1014,6 +1014,11 @@
         <editable>false</editable>
         <field>Case.EntitlementId</field>
         <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Case.FLS_Test__c</field>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>

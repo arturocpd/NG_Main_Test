@@ -1250,6 +1250,16 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>FLS_Test__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>FLS Test</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>FLS_commit_test__c</fullName>
         <defaultValue>false</defaultValue>
         <externalId>false</externalId>
