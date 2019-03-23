@@ -3863,6 +3863,10 @@
     <layoutAssignments>
         <layout>test_test__c-test%2Etest Layout</layout>
     </layoutAssignments>
+    <loginIpRanges>
+        <endAddress>62.97.100.250</endAddress>
+        <startAddress>62.97.100.250</startAddress>
+    </loginIpRanges>
     <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
