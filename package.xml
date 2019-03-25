@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Case.FLS_Test__c</members>
-        <name>CustomField</name>
-    </types>
-    <types>
-        <members>Admin CLONE 2</members>
-        <name>Profile</name>
+        <members>AppleWatch</members>
+        <members>AppleWatchTest</members>
+        <name>ApexClass</name>
     </types>
     <version>44.0</version>
 </Package>
