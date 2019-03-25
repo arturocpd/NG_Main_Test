@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Flow_LevelTest</members>
-        <name>ApexClass</name>
-    </types>
-    <types>
-        <members>Flow_Level</members>
-        <name>Flow</name>
+        <members>Account.AccountLookup__c</members>
+        <members>Account.Accoutn_Field_1__c</members>
+        <members>Account.Active__c</members>
+        <members>Account.CustomerPriority__c</members>
+        <members>Account.External_Id__c</members>
+        <name>CustomField</name>
     </types>
     <version>44.0</version>
 </Package>
