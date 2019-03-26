@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>PS_Merge_Test</members>
+        <members>ABC_PS_Test</members>
         <name>PermissionSet</name>
     </types>
     <version>44.0</version>
