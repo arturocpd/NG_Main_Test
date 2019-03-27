@@ -88,7 +88,7 @@
         <fullName>Account_Number__c</fullName>
         <externalId>false</externalId>
         <label>Account Number</label>
-        <length>30</length>
+        <length>20</length>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Text</type>
@@ -176,7 +176,7 @@
         <externalId>true</externalId>
         <label>External Id</label>
         <length>255</length>
-        <required>false</required>
+        <required>true</required>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Text</type>
         <unique>true</unique>
@@ -205,10 +205,6 @@
     <fields>
         <fullName>Name</fullName>
         <trackFeedHistory>true</trackFeedHistory>
-    </fields>
-    <fields>
-        <fullName>NumberOfEmployees</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
         <fullName>NumberofLocations__c</fullName>
