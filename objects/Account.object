@@ -86,6 +86,14 @@
         <type>Picklist</type>
     </fields>
     <fields>
+        <fullName>Accoutn_Field_1__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Accoutn Field 1</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>Active__c</fullName>
         <externalId>false</externalId>
         <label>Active</label>
@@ -144,6 +152,16 @@
                     <fullName>Medium</fullName>
                     <default>false</default>
                     <label>Medium</label>
+                </value>
+                <value>
+                    <fullName>None</fullName>
+                    <default>false</default>
+                    <label>None</label>
+                </value>
+                <value>
+                    <fullName>Plus</fullName>
+                    <default>false</default>
+                    <label>Plus</label>
                 </value>
             </valueSetDefinition>
         </valueSet>
