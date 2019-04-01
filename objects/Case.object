@@ -4601,6 +4601,16 @@
         <type>Checkbox</type>
     </fields>
     <fields>
+        <fullName>master_bug__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>master bug</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>pruebapermisos__c</fullName>
         <defaultValue>false</defaultValue>
         <externalId>false</externalId>
