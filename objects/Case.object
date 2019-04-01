@@ -721,6 +721,7 @@
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
         <valueSet>
+            <restricted>true</restricted>
             <valueSetDefinition>
                 <sorted>false</sorted>
                 <value>
@@ -737,6 +738,21 @@
                     <fullName>Controlling 3</fullName>
                     <default>false</default>
                     <label>Controlling 3</label>
+                </value>
+                <value>
+                    <fullName>Dev3-1</fullName>
+                    <default>false</default>
+                    <label>Dev3-1</label>
+                </value>
+                <value>
+                    <fullName>Dev3-2</fullName>
+                    <default>false</default>
+                    <label>Dev3-2</label>
+                </value>
+                <value>
+                    <fullName>Dev3-3</fullName>
+                    <default>false</default>
+                    <label>Dev3-3</label>
                 </value>
             </valueSetDefinition>
         </valueSet>
