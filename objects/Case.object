@@ -877,6 +877,7 @@
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
         <valueSet>
+            <restricted>true</restricted>
             <valueSetDefinition>
                 <sorted>false</sorted>
                 <value>
@@ -895,19 +896,19 @@
                     <label>Controlling 3</label>
                 </value>
                 <value>
-                    <fullName>Dev1-1</fullName>
+                    <fullName>Dev3-1</fullName>
                     <default>false</default>
-                    <label>Dev1-1</label>
+                    <label>Dev3-1</label>
                 </value>
                 <value>
-                    <fullName>Dev1-2</fullName>
+                    <fullName>Dev3-2</fullName>
                     <default>false</default>
-                    <label>Dev1-2</label>
+                    <label>Dev3-2</label>
                 </value>
                 <value>
-                    <fullName>Dev1-3</fullName>
+                    <fullName>Dev3-3</fullName>
                     <default>false</default>
-                    <label>Dev1-3</label>
+                    <label>Dev3-3</label>
                 </value>
             </valueSetDefinition>
         </valueSet>
