@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Account.Active__c</members>
-        <members>Account.CustomerPriority__c</members>
-        <members>Account.External_Id__c</members>
-        <members>Account.Field_2__c</members>
-        <members>Account.Field_3__c</members>
-        <members>Account.Install__c</members>
+        <members>Case.master_bug__c</members>
         <name>CustomField</name>
     </types>
     <version>44.0</version>
