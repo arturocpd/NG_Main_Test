@@ -72,20 +72,6 @@
         </valueSet>
     </fields>
     <fields>
-        <fullName>Activity_Custom_field_5__c</fullName>
-        <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
-        <label>Activity Custom field 5</label>
-        <type>Checkbox</type>
-    </fields>
-    <fields>
-        <fullName>Activity_ZZZ__c</fullName>
-        <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
-        <label>Activity ZZZ</label>
-        <type>Checkbox</type>
-    </fields>
-    <fields>
         <fullName>Next_Time__c</fullName>
         <externalId>false</externalId>
         <label>Next Time</label>
