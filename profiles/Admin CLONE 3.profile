@@ -3,8 +3,8 @@
     <fullName>Admin CLONE 3</fullName>
     <applicationVisibilities>
         <application>Test_Omni_commit</application>
-        <default>false</default>
-        <visible>false</visible>
+        <default>false/default>
+        <visible>true</visible>
     </applicationVisibilities>
     <applicationVisibilities>
         <application>standard__AppLauncher</application>
