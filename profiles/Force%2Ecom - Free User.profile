@@ -1352,6 +1352,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Case.master_bug__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Case.pruebapermisos__c</field>
         <readable>false</readable>
     </fieldPermissions>

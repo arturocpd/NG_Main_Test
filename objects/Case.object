@@ -1038,6 +1038,21 @@
                     <default>false</default>
                     <label>Controlling 3</label>
                 </value>
+                <value>
+                    <fullName>Dev1-1</fullName>
+                    <default>false</default>
+                    <label>Dev1-1</label>
+                </value>
+                <value>
+                    <fullName>Dev1-2</fullName>
+                    <default>false</default>
+                    <label>Dev1-2</label>
+                </value>
+                <value>
+                    <fullName>Dev1-3</fullName>
+                    <default>false</default>
+                    <label>Dev1-3</label>
+                </value>
             </valueSetDefinition>
         </valueSet>
     </fields>
@@ -5201,6 +5216,16 @@
         <formula>true</formula>
         <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
         <label>formula check</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>master_bug__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>master bug</label>
+        <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>

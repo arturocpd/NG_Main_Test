@@ -742,6 +742,18 @@
             <masterLabel>Controlling 3</masterLabel>
             <translation><!-- Controlling 3 --></translation>
         </picklistValues>
+        <picklistValues>
+            <masterLabel>Dev1-1</masterLabel>
+            <translation><!-- Dev1-1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dev1-2</masterLabel>
+            <translation><!-- Dev1-2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dev1-3</masterLabel>
+            <translation><!-- Dev1-3 --></translation>
+        </picklistValues>
     </fields>
     <fields>
         <label><!-- DeleteMe2 --></label>
@@ -3614,6 +3626,10 @@
     <fields>
         <label><!-- formula check --></label>
         <name>formula_check__c</name>
+    </fields>
+    <fields>
+        <label><!-- master bug --></label>
+        <name>master_bug__c</name>
     </fields>
     <fields>
         <label><!-- pruebapermisos --></label>

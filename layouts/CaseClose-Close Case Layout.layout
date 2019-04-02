@@ -378,6 +378,10 @@
                 <behavior>Edit</behavior>
                 <field>FLS_Test__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>master_bug__c</field>
+            </layoutItems>
         </layoutColumns>
         <style>OneColumn</style>
     </layoutSections>
