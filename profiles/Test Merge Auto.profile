@@ -21,7 +21,7 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Case.SLAViolation__c</field>
+        <field>Case.SLAViolation1__c</field>
         <readable>false</readable>
     </fieldPermissions>
         <fieldPermissions>
