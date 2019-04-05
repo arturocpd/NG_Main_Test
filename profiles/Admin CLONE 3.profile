@@ -4,7 +4,7 @@
     <applicationVisibilities>
         <application>Test_Omni_commit</application>
         <default>false</default>
-        <visible>false</visible>
+        <visible>true</visible>
     </applicationVisibilities>
     <applicationVisibilities>
         <application>standard__AppLauncher</application>
