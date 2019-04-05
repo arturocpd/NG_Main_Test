@@ -23,5 +23,6 @@
         <editable>false</editable>
         <field>Case.SLAViolation1__c</field>
         <readable>false</readable>
+    </fieldPermissions>
     <userLicense>Salesforce</userLicense>
 </Profile>
