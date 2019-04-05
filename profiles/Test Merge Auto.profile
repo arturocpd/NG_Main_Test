@@ -2,11 +2,11 @@
 <Profile xmlns="http://soap.sforce.com/2006/04/metadata">
     <classAccesses>
         <apexClass>AppleWatch</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>AppleWatchTest</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <custom>true</custom>
     <fieldPermissions>
@@ -25,5 +25,4 @@
         <readable>false</readable>
     </fieldPermissions>
     <userLicense>Salesforce</userLicense>
-    
 </Profile>

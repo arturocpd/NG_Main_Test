@@ -6,13 +6,6 @@
         <name>ApexClass</name>
     </types>
     <types>
-        <members>Account.Active__c</members>
-        <members>Account.DunsNumber</members>
-        <members>Case.BusinessHoursId</members>
-        <members>Case.SLAViolation__c</members>
-        <name>CustomField</name>
-    </types>
-    <types>
         <members>Test Merge Auto</members>
         <name>Profile</name>
     </types>
