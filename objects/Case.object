@@ -1748,6 +1748,11 @@
                     <default>false</default>
                     <label>Yes</label>
                 </value>
+                <value>
+                    <fullName>Maybe</fullName>
+                    <default>false</default>
+                    <label>Maybe</label>
+                </value>
             </valueSetDefinition>
         </valueSet>
     </fields>
