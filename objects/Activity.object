@@ -100,13 +100,6 @@
         <type>Checkbox</type>
     </fields>
     <fields>
-        <fullName>Activity_Custom_field__c</fullName>
-        <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
-        <label>Activity Custom field</label>
-        <type>Checkbox</type>
-    </fields>
-    <fields>
         <fullName>Activity_ZZZ__c</fullName>
         <defaultValue>false</defaultValue>
         <externalId>false</externalId>
