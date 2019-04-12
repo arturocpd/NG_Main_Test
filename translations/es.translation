@@ -12,4 +12,8 @@
         <label></label>
         <name>ADD_AN_ENVIRONMENT</name>
     </customLabels>
+    <customLabels>
+        <label>Añadir cabecera</label>
+        <name>ADD_HEADER</name>
+    </customLabels>
 </Translations>

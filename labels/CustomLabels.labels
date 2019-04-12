@@ -121,6 +121,14 @@
         <value>Add Authentication</value>
     </labels>
     <labels>
+        <fullName>ADD_HEADER</fullName>
+        <categories>Copado</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ADD HEADER</shortDescription>
+        <value>Add Header</value>
+    </labels>
+    <labels>
         <fullName>AR_Custom_Label_from_Dev3</fullName>
         <language>en_US</language>
         <protected>true</protected>
