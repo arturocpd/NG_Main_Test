@@ -1,20 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>AppleWatch</members>
-        <members>AppleWatchTest</members>
-        <name>ApexClass</name>
+        <members>ACTIVATE_USERS</members>
+        <name>CustomLabel</name>
     </types>
     <types>
-        <members>Account.Active__c</members>
-        <members>Account.DunsNumber</members>
-        <members>Case.BusinessHoursId</members>
-        <members>Case.SLAViolation__c</members>
-        <name>CustomField</name>
-    </types>
-    <types>
-        <members>Test Merge Auto</members>
-        <name>Profile</name>
+        <members>es</members>
+        <name>Translations</name>
     </types>
     <version>44.0</version>
 </Package>
