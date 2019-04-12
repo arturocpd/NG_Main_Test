@@ -17,6 +17,10 @@
         <name>ADD_AN_ENVIRONMENT</name>
     </customLabels>
     <customLabels>
+        <label>Añadir cabecera</label>
+        <name>ADD_HEADER</name>
+    </customLabels>
+    <customLabels>
         <label>Informacion basica Modified</label>
         <name>BASIC_INFORMATION</name>
     </customLabels>
