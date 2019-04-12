@@ -5,8 +5,12 @@
         <name>ACCOUNT_SUMMARY</name>
     </customLabels>
     <customLabels>
-        <label>Cabecera Columna Accion MODIFIED2</label>
+        <label>Cabecera Columna Accion</label>
         <name>ACTION_COLUMN_HEADER</name>
+    </customLabels>
+    <customLabels>
+        <label>Activar Usuarios</label>
+        <name>ACTIVATE_USERS</name>
     </customLabels>
     <customLabels>
         <label>Informacion basica Modified</label>
