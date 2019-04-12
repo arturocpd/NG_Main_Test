@@ -97,6 +97,14 @@
         <value>Action</value>
     </labels>
     <labels>
+        <fullName>ACTIVATE_USERS</fullName>
+        <categories>Copado</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ACTIVATE USERS</shortDescription>
+        <value>Activate users</value>
+    </labels>
+    <labels>
         <fullName>ADD_AUTHENTICATION</fullName>
         <categories>Copado</categories>
         <language>en_US</language>
