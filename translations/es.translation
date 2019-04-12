@@ -8,4 +8,8 @@
         <label>Activar Usuarios</label>
         <name>ACTIVATE_USERS</name>
     </customLabels>
+    <customLabels>
+        <label></label>
+        <name>ADD_AN_ENVIRONMENT</name>
+    </customLabels>
 </Translations>
