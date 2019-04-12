@@ -97,12 +97,28 @@
         <value>Action</value>
     </labels>
     <labels>
+        <fullName>ACTIVATE_USERS</fullName>
+        <categories>Copado</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ACTIVATE USERS</shortDescription>
+        <value>Activate users</value>
+    </labels>
+    <labels>
         <fullName>ADD_AUTHENTICATION</fullName>
         <categories>Copado</categories>
         <language>en_US</language>
         <protected>true</protected>
         <shortDescription>ADD_AUTHENTICATION</shortDescription>
         <value>Add Authentication</value>
+    </labels>
+    <labels>
+        <fullName>ADD_HEADER</fullName>
+        <categories>Copado</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ADD HEADER</shortDescription>
+        <value>Add Header</value>
     </labels>
     <labels>
         <fullName>AR_Custom_Label_from_Dev3</fullName>
