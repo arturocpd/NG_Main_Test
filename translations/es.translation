@@ -9,7 +9,7 @@
         <name>ACTION_COLUMN_HEADER</name>
     </customLabels>
     <customLabels>
-        <label><!-- ACTIVATE USERS --></label>
+        <label>Activar Usuarios</label>
         <name>ACTIVATE_USERS</name>
     </customLabels>
     <customLabels>
@@ -33,7 +33,7 @@
         <name>ADD_ENVIRONMENT_STEPS</name>
     </customLabels>
     <customLabels>
-        <label><!-- ADD HEADER --></label>
+        <label>Añadir cabecera</label>
         <name>ADD_HEADER</name>
     </customLabels>
     <customLabels>
