@@ -90,7 +90,7 @@
         <fullName>Admin_Checkbox__c</fullName>
         <defaultValue>false</defaultValue>
         <externalId>false</externalId>
-        <label>Admin Checkbox</label>
+        <label>Admin CheckboxXXXX</label>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
