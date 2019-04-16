@@ -443,6 +443,10 @@
                 <behavior>Edit</behavior>
                 <field>master_bug__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Geo__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>

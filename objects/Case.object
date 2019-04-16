@@ -1305,6 +1305,18 @@
         <type>Checkbox</type>
     </fields>
     <fields>
+        <fullName>Geo__c</fullName>
+        <displayLocationInDecimal>true</displayLocationInDecimal>
+        <externalId>false</externalId>
+        <label>Geo</label>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Location</type>
+    </fields>
+    <fields>
         <fullName>Install_package__c</fullName>
         <defaultValue>false</defaultValue>
         <externalId>false</externalId>

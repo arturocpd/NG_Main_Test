@@ -662,6 +662,10 @@
         <name>Ford__c</name>
     </fields>
     <fields>
+        <label><!-- Geo --></label>
+        <name>Geo__c</name>
+    </fields>
+    <fields>
         <label><!-- Install package --></label>
         <name>Install_package__c</name>
     </fields>
