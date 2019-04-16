@@ -90,7 +90,7 @@
         <fullName>Admin_Checkbox__c</fullName>
         <defaultValue>false</defaultValue>
         <externalId>false</externalId>
-        <label>Admin Checkbox</label>
+        <label>Admin CheckboxXXXX</label>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
@@ -113,9 +113,10 @@
     <fields>
         <fullName>CI_test_1__c</fullName>
         <defaultValue>false</defaultValue>
+        <displayLocationInDecimal>true<displayLocationInDecimal>
         <externalId>false</externalId>
         <label>CI test 1</label>
-        <trackFeedHistory>false</trackFeedHistory>
+        <trackFeedHistory>true</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
@@ -1747,6 +1748,11 @@
                     <fullName>Yes</fullName>
                     <default>false</default>
                     <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>Maybe</fullName>
+                    <default>false</default>
+                    <label>Maybe</label>
                 </value>
             </valueSetDefinition>
         </valueSet>
