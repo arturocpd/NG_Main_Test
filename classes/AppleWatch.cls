@@ -8,9 +8,9 @@ Public with sharing Class AppleWatch{
         t.WhatId      = opp.Id;
         insert t;
      /*conflict here test 2334*/ 
-     /*conflict qweffwsedfasf test rfgdasfg*/
-     /*conflict MODDD qe232t 233adsrfg4*/
-     /*conflict afgafgr test 2334*/
+     /*conflict  test */
+     /*conflict MODDD  */
+     /*conflict  test 2334*/
      /*update in local*/
    }
   
