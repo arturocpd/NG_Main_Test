@@ -23,6 +23,15 @@
     <enableFeeds>false</enableFeeds>
     <enableHistory>false</enableHistory>
     <fields>
+        <fullName>Answer__c</fullName>
+        <externalId>false</externalId>
+        <label>Answer</label>
+        <length>12</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>Body__c</fullName>
         <externalId>false</externalId>
         <label>Body</label>
