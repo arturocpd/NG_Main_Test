@@ -9,6 +9,10 @@
         <value>Knowledge</value>
     </caseValues>
     <fields>
+        <label><!-- Answer --></label>
+        <name>Answer__c</name>
+    </fields>
+    <fields>
         <label><!-- Body --></label>
         <name>Body__c</name>
     </fields>
