@@ -1,8 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Case.Power__c</members>
-        <name>CustomField</name>
+        <members>Case.Leaseplan_Update</members>
+        <members>Case.Test_1</members>
+        <members>Case.Test_10</members>
+        <members>Case.Test_2</members>
+        <members>Case.Test_3</members>
+        <members>Case.Test_4</members>
+        <members>Case.Test_5</members>
+        <members>Case.Test_6</members>
+        <members>Case.Test_7</members>
+        <members>Case.Test_8</members>
+        <members>Case.Test_9</members>
+        <members>Case.Test_Merge_FU</members>
+        <members>Case.Update_Origin</members>
+        <name>WorkflowFieldUpdate</name>
+    </types>
+    <types>
+        <members>Case.Leaseplan</members>
+        <members>Case.Org wide alert</members>
+        <members>Case.Test Merge WF</members>
+        <members>Case.Test Thomson</members>
+        <members>Case.Update origin</members>
+        <members>Case.WF Rule Deployment Test</members>
+        <name>WorkflowRule</name>
     </types>
     <version>45.0</version>
 </Package>
