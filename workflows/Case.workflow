@@ -198,6 +198,15 @@
         <protected>false</protected>
     </fieldUpdates>
     <fieldUpdates>
+        <fullName>Test_Merge_FU</fullName>
+        <field>Origin</field>
+        <literalValue>Email</literalValue>
+        <name>Test Merge FU</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
         <fullName>Update_Origin</fullName>
         <field>Origin</field>
         <literalValue>Email</literalValue>
@@ -255,6 +264,19 @@
             <field>Case.BusinessHoursId</field>
             <operation>equals</operation>
             <value>Default</value>
+        </criteriaItems>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>Test Merge WF</fullName>
+        <actions>
+            <name>Test_Merge_FU</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Case.SuppliedEmail</field>
+            <operation>notEqual</operation>
         </criteriaItems>
         <triggerType>onCreateOnly</triggerType>
     </rules>
