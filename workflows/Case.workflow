@@ -200,7 +200,7 @@
     <fieldUpdates>
         <fullName>Test_Merge_FU</fullName>
         <field>Origin</field>
-        <literalValue>Email</literalValue>
+        <literalValue>Phone</literalValue>
         <name>Test Merge FU</name>
         <notifyAssignee>false</notifyAssignee>
         <operation>Literal</operation>
