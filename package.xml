@@ -4,5 +4,17 @@
         <members>Case.Case_AAA__c</members>
         <name>CustomField</name>
     </types>
+    <types>
+        <members>Lead</members>
+        <name>Flow</name>
+    </types>
+    <types>
+        <members>Lead</members>
+        <name>FlowDefinition</name>
+    </types>
+    <types>
+        <members>Admin CLONE 2</members>
+        <name>Profile</name>
+    </types>
     <version>45.0</version>
 </Package>
