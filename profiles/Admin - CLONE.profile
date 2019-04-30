@@ -408,7 +408,7 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Account.xyz_Account_Number__c</field>
-        <readable>true</readable>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
