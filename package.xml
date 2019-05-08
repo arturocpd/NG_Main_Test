@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Account.Field_2__c</members>
-        <members>Account.Field_3__c</members>
-        <name>CustomField</name>
-    </types>
-    <types>
-        <members>Test_Elisa</members>
-        <members>Test_Info_Error</members>
-        <name>Flow</name>
-    </types>
-    <types>
-        <members>Admin CLONE 2</members>
+        <members>Admin</members>
         <name>Profile</name>
     </types>
     <version>45.0</version>
