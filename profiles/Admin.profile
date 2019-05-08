@@ -2843,11 +2843,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>US_Test__c.US_Test_Field__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>User.ExternalId__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -4512,15 +4507,6 @@
         <modifyAllRecords>false</modifyAllRecords>
         <object>TopicAssignment</object>
         <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>US_Test__c</object>
-        <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
         <allowCreate>false</allowCreate>
