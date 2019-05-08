@@ -1153,11 +1153,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Case.Test_BETA_fix__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>Case.Test_Diageo__c</field>
         <readable>true</readable>
     </fieldPermissions>
