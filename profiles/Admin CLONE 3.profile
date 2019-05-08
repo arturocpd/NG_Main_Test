@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Profile xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Admin CLONE 3777</fullName>
+    <fullName>Admin CLONE 3</fullName>
     <applicationVisibilities>
         <application>Test_Omni_commit</application>
         <default>false</default>
