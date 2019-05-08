@@ -923,11 +923,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Case.Destructive_changes_test__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>Case.Duplicate_test__c</field>
         <readable>true</readable>
     </fieldPermissions>
