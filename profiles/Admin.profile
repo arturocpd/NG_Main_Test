@@ -3614,9 +3614,6 @@
         <layout>Territory2Model-Territory Model Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Test_Bug__c-Test Bug Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>TimeSheet-Time Sheet Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
