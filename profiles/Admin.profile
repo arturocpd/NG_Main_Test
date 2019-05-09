@@ -413,11 +413,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Account.search_layout__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>Account.xyz_Account_Number__c</field>
         <readable>true</readable>
     </fieldPermissions>
