@@ -3537,10 +3537,6 @@
         <layout>QuickText-Quick Text Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Quote_Proposal__c-PageLayout1</layout>
-        <recordType>Quote_Proposal__c.RecordType2</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>Quote_Proposal__c-Quote%2FProposal Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
