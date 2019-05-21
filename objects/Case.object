@@ -4403,6 +4403,16 @@
         <type>Picklist</type>
     </fields>
     <fields>
+        <fullName>US_CI_Track__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>US CI Track</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>bug_test__c</fullName>
         <defaultValue>false</defaultValue>
         <externalId>false</externalId>
