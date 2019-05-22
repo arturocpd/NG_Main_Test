@@ -1042,6 +1042,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Case.Home__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Case.Install_package__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -1273,6 +1278,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Case.Type</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Case.US_CI_Track__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>

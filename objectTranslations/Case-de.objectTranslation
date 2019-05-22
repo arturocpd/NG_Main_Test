@@ -852,6 +852,10 @@
         <name>Geo__c</name>
     </fields>
     <fields>
+        <label><!-- Home --></label>
+        <name>Home__c</name>
+    </fields>
+    <fields>
         <label><!-- Install package --></label>
         <name>Install_package__c</name>
     </fields>
@@ -3510,6 +3514,10 @@
     <fields>
         <label><!-- Trimming fix --></label>
         <name>Trimming_fix__c</name>
+    </fields>
+    <fields>
+        <label><!-- US CI Track --></label>
+        <name>US_CI_Track__c</name>
     </fields>
     <fields>
         <label><!-- Unique Code --></label>

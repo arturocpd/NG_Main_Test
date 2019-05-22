@@ -386,6 +386,14 @@
                 <behavior>Edit</behavior>
                 <field>Geo__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>US_CI_Track__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Home__c</field>
+            </layoutItems>
         </layoutColumns>
         <style>OneColumn</style>
     </layoutSections>
