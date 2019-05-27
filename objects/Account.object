@@ -128,6 +128,11 @@
                     <default>false</default>
                     <label>Afghanistan:93</label>
                 </value>
+                <value>
+                    <fullName>Afghanistan   93</fullName>
+                    <default>false</default>
+                    <label>Afghanistan   93</label>
+                </value>
             </valueSetDefinition>
         </valueSet>
     </fields>
@@ -627,6 +632,10 @@
         <picklistValues>
             <picklist>ASCII_Test__c</picklist>
             <values>
+                <fullName>Afghanistan   93</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Afghanistan 93</fullName>
                 <default>false</default>
             </values>
@@ -971,6 +980,10 @@
         <picklistValues>
             <picklist>ASCII_Test__c</picklist>
             <values>
+                <fullName>Afghanistan   93</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Afghanistan 93</fullName>
                 <default>false</default>
             </values>
@@ -1290,6 +1303,10 @@
         <label>Record Type2</label>
         <picklistValues>
             <picklist>ASCII_Test__c</picklist>
+            <values>
+                <fullName>Afghanistan   93</fullName>
+                <default>false</default>
+            </values>
             <values>
                 <fullName>Afghanistan 93</fullName>
                 <default>false</default>
