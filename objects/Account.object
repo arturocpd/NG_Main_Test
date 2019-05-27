@@ -133,6 +133,11 @@
                     <default>false</default>
                     <label>Afghanistan   93</label>
                 </value>
+                <value>
+                    <fullName>Afghanistan	93</fullName>
+                    <default>false</default>
+                    <label>Afghanistan	93</label>
+                </value>
             </valueSetDefinition>
         </valueSet>
     </fields>
@@ -640,6 +645,10 @@
                 <default>false</default>
             </values>
             <values>
+                <fullName>Afghanistan%0993</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Afghanistan%2E93</fullName>
                 <default>false</default>
             </values>
@@ -988,6 +997,10 @@
                 <default>false</default>
             </values>
             <values>
+                <fullName>Afghanistan%0993</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Afghanistan%2E93</fullName>
                 <default>false</default>
             </values>
@@ -1309,6 +1322,10 @@
             </values>
             <values>
                 <fullName>Afghanistan 93</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Afghanistan%0993</fullName>
                 <default>false</default>
             </values>
             <values>
