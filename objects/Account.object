@@ -568,6 +568,23 @@
     </listViews>
     <nameField n1:nil="true" />
     <recordTypeTrackFeedHistory>false</recordTypeTrackFeedHistory>
+    <recordTypes>
+        <fullName>Record_Type1</fullName>
+        <active>true</active>
+        <compactLayoutAssignment>Compact_Test</compactLayoutAssignment>
+        <label>Record Type1</label>
+        <picklistValues>
+            <picklist>ASCII_Test__c</picklist>
+            <values>
+                <fullName>Afghanistan 93</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
     <searchLayouts>
         <customTabListAdditionalFields>ACCOUNT.NAME</customTabListAdditionalFields>
         <customTabListAdditionalFields>ACCOUNT.ADDRESS1_CITY</customTabListAdditionalFields>

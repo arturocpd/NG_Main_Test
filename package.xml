@@ -8,5 +8,9 @@
         <members>Account</members>
         <name>CustomObject</name>
     </types>
+    <types>
+        <members>Account.Record_Type1</members>
+        <name>RecordType</name>
+    </types>
     <version>45.0</version>
 </Package>
