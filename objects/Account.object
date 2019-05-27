@@ -94,9 +94,9 @@
             <valueSetDefinition>
                 <sorted>false</sorted>
                 <value>
-                    <fullName>Afghanistan	93</fullName>
+                    <fullName>Afghanistan 93</fullName>
                     <default>false</default>
-                    <label>Afghanistan	93</label>
+                    <label>Afghanistan 93</label>
                 </value>
             </valueSetDefinition>
         </valueSet>
@@ -597,7 +597,7 @@
         <picklistValues>
             <picklist>ASCII_Test__c</picklist>
             <values>
-                <fullName>Afghanistan%0993</fullName>
+                <fullName>Afghanistan 93</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -917,7 +917,7 @@
         <picklistValues>
             <picklist>ASCII_Test__c</picklist>
             <values>
-                <fullName>Afghanistan%0993</fullName>
+                <fullName>Afghanistan 93</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -1213,7 +1213,7 @@
         <picklistValues>
             <picklist>ASCII_Test__c</picklist>
             <values>
-                <fullName>Afghanistan%0993</fullName>
+                <fullName>Afghanistan 93</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
