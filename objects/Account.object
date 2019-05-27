@@ -98,6 +98,11 @@
                     <default>false</default>
                     <label>Afghanistan 93</label>
                 </value>
+                <value>
+                    <fullName>New</fullName>
+                    <default>false</default>
+                    <label>New</label>
+                </value>
             </valueSetDefinition>
         </valueSet>
     </fields>
