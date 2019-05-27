@@ -94,46 +94,6 @@
             <valueSetDefinition>
                 <sorted>false</sorted>
                 <value>
-                    <fullName>Afghanistan|93</fullName>
-                    <default>false</default>
-                    <label>Afghanistan|93</label>
-                </value>
-                <value>
-                    <fullName>Afghanistan/93</fullName>
-                    <default>false</default>
-                    <label>Afghanistan/93</label>
-                </value>
-                <value>
-                    <fullName>Afghanistan 93</fullName>
-                    <default>false</default>
-                    <label>Afghanistan 93</label>
-                </value>
-                <value>
-                    <fullName>Afghanistan-93</fullName>
-                    <default>false</default>
-                    <label>Afghanistan-93</label>
-                </value>
-                <value>
-                    <fullName>Afghanistan_93</fullName>
-                    <default>false</default>
-                    <label>Afghanistan_93</label>
-                </value>
-                <value>
-                    <fullName>Afghanistan.93</fullName>
-                    <default>false</default>
-                    <label>Afghanistan.93</label>
-                </value>
-                <value>
-                    <fullName>Afghanistan:93</fullName>
-                    <default>false</default>
-                    <label>Afghanistan:93</label>
-                </value>
-                <value>
-                    <fullName>Afghanistan   93</fullName>
-                    <default>false</default>
-                    <label>Afghanistan   93</label>
-                </value>
-                <value>
                     <fullName>Afghanistan	93</fullName>
                     <default>false</default>
                     <label>Afghanistan	93</label>
@@ -637,39 +597,7 @@
         <picklistValues>
             <picklist>ASCII_Test__c</picklist>
             <values>
-                <fullName>Afghanistan   93</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Afghanistan 93</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>Afghanistan%0993</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Afghanistan%2E93</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Afghanistan%2F93</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Afghanistan%3A93</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Afghanistan%7C93</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Afghanistan-93</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Afghanistan_93</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -989,39 +917,7 @@
         <picklistValues>
             <picklist>ASCII_Test__c</picklist>
             <values>
-                <fullName>Afghanistan   93</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Afghanistan 93</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>Afghanistan%0993</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Afghanistan%2E93</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Afghanistan%2F93</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Afghanistan%3A93</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Afghanistan%7C93</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Afghanistan-93</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Afghanistan_93</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -1317,39 +1213,7 @@
         <picklistValues>
             <picklist>ASCII_Test__c</picklist>
             <values>
-                <fullName>Afghanistan   93</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Afghanistan 93</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>Afghanistan%0993</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Afghanistan%2E93</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Afghanistan%2F93</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Afghanistan%3A93</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Afghanistan%7C93</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Afghanistan-93</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Afghanistan_93</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
