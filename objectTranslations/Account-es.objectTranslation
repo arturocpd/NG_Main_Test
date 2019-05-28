@@ -449,6 +449,18 @@
         <name>person_account_record</name>
     </fields>
     <fields>
+        <label><!-- ASCII Test --></label>
+        <name>ASCII_Test__c</name>
+        <picklistValues>
+            <masterLabel>Afghanistan 93</masterLabel>
+            <translation><!-- Afghanistan 93 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New</masterLabel>
+            <translation><!-- New --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
         <label><!-- AccountLookup --></label>
         <name>AccountLookup__c</name>
         <relationshipLabel><!-- Accounts --></relationshipLabel>

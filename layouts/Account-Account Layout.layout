@@ -97,6 +97,10 @@
                 <behavior>Edit</behavior>
                 <field>article_test__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>ASCII_Test__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>

@@ -252,4 +252,17 @@
         <errorConditionFormula>False</errorConditionFormula>
         <errorMessage>Irrelevant</errorMessage>
     </validationRules>
+    <webLinks>
+        <fullName>Task_List_Button</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <height>600</height>
+        <linkType>url</linkType>
+        <masterLabel>Task List Button</masterLabel>
+        <openType>sidebar</openType>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+        <url>/apex/arturo</url>
+    </webLinks>
 </CustomObject>

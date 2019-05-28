@@ -203,6 +203,11 @@
     <description>Profile description</description>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Account.ASCII_Test__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Account.AccountLookup__c</field>
         <readable>true</readable>
     </fieldPermissions>

@@ -284,6 +284,7 @@
         <label>Upcoming Events</label>
     </listViews>
     <searchLayouts>
+        <listViewButtons>Task_List_Button</listViewButtons>
         <searchResultsAdditionalFields>TASK.SUBJECT</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>TASK.WHO_NAME</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>TASK.WHAT_NAME</searchResultsAdditionalFields>

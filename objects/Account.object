@@ -83,6 +83,30 @@
     <enableHistory>false</enableHistory>
     <externalSharingModel>Private</externalSharingModel>
     <fields>
+        <fullName>ASCII_Test__c</fullName>
+        <externalId>false</externalId>
+        <label>ASCII Test</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Afghanistan 93</fullName>
+                    <default>false</default>
+                    <label>Afghanistan 93</label>
+                </value>
+                <value>
+                    <fullName>New</fullName>
+                    <default>false</default>
+                    <label>New</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>AccountLookup__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <externalId>false</externalId>
@@ -576,6 +600,17 @@
         <active>true</active>
         <label>DeleteRTacc</label>
         <picklistValues>
+            <picklist>ASCII_Test__c</picklist>
+            <values>
+                <fullName>Afghanistan 93</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
             <picklist>AccountSource</picklist>
             <values>
                 <fullName>One more CI test</fullName>
@@ -889,6 +924,17 @@
         <compactLayoutAssignment>Compact_Test</compactLayoutAssignment>
         <label>Record Type1</label>
         <picklistValues>
+            <picklist>ASCII_Test__c</picklist>
+            <values>
+                <fullName>Afghanistan 93</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
             <picklist>AccountSource</picklist>
             <values>
                 <fullName>Other</fullName>
@@ -1177,6 +1223,17 @@
         <active>true</active>
         <compactLayoutAssignment>Custom_Acc_Compact_Layout</compactLayoutAssignment>
         <label>Record Type2</label>
+        <picklistValues>
+            <picklist>ASCII_Test__c</picklist>
+            <values>
+                <fullName>Afghanistan 93</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
         <picklistValues>
             <picklist>AccountSource</picklist>
             <values>
