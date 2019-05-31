@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>COMMITS_AHEAD</members>
-        <members>Test_Copado_deplo</members>
-        <name>CustomLabel</name>
-    </types>
-    <types>
-        <members>da</members>
-        <members>es</members>
-        <name>Translations</name>
+        <members>AppleWatch</members>
+        <members>AppleWatchTest</members>
+        <name>ApexClass</name>
     </types>
     <version>45.0</version>
 </Package>

@@ -9,9 +9,9 @@ Public with sharing Class AppleWatch{
         insert t;
      /*conflict here test 2334*/ 
      /*conflict  test */
-     /*conflict MODDD  */
-     /*conflict  test 2334*/
-     /*update in local*/
+     /*conflict MODDD */
+     /*conflict   2334*/
+     /*conadfrflict here test 2334*/
    }
   
   }
