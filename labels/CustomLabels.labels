@@ -5587,6 +5587,13 @@ For more details login to the Org and monitor the test execution under Setup/Dev
         <value>Type</value>
     </labels>
     <labels>
+        <fullName>Test_Copado_deplo</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Test Copado deplo</shortDescription>
+        <value>deploy with copado</value>
+    </labels>
+    <labels>
         <fullName>Test_Per_Suite_1</fullName>
         <categories>Copado</categories>
         <language>en_US</language>
