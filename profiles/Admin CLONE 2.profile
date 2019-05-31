@@ -6708,10 +6708,6 @@
     </userPermissions>
     <userPermissions>
         <enabled>false</enabled>
-        <name>CreateAuditFields</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
         <name>UpdateWithInactiveOwner</name>
     </userPermissions>
     <userPermissions>
