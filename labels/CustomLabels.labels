@@ -1373,6 +1373,13 @@ Please try again later or call SE-Advantage help desk @ (800) 437-0083.</value>
         <value>Territory</value>
     </labels>
     <labels>
+        <fullName>Test_Copado_deplo</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Test Copado deplo</shortDescription>
+        <value>deploy with copado</value>
+    </labels>
+    <labels>
         <fullName>Translation_Test</fullName>
         <language>en_US</language>
         <protected>true</protected>

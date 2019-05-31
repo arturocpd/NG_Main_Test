@@ -8,4 +8,12 @@
         <label>Activar Usuarios</label>
         <name>ACTIVATE_USERS</name>
     </customLabels>
+    <customLabels>
+        <label>Comit ahead</label>
+        <name>COMMITS_AHEAD</name>
+    </customLabels>
+    <customLabels>
+        <label>Despliega con copado</label>
+        <name>Test_Copado_deplo</name>
+    </customLabels>
 </Translations>
