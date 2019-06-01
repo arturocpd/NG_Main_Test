@@ -2793,6 +2793,10 @@
         <name>TYPE</name>
     </customLabels>
     <customLabels>
+        <label>Despliega con copado</label>
+        <name>Test_Copado_deplo</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Test Per Suite 1 --></label>
         <name>Test_Per_Suite_1</name>
     </customLabels>

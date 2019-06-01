@@ -373,7 +373,7 @@
         <name>COMMAND</name>
     </customLabels>
     <customLabels>
-        <label><!-- COMMITS AHEAD --></label>
+        <label>Danish Commits ahead</label>
         <name>COMMITS_AHEAD</name>
     </customLabels>
     <customLabels>
@@ -2791,6 +2791,10 @@
     <customLabels>
         <label><!-- TYPE --></label>
         <name>TYPE</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Test Copado deplo --></label>
+        <name>Test_Copado_deplo</name>
     </customLabels>
     <customLabels>
         <label><!-- Test Per Suite 1 --></label>
