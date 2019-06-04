@@ -1226,6 +1226,14 @@
         <name>Pull_request_test__c</name>
     </fields>
     <fields>
+        <label><!-- Recommit test 1 --></label>
+        <name>Recommit_test_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Recommit test 2 --></label>
+        <name>Recommit_test_2__c</name>
+    </fields>
+    <fields>
         <label><!-- Refresh test --></label>
         <name>Refresh_test__c</name>
     </fields>
