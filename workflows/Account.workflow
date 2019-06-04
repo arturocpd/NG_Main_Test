@@ -26,6 +26,7 @@
             <operation>equals</operation>
             <value>3</value>
         </criteriaItems>
+        <description>Description in WF Rule</description>
         <triggerType>onCreateOnly</triggerType>
         <workflowTimeTriggers>
             <actions>

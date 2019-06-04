@@ -4,5 +4,9 @@
         <members>Account.Big__c</members>
         <name>CustomField</name>
     </types>
+    <types>
+        <members>Account.TB WF rule</members>
+        <name>WorkflowRule</name>
+    </types>
     <version>45.0</version>
 </Package>
