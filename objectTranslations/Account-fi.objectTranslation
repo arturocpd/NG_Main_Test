@@ -430,6 +430,10 @@
         </picklistValues>
     </fields>
     <fields>
+        <label><!-- Big --></label>
+        <name>Big__c</name>
+    </fields>
+    <fields>
         <label><!-- Customer Priority --></label>
         <name>CustomerPriority__c</name>
         <picklistValues>
