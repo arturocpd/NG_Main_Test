@@ -606,6 +606,14 @@
         <name>override_1__c</name>
     </fields>
     <fields>
+        <label><!-- retrieve only 1 --></label>
+        <name>retrieve_only_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- retrieve only 2 --></label>
+        <name>retrieve_only_2__c</name>
+    </fields>
+    <fields>
         <label><!-- search layout --></label>
         <name>search_layout__c</name>
     </fields>
