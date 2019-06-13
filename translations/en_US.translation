@@ -2793,6 +2793,10 @@
         <name>TYPE</name>
     </customLabels>
     <customLabels>
+        <label><!-- Test Copado deplo --></label>
+        <name>Test_Copado_deplo</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Test Per Suite 1 --></label>
         <name>Test_Per_Suite_1</name>
     </customLabels>
@@ -3200,6 +3204,10 @@
         <label><!-- IdeasVFTab --></label>
         <name>IdeasVFTab</name>
     </customTabs>
+    <quickActions>
+        <label><!-- Email --></label>
+        <name>AR_send_email_global</name>
+    </quickActions>
     <quickActions>
         <label><!-- Create Case AR --></label>
         <name>Create_Case_AR</name>

@@ -8,5 +8,13 @@
         <plural>true</plural>
         <value>Clouds</value>
     </caseValues>
+    <fields>
+        <label><!-- Bottle2 --></label>
+        <name>Bottle2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bottle --></label>
+        <name>Bottle__c</name>
+    </fields>
     <gender>Feminine</gender>
 </CustomObjectTranslation>

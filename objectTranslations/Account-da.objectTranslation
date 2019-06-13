@@ -31,9 +31,25 @@
         <value>KontoerSSS</value>
     </caseValues>
     <fields>
+        <label><!-- ASCII Test --></label>
+        <name>ASCII_Test__c</name>
+        <picklistValues>
+            <masterLabel>Afghanistan 93</masterLabel>
+            <translation><!-- Afghanistan 93 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New</masterLabel>
+            <translation><!-- New --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
         <label><!-- AccountLookup --></label>
         <name>AccountLookup__c</name>
         <relationshipLabel><!-- Accounts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Accoutn Field 1 --></label>
+        <name>Accoutn_Field_1__c</name>
     </fields>
     <fields>
         <label><!-- Active --></label>
@@ -46,6 +62,10 @@
             <masterLabel>Yes</masterLabel>
             <translation><!-- Yes --></translation>
         </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Big --></label>
+        <name>Big__c</name>
     </fields>
     <fields>
         <label><!-- Customer Priority --></label>
@@ -66,14 +86,14 @@
             <masterLabel>None</masterLabel>
             <translation><!-- None --></translation>
         </picklistValues>
+        <picklistValues>
+            <masterLabel>Plus</masterLabel>
+            <translation><!-- Plus --></translation>
+        </picklistValues>
     </fields>
     <fields>
         <label><!-- External Id --></label>
         <name>External_Id__c</name>
-    </fields>
-    <fields>
-        <label><!-- Field 1 --></label>
-        <name>Field_1__c</name>
     </fields>
     <fields>
         <label><!-- Field 2 --></label>
@@ -82,6 +102,14 @@
     <fields>
         <label><!-- Field 3 --></label>
         <name>Field_3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Install --></label>
+        <name>Install__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lets Override 3 --></label>
+        <name>Lets_Override_3__c</name>
     </fields>
     <fields>
         <label><!-- Number of Locations --></label>
@@ -124,6 +152,14 @@
         </picklistValues>
     </fields>
     <fields>
+        <label><!-- Test Override 2 --></label>
+        <name>Test_Override_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Trimming Acc --></label>
+        <name>Trimming_Acc__c</name>
+    </fields>
+    <fields>
         <label><!-- Upsell Opportunity --></label>
         <name>UpsellOpportunity__c</name>
         <picklistValues>
@@ -138,6 +174,30 @@
             <masterLabel>Yes</masterLabel>
             <translation><!-- Yes --></translation>
         </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- 2nd override test --></label>
+        <name>X2nd_override_test__c</name>
+    </fields>
+    <fields>
+        <label><!-- article test --></label>
+        <name>article_test__c</name>
+    </fields>
+    <fields>
+        <label><!-- Override 1 --></label>
+        <name>override_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- retrieve only 1 --></label>
+        <name>retrieve_only_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- retrieve only 2 --></label>
+        <name>retrieve_only_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- search layout --></label>
+        <name>search_layout__c</name>
     </fields>
     <fields>
         <label><!-- xyz Account Number --></label>
@@ -161,7 +221,7 @@
         <name>New_Validation_Acc</name>
     </validationRules>
     <validationRules>
-        <errorMessage><!-- This is always false --></errorMessage>
+        <errorMessage><!-- Always false no matter what --></errorMessage>
         <name>Prevent_Edit_to_Relationship_Fields</name>
     </validationRules>
     <validationRules>

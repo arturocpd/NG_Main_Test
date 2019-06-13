@@ -40,7 +40,29 @@
         <actionName>View</actionName>
         <type>Default</type>
     </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
     <description>Description on Dev1</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>false</enableReports>
+    <enableSearch>false</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ReadWrite</externalSharingModel>
+    <fields>
+        <fullName>Bottle2__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Bottle2</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
     <fields>
         <fullName>Bottle__c</fullName>
         <defaultValue>false</defaultValue>
@@ -50,11 +72,16 @@
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
     </fields>
+    <gender>Feminine</gender>
+    <label>Cloud</label>
     <nameField>
         <displayFormat>A-{0000}</displayFormat>
         <label>Cloud Name Record ID</label>
         <trackHistory>true</trackHistory>
         <type>AutoNumber</type>
     </nameField>
+    <pluralLabel>Clouds</pluralLabel>
     <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
 </CustomObject>

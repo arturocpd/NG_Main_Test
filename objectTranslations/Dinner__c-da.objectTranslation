@@ -3,32 +3,32 @@
     <caseValues>
         <article>None</article>
         <plural>false</plural>
-        <value><!-- Dinner --></value>
+        <value><!-- DinnerMOD --></value>
     </caseValues>
     <caseValues>
         <article>Indefinite</article>
         <plural>false</plural>
-        <value><!-- Dinner --></value>
+        <value><!-- DinnerMOD --></value>
     </caseValues>
     <caseValues>
         <article>Definite</article>
         <plural>false</plural>
-        <value><!-- Dinner --></value>
+        <value><!-- DinnerMOD --></value>
     </caseValues>
     <caseValues>
         <article>None</article>
         <plural>true</plural>
-        <value><!-- Dinner --></value>
+        <value><!-- DinnerMOD --></value>
     </caseValues>
     <caseValues>
         <article>Indefinite</article>
         <plural>true</plural>
-        <value><!-- Dinner --></value>
+        <value><!-- DinnerMOD --></value>
     </caseValues>
     <caseValues>
         <article>Definite</article>
         <plural>true</plural>
-        <value><!-- Dinner --></value>
+        <value><!-- DinnerMOD --></value>
     </caseValues>
     <fields>
         <label><!-- External Auto --></label>
@@ -42,6 +42,10 @@
         <label><!-- Point of contact --></label>
         <name>Point_of_contact__c</name>
         <relationshipLabel><!-- Dinners --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- TEST US --></label>
+        <name>TEST_US__c</name>
     </fields>
     <fields>
         <label><!-- Table --></label>

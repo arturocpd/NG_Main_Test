@@ -44,15 +44,16 @@
     <compactLayoutAssignment>Cool_Dinner</compactLayoutAssignment>
     <compactLayouts>
         <fullName>Cool_Dinner</fullName>
+        <fields>LateDinner__c</fields>
         <label>Cool Dinner</label>
     </compactLayouts>
     <deploymentStatus>Deployed</deploymentStatus>
     <description>description field</description>
     <enableActivities>false</enableActivities>
     <enableBulkApi>true</enableBulkApi>
-    <enableChangeDataCapture>false</enableChangeDataCapture>
     <enableFeeds>false</enableFeeds>
     <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
     <enableReports>false</enableReports>
     <enableSearch>true</enableSearch>
     <enableSharing>true</enableSharing>
@@ -69,6 +70,15 @@
         <unique>false</unique>
     </fields>
     <fields>
+        <fullName>LateDinner__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Description New</description>
+        <externalId>false</externalId>
+        <label>LateDinner</label>
+        <trackHistory>true</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>Point_of_contact__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <description>This is the description of the field. 111111111</description>
@@ -80,6 +90,22 @@
         <trackHistory>true</trackHistory>
         <trackTrending>true</trackTrending>
         <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>TEST_US__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>TEST US</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Table__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Table</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
     </fields>
     <fields>
         <fullName>historyRetentionPolicy__c</fullName>
@@ -112,6 +138,16 @@
     </nameField>
     <pluralLabel>Dinners</pluralLabel>
     <recordTypeTrackHistory>true</recordTypeTrackHistory>
+    <recordTypes>
+        <fullName>Dinner_RT</fullName>
+        <active>true</active>
+        <label>Dinner RT</label>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Dinner_RT_2</fullName>
+        <active>true</active>
+        <label>Dinner RT 2</label>
+    </recordTypes>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>

@@ -28,6 +28,7 @@
         </quickActionLayoutColumns>
         <quickActionLayoutColumns/>
     </quickActionLayout>
+    <successMessage>Success! on blobal action</successMessage>
     <targetObject>Case</targetObject>
     <targetRecordType>Case.Record_Type</targetRecordType>
     <type>Create</type>

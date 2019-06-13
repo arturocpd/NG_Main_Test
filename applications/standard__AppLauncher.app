@@ -8,4 +8,5 @@
     <tabs>Dinner__c</tabs>
     <tabs>CSTM_Object__c</tabs>
     <tabs>IdeasVFTab</tabs>
+    <tabs>Delete_me__c</tabs>
 </CustomApplication>

@@ -11,11 +11,15 @@
         <visibility>Visible</visibility>
     </tabSettings>
     <tabSettings>
+        <tab>OLS_Test__c</tab>
+        <visibility>Visible</visibility>
+    </tabSettings>
+    <tabSettings>
         <tab>standard-Case</tab>
         <visibility>Visible</visibility>
     </tabSettings>
     <tabSettings>
-        <tab>OLS_Test__c</tab>
+        <tab>standard-Knowledge</tab>
         <visibility>Visible</visibility>
     </tabSettings>
 </PermissionSet>

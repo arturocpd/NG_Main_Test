@@ -4,6 +4,7 @@
         <componentList>
             <alignment>right</alignment>
             <components>Console.BuiltInComponent.mostRecentlyUsed</components>
+            <components>Console.BuiltInComponent.servicePresence</components>
             <components>Console.BuiltInComponent.macroBrowser</components>
         </componentList>
         <detailPageRefreshMethod>none</detailPageRefreshMethod>
@@ -196,7 +197,15 @@
     </preferences>
     <tabs>standard-Case</tabs>
     <tabs>standard-Lead</tabs>
+    <tabs>OLS_Test__c</tabs>
+    <tabs>Delete_me__c</tabs>
     <workspaceConfig>
+        <mappings>
+            <tab>Delete_me__c</tab>
+        </mappings>
+        <mappings>
+            <tab>OLS_Test__c</tab>
+        </mappings>
         <mappings>
             <tab>standard-Case</tab>
         </mappings>

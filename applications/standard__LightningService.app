@@ -15,6 +15,8 @@
     <tabs>CSTM_Object__c</tabs>
     <tabs>Knowledge__kav</tabs>
     <tabs>IdeasVFTab</tabs>
+    <tabs>OLS_Test__c</tabs>
+    <tabs>Delete_me__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>LightningService_UtilityBar</utilityBar>
     <workspaceConfig>
@@ -22,10 +24,16 @@
             <tab>CSTM_Object__c</tab>
         </mappings>
         <mappings>
+            <tab>Delete_me__c</tab>
+        </mappings>
+        <mappings>
             <tab>IdeasVFTab</tab>
         </mappings>
         <mappings>
             <tab>Knowledge__kav</tab>
+        </mappings>
+        <mappings>
+            <tab>OLS_Test__c</tab>
         </mappings>
         <mappings>
             <tab>standard-Account</tab>

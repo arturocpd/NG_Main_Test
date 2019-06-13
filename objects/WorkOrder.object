@@ -207,6 +207,11 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>ServiceReportLanguage</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
         <fullName>ServiceReportTemplateId</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>

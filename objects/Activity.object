@@ -100,13 +100,6 @@
         <type>Checkbox</type>
     </fields>
     <fields>
-        <fullName>Activity_Custom_field__c</fullName>
-        <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
-        <label>Activity Custom field</label>
-        <type>Checkbox</type>
-    </fields>
-    <fields>
         <fullName>Activity_ZZZ__c</fullName>
         <defaultValue>false</defaultValue>
         <externalId>false</externalId>
@@ -226,17 +219,7 @@
         <type>Checkbox</type>
     </fields>
     <listViews>
-        <fullName>AllActivities</fullName>
-        <filterScope>Team</filterScope>
-        <label>All Activities</label>
-    </listViews>
-    <listViews>
-        <fullName>MyActivities</fullName>
-        <filterScope>Mine</filterScope>
-        <label>My Activities</label>
-    </listViews>
-    <listViews>
-        <fullName>Tast_New_View</fullName>
+        <fullName>Act_Task_New_View</fullName>
         <columns>TASK.SUBJECT</columns>
         <columns>TASK.WHO_NAME</columns>
         <columns>TASK.WHAT_NAME</columns>
@@ -252,8 +235,18 @@
             <operation>equals</operation>
             <value>0</value>
         </filters>
-        <label>Tast New View</label>
+        <label>Act Task New View</label>
         <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>AllActivities</fullName>
+        <filterScope>Team</filterScope>
+        <label>All Activities</label>
+    </listViews>
+    <listViews>
+        <fullName>MyActivities</fullName>
+        <filterScope>Mine</filterScope>
+        <label>My Activities</label>
     </listViews>
     <listViews>
         <fullName>TodaysTasks</fullName>
@@ -291,6 +284,7 @@
         <label>Upcoming Events</label>
     </listViews>
     <searchLayouts>
+        <listViewButtons>Task_List_Button</listViewButtons>
         <searchResultsAdditionalFields>TASK.SUBJECT</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>TASK.WHO_NAME</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>TASK.WHAT_NAME</searchResultsAdditionalFields>

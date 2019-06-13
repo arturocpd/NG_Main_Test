@@ -57,6 +57,10 @@
         <name>xyz_SGUID_Opp__c</name>
     </fields>
     <gender>Feminine</gender>
+    <recordTypes>
+        <label><!-- Opp RT 1 --></label>
+        <name>Opp_RT_1</name>
+    </recordTypes>
     <webLinks>
         <label><!-- DeliveryStatus --></label>
         <name>DeliveryStatus</name>

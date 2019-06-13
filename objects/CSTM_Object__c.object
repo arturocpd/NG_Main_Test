@@ -73,6 +73,11 @@
         <type>Text</type>
     </nameField>
     <pluralLabel>CSTM Objects</pluralLabel>
+    <recordTypes>
+        <fullName>CSTM_New_layout</fullName>
+        <active>true</active>
+        <label>CSTM New layout</label>
+    </recordTypes>
     <searchLayouts/>
     <sharingModel>Private</sharingModel>
     <visibility>Public</visibility>

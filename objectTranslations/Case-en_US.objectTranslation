@@ -25,6 +25,10 @@
         <name>BP_Test__c</name>
     </fields>
     <fields>
+        <label><!-- Back Promote Field --></label>
+        <name>Back_Promote_Field__c</name>
+    </fields>
+    <fields>
         <label><!-- BitCoin --></label>
         <name>BitCoin__c</name>
     </fields>
@@ -61,10 +65,6 @@
         <name>CI_Test_deploy__c</name>
     </fields>
     <fields>
-        <label><!-- CI test 1 --></label>
-        <name>CI_test_1__c</name>
-    </fields>
-    <fields>
         <label><!-- CI test 2 --></label>
         <name>CI_test_2__c</name>
     </fields>
@@ -99,6 +99,10 @@
     <fields>
         <label><!-- Case EEE --></label>
         <name>Case_EEE__c</name>
+    </fields>
+    <fields>
+        <label><!-- Case Field 1 --></label>
+        <name>Case_Field_1__c</name>
     </fields>
     <fields>
         <label><!-- Case JJJ --></label>
@@ -552,6 +556,18 @@
             <masterLabel>Controlling 3</masterLabel>
             <translation><!-- Controlling 3 --></translation>
         </picklistValues>
+        <picklistValues>
+            <masterLabel>Dev1-1</masterLabel>
+            <translation><!-- Dev1-1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dev1-2</masterLabel>
+            <translation><!-- Dev1-2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dev1-3</masterLabel>
+            <translation><!-- Dev1-3 --></translation>
+        </picklistValues>
     </fields>
     <fields>
         <label><!-- DeleteMe2 --></label>
@@ -578,6 +594,46 @@
         </picklistValues>
     </fields>
     <fields>
+        <label><!-- Destructive Test 10 --></label>
+        <name>Destructive_Test_10__c</name>
+    </fields>
+    <fields>
+        <label><!-- Destructive Test 1 --></label>
+        <name>Destructive_Test_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Destructive Test 2 --></label>
+        <name>Destructive_Test_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Destructive Test 3 --></label>
+        <name>Destructive_Test_3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Destructive Test 4 --></label>
+        <name>Destructive_Test_4__c</name>
+    </fields>
+    <fields>
+        <label><!-- Destructive Test 5 --></label>
+        <name>Destructive_Test_5__c</name>
+    </fields>
+    <fields>
+        <label><!-- Destructive Test 6 --></label>
+        <name>Destructive_Test_6__c</name>
+    </fields>
+    <fields>
+        <label><!-- Destructive Test 7 --></label>
+        <name>Destructive_Test_7__c</name>
+    </fields>
+    <fields>
+        <label><!-- Destructive Test 8 --></label>
+        <name>Destructive_Test_8__c</name>
+    </fields>
+    <fields>
+        <label><!-- Destructive Test 9 --></label>
+        <name>Destructive_Test_9__c</name>
+    </fields>
+    <fields>
         <label><!-- Destructive changes test --></label>
         <name>Destructive_changes_test__c</name>
     </fields>
@@ -590,12 +646,32 @@
         <name>EngineeringReqNumber__c</name>
     </fields>
     <fields>
+        <label><!-- FLS Test --></label>
+        <name>FLS_Test__c</name>
+    </fields>
+    <fields>
+        <label><!-- FLS commit test --></label>
+        <name>FLS_commit_test__c</name>
+    </fields>
+    <fields>
         <label><!-- Find and Replace --></label>
         <name>Find_and_Replace__c</name>
     </fields>
     <fields>
         <label><!-- Ford --></label>
         <name>Ford__c</name>
+    </fields>
+    <fields>
+        <label><!-- Geo --></label>
+        <name>Geo__c</name>
+    </fields>
+    <fields>
+        <label><!-- Home --></label>
+        <name>Home__c</name>
+    </fields>
+    <fields>
+        <label><!-- Install package --></label>
+        <name>Install_package__c</name>
     </fields>
     <fields>
         <label><!-- Jaguar --></label>
@@ -1156,6 +1232,14 @@
     <fields>
         <label><!-- Pull request test --></label>
         <name>Pull_request_test__c</name>
+    </fields>
+    <fields>
+        <label><!-- Recommit test 1 --></label>
+        <name>Recommit_test_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Recommit test 2 --></label>
+        <name>Recommit_test_2__c</name>
     </fields>
     <fields>
         <label><!-- Refresh test --></label>
@@ -3214,6 +3298,14 @@
         </picklistValues>
     </fields>
     <fields>
+        <label><!-- TestAutonumber --></label>
+        <name>TestAutonumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Test BETA fix --></label>
+        <name>Test_BETA_fix__c</name>
+    </fields>
+    <fields>
         <label><!-- Test Diageo --></label>
         <name>Test_Diageo__c</name>
         <picklistValues>
@@ -3236,6 +3328,18 @@
             <masterLabel>5</masterLabel>
             <translation><!-- 5 --></translation>
         </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Test IBM --></label>
+        <name>Test_IBM__c</name>
+    </fields>
+    <fields>
+        <label><!-- Trimming fix --></label>
+        <name>Trimming_fix__c</name>
+    </fields>
+    <fields>
+        <label><!-- US CI Track --></label>
+        <name>US_CI_Track__c</name>
     </fields>
     <fields>
         <label><!-- Unique Code --></label>
@@ -3358,6 +3462,14 @@
         <name>formula_check__c</name>
     </fields>
     <fields>
+        <label><!-- master bug --></label>
+        <name>master_bug__c</name>
+    </fields>
+    <fields>
+        <label><!-- pruebapermisos --></label>
+        <name>pruebapermisos__c</name>
+    </fields>
+    <fields>
         <help><!-- This is the help text --></help>
         <label><!-- refactor2 --></label>
         <name>refactor__c</name>
@@ -3381,6 +3493,10 @@
     <recordTypes>
         <label><!-- Record Type --></label>
         <name>Record_Type</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Record Type 2 --></label>
+        <name>Record_Type_2</name>
     </recordTypes>
     <validationRules>
         <errorMessage><!-- Never triggered --></errorMessage>
