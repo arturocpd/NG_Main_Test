@@ -5,5 +5,13 @@
         <members>AppleWatchTest</members>
         <name>ApexClass</name>
     </types>
+    <types>
+        <members>Case.Job_done__c</members>
+        <members>Case.KeepMe2__c</members>
+        <members>Case.KeepMe__c</members>
+        <members>Opportunity.TrackingNumber__c</members>
+        <members>Opportunity.xyz_SGUID_Opp__c</members>
+        <name>CustomField</name>
+    </types>
     <version>45.0</version>
 </Package>
