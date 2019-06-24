@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>AR ItemImplementation (a211U0000005szTQAQ)</members>
-        <name>ItemImplementation</name>
+        <members>AR ItemDefinition2 (a2Q1U0000006HJJUA2)</members>
+        <name>OrchestrationItemDefinition</name>
     </types>
     <version>45.0</version>
 </Package>
