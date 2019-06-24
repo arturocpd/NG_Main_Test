@@ -113,7 +113,6 @@
     <fields>
         <fullName>CI_test_1__c</fullName>
         <defaultValue>false</defaultValue>
-        <displayLocationInDecimal>true<displayLocationInDecimal>
         <externalId>false</externalId>
         <label>CI test 1</label>
         <trackFeedHistory>true</trackFeedHistory>
