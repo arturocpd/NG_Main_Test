@@ -86,7 +86,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>AppleWatchTest</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>AppleWatchV2</apexClass>
