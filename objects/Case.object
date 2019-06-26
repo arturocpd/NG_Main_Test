@@ -356,7 +356,9 @@
     <fields>
         <fullName>Case_JJJ__c</fullName>
         <defaultValue>false</defaultValue>
+        <description>adsfadsfvc</description>
         <externalId>false</externalId>
+        <inlineHelpText>weferf</inlineHelpText>
         <label>Case JJJ</label>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>

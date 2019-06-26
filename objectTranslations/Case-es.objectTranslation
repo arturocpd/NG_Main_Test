@@ -105,6 +105,7 @@
         <name>Case_Field_1__c</name>
     </fields>
     <fields>
+        <help><!-- weferf --></help>
         <label><!-- Case JJJ --></label>
         <name>Case_JJJ__c</name>
     </fields>
