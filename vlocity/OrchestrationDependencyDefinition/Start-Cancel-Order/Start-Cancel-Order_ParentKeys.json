@@ -1,7 +1,0 @@
-[
-    "OrchestrationItemDefinition/Cancel Landline_Cancel Landline",
-    "OrchestrationItemDefinition/Cancel TV_Cancel TV",
-    "OrchestrationItemDefinition/Complete Cancel Order_Cancel E2E",
-    "OrchestrationItemDefinition/Start Cancel Order_Cancel E2E",
-    "OrchestrationPlanDefinition/Cancel E2E"
-]

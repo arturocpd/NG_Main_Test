@@ -1,7 +1,0 @@
-[
-    "OrchestrationItemDefinition/Activate Landline_Landline Activation",
-    "OrchestrationItemDefinition/Credit Check_E2E",
-    "OrchestrationItemDefinition/Provision Licenses_License Provisioning",
-    "OrchestrationItemDefinition/Start Order_E2E",
-    "OrchestrationPlanDefinition/E2E"
-]

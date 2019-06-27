@@ -1,9 +1,0 @@
-[
-    "OrchestrationItemDefinition/Activate Mobile_Mobile CFS Activation",
-    "OrchestrationItemDefinition/Allocate IP Address_Static IP CFS",
-    "OrchestrationItemDefinition/Complete Order_E2E",
-    "OrchestrationItemDefinition/Credit Check_E2E",
-    "OrchestrationItemDefinition/Design Solution_Broadband Internet CFS",
-    "OrchestrationItemDefinition/Order Equipment_Logistics",
-    "OrchestrationPlanDefinition/E2E"
-]
