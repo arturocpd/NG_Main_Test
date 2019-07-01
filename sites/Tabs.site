@@ -24,6 +24,6 @@
     <selfRegPage>CommunitiesSelfReg</selfRegPage>
     <siteAdmin>ngarturodev1cpd@gmail.com</siteAdmin>
     <siteType>ChatterNetwork</siteType>
-    <subdomain>arturong-developer-edition</subdomain>
+    <subdomain>{!Environment.user domain}</subdomain>
     <urlPathPrefix>Tabs</urlPathPrefix>
 </CustomSite>
