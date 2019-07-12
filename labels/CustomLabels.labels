@@ -176,6 +176,14 @@
         <value>SFI</value>
     </labels>
     <labels>
+        <fullName>Add_Filter_Logic</fullName>
+        <categories>ComplianceRuleCriteria</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Add Filter Logic</shortDescription>
+        <value>Add Filter Logic</value>
+    </labels>
+    <labels>
         <fullName>All_Proposals</fullName>
         <categories>Communities</categories>
         <language>en_US</language>
