@@ -526,6 +526,10 @@
         </picklistValues>
     </fields>
     <fields>
+        <label><!-- Checkbox Deployment --></label>
+        <name>Checkbox_Deployment__c</name>
+    </fields>
+    <fields>
         <label><!-- Citroen --></label>
         <name>Citroen__c</name>
     </fields>

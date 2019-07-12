@@ -927,6 +927,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Case.Checkbox_Deployment__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Case.Citroen__c</field>
         <readable>false</readable>
     </fieldPermissions>
