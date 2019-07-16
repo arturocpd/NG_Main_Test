@@ -8,9 +8,13 @@
         <operation>equals</operation>
         <value>true</value>
     </exitCriteriaFilterItems>
+    <isVersionDefault>true</isVersionDefault>
     <milestones>
         <milestoneName>main milestone</milestoneName>
         <minutesToComplete>12</minutesToComplete>
         <useCriteriaStartTime>false</useCriteriaStartTime>
     </milestones>
+    <name>Test number 2</name>
+    <versionMaster>5520Y000000PveY</versionMaster>
+    <versionNumber>1</versionNumber>
 </EntitlementProcess>

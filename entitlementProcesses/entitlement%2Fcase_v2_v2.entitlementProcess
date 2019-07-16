@@ -9,7 +9,7 @@
         <value>true</value>
     </exitCriteriaFilterItems>
     <isVersionDefault>false</isVersionDefault>
-    <name>Entitlement/Case</name>
+    <name>Entitlement/Case_v2</name>
     <versionMaster>5520Y0000000yQu</versionMaster>
-    <versionNumber>1</versionNumber>
+    <versionNumber>2</versionNumber>
 </EntitlementProcess>
