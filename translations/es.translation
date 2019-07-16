@@ -8,4 +8,8 @@
         <label>Activar Usuarios</label>
         <name>ACTIVATE_USERS</name>
     </customLabels>
+    <customLabels>
+        <label>Este es el custom label de AR</label>
+        <name>AR_Custom_Label</name>
+    </customLabels>
 </Translations>
