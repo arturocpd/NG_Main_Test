@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>entitlement%2Fcase</members>
-        <members>entitlement%2Fcase_v2_v2</members>
-        <members>entitlement%2Fcase_v2_v4</members>
-        <members>entitlement%2Fcase_v3_v1</members>
-        <members>entitlement%2Fcase_v3_v3</members>
-        <members>test number 2</members>
-        <members>test number 2_v1</members>
-        <name>EntitlementProcess</name>
+        <members>AR_Custom_Label</members>
+        <name>CustomLabel</name>
+    </types>
+    <types>
+        <members>es</members>
+        <name>Translations</name>
     </types>
     <version>45.0</version>
 </Package>

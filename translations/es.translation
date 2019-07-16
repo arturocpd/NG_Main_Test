@@ -17,6 +17,10 @@
         <name>ADD_HEADER</name>
     </customLabels>
     <customLabels>
+        <label>Este es el custom label de AR</label>
+        <name>AR_Custom_Label</name>
+    </customLabels>
+    <customLabels>
         <label>Comit ahead</label>
         <name>COMMITS_AHEAD</name>
     </customLabels>
