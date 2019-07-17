@@ -149,16 +149,6 @@
         <type>Lookup</type>
     </fields>
     <fields>
-        <fullName>BP_Test__c</fullName>
-        <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
-        <label>BP Test</label>
-        <trackFeedHistory>true</trackFeedHistory>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Checkbox</type>
-    </fields>
-    <fields>
         <fullName>Back_Promote_Field__c</fullName>
         <defaultValue>false</defaultValue>
         <externalId>false</externalId>

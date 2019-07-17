@@ -8,4 +8,8 @@
         <operation>equals</operation>
         <value>true</value>
     </exitCriteriaFilterItems>
+    <isVersionDefault>false</isVersionDefault>
+    <name>Entitlement/Case</name>
+    <versionMaster>5520Y0000000yQu</versionMaster>
+    <versionNumber>1</versionNumber>
 </EntitlementProcess>
