@@ -422,6 +422,17 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
+        <fullName>override_1__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Description 2
+Description Line 2
+Description Line 3</description>
+        <externalId>false</externalId>
+        <label>Override 1</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>xyz_Account_Number__c</fullName>
         <caseSensitive>true</caseSensitive>
         <externalId>true</externalId>
