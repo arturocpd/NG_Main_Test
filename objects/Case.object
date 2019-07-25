@@ -4530,7 +4530,7 @@
     <listViews>
         <fullName>Test_LV</fullName>
         <columns>CASES.CASE_NUMBER</columns>
-        <columns>NAME</columns>
+        <columns>ACCOUNT.NAME</columns>
         <columns>CASES.SUBJECT</columns>
         <columns>CASES.STATUS</columns>
         <columns>CASES.PRIORITY</columns>
