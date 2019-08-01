@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Case.Test_LV</members>
-        <name>ListView</name>
+        <members>Account.Accoutn_Field_1__c</members>
+        <members>Account.Active__c</members>
+        <members>Account.Big__c</members>
+        <members>Account.CustomerPriority__c</members>
+        <members>Account.External_Id__c</members>
+        <members>Case.CI_Test_deploy__c</members>
+        <members>Case.CI_test_2__c</members>
+        <members>Case.CI_test_3__c</members>
+        <members>Case.CO1__c</members>
+        <members>Case.CO2__c</members>
+        <name>CustomField</name>
     </types>
     <version>45.0</version>
 </Package>
