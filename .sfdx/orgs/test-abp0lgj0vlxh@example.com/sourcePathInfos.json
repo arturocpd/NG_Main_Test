@@ -1,0 +1,227 @@
+[
+    [
+        "/app/dxProject/force-app",
+        {
+            "state": "u",
+            "sourcePath": "/app/dxProject/force-app",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 4096,
+            "modifiedTime": 1565188892432,
+            "changeTime": 1565188892432,
+            "contentHash": "b28b7af69320201d1cf206ebf28373980add1451",
+            "isWorkspace": false,
+            "isArtifactRoot": true
+        }
+    ],
+    [
+        "/app/dxProject/force-app/main",
+        {
+            "state": "u",
+            "sourcePath": "/app/dxProject/force-app/main",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 4096,
+            "modifiedTime": 1565188892432,
+            "changeTime": 1565188892432,
+            "contentHash": "7505d64a54e061b7acd54ccd58b49dc43500b635",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/app/dxProject/force-app/main/default",
+        {
+            "state": "u",
+            "sourcePath": "/app/dxProject/force-app/main/default",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 4096,
+            "modifiedTime": 1565188892508,
+            "changeTime": 1565188892508,
+            "contentHash": "2fd123cb7ce0da934ed83877a6e5a674f58addaa",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/app/dxProject/force-app/main/default/aura",
+        {
+            "state": "u",
+            "sourcePath": "/app/dxProject/force-app/main/default/aura",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 4096,
+            "modifiedTime": 1565188892432,
+            "changeTime": 1565188892432,
+            "contentHash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/app/dxProject/force-app/main/default/lwc",
+        {
+            "state": "u",
+            "sourcePath": "/app/dxProject/force-app/main/default/lwc",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 4096,
+            "modifiedTime": 1565188892432,
+            "changeTime": 1565188892432,
+            "contentHash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/app/dxProject/artifact_test2_v12_repo",
+        {
+            "state": "u",
+            "sourcePath": "/app/dxProject/artifact_test2_v12_repo",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 4096,
+            "modifiedTime": 1565188895356,
+            "changeTime": 1565188895432,
+            "contentHash": "b28b7af69320201d1cf206ebf28373980add1451",
+            "isWorkspace": false,
+            "isArtifactRoot": true
+        }
+    ],
+    [
+        "/app/dxProject/artifact_test2_v12_repo/main",
+        {
+            "state": "u",
+            "sourcePath": "/app/dxProject/artifact_test2_v12_repo/main",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 4096,
+            "modifiedTime": 1565188895356,
+            "changeTime": 1565188895356,
+            "contentHash": "7505d64a54e061b7acd54ccd58b49dc43500b635",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/app/dxProject/artifact_test2_v12_repo/main/default",
+        {
+            "state": "u",
+            "sourcePath": "/app/dxProject/artifact_test2_v12_repo/main/default",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 4096,
+            "modifiedTime": 1565188895356,
+            "changeTime": 1565188895356,
+            "contentHash": "f0f7f39ec7e62249ee81dac2c3f1b3586a4fd52e",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/app/dxProject/artifact_test2_v12_repo/main/default/objects",
+        {
+            "state": "u",
+            "sourcePath": "/app/dxProject/artifact_test2_v12_repo/main/default/objects",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 4096,
+            "modifiedTime": 1565188895356,
+            "changeTime": 1565188895356,
+            "contentHash": "9254c4bba00f5ff69304a7921d3118fcbac7e6b8",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/app/dxProject/artifact_test2_v12_repo/main/default/objects/Case",
+        {
+            "state": "u",
+            "sourcePath": "/app/dxProject/artifact_test2_v12_repo/main/default/objects/Case",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 4096,
+            "modifiedTime": 1565188895356,
+            "changeTime": 1565188895356,
+            "contentHash": "70f132fe13e692866a539996a6b9a05b46076a07",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/app/dxProject/artifact_test2_v12_repo/main/default/objects/Case/fields",
+        {
+            "state": "u",
+            "sourcePath": "/app/dxProject/artifact_test2_v12_repo/main/default/objects/Case/fields",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 4096,
+            "modifiedTime": 1565188895356,
+            "changeTime": 1565188895356,
+            "contentHash": "674dea01284b7a55fe1878cc6a863160cefb25f3",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/app/dxProject/artifact_test2_v12_repo/main/default/objects/Case/fields/CI_test_1__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/app/dxProject/artifact_test2_v12_repo/main/default/objects/Case/fields/CI_test_1__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 410,
+            "modifiedTime": 1565188895356,
+            "changeTime": 1565188895356,
+            "contentHash": "6d46680129a9e1bdca3dddd21eaedad9adec057f",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/app/dxProject/artifact_test2_v12_repo/main/default/objects/Case/fields/CI_test_2__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/app/dxProject/artifact_test2_v12_repo/main/default/objects/Case/fields/CI_test_2__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 410,
+            "modifiedTime": 1565188895356,
+            "changeTime": 1565188895356,
+            "contentHash": "78e51b4d018d49ceb009c1c2cb668d8a18befd77",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/app/dxProject/artifact_test2_v12_repo/main/default/objects/Case/fields/CI_test_3__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/app/dxProject/artifact_test2_v12_repo/main/default/objects/Case/fields/CI_test_3__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 410,
+            "modifiedTime": 1565188895356,
+            "changeTime": 1565188895356,
+            "contentHash": "512b03c4ef85e7e3654fd8c677714cc06b620fa8",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/app/dxProject",
+        {
+            "state": "u",
+            "sourcePath": "/app/dxProject",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 4096,
+            "modifiedTime": 1565188896752,
+            "changeTime": 1565188896752,
+            "contentHash": "cbe41bbb0c1a5b3c01d24f9272403fdea843dc90",
+            "isWorkspace": true,
+            "isArtifactRoot": false
+        }
+    ]
+]
