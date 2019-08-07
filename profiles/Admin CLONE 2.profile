@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Profile xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Admin CLONE 2</fullName>
     <applicationVisibilities>
         <application>Test_Omni_commit</application>
         <default>false</default>
@@ -81,6 +82,14 @@
         <visible>true</visible>
     </applicationVisibilities>
     <classAccesses>
+        <apexClass>AccountOperations</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>AccountOperationsTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>AppleWatch</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -135,6 +144,14 @@
     <classAccesses>
         <apexClass>CommunitiesSelfRegControllerTest</apexClass>
         <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>CourseManagerTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>CourseManagerXY</apexClass>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>Flow_LevelTest</apexClass>
@@ -205,6 +222,38 @@
         <enabled>false</enabled>
     </classAccesses>
     <custom>true</custom>
+    <customPermissions>
+        <enabled>true</enabled>
+        <name>Custom_Perm2</name>
+    </customPermissions>
+    <customPermissions>
+        <enabled>true</enabled>
+        <name>custom_perm_3</name>
+    </customPermissions>
+    <customPermissions>
+        <enabled>true</enabled>
+        <name>custom_perm_4</name>
+    </customPermissions>
+    <customPermissions>
+        <enabled>true</enabled>
+        <name>custom_perm_5</name>
+    </customPermissions>
+    <description>Profile description</description>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.ASCII_Test__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.Acc_Id__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.AccountLookup__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
         <field>Account.AccountNumber</field>
@@ -217,7 +266,22 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Account.Accoutn_Field_1__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.Active__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Account.AnnualRevenue</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.Big__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -258,6 +322,16 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Account.Fax</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.Field_1__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.Field_2__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -751,9 +825,9 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Case.BP_Test__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -847,6 +921,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Case.Case_NNN__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Case.Case_OOO__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -888,6 +967,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Case.Category__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Case.Checkbox_Deployment__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -1332,6 +1416,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Case.case_RRR__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Case.commit_file_field__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -1772,6 +1861,16 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Dinner__c_hd.Point_of_contact__c_hpr</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Dinner__c_hd.Point_of_contact__c_hst</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Elisa_Metadata_Type__mdt.Metadata_Type_Picklist__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -1877,6 +1976,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Event.Activity_Custom_field__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Event.Activity_ZZZ__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -1943,6 +2047,16 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Event.check_formula__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Goal.CompletionDate</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Goal.IsKeyCompanyGoal</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -2942,6 +3056,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Profile_test__c.PT_Checkbox__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Quote_Proposal__c.Provisioning_Contact__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -3099,6 +3218,11 @@
         <editable>false</editable>
         <field>Task.Activity_Custom_field_5__c</field>
         <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Task.Activity_Custom_field__c</field>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -3584,6 +3708,9 @@
         <layout>AccountBrand-Account BrandLayout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Account_Request__c-Account Request Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Address-Address Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -3880,6 +4007,9 @@
         <layout>ProductTransfer-Product Transfer Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Profile_test__c-Profile test Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>QuickText-Quick Text Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -3892,6 +4022,9 @@
     <layoutAssignments>
         <layout>Quote_Proposal__c-Quote%2FProposal Layout</layout>
         <recordType>Quote_Proposal__c.RecordType1</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Request__c-Request Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>ResourceAbsence-Resource Absence Layout</layout>
@@ -4033,9 +4166,815 @@
     <layoutAssignments>
         <layout>test_test__c-test%2Etest Layout</layout>
     </layoutAssignments>
+    <loginHours>
+        <mondayEnd>1440</mondayEnd>
+        <mondayStart>0</mondayStart>
+        <tuesdayEnd>1440</tuesdayEnd>
+        <tuesdayStart>0</tuesdayStart>
+    </loginHours>
+    <loginIpRanges>
+        <endAddress>106.39.107.255</endAddress>
+        <startAddress>106.39.107.224</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>111.93.141.3</endAddress>
+        <startAddress>111.93.141.3</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>111.93.141.4</endAddress>
+        <startAddress>111.93.141.4</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>111.93.191.10</endAddress>
+        <startAddress>111.93.191.10</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>115.111.16.255</endAddress>
+        <startAddress>115.111.16.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>115.111.64.226</endAddress>
+        <startAddress>115.111.64.226</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>115.111.69.62</endAddress>
+        <startAddress>115.111.69.62</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>115.249.46.209</endAddress>
+        <startAddress>115.249.46.209</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>12.155.10.255</endAddress>
+        <startAddress>12.155.10.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>12.193.208.255</endAddress>
+        <startAddress>12.193.208.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>12.45.249.25</endAddress>
+        <startAddress>12.45.248.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>121.241.0.66</endAddress>
+        <startAddress>121.241.0.66</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>124.124.1.57</endAddress>
+        <startAddress>124.124.1.57</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>124.124.42.161</endAddress>
+        <startAddress>124.124.42.160</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>124.211.59.63</endAddress>
+        <startAddress>124.211.59.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>125.7.7.255</endAddress>
+        <startAddress>125.7.7.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>137.116.72.115</endAddress>
+        <startAddress>137.116.72.115</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>159.220.3.255</endAddress>
+        <startAddress>159.220.0.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>159.220.255.255</endAddress>
+        <startAddress>159.220.0.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>159.220.255.254</endAddress>
+        <startAddress>159.220.0.1</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>159.220.13.255</endAddress>
+        <startAddress>159.220.12.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>159.220.15.255</endAddress>
+        <startAddress>159.220.14.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>159.220.19.255</endAddress>
+        <startAddress>159.220.16.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>159.220.23.255</endAddress>
+        <startAddress>159.220.20.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>159.220.233.255</endAddress>
+        <startAddress>159.220.233.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>159.220.235.255</endAddress>
+        <startAddress>159.220.235.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>159.220.236.255</endAddress>
+        <startAddress>159.220.236.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>159.220.25.255</endAddress>
+        <startAddress>159.220.24.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>159.220.27.255</endAddress>
+        <startAddress>159.220.26.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>159.220.31.255</endAddress>
+        <startAddress>159.220.28.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>159.220.35.255</endAddress>
+        <startAddress>159.220.32.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>159.220.36.255</endAddress>
+        <startAddress>159.220.36.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>159.220.37.255</endAddress>
+        <startAddress>159.220.37.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>159.220.39.255</endAddress>
+        <startAddress>159.220.38.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>159.220.7.255</endAddress>
+        <startAddress>159.220.4.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>159.220.43.255</endAddress>
+        <startAddress>159.220.40.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>159.220.47.255</endAddress>
+        <startAddress>159.220.44.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>159.220.51.255</endAddress>
+        <startAddress>159.220.48.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>159.220.52.255</endAddress>
+        <startAddress>159.220.52.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>159.220.53.255</endAddress>
+        <startAddress>159.220.53.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>159.220.55.255</endAddress>
+        <startAddress>159.220.54.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>159.220.56.255</endAddress>
+        <startAddress>159.220.56.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>159.220.57.255</endAddress>
+        <startAddress>159.220.57.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>159.220.58.255</endAddress>
+        <startAddress>159.220.58.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>159.220.59.255</endAddress>
+        <startAddress>159.220.59.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>159.220.60.255</endAddress>
+        <startAddress>159.220.60.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>159.220.61.255</endAddress>
+        <startAddress>159.220.61.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>159.220.62.255</endAddress>
+        <startAddress>159.220.62.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>159.220.63.255</endAddress>
+        <startAddress>159.220.63.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>159.220.67.255</endAddress>
+        <startAddress>159.220.64.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>159.220.72.255</endAddress>
+        <startAddress>159.220.72.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>159.220.73.255</endAddress>
+        <startAddress>159.220.73.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>159.220.74.255</endAddress>
+        <startAddress>159.220.74.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>159.220.75.255</endAddress>
+        <startAddress>159.220.75.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>159.220.75.254</endAddress>
+        <startAddress>159.220.75.1</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>159.220.76.255</endAddress>
+        <startAddress>159.220.76.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>159.220.76.254</endAddress>
+        <startAddress>159.220.76.1</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>159.220.77.255</endAddress>
+        <startAddress>159.220.77.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>159.220.78.255</endAddress>
+        <startAddress>159.220.78.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>159.220.79.255</endAddress>
+        <startAddress>159.220.79.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>159.220.11.255</endAddress>
+        <startAddress>159.220.8.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>163.231.15.255</endAddress>
+        <startAddress>163.231.0.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>163.231.6.26</endAddress>
+        <startAddress>163.231.6.26</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>163.231.6.64</endAddress>
+        <startAddress>163.231.6.64</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>163.231.6.71</endAddress>
+        <startAddress>163.231.6.71</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>164.179.255.255</endAddress>
+        <startAddress>164.179.0.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>167.206.188.127</endAddress>
+        <startAddress>167.206.188.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>167.206.189.255</endAddress>
+        <startAddress>167.206.189.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>167.68.63.255</endAddress>
+        <startAddress>167.68.0.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>167.68.254.254</endAddress>
+        <startAddress>167.68.0.1</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>167.68.115.255</endAddress>
+        <startAddress>167.68.114.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>173.31.255.255</endAddress>
+        <startAddress>173.16.0.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>173.227.255.254</endAddress>
+        <startAddress>173.226.0.1</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>174.70.10.88</endAddress>
+        <startAddress>174.70.10.88</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>177.43.177.26</endAddress>
+        <startAddress>177.43.177.26</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>177.99.218.50</endAddress>
+        <startAddress>177.99.218.50</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>180.151.201.250</endAddress>
+        <startAddress>180.151.201.250</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>181.118.126.231</endAddress>
+        <startAddress>181.118.126.231</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>186.129.255.136</endAddress>
+        <startAddress>186.129.255.136</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>186.215.156.243</endAddress>
+        <startAddress>186.215.156.243</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>189.21.230.159</endAddress>
+        <startAddress>189.21.230.128</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>190.191.171.62</endAddress>
+        <startAddress>190.191.171.62</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>190.192.44.113</endAddress>
+        <startAddress>190.192.44.113</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>190.93.208.40</endAddress>
+        <startAddress>190.93.208.40</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>192.152.33.255</endAddress>
+        <startAddress>192.152.33.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>192.152.33.10</endAddress>
+        <startAddress>192.152.33.10</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>192.155.151.255</endAddress>
+        <startAddress>192.155.151.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>192.165.223.255</endAddress>
+        <startAddress>192.165.208.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>192.168.1.5</endAddress>
+        <startAddress>192.168.1.5</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>192.189.224.255</endAddress>
+        <startAddress>192.189.224.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>192.189.228.255</endAddress>
+        <startAddress>192.189.228.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>192.251.4.255</endAddress>
+        <startAddress>192.251.4.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>192.251.7.255</endAddress>
+        <startAddress>192.251.7.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>193.41.153.255</endAddress>
+        <startAddress>193.41.152.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>195.127.226.200</endAddress>
+        <startAddress>195.127.226.200</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>196.23.48.34</endAddress>
+        <startAddress>196.23.48.34</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>198.176.133.255</endAddress>
+        <startAddress>198.176.133.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>198.179.136.255</endAddress>
+        <startAddress>198.179.136.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>198.179.137.254</endAddress>
+        <startAddress>198.179.137.1</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>198.179.137.255</endAddress>
+        <startAddress>198.179.137.192</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>198.179.138.255</endAddress>
+        <startAddress>198.179.138.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>198.179.139.255</endAddress>
+        <startAddress>198.179.139.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>198.22.181.255</endAddress>
+        <startAddress>198.22.181.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>198.244.15.254</endAddress>
+        <startAddress>198.244.12.1</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>198.62.183.255</endAddress>
+        <startAddress>198.62.183.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>198.80.129.255</endAddress>
+        <startAddress>198.80.129.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>198.80.151.255</endAddress>
+        <startAddress>198.80.151.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>198.80.152.255</endAddress>
+        <startAddress>198.80.152.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>198.80.153.255</endAddress>
+        <startAddress>198.80.153.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>198.80.155.255</endAddress>
+        <startAddress>198.80.155.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>198.80.157.255</endAddress>
+        <startAddress>198.80.157.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>198.80.191.255</endAddress>
+        <startAddress>198.80.160.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>199.224.149.255</endAddress>
+        <startAddress>199.224.149.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>199.224.150.31</endAddress>
+        <startAddress>199.224.150.16</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>199.244.150.255</endAddress>
+        <startAddress>199.244.150.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>199.248.238.255</endAddress>
+        <startAddress>199.248.238.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>2.137.120.33</endAddress>
+        <startAddress>2.137.120.33</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>192.168.13.35</endAddress>
+        <startAddress>2.137.120.35</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>2.137.120.44</endAddress>
+        <startAddress>2.137.120.44</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>2.137.120.77</endAddress>
+        <startAddress>2.137.120.77</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>200.184.26.9</endAddress>
+        <startAddress>200.184.26.9</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>200.184.46.14</endAddress>
+        <startAddress>200.184.46.14</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>200.24.255.50</endAddress>
+        <startAddress>200.24.255.50</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>200.251.63.3</endAddress>
+        <startAddress>200.251.63.3</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>200.61.174.180</endAddress>
+        <startAddress>200.61.174.180</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>201.224.80.195</endAddress>
+        <startAddress>201.224.80.195</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>201.238.206.235</endAddress>
+        <startAddress>201.238.206.235</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>202.126.166.255</endAddress>
+        <startAddress>202.126.166.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>202.69.223.255</endAddress>
+        <startAddress>202.69.208.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>203.191.132.255</endAddress>
+        <startAddress>203.191.132.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>204.153.91.255</endAddress>
+        <startAddress>204.153.88.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>204.16.153.143</endAddress>
+        <startAddress>204.16.153.136</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>205.210.47.255</endAddress>
+        <startAddress>205.210.47.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>206.112.185.255</endAddress>
+        <startAddress>206.112.185.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>207.86.142.110</endAddress>
+        <startAddress>207.86.142.110</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>209.167.231.5</endAddress>
+        <startAddress>209.167.231.5</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>209.242.154.86</endAddress>
+        <startAddress>209.242.154.82</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>212.203.92.239</endAddress>
+        <startAddress>212.203.92.224</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>213.61.236.95</endAddress>
+        <startAddress>213.61.236.64</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>216.178.113.255</endAddress>
+        <startAddress>216.178.113.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>216.190.112.63</endAddress>
+        <startAddress>216.190.112.32</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>216.88.130.94</endAddress>
+        <startAddress>216.88.130.94</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>217.33.133.95</endAddress>
+        <startAddress>217.33.133.88</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>217.33.208.255</endAddress>
+        <startAddress>217.33.208.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>217.33.216.255</endAddress>
+        <startAddress>217.33.216.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>217.92.47.197</endAddress>
+        <startAddress>217.92.47.197</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>218.30.179.255</endAddress>
+        <startAddress>218.30.179.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>223.72.183.79</endAddress>
+        <startAddress>223.72.183.64</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>223.72.183.65</endAddress>
+        <startAddress>223.72.183.65</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>223.72.183.78</endAddress>
+        <startAddress>223.72.183.78</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>23.253.68.51</endAddress>
+        <startAddress>23.253.68.51</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>24.206.164.31</endAddress>
+        <startAddress>24.206.164.31</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>24.38.37.255</endAddress>
+        <startAddress>24.38.37.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>24.89.173.15</endAddress>
+        <startAddress>24.89.173.8</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>40.123.47.58</endAddress>
+        <startAddress>40.123.47.58</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>40.84.6.162</endAddress>
+        <startAddress>40.84.6.162</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>41.164.132.131</endAddress>
+        <startAddress>41.164.132.131</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>41.164.132.132</endAddress>
+        <startAddress>41.164.132.132</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>46.14.169.18</endAddress>
+        <startAddress>46.14.169.18</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>46.14.201.242</endAddress>
+        <startAddress>46.14.201.242</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>46.237.217.59</endAddress>
+        <startAddress>46.237.217.59</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>47.23.135.175</endAddress>
+        <startAddress>47.23.135.168</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>5.32.60.255</endAddress>
+        <startAddress>5.32.60.224</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>50.16.247.245</endAddress>
+        <startAddress>50.16.247.245</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>50.168.21.81</endAddress>
+        <startAddress>50.168.21.81</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>50.74.163.110</endAddress>
+        <startAddress>50.74.163.97</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>52.183.81.11</endAddress>
+        <startAddress>52.183.81.11</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>52.183.92.124</endAddress>
+        <startAddress>52.183.92.124</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>54.165.97.15</endAddress>
+        <startAddress>54.165.97.15</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>54.225.196.105</endAddress>
+        <startAddress>54.225.196.105</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>59.144.10.255</endAddress>
+        <startAddress>59.144.10.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>62.119.71.255</endAddress>
+        <startAddress>62.119.71.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>62.2.201.43</endAddress>
+        <startAddress>62.2.201.43</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>62.2.219.234</endAddress>
+        <startAddress>62.2.219.234</startAddress>
+    </loginIpRanges>
     <loginIpRanges>
         <endAddress>62.97.100.250</endAddress>
         <startAddress>62.97.100.250</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>62.97.114.223</endAddress>
+        <startAddress>62.97.114.192</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>63.251.57.31</endAddress>
+        <startAddress>63.251.57.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>64.61.33.163</endAddress>
+        <startAddress>64.61.33.163</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>65.210.74.255</endAddress>
+        <startAddress>65.210.74.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>66.249.67.76</endAddress>
+        <startAddress>66.249.67.76</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>68.44.105.106</endAddress>
+        <startAddress>68.44.105.106</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>68.95.99.70</endAddress>
+        <startAddress>68.95.99.70</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>69.248.168.193</endAddress>
+        <startAddress>69.248.168.193</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>71.23.218.115</endAddress>
+        <startAddress>71.23.218.115</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>71.9.232.130</endAddress>
+        <startAddress>71.9.232.130</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>73.197.178.105</endAddress>
+        <startAddress>73.197.178.105</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>74.62.18.18</endAddress>
+        <startAddress>74.62.18.18</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>76.80.27.166</endAddress>
+        <startAddress>76.80.27.166</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>80.152.133.219</endAddress>
+        <startAddress>80.152.133.219</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>80.169.192.254</endAddress>
+        <startAddress>80.169.192.61</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>82.198.216.35</endAddress>
+        <startAddress>82.198.216.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>83.111.204.130</endAddress>
+        <startAddress>83.111.204.130</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>83.138.167.191</endAddress>
+        <startAddress>83.138.167.176</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>83.36.118.192</endAddress>
+        <startAddress>83.36.118.192</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>83.36.118.193</endAddress>
+        <startAddress>83.36.118.192</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>83.36.118.195</endAddress>
+        <startAddress>83.36.118.194</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>84.18.191.255</endAddress>
+        <startAddress>84.18.160.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>84.18.172.130</endAddress>
+        <startAddress>84.18.172.130</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>91.109.20.196</endAddress>
+        <startAddress>91.109.20.196</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>96.56.43.223</endAddress>
+        <startAddress>96.56.43.216</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>99.99.47.5</endAddress>
+        <startAddress>99.99.47.5</startAddress>
     </loginIpRanges>
     <objectPermissions>
         <allowCreate>true</allowCreate>
@@ -4056,6 +4995,60 @@
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>AccountChangeEvent</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>AccountContactRoleChangeEvent</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>Account_Request__ChangeEvent</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>Account_Request__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>AgentWork</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>AppAnalyticsQueryRequest</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
         <allowEdit>true</allowEdit>
@@ -4065,6 +5058,24 @@
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>AssetChangeEvent</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>AssetLineItem__ChangeEvent</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
         <allowEdit>true</allowEdit>
@@ -4072,6 +5083,33 @@
         <modifyAllRecords>true</modifyAllRecords>
         <object>AssetLineItem__c</object>
         <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>AssetRelationship</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>AssetTokenEvent</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>Attachment</object>
+        <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
         <allowCreate>true</allowCreate>
@@ -4110,6 +5148,24 @@
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>BatchApexErrorEvent</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>CSTM_Object__ChangeEvent</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
         <allowEdit>true</allowEdit>
@@ -4128,6 +5184,24 @@
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>CampaignChangeEvent</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>CampaignMember</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
         <allowEdit>true</allowEdit>
@@ -4135,6 +5209,42 @@
         <modifyAllRecords>true</modifyAllRecords>
         <object>Case</object>
         <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>CaseCMT__mdt</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>CaseChangeEvent</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>CaseComment</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>CaseExternalDocument</object>
+        <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
         <allowCreate>false</allowCreate>
@@ -4164,6 +5274,24 @@
         <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>ChatterActivity</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>Cloud__ChangeEvent</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
         <allowEdit>true</allowEdit>
@@ -4171,6 +5299,42 @@
         <modifyAllRecords>true</modifyAllRecords>
         <object>Cloud__c</object>
         <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>CollaborationGroup</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>CollaborationGroupMember</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>CollaborationGroupRecord</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>ConsumptionRate</object>
+        <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
         <allowCreate>true</allowCreate>
@@ -4191,6 +5355,15 @@
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>ContactChangeEvent</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
         <allowEdit>true</allowEdit>
@@ -4209,6 +5382,42 @@
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>ContentDistribution</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>ContentDocument</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>ContentDocumentLink</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>ContentVersion</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
         <allowEdit>true</allowEdit>
@@ -4225,6 +5434,15 @@
         <modifyAllRecords>true</modifyAllRecords>
         <object>ContractLineItem</object>
         <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>ContractLineItemChangeEvent</object>
+        <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
         <allowCreate>true</allowCreate>
@@ -4254,6 +5472,15 @@
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>Delete_me__ChangeEvent</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
         <allowEdit>true</allowEdit>
@@ -4261,6 +5488,15 @@
         <modifyAllRecords>true</modifyAllRecords>
         <object>Delete_me__c</object>
         <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>Dinner__ChangeEvent</object>
+        <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
         <allowCreate>true</allowCreate>
@@ -4277,8 +5513,35 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
+        <object>Document</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>DuplicateRecordItem</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
         <object>DuplicateRecordSet</object>
         <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>EmailMessage</object>
+        <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
         <allowCreate>true</allowCreate>
@@ -4290,12 +5553,84 @@
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>EntitlementChangeEvent</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
         <object>EntitlementContact</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>EntityMilestone</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>Event</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>EventChangeEvent</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>EventRelationChangeEvent</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>FeedComment</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>FeedItem</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>Goal</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -4306,6 +5641,15 @@
         <modifyAllRecords>true</modifyAllRecords>
         <object>Idea</object>
         <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>IdeaComment</object>
+        <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
         <allowCreate>false</allowCreate>
@@ -4335,6 +5679,15 @@
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>JH_Test__ChangeEvent</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
         <allowEdit>true</allowEdit>
@@ -4342,6 +5695,15 @@
         <modifyAllRecords>true</modifyAllRecords>
         <object>Knowledge__kav</object>
         <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>LCRM_Account_Merge_UnMerge_Dup_Event__ChangeEvent</object>
+        <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
         <allowCreate>true</allowCreate>
@@ -4362,6 +5724,42 @@
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>LeadChangeEvent</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>LinkedArticle</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>ListEmailChangeEvent</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>List_CS__ChangeEvent</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
         <allowEdit>true</allowEdit>
@@ -4380,6 +5778,24 @@
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>LiveChatTranscriptChangeEvent</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>LiveChatTranscriptEvent</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
         <allowEdit>true</allowEdit>
@@ -4389,6 +5805,15 @@
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>LogoutEventStream</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
         <allowEdit>true</allowEdit>
@@ -4396,6 +5821,33 @@
         <modifyAllRecords>true</modifyAllRecords>
         <object>Macro</object>
         <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>NetworkMember</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>Note</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>OLS_Test__ChangeEvent</object>
+        <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
         <allowCreate>true</allowCreate>
@@ -4425,6 +5877,42 @@
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>OpportunityChangeEvent</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>OpportunityContactRoleChangeEvent</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>OpportunityLineItem</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>OpportunityTeamMember</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
         <allowEdit>true</allowEdit>
@@ -4434,6 +5922,42 @@
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>OrderChangeEvent</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>OrderItem</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>OrderItemChangeEvent</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>OrderLineItems__ChangeEvent</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
         <allowEdit>true</allowEdit>
@@ -4441,6 +5965,33 @@
         <modifyAllRecords>true</modifyAllRecords>
         <object>OrderLineItems__c</object>
         <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>OrgDeleteRequest</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>OrgLifecycleNotification</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>Partner</object>
+        <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
         <allowCreate>false</allowCreate>
@@ -4479,6 +6030,24 @@
         <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>PendingServiceRouting</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>PlatformStatusAlertEvent</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
         <allowEdit>true</allowEdit>
@@ -4497,6 +6066,51 @@
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>Product2ChangeEvent</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>ProductConsumptionSchedule</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>Profile_test__ChangeEvent</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>Profile_test__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>PushTopic</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
         <allowEdit>true</allowEdit>
@@ -4506,12 +6120,57 @@
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>Quote_Proposal__ChangeEvent</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
         <object>Quote_Proposal__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>Recommendation</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>RecordAction</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>Request__ChangeEvent</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>Request__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -4551,6 +6210,15 @@
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>ServiceContractChangeEvent</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
         <allowEdit>true</allowEdit>
@@ -4578,6 +6246,60 @@
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>Task</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>TaskChangeEvent</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>Territory2</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>TestElisa__ChangeEvent</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>TestElisa__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>Test_Bug__ChangeEvent</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
         <allowEdit>true</allowEdit>
@@ -4585,6 +6307,42 @@
         <modifyAllRecords>true</modifyAllRecords>
         <object>Test_Bug__c</object>
         <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>Test_Helm__ChangeEvent</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>Topic</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>TopicAssignment</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>US_Test__ChangeEvent</object>
+        <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
         <allowCreate>true</allowCreate>
@@ -4596,6 +6354,132 @@
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>User</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>UserChangeEvent</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>UserProvAccount</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>UserProvAccountStaging</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>UserProvMockTarget</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>UserProvisioningLog</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>UserProvisioningRequest</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>UserServicePresence</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>UserTerritory2Association</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>WorkCoaching</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>WorkFeedback</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>WorkFeedbackQuestion</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>WorkFeedbackQuestionSet</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>WorkFeedbackRequest</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
         <allowEdit>true</allowEdit>
@@ -4603,6 +6487,24 @@
         <modifyAllRecords>true</modifyAllRecords>
         <object>WorkOrder</object>
         <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>WorkOrderLineItem</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>test_test__ChangeEvent</object>
+        <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
         <allowCreate>true</allowCreate>
@@ -4839,6 +6741,10 @@
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>standard-AppLauncher</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>standard-Asset</tab>
         <visibility>DefaultOff</visibility>
     </tabVisibilities>
@@ -4875,8 +6781,16 @@
         <visibility>DefaultOff</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>standard-Chatter</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>standard-CollaborationGroup</tab>
         <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-Console</tab>
+        <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-ConsumptionSchedule</tab>
@@ -4895,12 +6809,28 @@
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>standard-ContentContribute</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-ContentSearch</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-ContentSubscriptions</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>standard-Contract</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-DandBCompany</tab>
         <visibility>DefaultOff</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-Dashboard</tab>
+        <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-DataUseLegalBasis</tab>
@@ -4911,11 +6841,23 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>standard-Document</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>standard-DuplicateRecordSet</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-Entitlement</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-File</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-Forecasting3</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
@@ -4935,7 +6877,23 @@
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>standard-JigsawSearch</tab>
+        <visibility>DefaultOff</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-Knowledge</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-KnowledgePublishing</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>standard-Lead</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-ListEmail</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
@@ -4963,6 +6921,10 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>standard-OtherUserProfile</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>standard-PartnerFundAllocation</tab>
         <visibility>DefaultOff</visibility>
     </tabVisibilities>
@@ -4987,6 +6949,14 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>standard-ProfilePlatformFeed</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-ProfilePlatformOverview</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>standard-QuickText</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
@@ -5003,6 +6973,10 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>standard-Sites</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>standard-Solution</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
@@ -5011,21 +6985,37 @@
         <visibility>DefaultOff</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>standard-UserProfile</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>standard-UserProvisioningRequest</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-WorkFeedbackRequest</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-WorkOrder</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-Workspace</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-home</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-report</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
     <userLicense>Salesforce</userLicense>
     <userPermissions>
         <enabled>true</enabled>
         <name>ActivateContract</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>ActivateOrder</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -5190,10 +7180,6 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>EditActivatedOrders</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>EditBillingInfo</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -5682,5 +7668,269 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>WorkCalibrationUser</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ContentHubOnPremiseUser</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ManageEncryptionKeys</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>PasswordNeverExpires</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>PublishMultiforce</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>CreateMultiforce</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>BulkApiHardDelete</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>PortalSuperUser</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>DelegatedPortalUserAdmin</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ViewContent</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ManageChatterMessages</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ViewGlobalHeader</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>WorkDotComUserPerm</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ContentHubUser</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ModerateNetworkFeeds</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ModerateNetworkFiles</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>GovernNetworks</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>SalesConsole</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>IdentityEnabled</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>IdentityConnect</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>CustomMobileAppsAccess</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>CanVerifyComment</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ModifySecureAgents</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ConfigCustomRecs</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ModerateNetworkMessages</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ManageSessionPermissionSets</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>SendAnnouncementEmails</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>CreateAuditFields</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>UpdateWithInactiveOwner</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ChatterComposeUiCodesnippet</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ModerateNetworkUsers</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>CampaignInfluence2</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>RemoveDirectMessageMembers</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>CanApproveFeedPost</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>AddDirectMessageMembers</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>AllowViewEditConvertedLeads</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>FieldServiceAccess</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>FieldServiceScheduling</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>FieldServiceDispatcher</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>FieldServiceMobileApp</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>AccessCMC</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>OptOutGeoLocationTracking</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>Packaging2</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>CreateReportInLightning</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>PreventClassicExperience</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>HideReadByList</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>FeedPinning</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ChangeDashboardColors</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>IotUser</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>CloseConversations</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>SubscribeReportRolesGrps</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>SubscribeDashboardRolesGrps</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>HasUnlimitedNBAExecutions</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ViewAllActivities</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>SubscribeToLightningDashboards</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>SubscribeDashboardToOtherUsers</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>CreateLtngTempInPub</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ViewCustomerSentiment</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>CreateLtngTempFolder</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>LightningOnMobile</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>GiveRecognitionBadge</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>LtngPromoReserved01UserPerm</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ManageSurveys</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>EinsteinAssistantUser</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ModifyDataClassification</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>PrivacyDataAccess</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>QueryAllFiles</name>
     </userPermissions>
 </Profile>
