@@ -1,0 +1,13 @@
+{
+  "packageAliases" : [ ],
+  "namespace" : "",
+  "packageDirectories" : [ {
+    "path" : "force-app",
+    "default" : true
+  }, {
+    "path" : "artifact_test2_v12_repo",
+    "default" : false
+  } ],
+  "sourceApiVersion" : "44.0",
+  "sfdcLoginUrl" : "https://login.salesforce.com"
+}
