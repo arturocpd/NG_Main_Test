@@ -24,6 +24,7 @@
                 <enableHover>false</enableHover>
                 <expandOthers>false</expandOthers>
                 <groupingColumn>Dinner__c$Name</groupingColumn>
+                <groupingSortProperties/>
                 <header>Dinners Report</header>
                 <legendPosition>Bottom</legendPosition>
                 <report>unfiled$public/Dinners_Report</report>

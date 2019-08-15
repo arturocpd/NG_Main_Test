@@ -17,6 +17,7 @@
     <oauthConfig>
         <callbackUrl>https://logoin.salesforce.com/service/oauth2/callback</callbackUrl>
         <consumerKey>3MVG9HxRZv05HarS49juVPUSjYzcOyuGwK_sw3ZnULiWGeczXnJAMAqZI2Y8GpLcBn1YCKuna6n.4JbWavgfn</consumerKey>
+        <isAdminApproved>false</isAdminApproved>
         <scopes>Basic</scopes>
         <scopes>CustomPermissions</scopes>
     </oauthConfig>
