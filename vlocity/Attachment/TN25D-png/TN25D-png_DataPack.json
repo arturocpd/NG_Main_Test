@@ -1,0 +1,17 @@
+{
+    "Body": "File_TN25D-png",
+    "BodyLength": 35389,
+    "ContentType": "image/png",
+    "Description": "",
+    "IsPrivate": false,
+    "Name": "TN25D.png",
+    "ParentId": {
+        "%vlocity_namespace%__GlobalKey__c": null,
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "VlocityRecordSourceKey:01t1I0000017EsQQAU",
+        "VlocityRecordSObjectType": "Product2"
+    },
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Attachment",
+    "VlocityRecordSourceKey": "Attachment/VlocityRecordSourceKey:01t1I0000017EsQQAU/TN25D.png"
+}
