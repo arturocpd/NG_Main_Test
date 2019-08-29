@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>AR Git Metadata deployment (a211I000000x9RnQAI)</members>
-        <name>VlocityAction</name>
+        <members>infinite-list</members>
+        <name>VlocityUITemplate</name>
     </types>
-    <version>43.0</version>
+    <version>46.0</version>
 </Package>
