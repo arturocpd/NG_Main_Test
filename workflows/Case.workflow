@@ -10,10 +10,20 @@
         <senderType>CurrentUser</senderType>
         <template>unfiled$public/SalesNewCustomerEmail</template>
     </alerts>
+    <alerts>
+        <fullName>Email_Alert_2</fullName>
+        <description>Email Alert 2</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/SalesNewCustomerEmail</template>
+    </alerts>
     <rules>
         <fullName>WF email alert test</fullName>
         <actions>
-            <name>Email_Alert_1</name>
+            <name>Email_Alert_2</name>
             <type>Alert</type>
         </actions>
         <active>true</active>
