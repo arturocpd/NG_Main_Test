@@ -1,43 +1,118 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Account</members>
-        <members>Activities</members>
-        <members>Address</members>
-        <members>Analytics</members>
-        <members>Bot</members>
-        <members>BusinessHours</members>
-        <members>Case</members>
-        <members>Company</members>
-        <members>Contract</members>
-        <members>Entitlement</members>
-        <members>ExperienceBundle</members>
-        <members>FieldService</members>
-        <members>FileUploadAndDownloadSecurity</members>
-        <members>Forecasting</members>
-        <members>GoogleApps</members>
-        <members>Ideas</members>
-        <members>IoT</members>
-        <members>Knowledge</members>
-        <members>LiveAgent</members>
-        <members>Macro</members>
-        <members>Mobile</members>
-        <members>Name</members>
-        <members>Notifications</members>
-        <members>OmniChannel</members>
-        <members>Opportunity</members>
-        <members>Order</members>
-        <members>Org</members>
-        <members>OrgPreference</members>
-        <members>PathAssistant</members>
-        <members>Product</members>
-        <members>Quote</members>
-        <members>Search</members>
-        <members>Security</members>
-        <members>Territory2</members>
-        <members>UserInterface</members>
-        <members>UserManagement</members>
-        <name>Settings</name>
+        <members>Account-Account %28Marketing%29 Layout</members>
+        <members>Account-Account %28Sales%29 Layout</members>
+        <members>Account-Account %28Support%29 Layout</members>
+        <members>Account-Account Layout</members>
+        <members>Account-Test Git Layout</members>
+        <members>AccountBrand-Account BrandLayout</members>
+        <members>Account_Request__c-Account Request Layout</members>
+        <members>Asset-Asset Layout</members>
+        <members>AssetLineItem__c-AssetLineItem Layout</members>
+        <members>CSTM_Object__c-CSTM Layout 1</members>
+        <members>CSTM_Object__c-CSTM Object Layout</members>
+        <members>Campaign-Campaign Layout</members>
+        <members>CampaignMember-Campaign Member Page Layout</members>
+        <members>Case-Case %28Marketing%29 Layout</members>
+        <members>Case-Case %28Sales%29 Layout</members>
+        <members>Case-Case %28Support%29 Layout</members>
+        <members>Case-Case Layout</members>
+        <members>Case-Delete Layout</members>
+        <members>CaseCMT__mdt-CaseCMT Layout</members>
+        <members>CaseClose-Close Case Layout</members>
+        <members>CaseMilestone-Case Milestone Layout</members>
+        <members>ChannelProgram-Channel Program Layout</members>
+        <members>ChannelProgramLevel-Channel Program Level Layout</members>
+        <members>ChannelProgramMember-Channel Program Member Layout</members>
+        <members>Cloud__c-Cloud Layout</members>
+        <members>CommunityMemberLayout-Community Member Layout</members>
+        <members>ConsumptionRate-Formato Índice de consumo</members>
+        <members>ConsumptionSchedule-Formato Programación de consumo</members>
+        <members>Contact-Admin clone Layout</members>
+        <members>Contact-Contact %28Marketing%29 Layout</members>
+        <members>Contact-Contact %28Sales%29 Layout</members>
+        <members>Contact-Contact %28Support%29 Layout</members>
+        <members>Contact-Contact Layout</members>
+        <members>ContentVersion-Content Version Layout</members>
+        <members>Contract-Contract Layout</members>
+        <members>Contract-PageLayout1</members>
+        <members>ContractLineItem-Contract Line Item Layout</members>
+        <members>DandBCompany-D%26B Company Layout</members>
+        <members>Delete_me__c-Delete me Layout</members>
+        <members>Dinner__c-Dinner Layout</members>
+        <members>DuplicateRecordSet-Duplicate Record Set Layout</members>
+        <members>Elisa_Metadata_Type__mdt-Elisa Metadata Type Layout</members>
+        <members>EmailMessage-Email Message Layout</members>
+        <members>Entitlement-Entitlement Layout</members>
+        <members>EntityMilestone-Object Milestone Layout</members>
+        <members>Event-Event Layout</members>
+        <members>FeedItem-Feed Item Layout</members>
+        <members>Global-Global Layout</members>
+        <members>Idea-Idea Layout</members>
+        <members>IdeaTheme-Idea Theme Layout</members>
+        <members>Individual-Formato Persona</members>
+        <members>Knowledge__kav-Knowledge Layout</members>
+        <members>LCRM_Account_Merge_UnMerge_Dup_Event__c-Account Event Layout</members>
+        <members>Lead-Lead %28Sales%29 Layout</members>
+        <members>Lead-Lead %28Support%29 Layout</members>
+        <members>Lead-Lead Layout</members>
+        <members>Lead-Lead Layout DeleteMe</members>
+        <members>LiveAgentSession-Live Agent Session Layout</members>
+        <members>LiveChatTranscript-Live Chat Transcript Layout</members>
+        <members>LiveChatTranscriptActive-Live Chat Transcript %28In Progress%29 Layout</members>
+        <members>LiveChatTranscriptEvent-Live Chat Transcript Event Layout</members>
+        <members>LiveChatTranscriptWaiting-Live Chat Transcript %28Waiting%29 Layout</members>
+        <members>LiveChatVisitor-Live Chat Visitor Layout</members>
+        <members>Macro-Macro Layout</members>
+        <members>OLS_Test__c-OLS Test Layout</members>
+        <members>ObjectTerritory2AssignmentRule-Object Territory Assignment Rule Layout</members>
+        <members>Opp_Line_Item_EXT__x-Opp Line Item EXT Layout</members>
+        <members>Opportunity-Admin Clone Layout</members>
+        <members>Opportunity-CLONED bug layout</members>
+        <members>Opportunity-Opportunity %28Marketing%29 Layout</members>
+        <members>Opportunity-Opportunity %28Sales%29 Layout</members>
+        <members>Opportunity-Opportunity %28Support%29 Layout</members>
+        <members>Opportunity-Opportunity Layout</members>
+        <members>OpportunityLineItem-Opportunity Product Layout</members>
+        <members>OpportunityTeamMember-Opportunity Team Member Layout</members>
+        <members>Order-Order Layout</members>
+        <members>Order-PageLayout1</members>
+        <members>OrderItem-Order Product Layout</members>
+        <members>OrderLineItems__c-OrderLineItems Layout</members>
+        <members>OrderLineItems__c-PageLayout1</members>
+        <members>PartnerFundAllocation-Partner Fund Allocation Layout</members>
+        <members>PartnerFundClaim-Partner Fund Claim Layout</members>
+        <members>PartnerFundRequest-Partner Fund Request Layout</members>
+        <members>PartnerMarketingBudget-Partner Marketing Budget Layout</members>
+        <members>Pricebook2-Price Book Layout</members>
+        <members>PricebookEntry-Price Book Entry Layout</members>
+        <members>Product2-Product Layout</members>
+        <members>ProductConsumptionSchedule-Formato Programación de consumo de producto</members>
+        <members>Profile_test__c-Profile test Layout</members>
+        <members>QuickText-Quick Text Layout</members>
+        <members>Quote_Proposal__c-PageLayout1</members>
+        <members>Quote_Proposal__c-Quote%2FProposal Layout</members>
+        <members>Request__c-Request Layout</members>
+        <members>Scorecard-Scorecard Layout</members>
+        <members>ScorecardAssociation-Scorecard Association Layout</members>
+        <members>ScorecardMetric-Scorecard Metric Layout</members>
+        <members>ServiceContract-Service Contract Layout</members>
+        <members>SocialPersona-Social Persona Layout</members>
+        <members>SocialPost-Social Post Layout</members>
+        <members>Solution-Solution Layout</members>
+        <members>Task-Task Layout</members>
+        <members>Territory2Model-Territory Model Layout</members>
+        <members>Test_Bug__c-Test Bug Layout</members>
+        <members>US_Test__c-US Test Layout</members>
+        <members>User-User Layout</members>
+        <members>UserProvAccount-User Provisioning Account Layout</members>
+        <members>UserProvisioningLog-User Provisioning Log Layout</members>
+        <members>UserProvisioningRequest-User Provisioning Request Layout</members>
+        <members>WorkOrder-Work Order Layout</members>
+        <members>WorkOrderLineItem-Work Order Line Item Layout</members>
+        <members>test_test__c-test%2Etest Layout</members>
+        <name>Layout</name>
     </types>
     <version>46.0</version>
 </Package>

@@ -12,6 +12,26 @@
         <template>unfiled$public/SupportCaseAssignmentNotification</template>
     </alerts>
     <alerts>
+        <fullName>Email_Alert_1</fullName>
+        <description>Email Alert 1</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/SalesNewCustomerEmail</template>
+    </alerts>
+    <alerts>
+        <fullName>Email_Alert_2</fullName>
+        <description>Email Alert 2</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/SalesNewCustomerEmail</template>
+    </alerts>
+    <alerts>
         <fullName>Email_alert_from_wide</fullName>
         <description>Email alert from wide</description>
         <protected>false</protected>
@@ -348,6 +368,20 @@
         <active>true</active>
         <formula>ISPICKVAL(Origin , &quot;Email&quot;)</formula>
         <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>WF email alert test</fullName>
+        <actions>
+            <name>Email_Alert_2</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Case.Status</field>
+            <operation>equals</operation>
+            <value>Escalated</value>
+        </criteriaItems>
+        <triggerType>onCreateOnly</triggerType>
     </rules>
     <tasks>
         <fullName>leaseplan_task</fullName>
