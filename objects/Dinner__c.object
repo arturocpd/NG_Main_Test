@@ -51,9 +51,8 @@
     <description>Change description 22222</description>
     <enableActivities>false</enableActivities>
     <enableBulkApi>true</enableBulkApi>
-    <enableChangeDataCapture>false</enableChangeDataCapture>
     <enableFeeds>false</enableFeeds>
-    <enableHistory>true</enableHistory>
+    <enableHistory>false</enableHistory>
     <enableReports>false</enableReports>
     <enableSearch>true</enableSearch>
     <enableSharing>true</enableSharing>
@@ -65,7 +64,6 @@
         <label>Automatic Renewal Clause</label>
         <required>false</required>
         <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
         <type>Picklist</type>
         <valueSet>
             <valueSetDefinition>
@@ -84,18 +82,28 @@
         </valueSet>
     </fields>
     <fields>
+        <fullName>External_Auto__c</fullName>
+        <externalId>true</externalId>
+        <label>External Auto</label>
+        <length>30</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>LateDinner__c</fullName>
         <defaultValue>false</defaultValue>
+        <description>Description New</description>
         <externalId>false</externalId>
         <label>LateDinner</label>
         <trackHistory>true</trackHistory>
-        <trackTrending>false</trackTrending>
         <type>Checkbox</type>
     </fields>
     <fields>
         <fullName>Point_of_contact__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
-        <description>This is the description of the field. 11115555555</description>
+        <description>This is the description of the field. 111111111</description>
         <externalId>false</externalId>
         <label>Point of contact</label>
         <referenceTo>Contact</referenceTo>
@@ -103,8 +111,32 @@
         <relationshipName>Dinners</relationshipName>
         <required>false</required>
         <trackHistory>true</trackHistory>
-        <trackTrending>false</trackTrending>
+        <trackTrending>true</trackTrending>
         <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>TEST_US__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>TEST US</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Table__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Table</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>historyRetentionPolicy__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>historyRetentionPolicy</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
     </fields>
     <gender>Feminine</gender>
     <label>Dinner</label>
@@ -124,15 +156,31 @@
     </listViews>
     <nameField>
         <label>Dinner Name</label>
-        <trackHistory>false</trackHistory>
+        <trackHistory>true</trackHistory>
         <type>Text</type>
     </nameField>
     <pluralLabel>Dinners</pluralLabel>
-    <recordTypeTrackHistory>false</recordTypeTrackHistory>
+    <recordTypeTrackHistory>true</recordTypeTrackHistory>
     <recordTypes>
         <fullName>Dinner_RT</fullName>
         <active>true</active>
         <label>Dinner RT</label>
+        <picklistValues>
+            <picklist>Automatic_Renewal_Clause__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Dinner_RT_2</fullName>
+        <active>true</active>
+        <label>Dinner RT 2</label>
         <picklistValues>
             <picklist>Automatic_Renewal_Clause__c</picklist>
             <values>
