@@ -598,6 +598,11 @@
                     <default>false</default>
                     <label>April</label>
                 </value>
+                <value>
+                    <fullName>October</fullName>
+                    <default>false</default>
+                    <label>October</label>
+                </value>
             </valueSetDefinition>
         </valueSet>
     </fields>
@@ -5656,6 +5661,10 @@
                 <fullName>January</fullName>
                 <default>false</default>
             </values>
+            <values>
+                <fullName>October</fullName>
+                <default>false</default>
+            </values>
         </picklistValues>
         <picklistValues>
             <picklist>Category__c</picklist>
@@ -8357,6 +8366,10 @@
             </values>
             <values>
                 <fullName>January</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>October</fullName>
                 <default>false</default>
             </values>
         </picklistValues>

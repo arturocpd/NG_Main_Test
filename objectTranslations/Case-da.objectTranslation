@@ -144,6 +144,10 @@
             <masterLabel>March</masterLabel>
             <translation><!-- March --></translation>
         </picklistValues>
+        <picklistValues>
+            <masterLabel>October</masterLabel>
+            <translation><!-- October --></translation>
+        </picklistValues>
     </fields>
     <fields>
         <label><!-- Case YYY --></label>
