@@ -98,7 +98,7 @@
     <enableHistory>false</enableHistory>
     <externalSharingModel>ControlledByParent</externalSharingModel>
     <fields>
-        <fullName>AccountId</fullName>
+        <fullName>AccountIdXXX</fullName>
         <trackFeedHistory>true</trackFeedHistory>
         <type>Lookup</type>
     </fields>
