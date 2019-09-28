@@ -459,6 +459,10 @@
                 <behavior>Edit</behavior>
                 <field>Checkbox_Deployment__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Picklist_bug_test__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>

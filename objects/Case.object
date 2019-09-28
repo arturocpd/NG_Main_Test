@@ -1621,6 +1621,37 @@
         <type>Checkbox</type>
     </fields>
     <fields>
+        <fullName>Picklist_bug_test__c</fullName>
+        <externalId>false</externalId>
+        <label>Picklist bug test</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Test 1</fullName>
+                    <default>false</default>
+                    <label>Test 1</label>
+                </value>
+                <value>
+                    <fullName>Test 2</fullName>
+                    <default>false</default>
+                    <label>Test 2</label>
+                </value>
+                <value>
+                    <fullName>Test 3</fullName>
+                    <default>false</default>
+                    <label>Test 3</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>Porche__c</fullName>
         <defaultValue>false</defaultValue>
         <externalId>false</externalId>
@@ -6047,6 +6078,10 @@
                 <fullName>Controlling 3</fullName>
                 <default>false</default>
             </values>
+            <values>
+                <fullName>Dev1-2</fullName>
+                <default>false</default>
+            </values>
         </picklistValues>
         <picklistValues>
             <picklist>Dependent__c</picklist>
@@ -6075,6 +6110,17 @@
             </values>
             <values>
                 <fullName>WebPage</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Picklist_bug_test__c</picklist>
+            <values>
+                <fullName>Test 1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Test 3</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -8782,6 +8828,21 @@
             </values>
             <values>
                 <fullName>WebPage</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Picklist_bug_test__c</picklist>
+            <values>
+                <fullName>Test 1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Test 2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Test 3</fullName>
                 <default>false</default>
             </values>
         </picklistValues>

@@ -901,6 +901,22 @@
         <name>Pckage_field__c</name>
     </fields>
     <fields>
+        <label><!-- Picklist bug test --></label>
+        <name>Picklist_bug_test__c</name>
+        <picklistValues>
+            <masterLabel>Test 1</masterLabel>
+            <translation><!-- Test 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Test 2</masterLabel>
+            <translation><!-- Test 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Test 3</masterLabel>
+            <translation><!-- Test 3 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
         <label><!-- Porche --></label>
         <name>Porche__c</name>
     </fields>
