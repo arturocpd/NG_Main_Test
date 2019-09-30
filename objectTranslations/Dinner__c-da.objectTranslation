@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <value><!-- DinnerMOD --></value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>false</plural>
+        <value><!-- DinnerMOD --></value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <value><!-- DinnerMOD --></value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <value><!-- DinnerMOD --></value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>true</plural>
+        <value><!-- DinnerMOD --></value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <value><!-- DinnerMOD --></value>
+    </caseValues>
+    <fields>
+        <label><!-- External Auto --></label>
+        <name>External_Auto__c</name>
+    </fields>
+    <fields>
+        <label>Dinnnnnerrrrrrrrrrrrrfield23232</label>
+        <name>LateDinner__c</name>
+    </fields>
+    <fields>
+        <label><!-- Point of contact --></label>
+        <name>Point_of_contact__c</name>
+        <relationshipLabel><!-- Dinners --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- TEST US --></label>
+        <name>TEST_US__c</name>
+    </fields>
+    <fields>
+        <label><!-- Table --></label>
+        <name>Table__c</name>
+    </fields>
+    <fields>
+        <label><!-- historyRetentionPolicy --></label>
+        <name>historyRetentionPolicy__c</name>
+    </fields>
+    <gender><!-- Neuter --></gender>
+    <nameFieldLabel><!-- Dinner Name --></nameFieldLabel>
+    <recordTypes>
+        <label><!-- Dinner RT --></label>
+        <name>Dinner_RT</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Dinner RT 2 --></label>
+        <name>Dinner_RT_2</name>
+    </recordTypes>
+</CustomObjectTranslation>
