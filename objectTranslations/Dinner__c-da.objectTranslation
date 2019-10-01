@@ -55,6 +55,7 @@
         <label><!-- historyRetentionPolicy --></label>
         <name>historyRetentionPolicy__c</name>
     </fields>
+    <gender><!-- Neuter --></gender>
     <nameFieldLabel><!-- Dinner Name --></nameFieldLabel>
     <recordTypes>
         <label><!-- Dinner RT --></label>
