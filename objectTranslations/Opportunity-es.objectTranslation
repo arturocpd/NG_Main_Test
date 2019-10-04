@@ -61,6 +61,10 @@
         <label><!-- Opp RT 1 --></label>
         <name>Opp_RT_1</name>
     </recordTypes>
+    <recordTypes>
+        <label><!-- Opp RT 2 --></label>
+        <name>Opp_RT_2</name>
+    </recordTypes>
     <webLinks>
         <label><!-- DeliveryStatus --></label>
         <name>DeliveryStatus</name>
