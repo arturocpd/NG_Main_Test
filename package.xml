@@ -16,6 +16,7 @@
         <members>CaseStatus</members>
         <members>CaseType</members>
         <members>ContactRole</members>
+        <members>ContactRole</members>
         <members>ContractContactRole</members>
         <members>ContractStatus</members>
         <members>EntitlementType</members>
@@ -41,6 +42,7 @@
         <members>QuickTextCategory</members>
         <members>QuickTextChannel</members>
         <members>RoleInTerritory2</members>
+        <members>SalesTeamRole</members>
         <members>SalesTeamRole</members>
         <members>Salutation</members>
         <members>Salutation</members>
