@@ -380,8 +380,8 @@
                 <default>false</default>
             </values>
         </picklistValues>
-        </recordTypes>
-        <recordTypes>
+    </recordTypes>
+    <recordTypes>
         <fullName>Opp_RT_2</fullName>
         <active>true</active>
         <businessProcess>Business Process 1</businessProcess>
