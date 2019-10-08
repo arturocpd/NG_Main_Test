@@ -360,29 +360,6 @@
         <businessProcess>Business Process 1</businessProcess>
         <label>Opp RT 2</label>
         <picklistValues>
-            <picklist>ForecastCategoryName</picklist>
-            <values>
-                <fullName>Best Case</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Closed</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Commit</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Omitted</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Pipeline</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
             <picklist>Time_Picklist__c</picklist>
             <values>
                 <fullName>Now</fullName>
@@ -394,60 +371,6 @@
             </values>
             <values>
                 <fullName>Yesterday</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
-            <picklist>LeadSource</picklist>
-            <values>
-                <fullName>One more CI test</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Other</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Partner Referral</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Phone Inquiry</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Purchased List</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>RT test with CI</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Test CI</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Web</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
-            <picklist>Type</picklist>
-            <values>
-                <fullName>Existing Customer - Downgrade</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Existing Customer - Replacement</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Existing Customer - Upgrade</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>New Customer</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
