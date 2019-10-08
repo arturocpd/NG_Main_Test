@@ -579,21 +579,6 @@
             </values>
         </picklistValues>
         <picklistValues>
-            <picklist>Time_Picklist__c</picklist>
-            <values>
-                <fullName>Now</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Tomorrow</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Yesterday</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
             <picklist>LeadSource</picklist>
             <values>
                 <fullName>One more CI test</fullName>
@@ -601,18 +586,6 @@
             </values>
             <values>
                 <fullName>Other</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Partner Referral</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Phone Inquiry</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Purchased List</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -625,6 +598,21 @@
             </values>
             <values>
                 <fullName>Web</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Time_Picklist__c</picklist>
+            <values>
+                <fullName>Now</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tomorrow</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yesterday</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
