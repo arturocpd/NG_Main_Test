@@ -213,6 +213,19 @@
         <type>Checkbox</type>
     </fields>
     <fields>
+        <fullName>Time_Picklist__c</fullName>
+        <externalId>false</externalId>
+        <label>Time Picklist</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Time</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>TotalOpportunityQuantity</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <trackTrending>false</trackTrending>
@@ -341,6 +354,27 @@
         </filters>
         <label>Won</label>
     </listViews>
+    <recordTypes>
+        <fullName>Opp_RT_2</fullName>
+        <active>true</active>
+        <businessProcess>Business Process 1</businessProcess>
+        <label>Opp RT 2</label>
+        <picklistValues>
+            <picklist>Time_Picklist__c</picklist>
+            <values>
+                <fullName>Now</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tomorrow</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yesterday</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
     <searchLayouts>
         <customTabListAdditionalFields>OPPORTUNITY.NAME</customTabListAdditionalFields>
         <customTabListAdditionalFields>ACCOUNT.NAME</customTabListAdditionalFields>
