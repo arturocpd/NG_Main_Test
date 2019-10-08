@@ -17,6 +17,9 @@
     </flexiPageRegions>
     <flexiPageRegions>
         <componentInstances>
+            <componentName>forceChatter:recordFeedContainer</componentName>
+        </componentInstances>
+        <componentInstances>
             <componentName>force:detailPanel</componentName>
         </componentInstances>
         <name>main</name>
