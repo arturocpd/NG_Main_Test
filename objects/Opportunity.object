@@ -360,6 +360,13 @@
         <businessProcess>Business Process 1</businessProcess>
         <label>Opp RT 2</label>
         <picklistValues>
+            <picklist>ForecastCategoryName</picklist>
+            <values>
+                <fullName>Pipeline</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
             <picklist>Time_Picklist__c</picklist>
             <values>
                 <fullName>Now</fullName>
@@ -371,6 +378,20 @@
             </values>
             <values>
                 <fullName>Yesterday</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>LeadSource</picklist>
+            <values>
+                <fullName>Web</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type</picklist>
+            <values>
+                <fullName>New Customer</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
