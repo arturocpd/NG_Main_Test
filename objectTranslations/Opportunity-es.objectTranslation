@@ -49,6 +49,10 @@
         <name>Test_Commit_C__c</name>
     </fields>
     <fields>
+        <label><!-- Time Picklist --></label>
+        <name>Time_Picklist__c</name>
+    </fields>
+    <fields>
         <label><!-- Tracking Number --></label>
         <name>TrackingNumber__c</name>
     </fields>

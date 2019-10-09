@@ -410,6 +410,19 @@
         <type>Checkbox</type>
     </fields>
     <fields>
+        <fullName>Time_Picklist__c</fullName>
+        <externalId>false</externalId>
+        <label>Time Picklist</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Time</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>TotalOpportunityQuantity</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <trackTrending>false</trackTrending>
@@ -618,6 +631,25 @@
             </values>
         </picklistValues>
         <picklistValues>
+            <picklist>Time_Picklist__c</picklist>
+            <values>
+                <fullName>Later</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Now</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tomorrow</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yesterday</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
             <picklist>Type</picklist>
             <values>
                 <fullName>Existing Customer - Downgrade</fullName>
@@ -691,18 +723,6 @@
                 <default>false</default>
             </values>
             <values>
-                <fullName>Partner Referral</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Phone Inquiry</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Purchased List</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>RT test with CI</fullName>
                 <default>false</default>
             </values>
@@ -712,6 +732,21 @@
             </values>
             <values>
                 <fullName>Web</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Time_Picklist__c</picklist>
+            <values>
+                <fullName>Now</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tomorrow</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yesterday</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
