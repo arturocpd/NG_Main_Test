@@ -5,7 +5,7 @@
         <name>CustomObject</name>
     </types>
     <types>
-        <members>Test_nested</members>
+        <members>Test_PS_Bug</members>
         <name>PermissionSet</name>
     </types>
     <version>46.0</version>
