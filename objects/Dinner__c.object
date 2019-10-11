@@ -148,7 +148,7 @@
         <label>Cool Dinner</label>
     </compactLayouts>
     <deploymentStatus>Deployed</deploymentStatus>
-    <description>description field</description>
+    <description>description field 2</description>
     <enableActivities>false</enableActivities>
     <enableBulkApi>true</enableBulkApi>
     <enableFeeds>false</enableFeeds>
@@ -216,7 +216,7 @@
         <type>Checkbox</type>
     </fields>
     <gender>Feminine</gender>
-    <label>DinnerMOD</label>
+    <label>Dinner</label>
     <listViews>
         <fullName>All</fullName>
         <filterScope>Everything</filterScope>
@@ -248,7 +248,7 @@
         <active>true</active>
         <label>Dinner RT 2</label>
     </recordTypes>
-    <searchLayouts/>
+    <searchLayouts />
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>
