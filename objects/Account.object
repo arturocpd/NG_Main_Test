@@ -629,7 +629,47 @@
     <recordTypes>
         <fullName>Record_Type1</fullName>
         <active>true</active>
+        <compactLayoutAssignment>Compact_Test</compactLayoutAssignment>
         <label>Record Type1</label>
+        <picklistValues>
+            <picklist>PA_Test_Field__c</picklist>
+            <values>
+                <fullName>PA Fix</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PLUS 1500 %280597%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Test PA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Value 1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Value 2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Value 4</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Value3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Value5</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>new</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
         <picklistValues>
             <picklist>AccountSource</picklist>
             <values>
@@ -1228,10 +1268,6 @@
         <lookupPhoneDialogsAdditionalFields>CORE.USERS.ALIAS</lookupPhoneDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>ACCOUNT.TYPE</lookupPhoneDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>ACCOUNT.PHONE1</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>PC_PHONE3</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>PC_PHONE4</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>PC_PHONE5</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>PC_PHONE6</lookupPhoneDialogsAdditionalFields>
         <searchResultsAdditionalFields>ACCOUNT.NAME</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>ACCOUNT.SITE</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>ACCOUNT.PHONE1</searchResultsAdditionalFields>

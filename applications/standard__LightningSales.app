@@ -42,6 +42,15 @@
         <type>Flexipage</type>
         <profile>Admin CLONE 2</profile>
     </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Flexi_Assignment_Test</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.Record_Type1</recordType>
+        <type>Flexipage</type>
+        <profile>Read Only Clone 2</profile>
+    </profileActionOverrides>
     <tabs>standard-home</tabs>
     <tabs>standard-Opportunity</tabs>
     <tabs>standard-Lead</tabs>
@@ -51,5 +60,16 @@
     <tabs>standard-Contact</tabs>
     <tabs>standard-Campaign</tabs>
     <tabs>standard-Dashboard</tabs>
+    <tabs>standard-report</tabs>
+    <tabs>standard-Feed</tabs>
+    <tabs>standard-CollaborationGroup</tabs>
+    <tabs>standard-Event</tabs>
+    <tabs>standard-OtherUserProfile</tabs>
+    <tabs>standard-Case</tabs>
+    <tabs>standard-Forecasting3</tabs>
+    <tabs>Dinner__c</tabs>
+    <tabs>CSTM_Object__c</tabs>
+    <tabs>IdeasVFTab</tabs>
+    <tabs>OLS_Test__c</tabs>
     <uiType>Lightning</uiType>
 </CustomApplication>
