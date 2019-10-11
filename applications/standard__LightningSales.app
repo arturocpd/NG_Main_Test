@@ -42,14 +42,15 @@
         <type>Flexipage</type>
         <profile>Admin CLONE 2</profile>
     </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Flexi_Assignment_Test</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.Record_Type1</recordType>
+        <type>Flexipage</type>
+        <profile>Read Only Clone 2</profile>
+    </profileActionOverrides>
     <tabs>standard-home</tabs>
-    <tabs>standard-Opportunity</tabs>
-    <tabs>standard-Lead</tabs>
-    <tabs>standard-Task</tabs>
-    <tabs>standard-File</tabs>
-    <tabs>standard-Account</tabs>
-    <tabs>standard-Contact</tabs>
-    <tabs>standard-Campaign</tabs>
-    <tabs>standard-Dashboard</tabs>
     <uiType>Lightning</uiType>
 </CustomApplication>
