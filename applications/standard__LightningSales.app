@@ -3,30 +3,73 @@
     <formFactors>Small</formFactors>
     <formFactors>Medium</formFactors>
     <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
     <label>Sales</label>
     <navType>Standard</navType>
-    <tab>standard-home</tab>
-    <tab>standard-Chatter</tab>
-    <tab>standard-WaveHome</tab>
-    <tab>standard-Opportunity</tab>
-    <tab>standard-Quote</tab>
-    <tab>standard-Lead</tab>
-    <tab>standard-Task</tab>
-    <tab>standard-File</tab>
-    <tab>standard-ContentNote</tab>
-    <tab>standard-Account</tab>
-    <tab>standard-Contact</tab>
-    <tab>standard-Campaign</tab>
-    <tab>standard-Dashboard</tab>
-    <tab>standard-report</tab>
-    <tab>standard-Feed</tab>
-    <tab>standard-CollaborationGroup</tab>
-    <tab>standard-Event</tab>
-    <tab>standard-OtherUserProfile</tab>
-    <tab>standard-Case</tab>
-    <tab>standard-News</tab>
-    <tab>standard-ForecastingLightning</tab>
-    <tab>standard-EinsteinAnalytics</tab>
-    <tab>Custom_Object__c</tab>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>FlexiAcc</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.Record_Type2</recordType>
+        <type>Flexipage</type>
+        <profile>Admin CLONE</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>FlexiAcc</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.Record_Type1</recordType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Flexi_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Admin CLONE</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Flexi_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.Record_Type1</recordType>
+        <type>Flexipage</type>
+        <profile>Admin CLONE 2</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Flexi_Assignment_Test</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.Record_Type1</recordType>
+        <type>Flexipage</type>
+        <profile>Read Only Clone 2</profile>
+    </profileActionOverrides>
+    <tabs>standard-home</tabs>
+    <tabs>standard-Opportunity</tabs>
+    <tabs>standard-Lead</tabs>
+    <tabs>standard-Task</tabs>
+    <tabs>standard-File</tabs>
+    <tabs>standard-Account</tabs>
+    <tabs>standard-Contact</tabs>
+    <tabs>standard-Campaign</tabs>
+    <tabs>standard-Dashboard</tabs>
+    <tabs>standard-report</tabs>
+    <tabs>standard-Feed</tabs>
+    <tabs>standard-CollaborationGroup</tabs>
+    <tabs>standard-Event</tabs>
+    <tabs>standard-OtherUserProfile</tabs>
+    <tabs>standard-Case</tabs>
+    <tabs>standard-Forecasting3</tabs>
+    <tabs>Dinner__c</tabs>
+    <tabs>CSTM_Object__c</tabs>
+    <tabs>IdeasVFTab</tabs>
+    <tabs>OLS_Test__c</tabs>
     <uiType>Lightning</uiType>
 </CustomApplication>
