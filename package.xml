@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Account.Field_2__c</members>
-        <members>Account.Field_3__c</members>
+        <members>Task.Status</members>
         <name>CustomField</name>
     </types>
     <types>
-        <members>Admin CLONE 2</members>
-        <name>Profile</name>
+        <members>Activity-en_US</members>
+        <name>CustomObjectTranslation</name>
     </types>
     <version>46.0</version>
 </Package>
