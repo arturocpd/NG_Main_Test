@@ -13,6 +13,14 @@
         <startsWith>Consonant</startsWith>
     </fields>
     <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Case Subject</value>
+        </caseValues>
+        <name>subject_case</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
         <label><!-- Add metadata field --></label>
         <name>Add_metadata_field__c</name>
     </fields>
