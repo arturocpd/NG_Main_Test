@@ -47,6 +47,10 @@
                 <behavior>Edit</behavior>
                 <field>Test_Commit_C__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Time_Picklist__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
