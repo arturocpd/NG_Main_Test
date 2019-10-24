@@ -373,6 +373,31 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
+        <fullName>Test_Commit_PA__c</fullName>
+        <externalId>false</externalId>
+        <label>Test Commit PA</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Commit1</fullName>
+                    <default>false</default>
+                    <label>Commit1</label>
+                </value>
+                <value>
+                    <fullName>Commit2</fullName>
+                    <default>false</default>
+                    <label>Commit2</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>TickerSymbol</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
