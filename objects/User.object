@@ -65,6 +65,16 @@
         <type>Hierarchy</type>
     </fields>
     <fields>
+        <fullName>Migration_Id__c</fullName>
+        <externalId>true</externalId>
+        <label>Migration Id</label>
+        <length>40</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>copado__API_URL__c</fullName>
         <deprecated>false</deprecated>
         <externalId>false</externalId>
@@ -84,6 +94,26 @@
         <label>Hide Copado feedback</label>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>copado__Show_Copado_Tips__c</fullName>
+        <defaultValue>true</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Show Copado Tips</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>copado__Work_Manager_Panels__c</fullName>
+        <deprecated>false</deprecated>
+        <description>JSON containing current user panels on the Backlog</description>
+        <externalId>false</externalId>
+        <label>Work Manager Panels</label>
+        <length>131072</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>LongTextArea</type>
+        <visibleLines>2</visibleLines>
     </fields>
     <listViews>
         <fullName>ActiveUsers</fullName>
