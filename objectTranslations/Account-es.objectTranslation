@@ -9,6 +9,18 @@
         <value>Cuentas</value>
     </caseValues>
     <fields>
+        <label>Activor</label>
+        <name>Active__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
         <label></label>
         <name>CustomerPriority__c</name>
         <picklistValues>
