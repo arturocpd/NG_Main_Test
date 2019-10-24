@@ -9,7 +9,7 @@
         <value>Cuentas</value>
     </caseValues>
     <fields>
-        <label>Activo</label>
+        <label>Activor</label>
         <name>Active__c</name>
         <picklistValues>
             <masterLabel>No</masterLabel>
