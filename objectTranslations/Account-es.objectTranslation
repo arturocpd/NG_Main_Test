@@ -474,7 +474,7 @@
         <name>Accoutn_Field_1__c</name>
     </fields>
     <fields>
-        <label>Activo</label>
+        <label>Activor</label>
         <name>Active__c</name>
         <picklistValues>
             <masterLabel>No</masterLabel>
