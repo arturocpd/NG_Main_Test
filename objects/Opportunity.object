@@ -40,83 +40,6 @@
         <actionName>View</actionName>
         <type>Default</type>
     </actionOverrides>
-    <businessProcesses>
-        <fullName>Business Process 1</fullName>
-        <description>This is a business process</description>
-        <isActive>true</isActive>
-        <values>
-            <fullName>Closed Lost</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Closed Won</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Needs Analysis</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Negotiation%2FReview</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>New Stage</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Prospecting</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Qualification</fullName>
-            <default>false</default>
-        </values>
-    </businessProcesses>
-    <businessProcesses>
-        <fullName>test sales</fullName>
-        <isActive>true</isActive>
-        <values>
-            <fullName>Closed Lost</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Closed Won</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Id%2E Decision Makers</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Needs Analysis</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Negotiation%2FReview</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Perception Analysis</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Proposal%2FPrice Quote</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Prospecting</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Qualification</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Value Proposition</fullName>
-            <default>false</default>
-        </values>
-    </businessProcesses>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>true</enableFeeds>
     <enableHistory>false</enableHistory>
@@ -196,10 +119,6 @@
     </fields>
     <fields>
         <fullName>ExpectedRevenue</fullName>
-        <trackTrending>false</trackTrending>
-    </fields>
-    <fields>
-        <fullName>IqScore</fullName>
         <trackTrending>false</trackTrending>
     </fields>
     <fields>
@@ -293,6 +212,19 @@
         <trackFeedHistory>false</trackFeedHistory>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Time_Picklist__c</fullName>
+        <externalId>false</externalId>
+        <label>Time Picklist</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Time</valueSetName>
+        </valueSet>
     </fields>
     <fields>
         <fullName>TotalOpportunityQuantity</fullName>
@@ -423,6 +355,117 @@
         </filters>
         <label>Won</label>
     </listViews>
+    <recordTypeTrackFeedHistory>false</recordTypeTrackFeedHistory>
+    <recordTypes>
+        <fullName>Opp_RT_1</fullName>
+        <active>true</active>
+        <businessProcess>Business Process 2</businessProcess>
+        <label>Opp RT 1</label>
+        <picklistValues>
+            <picklist>LeadSource</picklist>
+            <values>
+                <fullName>One more CI test</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>RT test with CI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Web</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        </recordTypes>
+        <recordTypes>
+        <fullName>Opp_RT_2</fullName>
+        <active>true</active>
+        <businessProcess>Business Process 1</businessProcess>
+        <label>Opp RT 2</label>
+        <picklistValues>
+            <picklist>ForecastCategoryName</picklist>
+            <values>
+                <fullName>Best Case</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Closed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Commit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Omitted</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pipeline</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>LeadSource</picklist>
+            <values>
+                <fullName>One more CI test</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>RT test with CI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Test CI</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>DeliveryInstallationStatus__c</picklist>
+            <values>
+                <fullName>Completed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>In progress</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yet to begin</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Time_Picklist__c</picklist>
+            <values>
+                <fullName>Now</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tomorrow</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yesterday</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type</picklist>
+            <values>
+                <fullName>New Customer</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
     <searchLayouts>
         <customTabListAdditionalFields>OPPORTUNITY.NAME</customTabListAdditionalFields>
         <customTabListAdditionalFields>ACCOUNT.NAME</customTabListAdditionalFields>
@@ -441,23 +484,4 @@
         <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>Private</sharingModel>
-    <webLinks>
-        <fullName>DeliveryStatus</fullName>
-        <availability>online</availability>
-        <displayType>link</displayType>
-        <encodingKey>UTF-8</encodingKey>
-        <hasMenubar>true</hasMenubar>
-        <hasScrollbars>true</hasScrollbars>
-        <hasToolbar>true</hasToolbar>
-        <height>600</height>
-        <isResizable>true</isResizable>
-        <linkType>url</linkType>
-        <masterLabel>Delivery Status</masterLabel>
-        <openType>newWindow</openType>
-        <position>none</position>
-        <protected>false</protected>
-        <showsLocation>true</showsLocation>
-        <showsStatus>true</showsStatus>
-        <url>http://www.fedex.com/cgi-bin/tracking?tracknumbers={!Opportunity_Tracking_Number}&amp;action=track&amp;language=english&amp;cntry_code=us</url>
-    </webLinks>
 </CustomObject>

@@ -10,20 +10,14 @@
     </classAccesses>
     <custom>true</custom>
     <fieldPermissions>
-        <editable>false</editable>
-        <field>Account.Active__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Account.DunsNumber</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Case.SLAViolation__c</field>
+        <field>Case.SLAViolation1__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <userLicense>Salesforce</userLicense>
-    
 </Profile>

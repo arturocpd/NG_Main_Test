@@ -105,12 +105,28 @@
         <value>Activate users</value>
     </labels>
     <labels>
+        <fullName>ADD_AN_ENVIRONMENT</fullName>
+        <categories>Copado</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ADD AN ENVIRONMENT</shortDescription>
+        <value>Add an Environment</value>
+    </labels>
+    <labels>
         <fullName>ADD_AUTHENTICATION</fullName>
         <categories>Copado</categories>
         <language>en_US</language>
         <protected>true</protected>
         <shortDescription>ADD_AUTHENTICATION</shortDescription>
         <value>Add Authentication</value>
+    </labels>
+    <labels>
+        <fullName>ADD_HEADER</fullName>
+        <categories>Copado</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ADD HEADER</shortDescription>
+        <value>Add Header</value>
     </labels>
     <labels>
         <fullName>AR_Custom_Label_from_Dev3</fullName>
@@ -1371,6 +1387,13 @@ Please try again later or call SE-Advantage help desk @ (800) 437-0083.</value>
         <protected>false</protected>
         <shortDescription>Territory</shortDescription>
         <value>Territory</value>
+    </labels>
+    <labels>
+        <fullName>Test_Copado_deplo</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Test Copado deplo</shortDescription>
+        <value>deploy with copado</value>
     </labels>
     <labels>
         <fullName>Translation_Test</fullName>
