@@ -65,8 +65,10 @@
         <type>Default</type>
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
-    <enableFeeds>false</enableFeeds>
+    <enableEnhancedLookup>true</enableEnhancedLookup>
+    <enableFeeds>true</enableFeeds>
     <enableHistory>false</enableHistory>
+    <externalSharingModel>Private</externalSharingModel>
     <fieldSets>
         <fullName>SLICK_CTI_ACCOUNT</fullName>
         <description>Slick CTI</description>
@@ -1121,6 +1123,7 @@ IF( RecordType.Name = &apos;Business&apos;, &apos;/resource/VDOCommunityResource
         </filters>
         <label>All Service Accounts</label>
     </listViews>
+    <recordTypeTrackFeedHistory>false</recordTypeTrackFeedHistory>
     <recordTypes>
         <fullName>vlocity_cmt__Billing</fullName>
         <active>true</active>
@@ -4208,7 +4211,6 @@ IF( RecordType.Name = &apos;Business&apos;, &apos;/resource/VDOCommunityResource
         <customTabListAdditionalFields>ACCOUNT.NAME</customTabListAdditionalFields>
         <customTabListAdditionalFields>ACCOUNT.ADDRESS1_CITY</customTabListAdditionalFields>
         <customTabListAdditionalFields>ACCOUNT.PHONE1</customTabListAdditionalFields>
-        <customTabListAdditionalFields>ACCOUNT.RECORDTYPE</customTabListAdditionalFields>
         <lookupDialogsAdditionalFields>ACCOUNT.NAME</lookupDialogsAdditionalFields>
         <lookupDialogsAdditionalFields>ACCOUNT.SITE</lookupDialogsAdditionalFields>
         <lookupDialogsAdditionalFields>CORE.USERS.ALIAS</lookupDialogsAdditionalFields>
