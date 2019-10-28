@@ -38,6 +38,7 @@
     "%vlocity_namespace%__VendorAccountId__c": "",
     "CanUseQuantitySchedule": false,
     "CanUseRevenueSchedule": false,
+    "Commit_Test_2__c": "",
     "Commit_Test__c": "",
     "Description": "test product",
     "DisplayUrl": "",
