@@ -179,6 +179,30 @@
         <type>Checkbox</type>
     </fields>
     <fields>
+        <fullName>Picklist_Dinner_Table__c</fullName>
+        <externalId>false</externalId>
+        <label>Picklist Dinner Table</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Dinner Table1</fullName>
+                    <default>false</default>
+                    <label>Dinner Table1</label>
+                </value>
+                <value>
+                    <fullName>Dinner Table2</fullName>
+                    <default>false</default>
+                    <label>Dinner Table2</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>Picklist_Dinner__c</fullName>
         <externalId>false</externalId>
         <label>Picklist Dinner</label>
@@ -276,6 +300,17 @@
         <fullName>Nested_Dinner_RT</fullName>
         <active>true</active>
         <label>Nested Dinner RT</label>
+        <picklistValues>
+            <picklist>Picklist_Dinner_Table__c</picklist>
+            <values>
+                <fullName>Dinner Table1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dinner Table2</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
         <picklistValues>
             <picklist>Picklist_Dinner__c</picklist>
             <values>
