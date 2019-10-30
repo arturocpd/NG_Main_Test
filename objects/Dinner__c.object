@@ -101,6 +101,30 @@
         <type>Checkbox</type>
     </fields>
     <fields>
+        <fullName>Picklist_Dinner__c</fullName>
+        <externalId>false</externalId>
+        <label>Picklist Dinner</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Dinner1</fullName>
+                    <default>false</default>
+                    <label>Dinner1</label>
+                </value>
+                <value>
+                    <fullName>Dinner2</fullName>
+                    <default>false</default>
+                    <label>Dinner2</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>Point_of_contact__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <description>This is the description of the field. 111111111</description>
@@ -193,7 +217,23 @@
             </values>
         </picklistValues>
     </recordTypes>
-    <searchLayouts/>
+    <recordTypes>
+        <fullName>Nested_Dinner_RT</fullName>
+        <active>true</active>
+        <label>Nested Dinner RT</label>
+        <picklistValues>
+            <picklist>Picklist_Dinner__c</picklist>
+            <values>
+                <fullName>Dinner1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dinner2</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <searchLayouts />
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>
