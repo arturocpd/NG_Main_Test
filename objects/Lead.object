@@ -635,10 +635,6 @@
                 <default>false</default>
             </values>
             <values>
-                <fullName>RT test with CI</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>Test CI</fullName>
                 <default>false</default>
             </values>
