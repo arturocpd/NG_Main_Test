@@ -643,34 +643,6 @@
         <type>Picklist</type>
     </fields>
     <fields>
-        <fullName>UpsellOpportunity__c</fullName>
-        <externalId>false</externalId>
-        <label>Upsell Opportunity</label>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Picklist</type>
-        <valueSet>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>Maybe</fullName>
-                    <default>false</default>
-                    <label>Maybe</label>
-                </value>
-                <value>
-                    <fullName>No</fullName>
-                    <default>false</default>
-                    <label>No</label>
-                </value>
-                <value>
-                    <fullName>Yes</fullName>
-                    <default>false</default>
-                    <label>Yes</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
-    </fields>
-    <fields>
         <fullName>Website</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
@@ -1092,21 +1064,6 @@ Description Line 3</description>
                 <default>false</default>
             </values>
         </picklistValues>
-        <picklistValues>
-            <picklist>UpsellOpportunity__c</picklist>
-            <values>
-                <fullName>Maybe</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>No</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Yes</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
     </recordTypes>
     <recordTypes>
         <fullName>Record_Type1</fullName>
@@ -1396,13 +1353,6 @@ Description Line 3</description>
                 <default>false</default>
             </values>
         </picklistValues>
-        <picklistValues>
-            <picklist>UpsellOpportunity__c</picklist>
-            <values>
-                <fullName>Maybe</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
     </recordTypes>
     <recordTypes>
         <fullName>Record_Type2</fullName>
@@ -1685,21 +1635,6 @@ Description Line 3</description>
             </values>
             <values>
                 <fullName>Technology Partner</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
-            <picklist>UpsellOpportunity__c</picklist>
-            <values>
-                <fullName>Maybe</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>No</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Yes</fullName>
                 <default>false</default>
             </values>
         </picklistValues>

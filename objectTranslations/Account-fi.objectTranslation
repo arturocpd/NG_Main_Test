@@ -530,22 +530,6 @@
         <name>Trimming_Acc__c</name>
     </fields>
     <fields>
-        <label><!-- Upsell Opportunity --></label>
-        <name>UpsellOpportunity__c</name>
-        <picklistValues>
-            <masterLabel>Maybe</masterLabel>
-            <translation><!-- Maybe --></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>No</masterLabel>
-            <translation><!-- No --></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>Yes</masterLabel>
-            <translation><!-- Yes --></translation>
-        </picklistValues>
-    </fields>
-    <fields>
         <label><!-- 2nd override test --></label>
         <name>X2nd_override_test__c</name>
     </fields>
