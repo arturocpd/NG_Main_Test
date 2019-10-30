@@ -1,9 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>AppleWatch</members>
-        <members>AppleWatchTest</members>
-        <name>ApexClass</name>
+        <members>Opportunity.Business Process 1</members>
+        <members>Opportunity.Business Process 2</members>
+        <name>BusinessProcess</name>
+    </types>
+    <types>
+        <members>Opportunity.RT_test_1__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>Opportunity.Opp_RT_1</members>
+        <members>Opportunity.Opp_RT_2</members>
+        <name>RecordType</name>
     </types>
     <version>46.0</version>
 </Package>
