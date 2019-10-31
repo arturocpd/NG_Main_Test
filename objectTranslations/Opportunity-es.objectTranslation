@@ -37,6 +37,18 @@
         <name>OrderNumber__c</name>
     </fields>
     <fields>
+        <label><!-- RT test 1 --></label>
+        <name>RT_test_1__c</name>
+        <picklistValues>
+            <masterLabel>Test1</masterLabel>
+            <translation><!-- Test1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Test2</masterLabel>
+            <translation><!-- Test2 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
         <label>Prueba Comit A</label>
         <name>Test_Commit_A__c</name>
     </fields>

@@ -39,6 +39,30 @@
         <name>LateDinner__c</name>
     </fields>
     <fields>
+        <label><!-- Picklist Dinner Table --></label>
+        <name>Picklist_Dinner_Table__c</name>
+        <picklistValues>
+            <masterLabel>Dinner Table1</masterLabel>
+            <translation><!-- Dinner Table1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dinner Table2</masterLabel>
+            <translation><!-- Dinner Table2 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Picklist Dinner --></label>
+        <name>Picklist_Dinner__c</name>
+        <picklistValues>
+            <masterLabel>Dinner1</masterLabel>
+            <translation><!-- Dinner1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dinner2</masterLabel>
+            <translation><!-- Dinner2 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
         <label><!-- Point of contact --></label>
         <name>Point_of_contact__c</name>
         <relationshipLabel><!-- Dinners --></relationshipLabel>
@@ -64,5 +88,9 @@
     <recordTypes>
         <label><!-- Dinner RT 2 --></label>
         <name>Dinner_RT_2</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Nested Dinner RT --></label>
+        <name>Nested_Dinner_RT</name>
     </recordTypes>
 </CustomObjectTranslation>

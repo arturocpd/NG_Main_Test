@@ -482,6 +482,18 @@
         <name>Lets_Override_3__c</name>
     </fields>
     <fields>
+        <label><!-- Nested Test RT --></label>
+        <name>Nested_Test_RT__c</name>
+        <picklistValues>
+            <masterLabel>Destructive1</masterLabel>
+            <translation><!-- Destructive1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Destructive2</masterLabel>
+            <translation><!-- Destructive2 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
         <label><!-- Number of Locations --></label>
         <name>NumberofLocations__c</name>
     </fields>
@@ -560,6 +572,10 @@
     <recordTypes>
         <label><!-- DeleteRTacc --></label>
         <name>DeleteRTacc</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- RT Nested Test --></label>
+        <name>RT_Nested_Test</name>
     </recordTypes>
     <recordTypes>
         <label><!-- Record Type1 --></label>

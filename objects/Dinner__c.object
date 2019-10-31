@@ -179,6 +179,54 @@
         <type>Checkbox</type>
     </fields>
     <fields>
+        <fullName>Picklist_Dinner_Table__c</fullName>
+        <externalId>false</externalId>
+        <label>Picklist Dinner Table</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Dinner Table1</fullName>
+                    <default>false</default>
+                    <label>Dinner Table1</label>
+                </value>
+                <value>
+                    <fullName>Dinner Table2</fullName>
+                    <default>false</default>
+                    <label>Dinner Table2</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Picklist_Dinner__c</fullName>
+        <externalId>false</externalId>
+        <label>Picklist Dinner</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Dinner1</fullName>
+                    <default>false</default>
+                    <label>Dinner1</label>
+                </value>
+                <value>
+                    <fullName>Dinner2</fullName>
+                    <default>false</default>
+                    <label>Dinner2</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>Point_of_contact__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <description>This is the description of the field. 111111111</description>
@@ -242,11 +290,82 @@
         <fullName>Dinner_RT</fullName>
         <active>true</active>
         <label>Dinner RT</label>
+        <picklistValues>
+            <picklist>Picklist_Dinner_Table__c</picklist>
+            <values>
+                <fullName>Dinner Table1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dinner Table2</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Picklist_Dinner__c</picklist>
+            <values>
+                <fullName>Dinner1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dinner2</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
     </recordTypes>
     <recordTypes>
         <fullName>Dinner_RT_2</fullName>
         <active>true</active>
         <label>Dinner RT 2</label>
+        <picklistValues>
+            <picklist>Picklist_Dinner_Table__c</picklist>
+            <values>
+                <fullName>Dinner Table1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dinner Table2</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Picklist_Dinner__c</picklist>
+            <values>
+                <fullName>Dinner1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dinner2</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Nested_Dinner_RT</fullName>
+        <active>true</active>
+        <label>Nested Dinner RT</label>
+        <picklistValues>
+            <picklist>Picklist_Dinner_Table__c</picklist>
+            <values>
+                <fullName>Dinner Table1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dinner Table2</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Picklist_Dinner__c</picklist>
+            <values>
+                <fullName>Dinner1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dinner2</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
     </recordTypes>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>

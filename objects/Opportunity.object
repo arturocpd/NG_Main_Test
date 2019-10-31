@@ -372,6 +372,31 @@
         <trackTrending>false</trackTrending>
     </fields>
     <fields>
+        <fullName>RT_test_1__c</fullName>
+        <externalId>false</externalId>
+        <label>RT test 1</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Test1</fullName>
+                    <default>false</default>
+                    <label>Test1</label>
+                </value>
+                <value>
+                    <fullName>Test2</fullName>
+                    <default>false</default>
+                    <label>Test2</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>StageName</fullName>
         <businessStatus>Active</businessStatus>
         <description>Description</description>
@@ -631,6 +656,17 @@
             </values>
         </picklistValues>
         <picklistValues>
+            <picklist>RT_test_1__c</picklist>
+            <values>
+                <fullName>Test1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Test2</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
             <picklist>Time_Picklist__c</picklist>
             <values>
                 <fullName>Later</fullName>
@@ -728,6 +764,17 @@
             </values>
             <values>
                 <fullName>Test CI</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>RT_test_1__c</picklist>
+            <values>
+                <fullName>Test1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Test2</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
