@@ -376,6 +376,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Account.Nested_Test_RT__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Account.NumberOfEmployees</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -628,6 +633,61 @@
         <editable>false</editable>
         <field>AssetRelationship.RelationshipType</field>
         <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>AuthorizationForm.DefaultAuthFormTextId</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>AuthorizationForm.EffectiveFromDate</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>AuthorizationForm.EffectiveToDate</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>AuthorizationForm.IsSignatureRequired</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>AuthorizationForm.RevisionNumber</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>AuthorizationFormConsent.DocumentVersionId</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>AuthorizationFormConsent.Status</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>AuthorizationFormText.ContentDocumentId</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>AuthorizationFormText.FullAuthorizationFormUrl</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>AuthorizationFormText.Locale</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>AuthorizationFormText.SummaryAuthFormText</field>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -960,6 +1020,11 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>Case.Case_prod_field__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Case.Category__c</field>
         <readable>true</readable>
@@ -1202,6 +1267,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Case.Pckage_field__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Case.Picklist_bug_test__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -1670,6 +1740,26 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>ContactPointTypeConsent.DataUsePurposeId</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>ContactPointTypeConsent.DoubleConsentCaptureDate</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>ContactPointTypeConsent.EffectiveFrom</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>ContactPointTypeConsent.EffectiveTo</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Contract.ActivatedById</field>
         <readable>true</readable>
@@ -1816,7 +1906,37 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Delete_me__c.Delete_field__c</field>
+        <field>DataUseLegalBasis.Description</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>DataUseLegalBasis.Source</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>DataUsePurpose.Description</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>DataUsePurpose.IsMaintainablePerContactPoint</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>DataUsePurpose.IsMaintainablePerParty</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>DataUsePurpose.IsMaintainablePerType</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>DataUsePurpose.LegalBasisId</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -1837,6 +1957,16 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Dinner__c.Nested_Field_Test__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Dinner__c.Picklist_Dinner_Table__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Dinner__c.Picklist_Dinner__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -2406,6 +2536,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Lead.Test_Nested_RT__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Lead.Title</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -2680,6 +2815,11 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>Opportunity.CampaignId</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Opportunity.ContractId</field>
         <readable>false</readable>
@@ -2741,6 +2881,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Opportunity.RT_test_1__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Opportunity.Test_Commit_A__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -2752,6 +2897,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Opportunity.Test_Commit_C__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Opportunity.Time_Picklist__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -3010,6 +3160,11 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>Platform_Event_Test__e.checkbox__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Product2.Description</field>
         <readable>true</readable>
@@ -3017,6 +3172,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Product2.DisplayUrl</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Product2.Ext_Id__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -3685,6 +3845,17 @@
         <readable>true</readable>
     </fieldPermissions>
     <layoutAssignments>
+        <layout>Account-Account %28Marketing%29 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Account-Account %28Marketing%29 Layout</layout>
+        <recordType>Account.Record_Type1</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Account-Account %28Marketing%29 Layout</layout>
+        <recordType>Account.Record_Type2</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Account-Account %28Support%29 Layout</layout>
         <recordType>Account.Record_Type2</recordType>
     </layoutAssignments>
@@ -3697,10 +3868,17 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Account-Account Layout</layout>
+        <recordType>Account.RT_Nested_Test</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Account-Account Layout</layout>
         <recordType>Account.Record_Type1</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>AccountBrand-Account BrandLayout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>AccountTeamMember-Formato Miembro del equipo de cuentames</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Account_Request__c-Account Request Layout</layout>
@@ -3719,6 +3897,13 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>AssociatedLocation-Associated Location Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CSTM_Object__c-CSTM Layout 1</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CSTM_Object__c-CSTM Layout 1</layout>
+        <recordType>CSTM_Object__c.CSTM_New_layout</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>CSTM_Object__c-CSTM Object Layout</layout>
@@ -3740,6 +3925,10 @@
     <layoutAssignments>
         <layout>Case-Case %28Sales%29 Layout</layout>
         <recordType>Case.Record_Type_2</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Case-Case %28Support%29 Layout</layout>
+        <recordType>Case.Record_Type</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Case-Case Layout</layout>
@@ -3775,6 +3964,9 @@
         <layout>ConsumptionSchedule-Formato Programación de consumo</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Contact-Contact %28Marketing%29 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Contact-Contact Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -3785,6 +3977,13 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Contract-Contract Layout</layout>
+        <recordType>Contract.RecordType1</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Contract-PageLayout1</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Contract-PageLayout1</layout>
         <recordType>Contract.RecordType1</recordType>
     </layoutAssignments>
     <layoutAssignments>
@@ -3853,6 +4052,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Individual-Formato Persona</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>JobProfile-Formato Perfil de trabajo</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>JobTracker-Job Tracker Layout - Winter %2716</layout>
@@ -3931,11 +4133,18 @@
         <layout>Opp_Line_Item_EXT__x-Opp Line Item EXT Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Opportunity-Opportunity %28Marketing%29 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Opportunity-Opportunity Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Opportunity-Opportunity Layout</layout>
         <recordType>Opportunity.Opp_RT_1</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Opportunity-Opportunity Layout</layout>
+        <recordType>Opportunity.Opp_RT_2</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>OpportunityLineItem-Opportunity Product Layout</layout>
@@ -3951,6 +4160,10 @@
         <recordType>Order.RecordType1</recordType>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Order-PageLayout1</layout>
+        <recordType>Order.RecordType1</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>OrderItem-Order Product Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -3958,6 +4171,13 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>OrderLineItems__c-OrderLineItems Layout</layout>
+        <recordType>OrderLineItems__c.RecordType1</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>OrderLineItems__c-PageLayout1</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>OrderLineItems__c-PageLayout1</layout>
         <recordType>OrderLineItems__c.RecordType1</recordType>
     </layoutAssignments>
     <layoutAssignments>
@@ -4120,6 +4340,9 @@
         <layout>User-User Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>UserAlt-User Profile Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>UserProvAccount-User Provisioning Account Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -4217,6 +4440,15 @@
         <allowEdit>false</allowEdit>
         <allowRead>false</allowRead>
         <modifyAllRecords>false</modifyAllRecords>
+        <object>AccountTeamMember</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
         <object>Account_Request__ChangeEvent</object>
         <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
@@ -4299,6 +4531,24 @@
         <allowRead>false</allowRead>
         <modifyAllRecords>false</modifyAllRecords>
         <object>AssetTokenEvent</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>AsyncOperationEvent</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>AsyncOperationStatus</object>
         <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -4398,6 +4648,24 @@
         <allowRead>false</allowRead>
         <modifyAllRecords>false</modifyAllRecords>
         <object>CampaignMember</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>CampaignMemberChangeEvent</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>CampaignMemberStatusChangeEvent</object>
         <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -4626,6 +4894,15 @@
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>ContractChangeEvent</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
         <allowEdit>true</allowEdit>
@@ -4676,17 +4953,8 @@
         <allowEdit>false</allowEdit>
         <allowRead>false</allowRead>
         <modifyAllRecords>false</modifyAllRecords>
-        <object>Delete_me__ChangeEvent</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
         <object>Delete_me__c</object>
-        <viewAllRecords>true</viewAllRecords>
+        <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
         <allowCreate>false</allowCreate>
@@ -5027,6 +5295,15 @@
         <allowEdit>false</allowEdit>
         <allowRead>false</allowRead>
         <modifyAllRecords>false</modifyAllRecords>
+        <object>MacroUsage</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
         <object>NetworkMember</object>
         <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
@@ -5082,6 +5359,15 @@
         <allowRead>false</allowRead>
         <modifyAllRecords>false</modifyAllRecords>
         <object>OpportunityChangeEvent</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>OpportunityContactRole</object>
         <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -5252,6 +5538,15 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
+        <object>Platform_Event_Test__e</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
         <object>Pricebook2</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
@@ -5301,6 +5596,15 @@
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>PromptAction</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
         <allowEdit>true</allowEdit>
@@ -5317,6 +5621,15 @@
         <modifyAllRecords>true</modifyAllRecords>
         <object>QuickText</object>
         <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>QuickTextUsage</object>
+        <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
         <allowCreate>false</allowCreate>
@@ -5808,6 +6121,11 @@
         <visible>true</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Account.RT_Nested_Test</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
         <default>true</default>
         <recordType>Account.Record_Type1</recordType>
         <visible>true</visible>
@@ -5848,6 +6166,11 @@
         <visible>false</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Dinner__c.Nested_Dinner_RT</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
         <default>true</default>
         <recordType>Event.Time</recordType>
         <visible>true</visible>
@@ -5883,6 +6206,11 @@
         <visible>true</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Opportunity.Opp_RT_2</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
         <default>true</default>
         <recordType>Order.RecordType1</recordType>
         <visible>true</visible>
@@ -5910,10 +6238,6 @@
     <tabVisibilities>
         <tab>CSTM_Object__c</tab>
         <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>Delete_me__c</tab>
-        <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>Dinner__c</tab>
@@ -6052,6 +6376,10 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>standard-Event</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>standard-File</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
@@ -6184,6 +6512,10 @@
         <visibility>DefaultOff</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>standard-Task</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>standard-UserProfile</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
@@ -6213,6 +6545,10 @@
     </tabVisibilities>
     <userLicense>Salesforce</userLicense>
     <userPermissions>
+        <enabled>false</enabled>
+        <name>AccessCMC</name>
+    </userPermissions>
+    <userPermissions>
         <enabled>true</enabled>
         <name>ActivateContract</name>
     </userPermissions>
@@ -6225,6 +6561,10 @@
         <name>ActivitiesAccess</name>
     </userPermissions>
     <userPermissions>
+        <enabled>false</enabled>
+        <name>AddDirectMessageMembers</name>
+    </userPermissions>
+    <userPermissions>
         <enabled>true</enabled>
         <name>AllowEmailIC</name>
     </userPermissions>
@@ -6235,6 +6575,10 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>AllowUniversalSearch</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>AllowViewEditConvertedLeads</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -6269,8 +6613,24 @@
         <name>AuthorApex</name>
     </userPermissions>
     <userPermissions>
+        <enabled>false</enabled>
+        <name>BulkApiHardDelete</name>
+    </userPermissions>
+    <userPermissions>
         <enabled>true</enabled>
         <name>BulkMacrosAllowed</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>CampaignInfluence2</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>CanApproveFeedPost</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>CanEditPrompts</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -6279,6 +6639,18 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>CanUseNewDashboardBuilder</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>CanVerifyComment</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ChangeDashboardColors</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ChatterComposeUiCodesnippet</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -6305,6 +6677,14 @@
         <name>ChatterOwnGroups</name>
     </userPermissions>
     <userPermissions>
+        <enabled>false</enabled>
+        <name>CloseConversations</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ConfigCustomRecs</name>
+    </userPermissions>
+    <userPermissions>
         <enabled>true</enabled>
         <name>ConnectOrgToEnvironmentHub</name>
     </userPermissions>
@@ -6313,12 +6693,28 @@
         <name>ContentAdministrator</name>
     </userPermissions>
     <userPermissions>
+        <enabled>false</enabled>
+        <name>ContentHubOnPremiseUser</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ContentHubUser</name>
+    </userPermissions>
+    <userPermissions>
         <enabled>true</enabled>
         <name>ContentWorkspaces</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
         <name>ConvertLeads</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>CreateAuditFields</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>CreateContentSpace</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -6337,12 +6733,28 @@
         <name>CreateDashboardFolders</name>
     </userPermissions>
     <userPermissions>
+        <enabled>false</enabled>
+        <name>CreateLtngTempFolder</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>CreateLtngTempInPub</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>CreateMultiforce</name>
+    </userPermissions>
+    <userPermissions>
         <enabled>true</enabled>
         <name>CreatePackaging</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
         <name>CreateReportFolders</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>CreateReportInLightning</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -6353,8 +6765,16 @@
         <name>CreateWorkspaces</name>
     </userPermissions>
     <userPermissions>
+        <enabled>false</enabled>
+        <name>CustomMobileAppsAccess</name>
+    </userPermissions>
+    <userPermissions>
         <enabled>true</enabled>
         <name>CustomSidebarOnAllPages</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>CustomTabBarOnMobile</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -6363,6 +6783,10 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>DataExport</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>DelegatedPortalUserAdmin</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -6469,8 +6893,52 @@
         <name>ExportReport</name>
     </userPermissions>
     <userPermissions>
+        <enabled>false</enabled>
+        <name>FeedPinning</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>FieldServiceAccess</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>FieldServiceDispatcher</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>FieldServiceMobileApp</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>FieldServiceScheduling</name>
+    </userPermissions>
+    <userPermissions>
         <enabled>true</enabled>
         <name>ForceTwoFactor</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>GiveRecognitionBadge</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>GovernNetworks</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>HasUnlimitedNBAExecutions</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>HideReadByList</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>IdentityConnect</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>IdentityEnabled</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -6485,8 +6953,20 @@
         <name>ImportPersonal</name>
     </userPermissions>
     <userPermissions>
+        <enabled>false</enabled>
+        <name>InstallMultiforce</name>
+    </userPermissions>
+    <userPermissions>
         <enabled>true</enabled>
         <name>InstallPackaging</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>IotUser</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>LMOutboundMessagingUserPerm</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -6497,8 +6977,16 @@
         <name>LightningExperienceUser</name>
     </userPermissions>
     <userPermissions>
+        <enabled>false</enabled>
+        <name>LightningOnMobile</name>
+    </userPermissions>
+    <userPermissions>
         <enabled>true</enabled>
         <name>ListEmailSend</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>LtngPromoReserved01UserPerm</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -6527,6 +7015,10 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>ManageCertificates</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ManageChatterMessages</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -6571,6 +7063,10 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>ManageEmailClientConfig</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ManageEncryptionKeys</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -6665,12 +7161,24 @@
         <name>ManageSearchPromotionRules</name>
     </userPermissions>
     <userPermissions>
+        <enabled>false</enabled>
+        <name>ManageSessionPermissionSets</name>
+    </userPermissions>
+    <userPermissions>
         <enabled>true</enabled>
         <name>ManageSharing</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
         <name>ManageSolutions</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ManageSubscriptions</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ManageSurveys</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -6709,20 +7217,72 @@
         <name>ModerateChatter</name>
     </userPermissions>
     <userPermissions>
+        <enabled>false</enabled>
+        <name>ModerateNetworkFeeds</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ModerateNetworkFiles</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ModerateNetworkMessages</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ModerateNetworkUsers</name>
+    </userPermissions>
+    <userPermissions>
         <enabled>true</enabled>
         <name>ModifyAllData</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ModifyDataClassification</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
         <name>ModifyMetadata</name>
     </userPermissions>
     <userPermissions>
+        <enabled>false</enabled>
+        <name>ModifySecureAgents</name>
+    </userPermissions>
+    <userPermissions>
         <enabled>true</enabled>
         <name>NewReportBuilder</name>
     </userPermissions>
     <userPermissions>
+        <enabled>false</enabled>
+        <name>OptOutGeoLocationTracking</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>Packaging2</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>PasswordNeverExpires</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>PortalSuperUser</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>PreventClassicExperience</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>PrivacyDataAccess</name>
+    </userPermissions>
+    <userPermissions>
         <enabled>true</enabled>
         <name>PublishArticles</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>PublishMultiforce</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -6731,6 +7291,14 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>PublishTranslation</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>QueryAllFiles</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>RemoveDirectMessageMembers</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -6745,12 +7313,24 @@
         <name>RunReports</name>
     </userPermissions>
     <userPermissions>
+        <enabled>false</enabled>
+        <name>SalesConsole</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>SandboxTestingInCommunityApp</name>
+    </userPermissions>
+    <userPermissions>
         <enabled>true</enabled>
         <name>ScheduleReports</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
         <name>SelectFilesFromSalesforce</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>SendAnnouncementEmails</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -6777,12 +7357,28 @@
         <name>SubmitMacrosAllowed</name>
     </userPermissions>
     <userPermissions>
+        <enabled>false</enabled>
+        <name>SubscribeDashboardRolesGrps</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>SubscribeDashboardToOtherUsers</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>SubscribeReportRolesGrps</name>
+    </userPermissions>
+    <userPermissions>
         <enabled>true</enabled>
         <name>SubscribeReportToOtherUsers</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
         <name>SubscribeReportsRunAsUser</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>SubscribeToLightningDashboards</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -6809,6 +7405,10 @@
         <name>TwoFactorApi</name>
     </userPermissions>
     <userPermissions>
+        <enabled>false</enabled>
+        <name>UpdateWithInactiveOwner</name>
+    </userPermissions>
+    <userPermissions>
         <enabled>true</enabled>
         <name>UseTeamReassignWizards</name>
     </userPermissions>
@@ -6817,12 +7417,24 @@
         <name>UseWebLink</name>
     </userPermissions>
     <userPermissions>
+        <enabled>false</enabled>
+        <name>ViewAllActivities</name>
+    </userPermissions>
+    <userPermissions>
         <enabled>true</enabled>
         <name>ViewAllData</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
         <name>ViewAllUsers</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ViewContent</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ViewCustomerSentiment</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -6845,6 +7457,14 @@
         <name>ViewEventLogFiles</name>
     </userPermissions>
     <userPermissions>
+        <enabled>false</enabled>
+        <name>ViewFlowUsageAndFlowEventData</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ViewGlobalHeader</name>
+    </userPermissions>
+    <userPermissions>
         <enabled>true</enabled>
         <name>ViewHealthCheck</name>
     </userPermissions>
@@ -6855,6 +7475,10 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>ViewMyTeamsDashboards</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ViewPrivateStaticResources</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -6875,5 +7499,9 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>WorkCalibrationUser</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>WorkDotComUserPerm</name>
     </userPermissions>
 </Profile>
