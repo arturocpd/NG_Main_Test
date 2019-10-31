@@ -192,13 +192,9 @@
     <tabs>CSTM_Object__c</tabs>
     <tabs>IdeasVFTab</tabs>
     <tabs>OLS_Test__c</tabs>
-    <tabs>Delete_me__c</tabs>
     <workspaceConfig>
         <mappings>
             <tab>CSTM_Object__c</tab>
-        </mappings>
-        <mappings>
-            <tab>Delete_me__c</tab>
         </mappings>
         <mappings>
             <tab>Dinner__c</tab>

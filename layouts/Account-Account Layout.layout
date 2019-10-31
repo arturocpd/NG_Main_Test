@@ -117,6 +117,10 @@
                 <behavior>Edit</behavior>
                 <field>Acc_Id__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Nested_Test_RT__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
@@ -204,10 +208,6 @@
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>SLASerialNumber__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>UpsellOpportunity__c</field>
             </layoutItems>
         </layoutColumns>
         <style>TwoColumnsLeftToRight</style>
