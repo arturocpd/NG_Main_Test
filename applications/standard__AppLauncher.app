@@ -2,6 +2,10 @@
 <CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
     <defaultLandingTab>standard-home</defaultLandingTab>
     <formFactors>Large</formFactors>
-    <tab>standard-AppLauncher</tab>
-    <tab>Custom_Object__c</tab>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <tabs>standard-AppLauncher</tabs>
+    <tabs>Sample_Account_Page</tabs>
+    <tabs>CST_TestPage</tabs>
+    <tabs>Lorem_ipsum_dolor_sit_amet_orci_a_1__c</tabs>
 </CustomApplication>

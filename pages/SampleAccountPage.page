@@ -1,0 +1,162 @@
+<apex:page standardController="Org__c" extensions="EditOrg,Settings" action="{!validate}" title="View {!$ObjectType.Org__c.Label}" id="thePage">
+    <apex:include pageName="UIThemeUtilsInclude" />
+    <div class="slds-scope">
+        <button>
+            test
+        </button>
+        <button class="slds-button slds-button--neutral slds-not-selected">
+            test1
+        </button>
+		<apex:detail subject="{!Org__c}"></apex:detail>
+        <apex:form id="theForm">
+
+            <head>
+                <c:GAnalytics />
+                <c:WizardUtils />
+                <apex:includeScript value="{!URLFOR($Resource.Statics,'js/libs/jquery.min.1.10.2.js')}" />
+                <script>
+                    var $copado = jQuery.noConflict();
+                </script>
+                <script type="text/javascript">
+                    var __sfdcSessionId = '{!GETSESSIONID()}';
+                </script>
+                <script src="/soap/ajax/32.0/connection.js"></script>
+            </head>
+            <c:ScreenLocker msg="{!$Label.LOADING}" />
+            <apex:outputField value="{!Org__c.Metadata_Types__c}" rendered="false" />
+            <span style="display:none;">{!Org__c.Metadata_Types__c}</span>
+
+            <apex:sectionHeader title="{!$ObjectType.Org__c.Label}" subtitle="{!org.Name}" id="sectionHeader" />
+            <apex:pageMessages id="theMessages" />
+            <apex:pageBlock id="pb_createOrg" mode="view" helpUrl="http://docs.copa.do/copado/creating-a-salesforce-org" helpTitle="{!$Label.HELP_FOR_THIS_PAGE}">
+                <apex:pageblockButtons id="pbb">
+                    <apex:commandButton value="{!$Label.site.edit}" action="{!edit}" id="btnEdit" styleClass="slds-button slds-button--neutral slds-not-selected"/>
+                    <apex:commandButton value="{!$Label.DELETE}" action="{!delete}" id="btnDelete" styleClass="slds-button slds-button--neutral slds-not-selected" />
+                    <apex:commandButton value="{!$Label.SHARE}" action="{!URLFOR($Action.Org__c.Share,Org__c.Id)}" rendered="{!isShareable}" styleClass="slds-button slds-button--neutral slds-not-selected" />
+                    <apex:commandButton value="{!$Label.ADD_OAUTH}" action="{!doOauth}" id="btnOAuth" styleClass="slds-button slds-button--neutral slds-not-selected" />
+                    <apex:commandButton value="{!$Label.ADD_USERPASS}" action="{!addUserPass}" rendered="false" styleClass="slds-button slds-button--neutral slds-not-selected" />
+                    <apex:commandButton value="{!$Label.RUN_ALL_TESTS}" action="{!runAllTest}" id="btnRunAllTests" styleClass="slds-button slds-button--neutral slds-not-selected" />
+                    <apex:commandButton value="Apex Test Results Summary" onclick="window.open('/apex/{!namespace}OrgApexTestResultsSummary?id={!Org__c.Id}');return false;" id="btnApexTestSummary" styleClass="slds-button slds-button--neutral slds-not-selected" />
+                </apex:pageblockButtons>
+                <apex:pageBlockSection columns="2" showHeader="true" title="{!$Label.BASIC_INFORMATION}" id="pbsBasicInfo">
+                    <apex:outputField value="{!Org__c.Name}" id="ofName" />
+                    <apex:outputField value="{!Org__c.Environment__c}" id="ofEnvironment" />
+                    <apex:outputField value="{!Org__c.Username__c}" id="ofUserName" />
+                    <apex:outputField value="{!Org__c.Profile_Name__c}" id="ofUserProfileName" />
+
+                    <apex:pageBlockSectionItem rendered="{!showUserPass}">
+                        <apex:outputLabel value="Password" />
+                        <apex:outputText value="{!dumypass}" />
+                    </apex:pageBlockSectionItem>
+
+                    <apex:outputText value="{!Org__c.Token__c}" rendered="{!showUserPass}" />
+                    <apex:outputField value="{!Org__c.Org_Type__c}" id="ofOrgType" />
+                    <apex:outputField value="{!Org__c.Custom_Domain__c}" id="ofCustomDomain" rendered="{!Org__c.Org_Type__c = 'Custom Domain'}" />
+                    <apex:outputField value="{!Org__c.SFDC_Org_ID__c}" id="ofSFDCorgId" />
+                    <apex:outputField value="{!Org__c.Validated_Date__c}" id="ofValidatedDate" />
+                    <apex:outputField value="{!Org__c.Test_Frequency__c}" id="ofTestFrequency" />
+                    <apex:outputField value="{!Org__c.CreatedById}" id="ofCreatedBy" />
+                    <apex:outputField value="{!Org__c.Default_Credential__c}" id="ofDefaultCredential" />
+                    <apex:outputField value="{!Org__c.Error__c}" rendered="{!if(not(isblank(Org__c.Error__c)),true,false)}" id="ofError" />
+
+                    <apex:outputField value="{!Org__c.Disable_Validation__c}" rendered="{!showUserPass}" id="ofDisableValidation" />
+                </apex:pageBlockSection>
+
+
+                <apex:pageBlockSection title="{!$Label.ADVANCED_METADATA_FILTERS}" collapsible="true" showHeader="true" columns="1" id="typesSection">
+                    <apex:pageBlockTable id="pbt_FilteredMetadata" value="{!sel}" var="t">
+                        <apex:column value="{!t}">
+                            <apex:facet name="header">{!$ObjectType.Org__c.fields.Metadata_Types__c.Label}</apex:facet>
+                        </apex:column>
+                    </apex:pageBlockTable>
+                </apex:pageBlockSection>
+                <script>
+                    function twistSection(twisty, sectionId) {
+                        //twistSection code from salesforce.com
+                        var parentDiv = twisty;
+                        while (parentDiv.tagName != 'DIV') {
+                            parentDiv = parentDiv.parentNode;
+                        }
+                        var headerId = sectionId || (parentDiv.id.split('_'))[1];
+                        var div = parentDiv.nextSibling;
+                        var elemWasOn = false;
+                        if (div.style.display != 'none') {
+                            div.style.display = 'none';
+                            twisty.className = 'showListButton';
+                            twisty.alt = twisty.title = 'Show Section - ' + twisty.name;
+                            elemWasOn = true;
+                        } else {
+                            div.style.display = 'block';
+                            twisty.className = 'showListButton';
+                            twisty.alt = twisty.title = 'Show Section - ' + twisty.name;
+                            elemWasOn = false;
+                        }
+                    }
+                    //if not is forced to be opened
+                    !location.href.split('_mtf')[1] &&
+                        //close the metadata filtes 
+                        twistSection($copado('[id$="typesSection"]').find('img')[0]);
+                </script>
+
+                <apex:outputPanel id="pbs_metadata" rendered="{!not(isblank(Org__c.Username__c))}">
+                    <c:ViewOrgMetadataGrid orgId="{!Org__c.Id}" id="cmpViewOrgMetadataGrid" metadataurl="{!JSENCODE(metadata_url)}" />
+                    <script>
+                        ga('send', 'pageview', {
+                            'page': '/viewOrg',
+                            'title': 'View Org'
+                        });
+                    </script>
+                </apex:outputPanel>
+            </apex:pageBlock>
+
+            <c:ApexTestResult id="ApexTestResults" orgId="{!Org__c.Id}" attachmentId="{!resAttId}" minCodeCoverage="{!Org__c.Minimum_Apex_Test_Coverage__c}" />
+            <br />
+        </apex:form>
+
+        <apex:relatedList title="Org Attachments" list="CombinedAttachments" rendered="false" />
+        <apex:relatedList list="Apex_Test_Results__r" id="relatedListApexResults" />
+
+        <apex:relatedList list="Git_Org_Commits__r" id="relatedListGitCommits" />
+        <c:CheckFeaturesComponent />
+        <hr/>
+        <h1>ForceUI Utilities</h1>
+
+        <p>This is a page used for testing different ways of determining the user interface context in which it's being displayed.</p>
+
+        <h2>$User.UITheme Global Variable</h2>
+
+        <p><label>$User.UITheme</label>: {! $User.UITheme }</p>
+        <p><label>$User.UIThemeDisplayed</label>: {! $User.UIThemeDisplayed }</p>
+
+
+        <h2>UIUtils JavaScript</h2>
+
+        <p><label>ForceUI.UserUITheme</label>:
+            <span id="UserUIThemeJS">(loading...)</span></p>
+
+        <p><label>isSalesforce1()</label>:
+            <span id="isSalesforce1JS">(loading...)</span></p>
+
+        <p><label>isLightningExperience()</label>:
+            <span id="isLightningExperienceJS">(loading...)</span></p>
+
+        <p><label>isSalesforceClassic()</label>:
+            <span id="isSalesforceClassicJS">(loading...)</span></p>
+
+        <script type="text/javascript">
+            document.addEventListener('DOMContentLoaded', function(event) {
+                // Diagnostic only -- don't use this value directly
+                document.getElementById('UserUIThemeJS').innerHTML = ForceUI.UserUITheme;
+                // Instead, use these utility methods
+                document.getElementById('isSalesforce1JS').innerHTML =
+                    ForceUI.isSalesforce1();
+                document.getElementById('isLightningExperienceJS').innerHTML =
+                    ForceUI.isLightningExperience();
+                document.getElementById('isSalesforceClassicJS').innerHTML =
+                    ForceUI.isSalesforceClassic();
+            });
+        </script>
+
+    </div>
+
+</apex:page>

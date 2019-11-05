@@ -1,0 +1,21 @@
+<apex:page standardController="Account" extensions="CST_TestPage1Ext" showHeader="false" sidebar="false">
+    <apex:pageMessages />
+    
+    <h1>CST Test Page iframe</h1>
+    Testing page with a very long initial load time.
+    
+    <apex:form >
+    <apex:outputText value="Watch this counter: {!count}" id="counter"/>
+    <apex:actionPoller action="{!incrementCounter}" reRender="counter" interval="5"/>
+    </apex:form>
+
+    <apex:form >
+        <apex:commandButton action="{!longWaitAction}" value="Long loading time."/>
+    </apex:form>
+
+    <apex:detail subject="{!Account}"/>
+    <hr/>
+    <h3>Element outside an iframe, and inside too</h3><br/>
+    <input type="text" value="" id="dummy"/>
+    <br/>
+</apex:page>

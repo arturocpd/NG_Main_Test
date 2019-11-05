@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Kitchen Sink</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Kitchen Sinks</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account!Filter --></label>
+        <name>Account_Filter__c</name>
+        <relationshipLabel><!-- Kitchen Sinks (Account!Filter) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- Kitchen Sinks --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Checkbox --></help>
+        <label><!-- Checkbox --></label>
+        <name>Checkbox__c</name>
+    </fields>
+    <fields>
+        <help><!-- Optional dependancy --></help>
+        <label><!-- Contact --></label>
+        <name>ContactFiltDep__c</name>
+        <relationshipLabel><!-- Kitchen Sinks (Contact) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Contact --></label>
+        <name>Contact__c</name>
+        <relationshipLabel><!-- Kitchen Sinks --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Currency --></help>
+        <label><!-- Currency --></label>
+        <name>Currency__c</name>
+    </fields>
+    <fields>
+        <help><!-- Date/Time --></help>
+        <label><!-- Date/Time --></label>
+        <name>Date_Time__c</name>
+    </fields>
+    <fields>
+        <help><!-- Date --></help>
+        <label><!-- Date --></label>
+        <name>Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Datetime Formula --></label>
+        <name>Datetime_Formula__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ext Id --></label>
+        <name>Ext_Id__c</name>
+    </fields>
+    <fields>
+        <help><!-- IF(false &lt;&gt; true, &quot;&lt;A&gt;&quot;, &quot;&lt;B&gt;&quot;)
+
+WHAT! --></help>
+        <label><!-- Fórmula&lt;1&gt; --></label>
+        <name>F_rmula__c</name>
+    </fields>
+    <fields>
+        <label><!-- Icon --></label>
+        <name>Icon__c</name>
+    </fields>
+    <fields>
+        <help><!-- Percent --></help>
+        <label><!-- Percent --></label>
+        <name>Percent__c</name>
+    </fields>
+    <fields>
+        <help><!-- Picklist Global --></help>
+        <label><!-- Picklist Global --></label>
+        <name>Pick__c</name>
+    </fields>
+    <fields>
+        <label><!-- Picklist --></label>
+        <name>Picklist2__c</name>
+        <picklistValues>
+            <masterLabel>aáa</masterLabel>
+            <translation><!-- aáa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>uúu</masterLabel>
+            <translation><!-- uúu --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Picklist Multi Global --></help>
+        <label><!-- Picklist Multi Global --></label>
+        <name>Picklist_Multi_Global__c</name>
+    </fields>
+    <fields>
+        <help><!-- Picklist --></help>
+        <label><!-- Picklist --></label>
+        <name>Picklist__c</name>
+        <picklistValues>
+            <masterLabel>four</masterLabel>
+            <translation><!-- four --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>one</masterLabel>
+            <translation><!-- one --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>three</masterLabel>
+            <translation><!-- three --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>two</masterLabel>
+            <translation><!-- two --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Ritch Text --></help>
+        <label><!-- Ritch Text --></label>
+        <name>Ritch_Text__c</name>
+    </fields>
+    <fields>
+        <help><!-- 8 --></help>
+        <label><!-- Short Descriptión --></label>
+        <name>Short_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Time --></label>
+        <name>Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- rich text --></label>
+        <name>rich_text__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- false &lt;&gt; false MUST be FALSE★ --></errorMessage>
+        <name>Formula2</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- false &lt;&gt; false MUST be FALSE★ --></errorMessage>
+        <name>Formula3</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Go --></label>
+        <name>Go</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Open_popup --></label>
+        <name>Open_popup</name>
+    </webLinks>
+</CustomObjectTranslation>

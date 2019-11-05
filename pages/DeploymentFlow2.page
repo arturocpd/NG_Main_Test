@@ -1,0 +1,198 @@
+<apex:page standardController="Deployment_Flow__c" extensions="DeploymentFlowExtension">
+    
+    {!$User.UIThemeDisplayed}
+    <apex:variable var="uiTheme" value="lightningDesktop"  rendered="{!$User.UIThemeDisplayed == 'Theme4d'}">
+	    <!-- Lightning Desktop extra styles -->
+	    <apex:slds />
+    </apex:variable>
+    
+    <style type="text/css">
+        .gitIconOrState {
+	        text-decoration: none;
+            font-family: "Courier New";
+            font-size: 18px;
+            padding: 3px;
+            margin: 0;
+        }
+        .copadoBtnFix {
+        	color: #333 !important;
+        	text-decoration: none;
+        }
+    </style>
+    <script type="text/javascript">__sfdcSessionId = '{!GETSESSIONID()}';</script>
+    <script src="/soap/ajax/39.0/connection.js"></script>
+	<script>
+		var deploymentFlowInfo = {};
+	    deploymentFlowInfo.deploymentFlow = {!jsonDeploymentFlow};
+	    deploymentFlowInfo.gitStatesMap = {!jsonGitStatusMap};
+    
+    	function querySelectorContainsRegex(node, selector, text) {
+          return Array.prototype.filter.call(node.querySelectorAll(selector), function(e){
+            return RegExp(text).test(e.textContent);
+          });
+        }
+    	
+    	window.addEventListener('load', function() {
+        	var elementsToReplace = querySelectorContainsRegex(document, 'td.dataCell', '\(coGitState_[a-zA-Z0-9]+\)');
+            for(var i=0 ; i < elementsToReplace.length ; i++ ) {
+                var elt = elementsToReplace[i];
+                var deploymentFlowStepId, gitState;
+                
+                if(elt.tagName==='TD') {
+                    // get the ID from the text.
+                    deploymentFlowStepId = elt.innerText.trim().replace('(coGitState_','').replace(')','');
+                }else{
+                    console.error('found and element to replace but something is amiss', elt);
+                    continue;
+                }
+                elt.innerText = '';
+                
+                gitState = deploymentFlowInfo.gitStatesMap[deploymentFlowStepId];
+                console.warn(deploymentFlowStepId, gitState, deploymentFlowInfo.gitStatesMap);
+                if(i%2) {
+                    elt.innerHTML = '<div><br/>Validation [icon] - Differences [icon] - Errors [icon]</div>';
+                }else{
+	                elt.innerHTML = '<div><br/>In sync [icon]</div>';
+                }
+            }
+        });
+        
+        // https://github.com/allenhwkim/js-template
+        var jsTemplate = (function() {
+            'use strict';
+            var templateCache = {}; //cache by template
+        
+            var getLineNoAdded = function(str) {
+                return str.split("\n").map(function(line, i) {
+                    return "<% LINE(" + (i + 1) + "); %>" + line;
+                }).join("\n");
+            };
+        
+            var setWhiteSpaces = function(str, set) {
+                if (set) { //replace white spaces to special characters
+                    return str.replace(/[\r]/g, "::BR::")
+                        .replace(/[\n]/g, "::BN::")
+                        .replace(/[\t]/g, "::BT::");
+                } else { // restore white spaces and remove empty lines
+                    return str.replace(/::BR::/g, "\r")
+                        .replace(/::BN::/g, "\n")
+                        .replace(/::BT::/g, "\t")
+                        .replace(/^\s*[\r\n]/gm, "").trim();
+                }
+            };
+        
+            var addUndefinedCheck = function(str) {
+                return str.replace(/<%\s*if\s*\(\s*([a-z_]+)\s*\)/gi, "<% if (typeof $1 !== 'undefined')")
+                    .replace(/<%=\s*([a-z_]+)\s*%>/gi, "<%= typeof $1 == 'undefined' ? '' : $1 %>");
+            };
+        
+            var templateFunc = function(str) {
+                str = getLineNoAdded(str);
+                str = setWhiteSpaces(str, true);
+                str = addUndefinedCheck(str);
+        
+                var func = templateCache[str];
+                if (!func) {
+                    var strFunc = [
+                        'var lineNo;',
+                        'try{',
+                        'var p=[];',
+                        'var LINE=function(no){lineNo=no};',
+                        "with(data){p.push('",
+                        str.replace(/'(?=[^%]*%>)/g, "\t")
+                        .split("'").join("\\'")
+                        .split("\t").join("'")
+                        .replace(/<%=(.+?)%>/g, "',$1,'")
+                        .split("<%").join("');")
+                        .split("%>").join("p.push('"),
+                        "  ');}",
+                        "  return p.join('');",
+                        '}catch(e){',
+                        '  e.lineNo = lineNo;',
+                        '  throw e;',
+                        '}'
+                    ].join('');
+                    func = new Function("data", strFunc);
+                    templateCache[str] = func;
+                }
+                return func;
+            };
+        
+            var jsTemplate = function(str, data) {
+                data.include = jsTemplate; // include(path, data) function
+                var template = templateFunc(str);
+                try {
+                    var output = template(data);
+                    output = setWhiteSpaces(output, false);
+                    return output;
+                } catch (e) {
+                    console.log("jsTemplate error in line", e.lineNo);
+                    throw e;
+                }
+            };
+        })();
+    
+    </script>
+    <apex:pageMessages ></apex:pageMessages>
+    
+    <apex:detail subject="{!Deployment_Flow__c}" relatedList="true" relatedListHover="false" inlineEdit="false" />
+    
+    <apex:pageBlock title="Deployment Flow Steps">
+        <apex:pageBlockButtons location="top">
+            <apex:form >
+	            <apex:outputLink value="{!URLFOR($Action.Deployment_Flow_Step__c.New,null)}" styleClass="btn newButton copadoBtnFix">New {!$ObjectType.Deployment_Flow_Step__c.Label}</apex:outputLink>
+            </apex:form>
+        </apex:pageBlockButtons>
+        <apex:pageBlockTable value="{!steps}" var="row">
+            <apex:column styleClass="actionColumn">
+                <apex:outputPanel rendered="{!row.Id!=null}">
+                <apex:outputLink title="" value="/{!row.id}/e?retURL=/apex/{!$CurrentPage.Name}" styleClass="actionLink">Edit</apex:outputLink>
+                |
+                <apex:outputLink title="" value="javascript&colon;if (window.confirm('Are you sure?')) DeleteAccount('{!row.Id}');" styleClass="actionLink">Edit</apex:outputLink>
+                </apex:outputPanel>
+            </apex:column>
+            <apex:column >
+                <apex:facet name="header">{!$ObjectType.Deployment_Flow_Step__c.fields.Name.Label}</apex:facet>
+                <apex:outputLink title="" value="{!URLFOR($Action.Deployment_Flow_Step__c.View, row.Id)}" styleClass="actionLink" rendered="{!row.Id!=null}">{!row.Name}</apex:outputLink>
+                <apex:outputText rendered="{!row.Id=null}">Main Branch</apex:outputText>
+            </apex:column>
+            <apex:column >
+                <apex:facet name="header">{!$ObjectType.Deployment_Flow_Step__c.fields.Branch__c.Label}</apex:facet>
+                {!row.Branch__c}
+            </apex:column>
+            <apex:column >
+                <apex:facet name="header">{!$ObjectType.Deployment_Flow_Step__c.fields.Source_Environment__c.Label}</apex:facet>
+                {!BLANKVALUE(row.Source_Environment__r.Name, '-')}</apex:column>
+            <apex:column >
+                <apex:facet name="header">{!$ObjectType.Deployment_Flow_Step__c.fields.Destination_Environment__c.Label}</apex:facet>
+                {!BLANKVALUE(row.Destination_Environment__r.Name, '-')}
+            </apex:column>
+            <apex:column >
+                <apex:facet name="header">Git state</apex:facet>
+                <div class="copadoDeploymentFlow_{!row.Id}">
+                    <button class="slds-button" title="Refresh"><span class="gitIconOrState">&#x21bb;</span></button> &nbsp;
+                    <span class="gitIconOrState" title="Validation">&#x2611;</span>
+                    <span class="gitIconOrState" title="Differences">&#x2611;</span>
+                    <span class="gitIconOrState" title="Errors">-</span> &nbsp;
+                    <button class="slds-button" title="Sync"><span class="gitIconOrState">&#x21c4;</span></button>
+                    &nbsp; 3 ahead, 2 behind (FROM -> TO)
+                </div>
+            </apex:column>
+        </apex:pageBlockTable>
+    </apex:pageBlock>
+
+    <apex:pageBlock title="CI links">
+        <p>To create new CI flows, go to the CI app, and create a new record, matching the desided Git Branch and Environment</p>
+        TODO!
+    </apex:pageBlock>
+
+    <apex:relatedList list="Deployment_Flow_Steps__r" title="DEMO. REMOVE" />
+    <pre>
+		{!jsonDeploymentFlow}
+		<hr/>
+		{!jsonGitStatusMap}
+		<hr/>
+		{!JsonNodes}
+	</pre>
+
+</apex:page>

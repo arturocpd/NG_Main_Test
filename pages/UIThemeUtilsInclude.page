@@ -1,0 +1,34 @@
+<apex:page docType="html-5.0" applyBodyTag="false" applyHtmlTag="false" showHeader="false" standardStylesheets="false">
+
+<!-- UITHEME INJECTOR -->
+<script type="text/javascript">
+// This is an anonymous self-executing function closure thingie,
+// like all the cool kids are using these days.
+(function(myContext){
+
+    // Deal with possible order-of-execution issues.
+    // Don't overwrite ourself if we already exist.
+    myContext.ForceUI = myContext.ForceUI || {};
+    myContext.ForceUI.UserUITheme = '{! $User.UIThemeDisplayed }';
+
+    // Utility methods that make simple string comparisons
+    // against a local UserUITheme value. This value is
+    // injected from a Visualforce page to allow expression
+    // evaluation of the $User.UIThemeDisplayed global.
+    myContext.ForceUI.isSalesforceClassic = function() {
+        return (this.UserUITheme == 'Theme3');
+    }
+    myContext.ForceUI.isLightningExperience = function() {
+        return (this.UserUITheme == 'Theme4d');
+    }
+    myContext.ForceUI.isSalesforce1 = function() {
+        return (this.UserUITheme == 'Theme4t');
+    }
+})(this);    
+</script>
+<!-- UITHEME INJECTOR -->
+
+    <apex:variable var="isSalesforceClassic" value="{! $User.UIThemeDisplayed=='Theme3' }"></apex:variable>
+    <apex:slds rendered="{! !isSalesforceClassic}"/>
+
+</apex:page>

@@ -1,5 +1,5 @@
-Public Class AppleWatch{
- Public Static void AppleWatchmethod(list<Opportunity> lopt ){
+Public with sharing Class AppleWatch{
+ Public Static void appleWatchmethod(list<Opportunity> lopt ){
     for (Opportunity opp : lopt) {
         Task t        = new Task();
         t.Subject     = 'Apple Watch Promo';
@@ -7,15 +7,13 @@ Public Class AppleWatch{
         t.Priority    = 'High';
         t.WhatId      = opp.Id;
         insert t;
-     /*conflict here test 2334*/
-     //testing Git Metadata Step 2
-     /* test new commit user story ZZZZ*/
-     /* conflict here in master*/
-     //testing 2 comment trying to force a conflict here
-     //new line
-       
-    }
-
+     /*conflict here test 2334*/ 
+     /*conflict  test */
+     /*conflict MODDD2 */
+     /*conflict   2334*/
+     /*conadfrflict here test 2334*/
+   }
+  
+  }
  
  }
-}

@@ -1,0 +1,66 @@
+<apex:page standardController="Deployment_Flow__c" extensions="DeploymentFlowExtension">
+    <style type="text/css">
+        .gitIconOrState {
+	        text-decoration: none;
+            font-family: "Courier New";
+            font-size: 18px;
+            padding: 3px;
+            margin: 0;
+        }
+    </style>
+    <script type="text/javascript">__sfdcSessionId = '{!GETSESSIONID()}';</script>
+    <script src="/soap/ajax/39.0/connection.js"></script>
+
+    <apex:pageMessages ></apex:pageMessages>
+    <apex:detail subject="{!Deployment_Flow__c}" relatedList="false" relatedListHover="false" inlineEdit="false" />
+    <apex:relatedList list="Deployment_Flow_Steps__r" title="DEMO. REMOVE" />
+    
+    <!--
+    <apex:pageBlock title="Deployment Flow Steps">
+        <apex:pageBlockButtons location="top">
+            <apex:form >
+                <apex:commandButton action="{!save}" value="New" styleClass="slds-button slds-button--neutral" /></apex:form>
+        </apex:pageBlockButtons>
+        <apex:pageBlockTable value="{!Deployment_Flow_c.Deployment_Flow_Steps}" var="row">
+            <apex:column styleClass="actionColumn">
+                <apex:outputLink title="" value="/{!row.id}/e?retURL=/apex/{!$CurrentPage.Name}" styleClass="actionLink">Edit</apex:outputLink>
+                |
+                <a href="javascript&colon;if (window.confirm('Are you sure?')) DeleteAccount('{!row.Id}');" class="actionLink">Del</a>
+            </apex:column>
+            <apex:column >
+                <apex:facet name="header">From Env</apex:facet>
+                TODO</apex:column>
+            <apex:column >
+                <apex:facet name="header">To Env</apex:facet>
+                TODO</apex:column>
+            <apex:column >
+                <apex:facet name="header">To Git Branch</apex:facet>
+                TODO</apex:column>
+            <apex:column >
+                <apex:facet name="header">Git state</apex:facet>
+                <button class="slds-button" title="Refresh"><span class="gitIconOrState">&#x21bb;</span></button> &nbsp;
+                <span class="gitIconOrState" title="Validation">&#x2611;</span>
+                <span class="gitIconOrState" title="Differences">&#x2611;</span>
+                <span class="gitIconOrState" title="Errors">-</span> &nbsp;
+                <button class="slds-button" title="Sync"><span class="gitIconOrState">&#x21c4;</span></button>
+                &nbsp; 3 ahead, 2 behind (FROM -> TO)
+            </apex:column>
+        </apex:pageBlockTable>
+    </apex:pageBlock>
+    -->
+    
+    <!--
+    <apex:pageBlock title="CI links">
+        <p>To create new CI flows, go to the CI app, and create a new record, matching the desided Git Branch and Environment</p>
+        <apex:pageBlockTable value="{!obj.Deployment_Flow_Steps}" var="row">
+            <apex:column value="{!row.Id}" />
+            <apex:column >
+                <apex:facet name="header">From Env</apex:facet>
+                TODO</apex:column>
+            <apex:column >
+                <apex:facet name="header">To Env</apex:facet>
+                TODO</apex:column>
+        </apex:pageBlockTable>
+    </apex:pageBlock>
+	-->
+</apex:page>
