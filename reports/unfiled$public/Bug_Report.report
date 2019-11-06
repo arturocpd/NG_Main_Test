@@ -12,7 +12,7 @@
         <dataType>Double</dataType>
         <developerName>CDF1</developerName>
         <label>Vehicle Age in Months</label>
-        <scale>0</scale>
+        <scale>2</scale>
     </customDetailFormulas>
     <format>Tabular</format>
     <name>Bug Report</name>
