@@ -6,6 +6,14 @@
     <columns>
         <field>AMOUNT</field>
     </columns>
+    <customDetailFormulas>
+        <calculatedFormula>IF( 
+(today() - Asset.InitialRegistrationDate__c) / 365 * 12 &lt; 1, 1, (today() - Asset.InitialRegistrationDate__c) / 365 * 12)</calculatedFormula>
+        <dataType>Double</dataType>
+        <developerName>CDF1</developerName>
+        <label>Vehicle Age in Months</label>
+        <scale>0</scale>
+    </customDetailFormulas>
     <format>Tabular</format>
     <name>Bug Report</name>
     <params>
