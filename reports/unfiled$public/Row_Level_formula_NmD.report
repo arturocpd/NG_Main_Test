@@ -48,7 +48,7 @@
         <dataType>Double</dataType>
         <developerName>CDF1</developerName>
         <label>Amount</label>
-        <scale>2</scale>
+        <scale>3</scale>
     </customDetailFormulas>
     <format>Tabular</format>
     <name>Row Level formula</name>
