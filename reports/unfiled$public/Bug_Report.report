@@ -5,7 +5,6 @@
         <datatype>number</datatype>
         <description>This is a formual field</description>
         <developerName>FORMULA1</developerName>
-        <downGroupingContext>GRAND_SUMMARY</downGroupingContext>
         <isActive>false</isActive>
         <isCrossBlock>false</isCrossBlock>
         <masterLabel>Formula1</masterLabel>
