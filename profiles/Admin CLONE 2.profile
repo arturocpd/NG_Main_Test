@@ -90,10 +90,6 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>AppleWatch</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>AppleWatchTest</apexClass>
         <enabled>false</enabled>
     </classAccesses>
