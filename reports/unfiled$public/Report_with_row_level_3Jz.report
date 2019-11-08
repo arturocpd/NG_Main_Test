@@ -54,7 +54,7 @@
         <dataType>Double</dataType>
         <developerName>CDF1</developerName>
         <label>Row level</label>
-        <scale>2</scale>
+        <scale>1</scale>
     </customDetailFormulas>
     <format>Tabular</format>
     <name>Report with row level</name>
