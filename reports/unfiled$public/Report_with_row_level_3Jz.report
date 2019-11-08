@@ -49,6 +49,13 @@
         <aggregateTypes>Sum</aggregateTypes>
         <field>CDF1</field>
     </columns>
+    <customDetailFormulas>
+        <calculatedFormula>IF(AMOUNT&gt;0,10,100)</calculatedFormula>
+        <dataType>Double</dataType>
+        <developerName>CDF1</developerName>
+        <label>Row level</label>
+        <scale>2</scale>
+    </customDetailFormulas>
     <format>Tabular</format>
     <name>Report with row level</name>
     <params>
