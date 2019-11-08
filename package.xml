@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Dinner__c.Picklist_Dinner_Table__c</members>
-        <name>CustomField</name>
-    </types>
-    <types>
-        <members>Dinner__c.Nested_Dinner_RT</members>
-        <name>RecordType</name>
+        <members>unfiled$public/Report_No_row_level_TJQ</members>
+        <members>unfiled$public/Report_with_row_level_3Jz</members>
+        <name>Report</name>
     </types>
     <version>46.0</version>
 </Package>
