@@ -7,7 +7,7 @@ Public with sharing Class AppleWatch{
         t.Priority    = 'High';
         t.WhatId      = opp.Id;
         insert t;
-     /*Commit API47 test*/
+     /*Commit conflict*/
      /*Comment Number 2*/ 
      
    }

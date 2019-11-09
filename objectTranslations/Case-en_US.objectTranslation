@@ -1279,6 +1279,14 @@
         <name>Report_test_Field__c</name>
     </fields>
     <fields>
+        <label><!-- Row Level test2 --></label>
+        <name>Row_Level_test2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Row Level test --></label>
+        <name>Row_Level_test__c</name>
+    </fields>
+    <fields>
         <label><!-- SLA Violation --></label>
         <name>SLAViolation__c</name>
         <picklistValues>
