@@ -3213,7 +3213,7 @@
         <name>Create_Case_AR</name>
     </quickActions>
     <quickActions>
-        <label><!-- LogACall --></label>
+        <label><!-- Log a Call --></label>
         <name>LogACall</name>
     </quickActions>
     <quickActions>
@@ -3229,7 +3229,7 @@
         <name>NewContact</name>
     </quickActions>
     <quickActions>
-        <label><!-- NewEvent --></label>
+        <label><!-- New Event --></label>
         <name>NewEvent</name>
     </quickActions>
     <quickActions>

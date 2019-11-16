@@ -179,6 +179,16 @@
         <type>Picklist</type>
     </fields>
     <fields>
+        <fullName>Search_Layout_Product_test__c</fullName>
+        <externalId>false</externalId>
+        <label>Search Layout Product test</label>
+        <length>12</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>StockKeepingUnit</fullName>
         <trackHistory>false</trackHistory>
     </fields>
