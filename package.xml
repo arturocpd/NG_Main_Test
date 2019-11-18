@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
+        <members>Product2.Commit_test_3__c</members>
+        <members>Product2.Commit_test_4__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
         <members>dzpProductForTest (39904360-1819-2ead-6482-bcc025d9c1d3)</members>
         <name>Product2</name>
     </types>
