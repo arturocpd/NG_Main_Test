@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Dinner__c.Picklist_Dinner_Table__c</members>
+        <members>Dinner__c.Dinner_Type__c</members>
         <name>CustomField</name>
     </types>
     <types>
-        <members>Dinner__c.Nested_Dinner_RT</members>
+        <members>Dinner__c.Dinner_RT</members>
         <name>RecordType</name>
     </types>
     <version>46.0</version>
