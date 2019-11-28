@@ -160,30 +160,6 @@
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
     <fields>
-        <fullName>Dinner_Type__c</fullName>
-        <externalId>false</externalId>
-        <label>Dinner Type</label>
-        <required>false</required>
-        <trackHistory>false</trackHistory>
-        <type>Picklist</type>
-        <valueSet>
-            <restricted>true</restricted>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>Full</fullName>
-                    <default>false</default>
-                    <label>Full</label>
-                </value>
-                <value>
-                    <fullName>Partial</fullName>
-                    <default>false</default>
-                    <label>Partial</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
-    </fields>
-    <fields>
         <fullName>External_Auto__c</fullName>
         <externalId>true</externalId>
         <label>External Auto</label>
@@ -298,17 +274,6 @@
         <fullName>Dinner_RT</fullName>
         <active>true</active>
         <label>Dinner RT</label>
-        <picklistValues>
-            <picklist>Dinner_Type__c</picklist>
-            <values>
-                <fullName>Full</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Partial</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
         <picklistValues>
             <picklist>Automatic_Renewal_Clause__c</picklist>
             <values>
