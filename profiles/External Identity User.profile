@@ -1902,6 +1902,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Dinner__c.Dinner_Type__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Dinner__c.External_Auto__c</field>
         <readable>false</readable>
     </fieldPermissions>

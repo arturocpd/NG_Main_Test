@@ -1688,6 +1688,7 @@
         <members>Dinner__ChangeEvent.ChangeEventHeader</members>
         <members>Dinner__ChangeEvent.CreatedById</members>
         <members>Dinner__ChangeEvent.CreatedDate</members>
+        <members>Dinner__ChangeEvent.Dinner_Type__c</members>
         <members>Dinner__ChangeEvent.External_Auto__c</members>
         <members>Dinner__ChangeEvent.Id</members>
         <members>Dinner__ChangeEvent.LastModifiedById</members>
