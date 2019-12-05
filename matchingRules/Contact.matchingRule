@@ -12,6 +12,7 @@
     </matchingRules>
     <matchingRules>
         <fullName>Contact_Rule_B</fullName>
+        <description>Contact Rule B description</description>
         <label>Contact Rule B</label>
         <matchingRuleItems>
             <blankValueBehavior>MatchBlanks</blankValueBehavior>
