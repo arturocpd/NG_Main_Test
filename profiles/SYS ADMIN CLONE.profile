@@ -137,6 +137,14 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>DoNotUseAppleWatch</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>DoNotUseAppleWatchTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>Flow_LevelTest</apexClass>
         <enabled>false</enabled>
     </classAccesses>
