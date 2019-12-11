@@ -16,6 +16,10 @@
             <translation><!-- Full --></translation>
         </picklistValues>
         <picklistValues>
+            <masterLabel>High Touch/High Urgency</masterLabel>
+            <translation><!-- High Touch/High Urgency --></translation>
+        </picklistValues>
+        <picklistValues>
             <masterLabel>Partial</masterLabel>
             <translation><!-- Partial --></translation>
         </picklistValues>

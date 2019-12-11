@@ -180,6 +180,11 @@
                     <default>false</default>
                     <label>Partial</label>
                 </value>
+                <value>
+                    <fullName>High Touch/High Urgency</fullName>
+                    <default>false</default>
+                    <label>High Touch/High Urgency</label>
+                </value>
             </valueSetDefinition>
         </valueSet>
     </fields>
@@ -329,6 +334,10 @@
                 <default>false</default>
             </values>
             <values>
+                <fullName>High Touch%2FHigh Urgency</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Partial</fullName>
                 <default>false</default>
             </values>
@@ -367,6 +376,10 @@
                 <default>false</default>
             </values>
             <values>
+                <fullName>High Touch%2FHigh Urgency</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Partial</fullName>
                 <default>false</default>
             </values>
@@ -402,6 +415,10 @@
             <picklist>Dinner_Type__c</picklist>
             <values>
                 <fullName>Full</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>High Touch%2FHigh Urgency</fullName>
                 <default>false</default>
             </values>
             <values>
