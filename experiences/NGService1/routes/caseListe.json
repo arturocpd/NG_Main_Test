@@ -1,0 +1,9 @@
+{
+  "appPageId" : "cf3fe560-89f3-46c9-b79f-74a91998c7c7",
+  "id" : "eb87f8ed-6ef6-4316-aec7-92687721c3cf",
+  "label" : "Case Liste",
+  "pageAccess" : "UseParent",
+  "routeType" : "list-500",
+  "type" : "route",
+  "urlPrefix" : "case"
+}

@@ -1,0 +1,9 @@
+{
+  "appPageId" : "cf3fe560-89f3-46c9-b79f-74a91998c7c7",
+  "id" : "1229a6cb-5cd4-49e0-9477-df9de3c0c54e",
+  "label" : "User Profile",
+  "pageAccess" : "UseParent",
+  "routeType" : "detail-005",
+  "type" : "route",
+  "urlPrefix" : "profile"
+}
