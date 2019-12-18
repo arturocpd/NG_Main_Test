@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Dinner__c.Dinner_Type__c</members>
-        <name>CustomField</name>
+        <members>Dinner__c-Lunch Layout</members>
+        <name>Layout</name>
     </types>
     <types>
-        <members>Dinner__c.Dinner_RT</members>
+        <members>Admin CLONE 2</members>
+        <name>Profile</name>
+    </types>
+    <types>
+        <members>Dinner__c.Dinner_RT_2</members>
         <name>RecordType</name>
     </types>
     <version>46.0</version>
