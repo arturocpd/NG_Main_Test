@@ -28,8 +28,8 @@
         <enableUpgradeInsecureRequests>false</enableUpgradeInsecureRequests>
         <enableXssProtection>true</enableXssProtection>
         <enforceIpRangesEveryRequest>false</enforceIpRangesEveryRequest>
-        <forceLogoutOnSessionTimeout>true</forceLogoutOnSessionTimeout>
-        <forceRelogin>true</forceRelogin>
+        <forceLogoutOnSessionTimeout>false</forceLogoutOnSessionTimeout>
+        <forceRelogin>false</forceRelogin>
         <hstsOnForcecomSites>false</hstsOnForcecomSites>
         <identityConfirmationOnEmailChange>false</identityConfirmationOnEmailChange>
         <identityConfirmationOnTwoFactorRegistrationEnabled>false</identityConfirmationOnTwoFactorRegistrationEnabled>
@@ -42,6 +42,6 @@
         <requireHttpOnly>false</requireHttpOnly>
         <requireHttps>true</requireHttps>
         <securityCentralKillSession>true</securityCentralKillSession>
-        <sessionTimeout>TwoHours</sessionTimeout>
+        <sessionTimeout>TwentyFourHours</sessionTimeout>
     </sessionSettings>
 </SecuritySettings>
