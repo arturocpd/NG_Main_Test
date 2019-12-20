@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>No Class Access</members>
-        <name>Profile</name>
+        <members>EmailLabel</members>
+        <name>CustomLabel</name>
+    </types>
+    <types>
+        <members>email_folder</members>
+        <members>email_folder/Test_Label</members>
+        <name>EmailTemplate</name>
     </types>
     <version>46.0</version>
 </Package>

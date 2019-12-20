@@ -419,6 +419,13 @@
         <value>Edit</value>
     </labels>
     <labels>
+        <fullName>EmailLabel</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>To be used on email template</shortDescription>
+        <value>emailvalue</value>
+    </labels>
+    <labels>
         <fullName>ExternalOrderPreparedBySESAID</fullName>
         <categories>orderReqIFW (CT-939)</categories>
         <language>en_US</language>
