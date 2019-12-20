@@ -6151,7 +6151,7 @@
         <visible>true</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
-        <default>true</default>
+        <default>false</default>
         <recordType>Dinner__c.Dinner_RT</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
@@ -6159,11 +6159,6 @@
         <default>false</default>
         <recordType>Dinner__c.Dinner_RT_2</recordType>
         <visible>false</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <default>false</default>
-        <recordType>Dinner__c.Nested_Dinner_RT</recordType>
-        <visible>true</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>true</default>
