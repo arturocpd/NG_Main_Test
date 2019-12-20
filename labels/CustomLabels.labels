@@ -2098,6 +2098,13 @@
         <value>The object should have at least one external Id field.</value>
     </labels>
     <labels>
+        <fullName>EmailLabel</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>To be used on email template</shortDescription>
+        <value>emailvalue</value>
+    </labels>
+    <labels>
         <fullName>Enable_Auto_Selection_Overwrite</fullName>
         <categories>MassBackPromote CBM2</categories>
         <language>en_US</language>
