@@ -5,6 +5,7 @@
         <name>Profile</name>
     </types>
     <types>
+        <members>Dinner__c.Dinner_RT</members>
         <members>Dinner__c.Nested_Dinner_RT</members>
         <name>RecordType</name>
     </types>
