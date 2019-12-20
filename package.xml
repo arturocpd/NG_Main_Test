@@ -9,6 +9,7 @@
         <name>Profile</name>
     </types>
     <types>
+        <members>Dinner__c.Dinner_RT</members>
         <members>Dinner__c.Dinner_RT_2</members>
         <name>RecordType</name>
     </types>
