@@ -466,6 +466,10 @@
                 <behavior>Edit</behavior>
                 <field>Row_Level_test2__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Field_Test_FP__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>

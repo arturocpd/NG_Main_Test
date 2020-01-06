@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Profile xmlns="http://soap.sforce.com/2006/04/metadata">
     <applicationVisibilities>
+        <application>Test_App</application>
+        <default>false</default>
+        <visible>false</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
         <application>Test_Omni_commit</application>
         <default>false</default>
         <visible>false</visible>
@@ -1134,6 +1139,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Case.FLS_commit_test__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Case.Field_Test_FP__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
