@@ -3,8 +3,8 @@
     <fullName>Admin CLONE 2</fullName>
     <applicationVisibilities>
         <application>Test_App</application>
-        <default>true</default>
-        <visible>true</visible>
+        <default>false</default>
+        <visible>false</visible>
     </applicationVisibilities>
     <applicationVisibilities>
         <application>Test_Omni_commit</application>
@@ -73,7 +73,7 @@
     </applicationVisibilities>
     <applicationVisibilities>
         <application>standard__Service</application>
-        <default>false</default>
+        <default>true</default>
         <visible>true</visible>
     </applicationVisibilities>
     <applicationVisibilities>
