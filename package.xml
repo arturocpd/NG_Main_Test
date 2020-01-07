@@ -513,8 +513,10 @@
         <members>AuthorizationFormConsent.ConsentCapturedDateTime</members>
         <members>AuthorizationFormConsent.ConsentCapturedSource</members>
         <members>AuthorizationFormConsent.ConsentCapturedSourceType</members>
+        <members>AuthorizationFormConsent.ConsentGiverId</members>
         <members>AuthorizationFormConsent.CreatedById</members>
         <members>AuthorizationFormConsent.CreatedDate</members>
+        <members>AuthorizationFormConsent.DocumentVersionId</members>
         <members>AuthorizationFormConsent.Id</members>
         <members>AuthorizationFormConsent.IsDeleted</members>
         <members>AuthorizationFormConsent.LastModifiedById</members>
@@ -523,8 +525,24 @@
         <members>AuthorizationFormConsent.LastViewedDate</members>
         <members>AuthorizationFormConsent.Name</members>
         <members>AuthorizationFormConsent.OwnerId</members>
-        <members>AuthorizationFormConsent.PartyId</members>
+        <members>AuthorizationFormConsent.Status</members>
         <members>AuthorizationFormConsent.SystemModstamp</members>
+        <members>AuthorizationFormConsentChangeEvent.AuthorizationFormTextId</members>
+        <members>AuthorizationFormConsentChangeEvent.ChangeEventHeader</members>
+        <members>AuthorizationFormConsentChangeEvent.ConsentCapturedDateTime</members>
+        <members>AuthorizationFormConsentChangeEvent.ConsentCapturedSource</members>
+        <members>AuthorizationFormConsentChangeEvent.ConsentCapturedSourceType</members>
+        <members>AuthorizationFormConsentChangeEvent.ConsentGiverId</members>
+        <members>AuthorizationFormConsentChangeEvent.CreatedById</members>
+        <members>AuthorizationFormConsentChangeEvent.CreatedDate</members>
+        <members>AuthorizationFormConsentChangeEvent.DocumentVersionId</members>
+        <members>AuthorizationFormConsentChangeEvent.Id</members>
+        <members>AuthorizationFormConsentChangeEvent.LastModifiedById</members>
+        <members>AuthorizationFormConsentChangeEvent.LastModifiedDate</members>
+        <members>AuthorizationFormConsentChangeEvent.Name</members>
+        <members>AuthorizationFormConsentChangeEvent.OwnerId</members>
+        <members>AuthorizationFormConsentChangeEvent.ReplayId</members>
+        <members>AuthorizationFormConsentChangeEvent.Status</members>
         <members>AuthorizationFormDataUse.AuthorizationFormId</members>
         <members>AuthorizationFormDataUse.CreatedById</members>
         <members>AuthorizationFormDataUse.CreatedDate</members>
@@ -539,6 +557,7 @@
         <members>AuthorizationFormDataUse.OwnerId</members>
         <members>AuthorizationFormDataUse.SystemModstamp</members>
         <members>AuthorizationFormText.AuthorizationFormId</members>
+        <members>AuthorizationFormText.ContentDocumentId</members>
         <members>AuthorizationFormText.CreatedById</members>
         <members>AuthorizationFormText.CreatedDate</members>
         <members>AuthorizationFormText.FullAuthorizationFormUrl</members>
@@ -549,6 +568,7 @@
         <members>AuthorizationFormText.LastReferencedDate</members>
         <members>AuthorizationFormText.LastViewedDate</members>
         <members>AuthorizationFormText.Locale</members>
+        <members>AuthorizationFormText.LocaleSelection</members>
         <members>AuthorizationFormText.Name</members>
         <members>AuthorizationFormText.SummaryAuthFormText</members>
         <members>AuthorizationFormText.SystemModstamp</members>
@@ -1299,9 +1319,29 @@
         <members>ContactPointTypeConsent.LastReferencedDate</members>
         <members>ContactPointTypeConsent.LastViewedDate</members>
         <members>ContactPointTypeConsent.Name</members>
+        <members>ContactPointTypeConsent.OwnerId</members>
         <members>ContactPointTypeConsent.PartyId</members>
         <members>ContactPointTypeConsent.PrivacyConsentStatus</members>
         <members>ContactPointTypeConsent.SystemModstamp</members>
+        <members>ContactPointTypeConsentChangeEvent.CaptureContactPointType</members>
+        <members>ContactPointTypeConsentChangeEvent.CaptureDate</members>
+        <members>ContactPointTypeConsentChangeEvent.CaptureSource</members>
+        <members>ContactPointTypeConsentChangeEvent.ChangeEventHeader</members>
+        <members>ContactPointTypeConsentChangeEvent.ContactPointType</members>
+        <members>ContactPointTypeConsentChangeEvent.CreatedById</members>
+        <members>ContactPointTypeConsentChangeEvent.CreatedDate</members>
+        <members>ContactPointTypeConsentChangeEvent.DataUsePurposeId</members>
+        <members>ContactPointTypeConsentChangeEvent.DoubleConsentCaptureDate</members>
+        <members>ContactPointTypeConsentChangeEvent.EffectiveFrom</members>
+        <members>ContactPointTypeConsentChangeEvent.EffectiveTo</members>
+        <members>ContactPointTypeConsentChangeEvent.Id</members>
+        <members>ContactPointTypeConsentChangeEvent.LastModifiedById</members>
+        <members>ContactPointTypeConsentChangeEvent.LastModifiedDate</members>
+        <members>ContactPointTypeConsentChangeEvent.Name</members>
+        <members>ContactPointTypeConsentChangeEvent.OwnerId</members>
+        <members>ContactPointTypeConsentChangeEvent.PartyId</members>
+        <members>ContactPointTypeConsentChangeEvent.PrivacyConsentStatus</members>
+        <members>ContactPointTypeConsentChangeEvent.ReplayId</members>
         <members>ContactRequest.CreatedById</members>
         <members>ContactRequest.CreatedDate</members>
         <members>ContactRequest.Id</members>
@@ -1545,6 +1585,17 @@
         <members>ContractLineItemChangeEvent.ServiceContractId</members>
         <members>ContractLineItemChangeEvent.StartDate</members>
         <members>ContractLineItemChangeEvent.UnitPrice</members>
+        <members>ConversationContextEntry.ConversationContextEntryName</members>
+        <members>ConversationContextEntry.CreatedById</members>
+        <members>ConversationContextEntry.CreatedDate</members>
+        <members>ConversationContextEntry.CustomDetailContextKey</members>
+        <members>ConversationContextEntry.CustomDetailContextValue</members>
+        <members>ConversationContextEntry.Id</members>
+        <members>ConversationContextEntry.IsDeleted</members>
+        <members>ConversationContextEntry.LastModifiedById</members>
+        <members>ConversationContextEntry.LastModifiedDate</members>
+        <members>ConversationContextEntry.ParentId</members>
+        <members>ConversationContextEntry.SystemModstamp</members>
         <members>DandBCompany.Address</members>
         <members>DandBCompany.City</members>
         <members>DandBCompany.CompanyCurrencyIsoCode</members>
@@ -2024,6 +2075,31 @@
         <members>FeedItem.Title</members>
         <members>FeedItem.Type</members>
         <members>FeedItem.Visibility</members>
+        <members>FlowExecutionErrorEvent.CreatedById</members>
+        <members>FlowExecutionErrorEvent.CreatedDate</members>
+        <members>FlowExecutionErrorEvent.ElementApiName</members>
+        <members>FlowExecutionErrorEvent.ElementType</members>
+        <members>FlowExecutionErrorEvent.ErrorId</members>
+        <members>FlowExecutionErrorEvent.ErrorMessage</members>
+        <members>FlowExecutionErrorEvent.EventDate</members>
+        <members>FlowExecutionErrorEvent.EventIdentifier</members>
+        <members>FlowExecutionErrorEvent.EventType</members>
+        <members>FlowExecutionErrorEvent.ExtendedErrorCode</members>
+        <members>FlowExecutionErrorEvent.FlowApiName</members>
+        <members>FlowExecutionErrorEvent.FlowExecutionEndDate</members>
+        <members>FlowExecutionErrorEvent.FlowExecutionStartDate</members>
+        <members>FlowExecutionErrorEvent.FlowNamespace</members>
+        <members>FlowExecutionErrorEvent.FlowVersionId</members>
+        <members>FlowExecutionErrorEvent.InterviewBatchId</members>
+        <members>FlowExecutionErrorEvent.InterviewGuid</members>
+        <members>FlowExecutionErrorEvent.InterviewRequestId</members>
+        <members>FlowExecutionErrorEvent.InterviewStartDate</members>
+        <members>FlowExecutionErrorEvent.ProcessType</members>
+        <members>FlowExecutionErrorEvent.RelatedRecordId</members>
+        <members>FlowExecutionErrorEvent.ReplayId</members>
+        <members>FlowExecutionErrorEvent.StageQualifiedApiName</members>
+        <members>FlowExecutionErrorEvent.UserId</members>
+        <members>FlowExecutionErrorEvent.Username</members>
         <members>Idea.Body</members>
         <members>Idea.Categories</members>
         <members>Idea.CommunityId</members>
@@ -2080,16 +2156,14 @@
         <members>IdeaTheme.Status</members>
         <members>IdeaTheme.SystemModstamp</members>
         <members>IdeaTheme.Title</members>
+        <members>Image.AlternateText</members>
         <members>Image.CapturedAngle</members>
         <members>Image.ContentDocumentId</members>
         <members>Image.CreatedById</members>
         <members>Image.CreatedDate</members>
         <members>Image.Id</members>
-        <members>Image.ImageAlternateText</members>
         <members>Image.ImageClass</members>
         <members>Image.ImageClassObjectType</members>
-        <members>Image.ImageTitle</members>
-        <members>Image.ImageUrl</members>
         <members>Image.ImageViewType</members>
         <members>Image.IsActive</members>
         <members>Image.IsDeleted</members>
@@ -2100,6 +2174,8 @@
         <members>Image.Name</members>
         <members>Image.OwnerId</members>
         <members>Image.SystemModstamp</members>
+        <members>Image.Title</members>
+        <members>Image.Url</members>
         <members>Individual.BirthDate</members>
         <members>Individual.CanStorePiiElsewhere</members>
         <members>Individual.ChildrenCount</members>
@@ -2134,6 +2210,38 @@
         <members>Individual.ShouldForget</members>
         <members>Individual.SystemModstamp</members>
         <members>Individual.Website</members>
+        <members>IndividualChangeEvent.BirthDate</members>
+        <members>IndividualChangeEvent.CanStorePiiElsewhere</members>
+        <members>IndividualChangeEvent.ChangeEventHeader</members>
+        <members>IndividualChangeEvent.ChildrenCount</members>
+        <members>IndividualChangeEvent.ConsumerCreditScore</members>
+        <members>IndividualChangeEvent.ConsumerCreditScoreProviderName</members>
+        <members>IndividualChangeEvent.ConvictionsCount</members>
+        <members>IndividualChangeEvent.CreatedById</members>
+        <members>IndividualChangeEvent.CreatedDate</members>
+        <members>IndividualChangeEvent.DeathDate</members>
+        <members>IndividualChangeEvent.FirstName</members>
+        <members>IndividualChangeEvent.HasOptedOutGeoTracking</members>
+        <members>IndividualChangeEvent.HasOptedOutProcessing</members>
+        <members>IndividualChangeEvent.HasOptedOutProfiling</members>
+        <members>IndividualChangeEvent.HasOptedOutSolicit</members>
+        <members>IndividualChangeEvent.HasOptedOutTracking</members>
+        <members>IndividualChangeEvent.Id</members>
+        <members>IndividualChangeEvent.IndividualsAge</members>
+        <members>IndividualChangeEvent.InfluencerRating</members>
+        <members>IndividualChangeEvent.IsHomeOwner</members>
+        <members>IndividualChangeEvent.LastModifiedById</members>
+        <members>IndividualChangeEvent.LastModifiedDate</members>
+        <members>IndividualChangeEvent.LastName</members>
+        <members>IndividualChangeEvent.MilitaryService</members>
+        <members>IndividualChangeEvent.Name</members>
+        <members>IndividualChangeEvent.Occupation</members>
+        <members>IndividualChangeEvent.OwnerId</members>
+        <members>IndividualChangeEvent.ReplayId</members>
+        <members>IndividualChangeEvent.Salutation</members>
+        <members>IndividualChangeEvent.SendIndividualData</members>
+        <members>IndividualChangeEvent.ShouldForget</members>
+        <members>IndividualChangeEvent.Website</members>
         <members>JH_Test__ChangeEvent.ChangeEventHeader</members>
         <members>JH_Test__ChangeEvent.Checkbox_Field__c</members>
         <members>JH_Test__ChangeEvent.CreatedById</members>
@@ -2875,6 +2983,52 @@
         <members>OrgLifecycleNotification.ReplayId</members>
         <members>OrgLifecycleNotification.Status</members>
         <members>OrgLifecycleNotification.StatusCode</members>
+        <members>OrgMetric.Category</members>
+        <members>OrgMetric.CreatedById</members>
+        <members>OrgMetric.CreatedDate</members>
+        <members>OrgMetric.FeatureType</members>
+        <members>OrgMetric.Id</members>
+        <members>OrgMetric.IsDeleted</members>
+        <members>OrgMetric.LastModifiedById</members>
+        <members>OrgMetric.LastModifiedDate</members>
+        <members>OrgMetric.LatestOrgMetricScanSummaryId</members>
+        <members>OrgMetric.Name</members>
+        <members>OrgMetric.SystemModstamp</members>
+        <members>OrgMetricScanResult.CreatedById</members>
+        <members>OrgMetricScanResult.CreatedDate</members>
+        <members>OrgMetricScanResult.Date</members>
+        <members>OrgMetricScanResult.Flags</members>
+        <members>OrgMetricScanResult.Id</members>
+        <members>OrgMetricScanResult.IsDeleted</members>
+        <members>OrgMetricScanResult.ItemStatus</members>
+        <members>OrgMetricScanResult.LastModifiedById</members>
+        <members>OrgMetricScanResult.LastModifiedDate</members>
+        <members>OrgMetricScanResult.Name</members>
+        <members>OrgMetricScanResult.Object</members>
+        <members>OrgMetricScanResult.OrgMetricScanSummaryId</members>
+        <members>OrgMetricScanResult.Profile</members>
+        <members>OrgMetricScanResult.Quantity</members>
+        <members>OrgMetricScanResult.SystemModstamp</members>
+        <members>OrgMetricScanResult.Type</members>
+        <members>OrgMetricScanResult.Url</members>
+        <members>OrgMetricScanResult.User</members>
+        <members>OrgMetricScanSummary.CreatedById</members>
+        <members>OrgMetricScanSummary.CreatedDate</members>
+        <members>OrgMetricScanSummary.ErrorMessage</members>
+        <members>OrgMetricScanSummary.FeatureLimit</members>
+        <members>OrgMetricScanSummary.Id</members>
+        <members>OrgMetricScanSummary.ImplementationEffort</members>
+        <members>OrgMetricScanSummary.IsDeleted</members>
+        <members>OrgMetricScanSummary.ItemCount</members>
+        <members>OrgMetricScanSummary.LastModifiedById</members>
+        <members>OrgMetricScanSummary.LastModifiedDate</members>
+        <members>OrgMetricScanSummary.Name</members>
+        <members>OrgMetricScanSummary.OrgMetricId</members>
+        <members>OrgMetricScanSummary.PercentUsage</members>
+        <members>OrgMetricScanSummary.ScanDate</members>
+        <members>OrgMetricScanSummary.Status</members>
+        <members>OrgMetricScanSummary.SystemModstamp</members>
+        <members>OrgMetricScanSummary.Unit</members>
         <members>Partner.AccountFromId</members>
         <members>Partner.AccountToId</members>
         <members>Partner.CreatedById</members>
@@ -3628,6 +3782,7 @@
         <members>User.UserPreferencesHideSfxWelcomeMat</members>
         <members>User.UserPreferencesJigsawListUser</members>
         <members>User.UserPreferencesLightningExperiencePreferred</members>
+        <members>User.UserPreferencesNativeEmailClient</members>
         <members>User.UserPreferencesNewLightningReportRunPageEnabled</members>
         <members>User.UserPreferencesPathAssistantCollapsed</members>
         <members>User.UserPreferencesPipelineViewHideHelpPopover</members>
@@ -3792,6 +3947,7 @@
         <members>UserChangeEvent.UserPreferencesHideSfxWelcomeMat</members>
         <members>UserChangeEvent.UserPreferencesJigsawListUser</members>
         <members>UserChangeEvent.UserPreferencesLightningExperiencePreferred</members>
+        <members>UserChangeEvent.UserPreferencesNativeEmailClient</members>
         <members>UserChangeEvent.UserPreferencesNewLightningReportRunPageEnabled</members>
         <members>UserChangeEvent.UserPreferencesPathAssistantCollapsed</members>
         <members>UserChangeEvent.UserPreferencesPipelineViewHideHelpPopover</members>
@@ -4103,6 +4259,7 @@
         <members>ContentVersion</members>
         <members>Contract</members>
         <members>ContractLineItem</members>
+        <members>ConversationContextEntry</members>
         <members>DandBCompany</members>
         <members>DataUseLegalBasis</members>
         <members>DataUsePurpose</members>
@@ -4117,6 +4274,7 @@
         <members>Event</members>
         <members>FeedComment</members>
         <members>FeedItem</members>
+        <members>FlowExecutionErrorEvent</members>
         <members>Goal</members>
         <members>Idea</members>
         <members>IdeaComment</members>
@@ -4146,6 +4304,9 @@
         <members>OrderLineItems__c</members>
         <members>OrgDeleteRequest</members>
         <members>OrgLifecycleNotification</members>
+        <members>OrgMetric</members>
+        <members>OrgMetricScanResult</members>
+        <members>OrgMetricScanSummary</members>
         <members>Partner</members>
         <members>PartnerFundAllocation</members>
         <members>PartnerFundClaim</members>
@@ -4380,5 +4541,5 @@
         <members>*</members>
         <name>Scontrol</name>
     </types>
-    <version>46.0</version>
+    <version>47.0</version>
 </Package>

@@ -399,6 +399,7 @@
     <fields>
         <fullName>StageName</fullName>
         <businessStatus>Active</businessStatus>
+        <complianceGroup>PII</complianceGroup>
         <description>Description</description>
         <inlineHelpText>Stage</inlineHelpText>
         <securityClassification>Public</securityClassification>
