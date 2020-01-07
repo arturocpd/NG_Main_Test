@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>No Class Access</members>
+        <members>dinner</members>
+        <name>FlowDefinition</name>
+    </types>
+    <types>
+        <members>Admin CLONE 2</members>
         <name>Profile</name>
     </types>
-    <version>46.0</version>
+    <version>47.0</version>
 </Package>
