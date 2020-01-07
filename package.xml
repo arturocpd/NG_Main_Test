@@ -1,8 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>No Class Access</members>
+        <members>Dinner__c.Dinner_Type__c</members>
+        <members>Dinner__c.External_Auto__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>Dinner__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Dinner__c-Dinner Layout</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>Admin CLONE 2</members>
         <name>Profile</name>
     </types>
-    <version>46.0</version>
+    <version>47.0</version>
 </Package>
