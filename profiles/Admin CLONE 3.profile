@@ -2,9 +2,9 @@
 <Profile xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Admin CLONE 3</fullName>
     <applicationVisibilities>
-        <application>Test_Omni_commit</application>
+        <application>Test_Omni_commitZZZ</application>
         <default>false</default>
-        <visible>false</visible>
+        <visible>true</visible>
     </applicationVisibilities>
     <applicationVisibilities>
         <application>standard__AppLauncher</application>
@@ -306,11 +306,6 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.NaicsDesc</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Account.NumberOfEmployees</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -1436,11 +1431,6 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Delete_me__c.check1__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Dinner__c.LateDinner__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
