@@ -3247,6 +3247,10 @@
         <field>WorkOrderLineItem.WorkTypeId</field>
         <readable>true</readable>
     </fieldPermissions>
+    <flowAccesses>
+        <enabled>false</enabled>
+        <flow>dinner</flow>
+    </flowAccesses>
     <layoutAssignments>
         <layout>Account-Account %28Support%29 Layout</layout>
         <recordType>Account.Record_Type2</recordType>
