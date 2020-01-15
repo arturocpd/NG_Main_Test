@@ -227,6 +227,11 @@
         <name>Custom_Perm2</name>
     </customPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>AR_CMDT__mdt.AR_CMDT_Field__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Account.ASCII_Test__c</field>
         <readable>true</readable>
@@ -3822,6 +3827,9 @@
         <readable>true</readable>
     </fieldPermissions>
     <layoutAssignments>
+        <layout>AR_CMDT__mdt-AR CMDT Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Account-Account Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -4260,6 +4268,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>TimeSlot-Time Slot Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Trimming_object__c-Trimming object Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>US_Test__c-US Test Layout</layout>
@@ -4899,6 +4910,15 @@
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
         <object>Test_Bug__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>Trimming_object__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>

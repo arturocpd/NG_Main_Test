@@ -3638,6 +3638,15 @@
         <members>TopicAssignment.NetworkId</members>
         <members>TopicAssignment.SystemModstamp</members>
         <members>TopicAssignment.TopicId</members>
+        <members>Trimming_object__ChangeEvent.ChangeEventHeader</members>
+        <members>Trimming_object__ChangeEvent.CreatedById</members>
+        <members>Trimming_object__ChangeEvent.CreatedDate</members>
+        <members>Trimming_object__ChangeEvent.Id</members>
+        <members>Trimming_object__ChangeEvent.LastModifiedById</members>
+        <members>Trimming_object__ChangeEvent.LastModifiedDate</members>
+        <members>Trimming_object__ChangeEvent.Name</members>
+        <members>Trimming_object__ChangeEvent.OwnerId</members>
+        <members>Trimming_object__ChangeEvent.ReplayId</members>
         <members>US_Test__ChangeEvent.ChangeEventHeader</members>
         <members>US_Test__ChangeEvent.CreatedById</members>
         <members>US_Test__ChangeEvent.CreatedDate</members>
@@ -4335,6 +4344,7 @@
         <members>Test_Bug__c</members>
         <members>Topic</members>
         <members>TopicAssignment</members>
+        <members>Trimming_object__c</members>
         <members>US_Test__c</members>
         <members>User</members>
         <members>UserProvAccount</members>

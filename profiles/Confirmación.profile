@@ -235,6 +235,11 @@
         <name>custom_perm_4</name>
     </customPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>AR_CMDT__mdt.AR_CMDT_Field__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Account.ASCII_Test__c</field>
         <readable>true</readable>
@@ -3830,6 +3835,9 @@
         <readable>true</readable>
     </fieldPermissions>
     <layoutAssignments>
+        <layout>AR_CMDT__mdt-AR CMDT Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Account-Account Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -4270,6 +4278,9 @@
         <layout>TimeSlot-Time Slot Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Trimming_object__c-Trimming object Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>US_Test__c-US Test Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -4342,6 +4353,15 @@
         <endAddress>83.36.118.195</endAddress>
         <startAddress>83.36.118.194</startAddress>
     </loginIpRanges>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>AR_CMDT__mdt</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
     <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
@@ -4862,6 +4882,15 @@
         <allowRead>true</allowRead>
         <modifyAllRecords>false</modifyAllRecords>
         <object>Test_Bug__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>Trimming_object__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
