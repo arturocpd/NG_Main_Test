@@ -484,13 +484,6 @@
         <filterScope>Everything</filterScope>
         <label>Platinum and Gold SLA Customers</label>
     </listViews>
-    <profileSearchLayouts>
-        <fields>ACCOUNT.NAME</fields>
-        <fields>ACCOUNT.SITE</fields>
-        <fields>CORE.USERS.ALIAS</fields>
-        <fields>00ND0000003Tz0x</fields>
-        <profileName>Chatter External User</profileName>
-    </profileSearchLayouts>
     <recordTypeTrackFeedHistory>false</recordTypeTrackFeedHistory>
     <recordTypeTrackHistory>true</recordTypeTrackHistory>
     <recordTypes>
