@@ -2014,6 +2014,27 @@
     </searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
     <validationRules>
+        <fullName>Account_name_lengh</fullName>
+        <active>false</active>
+        <errorConditionFormula>LEN(Name)  &gt; 15</errorConditionFormula>
+        <errorDisplayField>Name</errorDisplayField>
+        <errorMessage>Account name has more than 15 characters</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Can_Call_Support</fullName>
+        <active>false</active>
+        <errorConditionFormula>AND(
+
+        NOT(
+                    OR( ISPICKVAL( Support_Level__c , &quot;Gold&quot;) ,
+                             ISPICKVAL(Support_Level__c , &quot;Platinum&quot;) 
+                  )
+        ),
+         Can_Call_Support__c 
+)</errorConditionFormula>
+        <errorMessage>Only Platinum or Gold Customers are entitled to call support.</errorMessage>
+    </validationRules>
+    <validationRules>
         <fullName>New_Validation_Acc</fullName>
         <active>true</active>
         <errorConditionFormula>false</errorConditionFormula>
