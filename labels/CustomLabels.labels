@@ -5,7 +5,8 @@
         <language>en_US</language>
         <protected>true</protected>
         <shortDescription>AAAAA</shortDescription>
-        <value>AAAAA</value>
+        <value>AAAAA
+b</value>
     </labels>
     <labels>
         <fullName>ACCOUNT_SUMMARY</fullName>
@@ -926,6 +927,13 @@
         <protected>true</protected>
         <shortDescription>DELETE SUCCESS CLOSE WINDOW</shortDescription>
         <value>Deletion successful. You can close this window.</value>
+    </labels>
+    <labels>
+        <fullName>DEMO_10</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Value 10</shortDescription>
+        <value>Value 10</value>
     </labels>
     <labels>
         <fullName>DEPLOY</fullName>

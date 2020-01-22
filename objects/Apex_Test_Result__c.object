@@ -143,7 +143,6 @@
     <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
-    <description>This object stores the results of scheduled Apex Tests executed through Copado Deployer.</description>
     <enableActivities>false</enableActivities>
     <enableBulkApi>true</enableBulkApi>
     <enableFeeds>false</enableFeeds>
@@ -155,6 +154,7 @@
     <enableStreamingApi>true</enableStreamingApi>
     <fields>
         <fullName>Details__c</fullName>
+        <description>none</description>
         <externalId>false</externalId>
         <label>Details</label>
         <length>32768</length>

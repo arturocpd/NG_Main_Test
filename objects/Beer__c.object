@@ -143,6 +143,8 @@
     <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
+    <description>test
+2</description>
     <enableActivities>false</enableActivities>
     <enableBulkApi>true</enableBulkApi>
     <enableFeeds>false</enableFeeds>
@@ -154,6 +156,8 @@
     <enableStreamingApi>true</enableStreamingApi>
     <fields>
         <fullName>Alcohol__c</fullName>
+        <description>test
+x</description>
         <externalId>false</externalId>
         <label>Alcohol</label>
         <precision>3</precision>
