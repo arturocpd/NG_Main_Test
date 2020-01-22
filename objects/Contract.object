@@ -341,6 +341,10 @@
                 <fullName>In Approval Process</fullName>
                 <default>false</default>
             </values>
+            <values>
+                <fullName>NewContract</fullName>
+                <default>false</default>
+            </values>
         </picklistValues>
     </recordTypes>
     <searchLayouts>
