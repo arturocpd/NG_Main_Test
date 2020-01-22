@@ -16,4 +16,9 @@
         <default>false</default>
         <label>Draft</label>
     </standardValue>
+    <standardValue>
+        <fullName>NewContract</fullName>
+        <default>false</default>
+        <label>NewContract</label>
+    </standardValue>
 </StandardValueSet>
