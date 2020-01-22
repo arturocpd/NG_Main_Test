@@ -1,0 +1,1 @@
+public with sharing class DEMO_3305 { }
