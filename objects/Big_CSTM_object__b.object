@@ -31,6 +31,14 @@
         <type>Number</type>
         <unique>false</unique>
     </fields>
+    <indexes>
+        <fullName>Index1</fullName>
+        <fields>
+            <name>Number__c</name>
+            <sortDirection>ASC</sortDirection>
+        </fields>
+        <label>Index1</label>
+    </indexes>
     <label>Big CSTM object</label>
     <pluralLabel>Big CSTM objects</pluralLabel>
 </CustomObject>
