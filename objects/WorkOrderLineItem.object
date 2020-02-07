@@ -1,47 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
-    <actionOverrides>
-        <actionName>CancelEdit</actionName>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
-        <actionName>Clone</actionName>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
-        <actionName>Delete</actionName>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
-        <actionName>Edit</actionName>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
-        <actionName>GeneratePdf</actionName>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
-        <actionName>List</actionName>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
-        <actionName>New</actionName>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
-        <actionName>SaveEdit</actionName>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
-        <actionName>Tab</actionName>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
-        <actionName>View</actionName>
-        <type>Default</type>
-    </actionOverrides>
-    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
-    <enableFeeds>true</enableFeeds>
     <fields>
         <fullName>Address</fullName>
         <trackFeedHistory>false</trackFeedHistory>
@@ -84,29 +42,7 @@
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
-        <fullName>IsGeneratedFromMaintenancePlan</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
         <fullName>ListPrice</fullName>
-    </fields>
-    <fields>
-        <fullName>LocationId</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
-        <type>Lookup</type>
-    </fields>
-    <fields>
-        <fullName>MaintenancePlanId</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
-        <type>Lookup</type>
-    </fields>
-    <fields>
-        <fullName>MinimumCrewSize</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>OrderId</fullName>
@@ -138,21 +74,6 @@
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
-        <fullName>RecommendedCrewSize</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>ReturnOrderId</fullName>
-        <type>Lookup</type>
-    </fields>
-    <fields>
-        <fullName>ReturnOrderLineItemId</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
-        <type>Lookup</type>
-    </fields>
-    <fields>
         <fullName>RootWorkOrderLineItemId</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
@@ -163,12 +84,6 @@
     </fields>
     <fields>
         <fullName>ServiceReportTemplateId</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
-        <type>Lookup</type>
-    </fields>
-    <fields>
-        <fullName>ServiceTerritoryId</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <type>Lookup</type>
@@ -198,11 +113,6 @@
         <fullName>Subtotal</fullName>
     </fields>
     <fields>
-        <fullName>SuggestedMaintenanceDate</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
         <fullName>TotalPrice</fullName>
     </fields>
     <fields>
@@ -216,62 +126,4 @@
         <trackHistory>false</trackHistory>
         <type>MasterDetail</type>
     </fields>
-    <fields>
-        <fullName>WorkTypeId</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
-        <type>Lookup</type>
-    </fields>
-    <recordTypeTrackFeedHistory>false</recordTypeTrackFeedHistory>
-    <recordTypeTrackHistory>false</recordTypeTrackHistory>
-    <recordTypes>
-        <fullName>WOLI_RT</fullName>
-        <active>true</active>
-        <label>WOLI RT</label>
-        <picklistValues>
-            <picklist>Priority</picklist>
-            <values>
-                <fullName>Critical</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>High</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Low</fullName>
-                <default>true</default>
-            </values>
-            <values>
-                <fullName>Medium</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
-            <picklist>Status</picklist>
-            <values>
-                <fullName>Canceled</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Cannot Complete</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>New</fullName>
-                <default>true</default>
-            </values>
-            <values>
-                <fullName>WOLI2</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-    </recordTypes>
-    <searchLayouts>
-        <customTabListAdditionalFields>WorkOrder</customTabListAdditionalFields>
-        <lookupDialogsAdditionalFields>WorkOrder</lookupDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>WorkOrder</lookupPhoneDialogsAdditionalFields>
-        <searchResultsAdditionalFields>WorkOrder</searchResultsAdditionalFields>
-    </searchLayouts>
-    <sharingModel>ControlledByParent</sharingModel>
 </CustomObject>

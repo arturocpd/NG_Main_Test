@@ -1,51 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
-    <actionOverrides>
-        <actionName>Accept</actionName>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
-        <actionName>CancelEdit</actionName>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
-        <actionName>Clone</actionName>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
-        <actionName>Decline</actionName>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
-        <actionName>Delete</actionName>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
-        <actionName>DeleteSeries</actionName>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
-        <actionName>Edit</actionName>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
-        <actionName>NewEvent</actionName>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
-        <actionName>NewSfdcEvent</actionName>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
-        <actionName>Today</actionName>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
-        <actionName>View</actionName>
-        <type>Default</type>
-    </actionOverrides>
-    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
-    <enableFeeds>false</enableFeeds>
     <fields>
         <fullName>ActivityDate</fullName>
     </fields>
@@ -53,16 +7,10 @@
         <fullName>ActivityDateTime</fullName>
     </fields>
     <fields>
-        <fullName>Attendees</fullName>
-    </fields>
-    <fields>
         <fullName>Description</fullName>
     </fields>
     <fields>
         <fullName>DurationInMinutes</fullName>
-    </fields>
-    <fields>
-        <fullName>Email</fullName>
     </fields>
     <fields>
         <fullName>EndDateTime</fullName>
@@ -83,17 +31,11 @@
         <fullName>IsReminderSet</fullName>
     </fields>
     <fields>
-        <fullName>IsVisibleInSelfService</fullName>
-    </fields>
-    <fields>
         <fullName>Location</fullName>
     </fields>
     <fields>
         <fullName>OwnerId</fullName>
         <type>Lookup</type>
-    </fields>
-    <fields>
-        <fullName>Phone</fullName>
     </fields>
     <fields>
         <fullName>ShowAs</fullName>
@@ -117,79 +59,4 @@
         <fullName>WhoId</fullName>
         <type>Lookup</type>
     </fields>
-    <recordTypes>
-        <fullName>Time</fullName>
-        <active>true</active>
-        <label>Time</label>
-        <picklistValues>
-            <picklist>AAATask__c</picklist>
-            <values>
-                <fullName>1</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>2</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>3</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>4</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>5</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
-            <picklist>Next_Time__c</picklist>
-            <values>
-                <fullName>Friday</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Juernes</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Saturday</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Thursday</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Wednesday</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
-            <picklist>Subject</picklist>
-            <values>
-                <fullName>Call</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Email</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Meeting</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Other</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Send Letter%2FQuote</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-    </recordTypes>
-    <sharingModel>Private</sharingModel>
 </CustomObject>

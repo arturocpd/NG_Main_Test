@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
-    <deploymentStatus>InDevelopment</deploymentStatus>
     <fields>
         <fullName>Account_Big__c</fullName>
         <externalId>false</externalId>
@@ -31,6 +30,4 @@
         <type>Number</type>
         <unique>false</unique>
     </fields>
-    <label>Big CSTM object</label>
-    <pluralLabel>Big CSTM objects</pluralLabel>
 </CustomObject>
