@@ -98,6 +98,14 @@
         <unique>false</unique>
     </fields>
     <fields>
+        <fullName>FLS_Test_Dinner_PS__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>FLS Test Dinner PS</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>Nested_Field_Test__c</fullName>
         <defaultValue>false</defaultValue>
         <externalId>false</externalId>
