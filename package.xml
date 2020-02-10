@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>No Class Access</members>
-        <name>Profile</name>
+        <members>Dinner__c.FLS_Test_Dinner_PS__c</members>
+        <name>CustomField</name>
     </types>
-    <version>46.0</version>
+    <types>
+        <members>Dinner_2_Set</members>
+        <name>PermissionSet</name>
+    </types>
+    <version>47.0</version>
 </Package>
