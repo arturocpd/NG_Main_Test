@@ -3,6 +3,7 @@
     "%vlocity_namespace%__EffectiveUntilDate__c": "",
     "%vlocity_namespace%__GlobalKey__c": "c1283301816cf71e67b3de552a4e5bc5",
     "%vlocity_namespace%__IsActive__c": true,
+    "%vlocity_namespace%__IsVirtual__c": false,
     "%vlocity_namespace%__Mode__c": "",
     "%vlocity_namespace%__ObjectApiName__c": "Rule__c",
     "%vlocity_namespace%__ParentObjectClassId__c": "",

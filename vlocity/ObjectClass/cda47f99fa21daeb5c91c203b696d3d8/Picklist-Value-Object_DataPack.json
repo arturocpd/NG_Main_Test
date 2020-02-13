@@ -3,6 +3,7 @@
     "%vlocity_namespace%__EffectiveUntilDate__c": "",
     "%vlocity_namespace%__GlobalKey__c": "cda47f99fa21daeb5c91c203b696d3d8",
     "%vlocity_namespace%__IsActive__c": true,
+    "%vlocity_namespace%__IsVirtual__c": false,
     "%vlocity_namespace%__Mode__c": "",
     "%vlocity_namespace%__ObjectApiName__c": "PicklistValue__c",
     "%vlocity_namespace%__ParentObjectClassId__c": "",

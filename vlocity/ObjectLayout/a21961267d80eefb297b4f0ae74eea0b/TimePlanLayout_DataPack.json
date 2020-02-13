@@ -45,6 +45,7 @@
                             "%vlocity_namespace%__IsActive__c": true,
                             "%vlocity_namespace%__IsRequired__c": true,
                             "%vlocity_namespace%__ObjectSectionId__c": {
+                                "Name": "a2J3X000004Ao02UAC",
                                 "VlocityDataPackType": "VlocityMatchingKeyObject",
                                 "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__ObjectSection__c/beba15b6-ca4c-031b-8c8a-62cf84e4161f",
                                 "VlocityRecordSObjectType": "%vlocity_namespace%__ObjectSection__c"
@@ -65,6 +66,7 @@
                             "%vlocity_namespace%__IsActive__c": true,
                             "%vlocity_namespace%__IsRequired__c": false,
                             "%vlocity_namespace%__ObjectSectionId__c": {
+                                "Name": "a2J3X000004Ao02UAC",
                                 "VlocityDataPackType": "VlocityMatchingKeyObject",
                                 "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__ObjectSection__c/beba15b6-ca4c-031b-8c8a-62cf84e4161f",
                                 "VlocityRecordSObjectType": "%vlocity_namespace%__ObjectSection__c"
@@ -85,6 +87,7 @@
                             "%vlocity_namespace%__IsActive__c": true,
                             "%vlocity_namespace%__IsRequired__c": true,
                             "%vlocity_namespace%__ObjectSectionId__c": {
+                                "Name": "a2J3X000004Ao02UAC",
                                 "VlocityDataPackType": "VlocityMatchingKeyObject",
                                 "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__ObjectSection__c/beba15b6-ca4c-031b-8c8a-62cf84e4161f",
                                 "VlocityRecordSObjectType": "%vlocity_namespace%__ObjectSection__c"
@@ -105,6 +108,7 @@
                             "%vlocity_namespace%__IsActive__c": true,
                             "%vlocity_namespace%__IsRequired__c": true,
                             "%vlocity_namespace%__ObjectSectionId__c": {
+                                "Name": "a2J3X000004Ao02UAC",
                                 "VlocityDataPackType": "VlocityMatchingKeyObject",
                                 "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__ObjectSection__c/beba15b6-ca4c-031b-8c8a-62cf84e4161f",
                                 "VlocityRecordSObjectType": "%vlocity_namespace%__ObjectSection__c"
@@ -118,6 +122,7 @@
                         }
                     ],
                     "%vlocity_namespace%__ObjectFacetId__c": {
+                        "Name": "a2G3X000002ZPF3UAO",
                         "VlocityDataPackType": "VlocityMatchingKeyObject",
                         "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__ObjectFacet__c/a2dc5590-8035-37a7-2ed9-915c9689a725",
                         "VlocityRecordSObjectType": "%vlocity_namespace%__ObjectFacet__c"
@@ -151,6 +156,7 @@
                             "%vlocity_namespace%__IsActive__c": true,
                             "%vlocity_namespace%__IsRequired__c": false,
                             "%vlocity_namespace%__ObjectSectionId__c": {
+                                "Name": "a2J3X000004Ao03UAC",
                                 "VlocityDataPackType": "VlocityMatchingKeyObject",
                                 "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__ObjectSection__c/b5712034-23b0-fc8c-4f25-4b7badc8204c",
                                 "VlocityRecordSObjectType": "%vlocity_namespace%__ObjectSection__c"
@@ -171,6 +177,7 @@
                             "%vlocity_namespace%__IsActive__c": true,
                             "%vlocity_namespace%__IsRequired__c": false,
                             "%vlocity_namespace%__ObjectSectionId__c": {
+                                "Name": "a2J3X000004Ao03UAC",
                                 "VlocityDataPackType": "VlocityMatchingKeyObject",
                                 "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__ObjectSection__c/b5712034-23b0-fc8c-4f25-4b7badc8204c",
                                 "VlocityRecordSObjectType": "%vlocity_namespace%__ObjectSection__c"
@@ -191,6 +198,7 @@
                             "%vlocity_namespace%__IsActive__c": true,
                             "%vlocity_namespace%__IsRequired__c": false,
                             "%vlocity_namespace%__ObjectSectionId__c": {
+                                "Name": "a2J3X000004Ao03UAC",
                                 "VlocityDataPackType": "VlocityMatchingKeyObject",
                                 "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__ObjectSection__c/b5712034-23b0-fc8c-4f25-4b7badc8204c",
                                 "VlocityRecordSObjectType": "%vlocity_namespace%__ObjectSection__c"
@@ -204,6 +212,7 @@
                         }
                     ],
                     "%vlocity_namespace%__ObjectFacetId__c": {
+                        "Name": "a2G3X000002ZPF3UAO",
                         "VlocityDataPackType": "VlocityMatchingKeyObject",
                         "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__ObjectFacet__c/a2dc5590-8035-37a7-2ed9-915c9689a725",
                         "VlocityRecordSObjectType": "%vlocity_namespace%__ObjectFacet__c"

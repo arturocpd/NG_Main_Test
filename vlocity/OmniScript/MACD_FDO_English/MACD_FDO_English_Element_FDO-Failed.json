@@ -1,13 +1,11 @@
 {
     "%vlocity_namespace%__Active__c": true,
-    "%vlocity_namespace%__Level__c": 0,
     "%vlocity_namespace%__OmniScriptId__c": {
         "Name": "FDO",
         "VlocityDataPackType": "VlocityMatchingKeyObject",
         "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/MACD/FDO/English",
         "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
     },
-    "%vlocity_namespace%__Order__c": 4,
     "%vlocity_namespace%__PropertySet__c": {
         "HTMLTemplateId": "",
         "cancelLabel": "Cancel",
@@ -21,7 +19,8 @@
             "keyword": "",
             "language": "English",
             "publishStatus": "Online",
-            "remoteTimeout": 30000
+            "remoteTimeout": 30000,
+            "typeFilter": ""
         },
         "label": "Cannot Create Order",
         "nextLabel": "Next",
@@ -48,6 +47,11 @@
                         "condition": "=",
                         "data": "true",
                         "field": "Formula 1"
+                    },
+                    {
+                        "condition": "=",
+                        "data": "false",
+                        "field": "disconnectedAssets"
                     }
                 ]
             }

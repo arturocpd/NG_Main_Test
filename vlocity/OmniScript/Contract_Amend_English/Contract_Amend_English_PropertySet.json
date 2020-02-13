@@ -1,12 +1,10 @@
 {
-    "allowSaveForLater": false,
-    "autoFocus": false,
+    "allowSaveForLater": true,
     "autoSaveOnStepNext": false,
     "cancelRedirectPageName": "OmniScriptCancelled",
     "cancelRedirectTemplateUrl": "vlcCancelled.html",
     "cancelSource": "%ContextId%",
     "cancelType": "SObject",
-    "consoleTabLabel": "New",
     "customPages": {
         "ContractPreview": "%vlocity_namespace%__ContractAmendmentPreview?verticalMode=true"
     },
@@ -15,8 +13,6 @@
     "enableKnowledge": false,
     "includeCustomization": true,
     "knowledgeArticleTypeQueryFieldsMap": {
-    },
-    "message": {
     },
     "persistentComponent": [
         {
@@ -69,19 +65,12 @@
     "saveForLaterRedirectPageName": "sflRedirect",
     "saveForLaterRedirectTemplateUrl": "vlcSaveForLaterAcknowledge.html",
     "saveNameTemplate": null,
-    "saveObjectId": "%ContextId%",
-    "saveURLPatterns": {
-    },
     "seedDataJSON": {
         "ContractType": "Amendment",
         "TrackingAgreement": true,
         "VersionNumber": 1
     },
-    "ssm": false,
     "timeTracking": true,
-    "trackingCustomData": {
-    },
     "visualforcePagesAvailableInPreview": {
-    },
-    "wpm": false
+    }
 }

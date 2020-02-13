@@ -1,13 +1,11 @@
 {
     "%vlocity_namespace%__Active__c": true,
-    "%vlocity_namespace%__Level__c": 0,
     "%vlocity_namespace%__OmniScriptId__c": {
         "Name": "FDO",
         "VlocityDataPackType": "VlocityMatchingKeyObject",
         "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/MACD/FDO/English",
         "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
     },
-    "%vlocity_namespace%__Order__c": 6,
     "%vlocity_namespace%__PropertySet__c": {
         "HTMLTemplateId": "",
         "cancelLabel": "Cancel",
@@ -59,7 +57,7 @@
             false,
             false
         ],
-        "source": "/apex/HybridCPQ?id=%fdoId%",
+        "source": "/apex/%vlocity_namespace%__HybridCPQ?id=%fdoId%",
         "ssm": false,
         "type": "URL",
         "validationRequired": "Submit",
