@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>standard__LightningService</members>
-        <name>CustomApplication</name>
+        <members>Embedded_Service_Deployment</members>
+        <name>EmbeddedServiceConfig</name>
     </types>
     <types>
-        <members>Opp_Lightning_Page</members>
-        <name>FlexiPage</name>
+        <members>EmbeddedServiceLiveAgent_Parent04I1v000000kA1kEAE_17058080118</members>
+        <name>EmbeddedServiceLiveAgent</name>
     </types>
     <version>47.0</version>
 </Package>
