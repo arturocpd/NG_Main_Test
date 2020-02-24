@@ -130,6 +130,7 @@
     </fieldUpdates>
     <fieldUpdates>
         <fullName>Update_Origin</fullName>
+        <description>This is the field update</description>
         <field>Origin</field>
         <literalValue>Email</literalValue>
         <name>Update Origin</name>
@@ -251,6 +252,7 @@
             <operation>notEqual</operation>
             <value>True</value>
         </criteriaItems>
+        <description>This is the workflow</description>
         <triggerType>onCreateOnly</triggerType>
     </rules>
     <rules>
