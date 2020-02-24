@@ -10,6 +10,31 @@
         <senderType>CurrentUser</senderType>
         <template>unfiled$public/SalesNewCustomerEmail</template>
     </alerts>
+    <fieldUpdates>
+        <fullName>Update_Origin</fullName>
+        <description>This is the field update</description>
+        <field>Origin</field>
+        <literalValue>Email</literalValue>
+        <name>Update Origin</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <rules>
+        <fullName>Update origin</fullName>
+        <actions>
+            <name>Update_Origin</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Case.IsClosed</field>
+            <operation>notEqual</operation>
+            <value>True</value>
+        </criteriaItems>
+        <description>This is the workflow</description>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
     <rules>
         <fullName>WF email alert test</fullName>
         <actions>
