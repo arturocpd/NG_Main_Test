@@ -62,6 +62,6 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>TransferAnyEntity</name>
+        <name>TransferAnyEntityTTT</name>
     </userPermissions>
 </PermissionSet>
