@@ -11,6 +11,15 @@
         <object>Case</object>
         <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
+        <objectPermissions>
+        <allowCreate>False</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>CaseY</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
     <objectPermissions>
         <allowCreate>False</allowCreate>
         <allowDelete>false</allowDelete>
