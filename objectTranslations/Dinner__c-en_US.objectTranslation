@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>DinnerEN</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>DinnersEN</value>
+    </caseValues>
+    <fields>
+        <label>Dinner TypeEN</label>
+        <name>Dinner_Type__c</name>
+        <picklistValues>
+            <masterLabel>Full</masterLabel>
+            <translation><!-- Full --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>High Touch/High Urgency</masterLabel>
+            <translation><!-- High Touch/High Urgency --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partial</masterLabel>
+            <translation><!-- Partial --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- LateDinner --></label>
+        <name>LateDinner__c</name>
+    </fields>
+    <nameFieldLabel>Dinner NameEN</nameFieldLabel>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>
