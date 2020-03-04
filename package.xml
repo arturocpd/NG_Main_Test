@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Case.BitCoin__c</members>
-        <members>Case.CaseTime__c</members>
+        <members>Dinner__c.Dinner_Type__c</members>
         <name>CustomField</name>
     </types>
     <types>
-        <members>Case-en_US</members>
+        <members>Dinner__c-en_US</members>
         <name>CustomObjectTranslation</name>
     </types>
     <version>47.0</version>
