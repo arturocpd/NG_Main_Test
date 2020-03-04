@@ -29,4 +29,5 @@
         <name>LateDinner__c</name>
     </fields>
     <nameFieldLabel>Dinner NameEN</nameFieldLabel>
+    <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>
