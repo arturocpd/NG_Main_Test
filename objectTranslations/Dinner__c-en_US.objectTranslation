@@ -25,4 +25,5 @@
         </picklistValues>
     </fields>
     <nameFieldLabel>Dinner NameEN</nameFieldLabel>
+    <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>
