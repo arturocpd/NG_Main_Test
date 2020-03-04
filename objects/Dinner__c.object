@@ -102,6 +102,11 @@
                     <default>false</default>
                     <label>Partial</label>
                 </value>
+                <value>
+                    <fullName>High Touch/High Urgency</fullName>
+                    <default>false</default>
+                    <label>High Touch/High Urgency</label>
+                </value>
             </valueSetDefinition>
         </valueSet>
     </fields>
