@@ -1,11 +1,30 @@
 {
+    "allowCancel": true,
     "allowSaveForLater": true,
+    "autoFocus": false,
     "autoSaveOnStepNext": false,
+    "bLK": false,
+    "cancelRedirectPageName": "OmniScriptCancelled",
+    "cancelRedirectTemplateUrl": "vlcCancelled.html",
+    "cancelSource": "%ContextId%",
+    "cancelType": "SObject",
+    "consoleTabIcon": "custom:custom18",
+    "consoleTabLabel": "New",
+    "consoleTabTitle": null,
+    "currencyCode": "",
+    "disableUnloadWarn": true,
     "elementTypeToHTMLTemplateMapping": {
     },
     "enableKnowledge": false,
-    "includeCustomization": true,
+    "errorMessage": {
+        "custom": [
+        ]
+    },
+    "hideStepChart": false,
     "knowledgeArticleTypeQueryFieldsMap": {
+    },
+    "lkObjName": null,
+    "message": {
     },
     "persistentComponent": [
         {
@@ -53,14 +72,23 @@
             "render": false
         }
     ],
+    "rtpSeed": false,
     "saveContentEncoded": false,
     "saveExpireInDays": null,
     "saveForLaterRedirectPageName": "sflRedirect",
     "saveForLaterRedirectTemplateUrl": "vlcSaveForLaterAcknowledge.html",
     "saveNameTemplate": null,
+    "saveObjectId": "%ContextId%",
+    "saveURLPatterns": {
+    },
     "seedDataJSON": {
     },
-    "timeTracking": true,
+    "showInputWidth": false,
+    "ssm": false,
+    "timeTracking": false,
+    "trackingCustomData": {
+    },
     "visualforcePagesAvailableInPreview": {
-    }
+    },
+    "wpm": false
 }
