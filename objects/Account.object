@@ -454,6 +454,35 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
+        <fullName>Trim_Level__c</fullName>
+        <externalId>false</externalId>
+        <label>Trim Level</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Level1</fullName>
+                    <default>false</default>
+                    <label>Level1</label>
+                </value>
+                <value>
+                    <fullName>Level2</fullName>
+                    <default>false</default>
+                    <label>Level2</label>
+                </value>
+                <value>
+                    <fullName>Level3</fullName>
+                    <default>false</default>
+                    <label>Level3</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>Type</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Picklist</type>
@@ -557,6 +586,21 @@
         <fullName>Auto_Resolve_RT</fullName>
         <active>true</active>
         <label>Auto Resolve RT</label>
+        <picklistValues>
+            <picklist>Trim_Level__c</picklist>
+            <values>
+                <fullName>Level1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Level2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Level3</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
         <picklistValues>
             <picklist>Auto_Resolve_test__c</picklist>
             <values>
