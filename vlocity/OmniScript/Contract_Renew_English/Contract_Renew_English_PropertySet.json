@@ -1,4 +1,5 @@
 {
+    "allowCancel": true,
     "allowSaveForLater": true,
     "autoFocus": false,
     "autoSaveOnStepNext": false,
@@ -11,9 +12,14 @@
     "consoleTabLabel": "New",
     "consoleTabTitle": null,
     "currencyCode": "",
+    "disableUnloadWarn": true,
     "elementTypeToHTMLTemplateMapping": {
     },
     "enableKnowledge": false,
+    "errorMessage": {
+        "custom": [
+        ]
+    },
     "hideStepChart": false,
     "knowledgeArticleTypeQueryFieldsMap": {
     },
