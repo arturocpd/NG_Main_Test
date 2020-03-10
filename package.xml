@@ -1,20 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>AttributePricingProcedure</members>
-        <members>RangeAttributePricingProcedure</members>
-        <members>SourceTargetAttributePricingProcedure</members>
-        <name>CalculationProcedure</name>
-    </types>
-    <types>
-        <members>PricingInterface</members>
-        <members>ProductAvailabilityInterface</members>
-        <members>ProductEligibilityInterface</members>
-        <name>InterfaceImplementation</name>
-    </types>
-    <types>
-        <members>Default Pricing Plan</members>
-        <name>PricingPlan</name>
+        <members>Contract_Renew_English</members>
+        <name>OmniScript</name>
     </types>
     <version>47.0</version>
 </Package>
