@@ -519,10 +519,6 @@
                 <fullName>Level2</fullName>
                 <default>false</default>
             </values>
-            <values>
-                <fullName>Level3</fullName>
-                <default>false</default>
-            </values>
         </picklistValues>
         <picklistValues>
             <picklist>AccountSource</picklist>
