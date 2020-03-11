@@ -2,6 +2,7 @@
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
         <members>Account.Auto_Resolve_test__c</members>
+        <members>Account.Trim_Level__c</members>
         <name>CustomField</name>
     </types>
     <types>
