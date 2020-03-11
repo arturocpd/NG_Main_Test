@@ -587,21 +587,6 @@
         <active>true</active>
         <label>Auto Resolve RT</label>
         <picklistValues>
-            <picklist>Trim_Level__c</picklist>
-            <values>
-                <fullName>Level1</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Level2</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Level3</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
             <picklist>Auto_Resolve_test__c</picklist>
             <values>
                 <fullName>Auto1</fullName>
@@ -615,20 +600,15 @@
                 <fullName>Auto3</fullName>
                 <default>false</default>
             </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Trim_Level__c</picklist>
             <values>
-                <fullName>Auto4</fullName>
+                <fullName>Level1</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Auto5</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Auto6</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Auto7</fullName>
+                <fullName>Level2</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
