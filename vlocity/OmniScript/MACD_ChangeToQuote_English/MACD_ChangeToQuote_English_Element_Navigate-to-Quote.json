@@ -1,13 +1,11 @@
 {
     "%vlocity_namespace%__Active__c": true,
-    "%vlocity_namespace%__Level__c": 0,
     "%vlocity_namespace%__OmniScriptId__c": {
         "Name": "Change To Quote",
         "VlocityDataPackType": "VlocityMatchingKeyObject",
         "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/MACD/ChangeToQuote/English",
         "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
     },
-    "%vlocity_namespace%__Order__c": 3,
     "%vlocity_namespace%__PropertySet__c": {
         "HTMLTemplateId": "",
         "consoleTabLabel": "New",
@@ -18,7 +16,7 @@
         "redirectPageName": "mobileDone",
         "redirectTemplateUrl": "vlcMobileConfirmation.html",
         "show": null,
-        "source": "/apex/HybridCPQ?id=%quoteId%",
+        "source": "/apex/%vlocity_namespace%__HybridCPQ?id=%quoteId%",
         "ssm": false,
         "type": "URL",
         "validationRequired": "Submit",

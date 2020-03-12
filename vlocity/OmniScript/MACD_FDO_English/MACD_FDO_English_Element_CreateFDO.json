@@ -1,16 +1,16 @@
 {
     "%vlocity_namespace%__Active__c": true,
-    "%vlocity_namespace%__Level__c": 0,
     "%vlocity_namespace%__OmniScriptId__c": {
         "Name": "FDO",
         "VlocityDataPackType": "VlocityMatchingKeyObject",
         "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/MACD/FDO/English",
         "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
     },
-    "%vlocity_namespace%__Order__c": 5,
     "%vlocity_namespace%__PropertySet__c": {
         "HTMLTemplateId": "",
         "controlWidth": 12,
+        "extraPayload": {
+        },
         "failureAbortLabel": "Abort",
         "failureAbortMessage": "Are you sure?",
         "failureNextLabel": "Continue",

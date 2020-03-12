@@ -1,5 +1,4 @@
 {
-    "%vlocity_namespace%__AdditionalInformation__c": "Terminate a contract.",
     "%vlocity_namespace%__CustomJavaScript__c": "Contract_Terminate_English_JavaScript.js",
     "%vlocity_namespace%__DataRaptorBundleId__c": {
         "Name": "Terminate Contract",
@@ -9,19 +8,18 @@
     },
     "%vlocity_namespace%__DataRaptorBundleName__c": "Terminate Contract",
     "%vlocity_namespace%__Element__c": [
+        "Contract_Terminate_English_Element_Step-1.json",
+        "Contract_Terminate_English_Element_Terminate-Date.json",
+        "Contract_Terminate_English_Element_Terminate-Type.json",
+        "Contract_Terminate_English_Element_Terminate-Reason.json",
+        "Contract_Terminate_English_Element_Terminate-Option.json",
+        "Contract_Terminate_English_Element_Terminate-Contract.json",
+        "Contract_Terminate_English_Element_Extract-contract-line-items.json",
+        "Contract_Terminate_English_Element_Step-2.json",
         "Contract_Terminate_English_Element_ContractItem.json",
         "Contract_Terminate_English_Element_DataRaptor-Post-Action-2.json",
-        "Contract_Terminate_English_Element_Done-Action.json",
-        "Contract_Terminate_English_Element_Extract-contract-line-items.json",
-        "Contract_Terminate_English_Element_Step-1.json",
-        "Contract_Terminate_English_Element_Step-2.json",
-        "Contract_Terminate_English_Element_Terminate-Contract.json",
-        "Contract_Terminate_English_Element_Terminate-Date.json",
-        "Contract_Terminate_English_Element_Terminate-Option.json",
-        "Contract_Terminate_English_Element_Terminate-Reason.json",
-        "Contract_Terminate_English_Element_Terminate-Type.json"
+        "Contract_Terminate_English_Element_Done-Action.json"
     ],
-    "%vlocity_namespace%__IsActive__c": true,
     "%vlocity_namespace%__IsProcedure__c": false,
     "%vlocity_namespace%__IsReusable__c": false,
     "%vlocity_namespace%__Language__c": "English",
