@@ -4128,11 +4128,11 @@
         <recordType>Case.Record_Type</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Case-Case %28Sales%29 Layout</layout>
-        <recordType>Case.Record_Type_2</recordType>
+        <layout>Case-Case Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Case-Case Layout</layout>
+        <recordType>Case.Record_Type_2</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>CaseCMT__mdt-CaseCMT Layout</layout>
