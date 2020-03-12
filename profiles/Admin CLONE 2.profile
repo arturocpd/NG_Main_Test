@@ -3298,15 +3298,15 @@
         <layout>CampaignMember-Campaign Member Page Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Case-Case %28Sales%29 Layout</layout>
-        <recordType>Case.Record_Type_2</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>Case-Case %28Support%29 Layout</layout>
         <recordType>Case.Record_Type</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Case-Case Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Case-Case Layout</layout>
+        <recordType>Case.Record_Type_2</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>CaseCMT__mdt-CaseCMT Layout</layout>
@@ -5425,7 +5425,7 @@
         <name>LightningConsoleAllowedForUser</name>
     </userPermissions>
     <userPermissions>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
         <name>LightningExperienceUser</name>
     </userPermissions>
     <userPermissions>
