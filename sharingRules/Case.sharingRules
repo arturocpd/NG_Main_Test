@@ -13,6 +13,19 @@
             <value>Low</value>
         </criteriaItems>
     </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Sharing_second_test</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Sharing second test</label>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+        <criteriaItems>
+            <field>Status</field>
+            <operation>equals</operation>
+            <value>Escalated</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
     <sharingOwnerRules>
         <fullName>Owner_sharing</fullName>
         <accessLevel>Edit</accessLevel>
