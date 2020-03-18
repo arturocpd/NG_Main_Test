@@ -3338,7 +3338,7 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Account-Account %28Marketing%29 Layout</layout>
-        <recordType>Account.Record_Type1</recordType>
+        <recordType>Account.Record_Type1MOD</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Account-Account %28Marketing%29 Layout</layout>
@@ -3975,7 +3975,7 @@
     </pageAccesses>
     <recordTypeVisibilities>
         <default>false</default>
-        <recordType>Account.Record_Type1</recordType>
+        <recordType>Account.Record_Type1MOD</recordType>
         <visible>false</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
