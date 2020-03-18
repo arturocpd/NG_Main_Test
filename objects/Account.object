@@ -402,7 +402,7 @@
             <valueSetDefinition>
                 <sorted>false</sorted>
                 <value>
-                    <fullName>Gold</fullName>
+                    <fullName>GoldMOD</fullName>
                     <default>false</default>
                     <label>Gold</label>
                 </value>
@@ -1735,10 +1735,6 @@
         </picklistValues>
         <picklistValues>
             <picklist>AccountSource</picklist>
-            <values>
-                <fullName>Other</fullName>
-                <default>false</default>
-            </values>
             <values>
                 <fullName>Other</fullName>
                 <default>false</default>
