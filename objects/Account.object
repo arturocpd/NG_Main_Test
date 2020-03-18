@@ -397,6 +397,7 @@
         <label>SLAMOD</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackFeedHistory>
         <type>Picklist</type>
         <valueSet>
             <valueSetDefinition>
