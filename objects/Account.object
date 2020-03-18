@@ -1707,10 +1707,10 @@
         </picklistValues>
     </recordTypes>
     <recordTypes>
-        <fullName>Record_Type1</fullName>
+        <fullName>Record_Type1MOD</fullName>
         <active>true</active>
         <compactLayoutAssignment>Custom_Acc_Compact_Layout</compactLayoutAssignment>
-        <label>Record Type1MOD</label>
+        <label>Record Type1</label>
         <picklistValues>
             <picklist>SLA__c</picklist>
             <values>
