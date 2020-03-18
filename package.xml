@@ -5,9 +5,9 @@
         <name>CustomField</name>
     </types>
     <types>
-        <members>Account.Record_Type1</members>
+        <members>Account.Record_Type1MOD</members>
         <members>Account.Record_Type2</members>
         <name>RecordType</name>
     </types>
-    <version>47.0</version>
+    <version>48.0</version>
 </Package>
