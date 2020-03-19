@@ -1,5 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>DinnerRuleAutoResolve</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>DinnerRuleAutoResolve</label>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+        <criteriaItems>
+            <field>Dinner_Type__c</field>
+            <operation>equals</operation>
+            <value>Full</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
     <sharingOwnerRules>
         <fullName>Dinner_Sharing_Rule_All_MOD</fullName>
         <accessLevel>Read</accessLevel>
