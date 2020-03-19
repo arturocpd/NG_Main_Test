@@ -18,7 +18,7 @@
         <accessLevel>Edit</accessLevel>
         <label>Dinner Sharing Rule</label>
         <sharedTo>
-            <role>CFO</role>
+            <role>CFOMOD2</role>
         </sharedTo>
         <sharedFrom>
             <role>CEO</role>
