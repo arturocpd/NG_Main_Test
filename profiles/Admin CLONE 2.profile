@@ -205,6 +205,10 @@
         <enabled>false</enabled>
     </classAccesses>
     <custom>true</custom>
+    <customMetadataTypeAccesses>
+        <enabled>true</enabled>
+        <name>AR_CMDT__mdt</name>
+    </customMetadataTypeAccesses>
     <customPermissions>
         <enabled>true</enabled>
         <name>Custom_Perm2</name>
@@ -222,6 +226,11 @@
         <name>custom_perm_5</name>
     </customPermissions>
     <description>Profile description</description>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>AR_CMDT__mdt.AR_CMDT_Field__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
         <field>Account.AccountNumber</field>
@@ -3252,6 +3261,9 @@
         <flow>dinner</flow>
     </flowAccesses>
     <layoutAssignments>
+        <layout>AR_CMDT__mdt-AR CMDT Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Account-Account %28Support%29 Layout</layout>
         <recordType>Account.Record_Type2</recordType>
     </layoutAssignments>
@@ -5425,7 +5437,7 @@
         <name>LightningConsoleAllowedForUser</name>
     </userPermissions>
     <userPermissions>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
         <name>LightningExperienceUser</name>
     </userPermissions>
     <userPermissions>
