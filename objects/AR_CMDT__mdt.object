@@ -8,4 +8,7 @@
         <label>AR CMDT Field</label>
         <type>Checkbox</type>
     </fields>
+    <label>AR CMDT</label>
+    <pluralLabel>AR CMDT</pluralLabel>
+    <visibility>Public</visibility>
 </CustomObject>
