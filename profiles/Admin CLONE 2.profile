@@ -2,7 +2,7 @@
 <Profile xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Admin CLONE 2</fullName>
     <applicationVisibilities>
-        <application>Test_Omni_commit666</application>
+        <application>Test_Omni_commitFB</application>
         <default>false</default>
         <visible>false</visible>
     </applicationVisibilities>
