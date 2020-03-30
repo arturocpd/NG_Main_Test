@@ -26,12 +26,15 @@
             "resultVar": "result.records[0]"
         }
     },
+    "previewType": "runTime",
     "templates": {
         "0": {
             "templateUrl": "cpq-total-bar"
         }
     },
     "workspace": [
-        "cpq-total-bar-card/Vlocity/1500408956686"
+        "cpq-total-bar-card/Vlocity/1500408956686",
+        "cpq-total-bar-card/Vlocity/1/1500408956686",
+        "cpq-total-bar-card/Vlocity/2/1546864169595"
     ]
 }

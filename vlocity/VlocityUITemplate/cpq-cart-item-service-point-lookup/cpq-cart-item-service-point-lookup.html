@@ -1,0 +1,36 @@
+<div class="cpq-cart-item-lookup slds-grid slds-wrap slds-grid_pull-padded">
+    <div class="slds-col_padded slds-size_1-of-1">
+        <div class="slds-section">
+            <div class="slds-section__title">
+                <span>{{::importedScope.customLabels.CPQCartItemServicePointSelectLabel}}</span>
+            </div>
+            <div class="slds-form_stacked">
+                <div class="slds-form-element">
+                    <label class="slds-form-element__label" for="select-premises-input-01">
+                        <abbr class="slds-required" title="required">* {{::importedScope.customLabels.CPQCartItemPremisesLabel}}</abbr>
+                    </label>
+                    <div class="slds-form-element__control">
+                        <select class="slds-select" ng-change="importedScope.getServicePoints($root.selectedPremises)" 
+                                ng-options="record as record.Name.value for record in records.records track by record.Id.value" 
+                                ng-model="$root.selectedPremises"
+                                ng-init="importedScope.selectPremises(records.records)">
+                            <option value="" ng-if="false"></option>
+                        </select>
+                    </div>
+                </div>
+                <div class="slds-form-element">
+                    <label class="slds-form-element__label" for="select-service-point-input-01">
+                        <abbr class="slds-required" title="required">* {{::importedScope.customLabels.CPQCartItemServicePointLabel}}</abbr>
+                    </label>
+                    <div class="slds-form-element__control">
+                        <select class="slds-select" ng-options="record as record.Name.value for record in importedScope.servicePointList  track by record.Id.value" 
+                            ng-model="$root.selectedServicePoint"
+                            ng-init="importedScope.getServicePoints($root.selectedPremises)">
+                            <option value="" ng-if="false"></option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

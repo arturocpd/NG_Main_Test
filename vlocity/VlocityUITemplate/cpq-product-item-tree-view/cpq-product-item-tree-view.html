@@ -1,0 +1,34 @@
+<ul class="slds-accordion" ng-init="record = records.record; fields = records.fields; childRecords = records.childRecords">
+    <li class="slds-accordion__list-item">
+        <section class="slds-accordion__section" ng-class="{'slds-is-open': !record.$toggle}">
+            <div class="slds-accordion__summary" ng-click="record.$toggle = !record.$toggle">
+                <h3 class="slds-accordion__summary-heading">
+                    <button aria-controls="expando-{{record.Id.value}}" aria-expanded="{{!record.$toggle}}" class="slds-button slds-button_reset slds-accordion__summary-action"
+                        ng-class="{'slds-text-title--caps': record.itemType === 'productGroup'}">
+                        <slds-button-svg-icon sprite="'utility'" size="'small'" icon="'switch'" extra-classes="'slds-accordion__summary-action-icon slds-button__icon slds-button__icon_left'"></slds-button-svg-icon>
+                        <span class="slds-truncate" ng-attr-title="{{(record.PricebookEntry.Product2.Name || record.Product2.Name) | CPQTranslateFilter: 'Product2.Name'}}" cpq-translate="Product2.Name">{{record.PricebookEntry.Product2.Name || record.Product2.Name}}</span>
+                    </button>
+                    <!--
+                    <span class="slds-badge slds-theme_warning slds-m-bottom_small">replace</span>
+                    -->
+                </h3>
+            </div>
+            <div aria-hidden="{{record.$toggle}}" class="slds-accordion__content" id="expando-{{record.Id.value}}">
+                <div>
+                    <table class="slds-table slds-table--bordered slds-table_fixed-layout slds-max-medium-table--stacked slds-no-row-hover">
+                        <tbody>
+                            <tr ng-repeat="field in fields" ng-init="f = record[field]" ng-if="record[field].value">
+                                <th>{{record[field].label}}</th>
+                                <td class="slds-cell-wrap">{{record[field].value | picker: record[field].dataType.toLowerCase()}}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div>
+                    <cpq-child-line-item-tree-view ng-repeat="item in childRecords | orderBy: 'sequenceNumber'" 
+                    record="item" ng-if="$root.checkIfHasRealRecords(item)"></cpq-child-line-item-tree-view>
+                </div>
+            </div>
+        </section>
+    </li>
+</ul>

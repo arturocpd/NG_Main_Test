@@ -33,6 +33,7 @@
             "resultVar": "records"
         }
     },
+    "previewType": "runTime",
     "sessionVars": [
         {
             "name": "totalSize",
@@ -49,6 +50,6 @@
         }
     },
     "workspace": [
-        "comp-assets-product-item/Vlocity/1/1500408956648"
+        "comp-assets-product-item/Vlocity/2/1553508601745"
     ]
 }
