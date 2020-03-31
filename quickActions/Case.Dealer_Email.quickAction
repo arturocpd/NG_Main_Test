@@ -2,6 +2,10 @@
 <QuickAction xmlns="http://soap.sforce.com/2006/04/metadata">
     <description>Case Action Description Dealer_Email</description>
     <fieldOverrides>
+        <field>ToAddress</field>
+        <formula>Text (Case.Type)</formula>
+    </fieldOverrides>
+    <fieldOverrides>
         <field>ToIds</field>
     </fieldOverrides>
     <label>Send an Email</label>
