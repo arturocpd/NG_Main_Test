@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Profile xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Admin CLONE 2</fullName>
     <applicationVisibilities>
         <application>Test_App</application>
         <default>false</default>
