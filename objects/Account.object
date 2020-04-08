@@ -267,6 +267,11 @@
                     <default>false</default>
                     <label>Destructive2</label>
                 </value>
+                <value>
+                    <fullName>Destructive 3</fullName>
+                    <default>false</default>
+                    <label>Destructive 3</label>
+                </value>
             </valueSetDefinition>
         </valueSet>
     </fields>
@@ -1718,6 +1723,21 @@
         <active>true</active>
         <compactLayoutAssignment>Compact_Test</compactLayoutAssignment>
         <label>Record Type1</label>
+        <picklistValues>
+            <picklist>Nested_Test_RT__c</picklist>
+            <values>
+                <fullName>Destructive 3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Destructive1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Destructive2</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
         <picklistValues>
             <picklist>AccountSource</picklist>
             <values>
