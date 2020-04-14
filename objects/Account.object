@@ -480,11 +480,6 @@
             <valueSetDefinition>
                 <sorted>false</sorted>
                 <value>
-                    <fullName>001</fullName>
-                    <default>false</default>
-                    <label>001</label>
-                </value>
-                <value>
                     <fullName>020</fullName>
                     <default>false</default>
                     <label>020</label>
@@ -493,6 +488,17 @@
                     <fullName>021 - Hotell</fullName>
                     <default>false</default>
                     <label>021 - Hotell</label>
+                </value>
+                <value>
+                    <fullName>001</fullName>
+                    <default>false</default>
+                    <label>001</label>
+                </value>
+                <value>
+                    <fullName>001 - Backery</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>001 - Backery</label>
                 </value>
             </valueSetDefinition>
         </valueSet>
