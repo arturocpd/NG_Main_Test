@@ -4,16 +4,16 @@
         <label></label>
         <name>SubTrade_Channel__c</name>
         <picklistValues>
-            <masterLabel>001 - Bakery</masterLabel>
-            <translation>001 - EBakery</translation>
+            <masterLabel>001</masterLabel>
+            <translation>001 - EBakery2</translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>020</masterLabel>
-            <translation>020 - EBlank</translation>
+            <translation>020 - EBlank2</translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>021 - Hotell</masterLabel>
-            <translation>021 - EHotell</translation>
+            <translation>021 - EHotell2</translation>
         </picklistValues>
     </fields>
 </CustomObjectTranslation>

@@ -480,9 +480,9 @@
             <valueSetDefinition>
                 <sorted>false</sorted>
                 <value>
-                    <fullName>001 - Bakery</fullName>
+                    <fullName>001</fullName>
                     <default>false</default>
-                    <label>001 - Bakery</label>
+                    <label>001</label>
                 </value>
                 <value>
                     <fullName>020</fullName>
