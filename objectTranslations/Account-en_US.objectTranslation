@@ -25,5 +25,4 @@
      <errorMessage></errorMessage>
     <name>Address_Fields_Checks</name>
   </validationRules>
-   <startswith>Vowel</startswith> 
 </CustomObjectTranslation>
