@@ -20,7 +20,7 @@
             <translation>021 - EHotell</translation>
         </picklistValues>
     </fields>
-   <startswith>Vowel</startswith> 
+   <startsWith>Vowel</startsWith> 
   <validationRules>
      <errorMessage></errorMessage>
     <name>Address_Fields_Checks</name>
