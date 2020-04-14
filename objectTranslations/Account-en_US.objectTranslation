@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- SubTrade Channel --></label>
+        <name>SubTrade_Channel__c</name>
+        <picklistValues>
+            <masterLabel>001 - Bakery</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>020</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>021 - Hotell</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+</CustomObjectTranslation>
