@@ -8,6 +8,10 @@
             <translation>001 - EBakery</translation>
         </picklistValues>
         <picklistValues>
+            <masterLabel>001</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
             <masterLabel>020</masterLabel>
             <translation>020 - EBlank</translation>
         </picklistValues>
