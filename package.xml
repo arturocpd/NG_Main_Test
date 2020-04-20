@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Account.SubTrade_Channel__c</members>
-        <name>CustomField</name>
+        <members>standard-Chatter</members>
+        <members>standard-ProfilePlatformFeed</members>
+        <name>CustomTab</name>
     </types>
     <types>
-        <members>Account-en_US</members>
-        <name>CustomObjectTranslation</name>
+        <members>test_Chatter</members>
+        <name>PermissionSet</name>
     </types>
     <version>48.0</version>
 </Package>
