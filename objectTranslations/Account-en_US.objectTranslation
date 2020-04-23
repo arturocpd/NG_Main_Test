@@ -8,6 +8,10 @@
             <translation>001 - EBakery</translation>
         </picklistValues>
         <picklistValues>
+            <masterLabel>001</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
             <masterLabel>020</masterLabel>
             <translation>020 - EBlank</translation>
         </picklistValues>
@@ -16,4 +20,9 @@
             <translation>021 - EHotell</translation>
         </picklistValues>
     </fields>
+   <startsWith>Vowel</startsWith> 
+  <validationRules>
+     <errorMessage></errorMessage>
+    <name>Address_Fields_Checks</name>
+  </validationRules>
 </CustomObjectTranslation>
