@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Account.SubTrade_Channel__c</members>
-        <name>CustomField</name>
+        <members>Dinner__c-es</members>
+        <name>CustomObjectTranslation</name>
     </types>
     <types>
-        <members>Account-en_US</members>
-        <name>CustomObjectTranslation</name>
+        <members>Dinner__c-Dinner Layout</members>
+        <name>Layout</name>
     </types>
     <version>48.0</version>
 </Package>
