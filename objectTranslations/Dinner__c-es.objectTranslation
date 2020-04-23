@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Dinner</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Dinners</value>
+    </caseValues>
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>Dinner Layout</layout>
+        <sections>
+            <label>2 Mesas Disponibles</label>
+            <section>2 Tables Available</section>
+        </sections>
+        <sections>
+            <label>3 Mesas Disponibles</label>
+            <section>3 Tables Available</section>
+        </sections>
+        <sections>
+            <label>4 Mesas Disponibles</label>
+            <section>4 Tables Available</section>
+        </sections>
+        <sections>
+            <label>5 Mesas Disponibles</label>
+            <section>5 Tables Available</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Mesas Disponibles</label>
+            <section>Tables Available</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>
