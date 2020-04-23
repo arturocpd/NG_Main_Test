@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>standard-Chatter</members>
-        <members>standard-ProfilePlatformFeed</members>
-        <name>CustomTab</name>
+        <members>Dinner__c-es</members>
+        <name>CustomObjectTranslation</name>
     </types>
     <types>
-        <members>test_Chatter</members>
-        <name>PermissionSet</name>
+        <members>Dinner__c-Dinner Layout</members>
+        <name>Layout</name>
     </types>
     <version>48.0</version>
 </Package>

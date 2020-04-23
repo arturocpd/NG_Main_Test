@@ -2,6 +2,10 @@
 <CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <caseValues>
         <plural>false</plural>
+        <value>Dinner</value>
+    </caseValues>
+    <caseValues>
+        <plural>false</plural>
         <value>DinnerMOD</value>
     </caseValues>
     <caseValues>
@@ -9,37 +13,48 @@
         <value>Dinners</value>
     </caseValues>
     <fields>
-        <label><!-- External Auto --></label>
+        <label></label>
         <name>External_Auto__c</name>
     </fields>
     <fields>
-        <label><!-- LateDinner --></label>
+        <label></label>
         <name>LateDinner__c</name>
     </fields>
     <fields>
-        <label><!-- Point of contact --></label>
+        <label></label>
         <name>Point_of_contact__c</name>
         <relationshipLabel>Cenas</relationshipLabel>
     </fields>
     <fields>
-        <label><!-- TEST US --></label>
+        <label></label>
         <name>TEST_US__c</name>
     </fields>
     <fields>
-        <label><!-- Table --></label>
+        <label></label>
         <name>Table__c</name>
     </fields>
     <fields>
-        <label><!-- historyRetentionPolicy --></label>
+        <label></label>
         <name>historyRetentionPolicy__c</name>
     </fields>
     <gender>Feminine</gender>
+    <layouts>
+        <layout>Dinner Layout</layout>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Mesas Disponibles</label>
+            <section>Tables Available</section>
+        </sections>
+    </layouts>
     <recordTypes>
-        <label><!-- Dinner RT --></label>
+        <label></label>
         <name>Dinner_RT</name>
     </recordTypes>
     <recordTypes>
-        <label><!-- Dinner RT 2 --></label>
+        <label></label>
         <name>Dinner_RT_2</name>
     </recordTypes>
 </CustomObjectTranslation>
