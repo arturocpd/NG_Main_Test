@@ -5,8 +5,8 @@
         <name>GlobalValueSet</name>
     </types>
     <types>
-        <members>es</members>
-        <name>Translations</name>
+        <members>Time-es</members>
+        <name>GlobalValueSetTranslation</name>
     </types>
     <version>48.0</version>
 </Package>
