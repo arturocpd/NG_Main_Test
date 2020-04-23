@@ -41,6 +41,22 @@
     <layouts>
         <layout>Dinner Layout</layout>
         <sections>
+            <label>2 Mesas Disponibles</label>
+            <section>2 Tables Available</section>
+        </sections>
+        <sections>
+            <label>3 Mesas Disponibles</label>
+            <section>3 Tables Available</section>
+        </sections>
+        <sections>
+            <label>4 Mesas Disponibles</label>
+            <section>4 Tables Available</section>
+        </sections>
+        <sections>
+            <label>5 Mesas Disponibles</label>
+            <section>5 Tables Available</section>
+        </sections>
+        <sections>
             <label></label>
             <section>Custom Links</section>
         </sections>
