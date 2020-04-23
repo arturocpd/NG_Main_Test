@@ -101,7 +101,7 @@
         <label></label>
         <name>historyRetentionPolicy__c</name>
     </fields>
-    <gender>Feminine</gender>
+    <gender><!-- Feminine --></gender>
     <layouts>
         <layout>Dinner Layout</layout>
         <sections>
