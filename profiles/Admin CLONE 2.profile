@@ -207,6 +207,10 @@
     <custom>true</custom>
     <customPermissions>
         <enabled>true</enabled>
+        <name>Custom_Perm</name>
+    </customPermissions>
+    <customPermissions>
+        <enabled>true</enabled>
         <name>Custom_Perm2</name>
     </customPermissions>
     <customPermissions>
