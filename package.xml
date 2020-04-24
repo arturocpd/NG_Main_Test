@@ -5,12 +5,11 @@
         <members>Custom_Perm2</members>
         <members>custom_perm_3</members>
         <members>custom_perm_4</members>
-        <members>custom_perm_5</members>
         <name>CustomPermission</name>
     </types>
     <types>
-        <members>Admin CLONE 2</members>
-        <name>Profile</name>
+        <members>Dinner_2_Set</members>
+        <name>PermissionSet</name>
     </types>
     <version>48.0</version>
 </Package>
