@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Time</members>
-        <name>GlobalValueSet</name>
+        <members>Custom_Perm</members>
+        <name>CustomPermission</name>
     </types>
     <types>
-        <members>Time-es</members>
-        <name>GlobalValueSetTranslation</name>
+        <members>Admin CLONE 2</members>
+        <name>Profile</name>
     </types>
     <version>48.0</version>
 </Package>
