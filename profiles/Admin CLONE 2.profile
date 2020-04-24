@@ -207,6 +207,10 @@
     <custom>true</custom>
     <customPermissions>
         <enabled>true</enabled>
+        <name>Custom_Perm</name>
+    </customPermissions>
+    <customPermissions>
+        <enabled>true</enabled>
         <name>Custom_Perm2</name>
     </customPermissions>
     <customPermissions>
@@ -5425,7 +5429,7 @@
         <name>LightningConsoleAllowedForUser</name>
     </userPermissions>
     <userPermissions>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
         <name>LightningExperienceUser</name>
     </userPermissions>
     <userPermissions>
