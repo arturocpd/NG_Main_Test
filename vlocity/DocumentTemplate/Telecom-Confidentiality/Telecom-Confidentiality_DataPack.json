@@ -29,7 +29,7 @@
     "%vlocity_namespace%__UsageType__c": "",
     "%vlocity_namespace%__VersionNumber__c": 1,
     "%vlocity_namespace%__WMLRelationshipMetadata__c": "",
-    "%vlocity_namespace%__WordDocumentTemplate__c": "",
+    "%vlocity_namespace%__WordDocumentTemplate__c": "AR input on Word Document",
     "Name": "Telecom Confidentiality",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "%vlocity_namespace%__DocumentTemplate__c",
