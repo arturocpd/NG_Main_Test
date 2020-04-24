@@ -207,7 +207,7 @@
     <custom>true</custom>
     <customPermissions>
         <enabled>true</enabled>
-        <name>Custom_Perm2</name>
+        <name>Custom_Perm</name>
     </customPermissions>
     <customPermissions>
         <enabled>true</enabled>
@@ -218,7 +218,7 @@
         <name>custom_perm_4</name>
     </customPermissions>
     <customPermissions>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
         <name>custom_perm_5</name>
     </customPermissions>
     <description>Profile description</description>
