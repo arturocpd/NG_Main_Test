@@ -4,14 +4,6 @@
         <enabled>true</enabled>
         <name>Custom_Perm</name>
     </customPermissions>
-    <customPermissions>
-        <enabled>true</enabled>
-        <name>Custom_Perm2</name>
-    </customPermissions>
-    <customPermissions>
-        <enabled>true</enabled>
-        <name>custom_perm_3</name>
-    </customPermissions>
     <hasActivationRequired>true</hasActivationRequired>
     <label>Dinner 2 Set</label>
 </PermissionSet>
