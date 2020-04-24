@@ -224,6 +224,10 @@
         <enabled>true</enabled>
         <name>AR_CMDT__mdt</name>
     </customMetadataTypeAccesses>
+    <customPermissions>
+        <enabled>true</enabled>
+        <name>Custom_Perm</name>
+    </customPermissions>
     <customSettingAccesses>
         <enabled>true</enabled>
         <name>List_CS__c</name>
