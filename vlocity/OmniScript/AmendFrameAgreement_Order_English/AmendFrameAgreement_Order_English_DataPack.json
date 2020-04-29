@@ -1,5 +1,5 @@
 {
-    "%vlocity_namespace%__ElementTypeToHTMLTemplateList__c": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "%vlocity_namespace%__ElementTypeToHTMLTemplateList__c": "{\"ElementTypeToHTMLTemplateList\":[\"AR template\"]}",
     "%vlocity_namespace%__Element__c": [
         "AmendFrameAgreement_Order_English_Element_AmendFrameAgreementIP.json",
         "AmendFrameAgreement_Order_English_Element_HandleErrors.json",
