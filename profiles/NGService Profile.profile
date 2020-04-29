@@ -927,6 +927,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Case.CCH_Test__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Case.CI_Picklist_Test__c</field>
         <readable>false</readable>
     </fieldPermissions>

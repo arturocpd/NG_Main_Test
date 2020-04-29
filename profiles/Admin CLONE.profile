@@ -948,6 +948,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Case.CCH_Test__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Case.CI_Picklist_Test__c</field>
         <readable>true</readable>
     </fieldPermissions>
