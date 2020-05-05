@@ -1,12 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Account.SubTrade_Channel__c</members>
-        <name>CustomField</name>
+        <members>CreateContractVersion</members>
+        <members>CreateContractVersionLines</members>
+        <members>CreateLineItems</members>
+        <members>GetContract</members>
+        <members>GetDocumentTemplates</members>
+        <members>GetProducts</members>
+        <members>UpdateContractVersion</members>
+        <name>DataRaptor</name>
     </types>
     <types>
-        <members>Account-en_US</members>
-        <name>CustomObjectTranslation</name>
+        <members>Contract_Amend_English</members>
+        <name>OmniScript</name>
+    </types>
+    <types>
+        <members>AR Action</members>
+        <name>VlocityAction</name>
+    </types>
+    <types>
+        <members>AR template</members>
+        <name>VlocityUITemplate</name>
     </types>
     <version>48.0</version>
 </Package>
