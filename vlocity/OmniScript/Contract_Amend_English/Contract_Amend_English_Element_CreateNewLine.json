@@ -21,6 +21,7 @@
     "%vlocity_namespace%__ParentElementName__c": "Lines",
     "%vlocity_namespace%__ParentElementType__c": "Step",
     "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "AR template",
         "accessibleInFutureSteps": false,
         "conditionType": "Hide if False",
         "controlWidth": 12,
@@ -29,8 +30,11 @@
             "source": "",
             "type": ""
         },
+        "disOnTplt": false,
         "help": false,
         "helpText": "",
+        "hide": false,
+        "inputWidth": 12,
         "label": null,
         "optionSource": {
             "source": "",
@@ -40,13 +44,18 @@
             {
                 "name": "CreateNewLine",
                 "value": "Add products as new contract lines"
+            },
+            {
+                "name": "CreateNewLine",
+                "value": "Add products AR MOD"
             }
         ],
         "readOnly": false,
         "repeat": false,
         "repeatClone": false,
         "required": false,
-        "show": null
+        "show": null,
+        "showInputWidth": false
     },
     "%vlocity_namespace%__ReusableOmniScript__c": false,
     "%vlocity_namespace%__Type__c": "Select",
