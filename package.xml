@@ -15,10 +15,6 @@
         <name>OmniScript</name>
     </types>
     <types>
-        <members>AR Action</members>
-        <name>VlocityAction</name>
-    </types>
-    <types>
         <members>AR template</members>
         <name>VlocityUITemplate</name>
     </types>
