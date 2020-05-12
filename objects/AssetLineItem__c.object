@@ -156,6 +156,7 @@
     <gender>Feminine</gender>
     <label>AssetLineItem</label>
     <nameField>
+        <encryptionScheme>None</encryptionScheme>
         <label>AssetLineItem Name</label>
         <type>Text</type>
     </nameField>

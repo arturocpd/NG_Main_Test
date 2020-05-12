@@ -4,6 +4,7 @@
     <enableFeeds>false</enableFeeds>
     <fields>
         <fullName>Email__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Email</label>
         <required>false</required>
@@ -13,6 +14,7 @@
     </fields>
     <fields>
         <fullName>url__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>url</label>
         <required>false</required>

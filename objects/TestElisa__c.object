@@ -4,6 +4,7 @@
     <enableFeeds>false</enableFeeds>
     <fields>
         <fullName>ENG__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>ENG</label>
         <required>false</required>
@@ -13,6 +14,7 @@
     <fields>
         <fullName>FIN__c</fullName>
         <description>This is the FIN description</description>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <inlineHelpText>This is the Help for FIN</inlineHelpText>
         <label>FIN</label>

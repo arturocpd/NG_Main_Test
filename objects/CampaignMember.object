@@ -164,6 +164,14 @@
         <fullName>FirstRespondedDate</fullName>
     </fields>
     <fields>
+        <fullName>First_Responded_Date__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>First Responded Date</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
         <fullName>HasOptedOutOfEmail</fullName>
     </fields>
     <fields>

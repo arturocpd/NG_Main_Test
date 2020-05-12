@@ -24,6 +24,7 @@
     <enableHistory>false</enableHistory>
     <fields>
         <fullName>Answer__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Answer</label>
         <length>12</length>
@@ -33,6 +34,7 @@
     </fields>
     <fields>
         <fullName>Body__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Body</label>
         <length>32768</length>

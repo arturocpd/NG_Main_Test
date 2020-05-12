@@ -156,6 +156,7 @@
     <gender>Feminine</gender>
     <label>Request</label>
     <nameField>
+        <encryptionScheme>None</encryptionScheme>
         <label>Request Name</label>
         <type>Text</type>
     </nameField>

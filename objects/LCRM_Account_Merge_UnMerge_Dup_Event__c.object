@@ -156,6 +156,7 @@
     <externalSharingModel>ReadWrite</externalSharingModel>
     <fields>
         <fullName>LCRM_Event_Date__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Event Date</label>
         <required>false</required>
@@ -164,6 +165,7 @@
     </fields>
     <fields>
         <fullName>LCRM_Event_Raised_by__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Event By</label>
         <length>100</length>
@@ -203,6 +205,7 @@
     </fields>
     <fields>
         <fullName>LCRM_GLI_Account_ID_1__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Source Account ID 1</label>
         <length>100</length>
@@ -213,6 +216,7 @@
     </fields>
     <fields>
         <fullName>LCRM_GLI_Account_ID_2__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Source Account ID 2</label>
         <length>100</length>
@@ -223,6 +227,7 @@
     </fields>
     <fields>
         <fullName>LCRM_GLI_Contact_ID_1__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Source Contact ID 1</label>
         <length>100</length>
@@ -233,6 +238,7 @@
     </fields>
     <fields>
         <fullName>LCRM_GLI_Contact_ID_2__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Source Contact ID 2</label>
         <length>100</length>
@@ -243,6 +249,7 @@
     </fields>
     <fields>
         <fullName>Merged_Account_ID__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Destination ID</label>
         <length>100</length>
@@ -277,6 +284,7 @@
     </fields>
     <label>Account Event</label>
     <nameField>
+        <encryptionScheme>None</encryptionScheme>
         <label>Account Event Name</label>
         <type>Text</type>
     </nameField>

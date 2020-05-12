@@ -202,6 +202,7 @@
     <fields>
         <fullName>ExternalId__c</fullName>
         <caseSensitive>false</caseSensitive>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>true</externalId>
         <label>ExternalId</label>
         <length>20</length>

@@ -165,6 +165,7 @@
     <gender>Feminine</gender>
     <label>Test Bug</label>
     <nameField>
+        <encryptionScheme>None</encryptionScheme>
         <label>Test Bug Name</label>
         <type>Text</type>
     </nameField>

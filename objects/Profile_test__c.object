@@ -164,6 +164,7 @@
     <gender>Feminine</gender>
     <label>Profile test</label>
     <nameField>
+        <encryptionScheme>None</encryptionScheme>
         <label>Profile test Name</label>
         <type>Text</type>
     </nameField>

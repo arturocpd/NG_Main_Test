@@ -180,6 +180,7 @@
     </fields>
     <fields>
         <fullName>Search_Layout_Product_test__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Search Layout Product test</label>
         <length>12</length>

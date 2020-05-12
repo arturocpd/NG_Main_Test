@@ -168,6 +168,7 @@
     <gender>Feminine</gender>
     <label>Quote/Proposal</label>
     <nameField>
+        <encryptionScheme>None</encryptionScheme>
         <label>Quote/Proposal Name</label>
         <type>Text</type>
     </nameField>

@@ -204,6 +204,7 @@
     <gender>Masculine</gender>
     <label>OrderLineItemsESP</label>
     <nameField>
+        <encryptionScheme>None</encryptionScheme>
         <label>OrderLineItems Name</label>
         <type>Text</type>
     </nameField>

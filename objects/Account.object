@@ -346,6 +346,55 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
+        <fullName>Auto_Resolve_test__c</fullName>
+        <externalId>false</externalId>
+        <label>Auto Resolve Field</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Auto1</fullName>
+                    <default>false</default>
+                    <label>Auto1</label>
+                </value>
+                <value>
+                    <fullName>Auto2</fullName>
+                    <default>false</default>
+                    <label>Auto2</label>
+                </value>
+                <value>
+                    <fullName>Auto3</fullName>
+                    <default>false</default>
+                    <label>Auto3</label>
+                </value>
+                <value>
+                    <fullName>Auto4</fullName>
+                    <default>false</default>
+                    <label>Auto4</label>
+                </value>
+                <value>
+                    <fullName>Auto5</fullName>
+                    <default>false</default>
+                    <label>Auto5</label>
+                </value>
+                <value>
+                    <fullName>Auto6</fullName>
+                    <default>false</default>
+                    <label>Auto6</label>
+                </value>
+                <value>
+                    <fullName>Auto7</fullName>
+                    <default>false</default>
+                    <label>Auto7</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>Big__c</fullName>
         <defaultValue>false</defaultValue>
         <externalId>false</externalId>
@@ -355,6 +404,7 @@
     </fields>
     <fields>
         <fullName>BillingAddress</fullName>
+        <encryptionScheme>None</encryptionScheme>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
@@ -412,6 +462,7 @@
     </fields>
     <fields>
         <fullName>Description</fullName>
+        <encryptionScheme>None</encryptionScheme>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
@@ -421,6 +472,7 @@
     <fields>
         <fullName>External_Id__c</fullName>
         <caseSensitive>false</caseSensitive>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>true</externalId>
         <label>External Id</label>
         <length>255</length>
@@ -431,6 +483,7 @@
     </fields>
     <fields>
         <fullName>Fax</fullName>
+        <encryptionScheme>None</encryptionScheme>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
@@ -496,6 +549,7 @@
     </fields>
     <fields>
         <fullName>Name</fullName>
+        <encryptionScheme>None</encryptionScheme>
         <trackFeedHistory>true</trackFeedHistory>
     </fields>
     <fields>
@@ -518,6 +572,11 @@
                     <fullName>Destructive2</fullName>
                     <default>false</default>
                     <label>Destructive2</label>
+                </value>
+                <value>
+                    <fullName>Destructive 3</fullName>
+                    <default>false</default>
+                    <label>Destructive 3</label>
                 </value>
             </valueSetDefinition>
         </valueSet>
@@ -559,6 +618,7 @@
     </fields>
     <fields>
         <fullName>Phone</fullName>
+        <encryptionScheme>None</encryptionScheme>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
@@ -568,6 +628,7 @@
     </fields>
     <fields>
         <fullName>SLAExpirationDate__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>SLA Expiration Date</label>
         <required>false</required>
@@ -576,6 +637,7 @@
     </fields>
     <fields>
         <fullName>SLASerialNumber__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>SLA Serial Number</label>
         <length>10</length>
@@ -629,6 +691,7 @@
     </fields>
     <fields>
         <fullName>ShippingAddress</fullName>
+        <encryptionScheme>None</encryptionScheme>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
@@ -641,7 +704,43 @@
     </fields>
     <fields>
         <fullName>Site</fullName>
+        <encryptionScheme>None</encryptionScheme>
         <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>SubTrade_Channel__c</fullName>
+        <externalId>false</externalId>
+        <label>SubTrade Channel</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>020</fullName>
+                    <default>false</default>
+                    <label>020</label>
+                </value>
+                <value>
+                    <fullName>021 - Hotell</fullName>
+                    <default>false</default>
+                    <label>021 - Hotell</label>
+                </value>
+                <value>
+                    <fullName>001</fullName>
+                    <default>false</default>
+                    <label>001</label>
+                </value>
+                <value>
+                    <fullName>001 - Backery</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>001 - Backery</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
     </fields>
     <fields>
         <fullName>Test_Override_2__c</fullName>
@@ -660,6 +759,35 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
+        <fullName>Trim_Level__c</fullName>
+        <externalId>false</externalId>
+        <label>Trim Level</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Level1</fullName>
+                    <default>false</default>
+                    <label>Level1</label>
+                </value>
+                <value>
+                    <fullName>Level2</fullName>
+                    <default>false</default>
+                    <label>Level2</label>
+                </value>
+                <value>
+                    <fullName>Level3</fullName>
+                    <default>false</default>
+                    <label>Level3</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>Trimming_Acc__c</fullName>
         <defaultValue>false</defaultValue>
         <externalId>false</externalId>
@@ -674,6 +802,7 @@
     </fields>
     <fields>
         <fullName>Website</fullName>
+        <encryptionScheme>None</encryptionScheme>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
@@ -734,6 +863,7 @@ Description Line 3</description>
     <fields>
         <fullName>xyz_Account_Number__c</fullName>
         <caseSensitive>true</caseSensitive>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>true</externalId>
         <label>xyz Account Number</label>
         <length>40</length>
@@ -792,9 +922,9 @@ Description Line 3</description>
     </listViews>
     <recordTypeTrackFeedHistory>false</recordTypeTrackFeedHistory>
     <recordTypes>
-        <fullName>DeleteRTacc</fullName>
+        <fullName>Auto_Resolve_RT</fullName>
         <active>true</active>
-        <label>DeleteRTacc</label>
+        <label>Auto Resolve RT</label>
         <picklistValues>
             <picklist>ASCII_Test__c</picklist>
             <values>
@@ -845,6 +975,21 @@ Description Line 3</description>
             </values>
             <values>
                 <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Auto_Resolve_test__c</picklist>
+            <values>
+                <fullName>Auto1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Auto2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Auto3</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -1071,6 +1216,400 @@ Description Line 3</description>
             </values>
             <values>
                 <fullName>Wood</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SubTrade_Channel__c</picklist>
+            <values>
+                <fullName>020</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>021 - Hotell</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Trim_Level__c</picklist>
+            <values>
+                <fullName>Level1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Level2</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type</picklist>
+            <values>
+                <fullName>Channel Partner %2F Reseller</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer - Channel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer - Direct</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Installation Partner</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Prospect</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Technology Partner</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>DeleteRTacc</fullName>
+        <active>true</active>
+        <label>DeleteRTacc</label>
+        <picklistValues>
+            <picklist>ASCII_Test__c</picklist>
+            <values>
+                <fullName>Afghanistan 93</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>AccountSource</picklist>
+            <values>
+                <fullName>One more CI test</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Partner Referral</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Phone Inquiry</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Purchased List</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>RT test with CI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Test CI</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Active__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Auto_Resolve_test__c</picklist>
+            <values>
+                <fullName>Auto1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Auto2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Auto3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Auto4</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Auto5</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Auto6</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Auto7</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>CustomerPriority__c</picklist>
+            <values>
+                <fullName>High</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Low</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Medium</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>None</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Plus</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Industry</picklist>
+            <values>
+                <fullName>Agriculture</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Apparel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Banking</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Biotechnology</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Chemicals</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Communications</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Construction</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Consulting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Education</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Electronics</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Energy</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Engineering</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Entertainment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Environmental</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Finance</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Food %26 Beverage</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Government</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Healthcare</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hospitality</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Insurance</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Machinery</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Manufacturing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Media</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not For Profit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Recreation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Retail</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Shipping</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Technology</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Telecommunications</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Transportation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Utilities</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Nested_Test_RT__c</picklist>
+            <values>
+                <fullName>Destructive1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Destructive2</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Ownership</picklist>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Private</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Public</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Subsidiary</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Rating</picklist>
+            <values>
+                <fullName>Cold</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hot</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Warm</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SLA__c</picklist>
+            <values>
+                <fullName>Bronze</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Gold</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Iron</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Platinum</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Silver</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Wood</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SubTrade_Channel__c</picklist>
+            <values>
+                <fullName>020</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>021 - Hotell</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Trim_Level__c</picklist>
+            <values>
+                <fullName>Level1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Level2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Level3</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -1164,6 +1703,37 @@ Description Line 3</description>
             </values>
         </picklistValues>
         <picklistValues>
+            <picklist>Auto_Resolve_test__c</picklist>
+            <values>
+                <fullName>Auto1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Auto2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Auto3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Auto4</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Auto5</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Auto6</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Auto7</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
             <picklist>CustomerPriority__c</picklist>
             <values>
                 <fullName>High</fullName>
@@ -1390,6 +1960,32 @@ Description Line 3</description>
             </values>
         </picklistValues>
         <picklistValues>
+            <picklist>SubTrade_Channel__c</picklist>
+            <values>
+                <fullName>020</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>021 - Hotell</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Trim_Level__c</picklist>
+            <values>
+                <fullName>Level1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Level2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Level3</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
             <picklist>Type</picklist>
             <values>
                 <fullName>Channel Partner %2F Reseller</fullName>
@@ -1464,6 +2060,37 @@ Description Line 3</description>
             </values>
             <values>
                 <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Auto_Resolve_test__c</picklist>
+            <values>
+                <fullName>Auto1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Auto2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Auto3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Auto4</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Auto5</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Auto6</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Auto7</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -1620,6 +2247,10 @@ Description Line 3</description>
         <picklistValues>
             <picklist>Nested_Test_RT__c</picklist>
             <values>
+                <fullName>Destructive 3</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Destructive1</fullName>
                 <default>false</default>
             </values>
@@ -1686,6 +2317,32 @@ Description Line 3</description>
             </values>
             <values>
                 <fullName>Wood</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SubTrade_Channel__c</picklist>
+            <values>
+                <fullName>020</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>021 - Hotell</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Trim_Level__c</picklist>
+            <values>
+                <fullName>Level1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Level2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Level3</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -1764,6 +2421,37 @@ Description Line 3</description>
             </values>
             <values>
                 <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Auto_Resolve_test__c</picklist>
+            <values>
+                <fullName>Auto1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Auto2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Auto3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Auto4</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Auto5</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Auto6</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Auto7</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -1982,6 +2670,32 @@ Description Line 3</description>
             </values>
             <values>
                 <fullName>Wood</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SubTrade_Channel__c</picklist>
+            <values>
+                <fullName>020</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>021 - Hotell</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Trim_Level__c</picklist>
+            <values>
+                <fullName>Level1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Level2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Level3</fullName>
                 <default>false</default>
             </values>
         </picklistValues>

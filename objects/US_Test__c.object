@@ -164,6 +164,7 @@
     <gender>Feminine</gender>
     <label>US Test</label>
     <nameField>
+        <encryptionScheme>None</encryptionScheme>
         <label>US Test Name</label>
         <type>Text</type>
     </nameField>

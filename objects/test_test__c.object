@@ -156,6 +156,7 @@
     <gender>Feminine</gender>
     <label>test.test</label>
     <nameField>
+        <encryptionScheme>None</encryptionScheme>
         <label>test.test Name</label>
         <type>Text</type>
     </nameField>

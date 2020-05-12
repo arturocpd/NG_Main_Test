@@ -156,6 +156,7 @@
     <gender>Feminine</gender>
     <label>Trimming object</label>
     <nameField>
+        <encryptionScheme>None</encryptionScheme>
         <label>Trimming object Name</label>
         <type>Text</type>
     </nameField>

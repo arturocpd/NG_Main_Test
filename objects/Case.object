@@ -316,6 +316,20 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>CCH_Test__c</fullName>
+        <description>Arturo</description>
+        <encryptionScheme>ProbabilisticEncryption</encryptionScheme>
+        <externalId>false</externalId>
+        <label>CCH Test</label>
+        <length>12</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>CI_Picklist_Test__c</fullName>
         <description>description</description>
         <externalId>false</externalId>
@@ -1204,6 +1218,19 @@
         </valueSet>
     </fields>
     <fields>
+        <fullName>Core_jsonfield__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Core jsonfield</label>
+        <length>14</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>DeleteMe2__c</fullName>
         <defaultValue>false</defaultValue>
         <externalId>false</externalId>
@@ -1268,6 +1295,7 @@
     </fields>
     <fields>
         <fullName>Description</fullName>
+        <encryptionScheme>None</encryptionScheme>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>true</trackHistory>
         <trackTrending>false</trackTrending>
@@ -1394,6 +1422,7 @@
     </fields>
     <fields>
         <fullName>EngineeringReqNumber__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Engineering Req Number</label>
         <length>12</length>
@@ -5063,6 +5092,7 @@
     </fields>
     <fields>
         <fullName>Subject</fullName>
+        <encryptionScheme>None</encryptionScheme>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>true</trackHistory>
         <trackTrending>false</trackTrending>
@@ -5207,6 +5237,29 @@
         <type>Checkbox</type>
     </fields>
     <fields>
+        <fullName>Test_Index__c</fullName>
+        <externalId>true</externalId>
+        <label>Test Index</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Training_field__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Training field</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>Trimming_fix__c</fullName>
         <defaultValue>false</defaultValue>
         <externalId>false</externalId>
@@ -5236,6 +5289,7 @@
     <fields>
         <fullName>Unique_Code__c</fullName>
         <caseSensitive>true</caseSensitive>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>true</externalId>
         <label>Unique Code</label>
         <length>10</length>
@@ -5261,6 +5315,16 @@
         <defaultValue>false</defaultValue>
         <externalId>false</externalId>
         <label>V9 test flow</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>VS_PS_Test__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>VS PS Test</label>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
@@ -5420,6 +5484,7 @@
     </fields>
     <fields>
         <fullName>convert__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>convert</label>
         <length>14</length>
@@ -5514,6 +5579,7 @@
     </fields>
     <fields>
         <fullName>rich__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>rich</label>
         <length>32768</length>

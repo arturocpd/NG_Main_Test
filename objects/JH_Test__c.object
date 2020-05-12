@@ -12,6 +12,7 @@
     </fields>
     <fields>
         <fullName>Name__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Name</label>
         <length>18</length>
