@@ -47,6 +47,7 @@
     <enableBulkApi>true</enableBulkApi>
     <enableFeeds>false</enableFeeds>
     <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
     <enableReports>false</enableReports>
     <enableSearch>true</enableSearch>
     <enableSharing>true</enableSharing>
@@ -68,7 +69,8 @@
         <label>All</label>
     </listViews>
     <nameField>
-        <label>CSTM Object Name</label>
+        <encryptionScheme>None</encryptionScheme>
+        <label>CSTM Object</label>
         <type>Text</type>
     </nameField>
     <pluralLabel>CSTM Objects</pluralLabel>
@@ -77,7 +79,7 @@
         <active>true</active>
         <label>CSTM New layout</label>
     </recordTypes>
-    <searchLayouts/>
+    <searchLayouts />
     <sharingModel>Private</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>
