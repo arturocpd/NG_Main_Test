@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>CSTM_Object__c.cstm_field__c</members>
+        <members>GenderTest__c.GenderTextField__c</members>
         <name>CustomField</name>
     </types>
     <types>
-        <members>CSTM_Object__c</members>
+        <members>GenderTest__c</members>
         <name>CustomObject</name>
     </types>
     <types>
-        <members>CSTM_Object__c-da</members>
+        <members>GenderTest__c-da</members>
         <name>CustomObjectTranslation</name>
     </types>
     <version>48.0</version>
