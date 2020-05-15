@@ -11,7 +11,7 @@
             </criteriaItems>
             <notifyCcRecipients>false</notifyCcRecipients>
             <senderEmail>arturogueznez@gmail.com</senderEmail>
-            <senderName>Name1</senderName>
+            <senderName>Name1MODFB</senderName>
             <template>unfiled$public/SalesNewCustomerEmail</template>
         </ruleEntry>
         <ruleEntry>
