@@ -3185,10 +3185,6 @@
         <visible>true</visible>
     </recordTypeVisibilities>
     <tabVisibilities>
-        <tab>Getting_Started</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
         <tab>Sample_Account_Page</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
