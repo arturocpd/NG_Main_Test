@@ -1,0 +1,11 @@
+{
+    "%vlocity_namespace%__IsActive__c": true,
+    "%vlocity_namespace%__IsProcedure__c": false,
+    "%vlocity_namespace%__IsReusable__c": false,
+    "%vlocity_namespace%__Language__c": "English",
+    "%vlocity_namespace%__PropertySet__c": "PatriOmniscript_PropertySet.json",
+    "Name": "PatriOmniscript",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c",
+    "VlocityRecordSourceKey": "VlocityRecordSourceKey:a1I1I000001CGNsUAO"
+}
