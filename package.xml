@@ -2,6 +2,7 @@
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
         <members>Contact.GoodBad__c</members>
+        <members>Contact.Name</members>
         <members>Contact.Salutation</members>
         <name>CustomField</name>
     </types>
@@ -10,8 +11,6 @@
         <name>RecordType</name>
     </types>
     <types>
-        <members>Salutation</members>
-        <members>Salutation</members>
         <members>Salutation</members>
         <name>StandardValueSet</name>
     </types>
