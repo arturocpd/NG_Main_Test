@@ -559,6 +559,13 @@
         <active>true</active>
         <label>Auto Resolve RT</label>
         <picklistValues>
+            <picklist>Nested_Test_RT__c</picklist>
+            <values>
+                <fullName>Destructive1</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
             <picklist>Auto_Resolve_test__c</picklist>
             <values>
                 <fullName>Auto1</fullName>
