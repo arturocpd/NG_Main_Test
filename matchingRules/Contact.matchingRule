@@ -1,16 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MatchingRules xmlns="http://soap.sforce.com/2006/04/metadata">
     <matchingRules>
-        <fullName>Contact_Rule_A</fullName>
-        <label>Contact Rule A</label>
-        <matchingRuleItems>
-            <blankValueBehavior>NullNotAllowed</blankValueBehavior>
-            <fieldName>MailingCity</fieldName>
-            <matchingMethod>Exact</matchingMethod>
-        </matchingRuleItems>
-        <ruleStatus>Active</ruleStatus>
-    </matchingRules>
-    <matchingRules>
         <fullName>Contact_Rule_B</fullName>
         <label>Contact Rule B</label>
         <matchingRuleItems>
