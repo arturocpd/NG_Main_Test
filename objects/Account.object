@@ -920,6 +920,13 @@ Description Line 3</description>
         <filterScope>Everything</filterScope>
         <label>Platinum and Gold SLA Customers</label>
     </listViews>
+    <profileSearchLayouts>
+        <fields>ACCOUNT.NAME</fields>
+        <fields>ACCOUNT.SITE</fields>
+        <fields>ACCOUNT.TYPE</fields>
+        <fields>ACCOUNT.URL</fields>
+        <profileName>Admin CLONE 2</profileName>
+    </profileSearchLayouts>
     <recordTypeTrackFeedHistory>false</recordTypeTrackFeedHistory>
     <recordTypes>
         <fullName>Auto_Resolve_RT</fullName>
@@ -939,14 +946,6 @@ Description Line 3</description>
         <picklistValues>
             <picklist>AccountSource</picklist>
             <values>
-                <fullName>One more CI test</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Other</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>Partner Referral</fullName>
                 <default>false</default>
             </values>
@@ -956,14 +955,6 @@ Description Line 3</description>
             </values>
             <values>
                 <fullName>Purchased List</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>RT test with CI</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Test CI</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -1150,11 +1141,11 @@ Description Line 3</description>
         <picklistValues>
             <picklist>Nested_Test_RT__c</picklist>
             <values>
-                <fullName>Destructive1</fullName>
+                <fullName>Destructive 3</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Destructive2</fullName>
+                <fullName>Destructive1</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -1244,10 +1235,6 @@ Description Line 3</description>
         <picklistValues>
             <picklist>Type</picklist>
             <values>
-                <fullName>Channel Partner %2F Reseller</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>Customer - Channel</fullName>
                 <default>false</default>
             </values>
@@ -1256,19 +1243,7 @@ Description Line 3</description>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Installation Partner</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Other</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>Prospect</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Technology Partner</fullName>
                 <default>false</default>
             </values>
         </picklistValues>

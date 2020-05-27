@@ -48,6 +48,10 @@
         <label><!-- xyz SGUID --></label>
         <name>xyz_SGUID__c</name>
     </fields>
+    <recordTypes>
+        <label><!-- Contact RT1 --></label>
+        <name>Contact_RT1</name>
+    </recordTypes>
     <validationRules>
         <errorMessage><!-- Account name cannot be null or Id cannot be null --></errorMessage>
         <name>AAA_validation</name>
