@@ -561,6 +561,10 @@
         <picklistValues>
             <picklist>Nested_Test_RT__c</picklist>
             <values>
+                <fullName>Destructive 3</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Destructive1</fullName>
                 <default>false</default>
             </values>
