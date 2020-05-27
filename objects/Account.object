@@ -267,6 +267,11 @@
                     <default>false</default>
                     <label>Destructive2</label>
                 </value>
+                <value>
+                    <fullName>Destructive 3</fullName>
+                    <default>false</default>
+                    <label>Destructive 3</label>
+                </value>
             </valueSetDefinition>
         </valueSet>
     </fields>
@@ -615,6 +620,13 @@
         <fullName>Auto_Resolve_RT</fullName>
         <active>true</active>
         <label>Auto Resolve RT</label>
+        <picklistValues>
+            <picklist>Nested_Test_RT__c</picklist>
+            <values>
+                <fullName>Destructive1</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
         <picklistValues>
             <picklist>Trim_Level__c</picklist>
             <values>
