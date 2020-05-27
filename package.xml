@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Account.Nested_Test_RT__c</members>
+        <members>Lead.GoodBad__c</members>
         <name>CustomField</name>
     </types>
     <types>
-        <members>Account.Auto_Resolve_RT</members>
+        <members>Lead.Comercial_Lead_Record_Type</members>
         <name>RecordType</name>
     </types>
     <version>48.0</version>

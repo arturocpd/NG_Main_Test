@@ -47,6 +47,36 @@
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
+        <fullName>GoodBad__c</fullName>
+        <externalId>false</externalId>
+        <label>GoodBad</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Good</fullName>
+                    <default>false</default>
+                    <label>Good</label>
+                </value>
+                <value>
+                    <fullName>Bad</fullName>
+                    <default>false</default>
+                    <label>Bad</label>
+                </value>
+                <value>
+                    <fullName>Really Bad</fullName>
+                    <default>false</default>
+                    <label>Really Bad</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>IndividualId</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
@@ -117,4 +147,25 @@
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
     </fields>
+    <recordTypes>
+        <fullName>Comercial_Lead_Record_Type</fullName>
+        <active>true</active>
+        <businessProcess>Comercial Lead Process</businessProcess>
+        <label>Comercial Lead Record Type</label>
+        <picklistValues>
+            <picklist>GoodBad__c</picklist>
+            <values>
+                <fullName>Bad</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Good</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Really Bad</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
 </CustomObject>
