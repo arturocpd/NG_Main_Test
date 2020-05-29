@@ -1,7 +1,7 @@
 public class CourseManagerX {
 
     static void CreateManager(){
-    /*Test rename API name*/
+    /*this is a new comment*/
     }
         
 }
