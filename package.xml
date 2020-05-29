@@ -4,5 +4,9 @@
         <members>Contract_Amend_English</members>
         <name>OmniScript</name>
     </types>
+    <types>
+        <members>AR Action</members>
+        <name>VlocityAction</name>
+    </types>
     <version>48.0</version>
 </Package>
