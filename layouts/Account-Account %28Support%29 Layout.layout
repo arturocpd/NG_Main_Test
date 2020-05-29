@@ -111,6 +111,10 @@
                 <behavior>Edit</behavior>
                 <field>TickerSymbol</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>NumberOfEmployees</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
