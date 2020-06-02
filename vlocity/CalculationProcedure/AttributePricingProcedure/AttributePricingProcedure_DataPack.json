@@ -7,7 +7,7 @@
     "%vlocity_namespace%__Type__c": "",
     "Name": "AttributePricingProcedure",
     "RecordTypeId": {
-        "DeveloperName": "Declarative",
+        "DeveloperName": "DeclarativeFB",
         "SobjectType": "%vlocity_namespace%__CalculationProcedure__c",
         "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
         "VlocityLookupRecordSourceKey": "RecordType/%vlocity_namespace%__CalculationProcedure__c/Declarative",
