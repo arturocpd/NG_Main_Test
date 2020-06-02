@@ -1,5 +1,6 @@
 {
     "%vlocity_namespace%__ActionClassName__c": "",
+    "%vlocity_namespace%__CalculationProcedureVersion__c": "Life-test_Version.json",
     "%vlocity_namespace%__Description__c": "",
     "%vlocity_namespace%__GlobalKey__c": "a2e50f3e-8dfa-a7b0-02f7-13be2f4f84a1",
     "%vlocity_namespace%__SubType__c": "",
