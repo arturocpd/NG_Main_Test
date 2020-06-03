@@ -24,6 +24,8 @@
         "nextWidth": 3,
         "previousLabel": "Previous",
         "previousWidth": 3,
+        "remoteClass": "",
+        "remoteMethod": "",
         "remoteOptions": {
         },
         "remoteTimeout": 30000,

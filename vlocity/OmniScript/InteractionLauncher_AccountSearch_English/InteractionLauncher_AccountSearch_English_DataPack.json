@@ -1,6 +1,6 @@
 {
     "%vlocity_namespace%__AdditionalInformation__c": "Omniscript used by the Interaction Launcher",
-    "%vlocity_namespace%__ElementTypeToHTMLTemplateList__c": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "%vlocity_namespace%__ElementTypeToHTMLTemplateList__c": "{\"ElementTypeToHTMLTemplateList\":[\"\"]}",
     "%vlocity_namespace%__Element__c": [
         "InteractionLauncher_AccountSearch_English_Element_AccountSearch.json",
         "InteractionLauncher_AccountSearch_English_Element_FirstName.json",
