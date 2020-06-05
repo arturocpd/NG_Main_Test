@@ -2728,7 +2728,7 @@ Description Line 3</description>
         <searchResultsAdditionalFields>ACCOUNT.TYPE</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>ACCOUNT.RECORDTYPE</searchResultsAdditionalFields>
     </searchLayouts>
-    <sharingModel>Private</sharingModel>
+    <sharingModel>ReadWrite</sharingModel>
     <validationRules>
         <fullName>New_Validation_Acc</fullName>
         <active>true</active>
