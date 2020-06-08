@@ -741,6 +741,10 @@
             <masterLabel>Test 3</masterLabel>
             <translation><!-- Test 3 --></translation>
         </picklistValues>
+        <picklistValues>
+            <masterLabel>Test2</masterLabel>
+            <translation><!-- Test2 --></translation>
+        </picklistValues>
     </fields>
     <fields>
         <label><!-- Porche --></label>

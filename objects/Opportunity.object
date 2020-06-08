@@ -682,10 +682,6 @@
                 <default>false</default>
             </values>
             <values>
-                <fullName>Now</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>Tomorrow</fullName>
                 <default>false</default>
             </values>
@@ -789,10 +785,6 @@
         </picklistValues>
         <picklistValues>
             <picklist>Time_Picklist__c</picklist>
-            <values>
-                <fullName>Now</fullName>
-                <default>false</default>
-            </values>
             <values>
                 <fullName>Tomorrow</fullName>
                 <default>false</default>

@@ -1687,6 +1687,11 @@
                     <default>false</default>
                     <label>Test 3</label>
                 </value>
+                <value>
+                    <fullName>Test2</fullName>
+                    <default>false</default>
+                    <label>Test2</label>
+                </value>
             </valueSetDefinition>
         </valueSet>
     </fields>

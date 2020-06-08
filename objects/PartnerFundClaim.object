@@ -169,8 +169,19 @@
     </fields>
     <listViews>
         <fullName>All_Partner_Fund_Claims</fullName>
+        <columns>Name</columns>
+        <columns>Request</columns>
+        <columns>ChannelPartner</columns>
+        <columns>CreatedBy</columns>
+        <columns>Description</columns>
+        <columns>Amount</columns>
+        <columns>Status</columns>
         <filterScope>Everything</filterScope>
         <label>All Partner Fund Claims</label>
+        <language>en_US</language>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
     </listViews>
     <listViews>
         <fullName>My_Partner_Fund_Claims</fullName>
