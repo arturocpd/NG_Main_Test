@@ -12,7 +12,7 @@
     **************************************************************************/
     closeModal: function(component, event, helper) {        
         var urlEvent = $A.get("e.force:navigateToURL");
-        urlEvent.setParams({"url": "/MakePayment"});
+        urlEvent.setParams({"url": "/"+$A.get('$Label.c.CDI_MakePaymentURL')});//Pavan Yendluri March 21 2020 Modified URL from MakePayment to makemayment CD-14442
         urlEvent.fire();
     },
     
@@ -143,7 +143,7 @@
             component.set("v.isOpenGuest",true);
         }else{
         	component.set("v.isOpenGuest", false);
-        }         
+        }   
           let accNm = component.get('v.accountNum');
             if(accNm != 'undefined' && accNm != '')
           component.set("v.isModalQPC",true);
@@ -152,7 +152,7 @@
     hideModal2 : function(component, event, helper) {
         if(event.getParam("isOpenGuest")){        
             component.set("v.isOpenGuest",true);
-        }else{
+        }else{  
         	component.set("v.isOpenGuest", false);
             let accNm = component.get('v.accountNum');
             if(accNm != 'undefined' && accNm != ''){ 
@@ -206,6 +206,6 @@
     endSpinner : function(component, event, helper){
         component.set("v.Spinner", false);
     },
-    
+
    
 })
