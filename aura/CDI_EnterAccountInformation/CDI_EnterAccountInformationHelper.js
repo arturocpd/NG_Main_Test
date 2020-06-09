@@ -99,7 +99,7 @@
     Search Account information using last name and address
     **************************************************************************/   
     searchUsingAccountInfo : function(component){
-        console.log('check::::');
+        console.log('check::::'+ component.get("v.accountDetailsToSearch"));
         let action = component.get("c.searchAccountsUsingAddress");
         action.setParams({
             "accountAddressToSearch":JSON.stringify(component.get("v.accountDetailsToSearch"))
