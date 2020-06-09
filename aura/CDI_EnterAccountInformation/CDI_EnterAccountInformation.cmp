@@ -1,3 +1,277 @@
-<aura:component implements="flexipage:availableForRecordHome,force:hasRecordId" access="global" >
-	
+<!--*******************************************************************************************************
+//TEST COMMENT BY KAJAL FOR DEPLOYMENT
+Hannah WIP Checked in Mar 31 checked out 12:02pm
+BK WIP Checkin Mar 30 8:50am to include spinner when user clicks on continue
+BK WIP Checkin Mar 27 12:45pm for defect 15251
+Pavan Yendluri Check Out March 25 2020  Check In March 25 2020 CD-15228
+WIP Mohan Checkin 19 Mar,2020 and checked out 19 Mar,2020 CD-14986
+
+WIP Mohan Checkin 17 Mar,2020 and checked out 17 Mar,2020 CD-14835
+BK WIP Checkin Mar 11 1:20pm
+BK WIP: Checkin Mar 10 11:20am
+
+WIP Bryan Cash check in 5 Mar 1:40pm EST check out 1:52pm EST CD-14746 Mobile tooltip position
+
+WIP Hannah check in 4 Mar 4:48pm checked out 5:26pm
+WIP KAJAL Checkin 4 Mar 3.30PM checkout 4.30PM CD-14746 
+
+
+BK:WIP:Checkin Feb 21 8:55am Checkout 1:15pm
+BK:WIP: Checkin Feb 20 9:45pm Checkout 10:15pm
+Kajal: WIP Checkin Feb 20 1.15PM checkout 1.45pm for back
+
+BK:WIP: Checkin Feb 20 9:20am Checkout Feb 20 1pm
+
+Kajal: WIP Checkin 02/20 8.45am checkout 9am  modified close to redirect to payment landing page
+BK:WIP:checkin Feb 19 8:40am : Checkout Feb 20 8am
+BK:WIP:Feb 17 10:30pm : checkout 11:30pm
+BK:WIP:Feb 14 9:45pm : Checkout :10:15pm
+BK: work complete : Feb 7 : Checkout : 3:10pm
+Added events to handle hide current modal and back button functionality
+Mohan:Feb 17 10:45am : Checkout :11:15am Changed from MX to MS CD-14137
+
+Name: CDI_EnterAccountInformation
+===========================================================================================================
+Req: 
+CD-10376: Guest user identify account and verify
+
+============================================================================================================
+Purpose:                                                            
+Allow guest users to search for account and pay online if eligible
+============================================================================================================
+History                                                                                                                       
+VERSION    AUTHOR            	  DATE            DETAIL
+1.0        Bhargav             11/09/2019         Initial Implementation
+2.0        Prashant            03/05/2020         Defect fixed CD-14693
+3.0			Pavan Yendluri		 March 21 2020		 Modified URL from MakePayment to makemayment CD-14442
+4.0			Pavan Yendluri 		03/25/2020			Cd-15228
+5.0 		Kajal 				5/16/2020			CD-17133
+**********************************************************************************************************-->
+
+<aura:component implements="forceCommunity:availableForAllPageTypes" controller="CDI_EnterAccountInformationController" access="global">
+    <aura:attribute name="isModalQPC" type="boolean" default="false"/>
+    <aura:attribute name="isModalIdentifyAccount" type="boolean" default="false"/>
+    <aura:attribute name="accountNum" type="String" default=""/>
+    <aura:attribute name="ErrorMsgAccNum" type="String" default="Please enter a valid account number."/>
+    <aura:attribute name="ErrorMsgQPCNum" type="String" default="Please enter a valid QPC."/>
+    <aura:attribute name="QPC" type="String" default=""/>
+    <aura:attribute name="searchResults" type="Object"/>
+    <aura:attribute name="isBtnDisabled" type="Boolean" default="true"/>
+    <!-- <aura:attribute name="singleAccountRec" type="Account" />  -->
+    <aura:attribute name="singleAccountRec"  type="CDI_EnterAccountInformationController.SearchedAccountsDetailsWrapper[]" />   
+    <aura:attribute name="isAccNotFound" type="boolean" default="false"/>    
+    <aura:attribute name="validFields" type="List" default="['city','street','lastName']"/>
+    <aura:attribute name="accountDetailsToSearch" type="Map" default=""/>
+    <aura:attribute name="showModal" type="Boolean" default="false" />
+      <aura:attribute name="isOpenGuest" type="boolean" default="false"/>
+    <aura:registerEvent name="PaymentMode" type="c:CDI_PaymentMode"/>
+     <aura:attribute name="typeAheadResults" type="List"/>
+    <aura:handler name="PaymentModeEvt2" event="c:CDI_PaymentMode" action="{!c.hideModal}" />
+    <aura:handler name="PaymentModeEvt6" event="c:CDI_PaymentMode" action="{!c.hideModal2}" />
+    <aura:handler name="PaymentModeEvt7" event="c:CDI_PaymentMode" action="{!c.hideModal2}" />  
+	<aura:attribute name="Spinner" type="boolean" default="false"/>
+	<aura:handler event="aura:waiting" action="{!c.startSpinner}"/>
+	<aura:handler event="aura:doneWaiting" action="{!c.endSpinner}"/>
+    <aura:handler name="GoBackEvent" event="c:CDI_RedirectToParentEvent" action="{!c.handleRedirectToParentEvent}"/>
+    <aura:if isTrue="{!not(v.isOpenGuest)}">
+        <div>
+            <section role="dialog" tabindex="-1" aria-labelledby="addressInfoModal" aria-modal="true" aria-describedby="addressInfoModal" class="slds-modal slds-fade-in-open">
+            <div class="slds-modal__container">
+                   
+                <!--Modal content for entering Account Number and QPC modal-->
+                <aura:if isTrue="{!v.isModalQPC}">
+                    <header class="slds-modal__header">
+                  		  <lightning:buttonIcon iconName="utility:close" variant="bare" alternativeText="Close" onclick="{! c.closeModal}" class="slds-float_right"/>
+                    	  <lightning:buttonIcon iconName="utility:back" variant="bare" alternativeText="Back" onclick="{! c.goBackModal}" class="slds-float_left"/> <!--Kajal changed go back-->
+                    <h3 class="slds-text-heading_medium slds-m-top_xx-large">Enter Account Information.</h3>
+                </header>
+                    <!--  <div class="slds-modal__content slds-p-horizontal_xx-large slds-hide" id="modal-content-id-1"> -->
+                    <div class="slds-modal__content slds-p-horizontal_xx-large" id="modal-content-id-1">
+                        <p class="modalSubHeader slds-p-bottom_x-large slds-p-top_medium">Please enter the Account Number and Quick Pay Code (QPC) to look up an account to make a payment.</p>
+                        <div class="slds-grid slds-align_absolute-center slds-m-bottom_large">
+                            <p class="slds-text-body_regular">Where can I find Account Number and QPC?
+                                <div class="slds-form-element__icon slds-m-left_xx-small" >
+                                    <button class="slds-button slds-button_icon slds-m-bottom_xx-small" aria-describedby="help" title="Help" onmouseover="{!c.displayToggle}">
+                                        <lightning:icon iconName="utility:info" size="x-small" alternativeText="Help"/>
+                                        <span class="slds-assistive-text">QPC help</span>
+                                    </button>
+                                    <!-- Tooltip -->
+                                    <div class="slds-popover slds-nubbin_top-right slds-hide" role="tooltip" id="tooltip" aura:id="tooltip">
+                                        <div class="slds-popover__body slds-text-align_left custom-position">
+                                            <button class="slds-button slds-button_icon slds-button_icon-small slds-float_right slds-popover__close" title="Close" onclick="{!c.displayToggle}">
+                                                <lightning:icon iconName="utility:close" size="x-small"/>
+                                                <span class="slds-assistive-text">QPC help</span>
+                                            </button>          
+                                            <!-- Tooltip Content -->
+                                            <p class="slds-text-body_small slds-p-vertical_medium">Account Number and QPC can be found on the top portion of your Entergy Bill.</p>
+                                            <div class="img slds-p-left_small slds-p-bottom_large">
+                                                <img src="{!$Resource.billAccountSummary_img}" alt="accountSummary" />
+                                            </div>                                           
+                                        </div>
+                                    </div>
+                                </div></p>
+                        </div>
+                        <div class="inputs slds-p-bottom_medium slds-form-element slds-form-element_stacked">
+                            <div class="slds-form-element__control slds-input-has-icon slds-input-has-icon_right slds-m-bottom_medium">
+                                <!--below icon only shows up when error message appears. remove slds-hide-->
+                                <lightning:icon iconName="utility:ban" size="small" class="slds-input__icon errorIcon slds-hide"></lightning:icon>
+                                <lightning:input type="text" name="accountNumber" aura:id="accNumber" pattern="[0-9]*" label="{!$Label.c.accountNumberLabel}" placeholder="6-12 digits" required="true" value="{!v.accountNum}"
+                                                 messageWhenValueMissing='{!v.ErrorMsgAccNum}' minlength='6' maxlength='12'
+                                                 messageWhenPatternMismatch='{!v.ErrorMsgAccNum}'
+                                                 messageWhenBadInput='{!v.ErrorMsgAccNum}'
+                                                 messageWhenTooLong='{!v.ErrorMsgAccNum}'
+                                                 messageWhenTooShort='{!v.ErrorMsgAccNum}'
+                                                 onchange='{!c.updateContinueBtnStyle}'/>
+                            </div>
+                        </div>
+                        <div class="inputs slds-form-element slds-form-element_stacked">
+                            <div class="slds-form-element__control slds-input-has-icon slds-input-has-icon_right slds-m-bottom_medium">
+                                <!--below icon only shows up when error message appears. remove slds-hide-->
+                                <lightning:icon iconName="utility:ban" size="small" class="slds-input__icon errorIcon slds-hide"></lightning:icon>
+                                <lightning:input type="text" name="QPC" aura:id="qpcNum" label="QPC" placeholder="5 digits" required="true" value="{!v.QPC}"
+                                                 messageWhenValueMissing='{!v.ErrorMsgQPCNum}' minlength='5' maxlength='5'
+                                                 messageWhenPatternMismatch='{!v.ErrorMsgQPCNum}' 
+                                                 messageWhenBadInput='{!v.ErrorMsgQPCNum}'
+                                                 messageWhenTooLong='{!v.ErrorMsgQPCNum}'
+                                                 messageWhenTooShort='{!v.ErrorMsgQPCNum}'
+                                                 onchange='{!c.updateContinueBtnStyle}'/>
+                            </div>
+                        </div>
+                      <!--  <lightning:button aura:id="continueBtn" variant="brand" label="Continue" onclick="{!c.searchAccount}" class="modalButton disableButton slds-m-top_xx-large" /> -->
+                   <lightning:button aura:id="continueBtn" variant="brand" label="Continue" disabled= "{!v.isBtnDisabled}" onclick="{!c.searchAccount}" class="slds-button modalButton slds-m-top_xx-large" />
+                    </div>
+                </aura:if>
+                <!--End of modal for entering account number and QPC-->
+                
+                <!--Modal content for entering account holder's last name, Service address and phone-->
+                <aura:if isTrue="{!v.isModalIdentifyAccount}">
+                    <header class="slds-modal__header">
+                    	<lightning:buttonIcon iconName="utility:close" variant="bare" alternativeText="Close" onclick="{! c.closeModal}" class="slds-float_right"/>
+                    	<lightning:buttonIcon iconName="utility:back" variant="bare" alternativeText="Back" onclick="{! c.goBackModal}" class="slds-float_left"/> <!--Kajal changed go back-->
+                    <h3 class="slds-text-heading_medium slds-m-top_xx-large">Enter Account Information.</h3>
+                </header>
+                    <div class="slds-modal__content slds-p-horizontal_xx-large" id="modal-content-id-1">
+                        <p class="modalSubHeader slds-p-bottom_x-large slds-p-top_medium">Please enter the account holder's last name, service address, and phone number to look up an account.</p>
+                        <div class="center-design">                                     
+                            <div class="accountInputs slds-p-bottom_medium slds-form-element slds-form-element_stacked">
+                                <div class="slds-form-element__control slds-input-has-icon slds-input-has-icon_right slds-m-bottom_medium">
+                                    <!--below icon only shows up when error message appears. remove slds-hide-->
+                                    <lightning:icon iconName="utility:ban" size="small" class="slds-input__icon errorIcon slds-hide"></lightning:icon>
+                                    <lightning:input aura:id="searchInput" type="text" name="lastName" label="Account holder's last name" 
+                                                     placeholder="Last name of Account Holder"
+                                                     value="{!v.accountDetailsToSearch.LastName}"
+                                                     class="slds-p-bottom_medium" onchange="{!c.onInputBlur}" 
+                                                     messageWhenValueMissing="Please enter a last name."/>
+                                    				
+                                </div>
+                            </div>
+                            <div class="accountInputs slds-form-element slds-form-element_stacked">
+                                <div class="slds-form-element__control slds-input-has-icon slds-input-has-icon_right slds-m-bottom_medium">
+                                    <!--below icon only shows up when error message appears. remove slds-hide-->
+                                    <lightning:icon iconName="utility:ban" size="small" class="slds-input__icon errorIcon slds-hide"></lightning:icon>
+                                    <lightning:input aura:id="searchInput" type="text" name="Address" label="{!$Label.c.streetAddressLabel}" placeholder="Ex. 123 Main Street"
+                                                     class="slds-p-bottom_medium"
+                                                     value="{!v.accountDetailsToSearch.ServiceAddress}" 
+                                                     messageWhenValueMissing="Please enter a valid address."
+                                                     onblur="{!c.hideSearchResultsOnBlur}"
+                                                     onchange="{!c.onAddressChange}"/>
+                                    <aura:if isTrue="{!v.typeAheadResults.length != '0'}">
+                                            <div aura:id="Address">
+                                                <aura:iteration items="{!v.typeAheadResults}" var="selectOne">
+                                                    <div id="{!selectOne}" class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small 
+                                                                                  slds-border_right slds-border_left slds-text-body_regular 
+                                                                                  slds-p-horizontal_medium slds-text-align_left" role="option" onclick="{!c.chooseAddress}">
+                                                        <span>{!selectOne}</span>
+                                                    </div>
+                                                   
+                                                </aura:iteration>
+                                            </div>
+                                           </aura:if>
+                                </div>
+                            </div>
+                            <!--
+                            <div class="accountInputs slds-form-element slds-form-element_stacked">
+                                <div class="slds-form-element__control slds-input-has-icon slds-input-has-icon_right slds-m-bottom_medium">
+                                    below icon only shows up when error message appears. remove slds-hide
+                                    <lightning:icon iconName="utility:ban" size="small" class="slds-input__icon errorIcon slds-hide"></lightning:icon>
+                                    <lightning:input aura:id="searchInput" type="text" name="unit" label="Apt/Suite/Unit(optional)" placeholder="Ex.2A"
+                                                     value="{!v.accountDetailsToSearch.AptUnit}" 
+                                                     class="slds-p-bottom_medium" onchange="{!c.onInputBlur}" 
+                                                     messageWhenPatternMismatch="Please enter a valid number."/>
+                                </div>
+                            </div>
+                            -->
+                            <div class="accountInputs slds-form-element slds-form-element_stacked">
+                                <div class="slds-form-element__control slds-input-has-icon slds-input-has-icon_right slds-m-bottom_medium">
+                                    <!--below icon only shows up when error message appears. remove slds-hide-->
+                                    <lightning:icon iconName="utility:ban" size="small" class="slds-input__icon errorIcon slds-hide"></lightning:icon>
+                                    <lightning:input aura:id="searchInput" type="text" name="city" label="{!$Label.c.cityLabel}" placeholder="City or Town"
+                                                     value="{!v.accountDetailsToSearch.City}"
+                                                     class="slds-p-bottom_medium" onchange="{!c.onInputBlur}"
+                                                     messageWhenValueMissing="Please enter a valid city."/>
+                                </div>
+                            </div>
+                            <div class="slds-grid accountInputs">
+                                <div class="slds-col slds-m-bottom_medium slds-p-right_xx-small stateSelect">
+                                    <lightning:select name="select" aura:id = "field" 
+                                                      label="{!$Label.c.stateLabel}"  value="{!v.accountDetailsToSearch.State}"
+                                                      onchange="{!c.onInputBlur}" messageWhenValueMissing="Please select a state.">
+                                        <option value="" selected="true" hidden="true" disabled="true">Select</option>
+                                        <option value="LA">LA</option>
+                                        <option value="AR">AR</option>
+                                        <option value="MS">MS</option>
+                                        <option value="TX">TX</option>
+                                    </lightning:select>
+                                </div>
+                                
+                                <div class="slds-col zipInput">
+                                    <div class="slds-form-element slds-form-element_stacked">
+                                        <div class="slds-form-element__control slds-input-has-icon slds-input-has-icon_right slds-m-bottom_medium">
+                                            <!--below icon only shows up when error message appears. remove slds-hide-->
+                                            <lightning:icon iconName="utility:ban" size="small" class="slds-input__icon errorIcon slds-hide"></lightning:icon>
+                                            <lightning:input aura:id="searchInput" type="text" name="zipCode" label="{!$Label.c.zipCodeLabel}" placeholder="Ex. 70038"
+                                                             value="{!v.accountDetailsToSearch.ZipCode}" 
+                                                             class="slds-p-bottom_medium zip-code__input"
+                                                             onchange="{!c.onInputBlur}" messageWhenValueMissing="Please enter a valid Zip code."/>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="accountInputs slds-form-element slds-form-element_stacked">
+                                <div class="slds-form-element__control slds-input-has-icon slds-input-has-icon_right slds-m-bottom_medium">
+                                    <!--below icon only shows up when error message appears. remove slds-hide -->
+                                    <lightning:icon aura:id="PHONE NUMBER" iconName="utility:ban" size="small" class="slds-input__icon errorIcon slds-hide"></lightning:icon>
+                                    <lightning:input aura:id="searchInput" type="tel" label="{!$Label.c.phoneLabel}" name="PHONE NUMBER" 
+                                                     class="slds-p-bottom_medium" 
+                                                     value="{!v.accountDetailsToSearch.PhoneNumber}"
+                                                     placeholder="Phone Number of Account Holder" onchange="{!c.onInputBlur}"
+                                                     messageWhenValueMissing="Please enter a valid phone number." 
+                                                     onblur="{!c.onPhoneBlur}"/>
+                                </div>
+                            </div>
+                        </div> 
+                        <!--<lightning:button aura:id="srchBtn" variant="brand" label="Continue" class="modalButton disableButton slds-m-top_xx-large" onclick="{!c.searchAccountInfo}" />-->
+                   	   <lightning:button aura:id="srchBtn" variant="brand" label="Continue" disabled= "{!v.isBtnDisabled}" onclick="{!c.searchAccountInfo}" class="slds-button modalButton slds-m-top_xx-large" />
+                    </div>
+                </aura:if>
+            </div>
+        </section>
+        <div class="slds-backdrop slds-backdrop_open"></div>       
+    </div>
+       
+       <!--  <aura:set attribute="else">Defect fixed CD-14693
+            <c:CDI_AccountNotFoundWarning isOpenGuest="{!v.isOpenGuest}" />
+        </aura:set>-->
+        
+   </aura:if>    
+    <div aura:id="ModalDiv">
+        {!v.body}
+    </div>
+    <aura:if isTrue="{!v.Spinner}">
+         <div class="spins">
+       			 <lightning:spinner class="slds-spinner_container" variant="brand" alternativeText="Processing..." size="large" />
+        </div>
+     </aura:if>
 </aura:component>
