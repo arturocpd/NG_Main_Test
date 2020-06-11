@@ -118,7 +118,124 @@
             <dialog>No_Agent_Available</dialog>
             <type>TransferFailed</type>
         </conversationSystemDialogs>
-        <entryDialog>Welcome</entryDialog>
+        <entryDialog>Billing</entryDialog>
+        <mainMenuDialog>Main_Menu</mainMenuDialog>
+    </botVersions>
+    <botVersions>
+        <fullName>v2</fullName>
+        <botDialogs>
+            <botSteps>
+                <type>Wait</type>
+            </botSteps>
+            <developerName>Returns</developerName>
+            <label>Returns</label>
+            <showInFooterMenu>false</showInFooterMenu>
+        </botDialogs>
+        <botDialogs>
+            <botSteps>
+                <type>Wait</type>
+            </botSteps>
+            <developerName>Billing</developerName>
+            <label>Billing</label>
+            <showInFooterMenu>false</showInFooterMenu>
+        </botDialogs>
+        <botDialogs>
+            <botSteps>
+                <botMessages>
+                    <message>Hello! I am v2 Bot</message>
+                </botMessages>
+                <type>Message</type>
+            </botSteps>
+            <botSteps>
+                <botNavigation>
+                    <botNavigationLinks>
+                        <targetBotDialog>Main_Menu</targetBotDialog>
+                    </botNavigationLinks>
+                    <type>Redirect</type>
+                </botNavigation>
+                <type>Navigation</type>
+            </botSteps>
+            <developerName>Welcome</developerName>
+            <label>Welcome</label>
+            <showInFooterMenu>false</showInFooterMenu>
+        </botDialogs>
+        <botDialogs>
+            <botSteps>
+                <botNavigation>
+                    <botNavigationLinks>
+                        <label>Returns</label>
+                        <targetBotDialog>Returns</targetBotDialog>
+                    </botNavigationLinks>
+                    <botNavigationLinks>
+                        <label>Billing</label>
+                        <targetBotDialog>Billing</targetBotDialog>
+                    </botNavigationLinks>
+                    <type>Redirect</type>
+                </botNavigation>
+                <type>Navigation</type>
+            </botSteps>
+            <developerName>Main_Menu</developerName>
+            <label>Main Menu</label>
+            <showInFooterMenu>false</showInFooterMenu>
+        </botDialogs>
+        <botDialogs>
+            <botSteps>
+                <conversationSystemMessage>
+                    <type>Transfer</type>
+                </conversationSystemMessage>
+                <type>SystemMessage</type>
+            </botSteps>
+            <developerName>Transfer_To_Agent</developerName>
+            <label>Transfer To Agent</label>
+            <showInFooterMenu>false</showInFooterMenu>
+        </botDialogs>
+        <botDialogs>
+            <botSteps>
+                <botMessages>
+                    <message>Goodbye! Click the &quot;End Chat&quot; button to end this chat</message>
+                </botMessages>
+                <type>Message</type>
+            </botSteps>
+            <botSteps>
+                <type>Wait</type>
+            </botSteps>
+            <developerName>End_Chat</developerName>
+            <label>End Chat</label>
+            <showInFooterMenu>false</showInFooterMenu>
+        </botDialogs>
+        <botDialogs>
+            <botSteps>
+                <botMessages>
+                    <message>Sorry, I didn&apos;t understand that.</message>
+                </botMessages>
+                <type>Message</type>
+            </botSteps>
+            <botSteps>
+                <type>Wait</type>
+            </botSteps>
+            <developerName>Confused</developerName>
+            <label>Confused</label>
+            <showInFooterMenu>false</showInFooterMenu>
+        </botDialogs>
+        <botDialogs>
+            <botSteps>
+                <botMessages>
+                    <message>Unfortunately, there are no agents available at the moment</message>
+                </botMessages>
+                <type>Message</type>
+            </botSteps>
+            <botSteps>
+                <type>Wait</type>
+            </botSteps>
+            <developerName>No_Agent_Available</developerName>
+            <label>No Agent</label>
+            <showInFooterMenu>false</showInFooterMenu>
+        </botDialogs>
+        <conversationSystemDialogs>
+            <dialog>No_Agent_Available</dialog>
+            <type>TransferFailed</type>
+        </conversationSystemDialogs>
+        <entryDialog>Billing</entryDialog>
         <mainMenuDialog>Main_Menu</mainMenuDialog>
     </botVersions>
     <contextVariables>
@@ -161,7 +278,7 @@
         <developerName>RoutableId</developerName>
         <label>Routable Id</label>
     </contextVariables>
-    <description>Support bot for chats</description>
+    <description>Support bot for chats only</description>
     <label>Mr Bot</label>
     <logPrivateConversationData>false</logPrivateConversationData>
 </Bot>

@@ -4,9 +4,5 @@
         <members>Mr_Bot</members>
         <name>Bot</name>
     </types>
-    <types>
-        <members>Bot</members>
-        <name>Settings</name>
-    </types>
     <version>48.0</version>
 </Package>
