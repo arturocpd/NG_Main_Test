@@ -1,15 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Translations xmlns="http://soap.sforce.com/2006/04/metadata">
-    <customLabels>
-        <label>Translation to english MOD</label>
-        <name>Translation_Test</name>
-    </customLabels>
-    <flowDefinitions>
-        <flows>
-            <fullName>Case_email_alert-1</fullName>
-        </flows>
-        <fullName>Case_email_alert</fullName>
-    </flowDefinitions>
     <flowDefinitions>
         <flows>
             <fullName>Create_record-1</fullName>
@@ -18,6 +8,12 @@
             </screens>
         </flows>
         <fullName>Create_record</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <fullName>Case_email_alert-1</fullName>
+        </flows>
+        <fullName>Case_email_alert</fullName>
     </flowDefinitions>
     <flowDefinitions>
         <flows>
