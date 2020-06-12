@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Translations xmlns="http://soap.sforce.com/2006/04/metadata">
+    <flowDefinitions>
+        <flows>
+            <fullName>Create_record-1</fullName>
+            <screens>
+                <name>Screen</name>
+            </screens>
+        </flows>
+        <fullName>Create_record</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <fullName>Case_email_alert-1</fullName>
+        </flows>
+        <fullName>Case_email_alert</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <fullName>Test_Elisa-2</fullName>
+        </flows>
+        <fullName>Test_Elisa</fullName>
+    </flowDefinitions>
+</Translations>
