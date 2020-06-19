@@ -1,0 +1,30 @@
+[
+    {
+        "%vlocity_namespace%__ChildLineNumber__c": "1",
+        "%vlocity_namespace%__ChildProductId__c": "",
+        "%vlocity_namespace%__CollapseHierarchy__c": false,
+        "%vlocity_namespace%__GlobalKey__c": "96bdcb64-c169-66cc-5c24-6b2ea0d303de",
+        "%vlocity_namespace%__IsOverride__c": false,
+        "%vlocity_namespace%__IsRootProductChildItem__c": true,
+        "%vlocity_namespace%__IsVirtualItem__c": false,
+        "%vlocity_namespace%__MaxQuantity__c": 99999,
+        "%vlocity_namespace%__MaximumChildItemQuantity__c": 99999,
+        "%vlocity_namespace%__MinMaxDefaultQty__c": "0, 99999, 1",
+        "%vlocity_namespace%__MinQuantity__c": 0,
+        "%vlocity_namespace%__MinimumChildItemQuantity__c": 0,
+        "%vlocity_namespace%__ParentProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "e5c9ef87-4413-792f-1d33-25bc178e70c3",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/e5c9ef87-4413-792f-1d33-25bc178e70c3",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__Quantity__c": 1,
+        "%vlocity_namespace%__RelationshipType__c": "Child",
+        "%vlocity_namespace%__SelectionMethodImplementation__c": "",
+        "%vlocity_namespace%__SeqNumber__c": 1,
+        "Name": "Root PCI",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__ProductChildItem__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__ProductChildItem__c/96bdcb64-c169-66cc-5c24-6b2ea0d303de"
+    }
+]
