@@ -3,6 +3,5 @@
     <label>PS Group test</label>
     <permissionSets>ABC_PS_Test</permissionSets>
     <permissionSets>Test_Case_PS</permissionSets>
-    <permissionSets>Test_Commit_PS</permissionSets>
     <status>Updated</status>
 </PermissionSetGroup>
