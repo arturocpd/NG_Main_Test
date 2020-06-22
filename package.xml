@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Activity.AAATask__c</members>
-        <name>CustomField</name>
-    </types>
-    <types>
-        <members>Event.Time</members>
-        <name>RecordType</name>
+        <members>PS_Group_test</members>
+        <name>PermissionSetGroup</name>
     </types>
     <version>48.0</version>
 </Package>
