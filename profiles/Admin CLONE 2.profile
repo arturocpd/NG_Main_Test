@@ -1984,6 +1984,46 @@
     </customSettingAccesses>
     <description>Profile description</description>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>ADD_Conficguration_Rule__c.ADD_Configuration_Rule_Ext_Id__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>ADD_Conficguration_Rule__c.ADD_Product__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>ADD_Product_Action__c.ADD_Product_Action_Ext_Id__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>ADD_Product_Action__c.ADD_Product__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>ADD_Product_Rule__c.ADD_Product_Rule_Ext_Id__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>ADD_Product__c.ADD_Product_Ext_Id__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>ADD_Product__c.Family__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>ADD_Product__c.Product_Code__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>AR_CMDT__mdt.AR_CMDT_Field__c</field>
         <readable>false</readable>
@@ -10109,6 +10149,18 @@
         <readable>true</readable>
     </fieldPermissions>
     <layoutAssignments>
+        <layout>ADD_Conficguration_Rule__c-ADD Conficguration Rule Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ADD_Product_Action__c-ADD Product Action Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ADD_Product_Rule__c-ADD Product Rule Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ADD_Product__c-ADD Product Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>AR_CMDT__mdt-AR CMDT Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -10687,6 +10739,42 @@
         <endAddress>62.97.100.250</endAddress>
         <startAddress>62.97.100.250</startAddress>
     </loginIpRanges>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>ADD_Conficguration_Rule__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>ADD_Product_Action__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>ADD_Product_Rule__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>ADD_Product__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
     <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
@@ -13312,6 +13400,22 @@
         <recordType>copado__User_Story__c.copado__User_Story</recordType>
         <visible>false</visible>
     </recordTypeVisibilities>
+    <tabVisibilities>
+        <tab>ADD_Conficguration_Rule__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>ADD_Product_Action__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>ADD_Product_Rule__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>ADD_Product__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
     <tabVisibilities>
         <tab>CSTM_Object__c</tab>
         <visibility>DefaultOn</visibility>
