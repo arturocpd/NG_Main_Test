@@ -112,7 +112,7 @@
                 <field>SLAExpirationDate__c</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Required</behavior>
+                <behavior>Edit</behavior>
                 <field>NumberofLocations__c</field>
             </layoutItems>
             <layoutItems>
