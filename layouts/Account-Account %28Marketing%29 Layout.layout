@@ -114,7 +114,7 @@
                 <field>UpsellOpportunity__c</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Edit</behavior>
+                <behavior>Required</behavior>
                 <field>NumberofLocations__c</field>
             </layoutItems>
             <layoutItems>
