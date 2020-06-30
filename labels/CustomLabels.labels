@@ -6098,6 +6098,13 @@ Type, Method, URL.</value>
         <value>You can use www.cronmaker.com to create more sophisticated Cron Expressions.</value>
     </labels>
     <labels>
+        <fullName>US_Test_Custom_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>US Test Custom Label</shortDescription>
+        <value>US Test Custom Label</value>
+    </labels>
+    <labels>
         <fullName>US_VALIDATE</fullName>
         <categories>Copado</categories>
         <language>en_US</language>

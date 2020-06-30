@@ -41,14 +41,6 @@
         <type>CustomApplication</type>
     </appMenuItems>
     <appMenuItems>
-        <name>standard__LightningSalesConsole</name>
-        <type>CustomApplication</type>
-    </appMenuItems>
-    <appMenuItems>
-        <name>standard__LightningService</name>
-        <type>CustomApplication</type>
-    </appMenuItems>
-    <appMenuItems>
         <name>standard__LightningSales</name>
         <type>CustomApplication</type>
     </appMenuItems>
@@ -114,6 +106,18 @@
     </appMenuItems>
     <appMenuItems>
         <name>standard__SalesforceCMS</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>NGService</name>
+        <type>Network</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>Test_App</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>Sales_Console</name>
         <type>CustomApplication</type>
     </appMenuItems>
 </AppMenu>

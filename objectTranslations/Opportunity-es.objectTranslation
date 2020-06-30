@@ -37,6 +37,18 @@
         <name>OrderNumber__c</name>
     </fields>
     <fields>
+        <label><!-- RT test 1 --></label>
+        <name>RT_test_1__c</name>
+        <picklistValues>
+            <masterLabel>Test1</masterLabel>
+            <translation><!-- Test1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Test2</masterLabel>
+            <translation><!-- Test2 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
         <label>Prueba Comit A</label>
         <name>Test_Commit_A__c</name>
     </fields>
@@ -47,6 +59,10 @@
     <fields>
         <label>Prueba Comit  C</label>
         <name>Test_Commit_C__c</name>
+    </fields>
+    <fields>
+        <label><!-- Time Picklist --></label>
+        <name>Time_Picklist__c</name>
     </fields>
     <fields>
         <label><!-- Tracking Number --></label>
@@ -60,6 +76,10 @@
     <recordTypes>
         <label><!-- Opp RT 1 --></label>
         <name>Opp_RT_1</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Opp RT 2 --></label>
+        <name>Opp_RT_2</name>
     </recordTypes>
     <webLinks>
         <label><!-- DeliveryStatus --></label>

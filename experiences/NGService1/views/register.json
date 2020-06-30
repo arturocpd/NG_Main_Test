@@ -26,7 +26,7 @@
         "emailLabel" : "Email",
         "extraFieldsFieldSet" : "",
         "firstnameLabel" : "First Name",
-        "includePasswordField" : "false",
+        "includePasswordField" : false,
         "lastnameLabel" : "Last Name",
         "passwordLabel" : "Create Password",
         "regConfirmUrl" : "./CheckPasswordResetEmail",
@@ -41,7 +41,7 @@
     }, {
       "componentAttributes" : {
         "headerText" : "",
-        "showHeader" : "false"
+        "showHeader" : false
       },
       "componentName" : "salesforceIdentity:socialLogin2",
       "id" : "8c2c8605-3e30-4c52-8233-4a9b004bd276",
@@ -70,7 +70,6 @@
       },
       "componentName" : "forceCommunity:seoAssistant",
       "id" : "4e800084-4252-4643-9fa7-92823f731ef0",
-      "renderPriority" : "NEUTRAL",
       "renditionMap" : { },
       "type" : "component"
     } ],

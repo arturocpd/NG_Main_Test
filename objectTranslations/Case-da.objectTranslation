@@ -13,16 +13,16 @@
         <name>Admin_Checkbox__c</name>
     </fields>
     <fields>
-        <label><!-- BP Test --></label>
-        <name>BP_Test__c</name>
-    </fields>
-    <fields>
         <label><!-- Back Promote Field --></label>
         <name>Back_Promote_Field__c</name>
     </fields>
     <fields>
         <label><!-- BitCoin --></label>
         <name>BitCoin__c</name>
+    </fields>
+    <fields>
+        <label><!-- CCH Test --></label>
+        <name>CCH_Test__c</name>
     </fields>
     <fields>
         <label><!-- CI Picklist Test --></label>
@@ -97,6 +97,7 @@
         <name>Case_Field_1__c</name>
     </fields>
     <fields>
+        <help><!-- weferf --></help>
         <label><!-- Case JJJ --></label>
         <name>Case_JJJ__c</name>
     </fields>
@@ -146,6 +147,10 @@
         <picklistValues>
             <masterLabel>March</masterLabel>
             <translation><!-- March --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>October</masterLabel>
+            <translation><!-- October --></translation>
         </picklistValues>
     </fields>
     <fields>
@@ -525,6 +530,10 @@
         </picklistValues>
     </fields>
     <fields>
+        <label><!-- Checkbox Deployment --></label>
+        <name>Checkbox_Deployment__c</name>
+    </fields>
+    <fields>
         <label><!-- Citroen --></label>
         <name>Citroen__c</name>
     </fields>
@@ -560,6 +569,10 @@
             <masterLabel>Dev1-3</masterLabel>
             <translation><!-- Dev1-3 --></translation>
         </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Core jsonfield --></label>
+        <name>Core_jsonfield__c</name>
     </fields>
     <fields>
         <label><!-- DeleteMe2 --></label>
@@ -646,6 +659,10 @@
         <name>FLS_commit_test__c</name>
     </fields>
     <fields>
+        <label><!-- Field Test FP --></label>
+        <name>Field_Test_FP__c</name>
+    </fields>
+    <fields>
         <label><!-- Find and Replace --></label>
         <name>Find_and_Replace__c</name>
     </fields>
@@ -700,6 +717,26 @@
     <fields>
         <label><!-- Pckage field --></label>
         <name>Pckage_field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Picklist bug test --></label>
+        <name>Picklist_bug_test__c</name>
+        <picklistValues>
+            <masterLabel>Test 1</masterLabel>
+            <translation><!-- Test 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Test 2</masterLabel>
+            <translation><!-- Test 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Test 3</masterLabel>
+            <translation><!-- Test 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Test2</masterLabel>
+            <translation><!-- Test2 --></translation>
+        </picklistValues>
     </fields>
     <fields>
         <label><!-- Porche --></label>
@@ -1240,6 +1277,14 @@
     <fields>
         <label><!-- Report test Field --></label>
         <name>Report_test_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Row Level test2 --></label>
+        <name>Row_Level_test2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Row Level test --></label>
+        <name>Row_Level_test__c</name>
     </fields>
     <fields>
         <label><!-- SLA Violation --></label>
@@ -3326,6 +3371,14 @@
         <name>Test_IBM__c</name>
     </fields>
     <fields>
+        <label><!-- Test Index --></label>
+        <name>Test_Index__c</name>
+    </fields>
+    <fields>
+        <label><!-- Training field --></label>
+        <name>Training_field__c</name>
+    </fields>
+    <fields>
         <label><!-- Trimming fix --></label>
         <name>Trimming_fix__c</name>
     </fields>
@@ -3344,6 +3397,10 @@
     <fields>
         <label><!-- V9 test flow --></label>
         <name>V9_test_flow__c</name>
+    </fields>
+    <fields>
+        <label><!-- VS PS Test --></label>
+        <name>VS_PS_Test__c</name>
     </fields>
     <fields>
         <label><!-- Version 8.1 --></label>

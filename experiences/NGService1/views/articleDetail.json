@@ -19,10 +19,10 @@
       "type" : "component"
     }, {
       "componentAttributes" : {
-        "enableVoting" : "true",
+        "enableVoting" : true,
         "recordId" : "{!recordId}",
-        "showTitleInArticleHeader" : "true",
-        "showTopicPills" : "true",
+        "showTitleInArticleHeader" : true,
+        "showTopicPills" : true,
         "urlName" : "{!urlName}"
       },
       "componentName" : "selfService:singleArticleView",
@@ -43,12 +43,12 @@
       "type" : "component"
     }, {
       "componentAttributes" : {
-        "canChangeSorting" : "false",
+        "canChangeSorting" : false,
         "defaultFilter" : "",
         "defaultSortOrderHomeFeed" : "Relevance",
         "defaultSortOrderTopicsFeed" : "Relevance",
         "feedDesign" : "DEFAULT",
-        "hasFeedSearch" : "false",
+        "hasFeedSearch" : false,
         "subjectId" : "{!recordId}",
         "type" : "Record"
       },
@@ -68,12 +68,12 @@
         "buttonBgColor" : "",
         "buttonBgHoverColor" : "",
         "buttonBorderColor" : "",
-        "buttonMaxWidth" : "100",
-        "buttonRadius" : "0",
+        "buttonMaxWidth" : 100,
+        "buttonRadius" : 0,
         "buttonTextColor" : "",
         "buttonTextHoverColor" : "",
         "recordId" : "{!recordId}",
-        "showNotificationMenu" : "false"
+        "showNotificationMenu" : false
       },
       "componentName" : "forceCommunity:follow",
       "id" : "361b9c22-7590-4152-9e5a-a75075ab8d18",
@@ -82,8 +82,8 @@
       "type" : "component"
     }, {
       "componentAttributes" : {
-        "numberOfItems" : "5",
-        "showViewCounts" : "true",
+        "numberOfItems" : 5,
+        "showViewCounts" : true,
         "title" : "Related Articles"
       },
       "componentName" : "selfService:similarArticles42",
@@ -93,7 +93,7 @@
       "type" : "component"
     }, {
       "componentAttributes" : {
-        "numberOfArticles" : "5",
+        "numberOfArticles" : 5,
         "title" : "Trending Articles",
         "topicId" : "{!topicId}"
       },
@@ -113,28 +113,28 @@
         "buttonBgColor" : "",
         "buttonBgHoverColor" : "",
         "buttonBorderColor" : "",
-        "buttonRadius" : "0",
+        "buttonRadius" : 0,
         "buttonTextColor" : "",
         "buttonTextHoverColor" : "",
         "buttonTwoBgColor" : "",
         "buttonTwoBgHoverColor" : "",
         "buttonTwoBorderColor" : "",
-        "buttonTwoRadius" : "0",
+        "buttonTwoRadius" : 0,
         "buttonTwoTextColor" : "",
         "buttonTwoTextHoverColor" : "",
         "confirmationMessage" : "Got it!",
         "contactSupportLabel" : "Contact Support",
         "followUpPromptLabel" : "Can we close your question?",
         "headerLabel" : "Don't see what you're looking for?",
-        "isAskFollowPromptEnabled" : "true",
-        "isIncludeArticlesEnabled" : "false",
-        "isIncludeDiscussionsEnabled" : "true",
-        "isInitialSatisfactionPromptEnabled" : "true",
-        "isPublisherDeflectionEnabled" : "true",
-        "maxSuggestions" : "5",
+        "isAskFollowPromptEnabled" : true,
+        "isIncludeArticlesEnabled" : false,
+        "isIncludeDiscussionsEnabled" : true,
+        "isInitialSatisfactionPromptEnabled" : true,
+        "isPublisherDeflectionEnabled" : true,
+        "maxSuggestions" : 5,
         "satisfactionPromptLabel" : "Did we help to answer your question?",
-        "showDetails" : "false",
-        "showTopics" : "true"
+        "showDetails" : false,
+        "showTopics" : true
       },
       "componentName" : "siteforce:napiliFooter",
       "id" : "8812fe16-1584-4076-a4d9-ef12a39d2b9f",
@@ -154,7 +154,6 @@
       },
       "componentName" : "forceCommunity:seoAssistant",
       "id" : "420eaa72-c324-42c9-8c6c-e208cd6ab2f3",
-      "renderPriority" : "NEUTRAL",
       "renditionMap" : { },
       "type" : "component"
     } ],

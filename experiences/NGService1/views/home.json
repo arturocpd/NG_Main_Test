@@ -10,7 +10,7 @@
         "bannerTextWithKnowledge" : "Explore other <a href=\"javascript:void(0)\" class=\"headlineArticles\">articles</a> and <a href=\"javascript:void(0)\" class=\"headlineDiscussions\">discussions</a> on this topic.",
         "bannerTextWithoutKnowledge" : "Explore other <a href=\"javascript:void(0)\" class=\"headlineDiscussions\">discussions</a> on this topic.",
         "pageType" : "",
-        "showSubTopics" : "true",
+        "showSubTopics" : true,
         "title" : "Welcome!",
         "uniqueNameOrId" : ""
       },
@@ -34,12 +34,12 @@
         "defaultSortOrderFullFeed" : "Relevance",
         "discussionTabLabel" : "Discussions",
         "featuredTabLabel" : "Featured",
-        "maxWidth" : "100",
+        "maxWidth" : 100,
         "myFeedTabLabel" : "My Feed",
         "overlayColor" : "rgba(0,0,0,0.4)",
         "overlayHoverColor" : "",
-        "radius" : "0",
-        "showCompactFeedInDiscussion" : "true",
+        "radius" : 0,
+        "showCompactFeedInDiscussion" : true,
         "textAlignment" : "center",
         "textBgColor" : "rgba(0,0,0,0)",
         "textBgHoverColor" : "rgba(0,0,0,0)",
@@ -70,12 +70,12 @@
     }, {
       "componentAttributes" : {
         "display" : "LEVELS_POINTS",
-        "excludeInternalUsers" : "false",
+        "excludeInternalUsers" : false,
         "knowledgeLabel" : "Knows about",
-        "numberOfUsers" : "5",
-        "showContextUser" : "false",
-        "showTooltip" : "false",
-        "showUserRank" : "false",
+        "numberOfUsers" : 5,
+        "showContextUser" : false,
+        "showTooltip" : false,
+        "showUserRank" : false,
         "title" : "Leaderboard",
         "tooltipText" : "Earn points and climb to new levels when you contribute in the community!"
       },
@@ -86,7 +86,7 @@
       "type" : "component"
     }, {
       "componentAttributes" : {
-        "numberOfArticles" : "5",
+        "numberOfArticles" : 5,
         "title" : "Trending Articles",
         "topicId" : "{!topicId}"
       },
@@ -97,8 +97,8 @@
       "type" : "component"
     }, {
       "componentAttributes" : {
-        "numberOfTopics" : "5",
-        "showTopicsMetric" : "true",
+        "numberOfTopics" : 5,
+        "showTopicsMetric" : true,
         "title" : "Trending Topics"
       },
       "componentName" : "forceCommunity:trendingTopics",
@@ -117,28 +117,28 @@
         "buttonBgColor" : "",
         "buttonBgHoverColor" : "",
         "buttonBorderColor" : "",
-        "buttonRadius" : "0",
+        "buttonRadius" : 0,
         "buttonTextColor" : "",
         "buttonTextHoverColor" : "",
         "buttonTwoBgColor" : "",
         "buttonTwoBgHoverColor" : "",
         "buttonTwoBorderColor" : "",
-        "buttonTwoRadius" : "0",
+        "buttonTwoRadius" : 0,
         "buttonTwoTextColor" : "",
         "buttonTwoTextHoverColor" : "",
         "confirmationMessage" : "Got it!",
         "contactSupportLabel" : "Contact Support",
         "followUpPromptLabel" : "Can we close your question?",
         "headerLabel" : "Don't see what you're looking for?",
-        "isAskFollowPromptEnabled" : "true",
-        "isIncludeArticlesEnabled" : "false",
-        "isIncludeDiscussionsEnabled" : "true",
-        "isInitialSatisfactionPromptEnabled" : "true",
-        "isPublisherDeflectionEnabled" : "true",
-        "maxSuggestions" : "5",
+        "isAskFollowPromptEnabled" : true,
+        "isIncludeArticlesEnabled" : false,
+        "isIncludeDiscussionsEnabled" : true,
+        "isInitialSatisfactionPromptEnabled" : true,
+        "isPublisherDeflectionEnabled" : true,
+        "maxSuggestions" : 5,
         "satisfactionPromptLabel" : "Did we help to answer your question?",
-        "showDetails" : "false",
-        "showTopics" : "true"
+        "showDetails" : false,
+        "showTopics" : true
       },
       "componentName" : "siteforce:napiliFooter",
       "id" : "8cb82806-14c2-45af-858e-2d747d1a8684",
@@ -158,7 +158,6 @@
       },
       "componentName" : "forceCommunity:seoAssistant",
       "id" : "31574d30-ed92-490c-836a-46ddf84391a4",
-      "renderPriority" : "NEUTRAL",
       "renditionMap" : { },
       "type" : "component"
     } ],

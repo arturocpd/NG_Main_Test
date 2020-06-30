@@ -163,13 +163,23 @@
     </fields>
     <gender>Feminine</gender>
     <label>CSTM Object</label>
+    <listViews>
+        <fullName>All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
     <nameField>
         <encryptionScheme>None</encryptionScheme>
         <label>CSTM Object</label>
         <type>Text</type>
     </nameField>
     <pluralLabel>CSTM Objects</pluralLabel>
-    <searchLayouts />
+    <recordTypes>
+        <fullName>CSTM_New_layout</fullName>
+        <active>true</active>
+        <label>CSTM New layout</label>
+    </recordTypes>
+    <searchLayouts/>
     <sharingModel>Private</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>

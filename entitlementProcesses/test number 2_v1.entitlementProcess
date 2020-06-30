@@ -2,15 +2,14 @@
 <EntitlementProcess xmlns="http://soap.sforce.com/2006/04/metadata">
     <SObjectType>Case</SObjectType>
     <active>false</active>
-    <description>sfdsfrdswfgrdsfgrs</description>
     <entryStartDateField>Case.CreatedDate</entryStartDateField>
     <exitCriteriaFilterItems>
         <field>Case.IsClosed</field>
         <operation>equals</operation>
         <value>true</value>
     </exitCriteriaFilterItems>
-    <isVersionDefault>false</isVersionDefault>
-    <name>Test number 2</name>
-    <versionMaster>5521v0000000zNq</versionMaster>
+    <isVersionDefault>true</isVersionDefault>
+    <name>test number 2</name>
+    <versionMaster>5521v0000000zO0</versionMaster>
     <versionNumber>1</versionNumber>
 </EntitlementProcess>

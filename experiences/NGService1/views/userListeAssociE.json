@@ -13,10 +13,10 @@
         "customTitle" : "",
         "parentRecordId" : "{!recordId}",
         "relatedListName" : "{!relationshipApiName}",
-        "showBreadCrumbs" : "true",
-        "showCustomTitle" : "false",
-        "showManualRefreshButton" : "true",
-        "showRowNumbers" : "true"
+        "showBreadCrumbs" : true,
+        "showCustomTitle" : false,
+        "showManualRefreshButton" : true,
+        "showRowNumbers" : true
       },
       "componentName" : "forceCommunity:relatedList",
       "id" : "0d79615c-ddc3-4913-9e5b-53f4816f263e",

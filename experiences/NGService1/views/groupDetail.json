@@ -11,7 +11,7 @@
     "components" : [ {
       "componentAttributes" : {
         "detailsTabLabel" : "Details",
-        "engagementManagersOnly" : "false",
+        "engagementManagersOnly" : false,
         "engagementTabLabel" : "Engagement",
         "feedTabLabel" : "Feed",
         "recordId" : "{!recordId}",
@@ -39,7 +39,6 @@
       },
       "componentName" : "forceCommunity:seoAssistant",
       "id" : "162ab555-dd15-421b-b600-efc7bf371cf4",
-      "renderPriority" : "NEUTRAL",
       "renditionMap" : { },
       "type" : "component"
     } ],

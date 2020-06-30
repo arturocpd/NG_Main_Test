@@ -1,19 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Translations xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customApplications>
+        <label><!-- Sales Console --></label>
+        <name>Sales_Console</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- Test App --></label>
+        <name>Test_App</name>
+    </customApplications>
     <customLabels>
-        <label></label>
+        <label><!-- ACCOUNT SUMMARY --></label>
         <name>ACCOUNT_SUMMARY</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- ACTION COLUMN HEADER --></label>
         <name>ACTION_COLUMN_HEADER</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- ACTIVATE USERS --></label>
         <name>ACTIVATE_USERS</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- ADD --></label>
         <name>ADD</name>
     </customLabels>
     <customLabels>
@@ -21,355 +29,355 @@
         <name>ADD_AN_ENVIRONMENT</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- ADD_AUTHENTICATION --></label>
         <name>ADD_AUTHENTICATION</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- ADD DESTINATION ORG --></label>
         <name>ADD_DESTINATION_ORG</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- ADD_ENVIRONMENT_STEPS --></label>
         <name>ADD_ENVIRONMENT_STEPS</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- ADD HEADER --></label>
         <name>ADD_HEADER</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- ADD_OAUTH --></label>
         <name>ADD_OAUTH</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- ADD REMOVE TEST CASE DESCRIPTION --></label>
         <name>ADD_REMOVE_TEST_CASE_DESCRIPTION</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- ADD ROW --></label>
         <name>ADD_ROW</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- ADD SELECTED USER STORIES --></label>
         <name>ADD_SELECTED_USER_STORIES</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- ADD STEP --></label>
         <name>ADD_STEP</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- ADD SUITES TO A GROUP --></label>
         <name>ADD_SUITES_TO_A_GROUP</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- ADD/UPDATE USER --></label>
         <name>ADD_UPDATE_USER</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- ADD URL PARAMETERS --></label>
         <name>ADD_URL_PARAMETERS</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- ADD_USERPASS --></label>
         <name>ADD_USERPASS</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- ADVANCED METADATA FILTERS --></label>
         <name>ADVANCED_METADATA_FILTERS</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- ALL --></label>
         <name>ALL</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- ALL_FLOW_STEPS_WITH_BRANCH_NAME --></label>
         <name>ALL_FLOW_STEPS_WITH_BRANCH_NAME</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- ANALYSIS SCORE --></label>
         <name>ANALYSIS_SCORE</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- APEX CLASS --></label>
         <name>APEX_CLASS</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- APEX RULES SET --></label>
         <name>APEX_RULES_SET</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- APEX TESTS BELONG TO MULTIPLE NAMESPACES --></label>
         <name>APEX_TESTS_BELONG_TO_MULTIPLE_NAMESPACES</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- APEX TESTS RESULTS TRIMMED --></label>
         <name>APEX_TESTS_RESULTS_TRIMMED</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- APEX TEST RESULT SUMMARY --></label>
         <name>APEX_TEST_RESULT_SUMMARY</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- APEX TEST RESULT SUMMARY INFO --></label>
         <name>APEX_TEST_RESULT_SUMMARY_INFO</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- API KEY --></label>
         <name>API_KEY</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- ARE YOU SURE --></label>
         <name>ARE_YOU_SURE</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- AR Custom Label --></label>
         <name>AR_Custom_Label</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- AR Custom Label from Dev3 --></label>
         <name>AR_Custom_Label_from_Dev3</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- ASSIGNED USERS --></label>
         <name>ASSIGNED_USERS</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- ASSIGN CAD LICENSE --></label>
         <name>ASSIGN_CAD_LICENSE</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- ASSIGN CCH LICENSE --></label>
         <name>ASSIGN_CCH_LICENSE</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- ASSIGN CCM LICENSE --></label>
         <name>ASSIGN_CCM_LICENSE</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- ASSIGN COPADO LICENSE --></label>
         <name>ASSIGN_COPADO_LICENSE</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- ASSIGN CST LICENSE --></label>
         <name>ASSIGN_CST_LICENSE</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- ATTENTION REQUIRED --></label>
         <name>ATTENTION_REQUIRED</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- AT LEAST ONE VALID CRITERIA --></label>
         <name>AT_LEAST_ONE_VALID_CRITERIA</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- AUTO RESOLVED CONFLICTS --></label>
         <name>AUTO_RESOLVED_CONFLICTS</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- AVAILABLE_FIELDS --></label>
         <name>AVAILABLE_FIELDS</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- Add Filter Logic --></label>
         <name>Add_Filter_Logic</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- Angel --></label>
         <name>Angel</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- BACK --></label>
         <name>BACK</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- BACKUP_NOW --></label>
         <name>BACKUP_NOW</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- BACKUP_STARTED --></label>
         <name>BACKUP_STARTED</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- BACK PROMOTION NOT ENABLED --></label>
         <name>BACK_PROMOTION_NOT_ENABLED</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- BALANCE STATUS --></label>
         <name>BALANCE_STATUS</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- BASE-COMPARING US FLOW --></label>
         <name>BASE_COMPARING_US_FLOW</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- BASE US DEPLOYMENT FLOW --></label>
         <name>BASE_US_DEPLOYMENT_FLOW</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- BASE US PROJECT OR RELEASE --></label>
         <name>BASE_US_PROJECT_OR_RELEASE</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- BASIC_INFORMATION --></label>
         <name>BASIC_INFORMATION</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- BEFORE_EDITING_PRESS_EDIT_BUTTON --></label>
         <name>BEFORE_EDITING_PRESS_EDIT_BUTTON</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- BLOG --></label>
         <name>BLOG</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- BLOG DESCRIPTION SHORT --></label>
         <name>BLOG_DESCRIPTION_SHORT</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- BODY --></label>
         <name>BODY</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- BRANCH --></label>
         <name>BRANCH</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- BRANCH_AND_SOURCE_ENVIRONMENT_EQUALS --></label>
         <name>BRANCH_AND_SOURCE_ENVIRONMENT_EQUALS</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- BRANCH MGMT LICENSE EXCEEDED --></label>
         <name>BRANCH_MGMT_LICENSE_EXCEEDED</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- BRANCH MGMT NOT ENABLED --></label>
         <name>BRANCH_MGMT_NOT_ENABLED</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- BROWSER --></label>
         <name>BROWSER</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- BROWSER VERSION --></label>
         <name>BROWSER_VERSION</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- BUILD JOB --></label>
         <name>BUILD_JOB</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- BULK SOQL ERROR --></label>
         <name>BULK_SOQL_ERROR</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- BUTTONS --></label>
         <name>BUTTONS</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- BUY CREDITS BTN LABEL --></label>
         <name>BUY_CREDITS_BTN_LABEL</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- CACHE REFRESHED NOW --></label>
         <name>CACHE_REFRESHED_NOW</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- CAD LICENSES USED --></label>
         <name>CAD_LICENSES_USED</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- CAD LICENSE LIMIT REACHED --></label>
         <name>CAD_LICENSE_LIMIT_REACHED</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- CAD License Restriction --></label>
         <name>CAD_License_Restriction</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- CAD USERS --></label>
         <name>CAD_USERS</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- CANCELLED --></label>
         <name>CANCELLED</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- CANCELLING --></label>
         <name>CANCELLING</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- CANCEL DEPLOYMENT --></label>
         <name>CANCEL_DEPLOYMENT</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- CBM2_at_least1_us --></label>
         <name>CBM2_at_least1_us</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- CBM_FLOW_INVALID --></label>
         <name>CBM_FLOW_INVALID</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- CCH LICENSES USED --></label>
         <name>CCH_LICENSES_USED</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- CCH LICENSE LIMIT REACHED --></label>
         <name>CCH_LICENSE_LIMIT_REACHED</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- CCH LICENSE NOT ENABLED --></label>
         <name>CCH_LICENSE_NOT_ENABLED</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- CCH USERS --></label>
         <name>CCH_USERS</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- CCM_DESTINATION_ORG_INVALID --></label>
         <name>CCM_DESTINATION_ORG_INVALID</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- CCM LICENSES USED --></label>
         <name>CCM_LICENSES_USED</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- CCM LICENSE LIMIT REACHED --></label>
         <name>CCM_LICENSE_LIMIT_REACHED</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- CCM USERS --></label>
         <name>CCM_USERS</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- CLASS COVERAGE --></label>
         <name>CLASS_COVERAGE</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- CLICK DEPLOYMENT JOB TO VIEW RESULTS --></label>
         <name>CLICK_DEPLOYMENT_JOB_TO_VIEW_RESULTS</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- CLICK FOR STEP DETAILS --></label>
         <name>CLICK_FOR_STEP_DETAILS</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- CLICK TO DELETE STEP --></label>
         <name>CLICK_TO_DELETE_STEP</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- CLICK TO REMOVE STEP --></label>
         <name>CLICK_TO_REMOVE_STEP</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- CLONE --></label>
         <name>CLONE</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- CLOSE --></label>
         <name>CLOSE</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- COMMAND --></label>
         <name>COMMAND</name>
     </customLabels>
     <customLabels>
@@ -377,2904 +385,2907 @@
         <name>COMMITS_AHEAD</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- COMMITS BEHIND --></label>
         <name>COMMITS_BEHIND</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- COMMITS_BEING_RETRIEVED --></label>
         <name>COMMITS_BEING_RETRIEVED</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- COMMIT FILES NOT ALLOWED --></label>
         <name>COMMIT_FILES_NOT_ALLOWED</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- COMMIT_NOW --></label>
         <name>COMMIT_NOW</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- COMMIT ONLY SNAPSHOTS CANNOT BE SCHEDULED --></label>
         <name>COMMIT_ONLY_SNAPSHOTS_CANNOT_BE_SCHEDULED</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- COMPAIRING US DEPLOYMENT FLOW --></label>
         <name>COMPAIRING_US_DEPLOYMENT_FLOW</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- COMPAIRING US PROJECT OR RELEASE --></label>
         <name>COMPAIRING_US_PROJECT_OR_RELEASE</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- COMPLIANCE DETAILS --></label>
         <name>COMPLIANCE_DETAILS</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- COMPLIANCE RULE MISSING FLS --></label>
         <name>COMPLIANCE_RULE_MISSING_FLS</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- COMPLIANCE SCAN REQUESTED --></label>
         <name>COMPLIANCE_SCAN_REQUESTED</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- COMPLIANCE SCAN RUN --></label>
         <name>COMPLIANCE_SCAN_RUN</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- COMPLIANCE SETTING NOT FOUND --></label>
         <name>COMPLIANCE_SETTING_NOT_FOUND</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- CONDITION DEFINED BU NOT REF --></label>
         <name>CONDITION_DEFINED_BU_NOT_REF</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- CONDITION NOT DEFINED BUT REF --></label>
         <name>CONDITION_NOT_DEFINED_BUT_REF</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- CONFIRM_AND_CLOSE --></label>
         <name>CONFIRM_AND_CLOSE</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- CONTACT SALES --></label>
         <name>CONTACT_SALES</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- COPADO CHANGE MANAGEMENT --></label>
         <name>COPADO_CHANGE_MANAGEMENT</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- COPADO_DEPLOYER_CCM_LICENSE_NOT_ENABLED --></label>
         <name>COPADO_DEPLOYER_CCM_LICENSE_NOT_ENABLED</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- COPADO DEPLOYER LICENSE NOT ENABLED --></label>
         <name>COPADO_DEPLOYER_LICENSE_NOT_ENABLED</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- COPADO EXTENSION NOT INSTALLED --></label>
         <name>COPADO_EXTENSION_NOT_INSTALLED</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- COPADO LICENSES USED --></label>
         <name>COPADO_LICENSES_USED</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- COPADO LICENSE LIMIT REACHED --></label>
         <name>COPADO_LICENSE_LIMIT_REACHED</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- COPADO ORG SETUP --></label>
         <name>COPADO_ORG_SETUP</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- COPADO ORG SETUP DESCRIPTION --></label>
         <name>COPADO_ORG_SETUP_DESCRIPTION</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- COPADO_ORG_SETUP_ORG_FULLNAME --></label>
         <name>COPADO_ORG_SETUP_ORG_FULLNAME</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- COPADO_ORG_SETUP_ORG_ID --></label>
         <name>COPADO_ORG_SETUP_ORG_ID</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- COPADO_ORG_SETUP_ORG_NAME --></label>
         <name>COPADO_ORG_SETUP_ORG_NAME</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- COPADO_ORG_SETUP_ORG_USERNAME --></label>
         <name>COPADO_ORG_SETUP_ORG_USERNAME</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- COPADO ORG SETUP TIP STEP 1 --></label>
         <name>COPADO_ORG_SETUP_TIP_STEP_1</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- COPADO ORG SETUP TIP STEP 2 --></label>
         <name>COPADO_ORG_SETUP_TIP_STEP_2</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- COPADO_SETTINGS_MISSING --></label>
         <name>COPADO_SETTINGS_MISSING</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- COPADO SETUP WIZARD DESCRIPTION --></label>
         <name>COPADO_SETUP_WIZARD_DESCRIPTION</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- COPADO SETUP WIZARD SUBTITLE --></label>
         <name>COPADO_SETUP_WIZARD_SUBTITLE</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- COPADO_TIP --></label>
         <name>COPADO_TIP</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- COPADO USERS --></label>
         <name>COPADO_USERS</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- COULD NOT SCHEDULE JOB --></label>
         <name>COULD_NOT_SCHEDULE_JOB</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- COVERAGE --></label>
         <name>COVERAGE</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- COVERAGE STATUS --></label>
         <name>COVERAGE_STATUS</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- CREATE --></label>
         <name>CREATE</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- CREATEDBY --></label>
         <name>CREATEDBY</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- CREATEDDATE --></label>
         <name>CREATEDDATE</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- CREATED BACK PROMOTIONS --></label>
         <name>CREATED_BACK_PROMOTIONS</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- CREATE CRON EXPRESSION --></label>
         <name>CREATE_CRON_EXPRESSION</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- CREATE DEPLOYMENT --></label>
         <name>CREATE_DEPLOYMENT</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- CREATE_DEPLOYMENT_OPTIONS --></label>
         <name>CREATE_DEPLOYMENT_OPTIONS</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- CREATE DEPLOYMENT TITLE --></label>
         <name>CREATE_DEPLOYMENT_TITLE</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- CREATE ENVIRONMENT INSTRUCTIONS --></label>
         <name>CREATE_ENVIRONMENT_INSTRUCTIONS</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- CREATE GIT REPOSITORY DESCRIPTION --></label>
         <name>CREATE_GIT_REPOSITORY_DESCRIPTION</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- CREATE GIT REPOSITORY TITLE --></label>
         <name>CREATE_GIT_REPOSITORY_TITLE</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- CREATE GIT SNAPSHOT DESCRIPTION --></label>
         <name>CREATE_GIT_SNAPSHOT_DESCRIPTION</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- CREATE GIT SNAPSHOT TITLE --></label>
         <name>CREATE_GIT_SNAPSHOT_TITLE</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- CREATE ORG CREDENTIAL DESCRIPTION --></label>
         <name>CREATE_ORG_CREDENTIAL_DESCRIPTION</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- CREATE ORG CREDENTIAL TITLE --></label>
         <name>CREATE_ORG_CREDENTIAL_TITLE</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- CREATE ORG DIFFERENCE DESCRIPTION --></label>
         <name>CREATE_ORG_DIFFERENCE_DESCRIPTION</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- CREATE ORG DIFFERENCE TITLE --></label>
         <name>CREATE_ORG_DIFFERENCE_TITLE</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- CREATE SELENIUM SETTINGS --></label>
         <name>CREATE_SELENIUM_SETTINGS</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- CREATE SELENIUM SETTINGS INFO --></label>
         <name>CREATE_SELENIUM_SETTINGS_INFO</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- CREATE SNAPSHOT DIFFERENCE DESCRIPTION --></label>
         <name>CREATE_SNAPSHOT_DIFFERENCE_DESCRIPTION</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- CREATE SNAPSHOT DIFFERENCE TITLE --></label>
         <name>CREATE_SNAPSHOT_DIFFERENCE_TITLE</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- CREATE SSH KEYS --></label>
         <name>CREATE_SSH_KEYS</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- CREATING DEPLOYMENT --></label>
         <name>CREATING_DEPLOYMENT</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- CREDITS --></label>
         <name>CREDITS</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- CREDIT BALANCE --></label>
         <name>CREDIT_BALANCE</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- CST LICENSES USED --></label>
         <name>CST_LICENSES_USED</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- CST LICENSE LIMIT REACHED --></label>
         <name>CST_LICENSE_LIMIT_REACHED</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- CST USERS --></label>
         <name>CST_USERS</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- CURRENT KEYS --></label>
         <name>CURRENT_KEYS</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- CUSTOMER_ORG_NOT_EXISTS --></label>
         <name>CUSTOMER_ORG_NOT_EXISTS</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- CUSTOMER_ORG_NOT_VALIDATED --></label>
         <name>CUSTOMER_ORG_NOT_VALIDATED</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- Cancel --></label>
         <name>Cancel</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- Change Management Feature Not Enabled --></label>
         <name>Change_Management_Feature_Not_Enabled</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- Clear Filter Logic --></label>
         <name>Clear_Filter_Logic</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- Clear al ldynamic data --></label>
         <name>Clear_al_ldynamic_data</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- Clear all dynamic data --></label>
         <name>Clear_all_dynamic_data</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- Compliance_Comp_Error --></label>
         <name>Compliance_Comp_Error</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- Compliance_Comp_Warn --></label>
         <name>Compliance_Comp_Warn</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- Connection Problem --></label>
         <name>Connection_Problem</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- Create Pull Request --></label>
         <name>Create_Pull_Request</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- Criteria Selection --></label>
         <name>Criteria_Selection</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- DAILY --></label>
         <name>DAILY</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- DATE --></label>
         <name>DATE</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- DAY_S --></label>
         <name>DAY_S</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- DEFAULT RULESET GENERATED --></label>
         <name>DEFAULT_RULESET_GENERATED</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- DELETE --></label>
         <name>DELETE</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- DELETE SUCCESS CLOSE WINDOW --></label>
         <name>DELETE_SUCCESS_CLOSE_WINDOW</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- DEPLOY --></label>
         <name>DEPLOY</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- DEPLOYING --></label>
         <name>DEPLOYING</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- DEPLOYLATER_DT_MUST_BE_FUTURE --></label>
         <name>DEPLOYLATER_DT_MUST_BE_FUTURE</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- DEPLOYMENT --></label>
         <name>DEPLOYMENT</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- DEPLOYMENT_COMPLETED_SUCCESSFULLY --></label>
         <name>DEPLOYMENT_COMPLETED_SUCCESSFULLY</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- DEPLOYMENT ERRORS --></label>
         <name>DEPLOYMENT_ERRORS</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- DEPLOYMENT FLOW COMMITS BLOCKED --></label>
         <name>DEPLOYMENT_FLOW_COMMITS_BLOCKED</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- DEPLOYMENT HISTORY --></label>
         <name>DEPLOYMENT_HISTORY</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- DEPLOYMENT JOB --></label>
         <name>DEPLOYMENT_JOB</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- DEPLOYMENT JOB ERRORS --></label>
         <name>DEPLOYMENT_JOB_ERRORS</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- DEPLOYMENT JOB NOT STARTED YET --></label>
         <name>DEPLOYMENT_JOB_NOT_STARTED_YET</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- DEPLOYMENT NAME REQUIRED --></label>
         <name>DEPLOYMENT_NAME_REQUIRED</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- DEPLOYMENT NEW --></label>
         <name>DEPLOYMENT_NEW</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- DEPLOYMENT_STARTING --></label>
         <name>DEPLOYMENT_STARTING</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- DEPLOYMENT STATUS --></label>
         <name>DEPLOYMENT_STATUS</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- DEPLOY ALL --></label>
         <name>DEPLOY_ALL</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- DEPLOY COMMITS DESCRIPTION --></label>
         <name>DEPLOY_COMMITS_DESCRIPTION</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- DEPLOY COMPONENTS --></label>
         <name>DEPLOY_COMPONENTS</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- DEPLOY_NOW_OR_LATER --></label>
         <name>DEPLOY_NOW_OR_LATER</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- DEPLOY OUTSTANDING --></label>
         <name>DEPLOY_OUTSTANDING</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- DESTINATION ORG --></label>
         <name>DESTINATION_ORG</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- DESTINATION ORG ALREADY SELECTED --></label>
         <name>DESTINATION_ORG_ALREADY_SELECTED</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- DESTINATION ORG CREDENTIAL REQUIRED FOR DEPLOYMENT --></label>
         <name>DESTINATION_ORG_CREDENTIAL_REQUIRED_FOR_DEPLOYMENT</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- DESTINATION ORG NOT VALIDATED --></label>
         <name>DESTINATION_ORG_NOT_VALIDATED</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- DESTINATION ORG SAVED --></label>
         <name>DESTINATION_ORG_SAVED</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- DESTINATION REGRESSION SELENIUM TESTS --></label>
         <name>DESTINATION_REGRESSION_SELENIUM_TESTS</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- DESTINATION REGRESSION TESTS --></label>
         <name>DESTINATION_REGRESSION_TESTS</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- DESTINATION USER STORY SELENIUM TESTS --></label>
         <name>DESTINATION_USER_STORY_SELENIUM_TESTS</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- DESTINATION USER STORY TESTS --></label>
         <name>DESTINATION_USER_STORY_TESTS</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- DETAIL --></label>
         <name>DETAIL</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- DETAILS --></label>
         <name>DETAILS</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- DEVICE --></label>
         <name>DEVICE</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- DF NO STEP --></label>
         <name>DF_NO_STEP</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- DOCUMENTATION --></label>
         <name>DOCUMENTATION</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- DONT_REMIND_ME_AGAIN --></label>
         <name>DONT_REMIND_ME_AGAIN</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- DOWN --></label>
         <name>DOWN</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- DRAG TO REORDER STEP --></label>
         <name>DRAG_TO_REORDER_STEP</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- DUPLICATED_ENVIRONMENTAL_VARIABLE --></label>
         <name>DUPLICATED_ENVIRONMENTAL_VARIABLE</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- DURATION --></label>
         <name>DURATION</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- DYNAMIC DATA DESCRIPTION --></label>
         <name>DYNAMIC_DATA_DESCRIPTION</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- DYNAMIC URL PARAMETERS --></label>
         <name>DYNAMIC_URL_PARAMETERS</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- DeploymentTask_Alert_OrgCred --></label>
         <name>DeploymentTask_Alert_OrgCred</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- DeploymentTask_Alert_ProperUS --></label>
         <name>DeploymentTask_Alert_ProperUS</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- DeploymentTask_DeleteConfirm --></label>
         <name>DeploymentTask_DeleteConfirm</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- DeploymentTask_Perform_Destination --></label>
         <name>DeploymentTask_Perform_Destination</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- DeploymentTask_Perform_Source --></label>
         <name>DeploymentTask_Perform_Source</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- DeploymentTask_Task_Description --></label>
         <name>DeploymentTask_Task_Description</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- DeploymentTask_Task_Details --></label>
         <name>DeploymentTask_Task_Details</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- Disable Auto Selection Overwrite --></label>
         <name>Disable_Auto_Selection_Overwrite</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- Drag and Drop your local selenese scripts here --></label>
         <name>Drag_and_Drop_your_local_selenese_scripts_here</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- Dynamic Data --></label>
         <name>Dynamic_Data</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- Dynamic Data Exp 1 --></label>
         <name>Dynamic_Data_Exp_1</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- Dynamic Data Exp 2 --></label>
         <name>Dynamic_Data_Exp_2</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- EDIT --></label>
         <name>EDIT</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- EDIT_SELECTION --></label>
         <name>EDIT_SELECTION</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- ENABLE AUTO RECHARGE --></label>
         <name>ENABLE_AUTO_RECHARGE</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- ENDING_COMMIT --></label>
         <name>ENDING_COMMIT</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- END TIME --></label>
         <name>END_TIME</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- ENTER_COMMIT_MESSAGE --></label>
         <name>ENTER_COMMIT_MESSAGE</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- ENTER_VAR_NAME --></label>
         <name>ENTER_VAR_NAME</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- ENV NOT MATCHING --></label>
         <name>ENV_NOT_MATCHING</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- ENV_VARS_COMMIT --></label>
         <name>ENV_VARS_COMMIT</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- ENV_VARS_DEPLOY --></label>
         <name>ENV_VARS_DEPLOY</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- ENV_VARS_DOCS --></label>
         <name>ENV_VARS_DOCS</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- ENV_VARS_DUPLICATE_VAL_ENV --></label>
         <name>ENV_VARS_DUPLICATE_VAL_ENV</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- ENV_VARS_EASY_VALUES --></label>
         <name>ENV_VARS_EASY_VALUES</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- ENV_VARS_GOOD_VALUES --></label>
         <name>ENV_VARS_GOOD_VALUES</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- ENV_VARS_MISSING_VALS --></label>
         <name>ENV_VARS_MISSING_VALS</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- ENV_VARS_MORE --></label>
         <name>ENV_VARS_MORE</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- ENV_VARS_VALUE_REQUIRED --></label>
         <name>ENV_VARS_VALUE_REQUIRED</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- ERROR --></label>
         <name>ERROR</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- ERROR API CONNECTION --></label>
         <name>ERROR_API_CONNECTION</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- ERROR_MSG_PREV_META_MISSING --></label>
         <name>ERROR_MSG_PREV_META_MISSING</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- ERROR_PROMOTION_DESTINATION_ORG_NOT_FOUND --></label>
         <name>ERROR_PROMOTION_DESTINATION_ORG_NOT_FOUND</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- ERROR_PROMOTION_SOURCE_ORG_NOT_FOUND --></label>
         <name>ERROR_PROMOTION_SOURCE_ORG_NOT_FOUND</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- ERROR_TEST_GIT_CONNECTIONS --></label>
         <name>ERROR_TEST_GIT_CONNECTIONS</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- ESTIMATION_IN_PROGRESS --></label>
         <name>ESTIMATION_IN_PROGRESS</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- EVERY --></label>
         <name>EVERY</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- EVERY WEEK DAY --></label>
         <name>EVERY_WEEK_DAY</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- EXCEPTION OCCURRED MESSAGE --></label>
         <name>EXCEPTION_OCCURRED_MESSAGE</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- EXTERNAL CI JOB --></label>
         <name>EXTERNAL_CI_JOB</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- EXTERNAL CI SETTING DESCRIPTION --></label>
         <name>EXTERNAL_CI_SETTING_DESC</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- EXTERNAL_ID --></label>
         <name>EXTERNAL_ID</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- EXTERNAL ID REQUIRED --></label>
         <name>EXTERNAL_ID_REQUIRED</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- To be used on email template --></label>
+        <name>EmailLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Enable Auto Selection Overwrite --></label>
         <name>Enable_Auto_Selection_Overwrite</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- FAILED --></label>
         <name>FAILED</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- FALILED --></label>
         <name>FALILED</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- FEATURE --></label>
         <name>FEATURE</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- FEATURES --></label>
         <name>FEATURES</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- FEATURE NOT SUPPORTED --></label>
         <name>FEATURE_NOT_SUPPORTED</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- FETCHING COMMITS FOR USER STORY --></label>
         <name>FETCHING_COMMITS_FOR_USER_STORY</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- FIELDS --></label>
         <name>FIELDS</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- FILE --></label>
         <name>FILE</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- FILE DIFFERENCES --></label>
         <name>FILE_DIFFERENCES</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- FILL REQUIRED FIELDS --></label>
         <name>FILL_REQUIRED_FIELDS</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- FindReplace_Confirm --></label>
         <name>FINDREPLACE_CONFIRM</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- FIRST SELECT A USER --></label>
         <name>FIRST_SELECT_A_USER</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- FLOW CREDENTIAL ERROR --></label>
         <name>FLOW_CREDENTIAL_ERROR</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- FLOW NEEDS TO BE ACTVE --></label>
         <name>FLOW_NEEDS_TO_BE_ACTVE</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- FRACTION OUT OF LABEL --></label>
         <name>FRACTION_OUT_OF_LABEL</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- FRIDAY --></label>
         <name>FRIDAY</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- FROM SUFFIX --></label>
         <name>FROM_SUFFIX</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- Field --></label>
         <name>Field</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- GETTING APEX TEST CLASSES --></label>
         <name>GETTING_APEX_TEST_CLASSES</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- GETTING STARTED --></label>
         <name>GETTING_STARTED</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- GETTING STARTED DESCRIPTION SHORT --></label>
         <name>GETTING_STARTED_DESCRIPTION_SHORT</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- GET_FIELDS --></label>
         <name>GET_FIELDS</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- GET LICENSE INFORMATION --></label>
         <name>GET_LICENSE_INFORMATION</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- GIT_BACKUP_EDIT_DESCRIPTION --></label>
         <name>GIT_BACKUP_EDIT_DESCRIPTION</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- GIT_BACKUP_EDIT_SUBTITLE --></label>
         <name>GIT_BACKUP_EDIT_SUBTITLE</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- GIT_BACKUP_EDIT_TITLE --></label>
         <name>GIT_BACKUP_EDIT_TITLE</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- GIT BACKUP NOT FOUND --></label>
         <name>GIT_BACKUP_NOT_FOUND</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- GIT DELETIONS --></label>
         <name>GIT_DELETIONS</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- GIT_ORG_COMMIT_DESCRIPTION --></label>
         <name>GIT_ORG_COMMIT_DESCRIPTION</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- GIT_REPOSITORY_EDIT_DESCRIPTION --></label>
         <name>GIT_REPOSITORY_EDIT_DESCRIPTION</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- GIT_SNAPSHOT_DEFAULT_COMMENT --></label>
         <name>GIT_SNAPSHOT_DEFAULT_COMMENT</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- GIT SNAPSHOT FIELDS --></label>
         <name>GIT_SNAPSHOT_FIELDS</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- GIT_SNAPSHOT_NOW_PROMPT --></label>
         <name>GIT_SNAPSHOT_NOW_PROMPT</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- GIT UPSERTS --></label>
         <name>GIT_UPSERTS</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- GIT_USER_STORY_COMMIT_DESCRIPTION --></label>
         <name>GIT_USER_STORY_COMMIT_DESCRIPTION</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- GROUP BY SELENIUM MANAGER --></label>
         <name>GROUP_BY_SELENIUM_MANAGER</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- HEADERS --></label>
         <name>HEADERS</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- HEADER CREATE DEPLOYMENT --></label>
         <name>HEADER_CREATE_DEPLOYMENT</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- HEADER CREATE STEP --></label>
         <name>HEADER_CREATE_STEP</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- HEADER DESC CREATE DEPLOYMENT --></label>
         <name>HEADER_DESC_CREATE_DEPLOYMENT</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- HEADER DESC CREATE STEP --></label>
         <name>HEADER_DESC_CREATE_STEP</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- HEADER DESC SELECT DEST ORGS --></label>
         <name>HEADER_DESC_SELECT_DEST_ORGS</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- HEADER DESC SETUP SCHEDULE --></label>
         <name>HEADER_DESC_SETUP_SCHEDULE</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- HEADER SELECT DEST ORGS --></label>
         <name>HEADER_SELECT_DEST_ORGS</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- HEADER SELECT DEST ORGS2 --></label>
         <name>HEADER_SELECT_DEST_ORGS2</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- HEADER SETUP SCHEDULE --></label>
         <name>HEADER_SETUP_SCHEDULE</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- HEADER TITLE --></label>
         <name>HEADER_TITLE</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- HELP FOR THIS PAGE --></label>
         <name>HELP_FOR_THIS_PAGE</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- HELP GET --></label>
         <name>HELP_GET</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- HELP GET DESCRIPTION SHORT --></label>
         <name>HELP_GET_DESCRIPTION_SHORT</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- HIDE KEY --></label>
         <name>HIDE_KEY</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- HIDE MESSAGE --></label>
         <name>HIDE_MESSAGE</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- HOURLY --></label>
         <name>HOURLY</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- HOURS --></label>
         <name>HOURS</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- HOUR_S --></label>
         <name>HOUR_S</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- IM DONE --></label>
         <name>IM_DONE</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- INFO --></label>
         <name>INFO</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- INFORMATION --></label>
         <name>INFORMATION</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- INFO_URL --></label>
         <name>INFO_URL</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- INPROGRESS --></label>
         <name>INPROGRESS</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- INSUFFICENT ACCESS --></label>
         <name>INSUFFICENT_ACCESS</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- IN USERSTORY --></label>
         <name>IN_USERSTORY</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- JOB_MANAGER_MESSAGE --></label>
         <name>JOB_MANAGER_MESSAGE</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- JOB SETUP --></label>
         <name>JOB_SETUP</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- JOB UNSCHEDULED SUCCESSFULLY --></label>
         <name>JOB_UNSCHEDULED_SUCCESSFULLY</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- JQX_PAGERGOTOPAGESTRING --></label>
         <name>JQX_PAGERGOTOPAGESTRING</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- JQX PAGERNEXTBUTTONSTRING --></label>
         <name>JQX_PAGERNEXTBUTTONSTRING</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- JQX PAGERPREVIOUSBUTTONSTRING --></label>
         <name>JQX_PAGERPREVIOUSBUTTONSTRING</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- JQX PAGERRANGESTRING --></label>
         <name>JQX_PAGERRANGESTRING</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- JQX PAGERSHOWROWSSTRING --></label>
         <name>JQX_PAGERSHOWROWSSTRING</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- JQX SORTASCENDINGSTRING --></label>
         <name>JQX_SORTASCENDINGSTRING</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- JQX SORTDESCENDINGSTRING --></label>
         <name>JQX_SORTDESCENDINGSTRING</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- JQX SORTREMOVESTRING --></label>
         <name>JQX_SORTREMOVESTRING</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- KANBAN BOARD COLUMNS --></label>
         <name>KANBAN_BOARD_COLUMNS</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- KANBAN BOARD DESCRIPTION --></label>
         <name>KANBAN_BOARD_DESCRIPTION</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- KANBAN_BOARD_INFORMATION --></label>
         <name>KANBAN_BOARD_INFORMATION</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- KANBAN COLUMNS FROM PICKLIST --></label>
         <name>KANBAN_COLUMNS_FROM_PICKLIST</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- KANBAN COLUMNS HELP --></label>
         <name>KANBAN_COLUMNS_HELP</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- KANBAN REMOVE ALL COLUMNS --></label>
         <name>KANBAN_REMOVE_ALL_COLUMNS</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- KANBAN UPDATE COLUMNS WITH --></label>
         <name>KANBAN_UPDATE_COLUMNS_WITH</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- KEY CONTENT --></label>
         <name>KEY_CONTENT</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- LASTMODIFIEDBY --></label>
         <name>LASTMODIFIEDBY</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- LASTMODIFIEDDATE --></label>
         <name>LASTMODIFIEDDATE</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- LAST EXECUTION --></label>
         <name>LAST_EXECUTION</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- LATEST SYNC LOGS --></label>
         <name>LATEST_SYNC_LOGS</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- LEARN --></label>
         <name>LEARN</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- LEARN DESCRIPTION SHORT --></label>
         <name>LEARN_DESCRIPTION_SHORT</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- LEAVE A COMMENT --></label>
         <name>LEAVE_A_COMMENT</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- LEAVE_A_COMMENT_PLASEHOLDER --></label>
         <name>LEAVE_A_COMMENT_PLASEHOLDER</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- LEVEL --></label>
         <name>LEVEL</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- LICENSE MANAGER --></label>
         <name>LICENSE_MANAGER</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- LICENSE MANAGER DEACTIVATED --></label>
         <name>LICENSE_MANAGER_DEACTIVATED</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- LICENSE MANAGER INACTIVE DESCRIPTON --></label>
         <name>LICENSE_MANAGER_INACTIVE_DESCRIPTON</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- LICENSE MANAGER INTRODUCTION --></label>
         <name>LICENSE_MANAGER_INTRODUCTION</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- LICENSE UPSERT SUCCESSFUL --></label>
         <name>LICENSE_UPSERT_SUCCESSFUL</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- LINE --></label>
         <name>LINE</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- LINES_COVERED --></label>
         <name>LINES_COVERED</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- LINES_COVERED_TOTAL_LINES --></label>
         <name>LINES_COVERED_TOTAL_LINES</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- LINES NOT COVERED --></label>
         <name>LINES_NOT_COVERED</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- LIST_TC_CURRENT_VERSION --></label>
         <name>LIST_TC_CURRENT_VERSION</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- LIST_TC_PREV_VERSION --></label>
         <name>LIST_TC_PREV_VERSION</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- LOADING --></label>
         <name>LOADING</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- LOGIC NOT VALID --></label>
         <name>LOGIC_NOT_VALID</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- LOOK UP COPADO WEBHOOK --></label>
         <name>LOOK_UP_COPADO_WEBHOOK</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- Licenses Exceeded --></label>
         <name>Licenses_Exceeded</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- MANAGE AUTO RECHARGE --></label>
         <name>MANAGE_AUTO_RECHARGE</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- MANAGE SUBSCRIPTION --></label>
         <name>MANAGE_SUBSCRIPTION</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- MASS BACK PROMOTE USER STORIES --></label>
         <name>MASS_BACK_PROMOTE_USER_STORIES</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- MASS BP DISABLE AUTOSELECT WARNING --></label>
         <name>MASS_BP_DISABLE_AUTOSELECT_WARNING</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- Merged Files --></label>
         <name>MERGED_FILES</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- MESSAGE --></label>
         <name>MESSAGE</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- MESSAGE CAPITALS --></label>
         <name>MESSAGE_CAPITALS</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- METADATA_FILTERED --></label>
         <name>METADATA_FILTERED</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- METADATA NOT FOUND --></label>
         <name>METADATA_NOT_FOUND</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- METADATA NOT FOUND COMPLIANCE --></label>
         <name>METADATA_NOT_FOUND_COMPLIANCE</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- METHODS --></label>
         <name>METHODS</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- METHOD NAME --></label>
         <name>METHOD_NAME</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- MILLISECONDS --></label>
         <name>MILLISECONDS</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- MINUTES --></label>
         <name>MINUTES</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- MISSING_DEST_ORGS_MESSAGE --></label>
         <name>MISSING_DEST_ORGS_MESSAGE</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- MISSING PERMISSIONS CBM FLOW --></label>
         <name>MISSING_PERMISSIONS_CBM_FLOW</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- MISSING_STEPS_MESSAGE --></label>
         <name>MISSING_STEPS_MESSAGE</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- MONDAY --></label>
         <name>MONDAY</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- MUST BUILD VALID AND TESTED QUERY --></label>
         <name>MUST_BUILD_VALID_AND_TESTED_QUERY</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- MUST_HAVE_SOURCE_AND_DESTINATION --></label>
         <name>MUST_HAVE_SOURCE_AND_DESTINATION</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- MUST LEAVE A COMMENT ERROR --></label>
         <name>MUST_LEAVE_A_COMMENT_ERROR</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- MUST SELECT USER --></label>
         <name>MUST_SELECT_USER</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- Missing in the spreasheet --></label>
         <name>Missing_in_the_spreasheet</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- NAME --></label>
         <name>NAME</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- NEW --></label>
         <name>NEW</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- NEW DESTINATION ORG PENDING --></label>
         <name>NEW_DESTINATION_ORG_PENDING</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- NEW ENVIRONMENT --></label>
         <name>NEW_ENVIRONMENT</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- NEW ENVIRONMENT OVERRIDE INSTRUCTIONS --></label>
         <name>NEW_ENVIRONMENT_OVERRIDE_INSTRUCTIONS</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- NEW SELENIUM TEST CASE OVERRIDE INSTRUCTIONS --></label>
         <name>NEW_SELENIUM_TEST_CASE_OVERRIDE_INSTRUCTIONS</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- NEW STEP ORDER SAVED --></label>
         <name>NEW_STEP_ORDER_SAVED</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- NEXT --></label>
         <name>NEXT</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- NoAccessPromotion --></label>
         <name>NOACCESSPROMOTION</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- NOACCESSUSERSTORY --></label>
         <name>NOACCESSUSERSTORY</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- NODATATODISPLAY --></label>
         <name>NODATATODISPLAY</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- NONE SELECTED --></label>
         <name>NONE_SELECTED</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- NOTHING_TO_CANCEL --></label>
         <name>NOTHING_TO_CANCEL</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- NOTHING TO STOP --></label>
         <name>NOTHING_TO_STOP</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- NOT_ENOUGH_CREDITS --></label>
         <name>NOT_ENOUGH_CREDITS</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- NO APEX TESTS FOUND --></label>
         <name>NO_APEX_TESTS_FOUND</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- NO APEX TESTS FOUND REFRESH USER STORY --></label>
         <name>NO_APEX_TESTS_FOUND_REFRESH_USER_STORY</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- NO APEX TESTS SELECTED --></label>
         <name>NO_APEX_TESTS_SELECTED</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- NO DATA TO DISPLAY --></label>
         <name>NO_DATA_TO_DISPLAY</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- NO DESTINATION ENV DF STEP --></label>
         <name>NO_DESTINATION_ENV_DF_STEP</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- NO DESTINATION ORGS IN DEPLOYMENT --></label>
         <name>NO_DESTINATION_ORGS_IN_DEPLOYMENT</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- NO JOB FOUND --></label>
         <name>NO_JOB_FOUND</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- NO ORG CREDENTIAL ON USER STORY --></label>
         <name>NO_ORG_CREDENTIAL_ON_USER_STORY</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- NO_PERMISSIONS_FOUND --></label>
         <name>NO_PERMISSIONS_FOUND</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- NO SETTING SELECTED --></label>
         <name>NO_SETTING_SELECTED</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- NO SOURCE ENV DF STEP --></label>
         <name>NO_SOURCE_ENV_DF_STEP</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- NO STATIC CODE ATTACHMENT --></label>
         <name>NO_STATIC_CODE_ATTACHMENT</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- NO STATIC CODE RESULTS --></label>
         <name>NO_STATIC_CODE_RESULTS</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- NO STATUS AVAILABLE --></label>
         <name>NO_STATUS_AVAILABLE</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- NO STEPS IN DEPLOYMENT --></label>
         <name>NO_STEPS_IN_DEPLOYMENT</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- NO STEP RESULTS FOUND --></label>
         <name>NO_STEP_RESULTS_FOUND</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- NO TEST RUN RESULTS --></label>
         <name>NO_TEST_RUN_RESULTS</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- NO USER STORIES TO PROMOTE --></label>
         <name>NO_USER_STORIES_TO_PROMOTE</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- NO US TO SELECT --></label>
         <name>NO_US_TO_SELECT</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- New CL from Dev3 --></label>
         <name>New_CL_from_Dev3</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- Node --></label>
         <name>Node</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- OBJECT --></label>
         <name>OBJECT</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- OK --></label>
         <name>OK</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- OK CREDENTIALS --></label>
         <name>OK_CREDENTIALS</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- ONLY GIT METADATA ALLOWED --></label>
         <name>ONLY_GIT_METADATA_ALLOWED</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- OOPS SOMETHING WENT WRONG GETTING ORG REMOTE DATA --></label>
         <name>OOPS_SOMETHING_WENT_WRONG_GETTING_ORG_REMOTE_DATA</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- OPERATION TIMEOUT RUNNING IN BACKGROUND --></label>
         <name>OPERATION_TIMEOUT_RUNNING_IN_BACKGROUND</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- OR --></label>
         <name>OR</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- ORDERS --></label>
         <name>ORDERS</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- ORG COVERAGE --></label>
         <name>ORG_COVERAGE</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- ORG CREDENTIAL NOT PART OF ENVIRONMENT --></label>
         <name>ORG_CREDENTIAL_NOT_PART_OF_ENVIRONMENT</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- ORG DIFF DESCRIPTION --></label>
         <name>ORG_DIFF_DESCRIPTION</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- ORG_EDIT_DESCRIPTION --></label>
         <name>ORG_EDIT_DESCRIPTION</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- ORG ID --></label>
         <name>ORG_ID</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- ORG NAME --></label>
         <name>ORG_NAME</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- ORG NOT FOUND --></label>
         <name>ORG_NOT_FOUND</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- ORG NOT VALIDATED --></label>
         <name>ORG_NOT_VALIDATED</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- OS --></label>
         <name>OS</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- OS VERSION --></label>
         <name>OS_VERSION</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- OTHER INFORMATION --></label>
         <name>OTHER_INFORMATION</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- OWNER ALIAS --></label>
         <name>OWNER_ALIAS</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- Operator --></label>
         <name>Operator</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- PASSED --></label>
         <name>PASSED</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- PASSWORD --></label>
         <name>PASSWORD</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- PASS/FAIL COLUMN HEADER --></label>
         <name>PASS_FAIL_COLUMN_HEADER</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- PAYMENT_CANCELLED_DETAIL --></label>
         <name>PAYMENT_CANCELLED_DETAIL</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- PAYMENT_CANCELLED_SUMMARY --></label>
         <name>PAYMENT_CANCELLED_SUMMARY</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- PAYMENT_CANCELLED_TITLE --></label>
         <name>PAYMENT_CANCELLED_TITLE</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- PAYMENT DETAILS --></label>
         <name>PAYMENT_DETAILS</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- PAYMENT_ERROR --></label>
         <name>PAYMENT_ERROR</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- PAYMENT_ERROR_SUMMARY --></label>
         <name>PAYMENT_ERROR_SUMMARY</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- PAYMENT_ERROR_TITLE --></label>
         <name>PAYMENT_ERROR_TITLE</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- PAYMENT_SUCCESS_SUMMARY --></label>
         <name>PAYMENT_SUCCESS_SUMMARY</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- PAYMENT_SUCCESS_TITLE --></label>
         <name>PAYMENT_SUCCESS_TITLE</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- PENDING --></label>
         <name>PENDING</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- PERMISSION_FILTER --></label>
         <name>PERMISSION_FILTER</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- PERMISSION_SET_SOBJECT_NAME --></label>
         <name>PERMISSION_SET_SOBJECT_NAME</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- PESONAL_API_KEY --></label>
         <name>PESONAL_API_KEY</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- PLEASE ENTER A NEW NAME --></label>
         <name>PLEASE_ENTER_A_NEW_NAME</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- PLEASE ENTER VALID URL --></label>
         <name>PLEASE_ENTER_VALID_URL</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- POPUP BLOCKER MESSAGE --></label>
         <name>POPUP_BLOCKER_MESSAGE</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- POST INSTALL FAILED --></label>
         <name>POST_INSTALL_FAILED</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- PRELOAD FILTER USER STORIES --></label>
         <name>PRELOAD_FILTER_USER_STORIES</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- PRE/POST BUILD AUTOMATION --></label>
         <name>PRE_POST_BUILD_AUTOMATION</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- PRIORITY --></label>
         <name>PRIORITY</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- PROBLEM RETRIEVING META ATTACH --></label>
         <name>PROBLEM_RETRIEVING_META_ATTACH</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- PROFILE_NAME --></label>
         <name>PROFILE_NAME</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- PROMOTE_SELENIUM_TC_VERSION --></label>
         <name>PROMOTE_SELENIUM_TC_VERSION</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- PROMOTE TEST CASE DESCRIPTION --></label>
         <name>PROMOTE_TEST_CASE_DESCRIPTION</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- PROMOTION_FLOW_INACTIVE --></label>
         <name>PROMOTION_FLOW_INACTIVE</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- PROMOTION RUN DESTINATION TESTS --></label>
         <name>PROMOTION_RUN_DESTINATION_TESTS</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- PROMOTION_RUN_DESTINATION_TESTS_REGRESSION --></label>
         <name>PROMOTION_RUN_DESTINATION_TESTS_REGRESSION</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- PROMOTION_RUN_DESTINATION_TESTS_USER_STORY --></label>
         <name>PROMOTION_RUN_DESTINATION_TESTS_USER_STORY</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- PROMOTION_RUN_NO_TESTS --></label>
         <name>PROMOTION_RUN_NO_TESTS</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- PROMOTION_RUN_RUNNING --></label>
         <name>PROMOTION_RUN_RUNNING</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- PROMOTION RUN SOURCE TESTS --></label>
         <name>PROMOTION_RUN_SOURCE_TESTS</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- PROMOTION_RUN_SOURCE_TESTS_REGRESSION --></label>
         <name>PROMOTION_RUN_SOURCE_TESTS_REGRESSION</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- PROMOTION_RUN_SOURCE_TESTS_USER_STORY --></label>
         <name>PROMOTION_RUN_SOURCE_TESTS_USER_STORY</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- PROMOTION SELENIUM TESTS --></label>
         <name>PROMOTION_SELENIUM_TESTS</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- PROMOTION USER STORY METADATA --></label>
         <name>PROMOTION_USER_STORY_METADATA</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- PULLREQUEST BASE URL AND TYPE --></label>
         <name>PULLREQUEST_BASE_URL_AND_TYPE</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- PULL REQUEST VALIDATION --></label>
         <name>PULL_REQUEST_VALIDATION</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- QUERY --></label>
         <name>QUERY</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- QUERY_BUILDER --></label>
         <name>QUERY_BUILDER</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- QUERY TEST SUCCESSFUL --></label>
         <name>QUERY_TEST_SUCCESSFUL</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- QUICK CREATE USERSTORY DESCRIPTION --></label>
         <name>QUICK_CREATE_USERSTORY_DESCRIPTION</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- QUICK CREATE USER STORIES --></label>
         <name>QUICK_CREATE_USER_STORIES</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- Quick Save --></label>
         <name>Quick_Save</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- RATECOPADO_DEPLOYSUCCESS --></label>
         <name>RATECOPADO_DEPLOYSUCCESS</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- RATE_COPADO_NOW --></label>
         <name>RATE_COPADO_NOW</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- REARRANGE_ENVIRONMENTS --></label>
         <name>REARRANGE_ENVIRONMENTS</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- RECORD DELETED --></label>
         <name>RECORD_DELETED</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- REFRESH --></label>
         <name>REFRESH</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- REFRESH BALANCE --></label>
         <name>REFRESH_BALANCE</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- REFRESH GIT SELECTIONS --></label>
         <name>REFRESH_GIT_SELECTIONS</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- REGRESSION --></label>
         <name>REGRESSION</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- REGRESSION TEST --></label>
         <name>REGRESSION_TEST</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- RELATED LIST --></label>
         <name>RELATED_LIST</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- RELOAD --></label>
         <name>RELOAD</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- REMOVE --></label>
         <name>REMOVE</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- REMOVE SELECTED USER STORIES --></label>
         <name>REMOVE_SELECTED_USER_STORIES</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- REORDER STEPS --></label>
         <name>REORDER_STEPS</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- REPEATED_BRANCH_NAME --></label>
         <name>REPEATED_BRANCH_NAME</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- REPEATED_SOURCE_ENVIRONMENT --></label>
         <name>REPEATED_SOURCE_ENVIRONMENT</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- REPO OR BRANCH NOT DEFINED --></label>
         <name>REPO_OR_BRANCH_NOT_DEFINED</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- RESET --></label>
         <name>RESET</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- RESOLUTION --></label>
         <name>RESOLUTION</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- RESULTS FOR STEP AND DESTINATION ORG --></label>
         <name>RESULTS_FOR_STEP_AND_DESTINATION_ORG</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- RETRIEVE_ONLY --></label>
         <name>RETRIEVE_ONLY</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- RETURN TO USER STORY --></label>
         <name>RETURN_TO_USER_STORY</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- ROLE_NAME --></label>
         <name>ROLE_NAME</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- ROLLBACK_SELENIUM_TC_VERSION --></label>
         <name>ROLLBACK_SELENIUM_TC_VERSION</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- ROLLBACK TEST CASE DESCRIPTION --></label>
         <name>ROLLBACK_TEST_CASE_DESCRIPTION</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- RULE --></label>
         <name>RULE</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- RULESET GENERATOR --></label>
         <name>RULESET_GENERATOR</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- RULES VIOLATED --></label>
         <name>RULES_VIOLATED</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- RULE NAME --></label>
         <name>RULE_NAME</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- RUNNING APEX TESTS --></label>
         <name>RUNNING_APEX_TESTS</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- RUN_ALL_TESTS --></label>
         <name>RUN_ALL_TESTS</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- RUN ALL TESTS TO LOAD TEST RESULTS FOR ORG --></label>
         <name>RUN_ALL_TESTS_TO_LOAD_TEST_RESULTS_FOR_ORG</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- RUN APEX TESTS --></label>
         <name>RUN_APEX_TESTS</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- RUN STATIC CODE ANALYSIS --></label>
         <name>RUN_STATIC_CODE_ANALYSIS</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- Record Type --></label>
         <name>Record_Type</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- Rule Info --></label>
         <name>Rule_Info</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- SATURDAY --></label>
         <name>SATURDAY</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- SAVE_AND_CLOSE --></label>
         <name>SAVE_AND_CLOSE</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- SAVE DEPLOYMENT FIRST --></label>
         <name>SAVE_DEPLOYMENT_FIRST</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- SAVE DEPLOYMENT TO ADD DESTINATION ORGS --></label>
         <name>SAVE_DEPLOYMENT_TO_ADD_DESTINATION_ORGS</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- SAVE DPELOYMENT FIRST --></label>
         <name>SAVE_DPELOYMENT_FIRST</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- SAVE NEW STEP FIRST TO ADD NEW STEP --></label>
         <name>SAVE_NEW_STEP_FIRST_TO_ADD_NEW_STEP</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- SAVE SUCCESS --></label>
         <name>SAVE_SUCCESS</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- SCA SETTINGS NOT FOUND --></label>
         <name>SCA_SETTINGS_NOT_FOUND</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- SCHEDULE --></label>
         <name>SCHEDULE</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- SCHEDULED JOB --></label>
         <name>SCHEDULED_JOB</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- SCHEDULE INFORMATION --></label>
         <name>SCHEDULE_INFORMATION</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- SCHEDULE JOB --></label>
         <name>SCHEDULE_JOB</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- SECONDS --></label>
         <name>SECONDS</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- SEE DEPLOYMENT PAGE FOR INFORMATION --></label>
         <name>SEE_DEPLOYMENT_PAGE_FOR_INFORMATION</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- SELECTED --></label>
         <name>SELECTED</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- SELECTED_FIELDS --></label>
         <name>SELECTED_FIELDS</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- SELECTED_TYPES --></label>
         <name>SELECTED_TYPES</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- SELECT ALL --></label>
         <name>SELECT_ALL</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- SELECT_AT_LEAST_ONE_ITEM --></label>
         <name>SELECT_AT_LEAST_ONE_ITEM</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- SELECT AT LEAST ONE RECORD --></label>
         <name>SELECT_AT_LEAST_ONE_RECORD</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- SELECT COMMITS --></label>
         <name>SELECT_COMMITS</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- SELECT END COMMIT --></label>
         <name>SELECT_END_COMMIT</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- SELECT_FIELDS_FROM_OBJECT_CLAUSE --></label>
         <name>SELECT_FIELDS_FROM_OBJECT_CLAUSE</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- SELECT GROUP TO ADD RUNS --></label>
         <name>SELECT_GROUP_TO_ADD_RUNS</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- SELECT GROUP TO ADD SUITES --></label>
         <name>SELECT_GROUP_TO_ADD_SUITES</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- SELECT INITIAL COMMIT --></label>
         <name>SELECT_INITIAL_COMMIT</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- SELECT METADATA TYPE --></label>
         <name>SELECT_METADATA_TYPE</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- SELECT STEP TO SHOW RESULT --></label>
         <name>SELECT_STEP_TO_SHOW_RESULT</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- SELECT STEP TYPE FIRST --></label>
         <name>SELECT_STEP_TYPE_FIRST</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- SELENIUM_GETTING_STARTED_APIKEY --></label>
         <name>SELENIUM_GETTING_STARTED_APIKEY</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- SELENIUM_GETTING_STARTED_BIND --></label>
         <name>SELENIUM_GETTING_STARTED_BIND</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- SELENIUM GETTING STARTED HEADER DESCRIPTION --></label>
         <name>SELENIUM_GETTING_STARTED_HEADER_DESCRIPTION</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- SELENIUM GETTING STARTED HEADER SUBTITLE --></label>
         <name>SELENIUM_GETTING_STARTED_HEADER_SUBTITLE</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- SELENIUM GETTING STARTED HEADER TITLE --></label>
         <name>SELENIUM_GETTING_STARTED_HEADER_TITLE</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- SELENIUM GROUPS UPDATED --></label>
         <name>SELENIUM_GROUPS_UPDATED</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- SELENIUM_NOT_ENABLED --></label>
         <name>SELENIUM_NOT_ENABLED</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- SELENIUM_NOT_LICENSED --></label>
         <name>SELENIUM_NOT_LICENSED</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- SELENIUM TEST GROUP --></label>
         <name>SELENIUM_TEST_GROUP</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- SELENIUM TEST RESULTS SUMMARY --></label>
         <name>SELENIUM_TEST_RESULTS_SUMMARY</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- SETTINGS RECORD NOT FOUND --></label>
         <name>SETTINGS_RECORD_NOT_FOUND</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- SETUP_ACTION_REQUIRED_MSG --></label>
         <name>SETUP_ACTION_REQUIRED_MSG</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- SETUP_PROCESS_NOT_COMPLETED --></label>
         <name>SETUP_PROCESS_NOT_COMPLETED</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- SHARE --></label>
         <name>SHARE</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- SNAPSHOT RUN NOT ALLOWED --></label>
         <name>SNAPSHOT_RUN_NOT_ALLOWED</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- SOBJECT --></label>
         <name>SOBJECT</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- SOQL_HASNOT_EXTERNALID_ERROR --></label>
         <name>SOQL_HASNOT_EXTERNALID_ERROR</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- SOQL_MALFORMED_ERROR --></label>
         <name>SOQL_MALFORMED_ERROR</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- SOURCE CODE ANALYSIS --></label>
         <name>SOURCE_CODE_ANALYSIS</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- Source Environment --></label>
         <name>SOURCE_ENVIRONMENT</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- SOURCE ORG CREDENTIAL REQUIRED FOR DEPLOYMENT --></label>
         <name>SOURCE_ORG_CREDENTIAL_REQUIRED_FOR_DEPLOYMENT</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- SOURCE REGRESSION SELENIUM TESTS --></label>
         <name>SOURCE_REGRESSION_SELENIUM_TESTS</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- SOURCE REGRESSION TESTS --></label>
         <name>SOURCE_REGRESSION_TESTS</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- SOURCE USER STORY SELENIUM TESTS --></label>
         <name>SOURCE_USER_STORY_SELENIUM_TESTS</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- SOURCE USER STORY TESTS --></label>
         <name>SOURCE_USER_STORY_TESTS</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- SPECIFY AT LEAST ONE ITEM TO DEPLOY --></label>
         <name>SPECIFY_AT_LEAST_ONE_ITEM_TO_DEPLOY</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- STARTING_COMMIT --></label>
         <name>STARTING_COMMIT</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- STARTS AT --></label>
         <name>STARTS_AT</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- START TIME --></label>
         <name>START_TIME</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- STATIC CODE ANALYSIS DETAILS --></label>
         <name>STATIC_CODE_ANALYSIS_DETAILS</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- STATIC CODE ANALYSIS REQUESTED --></label>
         <name>STATIC_CODE_ANALYSIS_REQUESTED</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- STATIC CODE ANALYSIS RUN --></label>
         <name>STATIC_CODE_ANALYSIS_RUN</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- STATIC CODE ANALYSIS SUMMARY --></label>
         <name>STATIC_CODE_ANALYSIS_SUMMARY</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- STATIC_RESOURCES_TITLE --></label>
         <name>STATIC_RESOURCES_TITLE</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- STATUS --></label>
         <name>STATUS</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- Status Manager Clear Status --></label>
         <name>STATUS_MANAGER_CLEAR_STATUS</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- STATUS_MANAGER_CONFIRM_RESET --></label>
         <name>STATUS_MANAGER_CONFIRM_RESET</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- STEP DELETED --></label>
         <name>STEP_DELETED</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- STEP DESCRIPTION BULK DATA --></label>
         <name>STEP_DESCRIPTION_BULK_DATA</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- STEP DESCRIPTION DATA --></label>
         <name>STEP_DESCRIPTION_DATA</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- STEP DESCRIPTION FULL PROFILES --></label>
         <name>STEP_DESCRIPTION_FULL_PROFILES</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- STEP DESCRIPTION METADATA --></label>
         <name>STEP_DESCRIPTION_METADATA</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- STEP DESCRIPTION NONE SELECTED --></label>
         <name>STEP_DESCRIPTION_NONE_SELECTED</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- STEP DESCRIPTION TRANSLATIONS --></label>
         <name>STEP_DESCRIPTION_TRANSLATIONS</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- STEP DESCRIPTION USERS --></label>
         <name>STEP_DESCRIPTION_USERS</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- STEP_NOT_SUPPORTED --></label>
         <name>STEP_NOT_SUPPORTED</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- STEP TYPE APEX --></label>
         <name>STEP_TYPE_APEX</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- STEP TYPE BULK DATA --></label>
         <name>STEP_TYPE_BULK_DATA</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- STEP TYPE CUSTOM SETTINGS --></label>
         <name>STEP_TYPE_CUSTOM_SETTINGS</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- STEP TYPE DATA --></label>
         <name>STEP_TYPE_DATA</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- STEP TYPE DELETE METADATA --></label>
         <name>STEP_TYPE_DELETE_METADATA</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- STEP TYPE FULL PERMISSION SETS --></label>
         <name>STEP_TYPE_FULL_PERMISSION_SETS</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- STEP TYPE FULL PROFILES --></label>
         <name>STEP_TYPE_FULL_PROFILES</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- STEP TYPE GIT METADATA --></label>
         <name>STEP_TYPE_GIT_METADATA</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- STEP_TYPE_GIT_PROMOTION --></label>
         <name>STEP_TYPE_GIT_PROMOTION</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- STEP_TYPE_MANUAL_TASK --></label>
         <name>STEP_TYPE_MANUAL_TASK</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- STEP TYPE METADATA --></label>
         <name>STEP_TYPE_METADATA</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- STEP_TYPE_QUICK_ACTIONS --></label>
         <name>STEP_TYPE_QUICK_ACTIONS</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- STEP TYPE REQUIRES 1 DESTINATION ORG --></label>
         <name>STEP_TYPE_REQUIRES_1_DESTINATION_ORG</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- STEP TYPE REQUIRES SOURCE ORG --></label>
         <name>STEP_TYPE_REQUIRES_SOURCE_ORG</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- STEP TYPE TRANSLATIONS --></label>
         <name>STEP_TYPE_TRANSLATIONS</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- STEP TYPE URL CALLOUT --></label>
         <name>STEP_TYPE_URL_CALLOUT</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- STEP TYPE USERS --></label>
         <name>STEP_TYPE_USERS</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- STOP --></label>
         <name>STOP</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- SUB TOTAL --></label>
         <name>SUB_TOTAL</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- SUCCEEDED --></label>
         <name>SUCCEEDED</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- SUCCESS --></label>
         <name>SUCCESS</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- SUMMARY --></label>
         <name>SUMMARY</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- SUNDAY --></label>
         <name>SUNDAY</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- SUPPORT --></label>
         <name>SUPPORT</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- SYNC_FEATURES --></label>
         <name>SYNC_FEATURES</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- SAVE --></label>
         <name>Save</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- Save And Run --></label>
         <name>Save_And_Run</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- Select All Environments --></label>
         <name>Select_All_Environments</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- Select All User Stories --></label>
         <name>Select_All_User_Stories</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- Select CI Job --></label>
         <name>Select_CI_Job</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- SprintWall Action Edit --></label>
         <name>SprintWall_Action_Edit</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- SprintWall Action Edit Add task --></label>
         <name>SprintWall_Action_Edit_Add_task</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- SprintWall Action Edit Move to next Sprint --></label>
         <name>SprintWall_Action_Edit_Move_to_next_Sprint</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- SprintWall Action Remove from Sprint --></label>
         <name>SprintWall_Action_Remove_from_Sprint</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- SprintWall Actual Velocity --></label>
         <name>SprintWall_Actual_Velocity</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- SprintWall All Sprints --></label>
         <name>SprintWall_All_Sprints</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- SprintWall Button Cancel --></label>
         <name>SprintWall_Button_Cancel</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- SprintWall_Button_MassUpdate --></label>
         <name>SprintWall_Button_MassUpdate</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- SprintWall Button New US --></label>
         <name>SprintWall_Button_New_US</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- SprintWall Confirm Delete Task --></label>
         <name>SprintWall_Confirm_Delete_Task</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- SprintWall Confirm Remove US --></label>
         <name>SprintWall_Confirm_Remove_US</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- SprintWall DaysLeft Closed --></label>
         <name>SprintWall_DaysLeft_Closed</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- SprintWall DaysLeft Not Started --></label>
         <name>SprintWall_DaysLeft_Not_Started</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- SprintWall Days Left --></label>
         <name>SprintWall_Days_Left</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- SprintWall Days Left View Sprint --></label>
         <name>SprintWall_Days_Left_View_Sprint</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- SprintWall Edit Sprint --></label>
         <name>SprintWall_Edit_Sprint</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- SprintWall_Header --></label>
         <name>SprintWall_Header</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- SprintWall_Header_Assignee --></label>
         <name>SprintWall_Header_Assignee</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- SprintWall Header Completed --></label>
         <name>SprintWall_Header_Completed</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- SprintWall Header Points --></label>
         <name>SprintWall_Header_Points</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- SprintWall_Header_Status --></label>
         <name>SprintWall_Header_Status</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- SprintWall Header Task Not Started --></label>
         <name>SprintWall_Header_Task_Not_Started</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- SprintWall_Header_Tasks --></label>
         <name>SprintWall_Header_Tasks</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- SprintWall_Header_Title --></label>
         <name>SprintWall_Header_Title</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- SprintWall_Header_Type --></label>
         <name>SprintWall_Header_Type</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- SprintWall In Progress --></label>
         <name>SprintWall_In_Progress</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- SprintWall Name Header --></label>
         <name>SprintWall_Name_Header</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- SprintWall New US Record Type --></label>
         <name>SprintWall_New_US_Record_Type</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- SprintWall Next Sprint --></label>
         <name>SprintWall_Next_Sprint</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- SprintWall Planned Velocity --></label>
         <name>SprintWall_Planned_Velocity</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- SprintWall Previous Sprint --></label>
         <name>SprintWall_Previous_Sprint</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- SprintWall Task Status Completed --></label>
         <name>SprintWall_Task_Status_Completed</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- SprintWall Task Status In Progress --></label>
         <name>SprintWall_Task_Status_In_Progress</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- SprintWall Task Status Not Started --></label>
         <name>SprintWall_Task_Status_Not_Started</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- SprintWall_Tasks_Labels_Hours --></label>
         <name>SprintWall_Tasks_Labels_Hours</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- TARGET --></label>
         <name>TARGET</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- TASK_NAME --></label>
         <name>TASK_NAME</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- TC_PROMOTED_SUCCESS --></label>
         <name>TC_PROMOTED_SUCCESS</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- TC_REPLACE --></label>
         <name>TC_REPLACE</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- TC_ROLLBACK_SUCCESS --></label>
         <name>TC_ROLLBACK_SUCCESS</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- TC_WITH --></label>
         <name>TC_WITH</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- TESTING --></label>
         <name>TESTING</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- TESTS PASSED --></label>
         <name>TESTS_PASSED</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- TEST CASES PER SUITE DESCRIPTION --></label>
         <name>TEST_CASES_PER_SUITE_DESCRIPTION</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- TEST CASE NEW VERSION --></label>
         <name>TEST_CASE_NEW_VERSION</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- TEST CASE NO NEXT VERSION --></label>
         <name>TEST_CASE_NO_NEXT_VERSION</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- TEST CASE NO PREV VERSION --></label>
         <name>TEST_CASE_NO_PREV_VERSION</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- TEST CLASSES NOT FOUND --></label>
         <name>TEST_CLASSES_NOT_FOUND</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- TEST_CONNECTIONS --></label>
         <name>TEST_CONNECTIONS</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- TEST QUERY --></label>
         <name>TEST_QUERY</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- TEST_REQUESTED --></label>
         <name>TEST_REQUESTED</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- TEST_REQUESTED_ERROR --></label>
         <name>TEST_REQUESTED_ERROR</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- THURSDAY --></label>
         <name>THURSDAY</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- TO --></label>
         <name>TO</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- TOTAL_CREDITS_ESTIMATED --></label>
         <name>TOTAL_CREDITS_ESTIMATED</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- TOTAL NUMBER OF LINES --></label>
         <name>TOTAL_NUMBER_OF_LINES</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- TOTAL ORG COVERAGE --></label>
         <name>TOTAL_ORG_COVERAGE</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- TO SUFFIX --></label>
         <name>TO_SUFFIX</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- TRANSACTIONS --></label>
         <name>TRANSACTIONS</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- TRIGGER COVERAGE --></label>
         <name>TRIGGER_COVERAGE</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- TUESDAY --></label>
         <name>TUESDAY</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- TYPE --></label>
         <name>TYPE</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- Test Copado deplo --></label>
         <name>Test_Copado_deplo</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- Test Per Suite 1 --></label>
         <name>Test_Per_Suite_1</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- Test Per Suite 2 --></label>
         <name>Test_Per_Suite_2</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- Test Per Suite 3 --></label>
         <name>Test_Per_Suite_3</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- This test is already running --></label>
         <name>This_test_is_already_running</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- Thomson2 Test US1 --></label>
         <name>Thomson2_Test_US1</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- Thomson3 Test US1 --></label>
         <name>Thomson3_Test_US1</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- Thomson Test US1 --></label>
         <name>Thomson_Test_US1</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- Thomson Test US2 --></label>
         <name>Thomson_Test_US2</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- Toggle User Stories Ahead and Behind --></label>
         <name>Toggle_User_Stories_Ahead_and_Behind</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- Translation Test --></label>
         <name>Translation_Test</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- Translation Test NEW --></label>
         <name>Translation_Test_NEW</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- UNSAVED CHANGES --></label>
         <name>UNSAVED_CHANGES</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- UNSELECT ALL --></label>
         <name>UNSELECT_ALL</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- UNSUPPORTED CI TOOL TYPE --></label>
         <name>UNSUPPORTED_CI_TOOL_TYPE</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- UNZIP_STATICS_RESOURCES --></label>
         <name>UNZIP_STATICS_RESOURCES</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- UNZIP_STATIC_RESOURCES_HELP --></label>
         <name>UNZIP_STATIC_RESOURCES_HELP</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- UP --></label>
         <name>UP</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- UPDATE --></label>
         <name>UPDATE</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- UPDATE_BUTTON --></label>
         <name>UPDATE_BUTTON</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- UPDATE CART LABEL --></label>
         <name>UPDATE_CART_LABEL</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- UPDATE/SAVE --></label>
         <name>UPDATE_SAVE</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- URL CALLOUT REQUIRED FIELDS MESSAGE --></label>
         <name>URL_CALLOUT_REQUIRED_FIELDS_MESSAGE</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- URL PARAMETERS --></label>
         <name>URL_PARAMETERS</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- USDependency_Deliverable --></label>
         <name>USDependency_Deliverable</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- USDependency_Dependency_Info --></label>
         <name>USDependency_Dependency_Info</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- USDependency_Environment --></label>
         <name>USDependency_Environment</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- USDependency_IconTitle --></label>
         <name>USDependency_IconTitle</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- USDependency_Name --></label>
         <name>USDependency_Name</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- USDependency_ProviderTeam --></label>
         <name>USDependency_ProviderTeam</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- USDependency_Reference --></label>
         <name>USDependency_Reference</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- USDependency_Status --></label>
         <name>USDependency_Status</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- USDependency_Title --></label>
         <name>USDependency_Title</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- USDependency_USDependenciesTitle --></label>
         <name>USDependency_USDependenciesTitle</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- USERNAME --></label>
         <name>USERNAME</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- USERSTORY_HAS_NO_ORG_CREDENTIAL_SUMMARY --></label>
         <name>USERSTORY_HAS_NO_ORG_CREDENTIAL_SUMMARY</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- USERSTORY_HAS_NO_ORG_CREDENTIAL_TITLE --></label>
         <name>USERSTORY_HAS_NO_ORG_CREDENTIAL_TITLE</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- USERSTORY HAS NO TEST RESULTS SUMMARY --></label>
         <name>USERSTORY_HAS_NO_TEST_RESULTS_SUMMARY</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- USERSTORY HAS NO TEST RESULTS TITLE --></label>
         <name>USERSTORY_HAS_NO_TEST_RESULTS_TITLE</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- USER ID --></label>
         <name>USER_ID</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- USER NAME --></label>
         <name>USER_NAME</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- USER STORIES AHEAD --></label>
         <name>USER_STORIES_AHEAD</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- USER STORIES BEHIND --></label>
         <name>USER_STORIES_BEHIND</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- USER STORIES NOT INCLUDED IN PROMOTION --></label>
         <name>USER_STORIES_NOT_INCLUDED_IN_PROMOTION</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- USER STORIES TO BE PROMOTED --></label>
         <name>USER_STORIES_TO_BE_PROMOTED</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- USER STORY --></label>
         <name>USER_STORY</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- USER STORY ANALYSIS REQUESTED --></label>
         <name>USER_STORY_ANALYSIS_REQUESTED</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- USER_STORY_ASSIGN_RELEASE --></label>
         <name>USER_STORY_ASSIGN_RELEASE</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- USER STORY CODE ANALYSIS --></label>
         <name>USER_STORY_CODE_ANALYSIS</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- USER STORY COMMIT INTM DESCRIPTION --></label>
         <name>USER_STORY_COMMIT_INTM_DESCRIPTION</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- USER STORY COMMIT INTM TITLE --></label>
         <name>USER_STORY_COMMIT_INTM_TITLE</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- USER STORY COMMIT NO ENVIRONMENT --></label>
         <name>USER_STORY_COMMIT_NO_ENVIRONMENT</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- USER STORY COMMIT NO SNAPSHOT FOUND --></label>
         <name>USER_STORY_COMMIT_NO_SNAPSHOT_FOUND</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- USER STORY COMMIT NO USER STORY --></label>
         <name>USER_STORY_COMMIT_NO_USER_STORY</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- USER STORY COMPLIANCE SCAN --></label>
         <name>USER_STORY_COMPLIANCE_SCAN</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- USER STORY COVERAGE --></label>
         <name>USER_STORY_COVERAGE</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- User Story Fields --></label>
         <name>USER_STORY_FIELDS</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- USER_STORY_IMPORT_DESCRIPTION --></label>
         <name>USER_STORY_IMPORT_DESCRIPTION</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- USER_STORY_IMPORT_SELECTION --></label>
         <name>USER_STORY_IMPORT_SELECTION</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- USER STORY METADATA COMPLIANCE SCAN --></label>
         <name>USER_STORY_METADATA_COMPLIANCE_SCAN</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- USER STORY NOT FOUND --></label>
         <name>USER_STORY_NOT_FOUND</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- USER STORY TEST --></label>
         <name>USER_STORY_TEST</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- USER TERRITORIES --></label>
         <name>USER_TERRITORIES</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- USE CRONMAKER --></label>
         <name>USE_CRONMAKER</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- US Test Custom Label --></label>
+        <name>US_Test_Custom_Label</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- US VALIDATE --></label>
         <name>US_VALIDATE</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- US VALIDATION INITIALIZING --></label>
         <name>US_VALIDATION_INITIALIZING</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- US VALIDATION INLINE EDIT --></label>
         <name>US_VALIDATION_INLINE_EDIT</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- US VALIDATION INPROGRESS --></label>
         <name>US_VALIDATION_INPROGRESS</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- Unselect All Environments --></label>
         <name>Unselect_All_Environments</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- Unselect All User Stories --></label>
         <name>Unselect_All_User_Stories</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- Unused column --></label>
         <name>Unused_column</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- Upload --></label>
         <name>Upload</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- Upload progress --></label>
         <name>Upload_progress</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- VALIDATE EXTERNAL CI --></label>
         <name>VALIDATE_EXTERNAL_CI</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- VALIDATION --></label>
         <name>VALIDATION</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- VALUE --></label>
         <name>VALUE</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- VIEW --></label>
         <name>VIEW</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- VIEW DEPLOYMENT STATUS --></label>
         <name>VIEW_DEPLOYMENT_STATUS</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- VIEW RESULTS --></label>
         <name>VIEW_RESULTS</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- VISIT --></label>
         <name>VISIT</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- Validation Error --></label>
         <name>Validation_Error</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- WARNING --></label>
         <name>WARNING</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- WEDNESDAY --></label>
         <name>WEDNESDAY</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- WEEKLY --></label>
         <name>WEEKLY</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- WHERE --></label>
         <name>WHERE</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- WITH_CREATE --></label>
         <name>WITH_CREATE</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- WITH_DELETE --></label>
         <name>WITH_DELETE</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- WITH UPDATE --></label>
         <name>WITH_UPDATE</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- WRONG CREDENTIALS --></label>
         <name>WRONG_CREDENTIALS</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- WorkManager_Alert_AreYouSure --></label>
         <name>WorkManager_Alert_AreYouSure</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- WorkManager_Alert_NoDelDefault --></label>
         <name>WorkManager_Alert_NoDelDefault</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- WorkManager_Alert_NoRecord --></label>
         <name>WorkManager_Alert_NoRecord</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- WorkManager_Button_AddPanel --></label>
         <name>WorkManager_Button_AddPanel</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- WorkManager_Button_Remove --></label>
         <name>WorkManager_Button_Remove</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- WorkManager_Config_Button_Save --></label>
         <name>WorkManager_Config_Button_Save</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- WorkManager_Config_Header --></label>
         <name>WorkManager_Config_Header</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- WorkManager_Config_Label_Name --></label>
         <name>WorkManager_Config_Label_Name</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- WorkManager_NewButton --></label>
         <name>WorkManager_NewButton</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- WorkManager_TableHeader_Name --></label>
         <name>WorkManager_TableHeader_Name</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- WorkManager_TableHeader_Points --></label>
         <name>WorkManager_TableHeader_Points</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- WorkManager_TableHeader_Title --></label>
         <name>WorkManager_TableHeader_Title</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label><!-- WorkManager_Title --></label>
         <name>WorkManager_Title</name>
     </customLabels>
     <customTabs>
-        <label></label>
+        <label><!-- IdeasVFTab --></label>
         <name>IdeasVFTab</name>
     </customTabs>
-    <flowDefinitions>
-        <flows>
-            <fullName>Case_email_alert-1</fullName>
-        </flows>
-        <fullName>Case_email_alert</fullName>
-    </flowDefinitions>
-    <flowDefinitions>
-        <flows>
-            <fullName>Create_record-1</fullName>
-            <screens>
-                <name>Screen</name>
-            </screens>
-        </flows>
-        <fullName>Create_record</fullName>
-    </flowDefinitions>
-    <flowDefinitions>
-        <flows>
-            <fullName>Test_Elisa-2</fullName>
-        </flows>
-        <fullName>Test_Elisa</fullName>
-    </flowDefinitions>
     <quickActions>
-        <label></label>
+        <label><!-- Email --></label>
         <name>AR_send_email_global</name>
     </quickActions>
     <quickActions>
-        <label></label>
+        <label><!-- Create Case AR --></label>
         <name>Create_Case_AR</name>
     </quickActions>
     <quickActions>
-        <label></label>
+        <label><!-- Guest Community Case --></label>
+        <name>GuestCommunityCase</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Log a Call --></label>
         <name>LogACall</name>
     </quickActions>
     <quickActions>
-        <label></label>
+        <label><!-- NewAccount --></label>
         <name>NewAccount</name>
     </quickActions>
     <quickActions>
-        <label></label>
+        <label><!-- NewCase --></label>
         <name>NewCase</name>
     </quickActions>
     <quickActions>
-        <label></label>
+        <label><!-- New Community Case --></label>
+        <name>NewCommunityCase</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewContact --></label>
         <name>NewContact</name>
     </quickActions>
     <quickActions>
-        <label></label>
+        <label><!-- New Event --></label>
         <name>NewEvent</name>
     </quickActions>
     <quickActions>
-        <label></label>
+        <label><!-- NewGroup --></label>
         <name>NewGroup</name>
     </quickActions>
     <quickActions>
-        <label></label>
+        <label><!-- NewLead --></label>
         <name>NewLead</name>
     </quickActions>
     <quickActions>
-        <label></label>
+        <label><!-- NewNote --></label>
         <name>NewNote</name>
     </quickActions>
     <quickActions>
-        <label></label>
+        <label><!-- NewOpportunity --></label>
         <name>NewOpportunity</name>
     </quickActions>
     <quickActions>
-        <label></label>
+        <label><!-- New Task --></label>
         <name>NewTask2</name>
     </quickActions>
     <quickActions>
-        <label></label>
+        <label><!-- SendEmail --></label>
         <name>SendEmail</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Snapins_Case_PrechatQuickAction_08h1v000000kA1L_1582024884922 --></label>
+        <name>Snapins_Case_PrechatQuickAction_08h1v000000kA1L_1582024884922</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Snapins_Contact_PrechatQuickAction_08h1v000000kA1L_1582024884659 --></label>
+        <name>Snapins_Contact_PrechatQuickAction_08h1v000000kA1L_1582024884659</name>
     </quickActions>
 </Translations>

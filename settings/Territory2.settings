@@ -4,6 +4,7 @@
     <defaultCaseAccessLevel>None</defaultCaseAccessLevel>
     <defaultContactAccessLevel>Edit</defaultContactAccessLevel>
     <defaultOpportunityAccessLevel>None</defaultOpportunityAccessLevel>
+    <enableTerritoryManagement2>true</enableTerritoryManagement2>
     <opportunityFilterSettings>
         <apexClassName xsi:nil="true"/>
         <enableFilter>false</enableFilter>

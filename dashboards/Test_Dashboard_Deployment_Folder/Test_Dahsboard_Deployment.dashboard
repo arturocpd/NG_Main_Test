@@ -16,6 +16,7 @@
             <drillToDetailEnabled>false</drillToDetailEnabled>
             <enableHover>false</enableHover>
             <expandOthers>false</expandOthers>
+            <groupingSortProperties/>
             <legendPosition>Bottom</legendPosition>
             <report>unfiled$public/Dummy_Report</report>
             <showPercentage>false</showPercentage>

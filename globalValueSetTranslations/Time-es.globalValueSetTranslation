@@ -6,7 +6,7 @@
     </valueTranslation>
     <valueTranslation>
         <masterLabel>Now</masterLabel>
-        <translation>Ahora</translation>
+        <translation><!-- Now --></translation>
     </valueTranslation>
     <valueTranslation>
         <masterLabel>Tomorrow</masterLabel>

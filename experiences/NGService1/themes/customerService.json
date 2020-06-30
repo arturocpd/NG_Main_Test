@@ -40,20 +40,31 @@
         "componentAttributes" : {
           "contineActionLabel" : "Ask the community",
           "continueLabel" : "Don’t see it?",
-          "crossObjectTypeaheadApiNames" : "[{\"name\":\"KnowledgeArticleVersion\",\"isPublic\":true},{\"name\":\"FeedItem\",\"isPublic\":true},{\"name\":\"Case\",\"isPublic\":false},{\"name\":\"CollaborationGroup\",\"isPublic\":true}]",
-          "disableCrossObjectRelevance" : "false",
-          "enableAutocomplete" : "true",
-          "maxNumberOfResults" : "6",
+          "crossObjectTypeaheadApiNames" : [ {
+            "name" : "KnowledgeArticleVersion",
+            "isPublic" : true
+          }, {
+            "name" : "FeedItem",
+            "isPublic" : true
+          }, {
+            "name" : "Case",
+            "isPublic" : false
+          }, {
+            "name" : "CollaborationGroup",
+            "isPublic" : true
+          } ],
+          "disableCrossObjectRelevance" : false,
+          "enableAutocomplete" : true,
+          "maxNumberOfResults" : 6,
           "placeholder" : "Search...",
-          "questionResultsFirst" : "false",
-          "showContinueAction" : "true",
-          "showDetails" : "false",
-          "showTopics" : "true",
+          "questionResultsFirst" : false,
+          "showContinueAction" : true,
+          "showDetails" : false,
+          "showTopics" : true,
           "signInActionLabel" : "Sign in to ask the community"
         },
         "componentName" : "forceCommunity:searchBox",
         "id" : "709404c0-43f9-4282-9192-3f85f47a743d",
-        "renderPriority" : "NEUTRAL",
         "renditionMap" : { },
         "type" : "component"
       } ],
@@ -69,19 +80,18 @@
           "contactSupportLabel" : "Contact Support",
           "filterName" : "MyCases",
           "homeLabel" : "Home",
-          "includeContactSupport" : "true",
-          "includeMessages" : "false",
+          "includeContactSupport" : true,
+          "includeMessages" : false,
           "loginLabel" : "Login",
           "logoutLabel" : "Logout",
           "myAccountLabel" : "My Account",
-          "showAccountManagement" : "false",
-          "showUserSettings" : "true",
+          "showAccountManagement" : false,
+          "showUserSettings" : true,
           "userSettingsLabel" : "My Settings",
           "viewProfileLabel" : "My Profile"
         },
         "componentName" : "selfService:userProfileMenu",
         "id" : "ccf9874a-c76e-48d6-abb4-8a6a8e79bbb4",
-        "renderPriority" : "NEUTRAL",
         "renditionMap" : { },
         "type" : "component"
       } ],
@@ -92,12 +102,11 @@
       "components" : [ {
         "componentAttributes" : {
           "NavigationMenuEditorRefresh" : "",
-          "hideAppLauncher" : "false",
-          "hideHomeText" : "false"
+          "hideAppLauncher" : false,
+          "hideHomeText" : false
         },
         "componentName" : "forceCommunity:globalNavigation",
         "id" : "bdc987a2-ba28-4550-ae81-7bd75013f51c",
-        "renderPriority" : "NEUTRAL",
         "renditionMap" : { },
         "type" : "component"
       } ],

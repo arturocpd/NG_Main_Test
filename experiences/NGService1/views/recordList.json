@@ -10,20 +10,20 @@
   }, {
     "components" : [ {
       "componentAttributes" : {
-        "enableInlineEdit" : "true",
+        "enableInlineEdit" : true,
         "filterName" : "{!filterId}",
         "layout" : "FULL",
-        "pageSize" : "25",
+        "pageSize" : 25,
         "scope" : "{!objectName}",
-        "showActionBar" : "true",
-        "showChartsPanel" : "true",
+        "showActionBar" : true,
+        "showChartsPanel" : true,
         "showDisplay" : "showall",
-        "showFilterPanel" : "true",
-        "showImageIcon" : "true",
-        "showManualRefreshButton" : "true",
-        "showObjectName" : "true",
-        "showPinnedList" : "true",
-        "showSearchBar" : "true"
+        "showFilterPanel" : true,
+        "showImageIcon" : true,
+        "showManualRefreshButton" : true,
+        "showObjectName" : true,
+        "showPinnedList" : true,
+        "showSearchBar" : true
       },
       "componentName" : "forceCommunity:objectHome",
       "id" : "25f86b50-74b4-4cbb-8020-6aeacd846ba9",

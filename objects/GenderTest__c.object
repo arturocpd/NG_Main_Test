@@ -166,13 +166,18 @@
     </fields>
     <gender>Feminine</gender>
     <label>GenderTest</label>
+    <listViews>
+        <fullName>All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
     <nameField>
         <encryptionScheme>None</encryptionScheme>
         <label>GenderTest Name</label>
         <type>Text</type>
     </nameField>
     <pluralLabel>GenderTest</pluralLabel>
-    <searchLayouts />
+    <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>

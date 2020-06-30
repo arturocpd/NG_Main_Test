@@ -142,6 +142,11 @@
     </actionOverrides>
     <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>Cool_Dinner</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>Cool_Dinner</fullName>
+        <fields>LateDinner__c</fields>
+        <label>Cool Dinner</label>
+    </compactLayouts>
     <deploymentStatus>Deployed</deploymentStatus>
     <description>description field 2</description>
     <enableActivities>false</enableActivities>
@@ -185,6 +190,7 @@
     </fields>
     <fields>
         <fullName>External_Auto__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>true</externalId>
         <label>External Auto</label>
         <length>30</length>
@@ -296,6 +302,53 @@
         <type>Checkbox</type>
     </fields>
     <fields>
+        <fullName>VS_Field1_Test_2__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>VS Field1 Test 2</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>VS_Field2_Test_2__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>VS Field2 Test 2</label>
+        <length>13</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>VS_Field3_Test_2__c</fullName>
+        <externalId>false</externalId>
+        <label>VS Field3 Test 2</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>VS_Field4_Test_2__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>VS Field4 Test 2</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Phone</type>
+    </fields>
+    <fields>
+        <fullName>VS_PS_Test_D__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>VS PS Test D</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>historyRetentionPolicy__c</fullName>
         <defaultValue>false</defaultValue>
         <externalId>false</externalId>
@@ -305,14 +358,533 @@
     </fields>
     <gender>Feminine</gender>
     <label>Dinner</label>
+    <listViews>
+        <fullName>All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <listViews>
+        <fullName>Queue_for_approval_Dinner</fullName>
+        <filterScope>Queue</filterScope>
+        <label>Queue for approval</label>
+        <queue>Queue_for_approval</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
     <nameField>
+        <encryptionScheme>None</encryptionScheme>
         <label>Dinner Name</label>
         <trackHistory>true</trackHistory>
         <type>Text</type>
     </nameField>
     <pluralLabel>Dinners</pluralLabel>
     <recordTypeTrackHistory>true</recordTypeTrackHistory>
-    <searchLayouts />
+    <recordTypes>
+        <fullName>Dinner_RT</fullName>
+        <active>true</active>
+        <label>Dinner RT</label>
+        <picklistValues>
+            <picklist>Dinner_Type__c</picklist>
+            <values>
+                <fullName>Full</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>High Touch%2FHigh Urgency</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Partial</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Picklist_Dinner_Table__c</picklist>
+            <values>
+                <fullName>Dinner Table1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dinner Table2</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Picklist_Dinner__c</picklist>
+            <values>
+                <fullName>Dinner1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dinner2</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Dinner_RT10</fullName>
+        <active>true</active>
+        <label>Dinner RT10</label>
+        <picklistValues>
+            <picklist>Dinner_Type__c</picklist>
+            <values>
+                <fullName>Full</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>High Touch%2FHigh Urgency</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Partial</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Picklist_Dinner_Table__c</picklist>
+            <values>
+                <fullName>Dinner Table1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dinner Table2</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Picklist_Dinner__c</picklist>
+            <values>
+                <fullName>Dinner1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dinner2</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Dinner_RT2</fullName>
+        <active>true</active>
+        <label>Dinner RT2</label>
+        <picklistValues>
+            <picklist>Dinner_Type__c</picklist>
+            <values>
+                <fullName>Full</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>High Touch%2FHigh Urgency</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Partial</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Picklist_Dinner_Table__c</picklist>
+            <values>
+                <fullName>Dinner Table1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dinner Table2</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Picklist_Dinner__c</picklist>
+            <values>
+                <fullName>Dinner1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dinner2</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Dinner_RT3</fullName>
+        <active>true</active>
+        <label>Dinner RT3</label>
+        <picklistValues>
+            <picklist>Dinner_Type__c</picklist>
+            <values>
+                <fullName>Full</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>High Touch%2FHigh Urgency</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Partial</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Picklist_Dinner_Table__c</picklist>
+            <values>
+                <fullName>Dinner Table1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dinner Table2</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Picklist_Dinner__c</picklist>
+            <values>
+                <fullName>Dinner1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dinner2</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Dinner_RT4</fullName>
+        <active>true</active>
+        <label>Dinner RT4</label>
+        <picklistValues>
+            <picklist>Dinner_Type__c</picklist>
+            <values>
+                <fullName>Full</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>High Touch%2FHigh Urgency</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Partial</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Picklist_Dinner_Table__c</picklist>
+            <values>
+                <fullName>Dinner Table1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dinner Table2</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Picklist_Dinner__c</picklist>
+            <values>
+                <fullName>Dinner1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dinner2</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Dinner_RT5</fullName>
+        <active>true</active>
+        <label>Dinner RT5</label>
+        <picklistValues>
+            <picklist>Dinner_Type__c</picklist>
+            <values>
+                <fullName>Full</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>High Touch%2FHigh Urgency</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Partial</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Picklist_Dinner_Table__c</picklist>
+            <values>
+                <fullName>Dinner Table1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dinner Table2</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Picklist_Dinner__c</picklist>
+            <values>
+                <fullName>Dinner1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dinner2</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Dinner_RT6</fullName>
+        <active>true</active>
+        <label>Dinner RT6</label>
+        <picklistValues>
+            <picklist>Dinner_Type__c</picklist>
+            <values>
+                <fullName>Full</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>High Touch%2FHigh Urgency</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Partial</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Picklist_Dinner_Table__c</picklist>
+            <values>
+                <fullName>Dinner Table1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dinner Table2</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Picklist_Dinner__c</picklist>
+            <values>
+                <fullName>Dinner1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dinner2</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Dinner_RT7</fullName>
+        <active>true</active>
+        <label>Dinner RT7</label>
+        <picklistValues>
+            <picklist>Dinner_Type__c</picklist>
+            <values>
+                <fullName>Full</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>High Touch%2FHigh Urgency</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Partial</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Picklist_Dinner_Table__c</picklist>
+            <values>
+                <fullName>Dinner Table1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dinner Table2</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Picklist_Dinner__c</picklist>
+            <values>
+                <fullName>Dinner1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dinner2</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Dinner_RT8</fullName>
+        <active>true</active>
+        <label>Dinner RT8</label>
+        <picklistValues>
+            <picklist>Dinner_Type__c</picklist>
+            <values>
+                <fullName>Full</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>High Touch%2FHigh Urgency</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Partial</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Picklist_Dinner_Table__c</picklist>
+            <values>
+                <fullName>Dinner Table1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dinner Table2</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Picklist_Dinner__c</picklist>
+            <values>
+                <fullName>Dinner1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dinner2</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Dinner_RT9</fullName>
+        <active>true</active>
+        <label>Dinner RT9</label>
+        <picklistValues>
+            <picklist>Dinner_Type__c</picklist>
+            <values>
+                <fullName>Full</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>High Touch%2FHigh Urgency</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Partial</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Picklist_Dinner_Table__c</picklist>
+            <values>
+                <fullName>Dinner Table1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dinner Table2</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Picklist_Dinner__c</picklist>
+            <values>
+                <fullName>Dinner1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dinner2</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Dinner_RT_2</fullName>
+        <active>true</active>
+        <label>Dinner RT 2</label>
+        <picklistValues>
+            <picklist>Dinner_Type__c</picklist>
+            <values>
+                <fullName>Full</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>High Touch%2FHigh Urgency</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Partial</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Picklist_Dinner_Table__c</picklist>
+            <values>
+                <fullName>Dinner Table1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dinner Table2</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Picklist_Dinner__c</picklist>
+            <values>
+                <fullName>Dinner1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dinner2</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Nested_Dinner_RT</fullName>
+        <active>true</active>
+        <label>Nested Dinner RT</label>
+        <picklistValues>
+            <picklist>Dinner_Type__c</picklist>
+            <values>
+                <fullName>Full</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>High Touch%2FHigh Urgency</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Partial</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Picklist_Dinner_Table__c</picklist>
+            <values>
+                <fullName>Dinner Table1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dinner Table2</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Picklist_Dinner__c</picklist>
+            <values>
+                <fullName>Dinner1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dinner2</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>

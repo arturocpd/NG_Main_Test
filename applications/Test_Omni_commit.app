@@ -198,10 +198,26 @@
     <tabs>standard-Case</tabs>
     <tabs>standard-Lead</tabs>
     <tabs>OLS_Test__c</tabs>
-    <tabs>Delete_me__c</tabs>
+    <tabs>GenderTest__c</tabs>
+    <tabs>ADD_Product__c</tabs>
+    <tabs>ADD_Conficguration_Rule__c</tabs>
+    <tabs>ADD_Product_Rule__c</tabs>
+    <tabs>ADD_Product_Action__c</tabs>
     <workspaceConfig>
         <mappings>
-            <tab>Delete_me__c</tab>
+            <tab>ADD_Conficguration_Rule__c</tab>
+        </mappings>
+        <mappings>
+            <tab>ADD_Product_Action__c</tab>
+        </mappings>
+        <mappings>
+            <tab>ADD_Product_Rule__c</tab>
+        </mappings>
+        <mappings>
+            <tab>ADD_Product__c</tab>
+        </mappings>
+        <mappings>
+            <tab>GenderTest__c</tab>
         </mappings>
         <mappings>
             <tab>OLS_Test__c</tab>

@@ -10,7 +10,7 @@
         "bannerTextWithKnowledge" : "Explore other <a href=\"javascript:void(0)\" class=\"headlineArticles\">articles</a> and <a href=\"javascript:void(0)\" class=\"headlineDiscussions\">discussions</a> on this topic.",
         "bannerTextWithoutKnowledge" : "Explore other <a href=\"javascript:void(0)\" class=\"headlineDiscussions\">discussions</a> on this topic.",
         "pageType" : "topic",
-        "showSubTopics" : "true",
+        "showSubTopics" : true,
         "title" : "Welcome!",
         "uniqueNameOrId" : ""
       },
@@ -26,8 +26,7 @@
   }, {
     "components" : [ {
       "componentAttributes" : {
-        "title" : "Description",
-        "topicId" : "{!recordId}"
+        "title" : "Description"
       },
       "componentName" : "forceCommunity:topicDescription",
       "id" : "bf9d30cb-4584-4f27-b9db-d4fb046391ed",
@@ -36,11 +35,10 @@
       "type" : "component"
     }, {
       "componentAttributes" : {
-        "showArticles" : "true",
-        "showFollowers" : "true",
-        "showPosts" : "true",
-        "showTalkingAbout" : "true",
-        "topicId" : "{!recordId}"
+        "showArticles" : true,
+        "showFollowers" : true,
+        "showPosts" : true,
+        "showTalkingAbout" : true
       },
       "componentName" : "forceCommunity:topicMetrics",
       "id" : "d907f919-b759-475b-afb2-aef5b6d48443",
@@ -53,23 +51,23 @@
         "buttonBgColor" : "",
         "buttonBgHoverColor" : "",
         "buttonBorderColor" : "",
-        "buttonMaxWidth" : "100",
-        "buttonRadius" : "0",
+        "buttonMaxWidth" : 100,
+        "buttonRadius" : 0,
         "buttonTextColor" : "",
         "buttonTextHoverColor" : "",
         "confirmationMessage" : "Got it!",
         "followUpPromptLabel" : "Can we close your question?",
-        "isAskFollowPromptEnabled" : "true",
-        "isIncludeArticlesEnabled" : "false",
-        "isIncludeDiscussionsEnabled" : "true",
-        "isInitialSatisfactionPromptEnabled" : "true",
-        "isPublisherDeflectionEnabled" : "true",
+        "isAskFollowPromptEnabled" : true,
+        "isIncludeArticlesEnabled" : false,
+        "isIncludeDiscussionsEnabled" : true,
+        "isInitialSatisfactionPromptEnabled" : true,
+        "isPublisherDeflectionEnabled" : true,
         "label" : "Ask a Question",
-        "maxSuggestions" : "5",
+        "maxSuggestions" : 5,
         "satisfactionPromptLabel" : "Did we help to answer your question?",
-        "showDetails" : "false",
-        "showTopics" : "true",
-        "uneditableTopics" : "false"
+        "showDetails" : false,
+        "showTopics" : true,
+        "uneditableTopics" : false
       },
       "componentName" : "forceCommunity:askCommunity",
       "id" : "bc1915b0-2e2f-4268-b9dc-da804afdfeb0",
@@ -82,12 +80,12 @@
         "buttonBgColor" : "",
         "buttonBgHoverColor" : "",
         "buttonBorderColor" : "",
-        "buttonMaxWidth" : "100",
-        "buttonRadius" : "0",
+        "buttonMaxWidth" : 100,
+        "buttonRadius" : 0,
         "buttonTextColor" : "",
         "buttonTextHoverColor" : "",
         "recordId" : "{!recordId}",
-        "showNotificationMenu" : "true"
+        "showNotificationMenu" : true
       },
       "componentName" : "forceCommunity:follow",
       "id" : "c3c5cd6a-1bde-4c76-92ef-3bc8bd7e3fb1",
@@ -102,14 +100,14 @@
     "components" : [ {
       "componentAttributes" : {
         "activeTab" : "{!selectedTab}",
-        "articleListPageSize" : "10",
+        "articleListPageSize" : 10,
         "articleTabLabel" : "Articles",
         "defaultSortOrderCompactFeed" : "Relevance",
         "defaultSortOrderFullFeed" : "Relevance",
         "discussionTabLabel" : "Discussions",
         "searchTerm" : "{!searchString}",
-        "showArticleTab" : "true",
-        "showCompactFeedInDiscussion" : "true",
+        "showArticleTab" : true,
+        "showCompactFeedInDiscussion" : true,
         "topicId" : "{!recordId}"
       },
       "componentName" : "forceCommunity:resultsList",
@@ -124,7 +122,7 @@
   }, {
     "components" : [ {
       "componentAttributes" : {
-        "numberOfArticles" : "5",
+        "numberOfArticles" : 5,
         "title" : "Trending Articles",
         "topicId" : "{!recordId}"
       },
@@ -135,9 +133,8 @@
       "type" : "component"
     }, {
       "componentAttributes" : {
-        "showTopicsMetric" : "true",
-        "title" : "Related Topics",
-        "topicId" : "{!recordId}"
+        "showTopicsMetric" : true,
+        "title" : "Related Topics"
       },
       "componentName" : "forceCommunity:relatedTopics",
       "id" : "35d2ae76-a1ef-47a2-bb6a-ce1d942ea807",
@@ -165,28 +162,28 @@
         "buttonBgColor" : "",
         "buttonBgHoverColor" : "",
         "buttonBorderColor" : "",
-        "buttonRadius" : "0",
+        "buttonRadius" : 0,
         "buttonTextColor" : "",
         "buttonTextHoverColor" : "",
         "buttonTwoBgColor" : "",
         "buttonTwoBgHoverColor" : "",
         "buttonTwoBorderColor" : "",
-        "buttonTwoRadius" : "0",
+        "buttonTwoRadius" : 0,
         "buttonTwoTextColor" : "",
         "buttonTwoTextHoverColor" : "",
         "confirmationMessage" : "Got it!",
         "contactSupportLabel" : "Contact Support",
         "followUpPromptLabel" : "Can we close your question?",
         "headerLabel" : "Don't see what you're looking for?",
-        "isAskFollowPromptEnabled" : "true",
-        "isIncludeArticlesEnabled" : "false",
-        "isIncludeDiscussionsEnabled" : "true",
-        "isInitialSatisfactionPromptEnabled" : "true",
-        "isPublisherDeflectionEnabled" : "true",
-        "maxSuggestions" : "5",
+        "isAskFollowPromptEnabled" : true,
+        "isIncludeArticlesEnabled" : false,
+        "isIncludeDiscussionsEnabled" : true,
+        "isInitialSatisfactionPromptEnabled" : true,
+        "isPublisherDeflectionEnabled" : true,
+        "maxSuggestions" : 5,
         "satisfactionPromptLabel" : "Did we help to answer your question?",
-        "showDetails" : "false",
-        "showTopics" : "true"
+        "showDetails" : false,
+        "showTopics" : true
       },
       "componentName" : "siteforce:napiliFooter",
       "id" : "f2c381d9-99f0-4798-a70c-096d03d3fdb0",
@@ -206,7 +203,6 @@
       },
       "componentName" : "forceCommunity:seoAssistant",
       "id" : "04d998a1-4074-4d33-8885-f2b75d32da56",
-      "renderPriority" : "NEUTRAL",
       "renditionMap" : { },
       "type" : "component"
     } ],

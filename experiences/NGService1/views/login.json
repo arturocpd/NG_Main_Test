@@ -30,7 +30,7 @@
     }, {
       "componentAttributes" : {
         "headerText" : "",
-        "showHeader" : "false"
+        "showHeader" : false
       },
       "componentName" : "salesforceIdentity:socialLogin2",
       "id" : "30fd536b-7f2b-4293-aa81-4b350a73b857",
@@ -59,7 +59,6 @@
       },
       "componentName" : "forceCommunity:seoAssistant",
       "id" : "018dc741-f926-4ac7-bb8c-00a24ea69ad4",
-      "renderPriority" : "NEUTRAL",
       "renditionMap" : { },
       "type" : "component"
     } ],

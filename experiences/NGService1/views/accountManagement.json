@@ -10,7 +10,42 @@
   }, {
     "components" : [ {
       "componentAttributes" : {
-        "tabsetConfig" : "{\"UUID\":\"131f3439-76ea-463a-b9d7-72fdc948ced6\",\"activeTab\":\"tab1\",\"useOverflowMenu\":false,\"tabs\":[{\"UUID\":\"67295d3d-3b9d-47a2-a331-f72b7b55fb55\",\"tabName\":\"Members\",\"tabKey\":\"tab1\",\"locked\":false,\"allowGuestUser\":false,\"seedComponents\":[{\"fqn\":\"forceCommunity:relatedList\",\"attributes\":{\"parentRecordId\":\"{!CurrentUser.accountId}\",\"relatedListName\":\"Users\",\"customTitle\":\"Members\",\"showCustomTitle\":\"true\",\"showBreadCrumbs\":\"false\",\"showRowNumbers\":\"false\",\"showManualRefreshButton\":\"false\"}}]},{\"UUID\":\"3d14d5fd-b35f-4b3b-a5ed-6df11c1303cd\",\"tabName\":\"Branding\",\"tabKey\":\"tab2\",\"locked\":false,\"allowGuestUser\":false,\"seedComponents\":[{\"fqn\":\"forceCommunity:accountBrandRecord\",\"attributes\":{\"recordId\":\"{!CurrentUser.accountId}\"}}]}]}"
+        "tabsetConfig" : {
+          "UUID" : "131f3439-76ea-463a-b9d7-72fdc948ced6",
+          "activeTab" : "tab1",
+          "useOverflowMenu" : false,
+          "tabs" : [ {
+            "UUID" : "67295d3d-3b9d-47a2-a331-f72b7b55fb55",
+            "tabName" : "Members",
+            "tabKey" : "tab1",
+            "locked" : false,
+            "allowGuestUser" : false,
+            "seedComponents" : [ {
+              "fqn" : "forceCommunity:relatedList",
+              "attributes" : {
+                "parentRecordId" : "{!CurrentUser.accountId}",
+                "relatedListName" : "Users",
+                "customTitle" : "Members",
+                "showCustomTitle" : "true",
+                "showBreadCrumbs" : "false",
+                "showRowNumbers" : "false",
+                "showManualRefreshButton" : "false"
+              }
+            } ]
+          }, {
+            "UUID" : "3d14d5fd-b35f-4b3b-a5ed-6df11c1303cd",
+            "tabName" : "Branding",
+            "tabKey" : "tab2",
+            "locked" : false,
+            "allowGuestUser" : false,
+            "seedComponents" : [ {
+              "fqn" : "forceCommunity:accountBrandRecord",
+              "attributes" : {
+                "recordId" : "{!CurrentUser.accountId}"
+              }
+            } ]
+          } ]
+        }
       },
       "componentName" : "forceCommunity:tabset",
       "id" : "131f3439-76ea-463a-b9d7-72fdc948ced6",
@@ -20,20 +55,20 @@
             "customTitle" : "Members",
             "parentRecordId" : "{!CurrentUser.accountId}",
             "relatedListName" : "Users",
-            "showBreadCrumbs" : "false",
-            "showCustomTitle" : "true",
-            "showManualRefreshButton" : "false",
-            "showRowNumbers" : "false"
+            "showBreadCrumbs" : false,
+            "showCustomTitle" : true,
+            "showManualRefreshButton" : false,
+            "showRowNumbers" : false
           },
           "componentName" : "forceCommunity:relatedList",
           "id" : "a3b755a9-451e-458f-b809-45d24cc584ef",
-          "renderPriority" : "NEUTRAL",
           "renditionMap" : { },
           "type" : "component"
         } ],
         "id" : "67295d3d-3b9d-47a2-a331-f72b7b55fb55",
         "regionLabel" : "Members",
         "regionName" : "tab1",
+        "renditionMap" : { },
         "type" : "region"
       }, {
         "components" : [ {
@@ -42,13 +77,13 @@
           },
           "componentName" : "forceCommunity:accountBrandRecord",
           "id" : "15875838-c121-4975-8ec7-a56162bc3d6a",
-          "renderPriority" : "NEUTRAL",
           "renditionMap" : { },
           "type" : "component"
         } ],
         "id" : "3d14d5fd-b35f-4b3b-a5ed-6df11c1303cd",
         "regionLabel" : "Branding",
         "regionName" : "tab2",
+        "renditionMap" : { },
         "type" : "region"
       } ],
       "renderPriority" : "NEUTRAL",
@@ -71,7 +106,6 @@
       },
       "componentName" : "forceCommunity:seoAssistant",
       "id" : "ec81e76f-9050-420e-9846-414c95c5ef59",
-      "renderPriority" : "NEUTRAL",
       "renditionMap" : { },
       "type" : "component"
     } ],

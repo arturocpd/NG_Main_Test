@@ -10,7 +10,7 @@
         "bannerTextWithKnowledge" : "Explore other <a href=\"javascript:void(0)\" class=\"headlineArticles\">articles</a> and <a href=\"javascript:void(0)\" class=\"headlineDiscussions\">discussions</a> on this topic.",
         "bannerTextWithoutKnowledge" : "Explore other <a href=\"javascript:void(0)\" class=\"headlineDiscussions\">discussions</a> on this topic.",
         "pageType" : "discussion",
-        "showSubTopics" : "true",
+        "showSubTopics" : true,
         "title" : "Welcome!",
         "uniqueNameOrId" : "{!recordId}"
       },
@@ -40,8 +40,8 @@
   }, {
     "components" : [ {
       "componentAttributes" : {
-        "numberOfItems" : "5",
-        "showViewCounts" : "true",
+        "numberOfItems" : 5,
+        "showViewCounts" : true,
         "title" : "Related Questions"
       },
       "componentName" : "selfService:similarQuestions",
@@ -61,7 +61,7 @@
       "type" : "component"
     }, {
       "componentAttributes" : {
-        "numberOfArticles" : "5",
+        "numberOfArticles" : 5,
         "title" : "Trending Articles",
         "topicId" : "{!topicId}"
       },
@@ -81,28 +81,28 @@
         "buttonBgColor" : "",
         "buttonBgHoverColor" : "",
         "buttonBorderColor" : "",
-        "buttonRadius" : "0",
+        "buttonRadius" : 0,
         "buttonTextColor" : "",
         "buttonTextHoverColor" : "",
         "buttonTwoBgColor" : "",
         "buttonTwoBgHoverColor" : "",
         "buttonTwoBorderColor" : "",
-        "buttonTwoRadius" : "0",
+        "buttonTwoRadius" : 0,
         "buttonTwoTextColor" : "",
         "buttonTwoTextHoverColor" : "",
         "confirmationMessage" : "Got it!",
         "contactSupportLabel" : "Contact Support",
         "followUpPromptLabel" : "Can we close your question?",
         "headerLabel" : "Don't see what you're looking for?",
-        "isAskFollowPromptEnabled" : "true",
-        "isIncludeArticlesEnabled" : "false",
-        "isIncludeDiscussionsEnabled" : "true",
-        "isInitialSatisfactionPromptEnabled" : "true",
-        "isPublisherDeflectionEnabled" : "true",
-        "maxSuggestions" : "5",
+        "isAskFollowPromptEnabled" : true,
+        "isIncludeArticlesEnabled" : false,
+        "isIncludeDiscussionsEnabled" : true,
+        "isInitialSatisfactionPromptEnabled" : true,
+        "isPublisherDeflectionEnabled" : true,
+        "maxSuggestions" : 5,
         "satisfactionPromptLabel" : "Did we help to answer your question?",
-        "showDetails" : "false",
-        "showTopics" : "true"
+        "showDetails" : false,
+        "showTopics" : true
       },
       "componentName" : "siteforce:napiliFooter",
       "id" : "72bf72d7-c479-41e1-91f8-d2739a0e6851",
@@ -122,7 +122,6 @@
       },
       "componentName" : "forceCommunity:seoAssistant",
       "id" : "2b062dec-dc8e-4e6d-91a6-9da959a26b07",
-      "renderPriority" : "NEUTRAL",
       "renditionMap" : { },
       "type" : "component"
     } ],

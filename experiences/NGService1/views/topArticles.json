@@ -10,10 +10,10 @@
   }, {
     "components" : [ {
       "componentAttributes" : {
-        "numberOfArticles" : "5",
-        "showTitle" : "true",
+        "numberOfArticles" : 5,
+        "showTitle" : true,
         "title" : "Top Articles",
-        "topicList" : "[]"
+        "topicList" : [ ]
       },
       "componentName" : "forceCommunity:topArticleList",
       "id" : "a3bc86db-fc87-4202-b642-94b2f4f7caec",
@@ -37,7 +37,6 @@
       },
       "componentName" : "forceCommunity:seoAssistant",
       "id" : "5f6f0418-d99e-470c-8420-47975d3932e3",
-      "renderPriority" : "NEUTRAL",
       "renditionMap" : { },
       "type" : "component"
     } ],

@@ -10,7 +10,7 @@
   }, {
     "components" : [ {
       "componentAttributes" : {
-        "pageSize" : "25"
+        "pageSize" : 25
       },
       "componentName" : "forceCommunity:filesList",
       "id" : "e7474b34-508f-44b7-8c7c-9bacb1bb05ab",

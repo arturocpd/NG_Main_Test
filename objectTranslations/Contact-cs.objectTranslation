@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- ContactFieldSet --></label>
+        <name>ContactFieldSet</name>
+    </fieldSets>
     <fields>
         <label><!-- GoodBad --></label>
         <name>GoodBad__c</name>
@@ -44,6 +48,10 @@
         <label><!-- xyz SGUID --></label>
         <name>xyz_SGUID__c</name>
     </fields>
+    <recordTypes>
+        <label><!-- Contact RT1 --></label>
+        <name>Contact_RT1</name>
+    </recordTypes>
     <validationRules>
         <errorMessage><!-- Account name cannot be null or Id cannot be null --></errorMessage>
         <name>AAA_validation</name>

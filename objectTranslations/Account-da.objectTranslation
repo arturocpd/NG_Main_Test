@@ -43,6 +43,10 @@
         </picklistValues>
     </fields>
     <fields>
+        <label><!-- Acc_Id --></label>
+        <name>Acc_Id__c</name>
+    </fields>
+    <fields>
         <label><!-- AccountLookup --></label>
         <name>AccountLookup__c</name>
         <relationshipLabel><!-- Accounts --></relationshipLabel>
@@ -61,6 +65,38 @@
         <picklistValues>
             <masterLabel>Yes</masterLabel>
             <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Auto Resolve Field --></label>
+        <name>Auto_Resolve_test__c</name>
+        <picklistValues>
+            <masterLabel>Auto1</masterLabel>
+            <translation><!-- Auto1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Auto2</masterLabel>
+            <translation><!-- Auto2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Auto3</masterLabel>
+            <translation><!-- Auto3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Auto4</masterLabel>
+            <translation><!-- Auto4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Auto5</masterLabel>
+            <translation><!-- Auto5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Auto6</masterLabel>
+            <translation><!-- Auto6 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Auto7</masterLabel>
+            <translation><!-- Auto7 --></translation>
         </picklistValues>
     </fields>
     <fields>
@@ -112,6 +148,22 @@
         <name>Lets_Override_3__c</name>
     </fields>
     <fields>
+        <label><!-- Nested Test RT --></label>
+        <name>Nested_Test_RT__c</name>
+        <picklistValues>
+            <masterLabel>Destructive 3</masterLabel>
+            <translation><!-- Destructive 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Destructive1</masterLabel>
+            <translation><!-- Destructive1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Destructive2</masterLabel>
+            <translation><!-- Destructive2 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
         <label><!-- Number of Locations --></label>
         <name>NumberofLocations__c</name>
     </fields>
@@ -152,28 +204,44 @@
         </picklistValues>
     </fields>
     <fields>
+        <label><!-- SubTrade Channel --></label>
+        <name>SubTrade_Channel__c</name>
+        <picklistValues>
+            <masterLabel>001</masterLabel>
+            <translation><!-- 001 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>020</masterLabel>
+            <translation><!-- 020 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>021 - Hotell</masterLabel>
+            <translation><!-- 021 - Hotell --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
         <label><!-- Test Override 2 --></label>
         <name>Test_Override_2__c</name>
     </fields>
     <fields>
-        <label><!-- Trimming Acc --></label>
-        <name>Trimming_Acc__c</name>
+        <label><!-- Trim Level --></label>
+        <name>Trim_Level__c</name>
+        <picklistValues>
+            <masterLabel>Level1</masterLabel>
+            <translation><!-- Level1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Level2</masterLabel>
+            <translation><!-- Level2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Level3</masterLabel>
+            <translation><!-- Level3 --></translation>
+        </picklistValues>
     </fields>
     <fields>
-        <label><!-- Upsell Opportunity --></label>
-        <name>UpsellOpportunity__c</name>
-        <picklistValues>
-            <masterLabel>Maybe</masterLabel>
-            <translation><!-- Maybe --></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>No</masterLabel>
-            <translation><!-- No --></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>Yes</masterLabel>
-            <translation><!-- Yes --></translation>
-        </picklistValues>
+        <label><!-- Trimming Acc --></label>
+        <name>Trimming_Acc__c</name>
     </fields>
     <fields>
         <label><!-- 2nd override test --></label>
@@ -205,8 +273,16 @@
     </fields>
     <gender>Feminine</gender>
     <recordTypes>
+        <label><!-- Auto Resolve RT --></label>
+        <name>Auto_Resolve_RT</name>
+    </recordTypes>
+    <recordTypes>
         <label><!-- DeleteRTacc --></label>
         <name>DeleteRTacc</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- RT Nested Test --></label>
+        <name>RT_Nested_Test</name>
     </recordTypes>
     <recordTypes>
         <label><!-- Record Type1 --></label>

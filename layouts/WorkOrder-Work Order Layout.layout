@@ -141,12 +141,18 @@
     </miniLayout>
     <relatedLists>
         <fields>Name</fields>
+        <fields>CreatedBy</fields>
+        <fields>CreatedDate</fields>
+        <relatedList>ServiceReportRelatedList</relatedList>
+    </relatedLists>
+    <relatedLists>
+        <fields>Name</fields>
         <fields>Asset</fields>
         <relatedList>WorkOrderLineItems</relatedList>
     </relatedLists>
     <relatedLists>
         <fields>TASK.SUBJECT</fields>
-        <fields>TASK.WHAT_NAME</fields>
+        <fields>TASK.WHO_NAME</fields>
         <fields>ACTIVITY.TASK</fields>
         <fields>TASK.DUE_DATE</fields>
         <fields>TASK.STATUS</fields>
@@ -156,7 +162,7 @@
     </relatedLists>
     <relatedLists>
         <fields>TASK.SUBJECT</fields>
-        <fields>TASK.WHAT_NAME</fields>
+        <fields>TASK.WHO_NAME</fields>
         <fields>ACTIVITY.TASK</fields>
         <fields>TASK.DUE_DATE</fields>
         <fields>CORE.USERS.FULL_NAME</fields>
@@ -176,6 +182,21 @@
         <fields>Priority</fields>
         <fields>Status</fields>
         <relatedList>ChildWorkOrders</relatedList>
+    </relatedLists>
+    <relatedLists>
+        <fields>Name</fields>
+        <fields>Contact</fields>
+        <fields>Account</fields>
+        <fields>Status</fields>
+        <fields>SchedStartTime</fields>
+        <fields>SchedEndTime</fields>
+        <fields>EarliestStartTime</fields>
+        <relatedList>ServiceAppointments</relatedList>
+    </relatedLists>
+    <relatedLists>
+        <fields>Skill</fields>
+        <fields>SkillLevel</fields>
+        <relatedList>SkillRequirements</relatedList>
     </relatedLists>
     <relatedLists>
         <fields>CreatedDate</fields>

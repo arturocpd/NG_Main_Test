@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <enableFeeds>false</enableFeeds>
+    <externalSharingModel>Read</externalSharingModel>
     <fields>
         <fullName>AcceptDateTime</fullName>
     </fields>
@@ -11,6 +13,9 @@
     </fields>
     <fields>
         <fullName>CancelDateTime</fullName>
+    </fields>
+    <fields>
+        <fullName>CapacityModel</fullName>
     </fields>
     <fields>
         <fullName>CapacityPercentage</fullName>
@@ -29,6 +34,15 @@
     </fields>
     <fields>
         <fullName>HandleTime</fullName>
+    </fields>
+    <fields>
+        <fullName>IsConference</fullName>
+    </fields>
+    <fields>
+        <fullName>IsTransfer</fullName>
+    </fields>
+    <fields>
+        <fullName>LASessionId</fullName>
     </fields>
     <fields>
         <fullName>OriginalQueueId</fullName>
@@ -78,6 +92,9 @@
         <fullName>Status</fullName>
     </fields>
     <fields>
+        <fullName>StatusSequence</fullName>
+    </fields>
+    <fields>
         <fullName>UserId</fullName>
         <type>Lookup</type>
     </fields>
@@ -85,4 +102,5 @@
         <fullName>WorkItemId</fullName>
         <type>Lookup</type>
     </fields>
+    <sharingModel>Read</sharingModel>
 </CustomObject>

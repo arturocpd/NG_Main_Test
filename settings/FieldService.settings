@@ -3,8 +3,11 @@
     <doesAllowEditSaForCrew>false</doesAllowEditSaForCrew>
     <doesShareSaParentWoWithAr>false</doesShareSaParentWoWithAr>
     <doesShareSaWithAr>false</doesShareSaWithAr>
+    <enableWorkOrders>false</enableWorkOrders>
     <fieldServiceNotificationsOrgPref>false</fieldServiceNotificationsOrgPref>
     <fieldServiceOrgPref>true</fieldServiceOrgPref>
+    <isGeoCodeSyncEnabled>false</isGeoCodeSyncEnabled>
+    <isLocationHistoryEnabled>false</isLocationHistoryEnabled>
     <serviceAppointmentsDueDateOffsetOrgValue>7</serviceAppointmentsDueDateOffsetOrgValue>
     <workOrderLineItemSearchFields>Subject</workOrderLineItemSearchFields>
     <workOrderSearchFields>Subject</workOrderSearchFields>

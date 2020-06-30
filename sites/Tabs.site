@@ -13,6 +13,7 @@
     <clickjackProtectionLevel>SameOriginOnly</clickjackProtectionLevel>
     <contentSniffingProtection>false</contentSniffingProtection>
     <cspUpgradeInsecureRequests>false</cspUpgradeInsecureRequests>
+    <enableAuraRequests>true</enableAuraRequests>
     <fileNotFoundPage>FileNotFound</fileNotFoundPage>
     <genericErrorPage>Exception</genericErrorPage>
     <inMaintenancePage>InMaintenance</inMaintenancePage>
@@ -23,7 +24,8 @@
     <requireInsecurePortalAccess>false</requireInsecurePortalAccess>
     <selfRegPage>CommunitiesSelfReg</selfRegPage>
     <siteAdmin>ngarturodev1cpd@gmail.com</siteAdmin>
+    <siteGuestRecordDefaultOwner>ngarturodev1cpd@gmail.com</siteGuestRecordDefaultOwner>
     <siteType>ChatterNetwork</siteType>
-    <subdomain>{!Environment.user domain}</subdomain>
+    <subdomain>arturong-developer-edition</subdomain>
     <urlPathPrefix>Tabs</urlPathPrefix>
 </CustomSite>

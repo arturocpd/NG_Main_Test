@@ -2,7 +2,7 @@
 <EscalationRules xmlns="http://soap.sforce.com/2006/04/metadata">
     <escalationRule>
         <fullName>Standard</fullName>
-        <active>true</active>
+        <active>false</active>
         <ruleEntry>
             <businessHoursSource>Case</businessHoursSource>
             <criteriaItems>
@@ -205,6 +205,19 @@
                 <notifyTo>ngarturodev1cpd@gmail.com</notifyTo>
                 <notifyToTemplate>unfiled$public/SupportEscalatedCaseNotification</notifyToTemplate>
             </escalationAction>
+            <escalationStartTime>CaseCreation</escalationStartTime>
+        </ruleEntry>
+    </escalationRule>
+    <escalationRule>
+        <fullName>US Test Escalation Rule</fullName>
+        <active>true</active>
+        <ruleEntry>
+            <businessHoursSource>Case</businessHoursSource>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Phone</value>
+            </criteriaItems>
             <escalationStartTime>CaseCreation</escalationStartTime>
         </ruleEntry>
     </escalationRule>

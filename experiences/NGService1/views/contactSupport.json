@@ -10,17 +10,17 @@
   }, {
     "components" : [ {
       "componentAttributes" : {
-        "allowAttachments" : "true",
+        "allowAttachments" : true,
         "attachmentLabel" : "Upload File",
         "buttonAlignment" : "center",
         "buttonBgColor" : "",
         "buttonBgHoverColor" : "",
         "buttonBorderColor" : "",
         "buttonMaxWidth" : "",
-        "buttonRadius" : "0",
+        "buttonRadius" : 0,
         "buttonTextColor" : "",
         "buttonTextHoverColor" : "",
-        "callToAction" : "false",
+        "callToAction" : false,
         "callToActionButtonText" : "",
         "callToActionText" : "",
         "callToActionUrl" : "",
@@ -44,17 +44,17 @@
   }, {
     "components" : [ {
       "componentAttributes" : {
-        "askConfirmationQuestion" : "true",
+        "askConfirmationQuestion" : true,
         "confirmationMessageLabel" : "Got it!",
         "deflectionSubtitle" : "Find what you need here.",
         "deflectionTitle" : "Need Answers Fast?",
         "firstQuestion" : "Did this content solve your issue?",
-        "maxResults" : "6",
-        "measureDeflection" : "true",
+        "maxResults" : 6,
+        "measureDeflection" : true,
         "redirectUrl" : "",
         "secondQuestion" : "Stop creating your case?",
-        "showArticles" : "true",
-        "showDiscussions" : "false",
+        "showArticles" : true,
+        "showDiscussions" : false,
         "topicId" : ""
       },
       "componentName" : "forceCommunity:caseDeflection",
@@ -79,7 +79,6 @@
       },
       "componentName" : "forceCommunity:seoAssistant",
       "id" : "4cae2f02-25d6-4de8-81b1-d4f449942797",
-      "renderPriority" : "NEUTRAL",
       "renditionMap" : { },
       "type" : "component"
     } ],

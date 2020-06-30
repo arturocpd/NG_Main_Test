@@ -26,4 +26,8 @@
             <template>unfiled$public/SalesNewCustomerEmail</template>
         </ruleEntry>
     </autoResponseRule>
+    <autoResponseRule>
+        <fullName>Rule2</fullName>
+        <active>false</active>
+    </autoResponseRule>
 </AutoResponseRules>
