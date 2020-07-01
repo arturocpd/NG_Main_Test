@@ -23,8 +23,8 @@
     <requireHttps>true</requireHttps>
     <requireInsecurePortalAccess>false</requireInsecurePortalAccess>
     <selfRegPage>CommunitiesSelfReg</selfRegPage>
-    <siteAdmin>ngarturodev1cpd@gmail.com</siteAdmin>
-    <siteGuestRecordDefaultOwner>ngarturodev1cpd@gmail.com</siteGuestRecordDefaultOwner>
+    <siteAdmin>{!Environment.user domain}</siteAdmin>
+    <siteGuestRecordDefaultOwner>{!Environment.user domain}</siteGuestRecordDefaultOwner>
     <siteType>ChatterNetwork</siteType>
-    <subdomain>{!Environment.user domain}</subdomain>
+    <subdomain>arturong-developer-edition</subdomain>
 </CustomSite>
