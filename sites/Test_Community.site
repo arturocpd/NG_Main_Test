@@ -26,6 +26,6 @@
     <siteAdmin>ngarturodev1cpd@gmail.com</siteAdmin>
     <siteGuestRecordDefaultOwner>ngarturodev1cpd@gmail.com</siteGuestRecordDefaultOwner>
     <siteType>ChatterNetwork</siteType>
-    <subdomain>arturong-developer-edition</subdomain>
+    <subdomain>{!Environment.user domain}</subdomain>
     <urlPathPrefix>TestComm</urlPathPrefix>
 </CustomSite>
