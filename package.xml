@@ -5,6 +5,10 @@
         <name>CustomObject</name>
     </types>
     <types>
+        <members>Account.Org_Account_Hierarchy</members>
+        <name>ListView</name>
+    </types>
+    <types>
         <members>Admin CLONE 2</members>
         <name>Profile</name>
     </types>
