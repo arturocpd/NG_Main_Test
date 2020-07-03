@@ -723,6 +723,14 @@
         <label>New This Week</label>
     </listViews>
     <listViews>
+        <fullName>Org_Account_Hierarchy</fullName>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>ACCOUNT.EMPLOYEES</columns>
+        <columns>ACCOUNT.INDUSTRY</columns>
+        <filterScope>Everything</filterScope>
+        <label>Org_Account_Hierarchy</label>
+    </listViews>
+    <listViews>
         <fullName>PlatinumandGoldSLACustomers</fullName>
         <columns>ACCOUNT.NAME</columns>
         <columns>ACCOUNT.SITE</columns>
@@ -2480,7 +2488,8 @@
         <searchResultsAdditionalFields>ACCOUNT.NAME</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>ACCOUNT.SITE</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>ACCOUNT.PHONE1</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ACCOUNT.PHONE2</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ACCOUNT.TYPE</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
     <validationRules>
