@@ -151,7 +151,7 @@
     <description>description field 2</description>
     <enableActivities>false</enableActivities>
     <enableBulkApi>true</enableBulkApi>
-    <enableFeeds>false</enableFeeds>
+    <enableFeeds>true</enableFeeds>
     <enableHistory>true</enableHistory>
     <enableLicensing>false</enableLicensing>
     <enableReports>false</enableReports>
@@ -164,6 +164,7 @@
         <externalId>false</externalId>
         <label>Dinner Type</label>
         <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <type>Picklist</type>
         <valueSet>
@@ -195,6 +196,7 @@
         <label>External Auto</label>
         <length>30</length>
         <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <type>Text</type>
         <unique>false</unique>
@@ -204,6 +206,7 @@
         <defaultValue>false</defaultValue>
         <externalId>false</externalId>
         <label>FLS Test Dinner PS</label>
+        <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <type>Checkbox</type>
     </fields>
@@ -213,6 +216,7 @@
         <description>Description New</description>
         <externalId>false</externalId>
         <label>LateDinner</label>
+        <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>true</trackHistory>
         <type>Checkbox</type>
     </fields>
@@ -221,6 +225,7 @@
         <defaultValue>false</defaultValue>
         <externalId>false</externalId>
         <label>Nested Field Test</label>
+        <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <type>Checkbox</type>
     </fields>
@@ -229,6 +234,7 @@
         <externalId>false</externalId>
         <label>Picklist Dinner Table</label>
         <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <type>Picklist</type>
         <valueSet>
@@ -253,6 +259,7 @@
         <externalId>false</externalId>
         <label>Picklist Dinner</label>
         <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <type>Picklist</type>
         <valueSet>
@@ -281,6 +288,7 @@
         <referenceTo>Contact</referenceTo>
         <relationshipName>Dinners</relationshipName>
         <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>true</trackHistory>
         <trackTrending>true</trackTrending>
         <type>Lookup</type>
@@ -290,6 +298,7 @@
         <defaultValue>false</defaultValue>
         <externalId>false</externalId>
         <label>TEST US</label>
+        <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <type>Checkbox</type>
     </fields>
@@ -298,6 +307,7 @@
         <defaultValue>false</defaultValue>
         <externalId>false</externalId>
         <label>Table</label>
+        <trackFeedHistory>true</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <type>Checkbox</type>
     </fields>
@@ -306,6 +316,7 @@
         <defaultValue>false</defaultValue>
         <externalId>false</externalId>
         <label>VS Field1 Test 2</label>
+        <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <type>Checkbox</type>
     </fields>
@@ -316,6 +327,7 @@
         <label>VS Field2 Test 2</label>
         <length>13</length>
         <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <type>Text</type>
         <unique>false</unique>
@@ -327,6 +339,7 @@
         <precision>18</precision>
         <required>false</required>
         <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <type>Number</type>
         <unique>false</unique>
@@ -337,6 +350,7 @@
         <externalId>false</externalId>
         <label>VS Field4 Test 2</label>
         <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <type>Phone</type>
     </fields>
@@ -345,6 +359,7 @@
         <defaultValue>false</defaultValue>
         <externalId>false</externalId>
         <label>VS PS Test D</label>
+        <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <type>Checkbox</type>
     </fields>
@@ -353,6 +368,7 @@
         <defaultValue>false</defaultValue>
         <externalId>false</externalId>
         <label>historyRetentionPolicy</label>
+        <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <type>Checkbox</type>
     </fields>
@@ -375,10 +391,12 @@
     <nameField>
         <encryptionScheme>None</encryptionScheme>
         <label>Dinner Name</label>
+        <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>true</trackHistory>
         <type>Text</type>
     </nameField>
     <pluralLabel>Dinners</pluralLabel>
+    <recordTypeTrackFeedHistory>false</recordTypeTrackFeedHistory>
     <recordTypeTrackHistory>true</recordTypeTrackHistory>
     <recordTypes>
         <fullName>Dinner_RT</fullName>
