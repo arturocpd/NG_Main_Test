@@ -1,16 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Account</members>
-        <name>CustomObject</name>
+        <members>TestCharacter</members>
+        <name>CustomLabel</name>
     </types>
     <types>
-        <members>Account.Org_Account_Hierarchy</members>
-        <name>ListView</name>
-    </types>
-    <types>
-        <members>Admin CLONE 2</members>
-        <name>Profile</name>
+        <members>Opportunity.TestCharacters</members>
+        <name>ValidationRule</name>
     </types>
     <version>48.0</version>
 </Package>
