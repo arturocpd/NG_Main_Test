@@ -832,6 +832,12 @@
         <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>Read</sharingModel>
+    <validationRules>
+        <fullName>TestCharacters</fullName>
+        <active>true</active>
+        <errorConditionFormula>NOT(Description =  $Label.TestCharacter)</errorConditionFormula>
+        <errorMessage>Description is not equal to TestCharacter Custom Label</errorMessage>
+    </validationRules>
     <webLinks>
         <fullName>DeliveryStatus</fullName>
         <availability>online</availability>
