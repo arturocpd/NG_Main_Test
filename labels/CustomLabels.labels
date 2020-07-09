@@ -6408,4 +6408,19 @@ Type, Method, URL.</value>
         <shortDescription>WorkManager_Title</shortDescription>
         <value>WORK MANAGER</value>
     </labels>
+    <labels>
+        <fullName>TestCharacter</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>TestCharacters</shortDescription>
+        <value>&lt;PLACEHOLDER TEXT&gt;
+
+Date and names from CSM handoff session:
+
+Why did the business customer buy from Refinitiv? What is the use case?
+
+What are the specific customer expectations CSMs should know?
+
+Who are the primary contacts CSMs should engage?</value>
+    </labels>
 </CustomLabels>
