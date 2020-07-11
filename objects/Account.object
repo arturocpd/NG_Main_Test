@@ -516,6 +516,9 @@
         <type>Checkbox</type>
     </fields>
     <fields>
+        <fullName>IsBuyer</fullName>
+    </fields>
+    <fields>
         <fullName>IsCustomerPortal</fullName>
     </fields>
     <fields>

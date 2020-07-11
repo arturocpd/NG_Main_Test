@@ -130,52 +130,67 @@
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>ControlledByParent</externalSharingModel>
     <fields>
-        <fullName>CommSubscriptionConsentId</fullName>
-        <inlineHelpText>The communication subscription consent record associated with the communication subscription timing.</inlineHelpText>
+        <fullName>ActiveFromDate</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>ActiveToDate</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Address</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>AddressType</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>BestTimeToContactEndTime</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>BestTimeToContactStartTime</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>BestTimeToContactTimezone</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>ContactPointPhoneId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>IsDefault</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>IsPrimary</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Name</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>ParentId</fullName>
         <trackHistory>false</trackHistory>
         <type>MasterDetail</type>
     </fields>
-    <fields>
-        <fullName>Offset</fullName>
-        <inlineHelpText>The amount of time before or after an event or the specific day of the week that you should communicate with the contact point. Set the unit of time in Unit. For example, if you set Unit as &quot;Week&quot; and Offset as &quot;-4&quot; communicate with the contact point four weeks before the event. If you set Offset as &quot;4&quot; communicate with the contact point four weeks after the event. If you set Unit as &quot;Day of Week&quot; and Offset as &quot;1,&quot; communicate with the contact point on Monday. If you set Offset as &quot;7&quot; communicate with the contact point on Sunday.</inlineHelpText>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>PreferredTimeEnd</fullName>
-        <inlineHelpText>End of the preferred time span in which to reach the contact point.</inlineHelpText>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>PreferredTimeStart</fullName>
-        <inlineHelpText>Start of the preferred time span in which to reach the contact point.</inlineHelpText>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>PreferredTimeZone</fullName>
-        <inlineHelpText>Time zone of the preferred time span.</inlineHelpText>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>Unit</fullName>
-        <inlineHelpText>The unit of time that works with Offset to determine the communication timing.</inlineHelpText>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <listViews>
-        <fullName>All_CommSubscriptionTimings</fullName>
-        <filterScope>Everything</filterScope>
-        <label>Todas las Temporizaciones de suscripciones de comunicación</label>
-    </listViews>
     <searchLayouts>
-        <customTabListAdditionalFields>Unit</customTabListAdditionalFields>
-        <customTabListAdditionalFields>Offset</customTabListAdditionalFields>
-        <customTabListAdditionalFields>PreferredTimeStart</customTabListAdditionalFields>
-        <customTabListAdditionalFields>PreferredTimeEnd</customTabListAdditionalFields>
-        <customTabListAdditionalFields>PreferredTimeZone</customTabListAdditionalFields>
-        <searchResultsAdditionalFields>Unit</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>Offset</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>PreferredTimeStart</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>PreferredTimeEnd</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>PreferredTimeZone</searchResultsAdditionalFields>
+        <customTabListAdditionalFields>Parent</customTabListAdditionalFields>
+        <customTabListAdditionalFields>ActiveFromDate</customTabListAdditionalFields>
+        <customTabListAdditionalFields>ActiveToDate</customTabListAdditionalFields>
+        <customTabListAdditionalFields>IsPrimary</customTabListAdditionalFields>
+        <customTabListAdditionalFields>IsDefault</customTabListAdditionalFields>
+        <searchResultsAdditionalFields>Parent</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ActiveFromDate</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ActiveToDate</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>IsPrimary</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>IsDefault</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>ControlledByParent</sharingModel>
 </CustomObject>
