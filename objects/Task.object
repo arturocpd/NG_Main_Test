@@ -98,5 +98,29 @@
         <fullName>WhoId</fullName>
         <type>Lookup</type>
     </fields>
+    <recordTypes>
+        <fullName>General</fullName>
+        <active>true</active>
+        <label>General</label>
+        <picklistValues>
+            <picklist>AAATask__c</picklist>
+            <values>
+                <fullName>1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>4</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>5</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
     <sharingModel>Private</sharingModel>
 </CustomObject>
