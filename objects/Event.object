@@ -105,5 +105,25 @@
         <fullName>WhoId</fullName>
         <type>Lookup</type>
     </fields>
+    <recordTypes>
+        <fullName>Time</fullName>
+        <active>true</active>
+        <label>Time</label>
+        <picklistValues>
+            <picklist>AAATask__c</picklist>
+            <values>
+                <fullName>1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>4</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
     <sharingModel>Private</sharingModel>
 </CustomObject>
