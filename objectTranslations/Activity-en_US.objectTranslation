@@ -49,8 +49,40 @@
         <name>Activity_Custom_field_5__c</name>
     </fields>
     <fields>
+        <label><!-- Activity Field --></label>
+        <name>Activity_Field__c</name>
+        <picklistValues>
+            <masterLabel>Value1</masterLabel>
+            <translation><!-- Value1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Value2</masterLabel>
+            <translation><!-- Value2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Value3</masterLabel>
+            <translation><!-- Value3 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
         <label><!-- Activity ZZZ --></label>
         <name>Activity_ZZZ__c</name>
+    </fields>
+    <fields>
+        <label><!-- Field Name --></label>
+        <name>Field_Name__c</name>
+        <picklistValues>
+            <masterLabel>Value1</masterLabel>
+            <translation><!-- Value1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Value2</masterLabel>
+            <translation><!-- Value2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Value3</masterLabel>
+            <translation><!-- Value3 --></translation>
+        </picklistValues>
     </fields>
     <fields>
         <label><!-- Next Time --></label>
