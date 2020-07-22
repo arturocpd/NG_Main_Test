@@ -642,6 +642,10 @@
         <name>Auto_Resolve_RT</name>
     </recordTypes>
     <recordTypes>
+        <label><!-- Business Account --></label>
+        <name>Business_Account</name>
+    </recordTypes>
+    <recordTypes>
         <label><!-- DeleteRTacc --></label>
         <name>DeleteRTacc</name>
     </recordTypes>
