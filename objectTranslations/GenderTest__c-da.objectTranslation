@@ -34,6 +34,6 @@
         <label>GenderFieldTranslation</label>
         <name>GenderTextField__c</name>
     </fields>
-    <gender><!-- Neuter --></gender>
+    
     <nameFieldLabel><!-- GenderTest Name --></nameFieldLabel>
 </CustomObjectTranslation>
