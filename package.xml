@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Test_Category_Group</members>
-        <name>DataCategoryGroup</name>
-    </types>
-    <types>
         <members>Clone partner community</members>
-        <members>Partner Community Login User</members>
         <name>Profile</name>
     </types>
     <version>49.0</version>
