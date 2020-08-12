@@ -61,5 +61,5 @@
         <members>WorkOrderStatus</members>
         <name>StandardValueSet</name>
     </types>
-    <version>48.0</version>
+    <version>49.0</version>
 </Package>
