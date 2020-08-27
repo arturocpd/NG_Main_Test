@@ -516,9 +516,6 @@
         <type>Checkbox</type>
     </fields>
     <fields>
-        <fullName>IsBuyer</fullName>
-    </fields>
-    <fields>
         <fullName>IsCustomerPortal</fullName>
     </fields>
     <fields>
@@ -752,6 +749,16 @@
         <label>Test Override 2</label>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Text_Formula__c</fullName>
+        <externalId>false</externalId>
+        <formula>Name</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Text Formula</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
     </fields>
     <fields>
         <fullName>TickerSymbol</fullName>

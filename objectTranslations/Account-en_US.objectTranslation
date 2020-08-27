@@ -194,6 +194,10 @@
         <name>Test_Override_2__c</name>
     </fields>
     <fields>
+        <label><!-- Text Formula --></label>
+        <name>Text_Formula__c</name>
+    </fields>
+    <fields>
         <label><!-- Trim Level --></label>
         <name>Trim_Level__c</name>
         <picklistValues>
