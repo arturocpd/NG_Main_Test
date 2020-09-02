@@ -3665,6 +3665,10 @@
         </picklistValues>
     </fields>
     <fields>
+        <label><!-- Zip file test --></label>
+        <name>Zip_file_test__c</name>
+    </fields>
+    <fields>
         <label><!-- bug test --></label>
         <name>bug_test__c</name>
     </fields>
