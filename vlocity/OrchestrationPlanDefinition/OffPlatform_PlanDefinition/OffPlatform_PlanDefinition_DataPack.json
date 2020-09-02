@@ -1,5 +1,8 @@
 {
+    "%vlocity_namespace%__Description__c": "",
     "%vlocity_namespace%__GlobalKey__c": "",
+    "%vlocity_namespace%__IsSchedulingEnabled__c": false,
+    "%vlocity_namespace%__SchedulingExpirationIntervalSeconds__c": "",
     "%vlocity_namespace%__Scope__c": "Global",
     "%vlocity_namespace%__ShowOrder__c": "",
     "Name": "OffPlatform_PlanDefinition",

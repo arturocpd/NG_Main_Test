@@ -1,0 +1,17 @@
+{
+    "Body": "File_prodImage_collision_coverage-png",
+    "BodyLength": 4951,
+    "ContentType": "image/png",
+    "Description": "",
+    "IsPrivate": false,
+    "Name": "prodImage_collision_coverage.png",
+    "ParentId": {
+        "%vlocity_namespace%__GlobalKey__c": "91448ab6-521f-1a8e-f007-4b07fe56393c",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "Product2/91448ab6-521f-1a8e-f007-4b07fe56393c",
+        "VlocityRecordSObjectType": "Product2"
+    },
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Attachment",
+    "VlocityRecordSourceKey": "Attachment/Product2/91448ab6-521f-1a8e-f007-4b07fe56393c/prodImage_collision_coverage.png"
+}

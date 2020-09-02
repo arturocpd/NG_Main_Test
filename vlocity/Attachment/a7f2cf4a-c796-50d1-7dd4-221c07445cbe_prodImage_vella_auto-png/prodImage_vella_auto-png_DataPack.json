@@ -1,0 +1,17 @@
+{
+    "Body": "File_prodImage_vella_auto-png",
+    "BodyLength": 3570,
+    "ContentType": "image/png",
+    "Description": "",
+    "IsPrivate": false,
+    "Name": "prodImage_vella_auto.png",
+    "ParentId": {
+        "%vlocity_namespace%__GlobalKey__c": "a7f2cf4a-c796-50d1-7dd4-221c07445cbe",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "Product2/a7f2cf4a-c796-50d1-7dd4-221c07445cbe",
+        "VlocityRecordSObjectType": "Product2"
+    },
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Attachment",
+    "VlocityRecordSourceKey": "Attachment/Product2/a7f2cf4a-c796-50d1-7dd4-221c07445cbe/prodImage_vella_auto.png"
+}

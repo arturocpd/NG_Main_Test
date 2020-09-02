@@ -1,0 +1,17 @@
+{
+    "Body": "File_prodImage_comprehensive_coverage-png",
+    "BodyLength": 3147,
+    "ContentType": "image/png",
+    "Description": "",
+    "IsPrivate": false,
+    "Name": "prodImage_comprehensive_coverage.png",
+    "ParentId": {
+        "%vlocity_namespace%__GlobalKey__c": "7c413f9b-ad45-83f2-700e-b7604c8acf6c",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "Product2/7c413f9b-ad45-83f2-700e-b7604c8acf6c",
+        "VlocityRecordSObjectType": "Product2"
+    },
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Attachment",
+    "VlocityRecordSourceKey": "Attachment/Product2/7c413f9b-ad45-83f2-700e-b7604c8acf6c/prodImage_comprehensive_coverage.png"
+}

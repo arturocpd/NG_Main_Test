@@ -149,15 +149,17 @@
     <listViews>
         <fullName>All_DataUsePurposes</fullName>
         <filterScope>Everything</filterScope>
-        <label>Todos Propósitos de utilizaciones de datos</label>
+        <label>All Data Use Purposes</label>
     </listViews>
     <searchLayouts>
         <customTabListAdditionalFields>LegalBasis</customTabListAdditionalFields>
         <customTabListAdditionalFields>Description</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Purpose</customTabListAdditionalFields>
         <customTabListAdditionalFields>LastModifiedDate</customTabListAdditionalFields>
         <customTabListAdditionalFields>LastModifiedBy</customTabListAdditionalFields>
         <searchResultsAdditionalFields>LegalBasis</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>Description</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Purpose</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>LastModifiedDate</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>LastModifiedBy</searchResultsAdditionalFields>
     </searchLayouts>

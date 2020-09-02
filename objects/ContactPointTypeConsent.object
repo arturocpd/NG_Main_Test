@@ -163,6 +163,11 @@
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
+        <fullName>EngagementChannelTypeId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
         <fullName>Name</fullName>
         <trackHistory>false</trackHistory>
     </fields>
@@ -178,7 +183,7 @@
     <listViews>
         <fullName>All_ContactPointTypeConsents</fullName>
         <filterScope>Everything</filterScope>
-        <label>Todos Consentimientos de tipos de puntos de contacto</label>
+        <label>All Contact Point Type Consents</label>
     </listViews>
     <searchLayouts>
         <customTabListAdditionalFields>Party</customTabListAdditionalFields>
