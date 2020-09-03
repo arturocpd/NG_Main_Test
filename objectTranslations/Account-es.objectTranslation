@@ -562,6 +562,10 @@
         <name>Install__c</name>
     </fields>
     <fields>
+        <label><!-- Ivan TEst --></label>
+        <name>Ivan_TEst__c</name>
+    </fields>
+    <fields>
         <label><!-- Lets Override 3 --></label>
         <name>Lets_Override_3__c</name>
     </fields>
