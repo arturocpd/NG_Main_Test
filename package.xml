@@ -1,8 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Permission_Set_Group_test</members>
-        <name>PermissionSetGroup</name>
+        <members>Policy Terms (terms)</members>
+        <members>SB - Small Business (catSBBusSmall)</members>
+        <name>AttributeCategory</name>
+    </types>
+    <types>
+        <members>Standard Price Book</members>
+        <name>Pricebook2</name>
+    </types>
+    <types>
+        <members>General Liability (busGenLiability / 240c0136-a56d-33ee-c718-60ea13569f3d)</members>
+        <members>SB Business Profile (SBBusinessProfile / 84ac06f6-aaf6-30b4-c620-ffecf074dbcf)</members>
+        <members>SB Business Property (SBbusProperty / 2ae09804-d69f-2ac9-0b97-1d565065cb23)</members>
+        <members>SB One (SBOne / b936bd9b-9bba-4ccf-ff3a-8199a844adfd)</members>
+        <name>Product2</name>
     </types>
     <version>49.0</version>
 </Package>
