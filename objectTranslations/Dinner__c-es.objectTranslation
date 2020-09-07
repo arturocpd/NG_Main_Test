@@ -78,6 +78,10 @@
         <name>Table__c</name>
     </fields>
     <fields>
+        <label><!-- Test Conflict Resolution --></label>
+        <name>Test_Conflict_Resolution__c</name>
+    </fields>
+    <fields>
         <label><!-- VS Field1 Test 2 --></label>
         <name>VS_Field1_Test_2__c</name>
     </fields>
