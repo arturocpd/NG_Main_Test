@@ -193,6 +193,17 @@
         <fullName>StockKeepingUnit</fullName>
         <trackHistory>false</trackHistory>
     </fields>
+    <fields>
+        <fullName>Test_Conflict_Resolution__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Test Conflict Resolution</label>
+        <length>14</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
     <listViews>
         <fullName>AllProducts</fullName>
         <filterScope>Everything</filterScope>
