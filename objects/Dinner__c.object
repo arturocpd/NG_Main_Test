@@ -302,6 +302,18 @@
         <type>Checkbox</type>
     </fields>
     <fields>
+        <fullName>Test_Conflict_Resolution__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Test Conflict Resolution</label>
+        <length>14</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>VS_Field1_Test_2__c</fullName>
         <defaultValue>false</defaultValue>
         <externalId>false</externalId>
@@ -886,7 +898,7 @@
             </values>
         </picklistValues>
     </recordTypes>
-    <searchLayouts/>
+    <searchLayouts />
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>
