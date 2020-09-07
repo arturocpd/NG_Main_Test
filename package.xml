@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Census (SG_Census)</members>
-        <members>CensusMember (SG_CensusMember)</members>
-        <members>SG Medical (SG_Medical)</members>
-        <members>SG Product Rating (SG_ProductRating)</members>
+        <members>Policy Terms (terms)</members>
+        <members>SB - Small Business (catSBBusSmall)</members>
         <name>AttributeCategory</name>
     </types>
     <types>
@@ -12,17 +10,10 @@
         <name>Pricebook2</name>
     </types>
     <types>
-        <members>Emergency Services (SG_Emerg_Serv / 588692d9-045a-e724-a39b-a892ce0ab62f)</members>
-        <members>Flexible Spending Account (SG_FSA / 1e58f9ce-d41b-9475-fa6b-eb584764d146)</members>
-        <members>HMO 500 (SG-HMO-500 / 04472a00-7ad8-6382-2ae9-6376b19da620)</members>
-        <members>Hospital Based Services (SG_Hosp_based_Serv / 84f34922-5a4e-49ec-e018-ab0346289f8a)</members>
-        <members>Laboratory Outpatient and Professional Services (SG_Lab_Outpat_Prof / 4d221d1f-cb8c-15da-f3db-ac7eb2c22faa)</members>
-        <members>Medical Plan Information (SG_Med_Base / cdff74fc-8bf3-a49e-c93c-7367d8840e63)</members>
-        <members>Prescription Drugs (SG_Prescript_drugs / fa239ee1-52c1-0a4b-baaa-a62ac2260671)</members>
-        <members>Primary Care Visit (SG_Pri_Care_Visit / 49f2e990-3979-5a0c-3b18-c5e3317ec454)</members>
-        <members>Small Group Census (SG-Census-RF / 9c38b129-6cb6-e400-18e4-7d3998fb9377)</members>
-        <members>Specialist Visit (SG_Specialist / db796a48-e404-8237-467b-1a5812a1c917)</members>
-        <members>X-rays and Diagnostic Imaging (SG_Xray_Diagnostic / 2943a211-3125-88ad-03c0-24fda27b2e05)</members>
+        <members>General Liability (busGenLiability / 240c0136-a56d-33ee-c718-60ea13569f3d)</members>
+        <members>SB Business Profile (SBBusinessProfile / 84ac06f6-aaf6-30b4-c620-ffecf074dbcf)</members>
+        <members>SB Business Property (SBbusProperty / 2ae09804-d69f-2ac9-0b97-1d565065cb23)</members>
+        <members>SB One (SBOne / b936bd9b-9bba-4ccf-ff3a-8199a844adfd)</members>
         <name>Product2</name>
     </types>
     <version>49.0</version>
