@@ -283,6 +283,18 @@
         <type>Checkbox</type>
     </fields>
     <fields>
+        <fullName>Test_Conflict_Resolution__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Test Conflict Resolution</label>
+        <length>14</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>historyRetentionPolicy__c</fullName>
         <defaultValue>false</defaultValue>
         <externalId>false</externalId>
