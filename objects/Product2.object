@@ -176,6 +176,29 @@
         <filterScope>Everything</filterScope>
         <label>All Products</label>
     </listViews>
+    <recordTypes>
+        <fullName>Product_RT</fullName>
+        <active>true</active>
+        <label>Product RT</label>
+        <picklistValues>
+            <picklist>Family</picklist>
+            <values>
+                <fullName>None</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>QuantityUnitOfMeasure</picklist>
+            <values>
+                <fullName>All</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Each</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
     <searchLayouts>
         <customTabListAdditionalFields>PRODUCT2.NAME</customTabListAdditionalFields>
         <customTabListAdditionalFields>PRODUCT2.CUSTOMER_PRODUCT_ID</customTabListAdditionalFields>
