@@ -1,8 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>ARAccountSearch</members>
-        <name>DataRaptor</name>
+        <members>Policy Terms (terms)</members>
+        <members>SG Vision (SG_Vision)</members>
+        <name>AttributeCategory</name>
+    </types>
+    <types>
+        <members>Standard</members>
+        <members>Standard Price Book</members>
+        <name>Pricebook2</name>
+    </types>
+    <types>
+        <members>Allowances (SG_vision_allowance / 908938c7-2553-480f-b417-c155c6e7018f)</members>
+        <members>Collision (MA-autoCOLL / 91448ab6-521f-1a8e-f007-4b07fe56393c)</members>
+        <members>Test Product (TestProduct123 / 1d48d7dc-b6a4-4501-59cb-bb5570ef864d)</members>
+        <name>Product2</name>
     </types>
     <version>49.0</version>
 </Package>
