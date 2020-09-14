@@ -6423,4 +6423,11 @@ What are the specific customer expectations CSMs should know?
 
 Who are the primary contacts CSMs should engage?</value>
     </labels>
+    <labels>
+        <fullName>New_CL_from_Dev3</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>New CL from Dev3</shortDescription>
+        <value>New CL from Dev3</value>
+    </labels>
 </CustomLabels>
