@@ -915,7 +915,7 @@
             <valueSetDefinition>
                 <sorted>false</sorted>
                 <value>
-                    <fullName>Dependent 1</fullName>
+                    <fullName>New Dependent 1</fullName>
                     <default>false</default>
                     <label>Dependent 1</label>
                 </value>
@@ -933,16 +933,14 @@
             <valueSettings>
                 <controllingFieldValue>Controlling 1</controllingFieldValue>
                 <controllingFieldValue>Controlling 2</controllingFieldValue>
-                <valueName>Dependent 1</valueName>
+                <controllingFieldValue>Controlling 3</controllingFieldValue>
+                <valueName>New Dependent 1</valueName>
             </valueSettings>
             <valueSettings>
                 <controllingFieldValue>Controlling 1</controllingFieldValue>
                 <controllingFieldValue>Controlling 2</controllingFieldValue>
-                <valueName>Dependent 2</valueName>
-            </valueSettings>
-            <valueSettings>
                 <controllingFieldValue>Controlling 3</controllingFieldValue>
-                <valueName>Dependent 3</valueName>
+                <valueName>Dependent 2</valueName>
             </valueSettings>
         </valueSet>
     </fields>
