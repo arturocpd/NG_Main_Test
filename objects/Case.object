@@ -1264,7 +1264,7 @@
             <valueSetDefinition>
                 <sorted>false</sorted>
                 <value>
-                    <fullName>Dependent 1</fullName>
+                    <fullName>New Dependent 1</fullName>
                     <default>false</default>
                     <label>Dependent 1</label>
                 </value>
@@ -1283,7 +1283,7 @@
                 <controllingFieldValue>Controlling 1</controllingFieldValue>
                 <controllingFieldValue>Controlling 2</controllingFieldValue>
                 <controllingFieldValue>Controlling 3</controllingFieldValue>
-                <valueName>Dependent 1</valueName>
+                <valueName>New Dependent 1</valueName>
             </valueSettings>
             <valueSettings>
                 <controllingFieldValue>Controlling 1</controllingFieldValue>
@@ -1673,7 +1673,7 @@
             <valueSetDefinition>
                 <sorted>false</sorted>
                 <value>
-                    <fullName>Test 1</fullName>
+                    <fullName>New Test 1</fullName>
                     <default>false</default>
                     <label>Test 1</label>
                 </value>
@@ -6197,15 +6197,15 @@
         <picklistValues>
             <picklist>Dependent__c</picklist>
             <values>
-                <fullName>Dependent 1</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>Dependent 2</fullName>
                 <default>false</default>
             </values>
             <values>
                 <fullName>Dependent 3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New Dependent 1</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -6227,7 +6227,7 @@
         <picklistValues>
             <picklist>Picklist_bug_test__c</picklist>
             <values>
-                <fullName>Test 1</fullName>
+                <fullName>New Test 1</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -8915,15 +8915,15 @@
         <picklistValues>
             <picklist>Dependent__c</picklist>
             <values>
-                <fullName>Dependent 1</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>Dependent 2</fullName>
                 <default>false</default>
             </values>
             <values>
                 <fullName>Dependent 3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New Dependent 1</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -8945,7 +8945,7 @@
         <picklistValues>
             <picklist>Picklist_bug_test__c</picklist>
             <values>
-                <fullName>Test 1</fullName>
+                <fullName>New Test 1</fullName>
                 <default>false</default>
             </values>
             <values>
