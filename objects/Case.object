@@ -376,6 +376,11 @@
                 <value>
                     <fullName>EEE</fullName>
                     <default>false</default>
+                    <label>EEE</label>
+                </value>
+                <value>
+                    <fullName>EEE2</fullName>
+                    <default>false</default>
                     <isActive>false</isActive>
                     <label>EEE</label>
                 </value>
