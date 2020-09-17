@@ -319,12 +319,6 @@
                     <default>false</default>
                     <label>EEE</label>
                 </value>
-                <value>
-                    <fullName>EEE2</fullName>
-                    <default>false</default>
-                    <isActive>false</isActive>
-                    <label>EEE</label>
-                </value>
             </valueSetDefinition>
         </valueSet>
         <visibleLines>5</visibleLines>
