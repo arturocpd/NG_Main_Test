@@ -52,6 +52,10 @@
             <translation><!-- DDD --></translation>
         </picklistValues>
         <picklistValues>
+            <masterLabel>EEE</masterLabel>
+            <translation><!-- EEE --></translation>
+        </picklistValues>
+        <picklistValues>
             <masterLabel>FFF</masterLabel>
             <translation><!-- FFF --></translation>
         </picklistValues>
