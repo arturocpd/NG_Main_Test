@@ -1,5 +1,5 @@
 {
-    "%vlocity_namespace%__AdditionalInformation__c": "Works for both Customer and Broker context.",
+    "%vlocity_namespace%__AdditionalInformation__c": "Version 2 Created by Arturo",
     "%vlocity_namespace%__DisableMetadataCache__c": false,
     "%vlocity_namespace%__ElementTypeToHTMLTemplateList__c": "{\"ElementTypeToHTMLTemplateList\":[\"ins-os-attribute-component\",\"ins-os-coverage-component\"]}",
     "%vlocity_namespace%__Element__c": [
