@@ -5,7 +5,7 @@
     <confirmationTokenRequired>false</confirmationTokenRequired>
     <label>CopadoSyncUserStories</label>
     <packageVersions>
-        <majorNumber>6</majorNumber>
+        <majorNumber>11</majorNumber>
         <minorNumber>0</minorNumber>
         <namespace>copado</namespace>
     </packageVersions>
