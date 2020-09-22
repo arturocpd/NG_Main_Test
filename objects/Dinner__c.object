@@ -213,6 +213,7 @@
         <description>Description New</description>
         <externalId>false</externalId>
         <label>LateDinner</label>
+        <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>true</trackHistory>
         <type>Checkbox</type>
     </fields>
