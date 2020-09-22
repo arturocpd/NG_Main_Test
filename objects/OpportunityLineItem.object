@@ -124,6 +124,16 @@
         <fullName>ListPrice</fullName>
     </fields>
     <fields>
+        <fullName>OppProductText__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>OppProductText</label>
+        <length>13</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>OpportunityId</fullName>
         <type>Lookup</type>
     </fields>
