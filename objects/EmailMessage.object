@@ -98,9 +98,6 @@
         <fullName>FirstOpenedDate</fullName>
     </fields>
     <fields>
-        <fullName>FirstOpenedDate</fullName>
-    </fields>
-    <fields>
         <fullName>FromAddress</fullName>
         <encryptionScheme>None</encryptionScheme>
     </fields>

@@ -33,6 +33,10 @@
         <name>MainCompetitors__c</name>
     </fields>
     <fields>
+        <label><!-- OppText --></label>
+        <name>OppText__c</name>
+    </fields>
+    <fields>
         <label><!-- Order Number --></label>
         <name>OrderNumber__c</name>
     </fields>
