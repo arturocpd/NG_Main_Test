@@ -235,41 +235,6 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
-        <fullName>Label__c</fullName>
-        <externalId>false</externalId>
-        <label>Label</label>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>MultiselectPicklist</type>
-        <valueSet>
-            <restricted>true</restricted>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>One</fullName>
-                    <default>false</default>
-                    <label>One</label>
-                </value>
-                <value>
-                    <fullName>Two</fullName>
-                    <default>false</default>
-                    <label>Two</label>
-                </value>
-                <value>
-                    <fullName>Three</fullName>
-                    <default>false</default>
-                    <label>Three</label>
-                </value>
-                <value>
-                    <fullName>Four</fullName>
-                    <default>false</default>
-                    <label>Four</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
-        <visibleLines>4</visibleLines>
-    </fields>
-    <fields>
         <fullName>NaicsCode</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
@@ -1770,7 +1735,47 @@
     <recordTypes>
         <fullName>Record_Type1</fullName>
         <active>true</active>
+        <compactLayoutAssignment>Compact_Test</compactLayoutAssignment>
+        <description>Description</description>
         <label>Record Type1</label>
+        <picklistValues>
+            <picklist>SLA__c</picklist>
+            <values>
+                <fullName>Bronze</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Gold</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Iron</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Platinum</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Silver</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SubTrade_Channel__c</picklist>
+            <values>
+                <fullName>001 - Bakery</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>020</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>021 - Hotell</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
         <picklistValues>
             <picklist>Label__c</picklist>
             <values>
