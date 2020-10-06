@@ -1770,6 +1770,8 @@
     <recordTypes>
         <fullName>Record_Type1</fullName>
         <active>true</active>
+        <compactLayoutAssignment>Compact_Test</compactLayoutAssignment>
+        <description>Description</description>
         <label>Record Type1</label>
         <picklistValues>
             <picklist>Label__c</picklist>
