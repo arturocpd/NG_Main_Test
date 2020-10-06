@@ -50,7 +50,7 @@
     },
     {
         "%vlocity_namespace%__AllowIndependentLifeCycle__c": false,
-        "%vlocity_namespace%__ChildLineNumber__c": "1",
+        "%vlocity_namespace%__ChildLineNumber__c": "3",
         "%vlocity_namespace%__ChildProductId__c": {
             "%vlocity_namespace%__GlobalKey__c": "908938c7-2553-480f-b417-c155c6e7018f",
             "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
@@ -64,7 +64,7 @@
         "%vlocity_namespace%__DefaultSelectedCriteria__c": "",
         "%vlocity_namespace%__EligibilityCriteriaComments__c": "",
         "%vlocity_namespace%__EligibilityCriteria__c": "",
-        "%vlocity_namespace%__GlobalKey__c": "75726729-e2fa-a2e1-060e-44795ada10ad",
+        "%vlocity_namespace%__GlobalKey__c": "bd76e86e-5fb9-9f3b-607f-e26046636026",
         "%vlocity_namespace%__IsOptional__c": true,
         "%vlocity_namespace%__IsOverride__c": false,
         "%vlocity_namespace%__IsRootProductChildItem__c": false,
@@ -89,12 +89,12 @@
         "%vlocity_namespace%__SelectValidationCriteria__c": "",
         "%vlocity_namespace%__SelectValidationMessage__c": "",
         "%vlocity_namespace%__SelectionMethodImplementation__c": "",
-        "%vlocity_namespace%__SeqNumber__c": 1,
+        "%vlocity_namespace%__SeqNumber__c": 3,
         "%vlocity_namespace%__SubParentSpecId__c": "",
         "%vlocity_namespace%__TotalCoverageCalculationFormula__c": "",
-        "Name": "75726729-e2fa-a2e1-060e-44795ada10ad",
+        "Name": "bd76e86e-5fb9-9f3b-607f-e26046636026",
         "VlocityDataPackType": "SObject",
         "VlocityRecordSObjectType": "%vlocity_namespace%__ProductChildItem__c",
-        "VlocityRecordSourceKey": "%vlocity_namespace%__ProductChildItem__c/75726729-e2fa-a2e1-060e-44795ada10ad"
+        "VlocityRecordSourceKey": "%vlocity_namespace%__ProductChildItem__c/bd76e86e-5fb9-9f3b-607f-e26046636026"
     }
 ]

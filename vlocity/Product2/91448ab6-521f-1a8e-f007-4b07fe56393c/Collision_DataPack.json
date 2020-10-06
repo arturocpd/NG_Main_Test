@@ -120,6 +120,7 @@
     "%vlocity_namespace%__ParentClassId__c": "",
     "%vlocity_namespace%__PricingFormula__c": "",
     "%vlocity_namespace%__PricingSource__c": "premiumCOLL",
+    "%vlocity_namespace%__ProductRelationship__c": "Collision_ProductRelationships.json",
     "%vlocity_namespace%__ProductSpecId__c": "",
     "%vlocity_namespace%__ProductTemplateId__c": "",
     "%vlocity_namespace%__ProductTemplateProductId__c": "",
