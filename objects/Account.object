@@ -269,6 +269,16 @@
                     <default>false</default>
                     <label>New</label>
                 </value>
+                <value>
+                    <fullName>Café</fullName>
+                    <default>false</default>
+                    <label>Café</label>
+                </value>
+                <value>
+                    <fullName>Décor</fullName>
+                    <default>false</default>
+                    <label>Décor</label>
+                </value>
             </valueSetDefinition>
         </valueSet>
     </fields>
