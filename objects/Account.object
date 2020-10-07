@@ -539,6 +539,41 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
+        <fullName>Label__c</fullName>
+        <externalId>false</externalId>
+        <label>Label</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>One</fullName>
+                    <default>false</default>
+                    <label>One</label>
+                </value>
+                <value>
+                    <fullName>Two</fullName>
+                    <default>false</default>
+                    <label>Two</label>
+                </value>
+                <value>
+                    <fullName>Three</fullName>
+                    <default>false</default>
+                    <label>Three</label>
+                </value>
+                <value>
+                    <fullName>Four</fullName>
+                    <default>false</default>
+                    <label>Four</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
         <fullName>Lets_Override_3__c</fullName>
         <defaultValue>false</defaultValue>
         <description>Description</description>
@@ -1168,6 +1203,25 @@ Description Line 3</description>
             </values>
         </picklistValues>
         <picklistValues>
+            <picklist>Label__c</picklist>
+            <values>
+                <fullName>Four</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>One</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Three</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Two</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
             <picklist>Nested_Test_RT__c</picklist>
             <values>
                 <fullName>Destructive 3</fullName>
@@ -1516,6 +1570,25 @@ Description Line 3</description>
             </values>
             <values>
                 <fullName>Utilities</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Label__c</picklist>
+            <values>
+                <fullName>Four</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>One</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Three</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Two</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -1900,6 +1973,25 @@ Description Line 3</description>
             </values>
         </picklistValues>
         <picklistValues>
+            <picklist>Label__c</picklist>
+            <values>
+                <fullName>Four</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>One</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Three</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Two</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
             <picklist>Nested_Test_RT__c</picklist>
             <values>
                 <fullName>Destructive1</fullName>
@@ -2272,6 +2364,25 @@ Description Line 3</description>
             </values>
         </picklistValues>
         <picklistValues>
+            <picklist>Label__c</picklist>
+            <values>
+                <fullName>Four</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>One</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Three</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Two</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
             <picklist>Nested_Test_RT__c</picklist>
             <values>
                 <fullName>Destructive1</fullName>
@@ -2405,6 +2516,7 @@ Description Line 3</description>
         <fullName>Record_Type1</fullName>
         <active>true</active>
         <compactLayoutAssignment>Compact_Test</compactLayoutAssignment>
+        <description>Description</description>
         <label>Record Type1</label>
         <picklistValues>
             <picklist>ASCII_Test__c</picklist>
@@ -2625,6 +2737,25 @@ Description Line 3</description>
             </values>
             <values>
                 <fullName>Utilities</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Label__c</picklist>
+            <values>
+                <fullName>Four</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>One</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Three</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Two</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -2982,6 +3113,25 @@ Description Line 3</description>
             </values>
             <values>
                 <fullName>Utilities</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Label__c</picklist>
+            <values>
+                <fullName>Four</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>One</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Three</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Two</fullName>
                 <default>false</default>
             </values>
         </picklistValues>

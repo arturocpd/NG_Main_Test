@@ -148,6 +148,26 @@
         <name>Ivan_TEst__c</name>
     </fields>
     <fields>
+        <label><!-- Label --></label>
+        <name>Label__c</name>
+        <picklistValues>
+            <masterLabel>Four</masterLabel>
+            <translation><!-- Four --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>One</masterLabel>
+            <translation><!-- One --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Three</masterLabel>
+            <translation><!-- Three --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Two</masterLabel>
+            <translation><!-- Two --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
         <label><!-- Lets Override 3 --></label>
         <name>Lets_Override_3__c</name>
     </fields>
@@ -297,6 +317,7 @@
         <name>RT_Nested_Test</name>
     </recordTypes>
     <recordTypes>
+        <description><!-- Description --></description>
         <label><!-- Record Type1 --></label>
         <name>Record_Type1</name>
     </recordTypes>
