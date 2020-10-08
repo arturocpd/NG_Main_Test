@@ -8297,10 +8297,6 @@
         <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__SeleniumTestCasesPerSuite</apexPage>
-        <enabled>true</enabled>
-    </pageAccesses>
-    <pageAccesses>
         <apexPage>copado__SeleniumTestGroupDetailOverride</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
