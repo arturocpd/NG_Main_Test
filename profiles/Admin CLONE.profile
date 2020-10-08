@@ -8415,10 +8415,6 @@
         <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__SeleniumTestRunDetailOverride</apexPage>
-        <enabled>true</enabled>
-    </pageAccesses>
-    <pageAccesses>
         <apexPage>copado__SeleniumTestSuite</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
