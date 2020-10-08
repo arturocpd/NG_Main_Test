@@ -8555,10 +8555,6 @@
         <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__MassAddRunsToGroup</apexPage>
-        <enabled>true</enabled>
-    </pageAccesses>
-    <pageAccesses>
         <apexPage>copado__MassAddSuitesToGroup</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
