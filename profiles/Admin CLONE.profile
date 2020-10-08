@@ -161,10 +161,6 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>JiraIssueFetcher_Batch</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>JiraIssueFetcher_Batch_Test</apexClass>
         <enabled>true</enabled>
     </classAccesses>
