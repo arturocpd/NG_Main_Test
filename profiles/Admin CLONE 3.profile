@@ -8545,10 +8545,6 @@
         <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__DXTestOrgIntermediary</apexPage>
-        <enabled>true</enabled>
-    </pageAccesses>
-    <pageAccesses>
         <apexPage>copado__DeleteOrgCredentialScratchOrg</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
