@@ -9366,11 +9366,6 @@
         <recordType>WorkOrderLineItem.WOLI_RT</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <default>false</default>
-        <recordType>copado__User_Story__c.copado__User_Story</recordType>
-        <visible>false</visible>
-    </recordTypeVisibilities>
     <tabVisibilities>
         <tab>ADD_Conficguration_Rule__c</tab>
         <visibility>DefaultOn</visibility>
