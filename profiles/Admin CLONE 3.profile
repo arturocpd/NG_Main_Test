@@ -8521,10 +8521,6 @@
         <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__EditGit</apexPage>
-        <enabled>true</enabled>
-    </pageAccesses>
-    <pageAccesses>
         <apexPage>copado__EditGitBackup</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
