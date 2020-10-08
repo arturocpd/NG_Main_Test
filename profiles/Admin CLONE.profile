@@ -9556,10 +9556,6 @@
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>copado__Compliance_Rule_Group__c</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
         <tab>copado__Compliance_Rule__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
