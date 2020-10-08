@@ -9556,10 +9556,6 @@
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>copado__Static_Code_Analysis_Settings__c</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
         <tab>copado__Team__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
