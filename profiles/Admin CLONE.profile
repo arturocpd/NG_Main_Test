@@ -8523,10 +8523,6 @@
         <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__PersonaPermissionOverride</apexPage>
-        <enabled>true</enabled>
-    </pageAccesses>
-    <pageAccesses>
         <apexPage>copado__PromoteBetatoReleased</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
