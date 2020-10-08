@@ -217,10 +217,6 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__DXOperationController</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>copado__DXPackageArtifactHelper</apexClass>
         <enabled>true</enabled>
     </classAccesses>
