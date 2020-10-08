@@ -8395,10 +8395,6 @@
         <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__StaticCodeAnalysisSettingsEdit</apexPage>
-        <enabled>true</enabled>
-    </pageAccesses>
-    <pageAccesses>
         <apexPage>copado__StaticCodeAnalysisSummary</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
