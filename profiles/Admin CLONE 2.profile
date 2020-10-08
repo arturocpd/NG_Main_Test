@@ -8209,10 +8209,6 @@
         <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__UserStoryMetadata</apexPage>
-        <enabled>true</enabled>
-    </pageAccesses>
-    <pageAccesses>
         <apexPage>copado__UserStoryPageWaitingFor</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
