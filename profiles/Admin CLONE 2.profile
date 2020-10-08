@@ -8365,10 +8365,6 @@
         <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__PromoteChanges</apexPage>
-        <enabled>true</enabled>
-    </pageAccesses>
-    <pageAccesses>
         <apexPage>copado__PromotionEdit</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
