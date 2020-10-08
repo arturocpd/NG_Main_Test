@@ -217,10 +217,6 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__DeploymentWizardExtension</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>copado__DestinationOrgTriggerHandler</apexClass>
         <enabled>true</enabled>
     </classAccesses>
