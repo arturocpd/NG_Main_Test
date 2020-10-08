@@ -8343,10 +8343,6 @@
         <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__ViewRelease</apexPage>
-        <enabled>true</enabled>
-    </pageAccesses>
-    <pageAccesses>
         <apexPage>copado__WorkManager</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
