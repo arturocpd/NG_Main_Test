@@ -8525,10 +8525,6 @@
         <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__DeploymentJobResults</apexPage>
-        <enabled>true</enabled>
-    </pageAccesses>
-    <pageAccesses>
         <apexPage>copado__DeploymentStatus</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
