@@ -8619,10 +8619,6 @@
         <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__GitCommitLookup</apexPage>
-        <enabled>true</enabled>
-    </pageAccesses>
-    <pageAccesses>
         <apexPage>copado__KanbanBoardEdit</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
