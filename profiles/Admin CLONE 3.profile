@@ -8301,10 +8301,6 @@
         <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__SeleniumTestCaseRollback</apexPage>
-        <enabled>true</enabled>
-    </pageAccesses>
-    <pageAccesses>
         <apexPage>copado__SeleniumTestCasesPerSuite</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
