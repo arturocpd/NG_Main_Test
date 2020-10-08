@@ -8359,10 +8359,6 @@
         <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__ViewExternalCIJob</apexPage>
-        <enabled>true</enabled>
-    </pageAccesses>
-    <pageAccesses>
         <apexPage>copado__ViewExternalCISetting</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
