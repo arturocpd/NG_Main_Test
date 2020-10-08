@@ -6510,9 +6510,6 @@
         <recordType>Event.Time</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Ext_Objt__x-Ext Objt Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>FeedItem-Feed Item Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
