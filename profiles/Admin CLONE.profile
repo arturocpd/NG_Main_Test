@@ -8335,10 +8335,6 @@
         <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__appHome</apexPage>
-        <enabled>true</enabled>
-    </pageAccesses>
-    <pageAccesses>
         <apexPage>copado__editScheduledJobsOverride</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
