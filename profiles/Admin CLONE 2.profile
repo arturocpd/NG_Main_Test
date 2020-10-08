@@ -217,10 +217,6 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__PackageArtifactOrgDefinitionController</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>copado__PatchMetadataService</apexClass>
         <enabled>true</enabled>
     </classAccesses>
