@@ -8469,10 +8469,6 @@
         <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__GitCommitChangesDX</apexPage>
-        <enabled>true</enabled>
-    </pageAccesses>
-    <pageAccesses>
         <apexPage>copado__GitCommitLookup</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
