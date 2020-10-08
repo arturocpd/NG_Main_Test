@@ -8569,10 +8569,6 @@
         <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__CommittedMetadata</apexPage>
-        <enabled>true</enabled>
-    </pageAccesses>
-    <pageAccesses>
         <apexPage>copado__ComplianceGettingStarted</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
