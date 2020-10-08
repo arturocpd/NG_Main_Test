@@ -8621,10 +8621,6 @@
         <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__ArtifactManageMetadata</apexPage>
-        <enabled>true</enabled>
-    </pageAccesses>
-    <pageAccesses>
         <apexPage>copado__ArtifactMetadata</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
