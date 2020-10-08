@@ -8723,10 +8723,6 @@
         <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__CloneSeleniumTestCase</apexPage>
-        <enabled>true</enabled>
-    </pageAccesses>
-    <pageAccesses>
         <apexPage>copado__CommittedMetadata</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
