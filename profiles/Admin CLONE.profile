@@ -8423,10 +8423,6 @@
         <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__SeleniumTestQuickRun</apexPage>
-        <enabled>true</enabled>
-    </pageAccesses>
-    <pageAccesses>
         <apexPage>copado__SeleniumTestResult</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
