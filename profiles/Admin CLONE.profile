@@ -9556,10 +9556,6 @@
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>copado__Environment__c</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
         <tab>copado__Epic__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
