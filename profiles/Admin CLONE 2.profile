@@ -217,10 +217,6 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__MockHttpResponseGenerator</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>copado__MultiselectController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
