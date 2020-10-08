@@ -8331,10 +8331,6 @@
         <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__editSeleniumSettingOverride</apexPage>
-        <enabled>true</enabled>
-    </pageAccesses>
-    <pageAccesses>
         <apexPage>copado__newEnvironmentOverride</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
