@@ -8505,10 +8505,6 @@
         <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__EditOrg</apexPage>
-        <enabled>true</enabled>
-    </pageAccesses>
-    <pageAccesses>
         <apexPage>copado__EditOrgDiff</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
