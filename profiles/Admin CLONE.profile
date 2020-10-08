@@ -9540,10 +9540,6 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>Change_Management_Integration_Credential__c</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
         <tab>Delete_me__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
