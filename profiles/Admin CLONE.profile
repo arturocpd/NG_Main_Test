@@ -8647,10 +8647,6 @@
         <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__ExecuteTestRun</apexPage>
-        <enabled>true</enabled>
-    </pageAccesses>
-    <pageAccesses>
         <apexPage>copado__FindingsMetadataGrid</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
