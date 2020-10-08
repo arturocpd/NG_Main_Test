@@ -8643,10 +8643,6 @@
         <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__FindingsMetadataGrid</apexPage>
-        <enabled>true</enabled>
-    </pageAccesses>
-    <pageAccesses>
         <apexPage>copado__Flow_FindAndReplaceEditor</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
