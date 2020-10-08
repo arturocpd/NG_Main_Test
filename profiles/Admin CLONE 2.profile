@@ -217,10 +217,6 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__ManageGitBranchesController</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>copado__ManageRepositoryBranchesController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
