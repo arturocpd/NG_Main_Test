@@ -8525,10 +8525,6 @@
         <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__EditDeploymentTask</apexPage>
-        <enabled>true</enabled>
-    </pageAccesses>
-    <pageAccesses>
         <apexPage>copado__EditExternalCIJob</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
