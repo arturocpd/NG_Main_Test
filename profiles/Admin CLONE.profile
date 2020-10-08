@@ -8627,10 +8627,6 @@
         <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__GitCommitChanges</apexPage>
-        <enabled>true</enabled>
-    </pageAccesses>
-    <pageAccesses>
         <apexPage>copado__GitCommitChangesDX</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
