@@ -9403,10 +9403,6 @@
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>copado__Release__c</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
         <tab>copado__Scheduled_Job__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
