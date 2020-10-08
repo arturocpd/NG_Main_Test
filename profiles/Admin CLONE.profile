@@ -9556,10 +9556,6 @@
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>copado__Persona__c</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
         <tab>copado__Project__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
