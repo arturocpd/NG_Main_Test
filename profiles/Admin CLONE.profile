@@ -8679,10 +8679,6 @@
         <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__DeploymentStatus</apexPage>
-        <enabled>true</enabled>
-    </pageAccesses>
-    <pageAccesses>
         <apexPage>copado__DeploymentWizard</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
