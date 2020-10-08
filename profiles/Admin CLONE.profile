@@ -8747,10 +8747,6 @@
         <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>CopadoSyncUserStories</apexPage>
-        <enabled>true</enabled>
-    </pageAccesses>
-    <pageAccesses>
         <apexPage>EditChangeManagementIntegration</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
