@@ -217,10 +217,6 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__CalculateOrgDifferences</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>copado__CalculateSnapshotDifferences</apexClass>
         <enabled>true</enabled>
     </classAccesses>
