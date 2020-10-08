@@ -8357,10 +8357,6 @@
         <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__ScheduledJobSchedule</apexPage>
-        <enabled>true</enabled>
-    </pageAccesses>
-    <pageAccesses>
         <apexPage>copado__ScheduledJobViewOverride</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
