@@ -8413,10 +8413,6 @@
         <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__KanbanBoardView</apexPage>
-        <enabled>true</enabled>
-    </pageAccesses>
-    <pageAccesses>
         <apexPage>copado__LicenseManager</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
