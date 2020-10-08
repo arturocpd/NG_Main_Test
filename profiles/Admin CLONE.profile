@@ -8683,10 +8683,6 @@
         <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__DeploymentFlowConnections</apexPage>
-        <enabled>true</enabled>
-    </pageAccesses>
-    <pageAccesses>
         <apexPage>copado__DeploymentFlowStepBranchSelection</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
