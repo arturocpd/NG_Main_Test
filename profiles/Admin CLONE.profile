@@ -8383,10 +8383,6 @@
         <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__UserStoryAssignment</apexPage>
-        <enabled>true</enabled>
-    </pageAccesses>
-    <pageAccesses>
         <apexPage>copado__UserStoryBranchSelection</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
