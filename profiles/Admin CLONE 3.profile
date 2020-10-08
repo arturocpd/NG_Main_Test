@@ -8309,10 +8309,6 @@
         <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__SeleniumTestCasePerSuiteJson</apexPage>
-        <enabled>true</enabled>
-    </pageAccesses>
-    <pageAccesses>
         <apexPage>copado__SeleniumTestCasePromote</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
