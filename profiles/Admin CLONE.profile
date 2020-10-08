@@ -8391,10 +8391,6 @@
         <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__UserStory</apexPage>
-        <enabled>true</enabled>
-    </pageAccesses>
-    <pageAccesses>
         <apexPage>copado__UserStoryApexTestResults</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
