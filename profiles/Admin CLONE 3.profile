@@ -8261,10 +8261,6 @@
         <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__SeleniumTestSuite</apexPage>
-        <enabled>true</enabled>
-    </pageAccesses>
-    <pageAccesses>
         <apexPage>copado__Selenium_Test_Result</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
