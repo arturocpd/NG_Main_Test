@@ -456,6 +456,14 @@
             <translation><!-- Afghanistan 93 --></translation>
         </picklistValues>
         <picklistValues>
+            <masterLabel>Café</masterLabel>
+            <translation><!-- Café --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Décor</masterLabel>
+            <translation><!-- Décor --></translation>
+        </picklistValues>
+        <picklistValues>
             <masterLabel>New</masterLabel>
             <translation><!-- New --></translation>
         </picklistValues>
