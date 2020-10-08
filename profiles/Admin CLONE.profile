@@ -217,10 +217,6 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__MassAddToReleaseExtension</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>copado__MergeVersionController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
