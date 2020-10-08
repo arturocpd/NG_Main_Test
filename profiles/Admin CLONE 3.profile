@@ -8369,10 +8369,6 @@
         <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__PermissionSetExplorer</apexPage>
-        <enabled>true</enabled>
-    </pageAccesses>
-    <pageAccesses>
         <apexPage>copado__PersonaPermissionOverride</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
