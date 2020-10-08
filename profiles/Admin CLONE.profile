@@ -8543,10 +8543,6 @@
         <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__MetadataSelector</apexPage>
-        <enabled>true</enabled>
-    </pageAccesses>
-    <pageAccesses>
         <apexPage>copado__NewScratchOrgDefinition</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
