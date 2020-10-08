@@ -8495,10 +8495,6 @@
         <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__ScheduledJobViewOverride</apexPage>
-        <enabled>true</enabled>
-    </pageAccesses>
-    <pageAccesses>
         <apexPage>copado__ScratchOrgLoadMetadataErrors</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
