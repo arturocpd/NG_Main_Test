@@ -8743,10 +8743,6 @@
         <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>EditChangeManagementIntegration</apexPage>
-        <enabled>true</enabled>
-    </pageAccesses>
-    <pageAccesses>
         <apexPage>Exception</apexPage>
         <enabled>false</enabled>
     </pageAccesses>
