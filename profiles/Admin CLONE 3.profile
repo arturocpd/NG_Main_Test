@@ -217,10 +217,6 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__ArtifactPackageController</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>copado__AttachmentTriggerHandler</apexClass>
         <enabled>true</enabled>
     </classAccesses>
