@@ -9556,10 +9556,6 @@
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>copado__Git_Repository__c</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
         <tab>copado__Kanban_Board__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
