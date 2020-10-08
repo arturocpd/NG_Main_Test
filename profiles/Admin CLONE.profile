@@ -8463,10 +8463,6 @@
         <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__SeleniumTestCaseEditor</apexPage>
-        <enabled>true</enabled>
-    </pageAccesses>
-    <pageAccesses>
         <apexPage>copado__SeleniumTestCasePerSuiteJson</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
