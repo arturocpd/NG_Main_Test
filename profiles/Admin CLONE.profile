@@ -10509,10 +10509,6 @@
         <name>ConvertLeads</name>
     </userPermissions>
     <userPermissions>
-        <enabled>false</enabled>
-        <name>CreateAuditFields</name>
-    </userPermissions>
-    <userPermissions>
         <enabled>true</enabled>
         <name>CreateCustomizeDashboards</name>
     </userPermissions>
