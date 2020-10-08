@@ -8405,10 +8405,6 @@
         <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__ManageGitBranches</apexPage>
-        <enabled>true</enabled>
-    </pageAccesses>
-    <pageAccesses>
         <apexPage>copado__ManageSeleniumTesting</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
