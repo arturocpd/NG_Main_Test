@@ -9368,11 +9368,6 @@
     </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>false</default>
-        <recordType>copado__User_Story__c.copado__Bug</recordType>
-        <visible>false</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <default>false</default>
         <recordType>copado__User_Story__c.copado__Investigation</recordType>
         <visible>false</visible>
     </recordTypeVisibilities>
