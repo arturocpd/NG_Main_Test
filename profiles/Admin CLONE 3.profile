@@ -6847,10 +6847,6 @@
         <recordType>Task.General</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Task-Task Layout</layout>
-        <recordType>Task.Record_Type_on_Task</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>Territory2Model-Territory Model Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -9376,11 +9372,6 @@
         <default>true</default>
         <recordType>WorkOrderLineItem.WOLI_RT</recordType>
         <visible>true</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <default>false</default>
-        <recordType>copado__Compliance_Rule__c.copado__Other</recordType>
-        <visible>false</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>false</default>
