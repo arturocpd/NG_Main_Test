@@ -8379,10 +8379,6 @@
         <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__UserStoryCodeAnalysisRequested</apexPage>
-        <enabled>true</enabled>
-    </pageAccesses>
-    <pageAccesses>
         <apexPage>copado__UserStoryCommitIntermediary</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
