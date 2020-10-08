@@ -8181,10 +8181,6 @@
         <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__editScheduledJobsOverride</apexPage>
-        <enabled>true</enabled>
-    </pageAccesses>
-    <pageAccesses>
         <apexPage>copado__editSeleniumSettingOverride</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
