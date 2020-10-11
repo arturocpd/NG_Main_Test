@@ -156,6 +156,12 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>AssetWarrantyId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
         <fullName>Description</fullName>
         <encryptionScheme>None</encryptionScheme>
         <trackFeedHistory>false</trackFeedHistory>

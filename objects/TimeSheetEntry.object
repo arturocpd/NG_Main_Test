@@ -142,6 +142,10 @@
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
+        <fullName>LocationTimeZone</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
         <fullName>StartTime</fullName>
         <trackHistory>false</trackHistory>
     </fields>

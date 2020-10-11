@@ -158,6 +158,10 @@
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
+        <fullName>ExpirationDate</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
         <fullName>OrderId</fullName>
         <trackHistory>false</trackHistory>
         <type>Lookup</type>
@@ -195,6 +199,10 @@
         <fullName>Status</fullName>
         <trackHistory>false</trackHistory>
         <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>StatusCategory</fullName>
+        <trackHistory>false</trackHistory>
     </fields>
     <listViews>
         <fullName>All_ReturnOrders</fullName>

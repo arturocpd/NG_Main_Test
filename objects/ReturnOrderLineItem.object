@@ -169,11 +169,28 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>QuantityExpected</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>QuantityReceived</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>QuantityRejected</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
         <fullName>QuantityReturned</fullName>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>QuantityUnitOfMeasure</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>ReasonForRejection</fullName>
         <trackHistory>false</trackHistory>
         <type>Picklist</type>
     </fields>

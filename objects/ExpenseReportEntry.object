@@ -130,94 +130,47 @@
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>ControlledByParent</externalSharingModel>
     <fields>
-        <fullName>ActiveFromDate</fullName>
+        <fullName>Amount</fullName>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
-        <fullName>ActiveToDate</fullName>
+        <fullName>ExpenseId</fullName>
         <trackHistory>false</trackHistory>
+        <type>Lookup</type>
     </fields>
     <fields>
-        <fullName>AreaCode</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>BestTimeToContactEndTime</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>BestTimeToContactStartTime</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>BestTimeToContactTimezone</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>ExtensionNumber</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>FormattedInternationalPhoneNumber</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>FormattedNationalPhoneNumber</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>IsBusinessPhone</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>IsFaxCapable</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>IsPersonalPhone</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>IsPrimary</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>IsSmsCapable</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>ParentId</fullName>
+        <fullName>ExpenseReportId</fullName>
         <trackHistory>false</trackHistory>
         <type>MasterDetail</type>
     </fields>
     <fields>
-        <fullName>PhoneType</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>PreferenceRank</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>TelephoneNumber</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>UsageType</fullName>
-        <trackHistory>false</trackHistory>
+        <fullName>ExpenseType</fullName>
         <type>Picklist</type>
     </fields>
+    <fields>
+        <fullName>Title</fullName>
+    </fields>
+    <fields>
+        <fullName>TransactionDate</fullName>
+    </fields>
+    <listViews>
+        <fullName>All_ExpenseReportEntries</fullName>
+        <filterScope>Everything</filterScope>
+        <label>Todos los entradas de informes de gastos</label>
+    </listViews>
     <searchLayouts>
-        <customTabListAdditionalFields>TelephoneNumber</customTabListAdditionalFields>
-        <customTabListAdditionalFields>ActiveFromDate</customTabListAdditionalFields>
-        <customTabListAdditionalFields>LastModifiedDate</customTabListAdditionalFields>
-        <customTabListAdditionalFields>LastModifiedBy</customTabListAdditionalFields>
-        <customTabListAdditionalFields>Parent</customTabListAdditionalFields>
-        <searchResultsAdditionalFields>TelephoneNumber</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>ActiveFromDate</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>LastModifiedDate</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>LastModifiedBy</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>Parent</searchResultsAdditionalFields>
+        <customTabListAdditionalFields>Expense</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Amount</customTabListAdditionalFields>
+        <customTabListAdditionalFields>ExpenseReport</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>Expense</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Amount</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>ExpenseReport</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Expense</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Amount</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>ExpenseReport</lookupPhoneDialogsAdditionalFields>
+        <searchResultsAdditionalFields>Expense</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Amount</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ExpenseReport</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>ControlledByParent</sharingModel>
 </CustomObject>

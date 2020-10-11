@@ -130,94 +130,95 @@
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>ControlledByParent</externalSharingModel>
     <fields>
-        <fullName>ActiveFromDate</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>ActiveToDate</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>AreaCode</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>BestTimeToContactEndTime</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>BestTimeToContactStartTime</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>BestTimeToContactTimezone</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>ExtensionNumber</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>FormattedInternationalPhoneNumber</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>FormattedNationalPhoneNumber</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>IsBusinessPhone</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>IsFaxCapable</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>IsPersonalPhone</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>IsPrimary</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>IsSmsCapable</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>ParentId</fullName>
+        <fullName>AssetId</fullName>
         <trackHistory>false</trackHistory>
         <type>MasterDetail</type>
     </fields>
     <fields>
-        <fullName>PhoneType</fullName>
+        <fullName>EndDate</fullName>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
-        <fullName>PreferenceRank</fullName>
+        <fullName>ExchangeType</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Exclusions</fullName>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
-        <fullName>TelephoneNumber</fullName>
+        <fullName>ExpensesCovered</fullName>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
-        <fullName>UsageType</fullName>
+        <fullName>ExpensesCoveredEndDate</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>IsTransferable</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>LaborCovered</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>LaborCoveredEndDate</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>PartsCovered</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>PartsCoveredEndDate</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Pricebook2Id</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>StartDate</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>WarrantyTermId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>WarrantyType</fullName>
         <trackHistory>false</trackHistory>
         <type>Picklist</type>
     </fields>
     <searchLayouts>
-        <customTabListAdditionalFields>TelephoneNumber</customTabListAdditionalFields>
-        <customTabListAdditionalFields>ActiveFromDate</customTabListAdditionalFields>
-        <customTabListAdditionalFields>LastModifiedDate</customTabListAdditionalFields>
-        <customTabListAdditionalFields>LastModifiedBy</customTabListAdditionalFields>
-        <customTabListAdditionalFields>Parent</customTabListAdditionalFields>
-        <searchResultsAdditionalFields>TelephoneNumber</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>ActiveFromDate</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>LastModifiedDate</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>LastModifiedBy</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>Parent</searchResultsAdditionalFields>
+        <customTabListAdditionalFields>WarrantyTerm</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Asset</customTabListAdditionalFields>
+        <customTabListAdditionalFields>StartDate</customTabListAdditionalFields>
+        <customTabListAdditionalFields>EndDate</customTabListAdditionalFields>
+        <customTabListAdditionalFields>WarrantyType</customTabListAdditionalFields>
+        <customTabListAdditionalFields>ExchangeType</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>WarrantyTerm</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Asset</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>StartDate</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>EndDate</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>WarrantyType</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>ExchangeType</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>WarrantyTerm</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Asset</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>StartDate</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>EndDate</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>WarrantyType</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>ExchangeType</lookupPhoneDialogsAdditionalFields>
+        <searchResultsAdditionalFields>WarrantyTerm</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Asset</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>StartDate</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>EndDate</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>WarrantyType</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ExchangeType</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>ControlledByParent</sharingModel>
 </CustomObject>
