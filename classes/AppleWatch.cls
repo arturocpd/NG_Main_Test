@@ -19,11 +19,7 @@ public Void doWork14(){}
 public Void doWork15(){}
 public Void doWork16(){}
 public Void doWork17(){}
-public Void doWork18(){}
-public Void doWork19(){}
-public Void doWork20(){}
-public Void doWork21(){}
-public Void doWork22(){}
+
 
  Public Static void appleWatchmethod(list<Opportunity> lopt ){
     for (Opportunity opp : lopt) {
