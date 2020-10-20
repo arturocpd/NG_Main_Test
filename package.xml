@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Child product 2 (222 / e027aa55-d6f6-fc0d-bc6a-001b40b1bd90)</members>
-        <members>Child product 3 (333 / 1f114692-f848-075b-244e-f1ff8e60be8f)</members>
-        <members>Main Product (111 / 23b76c59-a630-9d7b-023f-71506aaca661)</members>
+        <members>$ Child 1 (Child 1 / 597bc310-dcfe-1789-41b9-ccf137cfd6f1)</members>
+        <members>$ Child 2 (Child 2 / f1a03b85-a16f-9f45-7c44-f75c154aca7b)</members>
+        <members>Main Product 2 (main2 / 1a5ededf-bd73-8b35-11f7-bdbb7d00e2f8)</members>
         <name>Product2</name>
     </types>
     <version>49.0</version>
