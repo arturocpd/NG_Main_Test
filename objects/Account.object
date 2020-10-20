@@ -2014,8 +2014,27 @@ Description Line 3</description>
         <fullName>Record_Type1</fullName>
         <active>true</active>
         <compactLayoutAssignment>Compact_Test</compactLayoutAssignment>
-        <description>Description</description>
+        <description>Description MOD</description>
         <label>Record Type1</label>
+        <picklistValues>
+            <picklist>Label__c</picklist>
+            <values>
+                <fullName>Four</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>One</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Three</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Two</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
         <picklistValues>
             <picklist>PA_Test_Field__c</picklist>
             <values>
