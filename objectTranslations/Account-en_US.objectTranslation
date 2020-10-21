@@ -294,7 +294,7 @@
         <name>RT_Nested_Test</name>
     </recordTypes>
     <recordTypes>
-        <description><!-- Description --></description>
+        <description><!-- Description MOD --></description>
         <label><!-- Record Type1 --></label>
         <name>Record_Type1</name>
     </recordTypes>

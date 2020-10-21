@@ -2526,7 +2526,7 @@ Description Line 3</description>
         <fullName>Record_Type1</fullName>
         <active>true</active>
         <compactLayoutAssignment>Compact_Test</compactLayoutAssignment>
-        <description>Description</description>
+        <description>Description MOD</description>
         <label>Record Type1</label>
         <picklistValues>
             <picklist>ASCII_Test__c</picklist>
