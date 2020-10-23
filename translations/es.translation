@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Translations xmlns="http://soap.sforce.com/2006/04/metadata">
     <customLabels>
+        <label>Resumen de Cuenta Modified</label>
+        <name>ACCOUNT_SUMMARY</name>
+    </customLabels>
+    <customLabels>
         <label>Cabecera Columna Accion</label>
         <name>ACTION_COLUMN_HEADER</name>
     </customLabels>
