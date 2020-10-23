@@ -1,13 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Case.BitCoin__c</members>
-        <members>Case.CI_test_2__c</members>
-        <name>CustomField</name>
+        <members>SalesEdgeEltWorkflow</members>
+        <members>Wave_for_Sales_Managers</members>
+        <name>WaveDataflow</name>
     </types>
     <types>
-        <members>test bug fix_v1</members>
-        <name>EntitlementProcess</name>
+        <members>Offer_transaction</members>
+        <members>event1</members>
+        <members>opportunities</members>
+        <members>opportunity1</members>
+        <members>opportunity_products1</members>
+        <members>pipeline_trending1</members>
+        <members>plain_quota1</members>
+        <members>products_opportunities</members>
+        <members>quota1</members>
+        <members>task1</members>
+        <members>user1</members>
+        <members>user_role1</members>
+        <name>WaveDataset</name>
+    </types>
+    <types>
+        <members>Offer_transaction</members>
+        <name>WaveRecipe</name>
     </types>
     <version>49.0</version>
 </Package>
