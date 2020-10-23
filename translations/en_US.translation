@@ -2845,8 +2845,8 @@
         <name>Toggle_User_Stories_Ahead_and_Behind</name>
     </customLabels>
     <customLabels>
-        <label>Translation to english MOD</label>
-        <name>Translation_Test</name>
+        <label><!-- ACCOUNT SUMMARY --></label>
+        <name>ACCOUNT_SUMMARY</name>
     </customLabels>
     <customLabels>
         <label><!-- Translation Test NEW --></label>
