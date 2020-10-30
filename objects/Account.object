@@ -499,6 +499,7 @@
         <label>PA Test Field</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
         <type>Picklist</type>
         <valueSet>
             <restricted>true</restricted>
@@ -548,6 +549,16 @@
                     <fullName>PA Fix</fullName>
                     <default>false</default>
                     <label>PA Fix</label>
+                </value>
+                <value>
+                    <fullName>Do not move</fullName>
+                    <default>false</default>
+                    <label>Do not move</label>
+                </value>
+                <value>
+                    <fullName>Auto Resolve Test</fullName>
+                    <default>false</default>
+                    <label>Auto Resolve Test</label>
                 </value>
             </valueSetDefinition>
         </valueSet>

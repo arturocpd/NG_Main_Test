@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Account.Label__c</members>
+        <members>Account.PA_Test_Field__c</members>
         <name>CustomField</name>
     </types>
     <types>
-        <members>Account.Record_Type1</members>
-        <members>Account.Record_Type2</members>
+        <members>PersonAccount.PersonAccount</members>
         <name>RecordType</name>
     </types>
     <version>49.0</version>

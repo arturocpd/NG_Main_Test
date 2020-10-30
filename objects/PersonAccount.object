@@ -412,6 +412,10 @@
         <picklistValues>
             <picklist>PA_Test_Field__c</picklist>
             <values>
+                <fullName>Auto Resolve Test</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>PA Fix</fullName>
                 <default>false</default>
             </values>
