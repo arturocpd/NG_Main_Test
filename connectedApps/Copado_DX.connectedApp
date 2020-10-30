@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>ar@copa.do</contactEmail>
+    <label>Copado DX</label>
+    <oauthConfig>
+        <callbackUrl>http://localhost:1717/OauthRedirect</callbackUrl>
+        <certificate>MIIC5jCCAc4CCQC8indbNy0h+jANBgkqhkiG9w0BAQsFADA0MQswCQYDVQQGEwJVUzEPMA0GA1UECgwGQ29wYWRvMRQwEgYDVQQDDAt3d3cuY29wYS5kbzAgFw0xOTA4MDIwOTU4MTRaGA8yMTI5MDIwNjA5NTgxNFowNDELMAkGA1UEBhMCVVMxDzANBgNVBAoMBkNvcGFkbzEUMBIGA1UEAwwLd3d3LmNvcGEuZG8wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCqGK/1l5VuksrxUrR+WMTZzh7GoigMlKE2fTxnpXjy/LCQ2OC+6AciO1i+bltu3vy3XNDYL5FcjkmiiK26XmoPNFEFXupZDqqg7bk+htr4IrkxFouXd6J/NOPAOTMIil0rlS7gKNt/DANV3uwzFsVz3OMZGMSvVXsjTxxexiYXHR3pcIBEAmhrr7oQmMKhExMUnwY9AqkYgLNtD/VoBnPOG/3S3TqVxWhLYKfkFOLp/O65YG3JHZxa7lbzb4vwXB31slfuUN9pDPA0TEn6hEIDStvXD3E9LB4EhTm1ueFt3TOAaQwdIxDN3b8lPT4yqxGxBUFrgK9XHVHc7h6phjAJAgMBAAEwDQYJKoZIhvcNAQELBQADggEBAHWm9pKx+QuOfglhfFRF3Yv+FAa8PHEsFOUMxYLRTy58u3iSluVLKvBZBzsznbKsv12K7luiBbMpAvNMwNg8NAeHrvabPhsud9E6kh/ysvToN7gSRNtkYylQMUsWY5PLSWshckOIFXTkQgouvTb9io38yTAVOYNViFp34ToEQ3m5vEJNAlou+sILLGnuM1xy9LobOHuNHpIJc3FInYgsv0egngp19rfb7lQ746X+WLmy13pu0v5nnkmhWqD07ozkqF21FLBJUMBVISopC/dAxCKGaujebwgqVIUNW/x1kZgS9kcSIR/hhuGasU40CgC4kJM7pAUze/t02EERHBkt/XI=</certificate>
+        <consumerKey>579b0578bcb54b77b63c8b30f7187bb0a994d2d108744c6392bfe404af256b7f</consumerKey>
+        <isAdminApproved>true</isAdminApproved>
+        <scopes>Api</scopes>
+        <scopes>Web</scopes>
+        <scopes>Full</scopes>
+        <scopes>RefreshToken</scopes>
+    </oauthConfig>
+    <profileName>System Administrator</profileName>
+</ConnectedApp>
