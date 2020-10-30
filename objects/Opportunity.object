@@ -250,6 +250,11 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>CurrencyIsoCode</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
         <fullName>CurrentGenerators__c</fullName>
         <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>

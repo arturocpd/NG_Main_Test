@@ -1243,6 +1243,12 @@
         <unique>false</unique>
     </fields>
     <fields>
+        <fullName>CurrencyIsoCode</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
         <fullName>DeleteMe2__c</fullName>
         <defaultValue>false</defaultValue>
         <externalId>false</externalId>

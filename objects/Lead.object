@@ -321,6 +321,11 @@
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
+        <fullName>CurrencyIsoCode</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
         <fullName>CurrentGenerators__c</fullName>
         <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
