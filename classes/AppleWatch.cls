@@ -15,7 +15,7 @@ Public with sharing Class AppleWatch{
         insert t;
 
      /*Commit conflict1 Mod in Source and feature branch*/
-     /*Commit conflict2*/
+     /*Commit conflict2MOD*/
      
    }
   
