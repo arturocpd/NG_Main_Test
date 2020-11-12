@@ -449,201 +449,189 @@
         <name>person_account_record</name>
     </fields>
     <fields>
-        <label><!-- AccountLookup --></label>
+        <label></label>
         <name>AccountLookup__c</name>
-        <relationshipLabel><!-- Accounts --></relationshipLabel>
+        <relationshipLabel></relationshipLabel>
     </fields>
     <fields>
-        <label><!-- Account Number --></label>
+        <label></label>
         <name>Account_Number__c</name>
     </fields>
     <fields>
-        <label><!-- Accoutn Field 1 --></label>
+        <label></label>
         <name>Accoutn_Field_1__c</name>
     </fields>
     <fields>
-        <label>Activo</label>
-        <name>Active__c</name>
-        <picklistValues>
-            <masterLabel>No</masterLabel>
-            <translation><!-- No --></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>Yes</masterLabel>
-            <translation><!-- Yes --></translation>
-        </picklistValues>
-    </fields>
-    <fields>
-        <label><!-- Big --></label>
+        <label></label>
         <name>Big__c</name>
     </fields>
     <fields>
-        <label><!-- Customer Priority --></label>
+        <label></label>
         <name>CustomerPriority__c</name>
         <picklistValues>
             <masterLabel>High</masterLabel>
-            <translation><!-- High --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Low</masterLabel>
-            <translation><!-- Low --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Medium</masterLabel>
-            <translation><!-- Medium --></translation>
+            <translation></translation>
         </picklistValues>
     </fields>
     <fields>
-        <label><!-- External Id --></label>
+        <label></label>
         <name>External_Id__c</name>
     </fields>
     <fields>
-        <label><!-- Nested Test RT --></label>
+        <label></label>
         <name>Nested_Test_RT__c</name>
         <picklistValues>
             <masterLabel>Destructive1</masterLabel>
-            <translation><!-- Destructive1 --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Destructive2</masterLabel>
-            <translation><!-- Destructive2 --></translation>
+            <translation></translation>
         </picklistValues>
     </fields>
     <fields>
-        <label><!-- Number of Locations --></label>
+        <label></label>
         <name>NumberofLocations__c</name>
     </fields>
     <fields>
-        <label><!-- PA Test Field --></label>
+        <label></label>
         <name>PA_Test_Field__c</name>
         <picklistValues>
             <masterLabel>PA Fix</masterLabel>
-            <translation><!-- PA Fix --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>PLUS 1500 (0597)</masterLabel>
-            <translation><!-- PLUS 1500 (0597) --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Test PA</masterLabel>
-            <translation><!-- Test PA --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Value 1</masterLabel>
-            <translation><!-- Value 1 --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Value 2</masterLabel>
-            <translation><!-- Value 2 --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Value 4</masterLabel>
-            <translation><!-- Value 4 --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Value3</masterLabel>
-            <translation><!-- Value3 --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Value5</masterLabel>
-            <translation><!-- Value5 --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>new</masterLabel>
-            <translation><!-- new --></translation>
+            <translation></translation>
         </picklistValues>
     </fields>
     <fields>
-        <label><!-- SLA Expiration Date --></label>
+        <label></label>
         <name>SLAExpirationDate__c</name>
     </fields>
     <fields>
-        <label><!-- SLA Serial Number --></label>
+        <label></label>
         <name>SLASerialNumber__c</name>
     </fields>
     <fields>
-        <label><!-- SLA --></label>
+        <label></label>
         <name>SLA__c</name>
         <picklistValues>
             <masterLabel>Bronze</masterLabel>
-            <translation><!-- Bronze --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Gold</masterLabel>
-            <translation><!-- Gold --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Iron</masterLabel>
-            <translation><!-- Iron --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Platinum</masterLabel>
-            <translation><!-- Platinum --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Silver</masterLabel>
-            <translation><!-- Silver --></translation>
+            <translation></translation>
         </picklistValues>
     </fields>
     <fields>
-        <label><!-- SubTrade Channel --></label>
+        <label></label>
         <name>SubTrade_Channel__c</name>
         <picklistValues>
             <masterLabel>001 - Bakery</masterLabel>
-            <translation><!-- 001 - Bakery --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>020</masterLabel>
-            <translation><!-- 020 --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>021 - Hotell</masterLabel>
-            <translation><!-- 021 - Hotell --></translation>
+            <translation></translation>
         </picklistValues>
     </fields>
     <fields>
-        <label><!-- Upsell Opportunity --></label>
+        <label></label>
         <name>UpsellOpportunity__c</name>
         <picklistValues>
             <masterLabel>Maybe</masterLabel>
-            <translation><!-- Maybe --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>No</masterLabel>
-            <translation><!-- No --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Yes</masterLabel>
-            <translation><!-- Yes --></translation>
+            <translation></translation>
         </picklistValues>
     </fields>
     <fields>
-        <label><!-- xyz Account Number --></label>
+        <label></label>
         <name>xyz_Account_Number__c</name>
     </fields>
     <gender>Feminine</gender>
     <recordTypes>
-        <label><!-- Business Account --></label>
+        <label></label>
         <name>Business_Account</name>
     </recordTypes>
     <recordTypes>
-        <label><!-- DeleteRTacc --></label>
+        <label></label>
         <name>DeleteRTacc</name>
     </recordTypes>
     <recordTypes>
-        <label><!-- RT Nested Test --></label>
+        <label></label>
         <name>RT_Nested_Test</name>
     </recordTypes>
     <recordTypes>
-        <label><!-- Record Type1 --></label>
+        <label></label>
         <name>Record_Type1</name>
     </recordTypes>
     <recordTypes>
-        <label><!-- Record Type2 --></label>
+        <label></label>
         <name>Record_Type2</name>
     </recordTypes>
     <validationRules>
-        <errorMessage><!-- This error will be never displayed. --></errorMessage>
+        <errorMessage></errorMessage>
         <name>New_Validation_Acc</name>
     </validationRules>
     <validationRules>
@@ -655,7 +643,7 @@
         <name>Validation</name>
     </validationRules>
     <webLinks>
-        <label><!-- Billing --></label>
+        <label></label>
         <name>Billing</name>
     </webLinks>
 </CustomObjectTranslation>
