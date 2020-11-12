@@ -609,6 +609,15 @@
         <label>All Open Leads</label>
     </listViews>
     <listViews>
+        <fullName>Leads_Queue_Lead</fullName>
+        <filterScope>Queue</filterScope>
+        <label>Leads Queue</label>
+        <queue>Leads_Queue</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
         <fullName>MyUnreadLeads</fullName>
         <filterScope>Mine</filterScope>
         <filters>
