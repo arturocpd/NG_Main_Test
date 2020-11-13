@@ -3573,6 +3573,10 @@
         <name>Test_Index__c</name>
     </fields>
     <fields>
+        <label><!-- Test conflict --></label>
+        <name>Test_conflict__c</name>
+    </fields>
+    <fields>
         <label><!-- Training field --></label>
         <name>Training_field__c</name>
     </fields>
