@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Account.Label__c</members>
-        <name>CustomField</name>
+        <members>Investigate_MultiAuto_English</members>
+        <members>Test Labs_MultiAuto_English</members>
+        <members>Test Labs_Vision_English</members>
+        <name>OmniScript</name>
     </types>
-    <types>
-        <members>Account.Record_Type1</members>
-        <members>Account.Record_Type2</members>
-        <name>RecordType</name>
-    </types>
-    <version>49.0</version>
+    <version>50.0</version>
 </Package>
