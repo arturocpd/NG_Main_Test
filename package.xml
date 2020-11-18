@@ -1,13 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Account.SLA__c</members>
-        <name>CustomField</name>
+        <members>AccountOperations</members>
+        <members>AppleWatch</members>
+        <members>AppleWatchTest</members>
+        <members>ChangePasswordController</members>
+        <members>ChangePasswordControllerTest</members>
+        <members>CommunitiesLandingController</members>
+        <members>CommunitiesLandingControllerTest</members>
+        <members>CommunitiesLoginController</members>
+        <members>CommunitiesLoginControllerTest</members>
+        <members>CommunitiesSelfRegConfirmController</members>
+        <members>CommunitiesSelfRegConfirmControllerTest</members>
+        <members>CommunitiesSelfRegController</members>
+        <members>CommunitiesSelfRegControllerTest</members>
+        <members>CoursManager</members>
+        <members>CourseManagerTest</members>
+        <members>CourseManagerX</members>
+        <members>DeleteClassX</members>
+        <members>Flow_LevelTest</members>
+        <members>ForgotPasswordController</members>
+        <members>ForgotPasswordControllerTest</members>
+        <members>LightningForgotPasswordController</members>
+        <members>LightningForgotPasswordControllerTest</members>
+        <members>LightningLoginFormController</members>
+        <members>LightningLoginFormControllerTest</members>
+        <members>LightningSelfRegisterController</members>
+        <members>LightningSelfRegisterControllerTest</members>
+        <members>MyProfilePageController</members>
+        <members>MyProfilePageControllerTest</members>
+        <members>SiteLoginController</members>
+        <members>SiteLoginControllerTest</members>
+        <members>SiteRegisterController</members>
+        <members>SiteRegisterControllerTest</members>
+        <members>Update_Opp_on_CreationTest</members>
+        <name>ApexClass</name>
     </types>
-    <types>
-        <members>Account.Record_Type1MOD</members>
-        <members>Account.Record_Type2</members>
-        <name>RecordType</name>
-    </types>
-    <version>48.0</version>
+    <version>50.0</version>
 </Package>
