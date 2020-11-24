@@ -237,10 +237,6 @@
         <visible>true</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
-        <recordType>Dinner__c.Dinner_RT10</recordType>
-        <visible>true</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
         <recordType>Dinner__c.Dinner_RT2</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
