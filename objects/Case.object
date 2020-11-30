@@ -1293,8 +1293,11 @@
             <valueSettings>
                 <controllingFieldValue>Controlling 1</controllingFieldValue>
                 <controllingFieldValue>Controlling 2</controllingFieldValue>
-                <controllingFieldValue>Controlling 3</controllingFieldValue>
                 <valueName>Dependent 2</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Controlling 2</controllingFieldValue>
+                <valueName>Dependent 3</valueName>
             </valueSettings>
         </valueSet>
     </fields>
