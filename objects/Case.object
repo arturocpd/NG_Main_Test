@@ -898,6 +898,21 @@
                     <default>false</default>
                     <label>Controlling 3</label>
                 </value>
+                <value>
+                    <fullName>Dev1-1</fullName>
+                    <default>false</default>
+                    <label>Dev1-1</label>
+                </value>
+                <value>
+                    <fullName>Dev1-2</fullName>
+                    <default>false</default>
+                    <label>Dev1-2</label>
+                </value>
+                <value>
+                    <fullName>Dev1-3</fullName>
+                    <default>false</default>
+                    <label>Dev1-3</label>
+                </value>
             </valueSetDefinition>
         </valueSet>
     </fields>
@@ -915,7 +930,7 @@
             <valueSetDefinition>
                 <sorted>false</sorted>
                 <value>
-                    <fullName>Dependent 1</fullName>
+                    <fullName>New Dependent 1</fullName>
                     <default>false</default>
                     <label>Dependent 1</label>
                 </value>
@@ -933,7 +948,8 @@
             <valueSettings>
                 <controllingFieldValue>Controlling 1</controllingFieldValue>
                 <controllingFieldValue>Controlling 2</controllingFieldValue>
-                <valueName>Dependent 1</valueName>
+                <controllingFieldValue>Controlling 3</controllingFieldValue>
+                <valueName>New Dependent 1</valueName>
             </valueSettings>
             <valueSettings>
                 <controllingFieldValue>Controlling 1</controllingFieldValue>
@@ -941,7 +957,7 @@
                 <valueName>Dependent 2</valueName>
             </valueSettings>
             <valueSettings>
-                <controllingFieldValue>Controlling 3</controllingFieldValue>
+                <controllingFieldValue>Controlling 2</controllingFieldValue>
                 <valueName>Dependent 3</valueName>
             </valueSettings>
         </valueSet>
