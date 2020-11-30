@@ -898,6 +898,21 @@
                     <default>false</default>
                     <label>Controlling 3</label>
                 </value>
+                <value>
+                    <fullName>Dev1-1</fullName>
+                    <default>false</default>
+                    <label>Dev1-1</label>
+                </value>
+                <value>
+                    <fullName>Dev1-2</fullName>
+                    <default>false</default>
+                    <label>Dev1-2</label>
+                </value>
+                <value>
+                    <fullName>Dev1-3</fullName>
+                    <default>false</default>
+                    <label>Dev1-3</label>
+                </value>
             </valueSetDefinition>
         </valueSet>
     </fields>
@@ -939,8 +954,11 @@
             <valueSettings>
                 <controllingFieldValue>Controlling 1</controllingFieldValue>
                 <controllingFieldValue>Controlling 2</controllingFieldValue>
-                <controllingFieldValue>Controlling 3</controllingFieldValue>
                 <valueName>Dependent 2</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Controlling 2</controllingFieldValue>
+                <valueName>Dependent 3</valueName>
             </valueSettings>
         </valueSet>
     </fields>
