@@ -1,0 +1,7 @@
+.gitignore
+**vlocity
+**.git
+/.git
+/deployment
+/.sfdx
+
