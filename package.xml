@@ -1,10 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>InteractionLauncher_AccountSearch_English</members>
-        <members>ThorManualTask_ThorManualTaskUpdate_English</members>
-        <members>autoWC_ReusableDriverInput_English</members>
+        <members>GetCensusRateType</members>
+        <members>PostPaymentMethod</members>
+        <members>SGCreateGroupAndCensus</members>
+        <members>SGGetRecordTypes</members>
+        <members>SGQuoteGetBrokerInfo</members>
+        <members>SGTransformForQuote</members>
+        <members>SICTypeAhead</members>
+        <members>getRatingFactSpec</members>
+        <name>DataRaptor</name>
+    </types>
+    <types>
+        <members>Investigate_Small Group Quoting_English</members>
+        <members>OmniScripts_Payment_English</members>
         <name>OmniScript</name>
+    </types>
+    <types>
+        <members>ins-os-census-member-upload</members>
+        <members>ins-os-plan-compare-modal</members>
+        <members>ins-os-small-group-plan-renewal</members>
+        <members>ins-os-small-group-plan-selection</members>
+        <name>VlocityUITemplate</name>
     </types>
     <version>50.0</version>
 </Package>
