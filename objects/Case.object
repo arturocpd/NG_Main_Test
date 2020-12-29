@@ -8068,7 +8068,7 @@
         <customTabListAdditionalFields>CASES.CASE_NUMBER</customTabListAdditionalFields>
         <customTabListAdditionalFields>CASES.SUBJECT</customTabListAdditionalFields>
         <customTabListAdditionalFields>CASES.CREATED_DATE</customTabListAdditionalFields>
-        <customTabListAdditionalFields>CASES.PRIORITY</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CASES.PRIORITYMOD</customTabListAdditionalFields>
         <lookupDialogsAdditionalFields>CASES.CASE_NUMBER</lookupDialogsAdditionalFields>
         <lookupDialogsAdditionalFields>CASES.SUBJECT</lookupDialogsAdditionalFields>
         <lookupDialogsAdditionalFields>NAME</lookupDialogsAdditionalFields>
