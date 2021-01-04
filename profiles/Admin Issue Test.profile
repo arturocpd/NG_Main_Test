@@ -8570,10 +8570,6 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>CreatePackaging</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
         <name>CreateReportFolders</name>
     </userPermissions>
     <userPermissions>
@@ -8793,10 +8789,6 @@
         <name>ImportPersonal</name>
     </userPermissions>
     <userPermissions>
-        <enabled>true</enabled>
-        <name>InstallPackaging</name>
-    </userPermissions>
-    <userPermissions>
         <enabled>false</enabled>
         <name>IsSsoEnabled</name>
     </userPermissions>
@@ -8986,10 +8978,6 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>ManagePackageLicenses</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
         <name>ManagePartners</name>
     </userPermissions>
     <userPermissions>
@@ -9141,11 +9129,11 @@
         <name>OptOutGeoLocationTracking</name>
     </userPermissions>
     <userPermissions>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
         <name>Packaging2</name>
     </userPermissions>
     <userPermissions>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
         <name>Packaging2Delete</name>
     </userPermissions>
     <userPermissions>
@@ -9167,10 +9155,6 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>PublishArticles</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>PublishPackaging</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
