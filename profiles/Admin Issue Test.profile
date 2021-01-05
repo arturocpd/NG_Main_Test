@@ -4898,10 +4898,6 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Event-Event Layout</layout>
-        <recordType>Event.Record_Type_on_Event</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Event-Event Layout</layout>
         <recordType>Event.Time</recordType>
     </layoutAssignments>
     <layoutAssignments>
