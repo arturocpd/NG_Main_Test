@@ -8599,10 +8599,6 @@
         <name>TwoFactorApi</name>
     </userPermissions>
     <userPermissions>
-        <enabled>false</enabled>
-        <name>UpdateWithInactiveOwner</name>
-    </userPermissions>
-    <userPermissions>
         <enabled>true</enabled>
         <name>UseTeamReassignWizards</name>
     </userPermissions>
