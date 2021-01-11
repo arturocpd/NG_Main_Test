@@ -41,6 +41,22 @@
         <value>Add Authentication</value>
     </labels>
     <labels>
+        <fullName>API_KEY</fullName>
+        <categories>Copado</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>API KEY</shortDescription>
+        <value>API Key</value>
+    </labels>
+    <labels>
+        <fullName>ARE_YOU_SURE</fullName>
+        <categories>Copado</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ARE YOU SURE</shortDescription>
+        <value>Are you sure?</value>
+    </labels>
+    <labels>
         <fullName>COMMITS_AHEAD</fullName>
         <language>en_US</language>
         <protected>true</protected>
