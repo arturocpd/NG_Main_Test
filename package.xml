@@ -5,9 +5,9 @@
         <name>CustomField</name>
     </types>
     <types>
-        <members>API_KEY</members>
-        <members>ARE_YOU_SURE</members>
-        <name>CustomLabel</name>
+        <members>Admin - CLONE</members>
+        <members>Admin CLONE 2</members>
+        <name>Profile</name>
     </types>
     <version>50.0</version>
 </Package>
