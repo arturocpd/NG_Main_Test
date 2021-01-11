@@ -3418,6 +3418,13 @@ If you press cancel or leave the comment blank, the snapshot will be cancelled.<
         <value>New CL from Dev3</value>
     </labels>
     <labels>
+        <fullName>New_CL_from_Dev3</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>New CL from Dev3</shortDescription>
+        <value>New CL from Dev3</value>
+    </labels>
+    <labels>
         <fullName>Node</fullName>
         <categories>ComplianceRuleCriteria</categories>
         <language>en_US</language>
@@ -5594,6 +5601,21 @@ For more details login to the Org and monitor the test execution under Setup/Dev
         <value>Type</value>
     </labels>
     <labels>
+        <fullName>TestCharacter</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>TestCharacters</shortDescription>
+        <value>&lt;PLACEHOLDER TEXT&gt;
+
+Date and names from CSM handoff session:
+
+Why did the business customer buy from Refinitiv? What is the use case?
+
+What are the specific customer expectations CSMs should know?
+
+Who are the primary contacts CSMs should engage?</value>
+    </labels>
+    <labels>
         <fullName>Test_Copado_deplo</fullName>
         <language>en_US</language>
         <protected>true</protected>
@@ -6407,27 +6429,5 @@ Type, Method, URL.</value>
         <protected>true</protected>
         <shortDescription>WorkManager_Title</shortDescription>
         <value>WORK MANAGER</value>
-    </labels>
-    <labels>
-        <fullName>TestCharacter</fullName>
-        <language>en_US</language>
-        <protected>true</protected>
-        <shortDescription>TestCharacters</shortDescription>
-        <value>&lt;PLACEHOLDER TEXT&gt;
-
-Date and names from CSM handoff session:
-
-Why did the business customer buy from Refinitiv? What is the use case?
-
-What are the specific customer expectations CSMs should know?
-
-Who are the primary contacts CSMs should engage?</value>
-    </labels>
-    <labels>
-        <fullName>New_CL_from_Dev3</fullName>
-        <language>en_US</language>
-        <protected>true</protected>
-        <shortDescription>New CL from Dev3</shortDescription>
-        <value>New CL from Dev3</value>
     </labels>
 </CustomLabels>
