@@ -3181,16 +3181,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Change_Management_Integration_Credential__c.Authentication_Method__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Change_Management_Integration_Credential__c.External_System__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>Cloud__c.Bottle2__c</field>
         <readable>true</readable>
     </fieldPermissions>
