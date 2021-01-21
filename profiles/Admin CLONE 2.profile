@@ -135,10 +135,6 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>CourseManagerX</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>Delete_me2</apexClass>
         <enabled>false</enabled>
     </classAccesses>
