@@ -6,6 +6,7 @@
     </types>
     <types>
         <members>Account.Business_Account</members>
+        <members>Account.KaiserTest</members>
         <members>PersonAccount.Commit_PA_RT</members>
         <members>PersonAccount.Cuenta_Personal</members>
         <members>PersonAccount.DMD_MyRecordType</members>
