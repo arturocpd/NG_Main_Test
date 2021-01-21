@@ -1,11 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Case.BitCoin__c</members>
-        <members>Case.CO1__c</members>
-        <members>Case.CO2__c</members>
-        <members>Case.Case_EEE__c</members>
-        <name>CustomField</name>
+        <members>PAKaiserTest</members>
+        <name>Profile</name>
+    </types>
+    <types>
+        <members>Account.Business_Account</members>
+        <members>Account.KaiserTest</members>
+        <members>PersonAccount.Commit_PA_RT</members>
+        <members>PersonAccount.Cuenta_Personal</members>
+        <members>PersonAccount.DMD_MyRecordType</members>
+        <members>PersonAccount.DMD_Test_Picklist_1_RT</members>
+        <members>PersonAccount.ELENA</members>
+        <members>PersonAccount.ELENA2</members>
+        <members>PersonAccount.PA_Issues</members>
+        <members>PersonAccount.PA_record_Type</members>
+        <members>PersonAccount.PersonAccount</members>
+        <members>PersonAccount.Profile_test</members>
+        <members>PersonAccount.RecordTypeName</members>
+        <members>PersonAccount.X5050</members>
+        <members>PersonAccount.dzprecord001</members>
+        <members>PersonAccount.name3_espace</members>
+        <name>RecordType</name>
     </types>
     <version>50.0</version>
 </Package>
