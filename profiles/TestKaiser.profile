@@ -5,7 +5,7 @@
         <default>true</default>
         <personAccountDefault>true</personAccountDefault>
         <recordType>Opportunity.Opp_RT_1</recordType>
-        <visible>true</visible>
+        <visible>false</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>false</default>
