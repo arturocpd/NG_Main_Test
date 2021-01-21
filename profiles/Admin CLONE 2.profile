@@ -9280,10 +9280,6 @@
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>copado__Selenium_Settings__c</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
         <tab>copado__Selenium_Test_Case__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
