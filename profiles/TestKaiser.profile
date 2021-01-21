@@ -10,7 +10,7 @@
     <recordTypeVisibilities>
         <default>false</default>
         <recordType>Opportunity.Opp_RT_2</recordType>
-        <visible>false</visible>
+        <visible>true</visible>
     </recordTypeVisibilities>
     <userLicense>Salesforce</userLicense>
     <userPermissions>
