@@ -6,11 +6,6 @@
         <visible>false</visible>
     </applicationVisibilities>
     <applicationVisibilities>
-        <application>copado__Copado</application>
-        <default>false</default>
-        <visible>true</visible>
-    </applicationVisibilities>
-    <applicationVisibilities>
         <application>copado__Copado_Branch_Management</application>
         <default>false</default>
         <visible>true</visible>
