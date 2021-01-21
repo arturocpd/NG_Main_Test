@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Case.BitCoin__c</members>
-        <name>CustomField</name>
+        <members>TestKaiser</members>
+        <name>Profile</name>
     </types>
     <types>
-        <members>Admin - CLONE</members>
-        <members>Admin CLONE 2</members>
-        <name>Profile</name>
+        <members>Opportunity.Opp_RT_1</members>
+        <members>Opportunity.Opp_RT_2</members>
+        <name>RecordType</name>
     </types>
     <version>50.0</version>
 </Package>
