@@ -9280,10 +9280,6 @@
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>copado__User_Story__c</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
         <tab>copado__Work_Manager</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
