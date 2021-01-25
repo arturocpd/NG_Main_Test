@@ -21,6 +21,7 @@
         <members>PersonAccount.DMD_MyRecordType</members>
         <members>PersonAccount.DMD_Test_Picklist_1_RT</members>
         <members>PersonAccount.ELENA</members>
+        <members>PersonAccount.ELENA2</members>
         <name>RecordType</name>
     </types>
     <version>50.0</version>
