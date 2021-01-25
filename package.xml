@@ -16,6 +16,11 @@
     <types>
         <members>Account.Business_Account</members>
         <members>Account.KaiserTest</members>
+        <members>PersonAccount.Commit_PA_RT</members>
+        <members>PersonAccount.Cuenta_Personal</members>
+        <members>PersonAccount.DMD_MyRecordType</members>
+        <members>PersonAccount.DMD_Test_Picklist_1_RT</members>
+        <members>PersonAccount.ELENA</members>
         <name>RecordType</name>
     </types>
     <version>50.0</version>
