@@ -5906,11 +5906,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>User.copado__Hide_Copado_feedback__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>User.copado__Show_Copado_Tips__c</field>
         <readable>true</readable>
     </fieldPermissions>
