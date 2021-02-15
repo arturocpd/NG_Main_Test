@@ -6301,11 +6301,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Static_Code_Analysis_Rule__c.copado__Message__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>copado__Static_Code_Analysis_Settings__c.copado__Cloud_Organization__c</field>
         <readable>true</readable>
     </fieldPermissions>
