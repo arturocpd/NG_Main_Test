@@ -9280,10 +9280,6 @@
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>copado__Continuous_Integration__c</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
         <tab>copado__Copado_DX_Panel</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
