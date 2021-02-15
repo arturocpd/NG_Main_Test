@@ -9280,10 +9280,6 @@
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>copado__Copado_Notification__c</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
         <tab>copado__Deployment_Flow__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
