@@ -6301,11 +6301,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Persona__c.copado__Description__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>copado__Project__c.Change_Management_Integration__c</field>
         <readable>true</readable>
     </fieldPermissions>
