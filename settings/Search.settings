@@ -12,6 +12,30 @@
     <recentlyViewedUsersForBlankLookupEnabled>true</recentlyViewedUsersForBlankLookupEnabled>
     <searchSettingsByObject>
         <searchSettingsByObject>
+            <enhancedLookupEnabled>false</enhancedLookupEnabled>
+            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
+            <name>ADD_Conficguration_Rule__c</name>
+            <resultsPerPageCount>25</resultsPerPageCount>
+        </searchSettingsByObject>
+        <searchSettingsByObject>
+            <enhancedLookupEnabled>false</enhancedLookupEnabled>
+            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
+            <name>ADD_Product_Action__c</name>
+            <resultsPerPageCount>25</resultsPerPageCount>
+        </searchSettingsByObject>
+        <searchSettingsByObject>
+            <enhancedLookupEnabled>false</enhancedLookupEnabled>
+            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
+            <name>ADD_Product_Rule__c</name>
+            <resultsPerPageCount>25</resultsPerPageCount>
+        </searchSettingsByObject>
+        <searchSettingsByObject>
+            <enhancedLookupEnabled>false</enhancedLookupEnabled>
+            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
+            <name>ADD_Product__c</name>
+            <resultsPerPageCount>25</resultsPerPageCount>
+        </searchSettingsByObject>
+        <searchSettingsByObject>
             <enhancedLookupEnabled>true</enhancedLookupEnabled>
             <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
             <name>Account</name>
@@ -20,14 +44,14 @@
         <searchSettingsByObject>
             <enhancedLookupEnabled>false</enhancedLookupEnabled>
             <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
-            <name>Account_Request__c</name>
-            <resultsPerPageCount>0</resultsPerPageCount>
+            <name>AccountBrand</name>
+            <resultsPerPageCount>25</resultsPerPageCount>
         </searchSettingsByObject>
         <searchSettingsByObject>
             <enhancedLookupEnabled>false</enhancedLookupEnabled>
             <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
-            <name>ActiveScratchOrg</name>
-            <resultsPerPageCount>25</resultsPerPageCount>
+            <name>Account_Request__c</name>
+            <resultsPerPageCount>0</resultsPerPageCount>
         </searchSettingsByObject>
         <searchSettingsByObject>
             <enhancedLookupEnabled>false</enhancedLookupEnabled>
@@ -44,7 +68,43 @@
         <searchSettingsByObject>
             <enhancedLookupEnabled>false</enhancedLookupEnabled>
             <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
+            <name>AssetAction</name>
+            <resultsPerPageCount>25</resultsPerPageCount>
+        </searchSettingsByObject>
+        <searchSettingsByObject>
+            <enhancedLookupEnabled>false</enhancedLookupEnabled>
+            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
+            <name>AssetActionSource</name>
+            <resultsPerPageCount>25</resultsPerPageCount>
+        </searchSettingsByObject>
+        <searchSettingsByObject>
+            <enhancedLookupEnabled>false</enhancedLookupEnabled>
+            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
+            <name>AssetDowntimePeriod</name>
+            <resultsPerPageCount>25</resultsPerPageCount>
+        </searchSettingsByObject>
+        <searchSettingsByObject>
+            <enhancedLookupEnabled>false</enhancedLookupEnabled>
+            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
+            <name>AssetLineItem__c</name>
+            <resultsPerPageCount>0</resultsPerPageCount>
+        </searchSettingsByObject>
+        <searchSettingsByObject>
+            <enhancedLookupEnabled>false</enhancedLookupEnabled>
+            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
             <name>AssetRelationship</name>
+            <resultsPerPageCount>25</resultsPerPageCount>
+        </searchSettingsByObject>
+        <searchSettingsByObject>
+            <enhancedLookupEnabled>false</enhancedLookupEnabled>
+            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
+            <name>AssetStatePeriod</name>
+            <resultsPerPageCount>25</resultsPerPageCount>
+        </searchSettingsByObject>
+        <searchSettingsByObject>
+            <enhancedLookupEnabled>false</enhancedLookupEnabled>
+            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
+            <name>AssetWarranty</name>
             <resultsPerPageCount>25</resultsPerPageCount>
         </searchSettingsByObject>
         <searchSettingsByObject>
@@ -81,7 +141,7 @@
             <enhancedLookupEnabled>false</enhancedLookupEnabled>
             <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
             <name>CSTM_Object__c</name>
-            <resultsPerPageCount>0</resultsPerPageCount>
+            <resultsPerPageCount>25</resultsPerPageCount>
         </searchSettingsByObject>
         <searchSettingsByObject>
             <enhancedLookupEnabled>false</enhancedLookupEnabled>
@@ -110,8 +170,20 @@
         <searchSettingsByObject>
             <enhancedLookupEnabled>false</enhancedLookupEnabled>
             <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
-            <name>Change_Management_Integration_Credential__c</name>
+            <name>ChannelProgram</name>
             <resultsPerPageCount>25</resultsPerPageCount>
+        </searchSettingsByObject>
+        <searchSettingsByObject>
+            <enhancedLookupEnabled>false</enhancedLookupEnabled>
+            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
+            <name>ChannelProgramLevel</name>
+            <resultsPerPageCount>25</resultsPerPageCount>
+        </searchSettingsByObject>
+        <searchSettingsByObject>
+            <enhancedLookupEnabled>false</enhancedLookupEnabled>
+            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
+            <name>Cloud__c</name>
+            <resultsPerPageCount>0</resultsPerPageCount>
         </searchSettingsByObject>
         <searchSettingsByObject>
             <enhancedLookupEnabled>false</enhancedLookupEnabled>
@@ -147,6 +219,12 @@
             <enhancedLookupEnabled>true</enhancedLookupEnabled>
             <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
             <name>Contact</name>
+            <resultsPerPageCount>25</resultsPerPageCount>
+        </searchSettingsByObject>
+        <searchSettingsByObject>
+            <enhancedLookupEnabled>false</enhancedLookupEnabled>
+            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
+            <name>ContactPointAddress</name>
             <resultsPerPageCount>25</resultsPerPageCount>
         </searchSettingsByObject>
         <searchSettingsByObject>
@@ -200,6 +278,12 @@
         <searchSettingsByObject>
             <enhancedLookupEnabled>false</enhancedLookupEnabled>
             <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
+            <name>Custom_json__c</name>
+            <resultsPerPageCount>0</resultsPerPageCount>
+        </searchSettingsByObject>
+        <searchSettingsByObject>
+            <enhancedLookupEnabled>false</enhancedLookupEnabled>
+            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
             <name>DandBCompany</name>
             <resultsPerPageCount>25</resultsPerPageCount>
         </searchSettingsByObject>
@@ -218,14 +302,14 @@
         <searchSettingsByObject>
             <enhancedLookupEnabled>false</enhancedLookupEnabled>
             <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
-            <name>Delete_me__c</name>
-            <resultsPerPageCount>0</resultsPerPageCount>
+            <name>DelegatedAccount</name>
+            <resultsPerPageCount>25</resultsPerPageCount>
         </searchSettingsByObject>
         <searchSettingsByObject>
             <enhancedLookupEnabled>false</enhancedLookupEnabled>
             <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
             <name>Dinner__c</name>
-            <resultsPerPageCount>0</resultsPerPageCount>
+            <resultsPerPageCount>25</resultsPerPageCount>
         </searchSettingsByObject>
         <searchSettingsByObject>
             <enhancedLookupEnabled>false</enhancedLookupEnabled>
@@ -260,7 +344,25 @@
         <searchSettingsByObject>
             <enhancedLookupEnabled>false</enhancedLookupEnabled>
             <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
+            <name>Expense</name>
+            <resultsPerPageCount>25</resultsPerPageCount>
+        </searchSettingsByObject>
+        <searchSettingsByObject>
+            <enhancedLookupEnabled>false</enhancedLookupEnabled>
+            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
+            <name>ExpenseReport</name>
+            <resultsPerPageCount>25</resultsPerPageCount>
+        </searchSettingsByObject>
+        <searchSettingsByObject>
+            <enhancedLookupEnabled>false</enhancedLookupEnabled>
+            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
             <name>Folder</name>
+            <resultsPerPageCount>25</resultsPerPageCount>
+        </searchSettingsByObject>
+        <searchSettingsByObject>
+            <enhancedLookupEnabled>false</enhancedLookupEnabled>
+            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
+            <name>GenderTest__c</name>
             <resultsPerPageCount>25</resultsPerPageCount>
         </searchSettingsByObject>
         <searchSettingsByObject>
@@ -272,13 +374,43 @@
         <searchSettingsByObject>
             <enhancedLookupEnabled>false</enhancedLookupEnabled>
             <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
+            <name>IdeaTheme</name>
+            <resultsPerPageCount>25</resultsPerPageCount>
+        </searchSettingsByObject>
+        <searchSettingsByObject>
+            <enhancedLookupEnabled>false</enhancedLookupEnabled>
+            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
             <name>Individual</name>
             <resultsPerPageCount>25</resultsPerPageCount>
         </searchSettingsByObject>
         <searchSettingsByObject>
             <enhancedLookupEnabled>false</enhancedLookupEnabled>
             <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
+            <name>KnowledgeArticleVersion</name>
+            <resultsPerPageCount>25</resultsPerPageCount>
+        </searchSettingsByObject>
+        <searchSettingsByObject>
+            <enhancedLookupEnabled>false</enhancedLookupEnabled>
+            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
+            <name>Knowledge__kav</name>
+            <resultsPerPageCount>25</resultsPerPageCount>
+        </searchSettingsByObject>
+        <searchSettingsByObject>
+            <enhancedLookupEnabled>false</enhancedLookupEnabled>
+            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
+            <name>LCRM_Account_Merge_UnMerge_Dup_Event__c</name>
+            <resultsPerPageCount>0</resultsPerPageCount>
+        </searchSettingsByObject>
+        <searchSettingsByObject>
+            <enhancedLookupEnabled>false</enhancedLookupEnabled>
+            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
             <name>Lead</name>
+            <resultsPerPageCount>25</resultsPerPageCount>
+        </searchSettingsByObject>
+        <searchSettingsByObject>
+            <enhancedLookupEnabled>false</enhancedLookupEnabled>
+            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
+            <name>LegalEntity</name>
             <resultsPerPageCount>25</resultsPerPageCount>
         </searchSettingsByObject>
         <searchSettingsByObject>
@@ -320,14 +452,14 @@
         <searchSettingsByObject>
             <enhancedLookupEnabled>false</enhancedLookupEnabled>
             <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
-            <name>NamespaceRegistry</name>
+            <name>Note</name>
             <resultsPerPageCount>25</resultsPerPageCount>
         </searchSettingsByObject>
         <searchSettingsByObject>
             <enhancedLookupEnabled>false</enhancedLookupEnabled>
             <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
-            <name>Note</name>
-            <resultsPerPageCount>25</resultsPerPageCount>
+            <name>OLS_Test__c</name>
+            <resultsPerPageCount>0</resultsPerPageCount>
         </searchSettingsByObject>
         <searchSettingsByObject>
             <enhancedLookupEnabled>false</enhancedLookupEnabled>
@@ -345,6 +477,36 @@
             <enhancedLookupEnabled>false</enhancedLookupEnabled>
             <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
             <name>Order</name>
+            <resultsPerPageCount>25</resultsPerPageCount>
+        </searchSettingsByObject>
+        <searchSettingsByObject>
+            <enhancedLookupEnabled>false</enhancedLookupEnabled>
+            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
+            <name>OrderLineItems__c</name>
+            <resultsPerPageCount>0</resultsPerPageCount>
+        </searchSettingsByObject>
+        <searchSettingsByObject>
+            <enhancedLookupEnabled>false</enhancedLookupEnabled>
+            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
+            <name>PartnerFundAllocation</name>
+            <resultsPerPageCount>25</resultsPerPageCount>
+        </searchSettingsByObject>
+        <searchSettingsByObject>
+            <enhancedLookupEnabled>false</enhancedLookupEnabled>
+            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
+            <name>PartnerFundClaim</name>
+            <resultsPerPageCount>25</resultsPerPageCount>
+        </searchSettingsByObject>
+        <searchSettingsByObject>
+            <enhancedLookupEnabled>false</enhancedLookupEnabled>
+            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
+            <name>PartnerFundRequest</name>
+            <resultsPerPageCount>25</resultsPerPageCount>
+        </searchSettingsByObject>
+        <searchSettingsByObject>
+            <enhancedLookupEnabled>false</enhancedLookupEnabled>
+            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
+            <name>PartnerMarketingBudget</name>
             <resultsPerPageCount>25</resultsPerPageCount>
         </searchSettingsByObject>
         <searchSettingsByObject>
@@ -398,8 +560,20 @@
         <searchSettingsByObject>
             <enhancedLookupEnabled>false</enhancedLookupEnabled>
             <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
+            <name>ProductServiceCampaignItem</name>
+            <resultsPerPageCount>25</resultsPerPageCount>
+        </searchSettingsByObject>
+        <searchSettingsByObject>
+            <enhancedLookupEnabled>false</enhancedLookupEnabled>
+            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
             <name>ProductTransfer</name>
             <resultsPerPageCount>25</resultsPerPageCount>
+        </searchSettingsByObject>
+        <searchSettingsByObject>
+            <enhancedLookupEnabled>false</enhancedLookupEnabled>
+            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
+            <name>Profile_test__c</name>
+            <resultsPerPageCount>0</resultsPerPageCount>
         </searchSettingsByObject>
         <searchSettingsByObject>
             <enhancedLookupEnabled>false</enhancedLookupEnabled>
@@ -410,7 +584,25 @@
         <searchSettingsByObject>
             <enhancedLookupEnabled>false</enhancedLookupEnabled>
             <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
+            <name>Quote_Proposal__c</name>
+            <resultsPerPageCount>0</resultsPerPageCount>
+        </searchSettingsByObject>
+        <searchSettingsByObject>
+            <enhancedLookupEnabled>false</enhancedLookupEnabled>
+            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
             <name>Recommendation</name>
+            <resultsPerPageCount>25</resultsPerPageCount>
+        </searchSettingsByObject>
+        <searchSettingsByObject>
+            <enhancedLookupEnabled>false</enhancedLookupEnabled>
+            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
+            <name>RecordsetFilterCriteria</name>
+            <resultsPerPageCount>25</resultsPerPageCount>
+        </searchSettingsByObject>
+        <searchSettingsByObject>
+            <enhancedLookupEnabled>false</enhancedLookupEnabled>
+            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
+            <name>RecordsetFilterCriteriaRule</name>
             <resultsPerPageCount>25</resultsPerPageCount>
         </searchSettingsByObject>
         <searchSettingsByObject>
@@ -441,12 +633,6 @@
             <enhancedLookupEnabled>false</enhancedLookupEnabled>
             <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
             <name>ReturnOrderLineItem</name>
-            <resultsPerPageCount>25</resultsPerPageCount>
-        </searchSettingsByObject>
-        <searchSettingsByObject>
-            <enhancedLookupEnabled>false</enhancedLookupEnabled>
-            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
-            <name>ScratchOrgInfo</name>
             <resultsPerPageCount>25</resultsPerPageCount>
         </searchSettingsByObject>
         <searchSettingsByObject>
@@ -506,6 +692,24 @@
         <searchSettingsByObject>
             <enhancedLookupEnabled>false</enhancedLookupEnabled>
             <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
+            <name>ShiftPattern</name>
+            <resultsPerPageCount>25</resultsPerPageCount>
+        </searchSettingsByObject>
+        <searchSettingsByObject>
+            <enhancedLookupEnabled>false</enhancedLookupEnabled>
+            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
+            <name>ShiftPatternEntry</name>
+            <resultsPerPageCount>25</resultsPerPageCount>
+        </searchSettingsByObject>
+        <searchSettingsByObject>
+            <enhancedLookupEnabled>false</enhancedLookupEnabled>
+            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
+            <name>ShiftTemplate</name>
+            <resultsPerPageCount>25</resultsPerPageCount>
+        </searchSettingsByObject>
+        <searchSettingsByObject>
+            <enhancedLookupEnabled>false</enhancedLookupEnabled>
+            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
             <name>Shipment</name>
             <resultsPerPageCount>25</resultsPerPageCount>
         </searchSettingsByObject>
@@ -518,13 +722,37 @@
         <searchSettingsByObject>
             <enhancedLookupEnabled>false</enhancedLookupEnabled>
             <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
+            <name>Test_Bug__c</name>
+            <resultsPerPageCount>0</resultsPerPageCount>
+        </searchSettingsByObject>
+        <searchSettingsByObject>
+            <enhancedLookupEnabled>false</enhancedLookupEnabled>
+            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
             <name>TimeSheet</name>
             <resultsPerPageCount>25</resultsPerPageCount>
         </searchSettingsByObject>
         <searchSettingsByObject>
             <enhancedLookupEnabled>false</enhancedLookupEnabled>
             <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
+            <name>Trimming_object__c</name>
+            <resultsPerPageCount>0</resultsPerPageCount>
+        </searchSettingsByObject>
+        <searchSettingsByObject>
+            <enhancedLookupEnabled>false</enhancedLookupEnabled>
+            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
+            <name>US_Test__c</name>
+            <resultsPerPageCount>0</resultsPerPageCount>
+        </searchSettingsByObject>
+        <searchSettingsByObject>
+            <enhancedLookupEnabled>false</enhancedLookupEnabled>
+            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
             <name>User</name>
+            <resultsPerPageCount>25</resultsPerPageCount>
+        </searchSettingsByObject>
+        <searchSettingsByObject>
+            <enhancedLookupEnabled>false</enhancedLookupEnabled>
+            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
+            <name>WarrantyTerm</name>
             <resultsPerPageCount>25</resultsPerPageCount>
         </searchSettingsByObject>
         <searchSettingsByObject>
@@ -548,500 +776,8 @@
         <searchSettingsByObject>
             <enhancedLookupEnabled>false</enhancedLookupEnabled>
             <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
-            <name>copado__Apex_Test_Result__c</name>
+            <name>test_test__c</name>
             <resultsPerPageCount>0</resultsPerPageCount>
-        </searchSettingsByObject>
-        <searchSettingsByObject>
-            <enhancedLookupEnabled>false</enhancedLookupEnabled>
-            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
-            <name>copado__Artifact_Dependency__c</name>
-            <resultsPerPageCount>0</resultsPerPageCount>
-        </searchSettingsByObject>
-        <searchSettingsByObject>
-            <enhancedLookupEnabled>false</enhancedLookupEnabled>
-            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
-            <name>copado__Artifact_Version__c</name>
-            <resultsPerPageCount>0</resultsPerPageCount>
-        </searchSettingsByObject>
-        <searchSettingsByObject>
-            <enhancedLookupEnabled>false</enhancedLookupEnabled>
-            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
-            <name>copado__Artifact__c</name>
-            <resultsPerPageCount>25</resultsPerPageCount>
-        </searchSettingsByObject>
-        <searchSettingsByObject>
-            <enhancedLookupEnabled>false</enhancedLookupEnabled>
-            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
-            <name>copado__AuxiliaryObject__c</name>
-            <resultsPerPageCount>0</resultsPerPageCount>
-        </searchSettingsByObject>
-        <searchSettingsByObject>
-            <enhancedLookupEnabled>false</enhancedLookupEnabled>
-            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
-            <name>copado__Branch_Management_Permission__c</name>
-            <resultsPerPageCount>0</resultsPerPageCount>
-        </searchSettingsByObject>
-        <searchSettingsByObject>
-            <enhancedLookupEnabled>false</enhancedLookupEnabled>
-            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
-            <name>copado__Build_Task__c</name>
-            <resultsPerPageCount>0</resultsPerPageCount>
-        </searchSettingsByObject>
-        <searchSettingsByObject>
-            <enhancedLookupEnabled>false</enhancedLookupEnabled>
-            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
-            <name>copado__Burndown_Item__c</name>
-            <resultsPerPageCount>25</resultsPerPageCount>
-        </searchSettingsByObject>
-        <searchSettingsByObject>
-            <enhancedLookupEnabled>false</enhancedLookupEnabled>
-            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
-            <name>copado__Compliance_Finding__c</name>
-            <resultsPerPageCount>25</resultsPerPageCount>
-        </searchSettingsByObject>
-        <searchSettingsByObject>
-            <enhancedLookupEnabled>false</enhancedLookupEnabled>
-            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
-            <name>copado__Compliance_Rule_Criteria__c</name>
-            <resultsPerPageCount>0</resultsPerPageCount>
-        </searchSettingsByObject>
-        <searchSettingsByObject>
-            <enhancedLookupEnabled>false</enhancedLookupEnabled>
-            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
-            <name>copado__Compliance_Rule_Group_Item__c</name>
-            <resultsPerPageCount>0</resultsPerPageCount>
-        </searchSettingsByObject>
-        <searchSettingsByObject>
-            <enhancedLookupEnabled>false</enhancedLookupEnabled>
-            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
-            <name>copado__Compliance_Rule_Group__c</name>
-            <resultsPerPageCount>25</resultsPerPageCount>
-        </searchSettingsByObject>
-        <searchSettingsByObject>
-            <enhancedLookupEnabled>false</enhancedLookupEnabled>
-            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
-            <name>copado__Compliance_Rule__c</name>
-            <resultsPerPageCount>25</resultsPerPageCount>
-        </searchSettingsByObject>
-        <searchSettingsByObject>
-            <enhancedLookupEnabled>false</enhancedLookupEnabled>
-            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
-            <name>copado__Compliance_Scan_Result__c</name>
-            <resultsPerPageCount>25</resultsPerPageCount>
-        </searchSettingsByObject>
-        <searchSettingsByObject>
-            <enhancedLookupEnabled>false</enhancedLookupEnabled>
-            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
-            <name>copado__Continuous_Integration_Permission__c</name>
-            <resultsPerPageCount>0</resultsPerPageCount>
-        </searchSettingsByObject>
-        <searchSettingsByObject>
-            <enhancedLookupEnabled>false</enhancedLookupEnabled>
-            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
-            <name>copado__Continuous_Integration__c</name>
-            <resultsPerPageCount>25</resultsPerPageCount>
-        </searchSettingsByObject>
-        <searchSettingsByObject>
-            <enhancedLookupEnabled>false</enhancedLookupEnabled>
-            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
-            <name>copado__Copado_Notification__c</name>
-            <resultsPerPageCount>25</resultsPerPageCount>
-        </searchSettingsByObject>
-        <searchSettingsByObject>
-            <enhancedLookupEnabled>false</enhancedLookupEnabled>
-            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
-            <name>copado__Deployment_Flow_Step__c</name>
-            <resultsPerPageCount>0</resultsPerPageCount>
-        </searchSettingsByObject>
-        <searchSettingsByObject>
-            <enhancedLookupEnabled>false</enhancedLookupEnabled>
-            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
-            <name>copado__Deployment_Flow__c</name>
-            <resultsPerPageCount>25</resultsPerPageCount>
-        </searchSettingsByObject>
-        <searchSettingsByObject>
-            <enhancedLookupEnabled>false</enhancedLookupEnabled>
-            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
-            <name>copado__Deployment_History__c</name>
-            <resultsPerPageCount>0</resultsPerPageCount>
-        </searchSettingsByObject>
-        <searchSettingsByObject>
-            <enhancedLookupEnabled>false</enhancedLookupEnabled>
-            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
-            <name>copado__Deployment_Job__c</name>
-            <resultsPerPageCount>0</resultsPerPageCount>
-        </searchSettingsByObject>
-        <searchSettingsByObject>
-            <enhancedLookupEnabled>false</enhancedLookupEnabled>
-            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
-            <name>copado__Deployment_Task__c</name>
-            <resultsPerPageCount>0</resultsPerPageCount>
-        </searchSettingsByObject>
-        <searchSettingsByObject>
-            <enhancedLookupEnabled>false</enhancedLookupEnabled>
-            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
-            <name>copado__Deployment__c</name>
-            <resultsPerPageCount>25</resultsPerPageCount>
-        </searchSettingsByObject>
-        <searchSettingsByObject>
-            <enhancedLookupEnabled>false</enhancedLookupEnabled>
-            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
-            <name>copado__Destination_Org__c</name>
-            <resultsPerPageCount>0</resultsPerPageCount>
-        </searchSettingsByObject>
-        <searchSettingsByObject>
-            <enhancedLookupEnabled>false</enhancedLookupEnabled>
-            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
-            <name>copado__Environment__c</name>
-            <resultsPerPageCount>25</resultsPerPageCount>
-        </searchSettingsByObject>
-        <searchSettingsByObject>
-            <enhancedLookupEnabled>false</enhancedLookupEnabled>
-            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
-            <name>copado__Environmental_Variable__c</name>
-            <resultsPerPageCount>0</resultsPerPageCount>
-        </searchSettingsByObject>
-        <searchSettingsByObject>
-            <enhancedLookupEnabled>false</enhancedLookupEnabled>
-            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
-            <name>copado__Epic__c</name>
-            <resultsPerPageCount>25</resultsPerPageCount>
-        </searchSettingsByObject>
-        <searchSettingsByObject>
-            <enhancedLookupEnabled>false</enhancedLookupEnabled>
-            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
-            <name>copado__External_CI_Job_Result__c</name>
-            <resultsPerPageCount>0</resultsPerPageCount>
-        </searchSettingsByObject>
-        <searchSettingsByObject>
-            <enhancedLookupEnabled>false</enhancedLookupEnabled>
-            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
-            <name>copado__External_CI_Job__c</name>
-            <resultsPerPageCount>25</resultsPerPageCount>
-        </searchSettingsByObject>
-        <searchSettingsByObject>
-            <enhancedLookupEnabled>false</enhancedLookupEnabled>
-            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
-            <name>copado__External_CI_Setting__c</name>
-            <resultsPerPageCount>25</resultsPerPageCount>
-        </searchSettingsByObject>
-        <searchSettingsByObject>
-            <enhancedLookupEnabled>false</enhancedLookupEnabled>
-            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
-            <name>copado__Git_Backup__c</name>
-            <resultsPerPageCount>25</resultsPerPageCount>
-        </searchSettingsByObject>
-        <searchSettingsByObject>
-            <enhancedLookupEnabled>false</enhancedLookupEnabled>
-            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
-            <name>copado__Git_Commit__c</name>
-            <resultsPerPageCount>0</resultsPerPageCount>
-        </searchSettingsByObject>
-        <searchSettingsByObject>
-            <enhancedLookupEnabled>false</enhancedLookupEnabled>
-            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
-            <name>copado__Git_Org_Commit__c</name>
-            <resultsPerPageCount>0</resultsPerPageCount>
-        </searchSettingsByObject>
-        <searchSettingsByObject>
-            <enhancedLookupEnabled>false</enhancedLookupEnabled>
-            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
-            <name>copado__Git_Repository__c</name>
-            <resultsPerPageCount>25</resultsPerPageCount>
-        </searchSettingsByObject>
-        <searchSettingsByObject>
-            <enhancedLookupEnabled>false</enhancedLookupEnabled>
-            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
-            <name>copado__Kanban_Board_View__c</name>
-            <resultsPerPageCount>0</resultsPerPageCount>
-        </searchSettingsByObject>
-        <searchSettingsByObject>
-            <enhancedLookupEnabled>false</enhancedLookupEnabled>
-            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
-            <name>copado__Kanban_Board__c</name>
-            <resultsPerPageCount>25</resultsPerPageCount>
-        </searchSettingsByObject>
-        <searchSettingsByObject>
-            <enhancedLookupEnabled>false</enhancedLookupEnabled>
-            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
-            <name>copado__OrgDiff__c</name>
-            <resultsPerPageCount>25</resultsPerPageCount>
-        </searchSettingsByObject>
-        <searchSettingsByObject>
-            <enhancedLookupEnabled>false</enhancedLookupEnabled>
-            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
-            <name>copado__Org__c</name>
-            <resultsPerPageCount>25</resultsPerPageCount>
-        </searchSettingsByObject>
-        <searchSettingsByObject>
-            <enhancedLookupEnabled>false</enhancedLookupEnabled>
-            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
-            <name>copado__Persona_Permission__c</name>
-            <resultsPerPageCount>0</resultsPerPageCount>
-        </searchSettingsByObject>
-        <searchSettingsByObject>
-            <enhancedLookupEnabled>false</enhancedLookupEnabled>
-            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
-            <name>copado__Persona__c</name>
-            <resultsPerPageCount>25</resultsPerPageCount>
-        </searchSettingsByObject>
-        <searchSettingsByObject>
-            <enhancedLookupEnabled>false</enhancedLookupEnabled>
-            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
-            <name>copado__Project__c</name>
-            <resultsPerPageCount>25</resultsPerPageCount>
-        </searchSettingsByObject>
-        <searchSettingsByObject>
-            <enhancedLookupEnabled>false</enhancedLookupEnabled>
-            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
-            <name>copado__Promoted_User_Story__c</name>
-            <resultsPerPageCount>0</resultsPerPageCount>
-        </searchSettingsByObject>
-        <searchSettingsByObject>
-            <enhancedLookupEnabled>false</enhancedLookupEnabled>
-            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
-            <name>copado__Promotion__c</name>
-            <resultsPerPageCount>25</resultsPerPageCount>
-        </searchSettingsByObject>
-        <searchSettingsByObject>
-            <enhancedLookupEnabled>false</enhancedLookupEnabled>
-            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
-            <name>copado__Pull_Request_Review__c</name>
-            <resultsPerPageCount>0</resultsPerPageCount>
-        </searchSettingsByObject>
-        <searchSettingsByObject>
-            <enhancedLookupEnabled>false</enhancedLookupEnabled>
-            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
-            <name>copado__Pull_Request__c</name>
-            <resultsPerPageCount>0</resultsPerPageCount>
-        </searchSettingsByObject>
-        <searchSettingsByObject>
-            <enhancedLookupEnabled>false</enhancedLookupEnabled>
-            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
-            <name>copado__Release__c</name>
-            <resultsPerPageCount>25</resultsPerPageCount>
-        </searchSettingsByObject>
-        <searchSettingsByObject>
-            <enhancedLookupEnabled>false</enhancedLookupEnabled>
-            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
-            <name>copado__Scheduled_Job_Run__c</name>
-            <resultsPerPageCount>0</resultsPerPageCount>
-        </searchSettingsByObject>
-        <searchSettingsByObject>
-            <enhancedLookupEnabled>false</enhancedLookupEnabled>
-            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
-            <name>copado__Scheduled_Job__c</name>
-            <resultsPerPageCount>25</resultsPerPageCount>
-        </searchSettingsByObject>
-        <searchSettingsByObject>
-            <enhancedLookupEnabled>false</enhancedLookupEnabled>
-            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
-            <name>copado__Scratch_Org_Definition__c</name>
-            <resultsPerPageCount>25</resultsPerPageCount>
-        </searchSettingsByObject>
-        <searchSettingsByObject>
-            <enhancedLookupEnabled>false</enhancedLookupEnabled>
-            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
-            <name>copado__Scratch_Org_Project_Template__c</name>
-            <resultsPerPageCount>25</resultsPerPageCount>
-        </searchSettingsByObject>
-        <searchSettingsByObject>
-            <enhancedLookupEnabled>false</enhancedLookupEnabled>
-            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
-            <name>copado__Selenium_Group_Org_Credential__c</name>
-            <resultsPerPageCount>0</resultsPerPageCount>
-        </searchSettingsByObject>
-        <searchSettingsByObject>
-            <enhancedLookupEnabled>false</enhancedLookupEnabled>
-            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
-            <name>copado__Selenium_Group_Test_Suite__c</name>
-            <resultsPerPageCount>0</resultsPerPageCount>
-        </searchSettingsByObject>
-        <searchSettingsByObject>
-            <enhancedLookupEnabled>false</enhancedLookupEnabled>
-            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
-            <name>copado__Selenium_Group_Variable__c</name>
-            <resultsPerPageCount>0</resultsPerPageCount>
-        </searchSettingsByObject>
-        <searchSettingsByObject>
-            <enhancedLookupEnabled>false</enhancedLookupEnabled>
-            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
-            <name>copado__Selenium_Locator_Reference__c</name>
-            <resultsPerPageCount>0</resultsPerPageCount>
-        </searchSettingsByObject>
-        <searchSettingsByObject>
-            <enhancedLookupEnabled>false</enhancedLookupEnabled>
-            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
-            <name>copado__Selenium_Locator__c</name>
-            <resultsPerPageCount>25</resultsPerPageCount>
-        </searchSettingsByObject>
-        <searchSettingsByObject>
-            <enhancedLookupEnabled>false</enhancedLookupEnabled>
-            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
-            <name>copado__Selenium_Settings__c</name>
-            <resultsPerPageCount>25</resultsPerPageCount>
-        </searchSettingsByObject>
-        <searchSettingsByObject>
-            <enhancedLookupEnabled>false</enhancedLookupEnabled>
-            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
-            <name>copado__Selenium_Test_Case_Per_Suite__c</name>
-            <resultsPerPageCount>0</resultsPerPageCount>
-        </searchSettingsByObject>
-        <searchSettingsByObject>
-            <enhancedLookupEnabled>false</enhancedLookupEnabled>
-            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
-            <name>copado__Selenium_Test_Case__c</name>
-            <resultsPerPageCount>25</resultsPerPageCount>
-        </searchSettingsByObject>
-        <searchSettingsByObject>
-            <enhancedLookupEnabled>false</enhancedLookupEnabled>
-            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
-            <name>copado__Selenium_Test_Group__c</name>
-            <resultsPerPageCount>25</resultsPerPageCount>
-        </searchSettingsByObject>
-        <searchSettingsByObject>
-            <enhancedLookupEnabled>false</enhancedLookupEnabled>
-            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
-            <name>copado__Selenium_Test_Result__c</name>
-            <resultsPerPageCount>0</resultsPerPageCount>
-        </searchSettingsByObject>
-        <searchSettingsByObject>
-            <enhancedLookupEnabled>false</enhancedLookupEnabled>
-            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
-            <name>copado__Selenium_Test_Run__c</name>
-            <resultsPerPageCount>25</resultsPerPageCount>
-        </searchSettingsByObject>
-        <searchSettingsByObject>
-            <enhancedLookupEnabled>false</enhancedLookupEnabled>
-            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
-            <name>copado__Selenium_Test_Suite__c</name>
-            <resultsPerPageCount>25</resultsPerPageCount>
-        </searchSettingsByObject>
-        <searchSettingsByObject>
-            <enhancedLookupEnabled>false</enhancedLookupEnabled>
-            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
-            <name>copado__Snapshot_Difference__c</name>
-            <resultsPerPageCount>25</resultsPerPageCount>
-        </searchSettingsByObject>
-        <searchSettingsByObject>
-            <enhancedLookupEnabled>false</enhancedLookupEnabled>
-            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
-            <name>copado__Sprint__c</name>
-            <resultsPerPageCount>25</resultsPerPageCount>
-        </searchSettingsByObject>
-        <searchSettingsByObject>
-            <enhancedLookupEnabled>false</enhancedLookupEnabled>
-            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
-            <name>copado__Static_Code_Analysis_Result__c</name>
-            <resultsPerPageCount>0</resultsPerPageCount>
-        </searchSettingsByObject>
-        <searchSettingsByObject>
-            <enhancedLookupEnabled>false</enhancedLookupEnabled>
-            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
-            <name>copado__Static_Code_Analysis_Rule__c</name>
-            <resultsPerPageCount>0</resultsPerPageCount>
-        </searchSettingsByObject>
-        <searchSettingsByObject>
-            <enhancedLookupEnabled>false</enhancedLookupEnabled>
-            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
-            <name>copado__Static_Code_Analysis_Settings__c</name>
-            <resultsPerPageCount>25</resultsPerPageCount>
-        </searchSettingsByObject>
-        <searchSettingsByObject>
-            <enhancedLookupEnabled>false</enhancedLookupEnabled>
-            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
-            <name>copado__Static_Code_Analysis_Violation__c</name>
-            <resultsPerPageCount>0</resultsPerPageCount>
-        </searchSettingsByObject>
-        <searchSettingsByObject>
-            <enhancedLookupEnabled>false</enhancedLookupEnabled>
-            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
-            <name>copado__Step__c</name>
-            <resultsPerPageCount>0</resultsPerPageCount>
-        </searchSettingsByObject>
-        <searchSettingsByObject>
-            <enhancedLookupEnabled>false</enhancedLookupEnabled>
-            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
-            <name>copado__Team_Dependency__c</name>
-            <resultsPerPageCount>0</resultsPerPageCount>
-        </searchSettingsByObject>
-        <searchSettingsByObject>
-            <enhancedLookupEnabled>false</enhancedLookupEnabled>
-            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
-            <name>copado__Team_Member__c</name>
-            <resultsPerPageCount>0</resultsPerPageCount>
-        </searchSettingsByObject>
-        <searchSettingsByObject>
-            <enhancedLookupEnabled>false</enhancedLookupEnabled>
-            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
-            <name>copado__Team__c</name>
-            <resultsPerPageCount>25</resultsPerPageCount>
-        </searchSettingsByObject>
-        <searchSettingsByObject>
-            <enhancedLookupEnabled>false</enhancedLookupEnabled>
-            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
-            <name>copado__Test_Run_Step__c</name>
-            <resultsPerPageCount>0</resultsPerPageCount>
-        </searchSettingsByObject>
-        <searchSettingsByObject>
-            <enhancedLookupEnabled>false</enhancedLookupEnabled>
-            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
-            <name>copado__Test_Run__c</name>
-            <resultsPerPageCount>25</resultsPerPageCount>
-        </searchSettingsByObject>
-        <searchSettingsByObject>
-            <enhancedLookupEnabled>false</enhancedLookupEnabled>
-            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
-            <name>copado__Test_Script_Step__c</name>
-            <resultsPerPageCount>0</resultsPerPageCount>
-        </searchSettingsByObject>
-        <searchSettingsByObject>
-            <enhancedLookupEnabled>false</enhancedLookupEnabled>
-            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
-            <name>copado__Test_Script__c</name>
-            <resultsPerPageCount>25</resultsPerPageCount>
-        </searchSettingsByObject>
-        <searchSettingsByObject>
-            <enhancedLookupEnabled>false</enhancedLookupEnabled>
-            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
-            <name>copado__Theme__c</name>
-            <resultsPerPageCount>25</resultsPerPageCount>
-        </searchSettingsByObject>
-        <searchSettingsByObject>
-            <enhancedLookupEnabled>false</enhancedLookupEnabled>
-            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
-            <name>copado__User_Persona_Assignment__c</name>
-            <resultsPerPageCount>0</resultsPerPageCount>
-        </searchSettingsByObject>
-        <searchSettingsByObject>
-            <enhancedLookupEnabled>false</enhancedLookupEnabled>
-            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
-            <name>copado__User_Story_Commit__c</name>
-            <resultsPerPageCount>0</resultsPerPageCount>
-        </searchSettingsByObject>
-        <searchSettingsByObject>
-            <enhancedLookupEnabled>false</enhancedLookupEnabled>
-            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
-            <name>copado__User_Story_Metadata__c</name>
-            <resultsPerPageCount>25</resultsPerPageCount>
-        </searchSettingsByObject>
-        <searchSettingsByObject>
-            <enhancedLookupEnabled>false</enhancedLookupEnabled>
-            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
-            <name>copado__User_Story_Selenium_Test__c</name>
-            <resultsPerPageCount>0</resultsPerPageCount>
-        </searchSettingsByObject>
-        <searchSettingsByObject>
-            <enhancedLookupEnabled>false</enhancedLookupEnabled>
-            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
-            <name>copado__User_Story_Task__c</name>
-            <resultsPerPageCount>0</resultsPerPageCount>
-        </searchSettingsByObject>
-        <searchSettingsByObject>
-            <enhancedLookupEnabled>false</enhancedLookupEnabled>
-            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
-            <name>copado__User_Story__c</name>
-            <resultsPerPageCount>25</resultsPerPageCount>
         </searchSettingsByObject>
     </searchSettingsByObject>
     <sidebarAutoCompleteEnabled>true</sidebarAutoCompleteEnabled>

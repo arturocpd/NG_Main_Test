@@ -147,6 +147,7 @@
     </fields>
     <fields>
         <fullName>Body</fullName>
+        <encryptionScheme>None</encryptionScheme>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
@@ -254,6 +255,7 @@
     </fields>
     <fields>
         <fullName>SupervisorTranscriptBody</fullName>
+        <encryptionScheme>None</encryptionScheme>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>

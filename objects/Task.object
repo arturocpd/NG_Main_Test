@@ -131,6 +131,7 @@
     </fields>
     <fields>
         <fullName>Description</fullName>
+        <encryptionScheme>None</encryptionScheme>
     </fields>
     <fields>
         <fullName>Email</fullName>
@@ -140,6 +141,9 @@
     </fields>
     <fields>
         <fullName>IsReminderSet</fullName>
+    </fields>
+    <fields>
+        <fullName>IsVisibleInSelfService</fullName>
     </fields>
     <fields>
         <fullName>OwnerId</fullName>
@@ -164,6 +168,7 @@
     </fields>
     <fields>
         <fullName>Subject</fullName>
+        <encryptionScheme>None</encryptionScheme>
         <type>Picklist</type>
     </fields>
     <fields>
@@ -302,6 +307,20 @@
         <label>ENCODED:{!FilterNames.Task_RecurringTasks}</label>
     </listViews>
     <listViews>
+        <fullName>Task_New_View</fullName>
+        <columns>SUBJECT</columns>
+        <columns>WHO_NAME</columns>
+        <columns>WHAT_NAME</columns>
+        <columns>DUE_DATE</columns>
+        <columns>LAST_UPDATE</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>PRIORITY</columns>
+        <columns>STATUS</columns>
+        <columns>UPDATEDBY_USER.ALIAS</columns>
+        <filterScope>Mine</filterScope>
+        <label>Task New View</label>
+    </listViews>
+    <listViews>
         <fullName>TodaysTasks</fullName>
         <columns>SUBJECT</columns>
         <columns>WHO_NAME</columns>
@@ -365,6 +384,10 @@
         <picklistValues>
             <picklist>AAATask__c</picklist>
             <values>
+                <fullName>1</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>2</fullName>
                 <default>false</default>
             </values>
@@ -374,6 +397,36 @@
             </values>
             <values>
                 <fullName>5</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Activity_Field__c</picklist>
+            <values>
+                <fullName>Value1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Value2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Value3</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Field_Name__c</picklist>
+            <values>
+                <fullName>Value1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Value2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Value3</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -446,6 +499,199 @@
                 <default>true</default>
             </values>
             <values>
+                <fullName>Waiting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Waiting on someone else</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Subject</picklist>
+            <values>
+                <fullName>Call</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Email</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Send Letter</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Send Quote</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type</picklist>
+            <values>
+                <fullName>Call</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Email</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Meeting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Record_Type_on_Task</fullName>
+        <active>true</active>
+        <label>Record Type on Task</label>
+        <picklistValues>
+            <picklist>AAATask__c</picklist>
+            <values>
+                <fullName>1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>4</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>5</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Activity_Field__c</picklist>
+            <values>
+                <fullName>Value1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Value2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Value3</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Field_Name__c</picklist>
+            <values>
+                <fullName>Value1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Value2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Value3</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Next_Time__c</picklist>
+            <values>
+                <fullName>Friday</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Juernes</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Momomonday</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Monday</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Saturday</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SuSuSunday</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sunday</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Thursday</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TuTuTuesday</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tuesday</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Wednesday</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Priority</picklist>
+            <values>
+                <fullName>High</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Low</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Normal</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status</picklist>
+            <values>
+                <fullName>Completed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Deferred</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>In Progress</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Started</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Waiting</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Waiting on someone else</fullName>
                 <default>false</default>
             </values>
@@ -495,4 +741,24 @@
     </recordTypes>
     <searchLayouts/>
     <sharingModel>Private</sharingModel>
+    <validationRules>
+        <fullName>False</fullName>
+        <active>true</active>
+        <description>Always false</description>
+        <errorConditionFormula>False</errorConditionFormula>
+        <errorMessage>Irrelevant</errorMessage>
+    </validationRules>
+    <webLinks>
+        <fullName>Task_List_Button</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <height>600</height>
+        <linkType>url</linkType>
+        <masterLabel>Task List Button</masterLabel>
+        <openType>sidebar</openType>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+        <url>/apex/arturo</url>
+    </webLinks>
 </CustomObject>

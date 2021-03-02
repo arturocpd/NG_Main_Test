@@ -9,7 +9,7 @@
         <value>CSTM Objects</value>
     </caseValues>
     <fields>
-        <label><!-- cstm field --></label>
+        <label>campo custom</label>
         <name>cstm_field__c</name>
     </fields>
     <gender>Feminine</gender>

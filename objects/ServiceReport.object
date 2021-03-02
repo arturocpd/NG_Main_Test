@@ -50,6 +50,10 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>CurrencyIsoCode</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
         <fullName>IsSigned</fullName>
         <trackHistory>false</trackHistory>
     </fields>

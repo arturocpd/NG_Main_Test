@@ -278,6 +278,7 @@
     <externalSharingModel>ReadWriteTransfer</externalSharingModel>
     <fields>
         <fullName>Address</fullName>
+        <encryptionScheme>None</encryptionScheme>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
     </fields>
@@ -297,6 +298,7 @@
     </fields>
     <fields>
         <fullName>Company</fullName>
+        <encryptionScheme>None</encryptionScheme>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
     </fields>
@@ -306,7 +308,13 @@
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
+        <fullName>CurrencyIsoCode</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
         <fullName>CurrentGenerators__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Current Generator(s)</label>
         <length>100</length>
@@ -324,6 +332,7 @@
     </fields>
     <fields>
         <fullName>Description</fullName>
+        <encryptionScheme>None</encryptionScheme>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
     </fields>
@@ -333,12 +342,23 @@
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
+        <fullName>Duplicate_Test__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Duplicate Test</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>Email</fullName>
+        <encryptionScheme>None</encryptionScheme>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>Fax</fullName>
+        <encryptionScheme>None</encryptionScheme>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
     </fields>
@@ -410,11 +430,13 @@
     </fields>
     <fields>
         <fullName>MobilePhone</fullName>
+        <encryptionScheme>None</encryptionScheme>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>Name</fullName>
+        <encryptionScheme>None</encryptionScheme>
         <trackFeedHistory>true</trackFeedHistory>
         <trackHistory>false</trackHistory>
     </fields>
@@ -442,7 +464,14 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>PartnerAccountId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
         <fullName>Phone</fullName>
+        <encryptionScheme>None</encryptionScheme>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
     </fields>
@@ -507,6 +536,7 @@
     </fields>
     <fields>
         <fullName>SICCode__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>SIC Code</label>
         <length>15</length>
@@ -554,11 +584,13 @@
     </fields>
     <fields>
         <fullName>Title</fullName>
+        <encryptionScheme>None</encryptionScheme>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>Website</fullName>
+        <encryptionScheme>None</encryptionScheme>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
     </fields>
@@ -571,6 +603,15 @@
             <value>closed</value>
         </filters>
         <label>All Open Leads</label>
+    </listViews>
+    <listViews>
+        <fullName>Leads_Queue_Lead</fullName>
+        <filterScope>Queue</filterScope>
+        <label>Leads Queue</label>
+        <queue>Leads_Queue</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
     </listViews>
     <listViews>
         <fullName>MyUnreadLeads</fullName>
@@ -634,6 +675,10 @@
             </values>
             <values>
                 <fullName>Good</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Really Bad</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -771,6 +816,10 @@
         <picklistValues>
             <picklist>LeadSource</picklist>
             <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Partner Referral</fullName>
                 <default>false</default>
             </values>
@@ -782,13 +831,17 @@
                 <fullName>Purchased List</fullName>
                 <default>false</default>
             </values>
+            <values>
+                <fullName>RT test with CI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Test CI</fullName>
+                <default>false</default>
+            </values>
         </picklistValues>
         <picklistValues>
             <picklist>Name</picklist>
-            <values>
-                <fullName>Dr%2E</fullName>
-                <default>false</default>
-            </values>
             <values>
                 <fullName>Mr%2E</fullName>
                 <default>false</default>
@@ -799,10 +852,6 @@
             </values>
             <values>
                 <fullName>Ms%2E</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Prof%2E</fullName>
                 <default>false</default>
             </values>
         </picklistValues>

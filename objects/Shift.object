@@ -130,6 +130,10 @@
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>ReadWrite</externalSharingModel>
     <fields>
+        <fullName>CurrencyIsoCode</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
         <fullName>EndTime</fullName>
         <trackHistory>false</trackHistory>
     </fields>
@@ -144,6 +148,11 @@
     </fields>
     <fields>
         <fullName>OwnerId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>RecordsetFilterCriteriaId</fullName>
         <trackHistory>false</trackHistory>
         <type>Lookup</type>
     </fields>
@@ -185,26 +194,42 @@
         <label>Mis turnos</label>
     </listViews>
     <searchLayouts>
-        <customTabListAdditionalFields>LastModifiedDate</customTabListAdditionalFields>
-        <customTabListAdditionalFields>LastModifiedBy</customTabListAdditionalFields>
+        <customTabListAdditionalFields>StartTime</customTabListAdditionalFields>
+        <customTabListAdditionalFields>EndTime</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Status</customTabListAdditionalFields>
+        <customTabListAdditionalFields>JobProfile</customTabListAdditionalFields>
         <customTabListAdditionalFields>ServiceResource</customTabListAdditionalFields>
         <customTabListAdditionalFields>ServiceTerritory</customTabListAdditionalFields>
-        <customTabListAdditionalFields>JobProfile</customTabListAdditionalFields>
-        <lookupDialogsAdditionalFields>LastModifiedDate</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>LastModifiedBy</lookupDialogsAdditionalFields>
+        <customTabListAdditionalFields>LastModifiedDate</customTabListAdditionalFields>
+        <customTabListAdditionalFields>LastModifiedBy</customTabListAdditionalFields>
+        <customTabListAdditionalFields>RecordsetFilterCriteria</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>StartTime</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>EndTime</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Status</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>JobProfile</lookupDialogsAdditionalFields>
         <lookupDialogsAdditionalFields>ServiceResource</lookupDialogsAdditionalFields>
         <lookupDialogsAdditionalFields>ServiceTerritory</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>JobProfile</lookupDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>LastModifiedDate</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>LastModifiedBy</lookupPhoneDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>LastModifiedDate</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>LastModifiedBy</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>RecordsetFilterCriteria</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>StartTime</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>EndTime</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Status</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>JobProfile</lookupPhoneDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>ServiceResource</lookupPhoneDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>ServiceTerritory</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>JobProfile</lookupPhoneDialogsAdditionalFields>
-        <searchResultsAdditionalFields>LastModifiedDate</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>LastModifiedBy</searchResultsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>LastModifiedDate</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>LastModifiedBy</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>RecordsetFilterCriteria</lookupPhoneDialogsAdditionalFields>
+        <searchResultsAdditionalFields>StartTime</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>EndTime</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Status</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>JobProfile</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>ServiceResource</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>ServiceTerritory</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>JobProfile</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>LastModifiedDate</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>LastModifiedBy</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>RecordsetFilterCriteria</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
 </CustomObject>

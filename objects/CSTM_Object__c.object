@@ -169,7 +169,8 @@
         <label>All</label>
     </listViews>
     <nameField>
-        <label>CSTM Object Name</label>
+        <encryptionScheme>None</encryptionScheme>
+        <label>CSTM Object</label>
         <type>Text</type>
     </nameField>
     <pluralLabel>CSTM Objects</pluralLabel>

@@ -8,6 +8,7 @@
         <notifyAssignee>false</notifyAssignee>
         <operation>Literal</operation>
         <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
     </fieldUpdates>
     <rules>
         <fullName>TB WF rule</fullName>
@@ -21,7 +22,22 @@
             <operation>equals</operation>
             <value>Yes</value>
         </criteriaItems>
+        <criteriaItems>
+            <field>Account.NumberOfEmployees</field>
+            <operation>equals</operation>
+            <value>3</value>
+        </criteriaItems>
+        <description>Description in WF Rule MOD</description>
         <triggerType>onCreateOnly</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>update_account</name>
+                <type>FieldUpdate</type>
+            </actions>
+            <offsetFromField>Account.CreatedDate</offsetFromField>
+            <timeLength>29</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
         <workflowTimeTriggers>
             <actions>
                 <name>update_account</name>
@@ -31,5 +47,15 @@
             <timeLength>30</timeLength>
             <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
         </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>US Test Workflow Rule</fullName>
+        <active>true</active>
+        <criteriaItems>
+            <field>Account.Name</field>
+            <operation>equals</operation>
+            <value>Arturo</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
     </rules>
 </Workflow>

@@ -134,6 +134,10 @@
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
+        <fullName>CurrencyIsoCode</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
         <fullName>DeliveredToId</fullName>
         <trackHistory>false</trackHistory>
         <type>Lookup</type>
@@ -182,6 +186,10 @@
         <fullName>Status</fullName>
         <trackHistory>false</trackHistory>
         <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>TotalItemsQuantity</fullName>
+        <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>TrackingNumber</fullName>

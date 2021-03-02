@@ -12,9 +12,9 @@
     <caseMergeInLightning>false</caseMergeInLightning>
     <closeCaseThroughStatusChange>false</closeCaseThroughStatusChange>
     <defaultCaseFeedLayoutOn>true</defaultCaseFeedLayoutOn>
-    <defaultCaseOwner>ngarturo2prodcpd@gmail.com</defaultCaseOwner>
+    <defaultCaseOwner>ngarturodev1cpd@gmail.com</defaultCaseOwner>
     <defaultCaseOwnerType>User</defaultCaseOwnerType>
-    <defaultCaseUser>ngarturo2prodcpd@gmail.com</defaultCaseUser>
+    <defaultCaseUser>ngarturodev1cpd@gmail.com</defaultCaseUser>
     <emailToCase>
         <enableE2CAttachmentAsFile>false</enableE2CAttachmentAsFile>
         <enableE2CSourceTracking>true</enableE2CSourceTracking>
@@ -32,6 +32,17 @@
     <enableEarlyEscalationRuleTriggers>false</enableEarlyEscalationRuleTriggers>
     <enableEmailActionDefaultsHandler>false</enableEmailActionDefaultsHandler>
     <enableEscalateQfiToCaseInternal>false</enableEscalateQfiToCaseInternal>
+    <enableEscalateQfiToCaseNetworks>false</enableEscalateQfiToCaseNetworks>
+    <enableExtNetworksCaseFeedEnabled>false</enableExtNetworksCaseFeedEnabled>
+    <enableMultiLangSolnSrchCSS>false</enableMultiLangSolnSrchCSS>
+    <enableMultiLangSolnSrchPKB>false</enableMultiLangSolnSrchPKB>
+    <enableMultiLangSolution>false</enableMultiLangSolution>
+    <enableSolutionCategory>false</enableSolutionCategory>
+    <enableSolutionInlineCategory>true</enableSolutionInlineCategory>
+    <enableSolutionShortSummary>true</enableSolutionShortSummary>
+    <enableSuggestedArticlesApplication>false</enableSuggestedArticlesApplication>
+    <enableSuggestedArticlesCustomerPortal>false</enableSuggestedArticlesCustomerPortal>
+    <enableSuggestedArticlesPartnerPortal>false</enableSuggestedArticlesPartnerPortal>
     <enableSuggestedSolutions>true</enableSuggestedSolutions>
     <escalateCaseBefore>false</escalateCaseBefore>
     <keepRecordTypeOnAssignmentRule>true</keepRecordTypeOnAssignmentRule>
@@ -40,7 +51,6 @@
     <notifyOwnerOnCaseComment>false</notifyOwnerOnCaseComment>
     <notifyOwnerOnCaseOwnerChange>false</notifyOwnerOnCaseOwnerChange>
     <showEmailAttachmentsInCaseAttachmentsRL>true</showEmailAttachmentsInCaseAttachmentsRL>
-    <systemUserEmail>automatedcase@00d0y000001k4ruuaq.ext</systemUserEmail>
     <useSystemEmailAddress>true</useSystemEmailAddress>
     <useSystemUserAsDefaultCaseUser>false</useSystemUserAsDefaultCaseUser>
     <visibleInCssCheckbox>false</visibleInCssCheckbox>

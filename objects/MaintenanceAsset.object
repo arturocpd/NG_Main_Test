@@ -150,10 +150,12 @@
     </fields>
     <fields>
         <fullName>NextSuggestedMaintenanceDate</fullName>
+        <inlineHelpText>The suggested date of service for the work order in the next batch generated for this maintenance asset. The value is updated after each batch is generated.</inlineHelpText>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>WorkTypeId</fullName>
+        <inlineHelpText>Set the work type that governs the duration, required skills and products, and linked articles inherited by generated work orders.</inlineHelpText>
         <trackHistory>false</trackHistory>
         <type>Lookup</type>
     </fields>

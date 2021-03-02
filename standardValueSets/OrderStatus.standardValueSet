@@ -14,4 +14,16 @@
         <label>Activated</label>
         <groupingString>Activated</groupingString>
     </standardValue>
+    <standardValue>
+        <fullName>New Order</fullName>
+        <default>false</default>
+        <label>New Order</label>
+        <groupingString>Draft</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Test New Value</fullName>
+        <default>false</default>
+        <label>Test New Value</label>
+        <groupingString>Draft</groupingString>
+    </standardValue>
 </StandardValueSet>

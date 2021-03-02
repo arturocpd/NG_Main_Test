@@ -130,6 +130,10 @@
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>ControlledByParent</externalSharingModel>
     <fields>
+        <fullName>CurrencyIsoCode</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
         <fullName>Description</fullName>
         <trackHistory>false</trackHistory>
     </fields>
@@ -139,6 +143,10 @@
     </fields>
     <fields>
         <fullName>EndTime</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>LocationTimeZone</fullName>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>

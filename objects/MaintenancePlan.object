@@ -159,10 +159,12 @@
     </fields>
     <fields>
         <fullName>DoesAutoGenerateWorkOrders</fullName>
+        <inlineHelpText>Define whether work orders are generated automatically. This rule disables the ability to manually generate work orders.</inlineHelpText>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>DoesGenerateUponCompletion</fullName>
+        <inlineHelpText>Specify whether to generate the new batch on completion of the last work order in the previous batch.</inlineHelpText>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
@@ -171,22 +173,27 @@
     </fields>
     <fields>
         <fullName>Frequency</fullName>
+        <inlineHelpText>The amount of time between the plan’s work orders. The unit is specified in Frequency Type.</inlineHelpText>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>FrequencyType</fullName>
+        <inlineHelpText>The unit of frequency for the time between the plan’s works orders.</inlineHelpText>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>GenerationHorizon</fullName>
+        <inlineHelpText>Set the number of days before the Date of the first work order in the next batch on which work order batches are generated.</inlineHelpText>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>GenerationTimeframe</fullName>
+        <inlineHelpText>The time in advance that work orders are generated in each batch. The unit is specified in Generation Timeframe Type.</inlineHelpText>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>GenerationTimeframeType</fullName>
+        <inlineHelpText>The unit of frequency for the generation timeframe.</inlineHelpText>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
@@ -200,14 +207,17 @@
     </fields>
     <fields>
         <fullName>MaintenanceWindowEndDays</fullName>
+        <inlineHelpText>The number of days after the work order’s suggested service date in which the service appointment can be scheduled.</inlineHelpText>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>MaintenanceWindowStartDays</fullName>
+        <inlineHelpText>The number of days before the work order’s suggested service date in which the service appointment can be scheduled.</inlineHelpText>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>NextSuggestedMaintenanceDate</fullName>
+        <inlineHelpText>The suggested date of service for the work order in the next batch generated. The value is updated after each batch is generated.</inlineHelpText>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
@@ -226,10 +236,12 @@
     </fields>
     <fields>
         <fullName>SvcApptGenerationMethod</fullName>
+        <inlineHelpText>Specify how service appointments are generated when more than one asset is associated with the maintenance plan and work order generation method is One work order line item per asset.</inlineHelpText>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>WorkOrderGenerationMethod</fullName>
+        <inlineHelpText>Specify how work orders are generated when more than one asset is associated with the maintenance plan.</inlineHelpText>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
@@ -238,6 +250,7 @@
     </fields>
     <fields>
         <fullName>WorkTypeId</fullName>
+        <inlineHelpText>Set the work type that governs the duration, required skills and products, and linked articles inherited by generated work orders.</inlineHelpText>
         <trackHistory>false</trackHistory>
         <type>Lookup</type>
     </fields>

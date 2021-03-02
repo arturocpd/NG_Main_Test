@@ -151,11 +151,18 @@
     </fields>
     <fields>
         <fullName>Address</fullName>
+        <encryptionScheme>None</encryptionScheme>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>AssetId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>AssetWarrantyId</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <type>Lookup</type>
@@ -179,7 +186,13 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>CurrencyIsoCode</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
         <fullName>Description</fullName>
+        <encryptionScheme>None</encryptionScheme>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
     </fields>
@@ -243,6 +256,12 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>MaintenanceWorkRuleId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
         <fullName>MilestoneStatus</fullName>
     </fields>
     <fields>
@@ -276,6 +295,18 @@
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>ProductServiceCampaignId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ProductServiceCampaignItemId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
     </fields>
     <fields>
         <fullName>RecommendedCrewSize</fullName>
@@ -357,6 +388,7 @@
     </fields>
     <fields>
         <fullName>Subject</fullName>
+        <encryptionScheme>None</encryptionScheme>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
     </fields>
@@ -395,6 +427,15 @@
         <fullName>My_WorkOrders</fullName>
         <filterScope>Mine</filterScope>
         <label>My Work Orders</label>
+    </listViews>
+    <listViews>
+        <fullName>NA_Research_WorkOrder</fullName>
+        <filterScope>Queue</filterScope>
+        <label>NA - Research</label>
+        <queue>NA_Research</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
     </listViews>
     <searchLayouts>
         <customTabListAdditionalFields>Subject</customTabListAdditionalFields>

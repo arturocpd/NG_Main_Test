@@ -6,4 +6,9 @@
         <default>false</default>
         <label>Each</label>
     </standardValue>
+    <standardValue>
+        <fullName>All</fullName>
+        <default>false</default>
+        <label>All</label>
+    </standardValue>
 </StandardValueSet>

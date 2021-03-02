@@ -120,7 +120,6 @@
         <required>false</required>
         <type>Picklist</type>
         <valueSet>
-            <restricted>true</restricted>
             <valueSetDefinition>
                 <sorted>false</sorted>
                 <value>
@@ -147,6 +146,97 @@
                     <fullName>5</fullName>
                     <default>false</default>
                     <label>5</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Activity_Custom_field_2__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Activity Custom field 2</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Activity_Custom_field_3__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Activity Custom field 3</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Activity_Custom_field_4__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Activity Custom field 4</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Activity_Custom_field_5__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Activity Custom field 5</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Activity_Field__c</fullName>
+        <externalId>false</externalId>
+        <label>Activity Field</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Value1</fullName>
+                    <default>false</default>
+                    <label>Value1</label>
+                </value>
+                <value>
+                    <fullName>Value2</fullName>
+                    <default>false</default>
+                    <label>Value2</label>
+                </value>
+                <value>
+                    <fullName>Value3</fullName>
+                    <default>false</default>
+                    <label>Value3</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Activity_ZZZ__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Activity ZZZ</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Field_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>Field Name</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Value1</fullName>
+                    <default>false</default>
+                    <label>Value1</label>
+                </value>
+                <value>
+                    <fullName>Value2</fullName>
+                    <default>false</default>
+                    <label>Value2</label>
+                </value>
+                <value>
+                    <fullName>Value3</fullName>
+                    <default>false</default>
+                    <label>Value3</label>
                 </value>
             </valueSetDefinition>
         </valueSet>
@@ -230,6 +320,97 @@
             <valueSetName>Time</valueSetName>
         </valueSet>
     </fields>
+    <fields>
+        <fullName>Year__c</fullName>
+        <externalId>false</externalId>
+        <label>Year</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Time__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetName>Year</valueSetName>
+            <valueSettings>
+                <controllingFieldValue>Later</controllingFieldValue>
+                <controllingFieldValue>Tomorrow</controllingFieldValue>
+                <controllingFieldValue>Yesterday</controllingFieldValue>
+                <valueName>February</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Later</controllingFieldValue>
+                <valueName>March</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Later</controllingFieldValue>
+                <controllingFieldValue>Yesterday</controllingFieldValue>
+                <valueName>June</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Later</controllingFieldValue>
+                <valueName>September</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Later</controllingFieldValue>
+                <controllingFieldValue>Tomorrow</controllingFieldValue>
+                <controllingFieldValue>Now</controllingFieldValue>
+                <valueName>November</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Yesterday</controllingFieldValue>
+                <valueName>Junuary</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Yesterday</controllingFieldValue>
+                <valueName>July</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Now</controllingFieldValue>
+                <valueName>April</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>add_metadata_1__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>add metadata 1</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>add_metadata_2__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>add metadata 2</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>check_formula__c</fullName>
+        <externalId>false</externalId>
+        <formula>true</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>check formula</label>
+        <type>Checkbox</type>
+    </fields>
+    <listViews>
+        <fullName>Act_Task_New_View</fullName>
+        <columns>TASK.SUBJECT</columns>
+        <columns>TASK.WHO_NAME</columns>
+        <columns>TASK.WHAT_NAME</columns>
+        <columns>TASK.DUE_DATE</columns>
+        <columns>TASK.STATUS</columns>
+        <columns>TASK.PRIORITY</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>TASK.LAST_UPDATE</columns>
+        <columns>UPDATEDBY_USER.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>TASK.CLOSED</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <label>Act Task New View</label>
+        <language>en_US</language>
+    </listViews>
     <listViews>
         <fullName>AllActivities</fullName>
         <filterScope>Team</filterScope>
@@ -276,6 +457,7 @@
         <label>Upcoming Events</label>
     </listViews>
     <searchLayouts>
+        <listViewButtons>Task_List_Button</listViewButtons>
         <searchResultsAdditionalFields>TASK.SUBJECT</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>TASK.WHO_NAME</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>TASK.WHAT_NAME</searchResultsAdditionalFields>

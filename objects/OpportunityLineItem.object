@@ -85,6 +85,12 @@
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
+        <actionName>MultiAdd</actionName>
+        <content>Add_Products</content>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Visualforce</type>
+    </actionOverrides>
+    <actionOverrides>
         <actionName>SaveEdit</actionName>
         <type>Default</type>
     </actionOverrides>
@@ -122,6 +128,19 @@
     </fields>
     <fields>
         <fullName>ListPrice</fullName>
+    </fields>
+    <fields>
+        <fullName>Name</fullName>
+    </fields>
+    <fields>
+        <fullName>OppProductText__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>OppProductText</label>
+        <length>13</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
     </fields>
     <fields>
         <fullName>OpportunityId</fullName>

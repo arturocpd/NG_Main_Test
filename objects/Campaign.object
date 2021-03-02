@@ -156,10 +156,11 @@
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
-    <enableHistory>false</enableHistory>
+    <enableHistory>true</enableHistory>
     <externalSharingModel>FullAccess</externalSharingModel>
     <fields>
         <fullName>ActualCost</fullName>
+        <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>AmountAllOpportunities</fullName>
@@ -169,22 +170,37 @@
     </fields>
     <fields>
         <fullName>BudgetedCost</fullName>
+        <trackHistory>false</trackHistory>
     </fields>
     <fields>
-        <fullName>CampaignMemberRecordTypeId</fullName>
+        <fullName>CampaignImageId</fullName>
+        <trackHistory>false</trackHistory>
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>CampaignMemberRecordTypeId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>CurrencyIsoCode</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
         <fullName>Description</fullName>
+        <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>EndDate</fullName>
+        <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>ExpectedResponse</fullName>
+        <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>ExpectedRevenue</fullName>
+        <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>HierarchyActualCost</fullName>
@@ -224,9 +240,23 @@
     </fields>
     <fields>
         <fullName>IsActive</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Lead__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Lead</label>
+        <referenceTo>Lead</referenceTo>
+        <relationshipLabel>Campaigns</relationshipLabel>
+        <relationshipName>Campaigns</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
     </fields>
     <fields>
         <fullName>Name</fullName>
+        <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>NumberOfContacts</fullName>
@@ -248,24 +278,30 @@
     </fields>
     <fields>
         <fullName>NumberSent</fullName>
+        <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>OwnerId</fullName>
+        <trackHistory>false</trackHistory>
         <type>Lookup</type>
     </fields>
     <fields>
         <fullName>ParentId</fullName>
+        <trackHistory>false</trackHistory>
         <type>Lookup</type>
     </fields>
     <fields>
         <fullName>StartDate</fullName>
+        <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>Status</fullName>
+        <trackHistory>false</trackHistory>
         <type>Picklist</type>
     </fields>
     <fields>
         <fullName>Type</fullName>
+        <trackHistory>false</trackHistory>
         <type>Picklist</type>
     </fields>
     <listViews>

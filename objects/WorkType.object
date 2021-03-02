@@ -130,6 +130,10 @@
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>ReadWrite</externalSharingModel>
     <fields>
+        <fullName>CurrencyIsoCode</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
         <fullName>Description</fullName>
         <trackHistory>false</trackHistory>
     </fields>
@@ -171,11 +175,6 @@
         <fullName>All_WorkTypes</fullName>
         <filterScope>Everything</filterScope>
         <label>All Work Types</label>
-    </listViews>
-    <listViews>
-        <fullName>My_WorkTypes</fullName>
-        <filterScope>Mine</filterScope>
-        <label>My Work Types</label>
     </listViews>
     <searchLayouts>
         <customTabListAdditionalFields>EstimatedDuration</customTabListAdditionalFields>

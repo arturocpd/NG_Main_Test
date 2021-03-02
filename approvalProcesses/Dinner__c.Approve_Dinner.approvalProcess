@@ -34,6 +34,7 @@
     <finalApprovalRecordLock>false</finalApprovalRecordLock>
     <finalRejectionRecordLock>false</finalRejectionRecordLock>
     <label>Approve Dinner</label>
+    <processOrder>1</processOrder>
     <recordEditability>AdminOnly</recordEditability>
     <showApprovalHistory>true</showApprovalHistory>
 </ApprovalProcess>
