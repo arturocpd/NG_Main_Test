@@ -8322,10 +8322,6 @@
     </userPermissions>
     <userPermissions>
         <enabled>false</enabled>
-        <name>DeleteEventMonitoringData</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
         <name>DeleteTopics</name>
     </userPermissions>
     <userPermissions>
