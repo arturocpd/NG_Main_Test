@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>AR_Intent_Set</members>
-        <name>MlDomain</name>
+        <members>Account.Big__c</members>
+        <members>Case.BitCoin__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>Test Rohit</members>
+        <name>Profile</name>
     </types>
     <version>50.0</version>
 </Package>
