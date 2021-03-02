@@ -140,4 +140,8 @@
         <name>ARPartner</name>
         <type>Network</type>
     </appMenuItems>
+    <appMenuItems>
+        <name>AR Services Test</name>
+        <type>Network</type>
+    </appMenuItems>
 </AppMenu>
