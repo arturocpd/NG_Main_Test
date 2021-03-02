@@ -8345,10 +8345,6 @@
         <name>DeleteActivatedContract</name>
     </userPermissions>
     <userPermissions>
-        <enabled>false</enabled>
-        <name>DeleteEventMonitoringData</name>
-    </userPermissions>
-    <userPermissions>
         <enabled>true</enabled>
         <name>DeleteTopics</name>
     </userPermissions>
