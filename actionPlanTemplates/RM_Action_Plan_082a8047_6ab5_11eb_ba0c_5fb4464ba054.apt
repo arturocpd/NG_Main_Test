@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ActionPlanTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <isAdHocItemCreationEnabled>false</isAdHocItemCreationEnabled>
+    <name>RM Action Plan</name>
+    <targetEntityType>Case</targetEntityType>
+    <uniqueName>RM_Action_Plan_082a8047_6ab5_11eb_ba0c_5fb4464ba054</uniqueName>
+</ActionPlanTemplate>
