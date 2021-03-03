@@ -523,6 +523,12 @@
         </filters>
         <label>Won</label>
     </listViews>
+    <recordTypes>
+        <fullName>Opp_RT_1</fullName>
+        <active>true</active>
+        <businessProcess>Business Process 1</businessProcess>
+        <label>Opp RT 1</label>
+    </recordTypes>
     <searchLayouts>
         <customTabListAdditionalFields>OPPORTUNITY.NAME</customTabListAdditionalFields>
         <customTabListAdditionalFields>ACCOUNT.NAME</customTabListAdditionalFields>
