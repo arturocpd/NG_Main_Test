@@ -9,7 +9,7 @@
     "%vlocity_namespace%__IsActive__c": true,
     "%vlocity_namespace%__IsRefundable__c": true,
     "%vlocity_namespace%__JurisdictionId__c": "",
-    "%vlocity_namespace%__LoyaltyCode__c": "PTS",
+    "%vlocity_namespace%__LoyaltyCode__c": "PTSTARGET",
     "%vlocity_namespace%__ParentPriceListId__c": "",
     "%vlocity_namespace%__Percent__c": "",
     "%vlocity_namespace%__Pricebook2Id__c": "",
