@@ -244,16 +244,6 @@
         <type>Lookup</type>
     </fields>
     <fields>
-        <fullName>BackPromote__c</fullName>
-        <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
-        <label>BackPromote</label>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Checkbox</type>
-    </fields>
-    <fields>
         <fullName>BitCoin__c</fullName>
         <defaultValue>false</defaultValue>
         <externalId>false</externalId>
@@ -4692,7 +4682,35 @@
         <fullName>Record_Type</fullName>
         <active>true</active>
         <businessProcess>Support Process</businessProcess>
+        <compactLayoutAssignment>New_Default_Compact</compactLayoutAssignment>
         <label>Record Type</label>
+        <picklistValues>
+            <picklist>CI_Picklist_Test__c</picklist>
+            <values>
+                <fullName>AAA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>BBB</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CCC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DDD</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FFF</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GGG</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
         <picklistValues>
             <picklist>Category__c</picklist>
             <values>
