@@ -153,12 +153,54 @@
         <members>Case.test_Schedule_deployment__c</members>
         <members>Case.test_deploy__c</members>
         <members>Case.validatecommit__c</members>
+        <members>Opportunity.AccountId</members>
+        <members>Opportunity.Amount</members>
+        <members>Opportunity.CampaignId</members>
+        <members>Opportunity.CloseDate</members>
+        <members>Opportunity.ContactId</members>
+        <members>Opportunity.CurrencyIsoCode</members>
+        <members>Opportunity.CurrentGenerators__c</members>
+        <members>Opportunity.DeliveryInstallationStatus__c</members>
+        <members>Opportunity.Description</members>
+        <members>Opportunity.ExpectedRevenue</members>
+        <members>Opportunity.Fiscal</members>
+        <members>Opportunity.FiscalQuarter</members>
+        <members>Opportunity.FiscalYear</members>
+        <members>Opportunity.ForecastCategory</members>
+        <members>Opportunity.ForecastCategoryName</members>
+        <members>Opportunity.HasOpenActivity</members>
+        <members>Opportunity.HasOpportunityLineItem</members>
+        <members>Opportunity.HasOverdueTask</members>
+        <members>Opportunity.IsClosed</members>
+        <members>Opportunity.IsExcludedFromTerritory2Filter</members>
+        <members>Opportunity.IsPrivate</members>
+        <members>Opportunity.IsWon</members>
+        <members>Opportunity.LastActivityDate</members>
+        <members>Opportunity.LastAmountChangedHistoryId</members>
+        <members>Opportunity.LastCloseDateChangedHistoryId</members>
+        <members>Opportunity.LeadSource</members>
+        <members>Opportunity.MainCompetitors__c</members>
+        <members>Opportunity.Name</members>
+        <members>Opportunity.NextStep</members>
+        <members>Opportunity.OppText__c</members>
+        <members>Opportunity.OrderNumber__c</members>
+        <members>Opportunity.OwnerId</members>
+        <members>Opportunity.Pricebook2Id</members>
+        <members>Opportunity.Probability</members>
+        <members>Opportunity.RT_test_1__c</members>
+        <members>Opportunity.StageName</members>
+        <members>Opportunity.Territory2Id</members>
+        <members>Opportunity.Test_Commit_A__c</members>
+        <members>Opportunity.Test_Commit_B__c</members>
+        <members>Opportunity.Test_Commit_C__c</members>
+        <members>Opportunity.Time_Picklist__c</members>
+        <members>Opportunity.TotalOpportunityQuantity</members>
+        <members>Opportunity.TrackingNumber__c</members>
+        <members>Opportunity.Type</members>
+        <members>Opportunity.xyz_SGUID_Opp__c</members>
         <name>CustomField</name>
     </types>
     <types>
-        <members>Admin CLONE 2</members>
-        <members>Admin CLONE 3</members>
-        <members>Admin CLONE 5</members>
         <members>Test Rohit</members>
         <name>Profile</name>
     </types>
