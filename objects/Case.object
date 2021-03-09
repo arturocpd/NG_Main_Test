@@ -316,6 +316,89 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>CCH_Test__c</fullName>
+        <description>Arturo</description>
+        <encryptionScheme>ProbabilisticEncryption</encryptionScheme>
+        <externalId>false</externalId>
+        <label>CCH Test</label>
+        <length>12</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CI_Picklist_Test__c</fullName>
+        <description>description</description>
+        <externalId>false</externalId>
+        <label>CI Picklist Test</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>AAA</fullName>
+                    <default>false</default>
+                    <label>AAA</label>
+                </value>
+                <value>
+                    <fullName>BBB</fullName>
+                    <default>false</default>
+                    <label>BBB</label>
+                </value>
+                <value>
+                    <fullName>CCC</fullName>
+                    <default>false</default>
+                    <label>CCC</label>
+                </value>
+                <value>
+                    <fullName>DDD</fullName>
+                    <default>false</default>
+                    <label>DDD</label>
+                </value>
+                <value>
+                    <fullName>FFF</fullName>
+                    <default>false</default>
+                    <label>FFF</label>
+                </value>
+                <value>
+                    <fullName>GGG</fullName>
+                    <default>false</default>
+                    <label>GGG</label>
+                </value>
+                <value>
+                    <fullName>EEE</fullName>
+                    <default>false</default>
+                    <label>EEE</label>
+                </value>
+                <value>
+                    <fullName>EEE2</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>EEE</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>CI_Test_deploy__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>CI Test deploy</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>CI_test_2__c</fullName>
         <defaultValue>false</defaultValue>
         <externalId>false</externalId>
@@ -1153,6 +1236,12 @@
         <unique>false</unique>
     </fields>
     <fields>
+        <fullName>CurrencyIsoCode</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
         <fullName>DeleteMe2__c</fullName>
         <defaultValue>false</defaultValue>
         <externalId>false</externalId>
@@ -1201,21 +1290,6 @@
                     <label>Dependent 3</label>
                 </value>
             </valueSetDefinition>
-            <valueSettings>
-                <controllingFieldValue>Controlling 1</controllingFieldValue>
-                <controllingFieldValue>Controlling 2</controllingFieldValue>
-                <controllingFieldValue>Controlling 3</controllingFieldValue>
-                <valueName>New Dependent 1</valueName>
-            </valueSettings>
-            <valueSettings>
-                <controllingFieldValue>Controlling 1</controllingFieldValue>
-                <controllingFieldValue>Controlling 2</controllingFieldValue>
-                <valueName>Dependent 2</valueName>
-            </valueSettings>
-            <valueSettings>
-                <controllingFieldValue>Controlling 2</controllingFieldValue>
-                <valueName>Dependent 3</valueName>
-            </valueSettings>
         </valueSet>
     </fields>
     <fields>
@@ -1336,6 +1410,16 @@
         <type>Checkbox</type>
     </fields>
     <fields>
+        <fullName>Do_not_move_to_UAT__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Do not move to UAT</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>Duplicate_test__c</fullName>
         <defaultValue>false</defaultValue>
         <externalId>false</externalId>
@@ -1380,6 +1464,16 @@
         <defaultValue>false</defaultValue>
         <externalId>false</externalId>
         <label>FLS commit test</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>FLS_fails__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>FLS fails</label>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
@@ -1598,7 +1692,7 @@
             <valueSetDefinition>
                 <sorted>false</sorted>
                 <value>
-                    <fullName>Test 1</fullName>
+                    <fullName>New Test 1</fullName>
                     <default>false</default>
                     <label>Test 1</label>
                 </value>
@@ -5086,6 +5180,16 @@
         <visibleLines>5</visibleLines>
     </fields>
     <fields>
+        <fullName>TestAPINameDev1__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>TestLabelDev1</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>TestAutonumber__c</fullName>
         <externalId>false</externalId>
         <label>TestAutonumber</label>
@@ -5212,6 +5316,19 @@
         <type>Checkbox</type>
     </fields>
     <fields>
+        <fullName>Txyz2__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Testxyz2</label>
+        <length>12</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>Type</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>true</trackHistory>
@@ -5230,7 +5347,6 @@
     </fields>
     <fields>
         <fullName>Unique_Code__c</fullName>
-        <caseSensitive>true</caseSensitive>
         <encryptionScheme>None</encryptionScheme>
         <externalId>true</externalId>
         <label>Unique Code</label>
@@ -5240,7 +5356,7 @@
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Text</type>
-        <unique>true</unique>
+        <unique>false</unique>
     </fields>
     <fields>
         <fullName>Update_deployment_flow__c</fullName>
@@ -5383,6 +5499,16 @@
                 </value>
             </valueSetDefinition>
         </valueSet>
+    </fields>
+    <fields>
+        <fullName>Zip_file_test__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Zip file test</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
     </fields>
     <fields>
         <fullName>bug_test__c</fullName>
