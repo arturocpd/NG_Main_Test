@@ -9,5 +9,5 @@
         <members>Test_Community_Experience1</members>
         <name>ExperienceBundle</name>
     </types>
-    <version>50.0</version>
+    <version>51.0</version>
 </Package>
