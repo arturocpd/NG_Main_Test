@@ -271,6 +271,89 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>CCH_Test__c</fullName>
+        <description>Arturo</description>
+        <encryptionScheme>ProbabilisticEncryption</encryptionScheme>
+        <externalId>false</externalId>
+        <label>CCH Test</label>
+        <length>12</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CI_Picklist_Test__c</fullName>
+        <description>description</description>
+        <externalId>false</externalId>
+        <label>CI Picklist Test</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>AAA</fullName>
+                    <default>false</default>
+                    <label>AAA</label>
+                </value>
+                <value>
+                    <fullName>BBB</fullName>
+                    <default>false</default>
+                    <label>BBB</label>
+                </value>
+                <value>
+                    <fullName>CCC</fullName>
+                    <default>false</default>
+                    <label>CCC</label>
+                </value>
+                <value>
+                    <fullName>DDD</fullName>
+                    <default>false</default>
+                    <label>DDD</label>
+                </value>
+                <value>
+                    <fullName>FFF</fullName>
+                    <default>false</default>
+                    <label>FFF</label>
+                </value>
+                <value>
+                    <fullName>GGG</fullName>
+                    <default>false</default>
+                    <label>GGG</label>
+                </value>
+                <value>
+                    <fullName>EEE</fullName>
+                    <default>false</default>
+                    <label>EEE</label>
+                </value>
+                <value>
+                    <fullName>EEE2</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>EEE</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>CI_Test_deploy__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>CI Test deploy</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>CI_test_1__c</fullName>
         <defaultValue>false</defaultValue>
         <externalId>false</externalId>
