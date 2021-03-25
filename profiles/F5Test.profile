@@ -96,6 +96,10 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
+        <name>ChatterOwnGroups</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
         <name>ConnectOrgToEnvironmentHub</name>
     </userPermissions>
     <userPermissions>
@@ -133,6 +137,10 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>CreateLtngTempFolder</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>CreatePackaging</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
