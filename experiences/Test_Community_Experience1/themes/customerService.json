@@ -48,17 +48,17 @@
           "contineActionLabel" : "Ask the community",
           "continueLabel" : "Don’t see it?",
           "crossObjectTypeaheadApiNames" : [ {
-            "name" : "KnowledgeArticleVersion",
-            "isPublic" : true
+            "isPublic" : true,
+            "name" : "KnowledgeArticleVersion"
           }, {
-            "name" : "FeedItem",
-            "isPublic" : true
+            "isPublic" : true,
+            "name" : "FeedItem"
           }, {
-            "name" : "Case",
-            "isPublic" : false
+            "isPublic" : false,
+            "name" : "Case"
           }, {
-            "name" : "CollaborationGroup",
-            "isPublic" : true
+            "isPublic" : true,
+            "name" : "CollaborationGroup"
           } ],
           "disableCrossObjectRelevance" : false,
           "enableAutocomplete" : true,

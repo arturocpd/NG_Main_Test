@@ -1,19 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Account.Big__c</members>
-        <members>Case.BP_Test__c</members>
-        <members>Case.BackPromote__c</members>
-        <members>Case.BitCoin__c</members>
-        <name>CustomField</name>
+        <members>Test_Community_Experience1</members>
+        <name>ExperienceBundle</name>
     </types>
-    <types>
-        <members>Case</members>
-        <name>CustomObject</name>
-    </types>
-    <types>
-        <members>Test Rohit</members>
-        <name>Profile</name>
-    </types>
-    <version>50.0</version>
+    <version>51.0</version>
 </Package>
