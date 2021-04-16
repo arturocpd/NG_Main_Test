@@ -84,11 +84,6 @@
         <type>Text</type>
     </nameField>
     <pluralLabel>OrderLineItems</pluralLabel>
-    <recordTypes>
-        <fullName>RecordType1</fullName>
-        <active>true</active>
-        <label>RecordType1</label>
-    </recordTypes>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <validationRules>

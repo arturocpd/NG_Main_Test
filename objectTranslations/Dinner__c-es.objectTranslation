@@ -9,89 +9,172 @@
         <value>Dinners</value>
     </caseValues>
     <fields>
-        <label><!-- Automatic Renewal Clause --></label>
-        <name>Automatic_Renewal_Clause__c</name>
-        <picklistValues>
-            <masterLabel>No</masterLabel>
-            <translation><!-- No --></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>Yes</masterLabel>
-            <translation><!-- Yes --></translation>
-        </picklistValues>
-    </fields>
-    <fields>
-        <label><!-- Dinner Type --></label>
+        <label></label>
         <name>Dinner_Type__c</name>
         <picklistValues>
             <masterLabel>Full</masterLabel>
-            <translation><!-- Full --></translation>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>High Touch/High Urgency</masterLabel>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Partial</masterLabel>
-            <translation><!-- Partial --></translation>
+            <translation></translation>
         </picklistValues>
     </fields>
     <fields>
-        <label><!-- External Auto --></label>
+        <label></label>
         <name>External_Auto__c</name>
     </fields>
     <fields>
-        <label><!-- LateDinner --></label>
+        <label></label>
+        <name>FLS_Test_Dinner_PS__c</name>
+    </fields>
+    <fields>
+        <label></label>
         <name>LateDinner__c</name>
     </fields>
     <fields>
-        <label><!-- Picklist Dinner Table --></label>
+        <label></label>
+        <name>Nested_Field_Test__c</name>
+    </fields>
+    <fields>
+        <label></label>
         <name>Picklist_Dinner_Table__c</name>
         <picklistValues>
             <masterLabel>Dinner Table1</masterLabel>
-            <translation><!-- Dinner Table1 --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Dinner Table2</masterLabel>
-            <translation><!-- Dinner Table2 --></translation>
+            <translation></translation>
         </picklistValues>
     </fields>
     <fields>
-        <label><!-- Picklist Dinner --></label>
+        <label></label>
         <name>Picklist_Dinner__c</name>
         <picklistValues>
             <masterLabel>Dinner1</masterLabel>
-            <translation><!-- Dinner1 --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Dinner2</masterLabel>
-            <translation><!-- Dinner2 --></translation>
+            <translation></translation>
         </picklistValues>
     </fields>
     <fields>
-        <label><!-- Point of contact --></label>
+        <label></label>
         <name>Point_of_contact__c</name>
-        <relationshipLabel><!-- Dinners --></relationshipLabel>
+        <relationshipLabel>Cenas</relationshipLabel>
     </fields>
     <fields>
-        <label><!-- TEST US --></label>
+        <label></label>
         <name>TEST_US__c</name>
     </fields>
     <fields>
-        <label><!-- Table --></label>
+        <label></label>
         <name>Table__c</name>
     </fields>
     <fields>
-        <label><!-- historyRetentionPolicy --></label>
+        <label></label>
+        <name>VS_Field1_Test_2__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>VS_Field2_Test_2__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>VS_Field3_Test_2__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>VS_Field4_Test_2__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>VS_PS_Test_D__c</name>
+    </fields>
+    <fields>
+        <label></label>
         <name>historyRetentionPolicy__c</name>
     </fields>
-    <gender>Feminine</gender>
+    <gender><!-- Feminine --></gender>
+    <layouts>
+        <layout>Dinner Layout</layout>
+        <sections>
+            <label>2 Mesas Disponibles</label>
+            <section>2 Tables Available</section>
+        </sections>
+        <sections>
+            <label>3 Mesas Disponibles</label>
+            <section>3 Tables Available</section>
+        </sections>
+        <sections>
+            <label>4 Mesas Disponibles</label>
+            <section>4 Tables Available</section>
+        </sections>
+        <sections>
+            <label>5 Mesas Disponibles</label>
+            <section>5 Tables Available</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Mesas Disponibles</label>
+            <section>Tables Available</section>
+        </sections>
+    </layouts>
     <recordTypes>
-        <label><!-- Dinner RT --></label>
+        <label></label>
         <name>Dinner_RT</name>
     </recordTypes>
     <recordTypes>
-        <label><!-- Dinner RT 2 --></label>
+        <label></label>
+        <name>Dinner_RT10</name>
+    </recordTypes>
+    <recordTypes>
+        <label></label>
+        <name>Dinner_RT2</name>
+    </recordTypes>
+    <recordTypes>
+        <label></label>
+        <name>Dinner_RT3</name>
+    </recordTypes>
+    <recordTypes>
+        <label></label>
+        <name>Dinner_RT4</name>
+    </recordTypes>
+    <recordTypes>
+        <label></label>
+        <name>Dinner_RT5</name>
+    </recordTypes>
+    <recordTypes>
+        <label></label>
+        <name>Dinner_RT6</name>
+    </recordTypes>
+    <recordTypes>
+        <label></label>
+        <name>Dinner_RT7</name>
+    </recordTypes>
+    <recordTypes>
+        <label></label>
+        <name>Dinner_RT8</name>
+    </recordTypes>
+    <recordTypes>
+        <label></label>
+        <name>Dinner_RT9</name>
+    </recordTypes>
+    <recordTypes>
+        <label></label>
         <name>Dinner_RT_2</name>
     </recordTypes>
     <recordTypes>
-        <label><!-- Nested Dinner RT --></label>
+        <label></label>
         <name>Nested_Dinner_RT</name>
     </recordTypes>
 </CustomObjectTranslation>

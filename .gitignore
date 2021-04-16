@@ -1,5 +1,5 @@
 #package.xml file is recreated on the fly by Copado, no need to track unnecessary changes of this file
-#package.xml
+package.xml
 
 #if you are not going to customize a managed package, you can keep your repository clean by ignoring 
 #all files for that package.
@@ -7,7 +7,7 @@
 #is installed on all your environments, so that deployments will only update existing 
 #managed components. Creation of managed components is not permitted by the API.
 # below is an example on how to ignore all components of the "copado" managed packageXXXXXXXXXXX.
-#*copado__*
+*copado__*
 
 #profiles and permission sets are complex Files. If your Org's metadata and Git are in sync, 
 #you can track incremental changes on Profiles and Permission sets using Copado "commit files" functionality.

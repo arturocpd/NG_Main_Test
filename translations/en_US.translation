@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Translations xmlns="http://soap.sforce.com/2006/04/metadata">
     <customLabels>
-        <label>Translation to english MOD</label>
-        <name>Translation_Test</name>
+        <label><!-- ACCOUNT SUMMARY --></label>
+        <name>ACCOUNT_SUMMARY</name>
     </customLabels>
 </Translations>
