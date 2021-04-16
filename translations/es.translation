@@ -4,4 +4,32 @@
         <label>Resumen de Cuenta Modified</label>
         <name>ACCOUNT_SUMMARY</name>
     </customLabels>
+    <customLabels>
+        <label>Cabecera Columna Accion</label>
+        <name>ACTION_COLUMN_HEADER</name>
+    </customLabels>
+    <customLabels>
+        <label>Activar Usuarios</label>
+        <name>ACTIVATE_USERS</name>
+    </customLabels>
+    <customLabels>
+        <label></label>
+        <name>ADD_AN_ENVIRONMENT</name>
+    </customLabels>
+    <customLabels>
+        <label>Añadir cabecera</label>
+        <name>ADD_HEADER</name>
+    </customLabels>
+    <customLabels>
+        <label>Este es el custom label de AR</label>
+        <name>AR_Custom_Label</name>
+    </customLabels>
+    <customLabels>
+        <label>Comit ahead</label>
+        <name>COMMITS_AHEAD</name>
+    </customLabels>
+    <customLabels>
+        <label>Despliega con copado</label>
+        <name>Test_Copado_deplo</name>
+    </customLabels>
 </Translations>

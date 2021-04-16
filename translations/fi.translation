@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Translations xmlns="http://soap.sforce.com/2006/04/metadata">
     <customLabels>
-        <label><!-- ACCOUNT SUMMARY --></label>
+        <label></label>
         <name>ACCOUNT_SUMMARY</name>
+    </customLabels>
+    <customLabels>
+        <label>Finish for AR_Custom_Label</label>
+        <name>AR_Custom_Label</name>
+    </customLabels>
+    <customLabels>
+        <label>Finnish for New_CL_from_Dev3</label>
+        <name>New_CL_from_Dev3</name>
     </customLabels>
 </Translations>
