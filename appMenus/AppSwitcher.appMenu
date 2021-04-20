@@ -45,30 +45,6 @@
         <type>CustomApplication</type>
     </appMenuItems>
     <appMenuItems>
-        <name>copado__Copado</name>
-        <type>CustomApplication</type>
-    </appMenuItems>
-    <appMenuItems>
-        <name>copado__Copado_Branch_Management</name>
-        <type>CustomApplication</type>
-    </appMenuItems>
-    <appMenuItems>
-        <name>copado__Copado_Change_Management</name>
-        <type>CustomApplication</type>
-    </appMenuItems>
-    <appMenuItems>
-        <name>copado__Copado_Continuous_Integration</name>
-        <type>CustomApplication</type>
-    </appMenuItems>
-    <appMenuItems>
-        <name>copado__Copado_Permissioner</name>
-        <type>CustomApplication</type>
-    </appMenuItems>
-    <appMenuItems>
-        <name>copado__Copado_Selenium_Testing</name>
-        <type>CustomApplication</type>
-    </appMenuItems>
-    <appMenuItems>
         <name>Dataloader_Bulk</name>
         <type>ConnectedApp</type>
     </appMenuItems>
@@ -101,6 +77,14 @@
         <type>ConnectedApp</type>
     </appMenuItems>
     <appMenuItems>
+        <name>Test Community</name>
+        <type>Network</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>Tabs</name>
+        <type>Network</type>
+    </appMenuItems>
+    <appMenuItems>
         <name>Test_Omni_commit</name>
         <type>CustomApplication</type>
     </appMenuItems>
@@ -109,19 +93,15 @@
         <type>CustomApplication</type>
     </appMenuItems>
     <appMenuItems>
-        <name>copado__Copado_Compliance_Hub</name>
-        <type>CustomApplication</type>
-    </appMenuItems>
-    <appMenuItems>
-        <name>copado__Copado_DX</name>
-        <type>CustomApplication</type>
-    </appMenuItems>
-    <appMenuItems>
-        <name>Copado_Integrations</name>
-        <type>CustomApplication</type>
+        <name>Canvas_App</name>
+        <type>ConnectedApp</type>
     </appMenuItems>
     <appMenuItems>
         <name>Test_Connected_App</name>
+        <type>ConnectedApp</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>Connected_App_YAML</name>
         <type>ConnectedApp</type>
     </appMenuItems>
     <appMenuItems>
@@ -129,7 +109,15 @@
         <type>CustomApplication</type>
     </appMenuItems>
     <appMenuItems>
-        <name>Copado_DX</name>
-        <type>ConnectedApp</type>
+        <name>NGService</name>
+        <type>Network</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>Test_App</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>Sales_Console</name>
+        <type>CustomApplication</type>
     </appMenuItems>
 </AppMenu>

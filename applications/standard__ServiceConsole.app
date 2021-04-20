@@ -187,7 +187,44 @@
     <tabs>standard-Case</tabs>
     <tabs>standard-Opportunity</tabs>
     <tabs>standard-Lead</tabs>
+    <tabs>standard-Knowledge</tabs>
+    <tabs>Dinner__c</tabs>
+    <tabs>CSTM_Object__c</tabs>
+    <tabs>IdeasVFTab</tabs>
+    <tabs>OLS_Test__c</tabs>
+    <tabs>GenderTest__c</tabs>
+    <tabs>ADD_Product__c</tabs>
+    <tabs>ADD_Conficguration_Rule__c</tabs>
+    <tabs>ADD_Product_Rule__c</tabs>
+    <tabs>ADD_Product_Action__c</tabs>
     <workspaceConfig>
+        <mappings>
+            <tab>ADD_Conficguration_Rule__c</tab>
+        </mappings>
+        <mappings>
+            <tab>ADD_Product_Action__c</tab>
+        </mappings>
+        <mappings>
+            <tab>ADD_Product_Rule__c</tab>
+        </mappings>
+        <mappings>
+            <tab>ADD_Product__c</tab>
+        </mappings>
+        <mappings>
+            <tab>CSTM_Object__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Dinner__c</tab>
+        </mappings>
+        <mappings>
+            <tab>GenderTest__c</tab>
+        </mappings>
+        <mappings>
+            <tab>IdeasVFTab</tab>
+        </mappings>
+        <mappings>
+            <tab>OLS_Test__c</tab>
+        </mappings>
         <mappings>
             <tab>standard-Account</tab>
         </mappings>
@@ -198,6 +235,9 @@
         <mappings>
             <fieldName>AccountId</fieldName>
             <tab>standard-Contact</tab>
+        </mappings>
+        <mappings>
+            <tab>standard-Knowledge</tab>
         </mappings>
         <mappings>
             <tab>standard-Lead</tab>

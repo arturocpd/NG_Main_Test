@@ -25,10 +25,6 @@
         <visibility>Visible</visibility>
     </tabSettings>
     <tabSettings>
-        <tab>Delete_me__c</tab>
-        <visibility>Visible</visibility>
-    </tabSettings>
-    <tabSettings>
         <tab>Dinner__c</tab>
         <visibility>Available</visibility>
     </tabSettings>

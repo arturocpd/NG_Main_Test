@@ -11,8 +11,23 @@
             </criteriaItems>
             <notifyCcRecipients>false</notifyCcRecipients>
             <senderEmail>arturogueznez@gmail.com</senderEmail>
-            <senderName>Name1</senderName>
+            <senderName>Name1MOD</senderName>
             <template>unfiled$public/SalesNewCustomerEmail</template>
         </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.Status</field>
+                <operation>equals</operation>
+                <value>Working</value>
+            </criteriaItems>
+            <notifyCcRecipients>false</notifyCcRecipients>
+            <senderEmail>arturogueznez@gmail.com</senderEmail>
+            <senderName>Name2</senderName>
+            <template>unfiled$public/SalesNewCustomerEmail</template>
+        </ruleEntry>
+    </autoResponseRule>
+    <autoResponseRule>
+        <fullName>Rule2</fullName>
+        <active>false</active>
     </autoResponseRule>
 </AutoResponseRules>

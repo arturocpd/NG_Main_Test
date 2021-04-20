@@ -14,11 +14,11 @@
         <samlInitiationMethod>None</samlInitiationMethod>
     </canvasConfig>
     <contactEmail>arturogueznez@gmail.com</contactEmail>
-    <description>Adding Description</description>
+    <description>New Description</description>
     <label>Test Connected App</label>
     <oauthConfig>
         <callbackUrl>https://logoin.salesforce.com/service/oauth2/callback</callbackUrl>
-        <consumerKey>3MVG9HxRZv05HarSrty3uT.ELuPj.fQN9RmQ6kujUurT3Za.eTir1XWoiCWtCVefoReOcYREi8JfcsfRqhuAz</consumerKey>
+        <consumerKey>3MVG9HxRZv05HarS49juVPUSjY7XrahuqxIsW.DHUnaoUPDmKZxPgdV6MoJlk8UOYJ42NCz0JtX4oymhu_IzX</consumerKey>
         <isAdminApproved>false</isAdminApproved>
         <scopes>Basic</scopes>
         <scopes>Api</scopes>

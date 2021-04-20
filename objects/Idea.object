@@ -86,12 +86,6 @@
         </filters>
         <label>Last 7 Days</label>
     </listViews>
-    <recordTypes>
-        <fullName>InternalIdeasIdeaRecordType</fullName>
-        <active>true</active>
-        <description>Record Type used to associate ideas with a specific community</description>
-        <label>Internal Ideas: Idea Record Type</label>
-    </recordTypes>
     <searchLayouts>
         <customTabListAdditionalFields>IDEA.TITLE</customTabListAdditionalFields>
         <customTabListAdditionalFields>IDEA.BODY</customTabListAdditionalFields>
@@ -103,6 +97,7 @@
         <customTabListAdditionalFields>IDEA.CATEGORIES</customTabListAdditionalFields>
         <customTabListAdditionalFields>IDEA.STATUS</customTabListAdditionalFields>
         <customTabListAdditionalFields>IDEA.LAST_COMMENT_DATE</customTabListAdditionalFields>
+        <customTabListAdditionalFields>IDEA.IDEA_THEME</customTabListAdditionalFields>
         <lookupDialogsAdditionalFields>IDEA.TITLE</lookupDialogsAdditionalFields>
         <lookupDialogsAdditionalFields>COMMUNITY.NAME</lookupDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>IDEA.TITLE</lookupPhoneDialogsAdditionalFields>

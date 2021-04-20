@@ -5,7 +5,7 @@
     <enableContactlessExternalIdentityUsers>false</enableContactlessExternalIdentityUsers>
     <enableEnhancedPermsetMgmt>false</enableEnhancedPermsetMgmt>
     <enableEnhancedProfileMgmt>true</enableEnhancedProfileMgmt>
-    <enableNewProfileUI>true</enableNewProfileUI>
+    <enableNewProfileUI>false</enableNewProfileUI>
     <enableScrambleUserData>false</enableScrambleUserData>
     <enableUserSelfDeactivate>false</enableUserSelfDeactivate>
 </UserManagementSettings>

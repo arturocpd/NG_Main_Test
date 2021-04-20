@@ -4,6 +4,7 @@
         <componentList>
             <alignment>right</alignment>
             <components>Console.BuiltInComponent.mostRecentlyUsed</components>
+            <components>Console.BuiltInComponent.servicePresence</components>
             <components>Console.BuiltInComponent.macroBrowser</components>
         </componentList>
         <detailPageRefreshMethod>none</detailPageRefreshMethod>
@@ -196,20 +197,36 @@
     </preferences>
     <tabs>standard-Case</tabs>
     <tabs>standard-Lead</tabs>
-    <tabs>CSTM_Object__c</tabs>
-    <tabs>standard-home</tabs>
+    <tabs>OLS_Test__c</tabs>
+    <tabs>GenderTest__c</tabs>
+    <tabs>ADD_Product__c</tabs>
+    <tabs>ADD_Conficguration_Rule__c</tabs>
+    <tabs>ADD_Product_Rule__c</tabs>
+    <tabs>ADD_Product_Action__c</tabs>
     <workspaceConfig>
         <mappings>
-            <tab>CSTM_Object__c</tab>
+            <tab>ADD_Conficguration_Rule__c</tab>
+        </mappings>
+        <mappings>
+            <tab>ADD_Product_Action__c</tab>
+        </mappings>
+        <mappings>
+            <tab>ADD_Product_Rule__c</tab>
+        </mappings>
+        <mappings>
+            <tab>ADD_Product__c</tab>
+        </mappings>
+        <mappings>
+            <tab>GenderTest__c</tab>
+        </mappings>
+        <mappings>
+            <tab>OLS_Test__c</tab>
         </mappings>
         <mappings>
             <tab>standard-Case</tab>
         </mappings>
         <mappings>
             <tab>standard-Lead</tab>
-        </mappings>
-        <mappings>
-            <tab>standard-home</tab>
         </mappings>
     </workspaceConfig>
 </CustomApplication>

@@ -79,4 +79,10 @@
         <label>Consultant</label>
         <reverseRole>Client</reverseRole>
     </standardValue>
+    <standardValue>
+        <fullName>PR Custom</fullName>
+        <default>false</default>
+        <label>PR Custom</label>
+        <reverseRole>Reverse PR Custom</reverseRole>
+    </standardValue>
 </StandardValueSet>

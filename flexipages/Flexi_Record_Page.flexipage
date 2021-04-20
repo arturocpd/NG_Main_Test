@@ -28,7 +28,7 @@
         <name>main</name>
         <type>Region</type>
     </flexiPageRegions>
-    <masterLabel>Flexi Record Page2</masterLabel>
+    <masterLabel>Flexi Record Page</masterLabel>
     <sobjectType>Account</sobjectType>
     <template>
         <name>flexipage:recordHomeSingleColTemplateDesktop</name>

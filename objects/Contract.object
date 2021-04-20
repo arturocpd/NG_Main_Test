@@ -186,6 +186,7 @@
     </fields>
     <fields>
         <fullName>BillingAddress</fullName>
+        <encryptionScheme>None</encryptionScheme>
         <trackHistory>true</trackHistory>
     </fields>
     <fields>
@@ -242,6 +243,7 @@
     </fields>
     <fields>
         <fullName>ShippingAddress</fullName>
+        <encryptionScheme>None</encryptionScheme>
         <trackHistory>true</trackHistory>
     </fields>
     <fields>
@@ -322,6 +324,31 @@
         </filters>
         <label>My In Approval Contracts</label>
     </listViews>
+    <recordTypeTrackHistory>true</recordTypeTrackHistory>
+    <recordTypes>
+        <fullName>RecordType1</fullName>
+        <active>true</active>
+        <label>RecordType1</label>
+        <picklistValues>
+            <picklist>Status</picklist>
+            <values>
+                <fullName>Activated</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Draft</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>In Approval Process</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NewContract</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
     <searchLayouts>
         <customTabListAdditionalFields>CONTRACT.CONTRACT_NUMBER</customTabListAdditionalFields>
         <customTabListAdditionalFields>CONTRACT.NAME</customTabListAdditionalFields>

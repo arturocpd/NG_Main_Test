@@ -9,23 +9,15 @@
         <value>Dinners</value>
     </caseValues>
     <fields>
-        <label><!-- Automatic Renewal Clause --></label>
-        <name>Automatic_Renewal_Clause__c</name>
-        <picklistValues>
-            <masterLabel>No</masterLabel>
-            <translation><!-- No --></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>Yes</masterLabel>
-            <translation><!-- Yes --></translation>
-        </picklistValues>
-    </fields>
-    <fields>
         <label><!-- Dinner Type --></label>
         <name>Dinner_Type__c</name>
         <picklistValues>
             <masterLabel>Full</masterLabel>
             <translation><!-- Full --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>High Touch/High Urgency</masterLabel>
+            <translation><!-- High Touch/High Urgency --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Partial</masterLabel>
@@ -37,8 +29,16 @@
         <name>External_Auto__c</name>
     </fields>
     <fields>
+        <label><!-- FLS Test Dinner PS --></label>
+        <name>FLS_Test_Dinner_PS__c</name>
+    </fields>
+    <fields>
         <label><!-- LateDinner --></label>
         <name>LateDinner__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nested Field Test --></label>
+        <name>Nested_Field_Test__c</name>
     </fields>
     <fields>
         <label><!-- Picklist Dinner Table --></label>
@@ -67,7 +67,7 @@
     <fields>
         <label><!-- Point of contact --></label>
         <name>Point_of_contact__c</name>
-        <relationshipLabel><!-- Dinners --></relationshipLabel>
+        <relationshipLabel>Cenas</relationshipLabel>
     </fields>
     <fields>
         <label><!-- TEST US --></label>
@@ -78,6 +78,26 @@
         <name>Table__c</name>
     </fields>
     <fields>
+        <label><!-- VS Field1 Test 2 --></label>
+        <name>VS_Field1_Test_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- VS Field2 Test 2 --></label>
+        <name>VS_Field2_Test_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- VS Field3 Test 2 --></label>
+        <name>VS_Field3_Test_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- VS Field4 Test 2 --></label>
+        <name>VS_Field4_Test_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- VS PS Test D --></label>
+        <name>VS_PS_Test_D__c</name>
+    </fields>
+    <fields>
         <label><!-- historyRetentionPolicy --></label>
         <name>historyRetentionPolicy__c</name>
     </fields>
@@ -85,6 +105,42 @@
     <recordTypes>
         <label><!-- Dinner RT --></label>
         <name>Dinner_RT</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Dinner RT10 --></label>
+        <name>Dinner_RT10</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Dinner RT2 --></label>
+        <name>Dinner_RT2</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Dinner RT3 --></label>
+        <name>Dinner_RT3</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Dinner RT4 --></label>
+        <name>Dinner_RT4</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Dinner RT5 --></label>
+        <name>Dinner_RT5</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Dinner RT6 --></label>
+        <name>Dinner_RT6</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Dinner RT7 --></label>
+        <name>Dinner_RT7</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Dinner RT8 --></label>
+        <name>Dinner_RT8</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Dinner RT9 --></label>
+        <name>Dinner_RT9</name>
     </recordTypes>
     <recordTypes>
         <label><!-- Dinner RT 2 --></label>

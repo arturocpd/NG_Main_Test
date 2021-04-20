@@ -154,7 +154,7 @@
     <listViews>
         <fullName>All_ServiceCrewMembers</fullName>
         <filterScope>Everything</filterScope>
-        <label>All Service Crew Members</label>
+        <label>Todos miembros de plantillas de servicio</label>
     </listViews>
     <searchLayouts>
         <customTabListAdditionalFields>ServiceResource</customTabListAdditionalFields>

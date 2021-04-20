@@ -145,12 +145,12 @@
     <listViews>
         <fullName>All_ServiceCrews</fullName>
         <filterScope>Everything</filterScope>
-        <label>All Service Crews</label>
+        <label>Todas plantillas de servicio</label>
     </listViews>
     <listViews>
         <fullName>My_ServiceCrews</fullName>
         <filterScope>Mine</filterScope>
-        <label>My Service Crews</label>
+        <label>Mis plantillas de servicio</label>
     </listViews>
     <searchLayouts>
         <customTabListAdditionalFields>CrewSize</customTabListAdditionalFields>

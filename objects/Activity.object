@@ -120,7 +120,6 @@
         <required>false</required>
         <type>Picklist</type>
         <valueSet>
-            <restricted>true</restricted>
             <valueSetDefinition>
                 <sorted>false</sorted>
                 <value>
@@ -150,6 +149,41 @@
                 </value>
             </valueSetDefinition>
         </valueSet>
+    </fields>
+    <fields>
+        <fullName>Activity_Custom_field_2__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Activity Custom field 2</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Activity_Custom_field_3__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Activity Custom field 3</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Activity_Custom_field_4__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Activity Custom field 4</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Activity_Custom_field_5__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Activity Custom field 5</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Activity_ZZZ__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Activity ZZZ</label>
+        <type>Checkbox</type>
     </fields>
     <fields>
         <fullName>Next_Time__c</fullName>
@@ -230,6 +264,59 @@
             <valueSetName>Time</valueSetName>
         </valueSet>
     </fields>
+    <fields>
+        <fullName>Year__c</fullName>
+        <externalId>false</externalId>
+        <label>Year</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Year</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>add_metadata_1__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>add metadata 1</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>add_metadata_2__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>add metadata 2</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>check_formula__c</fullName>
+        <externalId>false</externalId>
+        <formula>true</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>check formula</label>
+        <type>Checkbox</type>
+    </fields>
+    <listViews>
+        <fullName>Act_Task_New_View</fullName>
+        <columns>TASK.SUBJECT</columns>
+        <columns>TASK.WHO_NAME</columns>
+        <columns>TASK.WHAT_NAME</columns>
+        <columns>TASK.DUE_DATE</columns>
+        <columns>TASK.STATUS</columns>
+        <columns>TASK.PRIORITY</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>TASK.LAST_UPDATE</columns>
+        <columns>UPDATEDBY_USER.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>TASK.CLOSED</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <label>Act Task New View</label>
+        <language>en_US</language>
+    </listViews>
     <listViews>
         <fullName>AllActivities</fullName>
         <filterScope>Team</filterScope>
@@ -239,6 +326,26 @@
         <fullName>MyActivities</fullName>
         <filterScope>Mine</filterScope>
         <label>My Activities</label>
+    </listViews>
+    <listViews>
+        <fullName>Tast_New_View</fullName>
+        <columns>TASK.SUBJECT</columns>
+        <columns>TASK.WHO_NAME</columns>
+        <columns>TASK.WHAT_NAME</columns>
+        <columns>TASK.DUE_DATE</columns>
+        <columns>TASK.STATUS</columns>
+        <columns>TASK.PRIORITY</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>TASK.LAST_UPDATE</columns>
+        <columns>UPDATEDBY_USER.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>TASK.CLOSED</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <label>Tast New View</label>
+        <language>en_US</language>
     </listViews>
     <listViews>
         <fullName>TodaysTasks</fullName>
@@ -276,6 +383,7 @@
         <label>Upcoming Events</label>
     </listViews>
     <searchLayouts>
+        <listViewButtons>Task_List_Button</listViewButtons>
         <searchResultsAdditionalFields>TASK.SUBJECT</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>TASK.WHO_NAME</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>TASK.WHAT_NAME</searchResultsAdditionalFields>

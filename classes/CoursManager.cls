@@ -1,7 +1,8 @@
 public class CoursManager {
 
     static void CreateManager(){
-    /*this is a safadfaasfasdfa*/
+    /*this is a
+     comment*/
     }
         
 }
