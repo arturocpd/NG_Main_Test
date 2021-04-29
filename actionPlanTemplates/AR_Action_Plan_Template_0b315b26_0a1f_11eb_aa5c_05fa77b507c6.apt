@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ActionPlanTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>This is an action plan template</description>
+    <isAdHocItemCreationEnabled>false</isAdHocItemCreationEnabled>
+    <name>AR Action Plan Template</name>
+    <targetEntityType>Account</targetEntityType>
+    <uniqueName>AR_Action_Plan_Template_0b315b26_0a1f_11eb_aa5c_05fa77b507c6</uniqueName>
+</ActionPlanTemplate>
