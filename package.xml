@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>unfiled$public/Test_CI</members>
-        <name>EmailTemplate</name>
+        <members>Case.FLS_fails__c</members>
+        <members>Case.Test_env_variables__c</members>
+        <members>Case.Txyz2__c</members>
+        <members>Case.Unique_Code__c</members>
+        <members>Case.Zip_file_test__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>Test Rohit</members>
+        <name>Profile</name>
     </types>
     <version>51.0</version>
 </Package>
