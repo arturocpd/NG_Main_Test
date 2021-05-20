@@ -4,9 +4,5 @@
         <members>Public_Folder/SPzlYgpspFhaUcixfxTCnsQSyBABOD</members>
         <name>Dashboard</name>
     </types>
-    <types>
-        <members>unfiled$public/New_Test_Report</members>
-        <name>Report</name>
-    </types>
     <version>51.0</version>
 </Package>
