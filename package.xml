@@ -1,11 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Case.BitCoin__c</members>
-        <members>Case.CO1__c</members>
-        <members>Case.CO2__c</members>
-        <members>Case.Case_EEE__c</members>
-        <name>CustomField</name>
+        <members>Auto Driver (autoDriver)</members>
+        <members>Driver (DRIVER)</members>
+        <name>AttributeCategory</name>
     </types>
-    <version>50.0</version>
+    <types>
+        <members>AR Price Book</members>
+        <members>Standard</members>
+        <members>Standard Price Book</members>
+        <name>Pricebook2</name>
+    </types>
+    <types>
+        <members>Auto Driver (DRIVER / 402a8758-f9c4-6c29-7540-13e6eb9417ec)</members>
+        <members>Auto Driver (autoDriver / 51d19ec8-01a9-f310-b0c0-6cc61049d4eb)</members>
+        <name>Product2</name>
+    </types>
+    <version>51.0</version>
 </Package>

@@ -3,9 +3,9 @@
     "Description": "",
     "IsActive": true,
     "IsArchived": false,
-    "IsStandard": true,
-    "Name": "Standard Price Book",
+    "IsStandard": false,
+    "Name": "AR Price Book",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "Pricebook2",
-    "VlocityRecordSourceKey": "Pricebook2/Standard Price Book"
+    "VlocityRecordSourceKey": "Pricebook2/AR Price Book"
 }
