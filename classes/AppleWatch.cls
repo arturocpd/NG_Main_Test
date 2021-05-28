@@ -4,14 +4,11 @@ Public with sharing Class AppleWatch{
         Task t        = new Task();
         t.Subject     = 'Apple Watch Promo' ;
         t.Description = 'Send them one ASAP' ;
-        t.Priority    = 'High';
+        t.Priority    = 'High' ;
         t.WhatId      = opp.Id;
         insert t;
-     /*Commit conflict*/
-     /*Comment Number 2*/ 
-     
+     /*This is the message in UAT branch*/
+     /*Another message in UAT*/
    }
-  
   }
- 
  }
