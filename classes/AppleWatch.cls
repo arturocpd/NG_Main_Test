@@ -1,10 +1,4 @@
 Public with sharing Class AppleWatch{
-
-
-
-
-
-
  Public Static void appleWatchmethod(list<Opportunity> lopt ){
     for (Opportunity opp : lopt) {
         Task t        = new Task();
@@ -13,12 +7,8 @@ Public with sharing Class AppleWatch{
         t.Priority    = 'High' ;
         t.WhatId      = opp.Id;
         insert t;
-
-     /*Commit conflict1 Mod in Source and feature branch*/
-     /*Commit Training*/
-     
+     /*This is the UAT branch*/
+     /*UAT Branch*/
    }
-  
   }
- 
  }
