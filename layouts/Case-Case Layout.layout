@@ -167,7 +167,7 @@
                 <field>CI_Picklist_Test__c</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Required</behavior>
+                <behavior>Edit</behavior>
                 <field>Case_WWW__c</field>
             </layoutItems>
             <layoutItems>
@@ -497,6 +497,30 @@
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>Test_conflict__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>FLS_fails__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>TestAPINameDev1__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Txyz2__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Do_not_move_to_UAT__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Do_not_move_to_UATcase__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Test_env_variables__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
