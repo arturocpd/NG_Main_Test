@@ -7,8 +7,8 @@ Public with sharing Class AppleWatch{
         t.Priority    = 'High' ;
         t.WhatId      = opp.Id;
         insert t;
-     /*This is the UAT branch*/
-     /*UAT Branch*/
+     /*Commit conflict1 Mod in Source and feature branch*/
+     /*Commit Training*/
    }
   }
  }
