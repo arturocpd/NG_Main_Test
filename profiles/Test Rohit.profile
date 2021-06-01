@@ -36,6 +36,10 @@
         <layout>Lead-Lead Layout</layout>
         <recordType>Lead.Another_Bug_Test</recordType>
     </layoutAssignments>
+    <layoutAssignments>
+        <layout>Lead-Lead Layout</layout>
+        <recordType>Lead.Comercial_Lead_Record_Type</recordType>
+    </layoutAssignments>
     <recordTypeVisibilities>
         <default>true</default>
         <recordType>Account.Record_Type1</recordType>
@@ -49,6 +53,11 @@
     <recordTypeVisibilities>
         <default>false</default>
         <recordType>Lead.Bug_Test</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>true</default>
+        <recordType>Lead.Comercial_Lead_Record_Type</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
