@@ -25,10 +25,6 @@
         <visibility>Visible</visibility>
     </tabSettings>
     <tabSettings>
-        <tab>Dinner__c</tab>
-        <visibility>Available</visibility>
-    </tabSettings>
-    <tabSettings>
         <tab>OLS_Test__c</tab>
         <visibility>Available</visibility>
     </tabSettings>
