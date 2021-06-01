@@ -1,20 +1,204 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
+        <members>ADD_Conficguration_Rule__c-ADD Conficguration Rule Layout</members>
+        <members>ADD_Product_Action__c-ADD Product Action Layout</members>
+        <members>ADD_Product_Rule__c-ADD Product Rule Layout</members>
+        <members>ADD_Product__c-ADD Product Layout</members>
+        <members>AR_CMDT__mdt-AR CMDT Layout</members>
+        <members>Account-Account %28Marketing%29 Layout</members>
+        <members>Account-Account %28Sales%29 Layout</members>
+        <members>Account-Account %28Support%29 Layout</members>
+        <members>Account-Account Layout</members>
+        <members>Account-Test Git Layout</members>
+        <members>AccountBrand-Account BrandLayout</members>
+        <members>AccountTeamMember-Formato Miembro del equipo de cuentames</members>
+        <members>Account_Request__c-Account Request Layout</members>
+        <members>Address-Address Layout</members>
+        <members>Asset-Asset Layout</members>
+        <members>AssetAction-Formato Acción de activo</members>
+        <members>AssetActionSource-Formato Origen de acción de activo</members>
+        <members>AssetLineItem__c-AssetLineItem Layout</members>
+        <members>AssetStatePeriod-Formato Periodo de estado de activo</members>
+        <members>AssignedResource-Assigned Resource Layout</members>
+        <members>AssociatedLocation-Associated Location Layout</members>
+        <members>CSTM_Object__c-CSTM Layout 1</members>
+        <members>CSTM_Object__c-CSTM Object Layout</members>
+        <members>Campaign-Campaign Layout</members>
+        <members>CampaignMember-Campaign Member Page Layout</members>
+        <members>CardPaymentMethod-Formato Método de pago con tarjeta</members>
+        <members>Case-Case %28Marketing%29 Layout</members>
+        <members>Case-Case %28Sales%29 Layout</members>
+        <members>Case-Case %28Support%29 Layout</members>
+        <members>Case-Case Layout</members>
+        <members>Case-Delete Layout</members>
+        <members>CaseCMT__mdt-CaseCMT Layout</members>
+        <members>CaseClose-Close Case Layout</members>
+        <members>CaseMilestone-Case Milestone Layout</members>
+        <members>Case_Controller_Picklist_Value__mdt-Case Controller Picklist Value Layout</members>
+        <members>ChannelProgram-Channel Program Layout</members>
+        <members>ChannelProgramLevel-Channel Program Level Layout</members>
+        <members>ChannelProgramMember-Channel Program Member Layout</members>
+        <members>Cloud__c-Cloud Layout</members>
+        <members>CommunityMemberLayout-Community Member Layout</members>
+        <members>ConsumptionRate-Formato Índice de consumo</members>
+        <members>ConsumptionSchedule-Formato Programación de consumo</members>
+        <members>Contact-Admin clone Layout</members>
+        <members>Contact-Contact %28Marketing%29 Layout</members>
+        <members>Contact-Contact %28Sales%29 Layout</members>
+        <members>Contact-Contact %28Support%29 Layout</members>
+        <members>Contact-Contact Layout</members>
+        <members>ContactPointAddress-Formato Dirección de punto de contacto</members>
+        <members>ContactPointEmail-Formato Correo electrónico de punto de contacto</members>
+        <members>ContactPointPhone-Formato Teléfono de punto de contacto</members>
+        <members>ContentVersion-Content Version Layout</members>
+        <members>Contract-Contract Layout</members>
+        <members>Contract-PageLayout1</members>
+        <members>ContractLineItem-Contract Line Item Layout</members>
+        <members>Custom_json__c-Custom json Layout</members>
+        <members>DandBCompany-D%26B Company Layout</members>
+        <members>DelegatedAccount-Formato de Cuenta gestionada externa</members>
+        <members>DigitalWallet-Formato Cartera digital</members>
+        <members>Dinner__c-Dinner Layout</members>
+        <members>Dinner__c-Dinner Layout10</members>
+        <members>Dinner__c-Dinner Layout2</members>
+        <members>Dinner__c-Dinner Layout3</members>
+        <members>Dinner__c-Dinner Layout4</members>
+        <members>Dinner__c-Dinner Layout5</members>
+        <members>Dinner__c-Dinner Layout6</members>
+        <members>Dinner__c-Dinner Layout7</members>
+        <members>Dinner__c-Dinner Layout8</members>
+        <members>Dinner__c-Dinner Layout9</members>
+        <members>Dinner__c-Lunch Layout</members>
+        <members>DuplicateRecordSet-Duplicate Record Set Layout</members>
+        <members>Elisa_Metadata_Type__mdt-Elisa Metadata Type Layout</members>
+        <members>EmailMessage-Email Message Layout</members>
+        <members>Entitlement-Entitlement Layout</members>
+        <members>EntityMilestone-Object Milestone Layout</members>
+        <members>Event-Event Layout</members>
+        <members>ExpenseReport-Formato Informe de gastos</members>
+        <members>ExpenseReportEntry-Formato Entrada de informe de gastos</members>
+        <members>FeedItem-Feed Item Layout</members>
+        <members>FinanceBalanceSnapshot-Formato Instantánea de saldo financiero</members>
+        <members>FinanceTransaction-Formato Transacción financiera</members>
+        <members>GenderTest__c-GenderTest Layout</members>
+        <members>Global-Global Layout</members>
+        <members>Idea-Idea Layout</members>
+        <members>IdeaTheme-Idea Theme Layout</members>
+        <members>Individual-Formato Persona</members>
+        <members>JobProfile-Formato Perfil de trabajo</members>
+        <members>Knowledge__kav-Knowledge Layout</members>
+        <members>Known_Issue__c-Known Issue Layout</members>
+        <members>LCRM_Account_Merge_UnMerge_Dup_Event__c-Account Event Layout</members>
         <members>Lead-Contact Layout</members>
         <members>Lead-Contact Layout 360 Connect</members>
+        <members>Lead-Lead %28Sales%29 Layout</members>
+        <members>Lead-Lead %28Support%29 Layout</members>
+        <members>Lead-Lead Layout</members>
+        <members>Lead-Lead Layout DeleteMe</members>
+        <members>LegalEntity-Formato Entidad legal</members>
+        <members>LinkedArticle-Linked Article Layout</members>
+        <members>LiveAgentSession-Live Agent Session Layout</members>
+        <members>LiveChatTranscript-Live Chat Transcript Layout</members>
+        <members>LiveChatTranscriptActive-Live Chat Transcript %28In Progress%29 Layout</members>
+        <members>LiveChatTranscriptEvent-Live Chat Transcript Event Layout</members>
+        <members>LiveChatTranscriptWaiting-Live Chat Transcript %28Waiting%29 Layout</members>
+        <members>LiveChatVisitor-Live Chat Visitor Layout</members>
+        <members>Location-Location Layout</members>
+        <members>Location-Test Location Layout</members>
+        <members>Macro-Macro Layout</members>
+        <members>MaintenanceAsset-Maintenance Asset Layout</members>
+        <members>MaintenancePlan-Maintenance Plan Layout</members>
+        <members>OLS_Test__c-OLS Test Layout</members>
+        <members>ObjectTerritory2AssignmentRule-Object Territory Assignment Rule Layout</members>
+        <members>OperatingHours-Operating Hours Layout</members>
+        <members>Opp_Line_Item_EXT__x-Opp Line Item EXT Layout</members>
+        <members>Opportunity-Admin Clone Layout</members>
+        <members>Opportunity-CLONED bug layout</members>
+        <members>Opportunity-Opportunity %28Marketing%29 Layout</members>
+        <members>Opportunity-Opportunity %28Sales%29 Layout</members>
+        <members>Opportunity-Opportunity %28Support%29 Layout</members>
+        <members>Opportunity-Opportunity Layout</members>
+        <members>OpportunityLineItem-Opportunity Product Layout</members>
+        <members>OpportunityTeamMember-Opportunity Team Member Layout</members>
+        <members>Order-Order Layout</members>
+        <members>Order-PageLayout1</members>
+        <members>OrderItem-Order Product Layout</members>
+        <members>OrderLineItems__c-OrderLineItems Layout</members>
+        <members>OrderLineItems__c-PageLayout1</members>
+        <members>PartnerFundAllocation-Partner Fund Allocation Layout</members>
+        <members>PartnerFundClaim-Partner Fund Claim Layout</members>
+        <members>PartnerFundRequest-Partner Fund Request Layout</members>
+        <members>PartnerMarketingBudget-Partner Marketing Budget Layout</members>
+        <members>Payment-Formato Pago</members>
+        <members>PaymentAuthorization-Formato Autorización de pago</members>
+        <members>PaymentGateway-Formato Pasarela de pago</members>
+        <members>PaymentGatewayLog-Formato Registro de pasarela de pago</members>
+        <members>PaymentGroup-Formato Grupo de pago</members>
+        <members>Pricebook2-Price Book Layout</members>
+        <members>PricebookEntry-Price Book Entry Layout</members>
+        <members>ProcessException-Formato Excepción de proceso</members>
+        <members>Product2-Product Layout</members>
+        <members>ProductConsumed-Product Consumed Layout</members>
+        <members>ProductConsumptionSchedule-Formato Programación de consumo de producto</members>
+        <members>ProductItem-Product Item Layout</members>
+        <members>ProductItemTransaction-Product Item Transaction Layout</members>
+        <members>ProductRequest-Product Request Layout</members>
+        <members>ProductRequestLineItem-Product Request Line Item Layout</members>
+        <members>ProductRequired-Product Required Layout</members>
+        <members>ProductServiceCampaign-Formato Campaña de servicio de producto</members>
+        <members>ProductServiceCampaignItem-Formato Elemento de campaña de servicio de producto</members>
+        <members>ProductTransfer-Product Transfer Layout</members>
+        <members>Profile_test__c-Profile test Layout</members>
+        <members>QuickText-Quick Text Layout</members>
+        <members>Quote_Proposal__c-PageLayout1</members>
+        <members>Quote_Proposal__c-Quote%2FProposal Layout</members>
+        <members>Refund-Formato Reembolso</members>
+        <members>RefundLinePayment-Formato Pago de partida de reembolso</members>
+        <members>Request__c-Request Layout</members>
+        <members>ResourceAbsence-Resource Absence Layout</members>
+        <members>ResourcePreference-Resource Preference Layout</members>
+        <members>ReturnOrder-Formato Orden de devolución</members>
+        <members>ReturnOrderLineItem-Formato Partida de orden de devolución</members>
+        <members>SMA_DefaultSettings__c-SMA DefaultSettings Layout</members>
+        <members>Scorecard-Scorecard Layout</members>
+        <members>ScorecardAssociation-Scorecard Association Layout</members>
+        <members>ScorecardMetric-Scorecard Metric Layout</members>
+        <members>ServiceAppointment-Service Appointment Layout</members>
+        <members>ServiceContract-Service Contract Layout</members>
+        <members>ServiceCrew-Formato Plantilla de servicio</members>
+        <members>ServiceCrewMember-Formato Miembro de plantilla de servicio</members>
+        <members>ServiceResource-Service Resource Layout</members>
+        <members>ServiceResourceCapacity-Resource Capacity Layout</members>
+        <members>ServiceResourceSkill-Service Resource Skill Layout</members>
+        <members>ServiceTerritory-Service Territory Layout</members>
+        <members>ServiceTerritoryMember-Service Territory Member Layout</members>
+        <members>Shift-Formato Turno</members>
+        <members>ShiftPattern-Formato Patrón de turno</members>
+        <members>ShiftPatternEntry-Formato Entrada de patrón de turno</members>
+        <members>ShiftTemplate-Formato Plantilla de turno</members>
+        <members>Shipment-Shipment Layout</members>
+        <members>SkillRequirement-Skill Requirement Layout</members>
+        <members>Solution-Solution Layout</members>
+        <members>Task-Task Layout</members>
+        <members>Territory2Model-Territory Model Layout</members>
+        <members>Test_Bug__c-Test Bug Layout</members>
+        <members>TimeSheet-Time Sheet Layout</members>
+        <members>TimeSheetEntry-Time Sheet Entry Layout</members>
+        <members>TimeSlot-Time Slot Layout</members>
+        <members>Trimming_object__c-Trimming object Layout</members>
+        <members>US_Test__c-US Test Layout</members>
+        <members>User-User Layout</members>
+        <members>UserAlt-User Profile Layout</members>
+        <members>UserProvAccount-User Provisioning Account Layout</members>
+        <members>UserProvisioningLog-User Provisioning Log Layout</members>
+        <members>UserProvisioningRequest-User Provisioning Request Layout</members>
+        <members>WarrantyTerm-Formato Término de garantía</members>
+        <members>WorkOrder-Work Order Layout</members>
+        <members>WorkOrderLineItem-Work Order Line Item Layout</members>
+        <members>WorkType-Work Type Layout</members>
+        <members>test_test__c-test%2Etest Layout</members>
         <name>Layout</name>
-    </types>
-    <types>
-        <members>Test Rohit</members>
-        <name>Profile</name>
-    </types>
-    <types>
-        <members>Lead.CRM_Work</members>
-        <members>Lead.CRM_Work_SE</members>
-        <members>Lead.Technical_Contact</members>
-        <members>Lead.X360_Connect_Contact</members>
-        <name>RecordType</name>
     </types>
     <version>51.0</version>
 </Package>
