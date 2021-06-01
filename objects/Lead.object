@@ -734,6 +734,18 @@
         </picklistValues>
     </recordTypes>
     <recordTypes>
+        <fullName>CRM_Work</fullName>
+        <active>true</active>
+        <businessProcess>Comercial Lead Process</businessProcess>
+        <label>CRM_Work</label>
+    </recordTypes>
+    <recordTypes>
+        <fullName>CRM_Work_SE</fullName>
+        <active>true</active>
+        <businessProcess>Comercial Lead Process</businessProcess>
+        <label>CRM_Work_SE</label>
+    </recordTypes>
+    <recordTypes>
         <fullName>Comercial_Lead_Record_Type</fullName>
         <active>true</active>
         <businessProcess>Comercial Lead Process</businessProcess>
@@ -984,6 +996,12 @@
         </picklistValues>
     </recordTypes>
     <recordTypes>
+        <fullName>Technical_Contact</fullName>
+        <active>true</active>
+        <businessProcess>Comercial Lead Process</businessProcess>
+        <label>Technical_Contact</label>
+    </recordTypes>
+    <recordTypes>
         <fullName>Test_Bug</fullName>
         <active>true</active>
         <businessProcess>Comercial Lead Process</businessProcess>
@@ -1018,6 +1036,12 @@
                 <default>false</default>
             </values>
         </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>X360_Connect_Contact</fullName>
+        <active>true</active>
+        <businessProcess>Comercial Lead Process</businessProcess>
+        <label>X360_Connect_Contact</label>
     </recordTypes>
     <searchLayouts>
         <customTabListAdditionalFields>FULL_NAME</customTabListAdditionalFields>

@@ -23,10 +23,6 @@
                 <behavior>Edit</behavior>
                 <field>Test_Nested_RT__c</field>
             </layoutItems>
-            <layoutItems>
-                <behavior>Required</behavior>
-                <field>CurrencyIsoCode</field>
-            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
@@ -96,9 +92,6 @@
         </quickActionListItems>
         <quickActionListItems>
             <quickActionName>FeedItem.ContentPost</quickActionName>
-        </quickActionListItems>
-        <quickActionListItems>
-            <quickActionName>NewTask2</quickActionName>
         </quickActionListItems>
         <quickActionListItems>
             <quickActionName>LogACall</quickActionName>

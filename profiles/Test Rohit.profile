@@ -5772,6 +5772,22 @@
         <layout>LCRM_Account_Merge_UnMerge_Dup_Event__c-Account Event Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Lead-Contact Layout 360 Connect</layout>
+        <recordType>Lead.CRM_Work_SE</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Lead-Contact Layout 360 Connect</layout>
+        <recordType>Lead.X360_Connect_Contact</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Lead-Contact Layout</layout>
+        <recordType>Lead.CRM_Work</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Lead-Contact Layout</layout>
+        <recordType>Lead.Technical_Contact</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Lead-Lead %28Sales%29 Layout</layout>
         <recordType>Lead.Bug_Test</recordType>
     </layoutAssignments>
@@ -8241,13 +8257,33 @@
         <visible>true</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Lead.CRM_Work</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Lead.CRM_Work_SE</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
         <default>true</default>
         <recordType>Lead.Comercial_Lead_Record_Type</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>false</default>
+        <recordType>Lead.Technical_Contact</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
         <recordType>Lead.Test_Bug</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Lead.X360_Connect_Contact</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
