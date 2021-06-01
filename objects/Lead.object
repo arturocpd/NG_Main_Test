@@ -631,6 +631,78 @@
     <recordTypeTrackFeedHistory>false</recordTypeTrackFeedHistory>
     <recordTypeTrackHistory>false</recordTypeTrackHistory>
     <recordTypes>
+        <fullName>Another_Bug_Test</fullName>
+        <active>true</active>
+        <businessProcess>Comercial Lead Process</businessProcess>
+        <label>Another Bug Test</label>
+        <picklistValues>
+            <picklist>GoodBad__c</picklist>
+            <values>
+                <fullName>Bad</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Good</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Really Bad</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Test_Nested_RT__c</picklist>
+            <values>
+                <fullName>Test1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Test2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Test3</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Bug_Test</fullName>
+        <active>true</active>
+        <businessProcess>Comercial Lead Process</businessProcess>
+        <label>Bug Test</label>
+        <picklistValues>
+            <picklist>GoodBad__c</picklist>
+            <values>
+                <fullName>Bad</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Good</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Really Bad</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Test_Nested_RT__c</picklist>
+            <values>
+                <fullName>Test1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Test2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Test3</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
         <fullName>Comercial_Lead_Record_Type</fullName>
         <active>true</active>
         <businessProcess>Comercial Lead Process</businessProcess>
@@ -853,6 +925,42 @@
             </values>
             <values>
                 <fullName>Warm</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Test_Nested_RT__c</picklist>
+            <values>
+                <fullName>Test1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Test2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Test3</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Test_Bug</fullName>
+        <active>true</active>
+        <businessProcess>Comercial Lead Process</businessProcess>
+        <label>Test Bug</label>
+        <picklistValues>
+            <picklist>GoodBad__c</picklist>
+            <values>
+                <fullName>Bad</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Good</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Really Bad</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
