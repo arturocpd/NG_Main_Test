@@ -10608,6 +10608,22 @@
         <layout>JobTracker-Job Tracker Layout - Winter %2716</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Lead-Contact Layout 360 Connect</layout>
+        <recordType>Lead.CRM_Work_SE</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Lead-Contact Layout 360 Connect</layout>
+        <recordType>Lead.X360_Connect_Contact</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Lead-Contact Layout</layout>
+        <recordType>Lead.CRM_Work</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Lead-Contact Layout</layout>
+        <recordType>Lead.Technical_Contact</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Lead-Lead %28Sales%29 Layout</layout>
         <recordType>Lead.Bug_Test</recordType>
     </layoutAssignments>
@@ -10897,10 +10913,6 @@
     <layoutAssignments>
         <layout>WorkType-Work Type Layout</layout>
     </layoutAssignments>
-    <loginIpRanges>
-        <endAddress>83.49.84.23</endAddress>
-        <startAddress>83.49.84.23</startAddress>
-    </loginIpRanges>
     <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
@@ -12254,13 +12266,33 @@
         <visible>true</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Lead.CRM_Work</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Lead.CRM_Work_SE</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
         <default>true</default>
         <recordType>Lead.Comercial_Lead_Record_Type</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>false</default>
+        <recordType>Lead.Technical_Contact</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
         <recordType>Lead.Test_Bug</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Lead.X360_Connect_Contact</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
