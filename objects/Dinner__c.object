@@ -51,19 +51,11 @@
                 <default>false</default>
             </values>
             <values>
-                <fullName>Dinner 4</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>Dinner 5</fullName>
                 <default>false</default>
             </values>
             <values>
                 <fullName>Dinner1</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Dinner2</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
