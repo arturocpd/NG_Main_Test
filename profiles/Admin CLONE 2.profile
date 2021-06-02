@@ -259,6 +259,7 @@
         <enabled>true</enabled>
         <name>Custom_Perm</name>
     </customPermissions>
+    <description>Profile description</description>
     <fieldPermissions>
         <editable>true</editable>
         <field>ADD_Conficguration_Rule__c.ADD_Configuration_Rule_Ext_Id__c</field>
@@ -5719,18 +5720,6 @@
         <layout>Dinner__c-Dinner Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Dinner__c-Dinner Layout</layout>
-        <recordType>Dinner__c.Dinner_RT</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Dinner__c-Dinner Layout</layout>
-        <recordType>Dinner__c.Dinner_RT2</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Dinner__c-Dinner Layout</layout>
-        <recordType>Dinner__c.Nested_Dinner_RT</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>Dinner__c-Dinner Layout10</layout>
         <recordType>Dinner__c.Dinner_RT3</recordType>
     </layoutAssignments>
@@ -5761,6 +5750,18 @@
     <layoutAssignments>
         <layout>Dinner__c-Dinner Layout9</layout>
         <recordType>Dinner__c.Dinner_RT8</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Dinner__c-Dinner Layout</layout>
+        <recordType>Dinner__c.Dinner_RT</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Dinner__c-Dinner Layout</layout>
+        <recordType>Dinner__c.Dinner_RT2</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Dinner__c-Dinner Layout</layout>
+        <recordType>Dinner__c.Nested_Dinner_RT</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Dinner__c-Lunch Layout</layout>
@@ -5848,20 +5849,20 @@
         <layout>LCRM_Account_Merge_UnMerge_Dup_Event__c-Account Event Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Lead-Contact Layout</layout>
-        <recordType>Lead.CRM_Work</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Lead-Contact Layout</layout>
-        <recordType>Lead.Technical_Contact</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>Lead-Contact Layout 360 Connect</layout>
         <recordType>Lead.CRM_Work_SE</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Lead-Contact Layout 360 Connect</layout>
         <recordType>Lead.X360_Connect_Contact</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Lead-Contact Layout</layout>
+        <recordType>Lead.CRM_Work</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Lead-Contact Layout</layout>
+        <recordType>Lead.Technical_Contact</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Lead-Lead %28Sales%29 Layout</layout>
@@ -6236,6 +6237,12 @@
     <layoutAssignments>
         <layout>test_test__c-test%2Etest Layout</layout>
     </layoutAssignments>
+    <loginHours>
+        <mondayEnd>1440</mondayEnd>
+        <mondayStart>0</mondayStart>
+        <tuesdayEnd>1440</tuesdayEnd>
+        <tuesdayStart>0</tuesdayStart>
+    </loginHours>
     <loginIpRanges>
         <endAddress>62.97.100.250</endAddress>
         <startAddress>62.97.100.250</startAddress>
@@ -8505,10 +8512,6 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>ManageSynonyms</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>ManageTranslation</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
