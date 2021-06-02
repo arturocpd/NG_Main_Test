@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Account</members>
-        <members>Case</members>
+        <members>Dinner__c.Picklist_Dinner__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
         <members>Dinner__c</members>
-        <members>Opportunity</members>
         <name>CustomObject</name>
     </types>
     <types>
-        <members>Admin</members>
-        <members>Admin CLONE 2</members>
         <members>Test Rohit</members>
         <name>Profile</name>
+    </types>
+    <types>
+        <members>Dinner__c.Dinner_RT</members>
+        <name>RecordType</name>
     </types>
     <version>51.0</version>
 </Package>
