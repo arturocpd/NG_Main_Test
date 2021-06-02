@@ -1,9 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>Picklist_Dinner__c</fullName>
+        <externalId>false</externalId>
+        <label>Picklist Dinner</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Dinner1</fullName>
+                    <default>false</default>
+                    <label>Dinner1</label>
+                </value>
+                <value>
+                    <fullName>Dinner2</fullName>
+                    <default>false</default>
+                    <label>Dinner2</label>
+                </value>
+                <value>
+                    <fullName>Dinner 3</fullName>
+                    <default>false</default>
+                    <label>Dinner 3</label>
+                </value>
+                <value>
+                    <fullName>Dinner 4</fullName>
+                    <default>false</default>
+                    <label>Dinner 4</label>
+                </value>
+                <value>
+                    <fullName>Dinner 5</fullName>
+                    <default>false</default>
+                    <label>Dinner 5</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
     <recordTypes>
         <fullName>Dinner_RT</fullName>
         <active>true</active>
         <label>Dinner RT</label>
+        <picklistValues>
+            <picklist>Picklist_Dinner__c</picklist>
+            <values>
+                <fullName>Dinner 3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dinner 4</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dinner 5</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dinner1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dinner2</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
     </recordTypes>
     <recordTypes>
         <fullName>Dinner_RT_2</fullName>
