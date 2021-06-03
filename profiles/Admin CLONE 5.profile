@@ -7997,10 +7997,6 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>CreatePackagingCreatePackagingCreatePackagingCreatePackagingCreatePackagingCreatePackagingCreatePackagingCreatePackagingCreatePackagingCreatePackagingCreatePackagingCreatePackagingCreatePackagingCreatePackaging796</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
         <name>CreatePackagingCreatePackagingCreatePackagingCreatePackagingCreatePackagingCreatePackagingCreatePackagingCreatePackagingCreatePackagingCreatePackagingCreatePackagingCreatePackagingCreatePackagingCreatePackaging80</name>
     </userPermissions>
     <userPermissions>
