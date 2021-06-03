@@ -5097,10 +5097,6 @@
         <layout>Contact-Contact %28Marketing%29 Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Contact-Contact Layout</layout>
-        <recordType>Contact.Contact_RT1</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>ContactPointAddress-Formato Dirección de punto de contacto</layout>
     </layoutAssignments>
     <layoutAssignments>
