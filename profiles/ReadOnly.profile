@@ -2339,6 +2339,22 @@
         <enabled>true</enabled>
     </classAccesses>
     <custom>false</custom>
+    <customPermissions>
+        <enabled>true</enabled>
+        <name>Custom_Perm2</name>
+    </customPermissions>
+    <customPermissions>
+        <enabled>true</enabled>
+        <name>custom_perm_3</name>
+    </customPermissions>
+    <customPermissions>
+        <enabled>true</enabled>
+        <name>custom_perm_4</name>
+    </customPermissions>
+    <customPermissions>
+        <enabled>true</enabled>
+        <name>custom_perm_5</name>
+    </customPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.AccountLookup__c</field>
