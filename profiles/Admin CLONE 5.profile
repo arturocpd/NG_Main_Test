@@ -7997,10 +7997,6 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>CreatePackaging99</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
         <name>CreateReportFolders</name>
     </userPermissions>
     <userPermissions>
