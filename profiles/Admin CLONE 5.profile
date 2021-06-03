@@ -7997,22 +7997,6 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>CreatePackagingCreatePackagingCreatePackagingCreatePackagingCreatePackagingCreatePackagingCreatePackagingCreatePackagingCreatePackagingCreatePackagingCreatePackagingCreatePackagingCreatePackagingCreatePackaging36</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>CreatePackagingCreatePackagingCreatePackagingCreatePackagingCreatePackagingCreatePackagingCreatePackagingCreatePackagingCreatePackagingCreatePackagingCreatePackagingCreatePackagingCreatePackagingCreatePackaging360</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>CreatePackagingCreatePackagingCreatePackagingCreatePackagingCreatePackagingCreatePackagingCreatePackagingCreatePackagingCreatePackagingCreatePackagingCreatePackagingCreatePackagingCreatePackagingCreatePackaging364</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>CreatePackagingCreatePackagingCreatePackagingCreatePackagingCreatePackagingCreatePackagingCreatePackagingCreatePackagingCreatePackagingCreatePackagingCreatePackagingCreatePackagingCreatePackagingCreatePackaging368</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
         <name>CreatePackagingCreatePackagingCreatePackagingCreatePackagingCreatePackagingCreatePackagingCreatePackagingCreatePackagingCreatePackagingCreatePackagingCreatePackagingCreatePackagingCreatePackagingCreatePackaging372</name>
     </userPermissions>
     <userPermissions>
