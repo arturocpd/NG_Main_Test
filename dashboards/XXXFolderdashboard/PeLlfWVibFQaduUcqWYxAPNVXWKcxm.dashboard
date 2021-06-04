@@ -17,6 +17,12 @@
                 <flexComponentProperties>
                     <decimalPrecision>-1</decimalPrecision>
                     <flexTableColumn>
+                        <reportColumn>DUE_DATE</reportColumn>
+                        <showSubTotal>false</showSubTotal>
+                        <showTotal>false</showTotal>
+                        <type>detail</type>
+                    </flexTableColumn>
+                    <flexTableColumn>
                         <reportColumn>USERS.NAME</reportColumn>
                         <showSubTotal>false</showSubTotal>
                         <showTotal>false</showTotal>
@@ -29,32 +35,26 @@
                         <type>detail</type>
                     </flexTableColumn>
                     <flexTableColumn>
+                        <reportColumn>ADDRESS1_STATE</reportColumn>
+                        <showSubTotal>false</showSubTotal>
+                        <showTotal>false</showTotal>
+                        <type>detail</type>
+                    </flexTableColumn>
+                    <flexTableColumn>
                         <reportColumn>TYPE</reportColumn>
                         <showSubTotal>false</showSubTotal>
                         <showTotal>false</showTotal>
                         <type>detail</type>
                     </flexTableColumn>
-                    <flexTableColumn>
-                        <reportColumn>RATING</reportColumn>
-                        <showSubTotal>false</showSubTotal>
-                        <showTotal>false</showTotal>
-                        <type>detail</type>
-                    </flexTableColumn>
-                    <flexTableColumn>
-                        <reportColumn>DUE_DATE</reportColumn>
-                        <showSubTotal>false</showSubTotal>
-                        <showTotal>false</showTotal>
-                        <type>detail</type>
-                    </flexTableColumn>
                     <flexTableSortInfo>
-                        <sortColumn>USERS.NAME</sortColumn>
+                        <sortColumn>DUE_DATE</sortColumn>
                         <sortOrder>1</sortOrder>
                     </flexTableSortInfo>
                     <hideChatterPhotos>true</hideChatterPhotos>
                 </flexComponentProperties>
                 <groupingSortProperties/>
-                <header>AccoutsReport</header>
-                <report>AccountsFolder/AccoutsReport</report>
+                <header>New Accounts Report</header>
+                <report>XXXFolderreport/New_Accounts_Report_psH</report>
             </dashboardComponent>
             <rowIndex>0</rowIndex>
             <rowSpan>8</rowSpan>
@@ -66,7 +66,7 @@
     <isGridLayout>true</isGridLayout>
     <runningUser>ngarturodev1cpd@gmail.com</runningUser>
     <textColor>#000000</textColor>
-    <title>XXX Dashboard</title>
+    <title>XXX in folder</title>
     <titleColor>#000000</titleColor>
     <titleSize>12</titleSize>
 </Dashboard>
