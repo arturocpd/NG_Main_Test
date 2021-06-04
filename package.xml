@@ -17,10 +17,6 @@
         <name>EmailTemplate</name>
     </types>
     <types>
-        <members>Public_Reports/LEX_Dinners_Report_7wq</members>
-        <name>Report</name>
-    </types>
-    <types>
         <members>XXXFolderreport</members>
         <members>XXXFolderreport/XXXsubfolderreport</members>
         <members>XXXFolderreport/XXXsubfolderreport/New_Dinners_Report_b8T</members>
