@@ -8229,10 +8229,6 @@
     </userPermissions>
     <userPermissions>
         <enabled>false</enabled>
-        <name>IsSsoEnabled</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
         <name>IsotopeAccess</name>
     </userPermissions>
     <userPermissions>
