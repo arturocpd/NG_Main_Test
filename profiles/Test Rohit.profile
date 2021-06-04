@@ -7993,10 +7993,6 @@
     </userPermissions>
     <userPermissions>
         <enabled>false</enabled>
-        <name>CreateAuditFields</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
         <name>CreateCustomizeDashboards</name>
     </userPermissions>
     <userPermissions>
