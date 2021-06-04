@@ -7,7 +7,7 @@
     <format>Tabular</format>
     <name>New Dinners Report</name>
     <params>
-        <name>co</name>
+        <name>coPB</name>
         <value>1</value>
     </params>
     <reportType>Dinners__c</reportType>
