@@ -197,8 +197,8 @@
   }, {
     "components" : [ {
       "componentAttributes" : {
+        "customHeadTags" : "",
         "description" : "",
-        "metaTags" : "",
         "title" : "Home"
       },
       "componentName" : "forceCommunity:seoAssistant",

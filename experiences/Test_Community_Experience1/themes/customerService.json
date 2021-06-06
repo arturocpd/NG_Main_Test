@@ -6,7 +6,8 @@
   "label" : "Customer Service",
   "layouts" : {
     "Inner" : "233c644d-eae2-4dff-97f0-df7e9fc6be8c",
-    "Login" : "b709a238-f23f-4f76-ae81-06e77eef4191"
+    "Login" : "b709a238-f23f-4f76-ae81-06e77eef4191",
+    "ServiceNotAvailable" : "b07320a5-87f1-4a1b-9a3f-48c216975de2"
   },
   "type" : "theme",
   "views" : [ {
@@ -127,6 +128,29 @@
     }, {
       "id" : "85911f75-4f7c-416c-8905-42e5b5ce5a3e",
       "regionName" : "footer",
+      "type" : "region"
+    } ],
+    "type" : "view"
+  }, {
+    "componentAttributes" : {
+      "fixedPageWidth" : 1170,
+      "headerBgColor" : "rgba(0, 0, 0, 0)",
+      "isHeaderPinned" : false,
+      "isHeroUnderHeader" : false,
+      "isPageWidthFixed" : true,
+      "showHeader" : true,
+      "showHero" : true
+    },
+    "componentName" : "siteforce:themeLayoutStarter",
+    "id" : "b07320a5-87f1-4a1b-9a3f-48c216975de2",
+    "label" : "ServiceNotAvailable",
+    "regions" : [ {
+      "id" : "d3ab75ee-5b4a-4f01-b922-5afb4aa0e1fe",
+      "regionName" : "themeHeader",
+      "type" : "region"
+    }, {
+      "id" : "2ba2cfb3-bc06-4e47-b771-e80f72dc3afd",
+      "regionName" : "themeFooter",
       "type" : "region"
     } ],
     "type" : "view"
