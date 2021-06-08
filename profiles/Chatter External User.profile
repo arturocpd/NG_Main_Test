@@ -6485,10 +6485,6 @@
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>Dinner__c</tab>
-        <visibility>Hidden</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
         <tab>GenderTest__c</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>

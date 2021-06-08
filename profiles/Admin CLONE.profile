@@ -7058,10 +7058,6 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>Dinner__c</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
         <tab>GenderTest__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
