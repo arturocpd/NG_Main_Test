@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Fix_Test__c.Fix_Number__c</members>
-        <members>Fix_Test__c.Fix_Text__c</members>
-        <members>Fix_Test__c.Fix__c</members>
-        <name>CustomField</name>
-    </types>
-    <types>
-        <members>Fix_Test__c</members>
-        <name>CustomObject</name>
+        <members>AppleWatch</members>
+        <members>AppleWatchTest</members>
+        <name>ApexClass</name>
     </types>
     <version>51.0</version>
 </Package>
