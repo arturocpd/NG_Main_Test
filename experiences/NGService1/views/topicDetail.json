@@ -26,7 +26,8 @@
   }, {
     "components" : [ {
       "componentAttributes" : {
-        "title" : "Description"
+        "title" : "Description",
+        "topicId" : "{!recordId}"
       },
       "componentName" : "forceCommunity:topicDescription",
       "id" : "bf9d30cb-4584-4f27-b9db-d4fb046391ed",
@@ -38,7 +39,8 @@
         "showArticles" : true,
         "showFollowers" : true,
         "showPosts" : true,
-        "showTalkingAbout" : true
+        "showTalkingAbout" : true,
+        "topicId" : "{!recordId}"
       },
       "componentName" : "forceCommunity:topicMetrics",
       "id" : "d907f919-b759-475b-afb2-aef5b6d48443",
@@ -134,7 +136,8 @@
     }, {
       "componentAttributes" : {
         "showTopicsMetric" : true,
-        "title" : "Related Topics"
+        "title" : "Related Topics",
+        "topicId" : "{!recordId}"
       },
       "componentName" : "forceCommunity:relatedTopics",
       "id" : "35d2ae76-a1ef-47a2-bb6a-ce1d942ea807",
@@ -197,8 +200,8 @@
   }, {
     "components" : [ {
       "componentAttributes" : {
+        "customHeadTags" : "",
         "description" : "{!Record.Description}",
-        "metaTags" : "",
         "title" : "{!Record._Title}"
       },
       "componentName" : "forceCommunity:seoAssistant",
