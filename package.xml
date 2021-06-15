@@ -4,13 +4,5 @@
         <members>Test_Community_C</members>
         <name>ExperienceBundle</name>
     </types>
-    <types>
-        <members>Test Community</members>
-        <name>Network</name>
-    </types>
-    <types>
-        <members>Test_Community_C</members>
-        <name>SiteDotCom</name>
-    </types>
     <version>51.0</version>
 </Package>
