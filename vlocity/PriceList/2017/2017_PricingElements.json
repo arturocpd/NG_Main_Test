@@ -1,7 +1,7 @@
 [
     {
         "%vlocity_namespace%__AdjustmentValue__c": "",
-        "%vlocity_namespace%__Amount__c": 0,
+        "%vlocity_namespace%__Amount__c": 1790,
         "%vlocity_namespace%__CalculationType__c": "Simple",
         "%vlocity_namespace%__Code__c": "MRC-STD-0",
         "%vlocity_namespace%__DisplayText__c": "STANDARD RECURRING PRICE",
