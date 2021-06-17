@@ -1,24 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>ARPartner</members>
-        <name>CustomSite</name>
+        <members>Add_Products</members>
+        <name>ApexPage</name>
     </types>
     <types>
-        <members>ARPartner1</members>
-        <name>ExperienceBundle</name>
+        <members>Remove_page_access</members>
+        <name>PermissionSet</name>
     </types>
     <types>
-        <members>ARPartner</members>
-        <name>Network</name>
-    </types>
-    <types>
-        <members>cbARPartner</members>
-        <name>NetworkBranding</name>
-    </types>
-    <types>
-        <members>ARPartner1</members>
-        <name>SiteDotCom</name>
+        <members>Read Only</members>
+        <name>Profile</name>
     </types>
     <version>51.0</version>
 </Package>
