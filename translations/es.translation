@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Translations xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customLabels>
+        <label>Friday test translation</label>
+        <name>AR_Custom_Label</name>
+    </customLabels>
+    <customLabels>
+        <label>Esto tiene que entrar</label>
+        <name>AR_Custom_Label_from_Dev3</name>
+    </customLabels>
+</Translations>
