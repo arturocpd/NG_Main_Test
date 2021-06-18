@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>AR_Custom_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>AR Custom Label</shortDescription>
+        <value>This AR custom label</value>
+    </labels>
+    <labels>
+        <fullName>AR_Custom_Label_from_Dev3</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>AR Custom Label from Dev3</shortDescription>
+        <value>este es el value del custom label</value>
+    </labels>
+</CustomLabels>
