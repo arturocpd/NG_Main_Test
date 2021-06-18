@@ -252,7 +252,7 @@
         <language>en_US</language>
         <protected>true</protected>
         <shortDescription>AR Custom Label from Dev3</shortDescription>
-        <value>AR Custom Label from Dev3</value>
+        <value>este es el value del custom label</value>
     </labels>
     <labels>
         <fullName>ASSIGNED_USERS</fullName>
