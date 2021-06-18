@@ -41,6 +41,13 @@
         <value>Add Authentication</value>
     </labels>
     <labels>
+        <fullName>AR_Custom_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>AR Custom Label</shortDescription>
+        <value>This AR custom label</value>
+    </labels>
+    <labels>
         <fullName>COMMITS_AHEAD</fullName>
         <language>en_US</language>
         <protected>true</protected>
