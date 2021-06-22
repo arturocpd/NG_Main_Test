@@ -4,7 +4,7 @@
     <encodingKey>ISO-8859-1</encodingKey>
     <name>Test CI</name>
     <style>none</style>
-    <subject>test CI for bug workaround MOD 2</subject>
+    <subject>test CI for bug workaround MOD Feature Branch</subject>
     <type>text</type>
     <uiType>Aloha</uiType>
 </EmailTemplate>
