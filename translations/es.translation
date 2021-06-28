@@ -21,8 +21,12 @@
         <name>ADD_HEADER</name>
     </customLabels>
     <customLabels>
-        <label>Este es el custom label de AR</label>
+        <label>Friday test translation</label>
         <name>AR_Custom_Label</name>
+    </customLabels>
+    <customLabels>
+        <label>Esto tiene que entrar</label>
+        <name>AR_Custom_Label_from_Dev3</name>
     </customLabels>
     <customLabels>
         <label>Comit ahead</label>

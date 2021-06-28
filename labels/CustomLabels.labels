@@ -129,11 +129,18 @@
         <value>Add Header</value>
     </labels>
     <labels>
+        <fullName>AR_Custom_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>AR Custom Label</shortDescription>
+        <value>This AR custom label</value>
+    </labels>
+    <labels>
         <fullName>AR_Custom_Label_from_Dev3</fullName>
         <language>en_US</language>
         <protected>true</protected>
         <shortDescription>AR Custom Label from Dev3</shortDescription>
-        <value>AR Custom Label from Dev3</value>
+        <value>este es el value del custom label</value>
     </labels>
     <labels>
         <fullName>Account_Filter_on_Proposal_Party_Query</fullName>
