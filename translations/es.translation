@@ -4,6 +4,10 @@
         <label>Consola de ventas</label>
         <name>Sales_Console</name>
     </customApplications>
+    <customApplications>
+        <label>Application de prueba</label>
+        <name>Test_App</name>
+    </customApplications>
     <customLabels>
         <label>Resumen de Cuenta Modified</label>
         <name>ACCOUNT_SUMMARY</name>
