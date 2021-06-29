@@ -2,12 +2,7 @@
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
         <members>Sales_Console</members>
-        <members>Test_App</members>
         <name>CustomApplication</name>
-    </types>
-    <types>
-        <members>AR_Custom_Label</members>
-        <name>CustomLabel</name>
     </types>
     <types>
         <members>es</members>
