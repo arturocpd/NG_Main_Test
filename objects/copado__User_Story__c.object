@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <recordTypes>
+        <fullName>copado__Bug</fullName>
+        <active>true</active>
+        <label>Bug</label>
+    </recordTypes>
+    <recordTypes>
+        <fullName>copado__Investigation</fullName>
+        <active>true</active>
+        <label>Investigation</label>
+    </recordTypes>
+    <recordTypes>
+        <fullName>copado__User_Story</fullName>
+        <active>true</active>
+        <label>User Story</label>
+    </recordTypes>
+</CustomObject>
