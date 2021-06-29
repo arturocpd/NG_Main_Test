@@ -4,6 +4,14 @@
         <label></label>
         <name>Copado_Integrations</name>
     </customApplications>
+    <customApplications>
+        <label>Consola de ventas</label>
+        <name>Sales_Console</name>
+    </customApplications>
+    <customApplications>
+        <label>Application de prueba</label>
+        <name>Test_App</name>
+    </customApplications>
     <customLabels>
         <label>Resumen de Cuenta</label>
         <name>ACCOUNT_SUMMARY</name>

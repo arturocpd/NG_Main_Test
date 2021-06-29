@@ -17,6 +17,7 @@
     <tabs>ADD_Conficguration_Rule__c</tabs>
     <tabs>ADD_Product_Rule__c</tabs>
     <tabs>ADD_Product_Action__c</tabs>
+    <tabs>Known_Issue__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>Sales_Console_UtilityBar</utilityBar>
     <workspaceConfig>
@@ -31,6 +32,9 @@
         </mappings>
         <mappings>
             <tab>ADD_Product__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Known_Issue__c</tab>
         </mappings>
         <mappings>
             <tab>standard-Account</tab>
