@@ -4,5 +4,9 @@
         <members>XXX_Folder_email_classic/Different_Email</members>
         <name>EmailTemplate</name>
     </types>
+    <types>
+        <members>XXX_Folder_email_classic/XXX_email_classic_new</members>
+        <name>EmailTemplate</name>
+    </types>
     <version>51.0</version>
 </Package>
