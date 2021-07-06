@@ -4,13 +4,5 @@
         <members>Add_Products</members>
         <name>ApexPage</name>
     </types>
-    <types>
-        <members>Remove_page_access</members>
-        <name>PermissionSet</name>
-    </types>
-    <types>
-        <members>Read Only</members>
-        <name>Profile</name>
-    </types>
     <version>51.0</version>
 </Package>
