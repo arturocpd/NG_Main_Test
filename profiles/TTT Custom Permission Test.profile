@@ -2,7 +2,7 @@
 <Profile xmlns="http://soap.sforce.com/2006/04/metadata">
     <custom>true</custom>
     <customPermissions>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
         <name>Custom_Perm2</name>
     </customPermissions>
     <customPermissions>
@@ -14,7 +14,7 @@
         <name>custom_perm_3</name>
     </customPermissions>
     <customPermissions>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
         <name>custom_perm_4</name>
     </customPermissions>
     <customPermissions>
