@@ -7,4 +7,11 @@
         <shortDescription>Label Dev2</shortDescription>
         <value>Label Dev2</value>
     </labels>
+    <labels>
+        <fullName>Translation_Custom_Label</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Translation_Custom_Label</shortDescription>
+        <value>Translation</value>
+    </labels>
 </CustomLabels>
