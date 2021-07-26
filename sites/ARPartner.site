@@ -22,8 +22,8 @@
     <redirectToCustomDomain>false</redirectToCustomDomain>
     <referrerPolicyOriginWhenCrossOrigin>true</referrerPolicyOriginWhenCrossOrigin>
     <selfRegPage>CommunitiesSelfReg</selfRegPage>
-    <siteAdmin>ngarturodev1cpd@gmail.com</siteAdmin>
-    <siteGuestRecordDefaultOwner>ngarturodev1cpd@gmail.com</siteGuestRecordDefaultOwner>
+    <siteAdmin>{!Environment.VAR_NAME_USERNAME}</siteAdmin>
+    <siteGuestRecordDefaultOwner>{!Environment.VAR_NAME_USERNAME}</siteGuestRecordDefaultOwner>
     <siteType>ChatterNetwork</siteType>
     <subdomain>arturong-developer-edition</subdomain>
     <urlPathPrefix>ARpartner</urlPathPrefix>
