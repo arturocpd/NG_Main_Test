@@ -1,5 +1,5 @@
 #package.xml file is recreated on the fly by Copado, no need to track unnecessary changes of this file
-package.xml
+#package.xml
 
 #if you are not going to customize a managed package, you can keep your repository clean by ignoring 
 #all files for that package.
