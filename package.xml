@@ -4,5 +4,17 @@
         <members>ARPartner</members>
         <name>CustomSite</name>
     </types>
+    <types>
+        <members>ARPartner1</members>
+        <name>ExperienceBundle</name>
+    </types>
+    <types>
+        <members>ARPartner</members>
+        <name>Network</name>
+    </types>
+    <types>
+        <members>ARPartner1</members>
+        <name>SiteDotCom</name>
+    </types>
     <version>52.0</version>
 </Package>
