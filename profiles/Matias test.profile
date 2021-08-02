@@ -5287,10 +5287,6 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Dinner__c-Dinner Layout</layout>
-        <recordType>Dinner__c.Dinner_RT2</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Dinner__c-Dinner Layout</layout>
         <recordType>Dinner__c.Dinner_RT_2</recordType>
     </layoutAssignments>
     <layoutAssignments>
