@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Matias test</members>
-        <name>Profile</name>
+        <members>Account_Record_Page</members>
+        <members>Case_Record_Page</members>
+        <members>FlexiAcc</members>
+        <members>Flexi_Assignment_Test</members>
+        <members>Flexi_Record_Page</members>
+        <members>Opp_Lightning_Page</members>
+        <members>Opp_Test_Assignment</members>
+        <members>Opportunity_Record_Page</members>
+        <members>Sales_Console_UtilityBar</members>
+        <name>FlexiPage</name>
     </types>
     <version>52.0</version>
 </Package>
