@@ -6340,14 +6340,6 @@
         <tuesdayStart>0</tuesdayStart>
     </loginHours>
     <loginIpRanges>
-        <endAddress>2.137.77.77</endAddress>
-        <startAddress>2.137.77.77</startAddress>
-    </loginIpRanges>
-    <loginIpRanges>
-        <endAddress>2.137.120.33</endAddress>
-        <startAddress>2.137.120.33</startAddress>
-    </loginIpRanges>
-    <loginIpRanges>
         <endAddress>192.168.13.35</endAddress>
         <startAddress>2.137.120.35</startAddress>
     </loginIpRanges>
@@ -8015,15 +8007,11 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>ManagePropositions</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
         <name>ManagePvtRptsAndDashbds</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>ManageRecommendationStrategies</name>
+        <name>ManageQuotas</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -8059,10 +8047,6 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>ManageTranslation</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
         <name>ManageUnlistedGroups</name>
     </userPermissions>
     <userPermissions>
@@ -8076,6 +8060,10 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>NewReportBuilder</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>OverrideForecasts</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -8159,6 +8147,10 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
+        <name>ViewAllForecasts</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
         <name>ViewAllUsers</name>
     </userPermissions>
     <userPermissions>
@@ -8172,6 +8164,10 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>ViewDataCategories</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ViewDataLeakageEvents</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -8192,6 +8188,10 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>ViewMyTeamsDashboards</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ViewPlatformEvents</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
