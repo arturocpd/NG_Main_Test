@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Public_Sector_Homepage</members>
-        <name>FlexiPage</name>
+        <members>F5Test/LeadBFGCommunitySolarCommercial</members>
+        <name>Dashboard</name>
+    </types>
+    <types>
+        <members>Lead-Lead-BFG - Community Solar %28Commercial%29</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>Lead-BFG - Community Solar %28Commercial%29</members>
+        <name>Profile</name>
     </types>
     <version>52.0</version>
 </Package>
