@@ -1,8 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Public_Sector_Homepage</members>
-        <name>FlexiPage</name>
+        <members>AR Services Test Profile</members>
+        <members>ARPartner Profile</members>
+        <members>Admin</members>
+        <members>Admin CLONE</members>
+        <members>Admin CLONE 2</members>
+        <members>CAI Admin</members>
+        <members>F5Test</members>
+        <members>Matias test</members>
+        <members>Not in Master</members>
+        <members>Read Only</members>
+        <members>Read Only Clone</members>
+        <members>Read Only Clone 2</members>
+        <members>SYS ADMIN CLONE</members>
+        <members>Standard</members>
+        <members>Standard User</members>
+        <members>Standard User CLONE</members>
+        <name>Profile</name>
     </types>
     <version>52.0</version>
 </Package>
