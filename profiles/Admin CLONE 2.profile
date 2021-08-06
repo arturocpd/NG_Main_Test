@@ -4932,20 +4932,20 @@
         <layout>LCRM_Account_Merge_UnMerge_Dup_Event__c-Account Event Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Lead-Contact Layout 360 Connect</layout>
-        <recordType>Lead.CRM_Work_SE</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Lead-Contact Layout 360 Connect</layout>
-        <recordType>Lead.X360_Connect_Contact</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>Lead-Contact Layout</layout>
         <recordType>Lead.CRM_Work</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Lead-Contact Layout</layout>
         <recordType>Lead.Technical_Contact</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Lead-Contact Layout 360 Connect</layout>
+        <recordType>Lead.CRM_Work_SE</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Lead-Contact Layout 360 Connect</layout>
+        <recordType>Lead.X360_Connect_Contact</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Lead-Lead %28Sales%29 Layout</layout>
@@ -7489,6 +7489,10 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
+        <name>ManageQuotas</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
         <name>ManageRecommendationStrategies</name>
     </userPermissions>
     <userPermissions>
@@ -7546,6 +7550,10 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>NewReportBuilder</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>OverrideForecasts</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -7638,6 +7646,10 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>ViewAllData</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ViewAllForecasts</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
