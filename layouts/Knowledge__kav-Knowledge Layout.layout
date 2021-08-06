@@ -7,13 +7,13 @@
         <label>Information</label>
         <layoutColumns>
             <layoutItems>
+                <field>Body__c</field>
+            </layoutItems>
+            <layoutItems>
                 <field>Title</field>
             </layoutItems>
             <layoutItems>
                 <field>UrlName</field>
-            </layoutItems>
-            <layoutItems>
-                <field>Body__c</field>
             </layoutItems>
             <layoutItems>
                 <field>Answer__c</field>
@@ -25,9 +25,12 @@
         <style>OneColumn</style>
     </layoutSections>
     <layoutSections>
-        <customLabel>false</customLabel>
-        <detailHeading>false</detailHeading>
+        <customLabel>true</customLabel>
+        <detailHeading>true</detailHeading>
         <editHeading>false</editHeading>
+        <label>Custom Links</label>
+        <layoutColumns/>
+        <layoutColumns/>
         <layoutColumns/>
         <style>CustomLinks</style>
     </layoutSections>

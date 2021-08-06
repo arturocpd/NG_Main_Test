@@ -27,6 +27,10 @@
                 <field>HasResponded</field>
             </layoutItems>
             <layoutItems>
+                <behavior>Edit</behavior>
+                <field>First_Responded_Date__c</field>
+            </layoutItems>
+            <layoutItems>
                 <behavior>Required</behavior>
                 <field>CurrencyIsoCode</field>
             </layoutItems>
