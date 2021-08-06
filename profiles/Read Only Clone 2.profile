@@ -10897,10 +10897,6 @@
     <layoutAssignments>
         <layout>WorkType-Work Type Layout</layout>
     </layoutAssignments>
-    <loginIpRanges>
-        <endAddress>83.49.84.23</endAddress>
-        <startAddress>83.49.84.23</startAddress>
-    </loginIpRanges>
     <objectPermissions>
         <allowCreate>false</allowCreate>
         <allowDelete>false</allowDelete>
@@ -12937,31 +12933,11 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>DistributeFromPersWksp</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>EditEvent</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
         <name>EditOppLineItemUnitPrice</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>EditTask</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
         <name>EditTopics</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>EmailMass</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>EmailSingle</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -12982,14 +12958,6 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>LightningExperienceUser</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>ListEmailSend</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>MassInlineEdit</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -13014,10 +12982,6 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>SubscribeToLightningReports</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>TransactionalEmailSend</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>

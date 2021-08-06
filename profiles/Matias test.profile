@@ -84,7 +84,7 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>IPRestrictRequests</name>
+        <name>FieldServiceAccess</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -97,10 +97,6 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>RunReports</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>ScheduleReports</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -128,7 +124,35 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
+        <name>ViewAllData</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ViewAllForecasts</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ViewDataLeakageEvents</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ViewEventLogFiles</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
         <name>ViewHelpLink</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ViewPlatformEvents</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ViewPublicDashboards</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ViewPublicReports</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>

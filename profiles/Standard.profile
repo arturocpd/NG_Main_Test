@@ -10897,10 +10897,6 @@
     <layoutAssignments>
         <layout>WorkType-Work Type Layout</layout>
     </layoutAssignments>
-    <loginIpRanges>
-        <endAddress>83.49.84.23</endAddress>
-        <startAddress>83.49.84.23</startAddress>
-    </loginIpRanges>
     <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
@@ -13186,6 +13182,10 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>MassInlineEdit</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>OverrideForecasts</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>

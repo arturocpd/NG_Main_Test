@@ -10897,10 +10897,6 @@
     <layoutAssignments>
         <layout>WorkType-Work Type Layout</layout>
     </layoutAssignments>
-    <loginIpRanges>
-        <endAddress>83.49.84.23</endAddress>
-        <startAddress>83.49.84.23</startAddress>
-    </loginIpRanges>
     <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
@@ -13037,10 +13033,6 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>ConvertLeads</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
         <name>CreateCustomizeFilters</name>
     </userPermissions>
     <userPermissions>
@@ -13093,10 +13085,6 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>ImportPersonal</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
         <name>LightningConsoleAllowedForUser</name>
     </userPermissions>
     <userPermissions>
@@ -13109,11 +13097,19 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
+        <name>ManageCssUsers</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
         <name>ManagePasswordPolicies</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
         <name>MassInlineEdit</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>OverrideForecasts</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
