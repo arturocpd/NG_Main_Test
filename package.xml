@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>F5Test</members>
-        <members>F5Test/TestP2</members>
-        <name>Report</name>
+        <members>Account.GuestSharingTest</members>
+        <members>Account.GuestSharingTest2</members>
+        <name>SharingGuestRule</name>
     </types>
     <version>52.0</version>
 </Package>
