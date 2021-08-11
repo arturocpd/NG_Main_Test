@@ -48,6 +48,7 @@
             <operation>notEqual</operation>
             <value>Test</value>
         </criteriaItems>
+        <includeHVUOwnedRecords>false</includeHVUOwnedRecords>
     </sharingGuestRules>
     <sharingGuestRules>
         <fullName>GuestSharingTest2</fullName>
@@ -61,5 +62,6 @@
             <operation>notEqual</operation>
             <value>test2</value>
         </criteriaItems>
+        <includeHVUOwnedRecords>false</includeHVUOwnedRecords>
     </sharingGuestRules>
 </SharingRules>
