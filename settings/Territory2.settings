@@ -4,9 +4,12 @@
     <defaultCaseAccessLevel>None</defaultCaseAccessLevel>
     <defaultContactAccessLevel>Edit</defaultContactAccessLevel>
     <defaultOpportunityAccessLevel>None</defaultOpportunityAccessLevel>
+    <enableTerritoryManagement2>true</enableTerritoryManagement2>
     <opportunityFilterSettings>
         <apexClassName xsi:nil="true"/>
         <enableFilter>false</enableFilter>
         <runOnCreate>false</runOnCreate>
     </opportunityFilterSettings>
+    <showTM2EnabledBanner>false</showTM2EnabledBanner>
+    <t2ForecastAccessLevel>Read</t2ForecastAccessLevel>
 </Territory2Settings>

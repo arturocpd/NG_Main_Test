@@ -50,6 +50,13 @@
         <layoutColumns/>
         <style>CustomLinks</style>
     </layoutSections>
+    <relatedLists>
+        <fields>DayOfWeek</fields>
+        <fields>StartTime</fields>
+        <fields>EndTime</fields>
+        <fields>Type</fields>
+        <relatedList>TimeSlots</relatedList>
+    </relatedLists>
     <showEmailCheckbox>false</showEmailCheckbox>
     <showRunAssignmentRulesCheckbox>false</showRunAssignmentRulesCheckbox>
     <showSubmitAndAttachButton>false</showSubmitAndAttachButton>

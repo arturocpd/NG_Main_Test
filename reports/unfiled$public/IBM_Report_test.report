@@ -3,6 +3,7 @@
     <columns>
         <field>AssetLineItem__c$Name</field>
     </columns>
+    <currency>EUR</currency>
     <format>Summary</format>
     <groupingsDown>
         <dateGranularity>Day</dateGranularity>

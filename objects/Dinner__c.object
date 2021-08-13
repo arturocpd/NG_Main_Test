@@ -276,6 +276,21 @@
                     <default>false</default>
                     <label>Dinner2</label>
                 </value>
+                <value>
+                    <fullName>Dinner 3</fullName>
+                    <default>false</default>
+                    <label>Dinner 3</label>
+                </value>
+                <value>
+                    <fullName>Dinner 4</fullName>
+                    <default>false</default>
+                    <label>Dinner 4</label>
+                </value>
+                <value>
+                    <fullName>Dinner 5</fullName>
+                    <default>false</default>
+                    <label>Dinner 5</label>
+                </value>
             </valueSetDefinition>
         </valueSet>
     </fields>
@@ -322,6 +337,36 @@
         <trackHistory>false</trackHistory>
         <type>Text</type>
         <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Type</label>
+        <required>true</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Brunch</fullName>
+                    <default>false</default>
+                    <label>Brunch</label>
+                </value>
+                <value>
+                    <fullName>Dinner</fullName>
+                    <default>false</default>
+                    <label>Dinner</label>
+                </value>
+                <value>
+                    <fullName>Lunch</fullName>
+                    <default>false</default>
+                    <label>Lunch</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
     </fields>
     <fields>
         <fullName>VS_Field1_Test_2__c</fullName>
@@ -388,6 +433,9 @@
     <label>Dinner</label>
     <listViews>
         <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>Type__c</columns>
         <filterScope>Everything</filterScope>
         <label>All</label>
     </listViews>
@@ -443,18 +491,37 @@
         <picklistValues>
             <picklist>Picklist_Dinner__c</picklist>
             <values>
-                <fullName>Dinner1</fullName>
+                <fullName>Dinner 3</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Dinner2</fullName>
+                <fullName>Dinner 5</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dinner1</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type__c</picklist>
+            <values>
+                <fullName>Brunch</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dinner</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lunch</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
     </recordTypes>
     <recordTypes>
         <fullName>Dinner_RT10</fullName>
-        <active>true</active>
+        <active>false</active>
         <label>Dinner RT10</label>
         <picklistValues>
             <picklist>Dinner_Type__c</picklist>
@@ -490,6 +557,21 @@
             </values>
             <values>
                 <fullName>Dinner2</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type__c</picklist>
+            <values>
+                <fullName>Brunch</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dinner</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lunch</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -535,6 +617,21 @@
                 <default>false</default>
             </values>
         </picklistValues>
+        <picklistValues>
+            <picklist>Type__c</picklist>
+            <values>
+                <fullName>Brunch</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dinner</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lunch</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
     </recordTypes>
     <recordTypes>
         <fullName>Dinner_RT3</fullName>
@@ -574,6 +671,21 @@
             </values>
             <values>
                 <fullName>Dinner2</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type__c</picklist>
+            <values>
+                <fullName>Brunch</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dinner</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lunch</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -619,6 +731,21 @@
                 <default>false</default>
             </values>
         </picklistValues>
+        <picklistValues>
+            <picklist>Type__c</picklist>
+            <values>
+                <fullName>Brunch</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dinner</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lunch</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
     </recordTypes>
     <recordTypes>
         <fullName>Dinner_RT5</fullName>
@@ -658,6 +785,21 @@
             </values>
             <values>
                 <fullName>Dinner2</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type__c</picklist>
+            <values>
+                <fullName>Brunch</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dinner</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lunch</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -703,6 +845,21 @@
                 <default>false</default>
             </values>
         </picklistValues>
+        <picklistValues>
+            <picklist>Type__c</picklist>
+            <values>
+                <fullName>Brunch</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dinner</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lunch</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
     </recordTypes>
     <recordTypes>
         <fullName>Dinner_RT7</fullName>
@@ -742,6 +899,21 @@
             </values>
             <values>
                 <fullName>Dinner2</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type__c</picklist>
+            <values>
+                <fullName>Brunch</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dinner</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lunch</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -787,6 +959,21 @@
                 <default>false</default>
             </values>
         </picklistValues>
+        <picklistValues>
+            <picklist>Type__c</picklist>
+            <values>
+                <fullName>Brunch</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dinner</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lunch</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
     </recordTypes>
     <recordTypes>
         <fullName>Dinner_RT9</fullName>
@@ -826,6 +1013,21 @@
             </values>
             <values>
                 <fullName>Dinner2</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type__c</picklist>
+            <values>
+                <fullName>Brunch</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dinner</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lunch</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -871,6 +1073,21 @@
                 <default>false</default>
             </values>
         </picklistValues>
+        <picklistValues>
+            <picklist>Type__c</picklist>
+            <values>
+                <fullName>Brunch</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dinner</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lunch</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
     </recordTypes>
     <recordTypes>
         <fullName>Nested_Dinner_RT</fullName>
@@ -910,6 +1127,21 @@
             </values>
             <values>
                 <fullName>Dinner2</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type__c</picklist>
+            <values>
+                <fullName>Brunch</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dinner</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lunch</fullName>
                 <default>false</default>
             </values>
         </picklistValues>

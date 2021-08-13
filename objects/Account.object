@@ -407,8 +407,9 @@
     <fields>
         <fullName>Big__c</fullName>
         <defaultValue>false</defaultValue>
+        <description>This is a description. Replace this: DXFormat123Dev</description>
         <externalId>false</externalId>
-        <label>Big</label>
+        <label>BigMOD</label>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Checkbox</type>
     </fields>

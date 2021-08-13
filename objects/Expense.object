@@ -147,6 +147,10 @@
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
+        <fullName>Discount</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
         <fullName>ExpenseEndDate</fullName>
         <trackHistory>false</trackHistory>
     </fields>
@@ -165,11 +169,25 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>Quantity</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Subtotal</fullName>
+    </fields>
+    <fields>
         <fullName>Title</fullName>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
+        <fullName>TotalPrice</fullName>
+    </fields>
+    <fields>
         <fullName>TransactionDate</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>UnitPrice</fullName>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>

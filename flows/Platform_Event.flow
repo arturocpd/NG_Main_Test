@@ -52,6 +52,7 @@
             </value>
         </inputParameters>
     </actionCalls>
+    <apiVersion>49.0</apiVersion>
     <assignments>
         <name>RecordCountAssignment</name>
         <label>RecordCountAssignment</label>
@@ -235,6 +236,7 @@
         <connector>
             <targetReference>eventContextCheckLoop</targetReference>
         </connector>
+        <filterLogic>and</filterLogic>
         <filters>
             <processMetadataValues>
                 <name>implicit</name>
@@ -292,6 +294,7 @@
     <textTemplates>
         <description>text template for when multiple records are records found</description>
         <name>multipleRecordsFoundTextTemplate</name>
+        <isViewedAsPlainText>false</isViewedAsPlainText>
         <text>Hello {!OrganizationName} Admin, 
 
 The Platform Event process is configured to start when a Platform Event Test platform event message occurs. A Platform Event Test message occurred, but the process didn&apos;t start because multiple records in your org match the values specified in the process&apos;s Object node.
@@ -306,6 +309,7 @@ Salesforce Process Automation</text>
     <textTemplates>
         <description>text template for no records found</description>
         <name>noRecordsFoundTextTemplate</name>
+        <isViewedAsPlainText>false</isViewedAsPlainText>
         <text>Hello {!OrganizationName} Admin, 
 
 The Platform Event process is configured to start when a Platform Event Test platform event message occurs. A Platform Event Test message occurred, but the process didn&apos;t start because no records in your org match the values specified in the process&apos;s Object node.

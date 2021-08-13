@@ -18,6 +18,10 @@
                 <behavior>Required</behavior>
                 <field>ShipToName</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Required</behavior>
+                <field>CurrencyIsoCode</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
@@ -135,6 +139,16 @@
         <fields>Actor</fields>
         <fields>Comments</fields>
         <relatedList>RelatedProcessHistoryList</relatedList>
+    </relatedLists>
+    <relatedLists>
+        <fields>Name</fields>
+        <fields>Product2</fields>
+        <fields>SourceProductItem</fields>
+        <fields>QuantityReceived</fields>
+        <fields>DestinationLocation</fields>
+        <fields>IsReceived</fields>
+        <fields>ReceivedBy</fields>
+        <relatedList>ProductTransfers</relatedList>
     </relatedLists>
     <showEmailCheckbox>false</showEmailCheckbox>
     <showRunAssignmentRulesCheckbox>false</showRunAssignmentRulesCheckbox>

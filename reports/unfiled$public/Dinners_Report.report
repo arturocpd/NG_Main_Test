@@ -6,6 +6,7 @@
     <columns>
         <field>Dinner__c$Id</field>
     </columns>
+    <currency>EUR</currency>
     <format>Summary</format>
     <groupingsDown>
         <dateGranularity>Day</dateGranularity>

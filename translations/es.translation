@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Translations xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customApplications>
+        <label>Consola de ventas</label>
+        <name>Sales_Console</name>
+    </customApplications>
+    <customApplications>
+        <label>Application de prueba</label>
+        <name>Test_App</name>
+    </customApplications>
     <customLabels>
         <label>Resumen de Cuenta Modified</label>
         <name>ACCOUNT_SUMMARY</name>
@@ -121,11 +129,11 @@
         <name>ARE_YOU_SURE</name>
     </customLabels>
     <customLabels>
-        <label>Este es el custom label de AR</label>
+        <label>Thursday test translation</label>
         <name>AR_Custom_Label</name>
     </customLabels>
     <customLabels>
-        <label>tranlation for custom label translation</label>
+        <label>Esto tiene que entrar</label>
         <name>AR_Custom_Label_from_Dev3</name>
     </customLabels>
     <customLabels>
@@ -1053,6 +1061,10 @@
         <name>EXTERNAL_ID_REQUIRED</name>
     </customLabels>
     <customLabels>
+        <label><!-- To be used on email template --></label>
+        <name>EmailLabel</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Enable Auto Selection Overwrite --></label>
         <name>Enable_Auto_Selection_Overwrite</name>
     </customLabels>
@@ -1199,6 +1211,10 @@
     <customLabels>
         <label><!-- GROUP BY SELENIUM MANAGER --></label>
         <name>GROUP_BY_SELENIUM_MANAGER</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- HCM_AssessmentExit --></label>
+        <name>HCM_AssessmentExit</name>
     </customLabels>
     <customLabels>
         <label><!-- HEADERS --></label>
@@ -1705,7 +1721,7 @@
         <name>NO_US_TO_SELECT</name>
     </customLabels>
     <customLabels>
-        <label><!-- New CL from Dev3 --></label>
+        <label>NO tienen que entrar</label>
         <name>New_CL_from_Dev3</name>
     </customLabels>
     <customLabels>
@@ -2793,6 +2809,10 @@
         <name>TYPE</name>
     </customLabels>
     <customLabels>
+        <label><!-- TestCharacters --></label>
+        <name>TestCharacter</name>
+    </customLabels>
+    <customLabels>
         <label>Despliega con copado</label>
         <name>Test_Copado_deplo</name>
     </customLabels>
@@ -2833,7 +2853,7 @@
         <name>Toggle_User_Stories_Ahead_and_Behind</name>
     </customLabels>
     <customLabels>
-        <label>Esta es una traduccion a Español.</label>
+        <label><!-- Translation Test --></label>
         <name>Translation_Test</name>
     </customLabels>
     <customLabels>
@@ -3049,6 +3069,10 @@
         <name>USE_CRONMAKER</name>
     </customLabels>
     <customLabels>
+        <label><!-- US Test Custom Label --></label>
+        <name>US_Test_Custom_Label</name>
+    </customLabels>
+    <customLabels>
         <label><!-- US VALIDATE --></label>
         <name>US_VALIDATE</name>
     </customLabels>
@@ -3213,6 +3237,10 @@
         <name>Create_Case_AR</name>
     </quickActions>
     <quickActions>
+        <label><!-- Guest Community Case --></label>
+        <name>GuestCommunityCase</name>
+    </quickActions>
+    <quickActions>
         <label><!-- Log a Call --></label>
         <name>LogACall</name>
     </quickActions>
@@ -3223,6 +3251,10 @@
     <quickActions>
         <label><!-- NewCase --></label>
         <name>NewCase</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Community Case --></label>
+        <name>NewCommunityCase</name>
     </quickActions>
     <quickActions>
         <label><!-- NewContact --></label>
@@ -3255,5 +3287,13 @@
     <quickActions>
         <label><!-- SendEmail --></label>
         <name>SendEmail</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Snapins_Case_PrechatQuickAction_08h1v000000kA1L_1582024884922 --></label>
+        <name>Snapins_Case_PrechatQuickAction_08h1v000000kA1L_1582024884922</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Snapins_Contact_PrechatQuickAction_08h1v000000kA1L_1582024884659 --></label>
+        <name>Snapins_Contact_PrechatQuickAction_08h1v000000kA1L_1582024884659</name>
     </quickActions>
 </Translations>

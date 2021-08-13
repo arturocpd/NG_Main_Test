@@ -327,8 +327,46 @@
         <required>false</required>
         <type>Picklist</type>
         <valueSet>
+            <controllingField>Time__c</controllingField>
             <restricted>true</restricted>
             <valueSetName>Year</valueSetName>
+            <valueSettings>
+                <controllingFieldValue>Later</controllingFieldValue>
+                <controllingFieldValue>Tomorrow</controllingFieldValue>
+                <controllingFieldValue>Yesterday</controllingFieldValue>
+                <valueName>February</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Later</controllingFieldValue>
+                <valueName>March</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Later</controllingFieldValue>
+                <controllingFieldValue>Yesterday</controllingFieldValue>
+                <valueName>June</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Later</controllingFieldValue>
+                <valueName>September</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Later</controllingFieldValue>
+                <controllingFieldValue>Tomorrow</controllingFieldValue>
+                <controllingFieldValue>Now</controllingFieldValue>
+                <valueName>November</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Yesterday</controllingFieldValue>
+                <valueName>Junuary</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Yesterday</controllingFieldValue>
+                <valueName>July</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Now</controllingFieldValue>
+                <valueName>April</valueName>
+            </valueSettings>
         </valueSet>
     </fields>
     <fields>

@@ -11,7 +11,7 @@
                 <operation>equals</operation>
                 <value>US,SP</value>
             </criteriaItems>
-            <template>unfiled$public/SalesNewCustomerEmail</template>
+            <template>Hidden_Folder/SalesNewCustomerEmail</template>
         </ruleEntry>
         <ruleEntry>
             <assignedTo>ngarturodev1cpd@gmail.com</assignedTo>

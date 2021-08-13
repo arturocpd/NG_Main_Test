@@ -27,12 +27,13 @@
         <criteriaItems>
             <field>WorkOrder.GrandTotal</field>
             <operation>equals</operation>
-            <value>11111</value>
+            <value>&quot;EUR 11,111&quot;</value>
         </criteriaItems>
     </entryCriteria>
     <finalApprovalRecordLock>true</finalApprovalRecordLock>
     <finalRejectionRecordLock>false</finalRejectionRecordLock>
     <label>Work Order</label>
+    <processOrder>1</processOrder>
     <recordEditability>AdminOnly</recordEditability>
     <showApprovalHistory>true</showApprovalHistory>
 </ApprovalProcess>

@@ -21,6 +21,7 @@
     <columns>
         <field>ACCOUNT.NAME</field>
     </columns>
+    <currency>EUR</currency>
     <format>Tabular</format>
     <name>New Test Report</name>
     <params>

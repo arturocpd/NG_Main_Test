@@ -51,6 +51,14 @@
         <style>CustomLinks</style>
     </layoutSections>
     <relatedLists>
+        <fields>Name</fields>
+        <fields>ServiceResource</fields>
+        <fields>StartDate</fields>
+        <fields>EndDate</fields>
+        <fields>IsLeader</fields>
+        <relatedList>ServiceCrewMembers</relatedList>
+    </relatedLists>
+    <relatedLists>
         <fields>TASK.SUBJECT</fields>
         <fields>TASK.WHO_NAME</fields>
         <fields>ACTIVITY.TASK</fields>

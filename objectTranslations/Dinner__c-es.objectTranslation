@@ -56,6 +56,18 @@
         <label><!-- Picklist Dinner --></label>
         <name>Picklist_Dinner__c</name>
         <picklistValues>
+            <masterLabel>Dinner 3</masterLabel>
+            <translation><!-- Dinner 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dinner 4</masterLabel>
+            <translation><!-- Dinner 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dinner 5</masterLabel>
+            <translation><!-- Dinner 5 --></translation>
+        </picklistValues>
+        <picklistValues>
             <masterLabel>Dinner1</masterLabel>
             <translation><!-- Dinner1 --></translation>
         </picklistValues>
@@ -80,6 +92,22 @@
     <fields>
         <label><!-- Test Conflict Resolution --></label>
         <name>Test_Conflict_Resolution__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>Type__c</name>
+        <picklistValues>
+            <masterLabel>Brunch</masterLabel>
+            <translation><!-- Brunch --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dinner</masterLabel>
+            <translation><!-- Dinner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lunch</masterLabel>
+            <translation><!-- Lunch --></translation>
+        </picklistValues>
     </fields>
     <fields>
         <label><!-- VS Field1 Test 2 --></label>

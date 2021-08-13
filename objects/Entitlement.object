@@ -180,6 +180,10 @@
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
+        <fullName>RemainingWorkOrders</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
         <fullName>ServiceContractId</fullName>
         <trackHistory>false</trackHistory>
         <type>Lookup</type>
@@ -210,6 +214,10 @@
         <fullName>Type</fullName>
         <trackHistory>false</trackHistory>
         <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>WorkOrdersPerEntitlement</fullName>
+        <trackHistory>false</trackHistory>
     </fields>
     <listViews>
         <fullName>All_Entitlements</fullName>

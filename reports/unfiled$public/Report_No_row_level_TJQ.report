@@ -45,6 +45,7 @@
     <columns>
         <field>TYPE</field>
     </columns>
+    <currency>EUR</currency>
     <format>Tabular</format>
     <name>Report No row level</name>
     <params>

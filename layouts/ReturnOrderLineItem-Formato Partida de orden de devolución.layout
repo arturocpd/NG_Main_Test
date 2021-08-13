@@ -143,6 +143,16 @@
     </relatedLists>
     <relatedLists>
         <fields>Name</fields>
+        <fields>Product2</fields>
+        <fields>SourceProductItem</fields>
+        <fields>QuantityReceived</fields>
+        <fields>DestinationLocation</fields>
+        <fields>IsReceived</fields>
+        <fields>ReceivedBy</fields>
+        <relatedList>ProductTransfers</relatedList>
+    </relatedLists>
+    <relatedLists>
+        <fields>Name</fields>
         <fields>Subject</fields>
         <fields>Account</fields>
         <fields>Priority</fields>

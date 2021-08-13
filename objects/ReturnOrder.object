@@ -181,6 +181,11 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>ProductServiceCampaignId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
         <fullName>ReturnedById</fullName>
         <trackHistory>false</trackHistory>
         <type>Lookup</type>

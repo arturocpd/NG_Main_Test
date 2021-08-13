@@ -43,6 +43,7 @@
         <aggregateTypes>Sum</aggregateTypes>
         <field>CDF1</field>
     </columns>
+    <currency>EUR</currency>
     <customDetailFormulas>
         <calculatedFormula>IF(AMOUNT&gt;1, 10, 0)</calculatedFormula>
         <dataType>Double</dataType>

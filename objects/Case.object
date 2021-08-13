@@ -1303,18 +1303,6 @@
                     <label>Dependent 3</label>
                 </value>
             </valueSetDefinition>
-            <valueSettings>
-                <controllingFieldValue>Controlling 1</controllingFieldValue>
-                <controllingFieldValue>Controlling 2</controllingFieldValue>
-                <controllingFieldValue>Controlling 3</controllingFieldValue>
-                <valueName>New Dependent 1</valueName>
-            </valueSettings>
-            <valueSettings>
-                <controllingFieldValue>Controlling 1</controllingFieldValue>
-                <controllingFieldValue>Controlling 2</controllingFieldValue>
-                <controllingFieldValue>Controlling 3</controllingFieldValue>
-                <valueName>Dependent 2</valueName>
-            </valueSettings>
         </valueSet>
     </fields>
     <fields>
@@ -1435,6 +1423,26 @@
         <type>Checkbox</type>
     </fields>
     <fields>
+        <fullName>Do_not_move_to_UAT__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Do not move to UAT</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Do_not_move_to_UATcase__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Do not move to UAT</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>Duplicate_test__c</fullName>
         <defaultValue>false</defaultValue>
         <externalId>false</externalId>
@@ -1479,6 +1487,16 @@
         <defaultValue>false</defaultValue>
         <externalId>false</externalId>
         <label>FLS commit test</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>FLS_fails__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>FLS fails</label>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
@@ -5192,6 +5210,16 @@
         <visibleLines>5</visibleLines>
     </fields>
     <fields>
+        <fullName>TestAPINameDev1__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>TestLabelDev1</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>TestAutonumber__c</fullName>
         <externalId>false</externalId>
         <label>TestAutonumber</label>
@@ -5298,6 +5326,17 @@
         <unique>false</unique>
     </fields>
     <fields>
+        <fullName>Test_env_variables__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Replace this Dev1 with the corresponding value.</description>
+        <externalId>false</externalId>
+        <label>Test env variables</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>Training_field__c</fullName>
         <defaultValue>false</defaultValue>
         <externalId>false</externalId>
@@ -5316,6 +5355,19 @@
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Txyz2__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Testxyz2</label>
+        <length>12</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
     </fields>
     <fields>
         <fullName>Type</fullName>

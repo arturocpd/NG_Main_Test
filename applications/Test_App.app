@@ -5,4 +5,10 @@
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
     <label>Test App</label>
     <tabs>standard-Account</tabs>
+    <tabs>GenderTest__c</tabs>
+    <tabs>ADD_Product__c</tabs>
+    <tabs>ADD_Conficguration_Rule__c</tabs>
+    <tabs>ADD_Product_Rule__c</tabs>
+    <tabs>ADD_Product_Action__c</tabs>
+    <tabs>Known_Issue__c</tabs>
 </CustomApplication>

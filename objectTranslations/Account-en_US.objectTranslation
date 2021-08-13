@@ -78,7 +78,7 @@
         </picklistValues>
     </fields>
     <fields>
-        <label><!-- Big --></label>
+        <label><!-- BigMOD --></label>
         <name>Big__c</name>
     </fields>
     <fields>

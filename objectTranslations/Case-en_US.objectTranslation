@@ -663,6 +663,14 @@
         <name>Destructive_changes_test__c</name>
     </fields>
     <fields>
+        <label><!-- Do not move to UAT --></label>
+        <name>Do_not_move_to_UAT__c</name>
+    </fields>
+    <fields>
+        <label><!-- Do not move to UAT --></label>
+        <name>Do_not_move_to_UATcase__c</name>
+    </fields>
+    <fields>
         <label><!-- Duplicate test --></label>
         <name>Duplicate_test__c</name>
     </fields>
@@ -677,6 +685,10 @@
     <fields>
         <label><!-- FLS commit test --></label>
         <name>FLS_commit_test__c</name>
+    </fields>
+    <fields>
+        <label><!-- FLS fails --></label>
+        <name>FLS_fails__c</name>
     </fields>
     <fields>
         <label><!-- Field Test FP --></label>
@@ -3355,6 +3367,10 @@
         </picklistValues>
     </fields>
     <fields>
+        <label><!-- TestLabelDev1 --></label>
+        <name>TestAPINameDev1__c</name>
+    </fields>
+    <fields>
         <label><!-- TestAutonumber --></label>
         <name>TestAutonumber__c</name>
     </fields>
@@ -3399,12 +3415,20 @@
         <name>Test_conflict__c</name>
     </fields>
     <fields>
+        <label><!-- Test env variables --></label>
+        <name>Test_env_variables__c</name>
+    </fields>
+    <fields>
         <label><!-- Training field --></label>
         <name>Training_field__c</name>
     </fields>
     <fields>
         <label><!-- Trimming fix --></label>
         <name>Trimming_fix__c</name>
+    </fields>
+    <fields>
+        <label><!-- Testxyz2 --></label>
+        <name>Txyz2__c</name>
     </fields>
     <fields>
         <label><!-- US CI Track --></label>

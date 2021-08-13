@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Layout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <excludeButtons>Submit</excludeButtons>
     <layoutSections>
         <customLabel>false</customLabel>
         <detailHeading>true</detailHeading>
@@ -134,6 +135,13 @@
         <fields>Status</fields>
         <fields>SuggestedMaintenanceDate</fields>
         <relatedList>WorkOrders</relatedList>
+    </relatedLists>
+    <relatedLists>
+        <fields>Name</fields>
+        <fields>Asset</fields>
+        <fields>NextSuggestedMaintenanceDate</fields>
+        <fields>WorkType</fields>
+        <relatedList>MaintenanceAssets</relatedList>
     </relatedLists>
     <relatedLists>
         <relatedList>RelatedFileList</relatedList>
