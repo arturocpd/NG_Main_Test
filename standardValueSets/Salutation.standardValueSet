@@ -26,4 +26,9 @@
         <default>false</default>
         <label>Prof.</label>
     </standardValue>
+    <standardValue>
+        <fullName>Doctor</fullName>
+        <default>false</default>
+        <label>Doctor</label>
+    </standardValue>
 </StandardValueSet>
