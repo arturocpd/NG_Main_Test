@@ -20,6 +20,12 @@
             <default>false</default>
         </values>
     </businessProcesses>
+    <fields>
+        <fullName>Name</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
     <recordTypes>
         <fullName>Another_Bug_Test</fullName>
         <active>true</active>
@@ -602,6 +608,31 @@
             </values>
             <values>
                 <fullName>Warm</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Technical_Contact</fullName>
+        <active>true</active>
+        <businessProcess>Comercial Lead Process</businessProcess>
+        <label>Technical_Contact</label>
+        <picklistValues>
+            <picklist>Name</picklist>
+            <values>
+                <fullName>Doctor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mr%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mrs%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ms%2E</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
