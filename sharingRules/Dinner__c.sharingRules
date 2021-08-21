@@ -13,15 +13,4 @@
             <value>Full</value>
         </criteriaItems>
     </sharingCriteriaRules>
-    <sharingOwnerRules>
-        <fullName>Dinner_Sharing_Rule_All_MOD</fullName>
-        <accessLevel>Read</accessLevel>
-        <label>Dinner Sharing Rule All MOD</label>
-        <sharedTo>
-            <role>CFO</role>
-        </sharedTo>
-        <sharedFrom>
-            <role>CEO</role>
-        </sharedFrom>
-    </sharingOwnerRules>
 </SharingRules>
