@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>AR Services Test.Banned</members>
-        <members>ARPartner.Banned</members>
-        <members>NGService.Banned</members>
-        <members>Tabs.Banned</members>
-        <members>Test Community Experience.Banned</members>
-        <members>Test Community.Banned</members>
-        <name>KeywordList</name>
+        <members>NotificationTypeConfig</members>
+        <name>NotificationTypeConfig</name>
     </types>
     <version>52.0</version>
 </Package>
