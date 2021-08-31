@@ -9,4 +9,5 @@
         <value>Requests</value>
     </caseValues>
     <gender>Feminine</gender>
+    <nameFieldLabel>Request Name ESP</nameFieldLabel>
 </CustomObjectTranslation>
