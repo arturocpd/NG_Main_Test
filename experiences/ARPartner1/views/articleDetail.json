@@ -19,7 +19,7 @@
       "type" : "component"
     }, {
       "componentAttributes" : {
-        "enableVoting" : true,
+        "enableVoting" : false,
         "recordId" : "{!recordId}",
         "showTitleInArticleHeader" : true,
         "showTopicPills" : true,
