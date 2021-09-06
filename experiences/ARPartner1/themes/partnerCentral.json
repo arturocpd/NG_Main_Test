@@ -31,9 +31,9 @@
     "type" : "view"
   }, {
     "componentAttributes" : {
-      "IsDefaultHeaderHidden" : false,
+      "IsDefaultHeaderHidden" : true,
       "IsDefaultHeaderPositionFixed" : true,
-      "IsDefaultNotificationsHidden" : false,
+      "IsDefaultNotificationsHidden" : true,
       "IsSearchBarHidden" : false,
       "fixedPageWidth" : 1440,
       "isPageWidthFixed" : true
