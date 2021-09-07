@@ -1,0 +1,14 @@
+{
+    "%vlocity_namespace%__AdditionalInformation__c": "This is a test",
+    "%vlocity_namespace%__IsActive__c": true,
+    "%vlocity_namespace%__IsProcedure__c": false,
+    "%vlocity_namespace%__IsReusable__c": false,
+    "%vlocity_namespace%__Language__c": "English",
+    "%vlocity_namespace%__PropertySet__c": "CPQ_Consumer-Order-TV_English_PropertySet.json",
+    "%vlocity_namespace%__SubType__c": "Consumer Order TV",
+    "%vlocity_namespace%__Type__c": "CPQ",
+    "Name": "AO OmniScript Test",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__OmniScript__c/CPQ/Consumer Order TV/English"
+}

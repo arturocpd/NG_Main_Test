@@ -12,8 +12,8 @@
         <label>Email</label>
     </standardValue>
     <standardValue>
-        <fullName>Web</fullName>
+        <fullName>WebPage</fullName>
         <default>false</default>
-        <label>Web</label>
+        <label>WebPage2</label>
     </standardValue>
 </StandardValueSet>

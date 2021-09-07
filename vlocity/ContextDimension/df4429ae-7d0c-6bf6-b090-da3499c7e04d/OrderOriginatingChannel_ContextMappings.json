@@ -1,0 +1,34 @@
+[
+    {
+        "%vlocity_namespace%__ContextScopeId__c": {
+            "%vlocity_namespace%__GlobalKey__c": null,
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "VlocityRecordSourceKey:a3r1I000000UGzNQAW",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__ContextScope__c"
+        },
+        "%vlocity_namespace%__Destination__c": "",
+        "%vlocity_namespace%__Dimension__c": {
+            "%vlocity_namespace%__GlobalKey__c": "df4429ae-7d0c-6bf6-b090-da3499c7e04d",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__ContextDimension__c/df4429ae-7d0c-6bf6-b090-da3499c7e04d",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__ContextDimension__c"
+        },
+        "%vlocity_namespace%__EffectiveFromDate__c": "2017-01-01T00:00:00.000Z",
+        "%vlocity_namespace%__EffectiveUntilDate__c": "",
+        "%vlocity_namespace%__FunctionExpression__c": "",
+        "%vlocity_namespace%__FunctionJSON__c": "",
+        "%vlocity_namespace%__GlobalKey__c": "",
+        "%vlocity_namespace%__InitializationPolicy__c": "Always Reinitialize",
+        "%vlocity_namespace%__InitializationType__c": "Source Expression",
+        "%vlocity_namespace%__IsActive__c": true,
+        "%vlocity_namespace%__Scope__c": "",
+        "%vlocity_namespace%__Sequence__c": 1,
+        "%vlocity_namespace%__Source__c": "%vlocity_namespace%__OriginatingChannel__c",
+        "%vlocity_namespace%__TypeInValue__c": "",
+        "%vlocity_namespace%__VlocityFunctionId__c": "",
+        "Name": "",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__ContextMapping__c",
+        "VlocityRecordSourceKey": "VlocityRecordSourceKey:a3b1I000000UbOtQAK"
+    }
+]
