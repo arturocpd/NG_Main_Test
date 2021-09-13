@@ -13,7 +13,7 @@
         <name>Test_App</name>
     </customApplications>
     <customLabels>
-        <label>Resumen de Cuenta</label>
+        <label>Resumen de Cuenta Modified</label>
         <name>ACCOUNT_SUMMARY</name>
     </customLabels>
     <customLabels>
