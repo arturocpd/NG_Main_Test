@@ -1,39 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
-    <sharingCriteriaRules>
-        <fullName>AR_Acc_Sharing_Criteria</fullName>
+    <sharingGuestRules>
+        <fullName>GuestSharingTest</fullName>
         <accessLevel>Read</accessLevel>
-        <accountSettings>
-            <caseAccessLevel>None</caseAccessLevel>
-            <contactAccessLevel>None</contactAccessLevel>
-            <opportunityAccessLevel>None</opportunityAccessLevel>
-        </accountSettings>
-        <label>AR Acc Sharing Criteria</label>
+        <label>GuestSharingTest</label>
         <sharedTo>
-            <role>CEO</role>
+            <guestUser>Tabs</guestUser>
         </sharedTo>
         <criteriaItems>
-            <field>Active__c</field>
-            <operation>equals</operation>
-            <value>Yes</value>
+            <field>Name</field>
+            <operation>notEqual</operation>
+            <value>Test</value>
         </criteriaItems>
-    </sharingCriteriaRules>
-    <sharingCriteriaRules>
-        <fullName>Sharing_Acc_AR</fullName>
+        <includeHVUOwnedRecords>false</includeHVUOwnedRecords>
+    </sharingGuestRules>
+    <sharingGuestRules>
+        <fullName>GuestSharingTest2</fullName>
         <accessLevel>Read</accessLevel>
-        <accountSettings>
-            <caseAccessLevel>None</caseAccessLevel>
-            <contactAccessLevel>None</contactAccessLevel>
-            <opportunityAccessLevel>None</opportunityAccessLevel>
-        </accountSettings>
-        <label>Sharing Acc AR</label>
+        <label>GuestSharingTest2</label>
         <sharedTo>
-            <allInternalUsers></allInternalUsers>
+            <guestUser>Tabs</guestUser>
         </sharedTo>
         <criteriaItems>
-            <field>Industry</field>
-            <operation>equals</operation>
-            <value>Chemicals</value>
+            <field>Name</field>
+            <operation>notEqual</operation>
+            <value>test2</value>
         </criteriaItems>
-    </sharingCriteriaRules>
+        <includeHVUOwnedRecords>false</includeHVUOwnedRecords>
+    </sharingGuestRules>
 </SharingRules>
