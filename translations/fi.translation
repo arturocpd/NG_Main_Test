@@ -4,4 +4,8 @@
         <label>Finish for AR_Custom_Label</label>
         <name>AR_Custom_Label</name>
     </customLabels>
+    <customLabels>
+        <label>Finnish for New_CL_from_Dev3</label>
+        <name>New_CL_from_Dev3</name>
+    </customLabels>
 </Translations>
