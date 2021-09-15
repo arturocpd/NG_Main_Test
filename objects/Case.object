@@ -236,6 +236,49 @@
         <type>Checkbox</type>
     </fields>
     <fields>
+        <fullName>Dependent__c</fullName>
+        <externalId>false</externalId>
+        <label>Dependent</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Controlling__c</controllingField>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>New Dependent 1</fullName>
+                    <default>false</default>
+                    <label>Dependent 1</label>
+                </value>
+                <value>
+                    <fullName>Dependent 2</fullName>
+                    <default>false</default>
+                    <label>Dependent 2</label>
+                </value>
+                <value>
+                    <fullName>Dependent 3</fullName>
+                    <default>false</default>
+                    <label>Dependent 3</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Controlling 1</controllingFieldValue>
+                <controllingFieldValue>Controlling 2</controllingFieldValue>
+                <controllingFieldValue>Controlling 3</controllingFieldValue>
+                <valueName>New Dependent 1</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Controlling 1</controllingFieldValue>
+                <controllingFieldValue>Controlling 2</controllingFieldValue>
+                <controllingFieldValue>Controlling 3</controllingFieldValue>
+                <valueName>Dependent 2</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>FLS_fails__c</fullName>
         <defaultValue>false</defaultValue>
         <externalId>false</externalId>
