@@ -236,6 +236,51 @@
         <type>Checkbox</type>
     </fields>
     <fields>
+        <fullName>Controlling__c</fullName>
+        <externalId>false</externalId>
+        <label>Controlling</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Controlling 1</fullName>
+                    <default>false</default>
+                    <label>Controlling 1</label>
+                </value>
+                <value>
+                    <fullName>Controlling 2</fullName>
+                    <default>false</default>
+                    <label>Controlling 2</label>
+                </value>
+                <value>
+                    <fullName>Controlling 3</fullName>
+                    <default>false</default>
+                    <label>Controlling 3</label>
+                </value>
+                <value>
+                    <fullName>Dev1-1</fullName>
+                    <default>false</default>
+                    <label>Dev1-1</label>
+                </value>
+                <value>
+                    <fullName>Dev1-2</fullName>
+                    <default>false</default>
+                    <label>Dev1-2</label>
+                </value>
+                <value>
+                    <fullName>Dev1-3</fullName>
+                    <default>false</default>
+                    <label>Dev1-3</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>Dependent__c</fullName>
         <externalId>false</externalId>
         <label>Dependent</label>
@@ -273,8 +318,11 @@
             <valueSettings>
                 <controllingFieldValue>Controlling 1</controllingFieldValue>
                 <controllingFieldValue>Controlling 2</controllingFieldValue>
-                <controllingFieldValue>Controlling 3</controllingFieldValue>
                 <valueName>Dependent 2</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Controlling 2</controllingFieldValue>
+                <valueName>Dependent 3</valueName>
             </valueSettings>
         </valueSet>
     </fields>
