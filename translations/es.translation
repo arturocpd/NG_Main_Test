@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Translations xmlns="http://soap.sforce.com/2006/04/metadata">
+<Translations xmlns="http://soap.sforce.com/2006/04/metadata"
+      xmlns:n1="http://www.w3.org/2001/XMLSchema-instance">
     <customApplications>
         <label></label>
         <name>Copado_Integrations</name>
@@ -5168,6 +5169,16 @@
         <label></label>
         <name>copado__inSuffPriv</name>
     </customLabels>
+    <flowDefinitions>
+        <flows>
+            <fullName n1:nil="true" />
+            <label>Nombre Traducido</label>
+            <screens>
+                <name>Welcome</name>
+            </screens>
+        </flows>
+        <fullName>AR_Flow_login</fullName>
+    </flowDefinitions>
     <quickActions>
         <label></label>
         <name>LogACall</name>
