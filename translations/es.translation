@@ -2,7 +2,7 @@
 <Translations xmlns="http://soap.sforce.com/2006/04/metadata"
       xmlns:n1="http://www.w3.org/2001/XMLSchema-instance">
     <customApplications>
-        <label>FB wrong</label>
+        <label>Promotion Branch Change</label>
         <name>Copado_Integrations</name>
     </customApplications>
     <customApplications>
