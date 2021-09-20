@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>ORCI Blue Planet Integration_ORCI / Blue Planet Orch Plan (ORCI Blue Planet Integration_ORCI   Blue Planet Orch Plan_AR Orchestration Plan Definition)</members>
-        <name>OrchestrationItemDefinition</name>
-    </types>
-    <types>
-        <members>ORCI / Blue Planet Orch Plan (ORCI   Blue Planet Orch Plan)</members>
-        <name>OrchestrationPlanDefinition</name>
+        <members>Default Retry Policy for AutoTasks (e70f3f84-1aa1-4f50-9975-9dd54563687c)</members>
+        <name>IntegrationRetryPolicy</name>
     </types>
     <version>52.0</version>
 </Package>
