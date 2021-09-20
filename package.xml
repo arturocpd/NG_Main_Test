@@ -1,8 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>CM_ChangeEvents_01I0Y0000010hsa</members>
-        <name>PlatformEventChannelMember</name>
+        <members>AR Services Test.Customer_Members</members>
+        <members>AR Services Test.Members_without_contribution</members>
+        <members>AR Services Test.Partner_and_Customer_members</members>
+        <members>ARPartner.Customer_Members</members>
+        <members>ARPartner.Members_without_contribution</members>
+        <members>ARPartner.Partner_and_Customer_members</members>
+        <members>NGService.Customer_Members</members>
+        <members>NGService.Members_without_contribution</members>
+        <members>NGService.Partner_and_Customer_members</members>
+        <members>Tabs.Customer_Members</members>
+        <members>Tabs.Members_without_contribution</members>
+        <members>Tabs.Partner_and_Customer_members</members>
+        <members>Test Community Experience.Customer_Members</members>
+        <members>Test Community Experience.Members_without_contribution</members>
+        <members>Test Community Experience.Partner_and_Customer_members</members>
+        <members>Test Community.Customer_Members</members>
+        <members>Test Community.Members_without_contribution</members>
+        <members>Test Community.Name_Member_Criteria</members>
+        <members>Test Community.Partner_and_Customer_members</members>
+        <name>UserCriteria</name>
     </types>
     <version>52.0</version>
 </Package>
