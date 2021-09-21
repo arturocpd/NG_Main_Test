@@ -1,26 +1,117 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>AR Services Test.Customer_Members</members>
-        <members>AR Services Test.Members_without_contribution</members>
-        <members>AR Services Test.Partner_and_Customer_members</members>
-        <members>ARPartner.Customer_Members</members>
-        <members>ARPartner.Members_without_contribution</members>
-        <members>ARPartner.Partner_and_Customer_members</members>
-        <members>NGService.Customer_Members</members>
-        <members>NGService.Members_without_contribution</members>
-        <members>NGService.Partner_and_Customer_members</members>
-        <members>Tabs.Customer_Members</members>
-        <members>Tabs.Members_without_contribution</members>
-        <members>Tabs.Partner_and_Customer_members</members>
-        <members>Test Community Experience.Customer_Members</members>
-        <members>Test Community Experience.Members_without_contribution</members>
-        <members>Test Community Experience.Partner_and_Customer_members</members>
-        <members>Test Community.Customer_Members</members>
-        <members>Test Community.Members_without_contribution</members>
-        <members>Test Community.Name_Member_Criteria</members>
-        <members>Test Community.Partner_and_Customer_members</members>
-        <name>UserCriteria</name>
+        <members>Account</members>
+        <members>AccountIntelligence</members>
+        <members>Actions</members>
+        <members>Activities</members>
+        <members>Address</members>
+        <members>Analytics</members>
+        <members>Apex</members>
+        <members>AppAnalytics</members>
+        <members>AppExperience</members>
+        <members>Archive</members>
+        <members>Blockchain</members>
+        <members>Bot</members>
+        <members>BusinessHours</members>
+        <members>Campaign</members>
+        <members>Case</members>
+        <members>Chatter</members>
+        <members>ChatterEmailsMD</members>
+        <members>Commerce</members>
+        <members>Communities</members>
+        <members>Company</members>
+        <members>ConnectedApp</members>
+        <members>Content</members>
+        <members>Contract</members>
+        <members>ConversationalIntelligence</members>
+        <members>Currency</members>
+        <members>CustomerDataPlatform</members>
+        <members>DataDotCom</members>
+        <members>Deployment</members>
+        <members>DevHub</members>
+        <members>Discovery</members>
+        <members>DocumentChecklist</members>
+        <members>EAC</members>
+        <members>EmailAdministration</members>
+        <members>EmailIntegration</members>
+        <members>EmailTemplate</members>
+        <members>EmployeeFieldAccess</members>
+        <members>EmployeeUser</members>
+        <members>EncryptionKey</members>
+        <members>EnhancedNotes</members>
+        <members>Entitlement</members>
+        <members>Essentials</members>
+        <members>Event</members>
+        <members>ExperienceBundle</members>
+        <members>ExternalServices</members>
+        <members>FieldService</members>
+        <members>FileUploadAndDownloadSecurity</members>
+        <members>FilesConnect</members>
+        <members>Flow</members>
+        <members>Forecasting</members>
+        <members>ForecastingObjectList</members>
+        <members>Formula</members>
+        <members>GoogleApps</members>
+        <members>Ideas</members>
+        <members>Industries</members>
+        <members>InvocableAction</members>
+        <members>IsvHammer</members>
+        <members>Knowledge</members>
+        <members>Language</members>
+        <members>LeadConfig</members>
+        <members>LightningExperience</members>
+        <members>LiveAgent</members>
+        <members>Macro</members>
+        <members>MailMerge</members>
+        <members>Meetings</members>
+        <members>Mobile</members>
+        <members>MyDomain</members>
+        <members>Name</members>
+        <members>Notifications</members>
+        <members>ObjectLinking</members>
+        <members>OmniChannel</members>
+        <members>Opportunity</members>
+        <members>Order</members>
+        <members>OrderManagement</members>
+        <members>Org</members>
+        <members>Pardot</members>
+        <members>PardotEinstein</members>
+        <members>PartyDataModel</members>
+        <members>PathAssistant</members>
+        <members>Picklist</members>
+        <members>PlatformEncryption</members>
+        <members>Portals</members>
+        <members>PredictionBuilder</members>
+        <members>Privacy</members>
+        <members>Product</members>
+        <members>QuickText</members>
+        <members>Quote</members>
+        <members>RealTimeEvent</members>
+        <members>RecommendationBuilder</members>
+        <members>RecordPage</members>
+        <members>RetailExecution</members>
+        <members>Schema</members>
+        <members>Search</members>
+        <members>Security</members>
+        <members>ServiceCloudVoice</members>
+        <members>ServiceSetupAssistant</members>
+        <members>Sharing</members>
+        <members>Site</members>
+        <members>SocialProfile</members>
+        <members>SourceTracking</members>
+        <members>Survey</members>
+        <members>SystemNotification</members>
+        <members>Territory2</members>
+        <members>Trailhead</members>
+        <members>TrialOrg</members>
+        <members>UserEngagement</members>
+        <members>UserInterface</members>
+        <members>UserManagement</members>
+        <members>Voice</members>
+        <members>WebToX</members>
+        <members>WorkDotCom</members>
+        <name>Settings</name>
     </types>
     <version>52.0</version>
 </Package>
