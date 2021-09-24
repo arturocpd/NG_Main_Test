@@ -2482,6 +2482,11 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>Customer_Master_Contacts__c.Customer_Type_Description__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>DataUseLegalBasis.Description</field>
         <readable>false</readable>
@@ -5852,6 +5857,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>CreditMemoLine-Formato Partida de memorándum de crédito</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Customer_Master_Contacts__c-Customer Master Contacts Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>DelegatedAccount-Formato de Cuenta gestionada externa</layout>

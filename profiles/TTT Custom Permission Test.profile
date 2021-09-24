@@ -2495,6 +2495,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Customer_Master_Contacts__c.Customer_Type_Description__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>DataUseLegalBasis.Description</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -6015,6 +6020,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Custom_json__c-Custom json Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Customer_Master_Contacts__c-Customer Master Contacts Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>DandBCompany-D%26B Company Layout</layout>
