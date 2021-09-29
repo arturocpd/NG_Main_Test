@@ -5,6 +5,11 @@
         <field>Customer_Master_Contacts__c.Customer_Type_Description__c</field>
         <readable>true</readable>
     </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Customer_Master_Contacts__c.Test_Number__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <hasActivationRequired>false</hasActivationRequired>
     <label>Customer Master Contacts PS</label>
     <objectPermissions>
