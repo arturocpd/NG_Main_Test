@@ -1683,11 +1683,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Case.Zip_file_test__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>Case.bug_test__c</field>
         <readable>true</readable>
     </fieldPermissions>
