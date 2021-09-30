@@ -56,6 +56,10 @@
                 <behavior>Edit</behavior>
                 <field>IBM_ID_Blue_ID__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Required</behavior>
+                <field>CurrencyIsoCode</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
