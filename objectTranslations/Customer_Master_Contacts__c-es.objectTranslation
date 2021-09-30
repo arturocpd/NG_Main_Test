@@ -12,5 +12,9 @@
         <label><!-- Customer Type Description --></label>
         <name>Customer_Type_Description__c</name>
     </fields>
+    <fields>
+        <label><!-- Test Number --></label>
+        <name>Test_Number__c</name>
+    </fields>
     <gender>Feminine</gender>
 </CustomObjectTranslation>

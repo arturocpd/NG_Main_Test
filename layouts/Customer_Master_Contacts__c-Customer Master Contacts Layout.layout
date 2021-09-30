@@ -14,6 +14,10 @@
                 <behavior>Edit</behavior>
                 <field>Customer_Type_Description__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Test_Number__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
