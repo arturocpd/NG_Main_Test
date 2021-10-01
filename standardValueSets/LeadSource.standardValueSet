@@ -26,19 +26,4 @@
         <default>false</default>
         <label>Other</label>
     </standardValue>
-    <standardValue>
-        <fullName>Test CI</fullName>
-        <default>false</default>
-        <label>Test CI</label>
-    </standardValue>
-    <standardValue>
-        <fullName>One more CI test</fullName>
-        <default>false</default>
-        <label>One more CI test</label>
-    </standardValue>
-    <standardValue>
-        <fullName>RT test with CI</fullName>
-        <default>false</default>
-        <label>RT test with CI</label>
-    </standardValue>
 </StandardValueSet>
