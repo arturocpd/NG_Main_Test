@@ -153,6 +153,14 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
+    <fields>
+        <fullName>scheduled_failed__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>scheduled failed</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
     <gender>Feminine</gender>
     <label>Account Request</label>
     <nameField>

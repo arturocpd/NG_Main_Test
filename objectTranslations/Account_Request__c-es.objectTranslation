@@ -8,5 +8,9 @@
         <plural>true</plural>
         <value>Account Requests</value>
     </caseValues>
+    <fields>
+        <label><!-- scheduled failed --></label>
+        <name>scheduled_failed__c</name>
+    </fields>
     <gender>Feminine</gender>
 </CustomObjectTranslation>
