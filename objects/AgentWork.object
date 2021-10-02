@@ -21,6 +21,9 @@
         <fullName>CapacityWeight</fullName>
     </fields>
     <fields>
+        <fullName>ChannelData</fullName>
+    </fields>
+    <fields>
         <fullName>CloseDateTime</fullName>
     </fields>
     <fields>

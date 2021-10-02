@@ -154,6 +154,10 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>RecordsetFilterCriteriaId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
         <fullName>ShiftTemplateDurationType</fullName>
     </fields>
     <fields>
@@ -175,11 +179,13 @@
         <customTabListAdditionalFields>Duration</customTabListAdditionalFields>
         <customTabListAdditionalFields>ShiftTemplateDurationType</customTabListAdditionalFields>
         <customTabListAdditionalFields>IsActive</customTabListAdditionalFields>
+        <customTabListAdditionalFields>RecordsetFilterCriteria</customTabListAdditionalFields>
         <searchResultsAdditionalFields>JobProfile</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>StartTime</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>Duration</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>ShiftTemplateDurationType</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>IsActive</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>RecordsetFilterCriteria</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>Read</sharingModel>
 </CustomObject>
