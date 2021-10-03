@@ -5937,6 +5937,9 @@
         <layout>AssociatedLocation-Associated Location Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>BusinessBrand-Formato Marca comercial</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>CSTM_Object__c-CSTM Object Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -6033,6 +6036,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Custom_json__c-Custom json Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Customer-Formato Cliente</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Customer_Master_Contacts__c-Customer Master Contacts Layout</layout>
@@ -6446,6 +6452,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>ScorecardMetric-Scorecard Metric Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Seller-Formato Vendedor</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>ServiceAppointment-Service Appointment Layout</layout>
@@ -7021,6 +7030,10 @@
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>standard-AsyncOperationLog</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>standard-AuthorizationForm</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
@@ -7050,11 +7063,11 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-ChannelProgram</tab>
-        <visibility>Hidden</visibility>
+        <visibility>DefaultOff</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-ChannelProgramLevel</tab>
-        <visibility>Hidden</visibility>
+        <visibility>DefaultOff</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-Chatter</tab>
@@ -7249,6 +7262,10 @@
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>standard-LocationGroup</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>standard-Macro</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
@@ -7278,19 +7295,19 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-PartnerFundAllocation</tab>
-        <visibility>Hidden</visibility>
+        <visibility>DefaultOff</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-PartnerFundClaim</tab>
-        <visibility>Hidden</visibility>
+        <visibility>DefaultOff</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-PartnerFundRequest</tab>
-        <visibility>Hidden</visibility>
+        <visibility>DefaultOff</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-PartnerMarketingBudget</tab>
-        <visibility>Hidden</visibility>
+        <visibility>DefaultOff</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-PartyConsent</tab>

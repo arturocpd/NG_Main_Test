@@ -19,7 +19,7 @@
     <enableOotbProfExtUserOpsEnable>true</enableOotbProfExtUserOpsEnable>
     <enablePRMAccRelPref>false</enablePRMAccRelPref>
     <enablePowerCustomerCaseStatus>false</enablePowerCustomerCaseStatus>
-    <enablePreventBadgeGuestAccess>false</enablePreventBadgeGuestAccess>
+    <enablePreventBadgeGuestAccess>true</enablePreventBadgeGuestAccess>
     <enableRelaxPartnerAccountFieldPref>false</enableRelaxPartnerAccountFieldPref>
     <enableUnsupportedBrowserModalPref>true</enableUnsupportedBrowserModalPref>
 </CommunitiesSettings>

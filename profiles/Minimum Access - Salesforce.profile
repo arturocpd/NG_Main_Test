@@ -5875,6 +5875,9 @@
         <layout>AssetStatePeriod-Formato Periodo de estado de activo</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>BusinessBrand-Formato Marca comercial</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>CardPaymentMethod-Formato Método de pago con tarjeta</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -5882,6 +5885,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>CreditMemoLine-Formato Partida de memorándum de crédito</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Customer-Formato Cliente</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Customer_Master_Contacts__c-Customer Master Contacts Layout</layout>
@@ -5996,6 +6002,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>SMA_DefaultSettings__c-SMA DefaultSettings Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Seller-Formato Vendedor</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>ShiftPattern-Formato Patrón de turno</layout>
@@ -6434,6 +6443,10 @@
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>standard-AsyncOperationLog</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>standard-AuthorizationForm</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
@@ -6655,6 +6668,10 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-Location</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-LocationGroup</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
