@@ -15,7 +15,7 @@
         <criteriaItems>
             <field>Active__c</field>
             <operation>equals</operation>
-            <value>Yes</value>
+            <value>No</value>
         </criteriaItems>
     </sharingCriteriaRules>
     <sharingCriteriaRules>
