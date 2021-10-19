@@ -137,6 +137,7 @@
         <notifyAssignee>false</notifyAssignee>
         <operation>Literal</operation>
         <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
     </fieldUpdates>
     <rules>
         <fullName>Leaseplan</fullName>
@@ -252,7 +253,7 @@
             <operation>notEqual</operation>
             <value>True</value>
         </criteriaItems>
-        <description>This is the workflow</description>
+        <description>This is the workflow MOD IN DEV</description>
         <triggerType>onCreateOnly</triggerType>
     </rules>
     <rules>
