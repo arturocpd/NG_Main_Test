@@ -363,7 +363,8 @@
             <operation>notEqual</operation>
             <value>True</value>
         </criteriaItems>
-        <description>This is the workflow MOD IN DEV 2</description>
+        <description>This is the workflow MOD IN DEV
+MOD added in Source org</description>
         <triggerType>onCreateOnly</triggerType>
     </rules>
     <rules>
