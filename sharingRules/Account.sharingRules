@@ -60,7 +60,7 @@
         <criteriaItems>
             <field>Name</field>
             <operation>notEqual</operation>
-            <value>test1</value>
+            <value>test2</value>
         </criteriaItems>
         <includeHVUOwnedRecords>false</includeHVUOwnedRecords>
     </sharingGuestRules>
