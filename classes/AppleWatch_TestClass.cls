@@ -1,14 +1,12 @@
 @isTest
-private class AppleWatchTest {
+private class AppleWatch_TestClass {
   
-  @isTest static void testMethod1() {
+  @isTest static void createOpportunity() {
     Opportunity opp = new Opportunity ();
     opp.Name = 'Swift Deal';
     opp.StageName = 'Prospecting';
     opp.CloseDate = Date.today();
     insert opp;
   }
-  
-  //Comment in class for testing
   
 }
