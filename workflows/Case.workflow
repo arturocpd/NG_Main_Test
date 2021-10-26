@@ -130,7 +130,7 @@
     </fieldUpdates>
     <fieldUpdates>
         <fullName>Update_Origin</fullName>
-        <description>This is the field update</description>
+        <description>This is the field update master commit 2</description>
         <field>Origin</field>
         <literalValue>Email</literalValue>
         <name>Update Origin</name>
@@ -253,7 +253,7 @@
             <operation>notEqual</operation>
             <value>True</value>
         </criteriaItems>
-        <description>This is the workflow MOD IN DEV</description>
+        <description>This is the workflow master commit</description>
         <triggerType>onCreateOnly</triggerType>
     </rules>
     <rules>
