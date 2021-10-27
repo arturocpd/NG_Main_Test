@@ -8,6 +8,7 @@
         <fullName>v1</fullName>
         <botDialogs>
             <botSteps>
+                <stepIdentifier>20f207a4-2d01-4e21-b2a7-1666b369d3a6</stepIdentifier>
                 <type>Wait</type>
             </botSteps>
             <developerName>Returns</developerName>
@@ -16,6 +17,7 @@
         </botDialogs>
         <botDialogs>
             <botSteps>
+                <stepIdentifier>c6c30fdf-4c9f-4975-92b5-33582b584d83</stepIdentifier>
                 <type>Wait</type>
             </botSteps>
             <developerName>Billing</developerName>
@@ -24,6 +26,7 @@
         </botDialogs>
         <botDialogs>
             <botSteps>
+                <stepIdentifier>2a079a40-20b2-412d-a938-fe7cb745fd8c</stepIdentifier>
                 <type>Wait</type>
             </botSteps>
             <developerName>Hours</developerName>
@@ -34,7 +37,9 @@
             <botSteps>
                 <botMessages>
                     <message>Hello! This is Mr. AR Bot.</message>
+                    <messageIdentifier>d5df2417-2ce5-4c2b-a1e0-9f48a31f741c</messageIdentifier>
                 </botMessages>
+                <stepIdentifier>e91d6b41-c274-4b99-92be-3a3442490450</stepIdentifier>
                 <type>Message</type>
             </botSteps>
             <botSteps>
@@ -44,6 +49,7 @@
                     </botNavigationLinks>
                     <type>Redirect</type>
                 </botNavigation>
+                <stepIdentifier>f76498f3-7402-4210-afa3-85270b15549a</stepIdentifier>
                 <type>Navigation</type>
             </botSteps>
             <developerName>Welcome</developerName>
@@ -67,6 +73,7 @@
                     </botNavigationLinks>
                     <type>Redirect</type>
                 </botNavigation>
+                <stepIdentifier>5abff9c5-c228-4c41-a629-705c8a16fc0b</stepIdentifier>
                 <type>Navigation</type>
             </botSteps>
             <developerName>Main_Menu</developerName>
@@ -78,6 +85,7 @@
                 <conversationSystemMessage>
                     <type>Transfer</type>
                 </conversationSystemMessage>
+                <stepIdentifier>3bc81bc8-f407-4fdd-91f7-6ec464badf19</stepIdentifier>
                 <type>SystemMessage</type>
             </botSteps>
             <developerName>Transfer_To_Agent</developerName>
@@ -88,10 +96,13 @@
             <botSteps>
                 <botMessages>
                     <message>Goodbye! Click the &quot;End Chat&quot; button to end this chat</message>
+                    <messageIdentifier>5cabbb67-351c-46cd-83a1-ee430ff791be</messageIdentifier>
                 </botMessages>
+                <stepIdentifier>ca04f1af-c283-4bce-8c9e-159d529cdb0d</stepIdentifier>
                 <type>Message</type>
             </botSteps>
             <botSteps>
+                <stepIdentifier>1c348488-ff67-47f2-bb5b-4e8d39dab908</stepIdentifier>
                 <type>Wait</type>
             </botSteps>
             <developerName>End_Chat</developerName>
@@ -102,10 +113,13 @@
             <botSteps>
                 <botMessages>
                     <message>Sorry, I didn&apos;t understand that.</message>
+                    <messageIdentifier>21ee2eb2-2a09-4f78-ab7d-ae1ee072adf9</messageIdentifier>
                 </botMessages>
+                <stepIdentifier>9cd5e488-31dc-44a6-9a17-cb89fe90bb7c</stepIdentifier>
                 <type>Message</type>
             </botSteps>
             <botSteps>
+                <stepIdentifier>ca5c43e9-c226-44d5-876f-c0f4862a8b7f</stepIdentifier>
                 <type>Wait</type>
             </botSteps>
             <developerName>Confused</developerName>
@@ -116,10 +130,13 @@
             <botSteps>
                 <botMessages>
                     <message>Unfortunately, there are no agents available at the moment</message>
+                    <messageIdentifier>4f2abee7-4471-4714-8c01-9b9b092966f6</messageIdentifier>
                 </botMessages>
+                <stepIdentifier>5e16eb06-b6d4-440b-b9b7-cf81bc22826c</stepIdentifier>
                 <type>Message</type>
             </botSteps>
             <botSteps>
+                <stepIdentifier>16ad1bad-78da-4438-aaf1-264483b9bd02</stepIdentifier>
                 <type>Wait</type>
             </botSteps>
             <developerName>No_Agent_Available</developerName>

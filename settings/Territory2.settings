@@ -12,4 +12,5 @@
     </opportunityFilterSettings>
     <showTM2EnabledBanner>false</showTM2EnabledBanner>
     <t2ForecastAccessLevel>Read</t2ForecastAccessLevel>
+    <tm2BypassRealignAccInsert>false</tm2BypassRealignAccInsert>
 </Territory2Settings>
