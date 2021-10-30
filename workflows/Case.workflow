@@ -375,8 +375,7 @@
             <operation>notEqual</operation>
             <value>True</value>
         </criteriaItems>
-        <description>This is the workflow MOD IN DEV
-MOD added in Source org</description>
+        <description>CLI Test in Org</description>
         <triggerType>onCreateOnly</triggerType>
     </rules>
     <rules>

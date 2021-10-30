@@ -223,6 +223,10 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>NewClass</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>SayHi</apexClass>
         <enabled>true</enabled>
     </classAccesses>
