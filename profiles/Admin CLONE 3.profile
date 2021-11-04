@@ -275,6 +275,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>ADD_Object__c.Ext_Id_in_ADD_Object__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>ADD_Product_Action__c.ADD_Product_Action_Ext_Id__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -5922,6 +5927,9 @@
         <layout>ADD_Conficguration_Rule__c-ADD Conficguration Rule Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>ADD_Object__c-ADD Object Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>ADD_Product_Action__c-ADD Product Action Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -6673,6 +6681,15 @@
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
         <object>ADD_Conficguration_Rule__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>ADD_Object__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>

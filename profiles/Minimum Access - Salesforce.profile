@@ -266,6 +266,11 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>ADD_Object__c.Ext_Id_in_ADD_Object__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>ADD_Product_Action__c.ADD_Product_Action_Ext_Id__c</field>
         <readable>false</readable>
@@ -5910,6 +5915,9 @@
         <field>WorkTypeGroup.IsActive</field>
         <readable>false</readable>
     </fieldPermissions>
+    <layoutAssignments>
+        <layout>ADD_Object__c-ADD Object Layout</layout>
+    </layoutAssignments>
     <layoutAssignments>
         <layout>Account-Account %28Marketing%29 Layout</layout>
         <recordType>Account.Business_Account</recordType>
