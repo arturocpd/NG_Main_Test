@@ -31,23 +31,23 @@
         <enableClickjackNonsetupUser>false</enableClickjackNonsetupUser>
         <enableClickjackNonsetupUserHeaderless>false</enableClickjackNonsetupUserHeaderless>
         <enableClickjackSetup>true</enableClickjackSetup>
-        <enableContentSniffingProtection>true</enableContentSniffingProtection>
+        <enableContentSniffingProtection>false</enableContentSniffingProtection>
         <enableLightningLogin>true</enableLightningLogin>
         <enableLightningLoginOnlyWithUserPerm>false</enableLightningLoginOnlyWithUserPerm>
         <enableOauthCorsPolicy>false</enableOauthCorsPolicy>
         <enablePostForSessions>false</enablePostForSessions>
         <enableSMSIdentity>true</enableSMSIdentity>
         <enableU2F>false</enableU2F>
-        <enableXssProtection>true</enableXssProtection>
+        <enableXssProtection>false</enableXssProtection>
         <enforceIpRangesEveryRequest>false</enforceIpRangesEveryRequest>
         <enforceUserDeviceRevoked>false</enforceUserDeviceRevoked>
-        <forceLogoutOnSessionTimeout>true</forceLogoutOnSessionTimeout>
+        <forceLogoutOnSessionTimeout>false</forceLogoutOnSessionTimeout>
         <forceRelogin>false</forceRelogin>
         <hasRetainedLoginHints>false</hasRetainedLoginHints>
         <hasUserSwitching>true</hasUserSwitching>
         <identityConfirmationOnEmailChange>false</identityConfirmationOnEmailChange>
         <identityConfirmationOnTwoFactorRegistrationEnabled>true</identityConfirmationOnTwoFactorRegistrationEnabled>
-        <lockSessionsToDomain>true</lockSessionsToDomain>
+        <lockSessionsToDomain>false</lockSessionsToDomain>
         <lockSessionsToIp>false</lockSessionsToIp>
         <lockerServiceCSP>false</lockerServiceCSP>
         <lockerServiceNext>false</lockerServiceNext>
