@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>The_Motivator</members>
-        <name>WaveDataflow</name>
+        <members>Sales_Performance_Datasets</members>
+        <name>WaveApplication</name>
     </types>
-    <types>
-        <members>AR_2_Recipe</members>
-        <members>URIWithUsersRecipeMotivator</members>
-        <name>WaveRecipe</name>
-    </types>
-    <version>44.0</version>
+    <version>53.0</version>
 </Package>
