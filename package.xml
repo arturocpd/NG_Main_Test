@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>The_Motivator</members>
+        <members>SalesEdgeEltWorkflow</members>
         <name>WaveDataflow</name>
     </types>
     <types>
-        <members>AR_2_Recipe</members>
-        <members>URIWithUsersRecipeMotivator</members>
+        <members>Opportunities_with_Accounts_and_Users</members>
+        <members>Opportunities_with_SIC_Descriptions</members>
+        <members>SIC_Descriptions</members>
+        <name>WaveDataset</name>
+    </types>
+    <types>
+        <members>Opportunities_with_SIC_Descriptions</members>
         <name>WaveRecipe</name>
     </types>
-    <version>44.0</version>
+    <version>53.0</version>
 </Package>

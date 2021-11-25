@@ -26,14 +26,4 @@
         <default>false</default>
         <label>Purchased</label>
     </standardValue>
-    <standardValue>
-        <fullName>Elisa Test</fullName>
-        <default>false</default>
-        <label>Elisa Test</label>
-    </standardValue>
-    <standardValue>
-        <fullName>Elisa Test US</fullName>
-        <default>false</default>
-        <label>Elisa Test US</label>
-    </standardValue>
 </StandardValueSet>
