@@ -4,7 +4,7 @@
     <masterLabel>Sales Performance Datasets</masterLabel>
     <shares>
         <accessLevel>Manage</accessLevel>
-        <sharedTo>arturotableau@gmail.com</sharedTo>
-        <sharedToType>User</sharedToType>
+        <sharedTo>AllInternalUsers</sharedTo>
+        <sharedToType>Organization</sharedToType>
     </shares>
 </WaveApplication>
