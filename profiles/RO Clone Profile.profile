@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Profile xmlns="http://soap.sforce.com/2006/04/metadata">
+<Profile xmlns="http://soap.sforce.com/2006/04/metadata"
+      xmlns:n1="http://www.w3.org/2001/XMLSchema-instance">
     <applicationVisibilities>
         <application>Copado_Integrations</application>
         <default>false</default>
@@ -2340,6 +2341,8 @@
     </classAccesses>
     <custom>true</custom>
     <fieldPermissions>
+        <editable>false</editable>
+        <field n1:nil="true" />
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -4450,11 +4453,6 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Lead.DoNotCall</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Lead.Duplicate_Test__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
