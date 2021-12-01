@@ -7598,11 +7598,6 @@
     </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>false</default>
-        <recordType>Lead.Another_Bug_Test</recordType>
-        <visible>true</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <default>false</default>
         <recordType>Lead.Bug_Test</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>

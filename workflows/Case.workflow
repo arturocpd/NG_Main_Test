@@ -285,6 +285,7 @@
             <operation>notEqual</operation>
             <value>False</value>
         </criteriaItems>
+        <description>Second commit on the UI for workflow</description>
         <triggerType>onCreateOrTriggeringUpdate</triggerType>
     </rules>
     <rules>
@@ -299,6 +300,7 @@
             <operation>equals</operation>
             <value>Default</value>
         </criteriaItems>
+        <description>Description for commit in UI</description>
         <triggerType>onCreateOnly</triggerType>
     </rules>
     <rules>

@@ -314,6 +314,7 @@
     <fields>
         <fullName>BitCoin__c</fullName>
         <defaultValue>false</defaultValue>
+        <description>BitCoin description</description>
         <externalId>false</externalId>
         <label>BitCoin</label>
         <trackFeedHistory>false</trackFeedHistory>

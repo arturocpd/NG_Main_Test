@@ -664,7 +664,7 @@
     <recordTypeTrackHistory>false</recordTypeTrackHistory>
     <recordTypes>
         <fullName>Another_Bug_Test</fullName>
-        <active>true</active>
+        <active>false</active>
         <businessProcess>Comercial Lead Process</businessProcess>
         <label>Another Bug Test</label>
         <picklistValues>
