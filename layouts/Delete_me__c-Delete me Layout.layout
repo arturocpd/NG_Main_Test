@@ -7,16 +7,12 @@
         <label>Information</label>
         <layoutColumns>
             <layoutItems>
-                <behavior>Required</behavior>
+                <behavior>Readonly</behavior>
                 <field>Name</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>check1__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>check2__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
@@ -47,8 +43,8 @@
         <style>TwoColumnsTopToBottom</style>
     </layoutSections>
     <layoutSections>
-        <customLabel>true</customLabel>
-        <detailHeading>true</detailHeading>
+        <customLabel>false</customLabel>
+        <detailHeading>false</detailHeading>
         <editHeading>true</editHeading>
         <layoutColumns/>
         <layoutColumns/>
@@ -59,5 +55,5 @@
     <showHighlightsPanel>false</showHighlightsPanel>
     <showInteractionLogPanel>false</showInteractionLogPanel>
     <showRunAssignmentRulesCheckbox>false</showRunAssignmentRulesCheckbox>
-    <showSubmitAndAttachButton>true</showSubmitAndAttachButton>
+    <showSubmitAndAttachButton>false</showSubmitAndAttachButton>
 </Layout>
