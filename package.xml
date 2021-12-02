@@ -1,18 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Sales_Performance_Datasets</members>
-        <name>WaveApplication</name>
-    </types>
-    <types>
-        <members>SalesEdgeEltWorkflow</members>
-        <name>WaveDataflow</name>
-    </types>
-    <types>
-        <members>Opportunities_with_Accounts_and_Users</members>
         <members>Opportunities_with_SIC_Descriptions</members>
-        <members>SIC_Descriptions</members>
-        <name>WaveDataset</name>
+        <name>WaveDataflow</name>
     </types>
     <types>
         <members>Opportunities_with_SIC_Descriptions</members>
