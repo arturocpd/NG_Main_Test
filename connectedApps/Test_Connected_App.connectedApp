@@ -18,7 +18,8 @@
     <label>Test Connected App</label>
     <oauthConfig>
         <callbackUrl>https://logoin.salesforce.com/service/oauth2/callback</callbackUrl>
-        <consumerKey></consumerKey>
+        <consumerKey>3MVG9HxRZv05HarSrty3uT.ELuPj.fQN9RmQ6kujUurT3Za.eTir1XWoiCWtCVefoReOcYREi8JfcsfRqhuAz</consumerKey>
+        <isAdminApproved>false</isAdminApproved>
         <scopes>Basic</scopes>
         <scopes>Api</scopes>
     </oauthConfig>
