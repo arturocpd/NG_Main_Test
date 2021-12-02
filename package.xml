@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>AppleWatch</members>
-        <name>ApexClass</name>
+        <members>Opportunities_with_SIC_Descriptions</members>
+        <name>WaveDataflow</name>
+    </types>
+    <types>
+        <members>Opportunities_with_SIC_Descriptions</members>
+        <name>WaveRecipe</name>
     </types>
     <version>53.0</version>
 </Package>
