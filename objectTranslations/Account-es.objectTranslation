@@ -751,6 +751,10 @@
         <label><!-- Record Type2 --></label>
         <name>Record_Type2</name>
     </recordTypes>
+    <recordTypes>
+        <label><!-- Record Type3 --></label>
+        <name>Record_Type3</name>
+    </recordTypes>
     <validationRules>
         <errorMessage><!-- This error will be never displayed. --></errorMessage>
         <name>New_Validation_Acc</name>
