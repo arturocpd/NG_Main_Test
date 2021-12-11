@@ -417,6 +417,10 @@
         </picklistValues>
     </fields>
     <fields>
+        <label><!-- AWS Test Field --></label>
+        <name>AWS_Test_Field__c</name>
+    </fields>
+    <fields>
         <label><!-- Acc_Id --></label>
         <name>Acc_Id__c</name>
     </fields>

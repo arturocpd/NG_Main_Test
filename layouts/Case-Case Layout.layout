@@ -522,6 +522,10 @@
                 <behavior>Edit</behavior>
                 <field>Test_env_variables__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>AWS_Test__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>

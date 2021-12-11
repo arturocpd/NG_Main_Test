@@ -21,6 +21,10 @@
         <startsWith>Consonant</startsWith>
     </fields>
     <fields>
+        <label><!-- AWS Test --></label>
+        <name>AWS_Test__c</name>
+    </fields>
+    <fields>
         <label><!-- Add metadata field --></label>
         <name>Add_metadata_field__c</name>
     </fields>

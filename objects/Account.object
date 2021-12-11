@@ -283,6 +283,17 @@
         </valueSet>
     </fields>
     <fields>
+        <fullName>AWS_Test_Field__c</fullName>
+        <externalId>false</externalId>
+        <label>AWS Test Field</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>Acc_Id__c</fullName>
         <defaultValue>false</defaultValue>
         <externalId>false</externalId>
