@@ -26,4 +26,15 @@
             <value>Escalated</value>
         </criteriaItems>
     </sharingCriteriaRules>
+    <sharingOwnerRules>
+        <fullName>Owner_sharing</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Owner sharing</label>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+        <sharedFrom>
+            <allInternalUsers></allInternalUsers>
+        </sharedFrom>
+    </sharingOwnerRules>
 </SharingRules>
