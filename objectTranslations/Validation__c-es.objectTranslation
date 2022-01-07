@@ -8,5 +8,9 @@
         <plural>true</plural>
         <value>Validation</value>
     </caseValues>
+    <fields>
+        <label><!-- Validation Date --></label>
+        <name>Validation_Date__c</name>
+    </fields>
     <gender>Masculine</gender>
 </CustomObjectTranslation>
