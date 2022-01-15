@@ -877,6 +877,22 @@
         <name>Field_Test_FP__c</name>
     </fields>
     <fields>
+        <label><!-- Field US 1 --></label>
+        <name>Field_US_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Field US 2 --></label>
+        <name>Field_US_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Field US 3 --></label>
+        <name>Field_US_3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Field US 4 --></label>
+        <name>Field_US_4__c</name>
+    </fields>
+    <fields>
         <label><!-- Find and Replace --></label>
         <name>Find_and_Replace__c</name>
     </fields>
