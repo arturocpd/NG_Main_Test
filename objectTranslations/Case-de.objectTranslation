@@ -3573,6 +3573,14 @@
         <name>TestAutonumber__c</name>
     </fields>
     <fields>
+        <label><!-- Test 1 --></label>
+        <name>Test_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Test 2 --></label>
+        <name>Test_2__c</name>
+    </fields>
+    <fields>
         <label><!-- Test BETA fix --></label>
         <name>Test_BETA_fix__c</name>
     </fields>
