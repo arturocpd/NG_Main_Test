@@ -1,20 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Dinner__c.Dinner_Type__c</members>
-        <members>Dinner__c.FLS_Test_Dinner_PS__c</members>
-        <members>Dinner__c.Type__c</members>
-        <members>Dinner__c.VS_Field1_Test_2__c</members>
-        <members>Dinner__c.VS_Field2_Test_2__c</members>
-        <members>Dinner__c.VS_Field3_Test_2__c</members>
-        <members>Dinner__c.VS_Field4_Test_2__c</members>
-        <members>Dinner__c.VS_PS_Test_D__c</members>
+        <members>Dinner__c.Test_Conflict_Resolution__c</members>
         <name>CustomField</name>
-    </types>
-    <types>
-        <members>Dinner__c-en_US</members>
-        <members>Dinner__c-es</members>
-        <name>CustomObjectTranslation</name>
     </types>
     <version>53.0</version>
 </Package>
