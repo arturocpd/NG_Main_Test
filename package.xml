@@ -19,12 +19,7 @@
         <members>Dinner__c.VS_Field4_Test_2__c</members>
         <members>Dinner__c.VS_PS_Test_D__c</members>
         <members>Dinner__c.historyRetentionPolicy__c</members>
-        <members>Dinner__c_hd.Point_of_contact__c</members>
         <name>CustomField</name>
-    </types>
-    <types>
-        <members>Dinner__c-en_US</members>
-        <name>CustomObjectTranslation</name>
     </types>
     <version>53.0</version>
 </Package>
