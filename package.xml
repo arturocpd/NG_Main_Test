@@ -2,12 +2,11 @@
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
         <members>Dinner__c.LateDinner__c</members>
-        <members>Dinner__c.Nested_Field_Test__c</members>
         <name>CustomField</name>
     </types>
     <types>
-        <members>Dinner__c.LateDinner__c</members>
-        <name>CustomField</name>
+        <members>Minimum Access - Salesforce</members>
+        <name>Profile</name>
     </types>
     <version>53.0</version>
 </Package>
