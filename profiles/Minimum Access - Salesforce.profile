@@ -1747,6 +1747,11 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>Dinner__c.LateDinner__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Dinner__c_hd.Point_of_contact__c_hpr</field>
         <readable>false</readable>
