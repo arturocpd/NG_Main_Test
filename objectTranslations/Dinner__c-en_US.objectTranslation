@@ -64,6 +64,18 @@
         <label></label>
         <name>Picklist_Dinner__c</name>
         <picklistValues>
+            <masterLabel>Dinner 3</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dinner 4</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dinner 5</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
             <masterLabel>Dinner1</masterLabel>
             <translation></translation>
         </picklistValues>
@@ -84,6 +96,10 @@
     <fields>
         <label></label>
         <name>Table__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Test_Conflict_Resolution__c</name>
     </fields>
     <fields>
         <label></label>
