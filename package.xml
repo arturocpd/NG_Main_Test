@@ -1,16 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Dinner__c</members>
-        <name>CustomObject</name>
+        <members>Dinner__c.External_Auto__c</members>
+        <members>Dinner__c.Point_of_contact__c</members>
+        <members>Dinner__c.TEST_US__c</members>
+        <members>Dinner__c.Table__c</members>
+        <members>Dinner__c.VS_Field1_Test_2__c</members>
+        <members>Dinner__c.VS_Field2_Test_2__c</members>
+        <members>Dinner__c.VS_Field3_Test_2__c</members>
+        <name>CustomField</name>
     </types>
     <types>
-        <members>Dinner__c.Queue_for_approval_Dinner</members>
-        <name>ListView</name>
-    </types>
-    <types>
-        <members>Minimum Access - Salesforce</members>
-        <name>Profile</name>
+        <members>Dinner__c-Dinner Layout</members>
+        <name>Layout</name>
     </types>
     <version>53.0</version>
 </Package>
