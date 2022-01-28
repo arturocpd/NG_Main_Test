@@ -125,7 +125,6 @@
         <label></label>
         <name>historyRetentionPolicy__c</name>
     </fields>
-    <gender>Feminine</gender>
     <recordTypes>
         <label></label>
         <name>Dinner_RT</name>
