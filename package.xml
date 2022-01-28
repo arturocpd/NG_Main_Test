@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Dinner__c.LateDinner__c</members>
-        <name>CustomField</name>
+        <members>Dinner__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Dinner__c.Queue_for_approval_Dinner</members>
+        <name>ListView</name>
     </types>
     <types>
         <members>Minimum Access - Salesforce</members>
