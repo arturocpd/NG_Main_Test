@@ -40,6 +40,39 @@
             </valueSetDefinition>
         </valueSet>
     </fields>
+    <fields>
+        <fullName>VS_Field1_Test_2__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>VS Field1 Test 2</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>VS_Field2_Test_2__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>VS Field2 Test 2</label>
+        <length>13</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>VS_Field3_Test_2__c</fullName>
+        <externalId>false</externalId>
+        <label>VS Field3 Test 2</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
     <recordTypes>
         <fullName>Dinner_RT</fullName>
         <active>true</active>

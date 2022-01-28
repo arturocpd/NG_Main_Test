@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Dinner --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Dinner --></value>
+    </caseValues>
+    <fields>
+        <label>Dinner TypeEN</label>
+        <name>Dinner_Type__c</name>
+        <picklistValues>
+            <masterLabel>Full</masterLabel>
+            <translation><!-- Full --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>High Touch/High Urgency</masterLabel>
+            <translation><!-- High Touch/High Urgency --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partial</masterLabel>
+            <translation><!-- Partial --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- FLS Test Dinner PS --></label>
+        <name>FLS_Test_Dinner_PS__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>Type__c</name>
+        <picklistValues>
+            <masterLabel>Brunch</masterLabel>
+            <translation><!-- Brunch --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dinner</masterLabel>
+            <translation><!-- Dinner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lunch</masterLabel>
+            <translation><!-- Lunch --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- VS Field1 Test 2 --></label>
+        <name>VS_Field1_Test_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- VS Field2 Test 2 --></label>
+        <name>VS_Field2_Test_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- VS Field3 Test 2 --></label>
+        <name>VS_Field3_Test_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- VS Field4 Test 2 --></label>
+        <name>VS_Field4_Test_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- VS PS Test D --></label>
+        <name>VS_PS_Test_D__c</name>
+    </fields>
+    <nameFieldLabel><!-- Dinner Name --></nameFieldLabel>
+    
+</CustomObjectTranslation>
