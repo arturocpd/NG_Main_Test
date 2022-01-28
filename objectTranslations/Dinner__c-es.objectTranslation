@@ -10,6 +10,18 @@
     </caseValues>
     <fields>
         <label></label>
+        <name>Automatic_Renewal_Clause__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label></label>
         <name>Dinner_Type__c</name>
         <picklistValues>
             <masterLabel>Full</masterLabel>
@@ -67,7 +79,7 @@
     <fields>
         <label></label>
         <name>Point_of_contact__c</name>
-        <relationshipLabel>Cenas</relationshipLabel>
+        <relationshipLabel></relationshipLabel>
     </fields>
     <fields>
         <label></label>
@@ -76,6 +88,22 @@
     <fields>
         <label></label>
         <name>Table__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Type__c</name>
+        <picklistValues>
+            <masterLabel>Brunch</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dinner</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lunch</masterLabel>
+            <translation></translation>
+        </picklistValues>
     </fields>
     <fields>
         <label></label>

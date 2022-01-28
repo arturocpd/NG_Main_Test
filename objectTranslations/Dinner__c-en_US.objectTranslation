@@ -2,6 +2,14 @@
 <CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <caseValues>
         <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value></value>
+    </caseValues>
+    <caseValues>
+        <plural>false</plural>
         <value>DinnerEN</value>
     </caseValues>
     <caseValues>
@@ -13,17 +21,57 @@
         <name>Dinner_Type__c</name>
         <picklistValues>
             <masterLabel>Full</masterLabel>
-            <translation><!-- Full --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>High Touch/High Urgency</masterLabel>
-            <translation><!-- High Touch/High Urgency --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Partial</masterLabel>
-            <translation><!-- Partial --></translation>
+            <translation></translation>
         </picklistValues>
     </fields>
-    <nameFieldLabel>Dinner NameEN</nameFieldLabel>
+    <fields>
+        <label></label>
+        <name>FLS_Test_Dinner_PS__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Type__c</name>
+        <picklistValues>
+            <masterLabel>Brunch</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dinner</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lunch</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label></label>
+        <name>VS_Field1_Test_2__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>VS_Field2_Test_2__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>VS_Field3_Test_2__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>VS_Field4_Test_2__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>VS_PS_Test_D__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>
