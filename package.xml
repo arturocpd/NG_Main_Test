@@ -5,5 +5,9 @@
         <members>Dinner__c.Nested_Field_Test__c</members>
         <name>CustomField</name>
     </types>
+    <types>
+        <members>Dinner__c.LateDinner__c</members>
+        <name>CustomField</name>
+    </types>
     <version>53.0</version>
 </Package>
