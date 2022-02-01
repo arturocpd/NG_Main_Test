@@ -410,41 +410,46 @@
         <active>true</active>
         <label>PersonAccount</label>
         <picklistValues>
+            <picklist>CustomerPriority__c</picklist>
+            <values>
+                <fullName>High</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Low</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Medium</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Global_Picklist__c</picklist>
+            <values>
+                <fullName>Global 1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Global 2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Global 3</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
             <picklist>PA_Test_Field__c</picklist>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Test_Commit_PA__c</picklist>
             <values>
-                <fullName>PA Fix</fullName>
+                <fullName>Commit1</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>PLUS 1500 %280597%29</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Test PA</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Value 1</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Value 2</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Value 4</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Value3</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Value5</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>new</fullName>
+                <fullName>Commit2</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -498,21 +503,6 @@
             </values>
             <values>
                 <fullName>Yes</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
-            <picklist>CustomerPriority__c</picklist>
-            <values>
-                <fullName>High</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Low</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Medium</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
