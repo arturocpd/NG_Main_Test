@@ -810,46 +810,6 @@
         </picklistValues>
         <picklistValues>
             <picklist>PA_Test_Field__c</picklist>
-            <values>
-                <fullName>Auto Resolve Test</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>PA Fix</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>PLUS 1500 %280597%29</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Test PA</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Value 1</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Value 2</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Value 4</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Value3</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Value5</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>new</fullName>
-                <default>false</default>
-            </values>
         </picklistValues>
         <picklistValues>
             <picklist>Test_Commit_PA__c</picklist>
