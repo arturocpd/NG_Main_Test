@@ -138,6 +138,7 @@
         <label>Customer Priority</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
         <type>Picklist</type>
         <valueSet>
             <valueSetDefinition>
@@ -156,11 +157,6 @@
                     <fullName>Medium</fullName>
                     <default>false</default>
                     <label>Medium</label>
-                </value>
-                <value>
-                    <fullName>None</fullName>
-                    <default>false</default>
-                    <label>None</label>
                 </value>
             </valueSetDefinition>
         </valueSet>
@@ -200,19 +196,6 @@
         <label>Field 1</label>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Checkbox</type>
-    </fields>
-    <fields>
-        <fullName>Global_Picklist__c</fullName>
-        <externalId>false</externalId>
-        <label>Global Picklist</label>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
-        <type>Picklist</type>
-        <valueSet>
-            <restricted>true</restricted>
-            <valueSetName>Global_Value_Set</valueSetName>
-        </valueSet>
     </fields>
     <fields>
         <fullName>Industry</fullName>
@@ -271,76 +254,6 @@
         <fullName>Ownership</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Picklist</type>
-    </fields>
-    <fields>
-        <fullName>PA_Test_Field__c</fullName>
-        <externalId>false</externalId>
-        <label>PA Test Field</label>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
-        <type>Picklist</type>
-        <valueSet>
-            <restricted>true</restricted>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>Value 1</fullName>
-                    <default>false</default>
-                    <label>Value 1</label>
-                </value>
-                <value>
-                    <fullName>Value 2</fullName>
-                    <default>false</default>
-                    <label>Value 2</label>
-                </value>
-                <value>
-                    <fullName>Value3</fullName>
-                    <default>false</default>
-                    <label>Value3</label>
-                </value>
-                <value>
-                    <fullName>PLUS 1500 (0597)</fullName>
-                    <default>false</default>
-                    <label>PLUS 1500 (0597)</label>
-                </value>
-                <value>
-                    <fullName>Value 4</fullName>
-                    <default>false</default>
-                    <label>Value 4</label>
-                </value>
-                <value>
-                    <fullName>Value5</fullName>
-                    <default>false</default>
-                    <label>Value5</label>
-                </value>
-                <value>
-                    <fullName>new</fullName>
-                    <default>false</default>
-                    <label>new</label>
-                </value>
-                <value>
-                    <fullName>Test PA</fullName>
-                    <default>false</default>
-                    <label>Test PA</label>
-                </value>
-                <value>
-                    <fullName>PA Fix</fullName>
-                    <default>false</default>
-                    <label>PA Fix</label>
-                </value>
-                <value>
-                    <fullName>Do not move</fullName>
-                    <default>false</default>
-                    <label>Do not move</label>
-                </value>
-                <value>
-                    <fullName>Auto Resolve Test</fullName>
-                    <default>false</default>
-                    <label>Auto Resolve Test</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
     </fields>
     <fields>
         <fullName>ParentId</fullName>
