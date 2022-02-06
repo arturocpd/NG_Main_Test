@@ -28,6 +28,8 @@
         <members>LightningLoginFormControllerTest</members>
         <members>LightningSelfRegisterController</members>
         <members>LightningSelfRegisterControllerTest</members>
+        <members>MicrobatchSelfRegController</members>
+        <members>MicrobatchSelfRegControllerTest</members>
         <members>MyProfilePageController</members>
         <members>MyProfilePageControllerTest</members>
         <members>SiteLoginController</members>
