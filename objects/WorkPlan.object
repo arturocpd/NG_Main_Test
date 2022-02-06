@@ -147,12 +147,25 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>ParentRecordId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ParentRecordType</fullName>
+    </fields>
+    <fields>
         <fullName>WorkOrderId</fullName>
         <trackHistory>false</trackHistory>
         <type>Lookup</type>
     </fields>
     <fields>
         <fullName>WorkOrderLineItemId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>WorkPlanTemplateId</fullName>
         <trackHistory>false</trackHistory>
         <type>Lookup</type>
     </fields>

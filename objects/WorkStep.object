@@ -183,6 +183,14 @@
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
+        <fullName>ParentRecordId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ParentRecordType</fullName>
+    </fields>
+    <fields>
         <fullName>PausedFlowInterviewId</fullName>
         <trackHistory>false</trackHistory>
         <type>Lookup</type>

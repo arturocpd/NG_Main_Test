@@ -33,6 +33,9 @@
         <fullName>DeclineReason</fullName>
     </fields>
     <fields>
+        <fullName>FlagMessage</fullName>
+    </fields>
+    <fields>
         <fullName>HandleTime</fullName>
     </fields>
     <fields>
@@ -40,6 +43,9 @@
     </fields>
     <fields>
         <fullName>IsConference</fullName>
+    </fields>
+    <fields>
+        <fullName>IsFlagged</fullName>
     </fields>
     <fields>
         <fullName>IsPreferredUserRequired</fullName>

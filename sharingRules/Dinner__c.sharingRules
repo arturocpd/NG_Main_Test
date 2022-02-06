@@ -12,6 +12,7 @@
             <operation>equals</operation>
             <value>Full</value>
         </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
     </sharingCriteriaRules>
     <sharingOwnerRules>
         <fullName>Dinner_Sharing_Rule_All_MOD</fullName>

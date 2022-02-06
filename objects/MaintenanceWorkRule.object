@@ -145,6 +145,12 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>RecordsetFilterCriteriaId</fullName>
+        <inlineHelpText>Define the recordset filter criteria only for work orders with a criteria based work rule.</inlineHelpText>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
         <fullName>RecurrencePattern</fullName>
         <inlineHelpText>Define a recurrence pattern only for a calendar based work rule. The frequency is how frequently the event occurs during the selected time period. For example, if you select a weekly recurrence period and a frequency of 2, the event occurs every 2 weeks.</inlineHelpText>
         <trackHistory>false</trackHistory>
@@ -152,11 +158,16 @@
     <fields>
         <fullName>SortOrder</fullName>
         <inlineHelpText>Set the precedence that determines how work orders are generated when a maintenance plan or maintenance asset has two or more maintenance work rules generating a work order for the same date. The lowest sort order value takes precedence.
-</inlineHelpText>
+        </inlineHelpText>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>Title</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Type</fullName>
+        <inlineHelpText>Calendar based defines a recurrence pattern, such as schedule on the first Monday of every Month. Criteria based selects a recordset filter criteria that defines conditions, such as if engine temperature exceeds 200°F.</inlineHelpText>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>

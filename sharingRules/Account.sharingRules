@@ -17,6 +17,7 @@
             <operation>equals</operation>
             <value>No</value>
         </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
     </sharingCriteriaRules>
     <sharingCriteriaRules>
         <fullName>Sharing_Acc_AR</fullName>
@@ -35,6 +36,7 @@
             <operation>equals</operation>
             <value>Chemicals</value>
         </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
     </sharingCriteriaRules>
     <sharingGuestRules>
         <fullName>GuestSharingTest</fullName>
