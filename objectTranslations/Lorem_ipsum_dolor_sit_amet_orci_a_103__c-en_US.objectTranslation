@@ -16367,5 +16367,9 @@
             <translation><!-- Lorem_ipsum_dolor_sit_amet_orci_a_A --></translation>
         </picklistValues>
     </fields>
+    <recordTypes>
+        <label><!-- teset000989 --></label>
+        <name>teset000989</name>
+    </recordTypes>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

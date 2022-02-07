@@ -16367,5 +16367,13 @@
             <translation><!-- Lorem_ipsum_dolor_sit_amet_orci_a_A --></translation>
         </picklistValues>
     </fields>
+    <recordTypes>
+        <label><!-- teste0003 --></label>
+        <name>teste0003</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- teste0005 --></label>
+        <name>teste0005</name>
+    </recordTypes>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

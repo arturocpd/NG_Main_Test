@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>dzpobj001</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>dzpobj001s</value>
+    </caseValues>
+    <fields>
+        <help><!-- dzpofield001 --></help>
+        <label><!-- dzpofield001 --></label>
+        <name>dzpofield001__c</name>
+    </fields>
+    <fields>
+        <help><!-- dzpofield002 --></help>
+        <label><!-- dzpofield002 --></label>
+        <name>dzpofield002__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel><!-- dzpobj001 Name --></nameFieldLabel>
+</CustomObjectTranslation>
