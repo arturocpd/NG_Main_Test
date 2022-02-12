@@ -711,6 +711,10 @@
         <name>Geo__c</name>
     </fields>
     <fields>
+        <label><!-- H1 --></label>
+        <name>H1__c</name>
+    </fields>
+    <fields>
         <label><!-- Home --></label>
         <name>Home__c</name>
     </fields>
