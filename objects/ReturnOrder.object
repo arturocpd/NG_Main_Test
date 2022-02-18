@@ -166,6 +166,13 @@
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
+        <fullName>GrandTotalAmount</fullName>
+    </fields>
+    <fields>
+        <fullName>LifeCycleType</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
         <fullName>OrderId</fullName>
         <trackHistory>false</trackHistory>
         <type>Lookup</type>
@@ -211,6 +218,62 @@
     </fields>
     <fields>
         <fullName>StatusCategory</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>TaxLocaleType</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>TotalAmount</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>TotalDeliveryAdjustAmount</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>TotalDeliveryAdjustAmtWithTax</fullName>
+    </fields>
+    <fields>
+        <fullName>TotalDeliveryAdjustTaxAmount</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>TotalDeliveryAmount</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>TotalDeliveryAmtWithTax</fullName>
+    </fields>
+    <fields>
+        <fullName>TotalDeliveryTaxAmount</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>TotalProductAdjustAmount</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>TotalProductAdjustAmtWithTax</fullName>
+    </fields>
+    <fields>
+        <fullName>TotalProductAdjustTaxAmount</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>TotalProductAmount</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>TotalProductAmtWithTax</fullName>
+    </fields>
+    <fields>
+        <fullName>TotalProductTaxAmount</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>TotalTaxAmount</fullName>
         <trackHistory>false</trackHistory>
     </fields>
     <listViews>

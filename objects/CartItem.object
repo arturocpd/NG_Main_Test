@@ -107,6 +107,9 @@
         <fullName>Sku</fullName>
     </fields>
     <fields>
+        <fullName>TotalAdjustmentAmount</fullName>
+    </fields>
+    <fields>
         <fullName>TotalAmount</fullName>
     </fields>
     <fields>
@@ -122,7 +125,16 @@
         <fullName>TotalPrice</fullName>
     </fields>
     <fields>
+        <fullName>TotalPriceAfterAllAdjustments</fullName>
+    </fields>
+    <fields>
         <fullName>TotalTaxAmount</fullName>
+    </fields>
+    <fields>
+        <fullName>UnitAdjustedPrice</fullName>
+    </fields>
+    <fields>
+        <fullName>UnitAdjustmentAmount</fullName>
     </fields>
     <sharingModel>ControlledByParent</sharingModel>
 </CustomObject>
