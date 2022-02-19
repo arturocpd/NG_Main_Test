@@ -186,6 +186,10 @@
         <fullName>NetRefundApplied</fullName>
     </fields>
     <fields>
+        <fullName>OrderPaymentSummaryId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
         <fullName>PaymentAuthorizationId</fullName>
         <type>Lookup</type>
     </fields>

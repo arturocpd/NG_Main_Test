@@ -88,6 +88,10 @@
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>Private</externalSharingModel>
     <fields>
+        <fullName>Balance</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
         <fullName>BillToContactId</fullName>
         <trackHistory>false</trackHistory>
         <type>Lookup</type>
@@ -129,6 +133,10 @@
     </fields>
     <fields>
         <fullName>Status</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>TaxLocaleType</fullName>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>

@@ -88,6 +88,10 @@
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
+        <fullName>GrossUnitPrice</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
         <fullName>InvoiceId</fullName>
         <trackHistory>false</trackHistory>
         <type>MasterDetail</type>

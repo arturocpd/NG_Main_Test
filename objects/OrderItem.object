@@ -101,6 +101,13 @@
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
     <fields>
+        <fullName>AdjustedLineAmount</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>AdjustedLineAmtWithTax</fullName>
+    </fields>
+    <fields>
         <fullName>AvailableQuantity</fullName>
     </fields>
     <fields>
@@ -112,7 +119,19 @@
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
+        <fullName>GrossUnitPrice</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>LineNumber</fullName>
+    </fields>
+    <fields>
         <fullName>ListPrice</fullName>
+    </fields>
+    <fields>
+        <fullName>OrderDeliveryGroupId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
     </fields>
     <fields>
         <fullName>OrderId</fullName>
@@ -139,11 +158,83 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>RelatedOrderItemId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ReservedAtLocationId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>RoundedLineAmount</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>RoundedLineAmtWithTax</fullName>
+    </fields>
+    <fields>
         <fullName>ServiceDate</fullName>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
+        <fullName>TotalAdjustedLineTaxAmount</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>TotalAdjustmentAmount</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>TotalAdjustmentAmtWithTax</fullName>
+    </fields>
+    <fields>
+        <fullName>TotalAdjustmentDistAmount</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>TotalAdjustmentDistAmtWithTax</fullName>
+    </fields>
+    <fields>
+        <fullName>TotalAdjustmentDistTaxAmount</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>TotalAdjustmentTaxAmount</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>TotalAmtWithTax</fullName>
+    </fields>
+    <fields>
+        <fullName>TotalLineAdjustmentAmount</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>TotalLineAdjustmentAmtWithTax</fullName>
+    </fields>
+    <fields>
+        <fullName>TotalLineAdjustmentTaxAmount</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>TotalLineAmount</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>TotalLineTaxAmount</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
         <fullName>TotalPrice</fullName>
+    </fields>
+    <fields>
+        <fullName>TotalTaxAmount</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>TypeCode</fullName>
     </fields>
     <fields>
         <fullName>UnitPrice</fullName>

@@ -178,6 +178,11 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>OrderSummaryId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
         <fullName>OwnerId</fullName>
         <trackHistory>false</trackHistory>
         <type>Lookup</type>

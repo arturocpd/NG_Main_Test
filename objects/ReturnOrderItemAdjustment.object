@@ -136,6 +136,10 @@
         <fullName>Description</fullName>
     </fields>
     <fields>
+        <fullName>OrderItemAdjustLineSummaryId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
         <fullName>ReturnOrderId</fullName>
         <type>Lookup</type>
     </fields>

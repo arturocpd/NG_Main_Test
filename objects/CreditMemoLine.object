@@ -125,6 +125,10 @@
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
+        <fullName>GrossUnitPrice</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
         <fullName>LineAmount</fullName>
     </fields>
     <fields>

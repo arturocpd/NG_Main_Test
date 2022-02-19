@@ -136,6 +136,10 @@
         <fullName>Description</fullName>
     </fields>
     <fields>
+        <fullName>OrderItemTaxLineItemSummaryId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
         <fullName>Rate</fullName>
     </fields>
     <fields>

@@ -73,6 +73,10 @@
                 <behavior>Required</behavior>
                 <field>Status</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>TaxLocaleType</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
