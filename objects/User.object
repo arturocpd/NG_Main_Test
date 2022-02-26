@@ -200,6 +200,11 @@
     <enableFeeds>true</enableFeeds>
     <externalSharingModel>Private</externalSharingModel>
     <fields>
+        <fullName>Email</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <trackFeedHistory>true</trackFeedHistory>
+    </fields>
+    <fields>
         <fullName>ExternalId__c</fullName>
         <caseSensitive>false</caseSensitive>
         <encryptionScheme>None</encryptionScheme>
