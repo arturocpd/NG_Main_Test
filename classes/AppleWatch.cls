@@ -1,17 +1,14 @@
-Public Class AppleWatch{
- Public Static void AppleWatchmethod(list<Opportunity> lopt ){
+Public with sharing Class AppleWatch{
+ Public Static void appleWatchmethod(list<Opportunity> lopt ){
     for (Opportunity opp : lopt) {
         Task t        = new Task();
-        t.Subject     = 'Apple Watch Promo';
-        t.Description = 'Send them one ASAP';
-        t.Priority    = 'High';
+        t.Subject     = 'Apple Watch Promo' ;
+        t.Description = 'Send them one ASAP' ;
+        t.Priority    = 'High' ;
         t.WhatId      = opp.Id;
         insert t;
-     /*conflict here*/
-     /*change on dev1 MOD*/
-       
-    }
-
- 
+     /*Comment DDD change CS Code org*/
+     /*Comment Test on Function*/
+   }
+  }
  }
-}
