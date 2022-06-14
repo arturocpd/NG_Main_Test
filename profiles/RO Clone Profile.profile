@@ -2340,8 +2340,6 @@
     </classAccesses>
     <custom>true</custom>
     <fieldPermissions>
-        <editable>false</editable>
-        <field>Account.AccountLookup__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
