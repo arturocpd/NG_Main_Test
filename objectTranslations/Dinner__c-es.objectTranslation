@@ -9,6 +9,14 @@
         <value>Dinners</value>
     </caseValues>
     <fields>
+        <label><!-- Auto resolve test 1 --></label>
+        <name>Auto_resolve_test_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Auto resolve test 2 --></label>
+        <name>Auto_resolve_test_2__c</name>
+    </fields>
+    <fields>
         <label><!-- Dinner Type --></label>
         <name>Dinner_Type__c</name>
         <picklistValues>

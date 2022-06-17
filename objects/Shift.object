@@ -143,6 +143,10 @@
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
+        <fullName>IsHolidayShift</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
         <fullName>IsNonStandard</fullName>
         <trackHistory>false</trackHistory>
     </fields>
@@ -219,6 +223,7 @@
         <customTabListAdditionalFields>RecordsetFilterCriteria</customTabListAdditionalFields>
         <customTabListAdditionalFields>IsNonStandard</customTabListAdditionalFields>
         <customTabListAdditionalFields>BackgroundColor</customTabListAdditionalFields>
+        <customTabListAdditionalFields>IsHolidayShift</customTabListAdditionalFields>
         <lookupDialogsAdditionalFields>StartTime</lookupDialogsAdditionalFields>
         <lookupDialogsAdditionalFields>EndTime</lookupDialogsAdditionalFields>
         <lookupDialogsAdditionalFields>Status</lookupDialogsAdditionalFields>
@@ -230,6 +235,7 @@
         <lookupDialogsAdditionalFields>RecordsetFilterCriteria</lookupDialogsAdditionalFields>
         <lookupDialogsAdditionalFields>IsNonStandard</lookupDialogsAdditionalFields>
         <lookupDialogsAdditionalFields>BackgroundColor</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>IsHolidayShift</lookupDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>StartTime</lookupPhoneDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>EndTime</lookupPhoneDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>Status</lookupPhoneDialogsAdditionalFields>
@@ -241,6 +247,7 @@
         <lookupPhoneDialogsAdditionalFields>RecordsetFilterCriteria</lookupPhoneDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>IsNonStandard</lookupPhoneDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>BackgroundColor</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>IsHolidayShift</lookupPhoneDialogsAdditionalFields>
         <searchResultsAdditionalFields>StartTime</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>EndTime</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>Status</searchResultsAdditionalFields>
@@ -252,6 +259,7 @@
         <searchResultsAdditionalFields>RecordsetFilterCriteria</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>IsNonStandard</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>BackgroundColor</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>IsHolidayShift</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
 </CustomObject>

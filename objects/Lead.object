@@ -389,6 +389,11 @@
                     <default>false</default>
                     <label>Really Bad</label>
                 </value>
+                <value>
+                    <fullName>Regular</fullName>
+                    <default>false</default>
+                    <label>Regular</label>
+                </value>
             </valueSetDefinition>
         </valueSet>
     </fields>
@@ -1698,15 +1703,11 @@
         <picklistValues>
             <picklist>GoodBad__c</picklist>
             <values>
-                <fullName>Bad</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>Good</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Really Bad</fullName>
+                <fullName>Regular</fullName>
                 <default>false</default>
             </values>
         </picklistValues>

@@ -41,6 +41,7 @@
     <selfRegistration>false</selfRegistration>
     <sendWelcomeEmail>true</sendWelcomeEmail>
     <site>AR_Services_Test</site>
+    <siteArchiveStatus>NotArchived</siteArchiveStatus>
     <status>UnderConstruction</status>
     <tabs>
         <defaultTab>home</defaultTab>

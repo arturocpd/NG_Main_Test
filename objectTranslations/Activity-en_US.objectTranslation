@@ -1,12 +1,88 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>NewActivity</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>NewActivities</value>
+    </caseValues>
     <fields>
         <caseValues>
             <plural>false</plural>
-            <value>Task Status</value>
+            <value>NewActivity Currency</value>
         </caseValues>
-        <name>status_activity</name>
-        <startsWith>Consonant</startsWith>
+        <name>activity_currency</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>NewActivity Custom Info</value>
+        </caseValues>
+        <name>activity_custom_info</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>NewActivity History</value>
+        </caseValues>
+        <name>activity_history</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>NewActivity History Data</value>
+        </caseValues>
+        <name>activity_history_data</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>NewActivity ID</value>
+        </caseValues>
+        <name>activity_id</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>NewActivity Information</value>
+        </caseValues>
+        <name>activity_information</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>NewActivity Report</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>NewActivity Reports</value>
+        </caseValues>
+        <name>activity_report</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>NewActivity Type</value>
+        </caseValues>
+        <name>activity_type</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Assinged to Who</value>
+        </caseValues>
+        <name>assigned_to_activity</name>
+        <startsWith>Vowel</startsWith>
     </fields>
     <fields>
         <label><!-- AAATask --></label>
@@ -152,4 +228,5 @@
         <label><!-- check formula --></label>
         <name>check_formula__c</name>
     </fields>
+    <startsWith>Vowel</startsWith>
 </CustomObjectTranslation>

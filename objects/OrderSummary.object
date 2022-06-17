@@ -158,6 +158,9 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>PoNumber</fullName>
+    </fields>
+    <fields>
         <fullName>Pricebook2Id</fullName>
         <type>Lookup</type>
     </fields>
@@ -166,6 +169,10 @@
     </fields>
     <fields>
         <fullName>SalesChannelId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SalesStoreId</fullName>
         <type>Lookup</type>
     </fields>
     <fields>

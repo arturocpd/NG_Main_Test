@@ -61,6 +61,16 @@
             <field>Point_of_contact__c</field>
             <table>Dinner__c</table>
         </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Auto_resolve_test_1__c</field>
+            <table>Dinner__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Auto_resolve_test_2__c</field>
+            <table>Dinner__c</table>
+        </columns>
         <masterLabel>Dinners</masterLabel>
     </sections>
     <sections>

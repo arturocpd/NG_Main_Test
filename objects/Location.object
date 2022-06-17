@@ -130,6 +130,10 @@
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>ReadWrite</externalSharingModel>
     <fields>
+        <fullName>AssignedFoCount</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
         <fullName>CloseDate</fullName>
         <trackHistory>false</trackHistory>
     </fields>
@@ -151,6 +155,10 @@
     </fields>
     <fields>
         <fullName>ExternalReference</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>FoCapacity</fullName>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
@@ -202,6 +210,11 @@
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
+        <fullName>Priority</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
         <fullName>RemodelEndDate</fullName>
         <trackHistory>false</trackHistory>
     </fields>
@@ -216,6 +229,10 @@
     </fields>
     <fields>
         <fullName>ShouldSyncWithOci</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>ShouldTrackFoCapacity</fullName>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
