@@ -1213,6 +1213,21 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Bug_Test__c.Bug_Field_1__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Bug_Test__c.Bug_Field_2__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Bug_Test__c.Bug_Field_3__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>BusinessBrand.OrgId</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -6896,6 +6911,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Bicycle__c-Bicycle Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Bug_Test__c-Bug Test Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>BusinessBrand-Formato Marca comercial</layout>
