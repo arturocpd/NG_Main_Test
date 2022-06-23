@@ -280,10 +280,6 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>NaveeDemoDeleteTest</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>NaveenDemoDelete</apexClass>
         <enabled>false</enabled>
     </classAccesses>
