@@ -5,6 +5,7 @@
     <doesShareSaWithAr>false</doesShareSaWithAr>
     <enableWorkOrders>false</enableWorkOrders>
     <enableWorkPlansAutoGeneration>false</enableWorkPlansAutoGeneration>
+    <enableWorkStepManualStatusUpdate>false</enableWorkStepManualStatusUpdate>
     <fieldServiceNotificationsOrgPref>false</fieldServiceNotificationsOrgPref>
     <fieldServiceOrgPref>true</fieldServiceOrgPref>
     <isGeoCodeSyncEnabled>false</isGeoCodeSyncEnabled>
