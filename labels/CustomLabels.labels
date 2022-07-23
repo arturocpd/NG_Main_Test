@@ -1738,6 +1738,13 @@
         <value>Duration</value>
     </labels>
     <labels>
+        <fullName>DX_conflict_resolution</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>DX conflict resolution</shortDescription>
+        <value>DX Test</value>
+    </labels>
+    <labels>
         <fullName>DYNAMIC_DATA_DESCRIPTION</fullName>
         <categories>Copado</categories>
         <language>en_US</language>

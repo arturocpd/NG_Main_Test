@@ -881,6 +881,10 @@
         <name>DURATION</name>
     </customLabels>
     <customLabels>
+        <label><!-- DX conflict resolution --></label>
+        <name>DX_conflict_resolution</name>
+    </customLabels>
+    <customLabels>
         <label><!-- DYNAMIC DATA DESCRIPTION --></label>
         <name>DYNAMIC_DATA_DESCRIPTION</name>
     </customLabels>
