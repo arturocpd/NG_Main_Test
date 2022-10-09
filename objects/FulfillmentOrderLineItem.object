@@ -121,6 +121,10 @@
         <fullName>QuantityUnitOfMeasure</fullName>
     </fields>
     <fields>
+        <fullName>RejectReason</fullName>
+        <type>Picklist</type>
+    </fields>
+    <fields>
         <fullName>ReshipReason</fullName>
         <type>Picklist</type>
     </fields>

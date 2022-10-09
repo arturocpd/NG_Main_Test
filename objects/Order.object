@@ -294,6 +294,10 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>OrderManagementReferenceIdentifier</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
         <fullName>OrderReferenceNumber</fullName>
         <trackHistory>true</trackHistory>
     </fields>

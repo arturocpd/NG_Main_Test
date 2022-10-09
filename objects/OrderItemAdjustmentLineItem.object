@@ -88,6 +88,11 @@
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>ControlledByParent</externalSharingModel>
     <fields>
+        <fullName>AdjustmentBasisReferenceId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
         <fullName>AdjustmentCauseId</fullName>
         <trackHistory>false</trackHistory>
         <type>Lookup</type>
@@ -113,6 +118,10 @@
         <fullName>OrderItemId</fullName>
         <trackHistory>false</trackHistory>
         <type>MasterDetail</type>
+    </fields>
+    <fields>
+        <fullName>Priority</fullName>
+        <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>RelatedAdjustmentLineItemId</fullName>

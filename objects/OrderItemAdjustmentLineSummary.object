@@ -88,6 +88,10 @@
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>ControlledByParent</externalSharingModel>
     <fields>
+        <fullName>AdjustmentBasisReferenceId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
         <fullName>AdjustmentCauseId</fullName>
         <type>Lookup</type>
     </fields>
@@ -115,6 +119,9 @@
     <fields>
         <fullName>OriginalOrderItemAdjustmentLineItemId</fullName>
         <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Priority</fullName>
     </fields>
     <fields>
         <fullName>TotalAmtWithTax</fullName>

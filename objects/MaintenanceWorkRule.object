@@ -146,7 +146,7 @@
     </fields>
     <fields>
         <fullName>RecordsetFilterCriteriaId</fullName>
-        <inlineHelpText>Define the recordset filter criteria only for work orders with a criteria based work rule.</inlineHelpText>
+        <inlineHelpText>Define the recordset filter criteria only for work orders with a criteria or usage based work rule.</inlineHelpText>
         <trackHistory>false</trackHistory>
         <type>Lookup</type>
     </fields>
@@ -167,7 +167,7 @@
     </fields>
     <fields>
         <fullName>Type</fullName>
-        <inlineHelpText>Calendar based defines a recurrence pattern, such as schedule on the first Monday of every Month. Criteria based selects a recordset filter criteria that defines conditions, such as if engine temperature exceeds 200°F.</inlineHelpText>
+        <inlineHelpText>Calendar-based defines a recurrence pattern, such as schedule on the first Monday of every Month. Criteria-based selects a recordset filter criteria that defines conditions, such as if engine temperature exceeds 200°F or miles exceed 10K.</inlineHelpText>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>

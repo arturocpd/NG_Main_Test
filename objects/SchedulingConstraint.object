@@ -161,6 +161,9 @@
         <fullName>OwnerId</fullName>
         <type>Lookup</type>
     </fields>
+    <fields>
+        <fullName>RestTimeMinutes</fullName>
+    </fields>
     <listViews>
         <fullName>All_SchedulingConstraints</fullName>
         <filterScope>Everything</filterScope>

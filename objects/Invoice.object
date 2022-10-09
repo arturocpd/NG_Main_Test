@@ -122,6 +122,12 @@
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
+        <fullName>NetCreditsApplied</fullName>
+    </fields>
+    <fields>
+        <fullName>NetPaymentsApplied</fullName>
+    </fields>
+    <fields>
         <fullName>OwnerId</fullName>
         <trackHistory>false</trackHistory>
         <type>Lookup</type>

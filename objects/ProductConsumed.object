@@ -142,6 +142,10 @@
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
+        <fullName>IsConsumed</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
         <fullName>ListPrice</fullName>
     </fields>
     <fields>

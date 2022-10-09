@@ -48,6 +48,10 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Required</behavior>
+                <field>AdjustmentBasisReferenceId</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Required</behavior>
                 <field>Priority</field>
             </layoutItems>
         </layoutColumns>

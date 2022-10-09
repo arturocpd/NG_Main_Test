@@ -88,10 +88,34 @@
         <type>MasterDetail</type>
     </fields>
     <fields>
+        <fullName>DistributedAdjustmentAmount</fullName>
+    </fields>
+    <fields>
+        <fullName>DistributedAdjustmentTaxAmount</fullName>
+    </fields>
+    <fields>
+        <fullName>GrossAdjustmentAmount</fullName>
+    </fields>
+    <fields>
+        <fullName>GrossUnitPrice</fullName>
+    </fields>
+    <fields>
+        <fullName>ItemizedAdjustmentAmount</fullName>
+    </fields>
+    <fields>
+        <fullName>ItemizedAdjustmentTaxAmount</fullName>
+    </fields>
+    <fields>
         <fullName>ListPrice</fullName>
     </fields>
     <fields>
         <fullName>Name</fullName>
+    </fields>
+    <fields>
+        <fullName>NetAdjustmentAmount</fullName>
+    </fields>
+    <fields>
+        <fullName>NetUnitPrice</fullName>
     </fields>
     <fields>
         <fullName>Product2Id</fullName>
@@ -116,6 +140,12 @@
         <fullName>TotalLineAmount</fullName>
     </fields>
     <fields>
+        <fullName>TotalLineGrossAmount</fullName>
+    </fields>
+    <fields>
+        <fullName>TotalLineNetAmount</fullName>
+    </fields>
+    <fields>
         <fullName>TotalLineTaxAmount</fullName>
     </fields>
     <fields>
@@ -126,6 +156,15 @@
     </fields>
     <fields>
         <fullName>TotalPriceAfterAllAdjustments</fullName>
+    </fields>
+    <fields>
+        <fullName>TotalPriceTaxAmount</fullName>
+    </fields>
+    <fields>
+        <fullName>TotalPromoAdjustmentAmount</fullName>
+    </fields>
+    <fields>
+        <fullName>TotalPromoAdjustmentTaxAmount</fullName>
     </fields>
     <fields>
         <fullName>TotalTaxAmount</fullName>

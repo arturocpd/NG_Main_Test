@@ -14,6 +14,10 @@
                 <behavior>Required</behavior>
                 <field>AdjustmentBasisDetail</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Required</behavior>
+                <field>AdjustmentBasisReferenceId</field>
+            </layoutItems>
         </layoutColumns>
         <style>OneColumn</style>
     </layoutSections>

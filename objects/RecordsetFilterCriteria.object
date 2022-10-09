@@ -116,6 +116,11 @@
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>Private</externalSharingModel>
     <fields>
+        <fullName>CustomLogic</fullName>
+        <inlineHelpText>Define the logic of the conditions. To group conditions, use parentheses around the parameters, for example 1 AND (2 OR 3). If you add another condition, the custom logic is updated automatically to 1 AND (2 OR 3) AND 4.</inlineHelpText>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
         <fullName>Description</fullName>
         <trackHistory>false</trackHistory>
     </fields>
