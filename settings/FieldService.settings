@@ -3,6 +3,7 @@
     <doesAllowEditSaForCrew>false</doesAllowEditSaForCrew>
     <doesShareSaParentWoWithAr>false</doesShareSaParentWoWithAr>
     <doesShareSaWithAr>false</doesShareSaWithAr>
+    <enableFloatingWorkOrder>false</enableFloatingWorkOrder>
     <enableWorkOrders>false</enableWorkOrders>
     <enableWorkPlansAutoGeneration>false</enableWorkPlansAutoGeneration>
     <enableWorkStepManualStatusUpdate>false</enableWorkStepManualStatusUpdate>
