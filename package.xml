@@ -4,9 +4,5 @@
         <members>AppleWatch</members>
         <name>ApexClass</name>
     </types>
-    <types>
-        <members>Case.Field_on_UAT__c</members>
-        <name>CustomField</name>
-    </types>
     <version>56.0</version>
 </Package>
