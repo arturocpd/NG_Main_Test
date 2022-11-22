@@ -256,6 +256,16 @@
         <type>Checkbox</type>
     </fields>
     <fields>
+        <fullName>Test_Auto__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Test Auto</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>Test_conflict__c</fullName>
         <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
