@@ -3585,6 +3585,10 @@
         <name>Test_2__c</name>
     </fields>
     <fields>
+        <label><!-- Test Auto --></label>
+        <name>Test_Auto__c</name>
+    </fields>
+    <fields>
         <label><!-- Test BETA fix --></label>
         <name>Test_BETA_fix__c</name>
     </fields>

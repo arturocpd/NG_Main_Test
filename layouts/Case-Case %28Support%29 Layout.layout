@@ -562,6 +562,10 @@
                 <behavior>Edit</behavior>
                 <field>Test_UI_Issue_2__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Test_Auto__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
