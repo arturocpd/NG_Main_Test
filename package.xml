@@ -4,5 +4,9 @@
         <members>AppleWatch</members>
         <name>ApexClass</name>
     </types>
+    <types>
+        <members>Case.Test_Auto__c</members>
+        <name>CustomField</name>
+    </types>
     <version>56.0</version>
 </Package>
