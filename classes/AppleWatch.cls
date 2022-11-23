@@ -7,8 +7,12 @@ Public with sharing Class AppleWatch{
         t.Priority    = 'High' ;
         t.WhatId      = opp.Id;
         insert t;
-     /*Comment 12345*/
+<<<<<<< HEAD
+     /*Comment ABCD*/
      
+=======
+     /*Comment Dev1 Org FINAL*/
+>>>>>>> refs/remotes/origin/feature/US-0012999
      /*Comment 2*/
    }
   }
