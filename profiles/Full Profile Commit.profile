@@ -7971,11 +7971,6 @@
     </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>false</default>
-        <recordType>Account.Record_Type2</recordType>
-        <visible>true</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <default>false</default>
         <recordType>Account.Record_Type3</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>

@@ -2924,7 +2924,7 @@ Description Line 3</description>
     </recordTypes>
     <recordTypes>
         <fullName>Record_Type2</fullName>
-        <active>true</active>
+        <active>false</active>
         <compactLayoutAssignment>Custom_Acc_Compact_Layout</compactLayoutAssignment>
         <label>Record Type2</label>
         <picklistValues>
