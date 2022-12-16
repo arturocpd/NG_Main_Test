@@ -8768,6 +8768,7 @@
     </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>true</default>
+        <personAccountDefault>true</personAccountDefault>
         <recordType>Opportunity.Opp_RT_1</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>

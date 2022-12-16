@@ -9393,6 +9393,7 @@
     </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>true</default>
+        <personAccountDefault>true</personAccountDefault>
         <recordType>Case.Record_Type</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
