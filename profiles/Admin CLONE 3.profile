@@ -1845,6 +1845,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Case.Mobile_phone__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Case.New_report_test_field__c</field>
         <readable>true</readable>
     </fieldPermissions>

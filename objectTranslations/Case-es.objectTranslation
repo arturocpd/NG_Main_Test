@@ -755,6 +755,10 @@
         <name>Metadata_Delete__c</name>
     </fields>
     <fields>
+        <label><!-- Mobile phone --></label>
+        <name>Mobile_phone__c</name>
+    </fields>
+    <fields>
         <label><!-- New report test field --></label>
         <name>New_report_test_field__c</name>
     </fields>

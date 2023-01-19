@@ -1712,6 +1712,16 @@
         <trackTrending>false</trackTrending>
     </fields>
     <fields>
+        <fullName>Mobile_phone__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Mobile phone</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>New_report_test_field__c</fullName>
         <defaultValue>false</defaultValue>
         <externalId>false</externalId>

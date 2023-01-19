@@ -566,6 +566,10 @@
                 <behavior>Edit</behavior>
                 <field>Test_Auto__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Mobile_phone__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
