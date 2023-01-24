@@ -570,6 +570,10 @@
                 <behavior>Edit</behavior>
                 <field>Mobile_phone__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>test_destructive__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>

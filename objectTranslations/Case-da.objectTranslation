@@ -3624,6 +3624,10 @@
         <name>test_deploy__c</name>
     </fields>
     <fields>
+        <label><!-- test destructive --></label>
+        <name>test_destructive__c</name>
+    </fields>
+    <fields>
         <label><!-- validatecommit --></label>
         <name>validatecommit__c</name>
     </fields>

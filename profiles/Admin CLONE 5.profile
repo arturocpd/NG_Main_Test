@@ -2244,6 +2244,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Case.test_destructive__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Case.validatecommit__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -3051,6 +3056,16 @@
         <editable>false</editable>
         <field>Dinner__c_hd.Point_of_contact__c_hst</field>
         <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Electronics__c.Electronic_1__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Electronics__c.Electronic_2__c</field>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -7235,6 +7250,9 @@
         <layout>DuplicateRecordSet-Duplicate Record Set Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Electronics__c-Electronics Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Elisa_Metadata_Type__mdt-Elisa Metadata Type Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -9300,6 +9318,10 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>Dinner__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Electronics__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
