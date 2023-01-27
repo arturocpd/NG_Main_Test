@@ -182,14 +182,12 @@
         <label>All</label>
     </listViews>
     <listViews>
-        <fullName>Electronics_view</fullName>
+        <fullName>Electronics_new_view</fullName>
         <columns>NAME</columns>
         <columns>Electronic_1__c</columns>
         <columns>Electronic_2__c</columns>
-        <columns>OWNER.ALIAS</columns>
-        <columns>CREATEDBY_USER</columns>
         <filterScope>Everything</filterScope>
-        <label>Electronics view</label>
+        <label>Electronics new view</label>
         <language>en_US</language>
     </listViews>
     <nameField>
@@ -198,7 +196,10 @@
         <type>Text</type>
     </nameField>
     <pluralLabel>Electronics</pluralLabel>
-    <searchLayouts/>
+    <searchLayouts>
+        <searchResultsAdditionalFields>Electronic_1__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Electronic_2__c</searchResultsAdditionalFields>
+    </searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>

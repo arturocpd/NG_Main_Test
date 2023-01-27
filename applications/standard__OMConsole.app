@@ -15,9 +15,13 @@
     <tabs>standard-CreditMemo</tabs>
     <tabs>standard-Location</tabs>
     <tabs>standard-ProcessException</tabs>
+    <tabs>Electronics__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>OMConsole_UtilityBar</utilityBar>
     <workspaceConfig>
+        <mappings>
+            <tab>Electronics__c</tab>
+        </mappings>
         <mappings>
             <tab>standard-Account</tab>
         </mappings>

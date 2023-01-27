@@ -205,6 +205,7 @@
     <tabs>ADD_Product_Rule__c</tabs>
     <tabs>ADD_Product_Action__c</tabs>
     <tabs>Known_Issue__c</tabs>
+    <tabs>Electronics__c</tabs>
     <workspaceConfig>
         <mappings>
             <tab>ADD_Conficguration_Rule__c</tab>
@@ -217,6 +218,9 @@
         </mappings>
         <mappings>
             <tab>ADD_Product__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Electronics__c</tab>
         </mappings>
         <mappings>
             <tab>GenderTest__c</tab>

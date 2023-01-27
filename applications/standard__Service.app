@@ -16,4 +16,5 @@
     <tabs>CSTM_Object__c</tabs>
     <tabs>Knowledge__kav</tabs>
     <tabs>Known_Issue__c</tabs>
+    <tabs>Electronics__c</tabs>
 </CustomApplication>

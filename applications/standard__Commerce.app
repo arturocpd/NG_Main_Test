@@ -13,8 +13,12 @@
     <tabs>standard-report</tabs>
     <tabs>standard-Order</tabs>
     <tabs>Known_Issue__c</tabs>
+    <tabs>Electronics__c</tabs>
     <uiType>Lightning</uiType>
     <workspaceConfig>
+        <mappings>
+            <tab>Electronics__c</tab>
+        </mappings>
         <mappings>
             <tab>Known_Issue__c</tab>
         </mappings>

@@ -15,5 +15,6 @@
     <tabs>ADD_Product_Rule__c</tabs>
     <tabs>ADD_Product_Action__c</tabs>
     <tabs>Known_Issue__c</tabs>
+    <tabs>Electronics__c</tabs>
     <uiType>Lightning</uiType>
 </CustomApplication>
