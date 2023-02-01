@@ -812,6 +812,17 @@
         </valueSet>
     </fields>
     <fields>
+        <fullName>Test_ADD__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Test ADD</label>
+        <length>10</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>Test_Override_2__c</fullName>
         <defaultValue>false</defaultValue>
         <externalId>false</externalId>

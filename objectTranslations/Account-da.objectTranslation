@@ -256,6 +256,10 @@
         </picklistValues>
     </fields>
     <fields>
+        <label><!-- Test ADD --></label>
+        <name>Test_ADD__c</name>
+    </fields>
+    <fields>
         <label><!-- Test Override 2 --></label>
         <name>Test_Override_2__c</name>
     </fields>
