@@ -3818,6 +3818,18 @@
         <name>test_deploy__c</name>
     </fields>
     <fields>
+        <label><!-- test destructive 2 --></label>
+        <name>test_destructive_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- test destructive 3 --></label>
+        <name>test_destructive_3__c</name>
+    </fields>
+    <fields>
+        <label><!-- test destructive 4 --></label>
+        <name>test_destructive_4__c</name>
+    </fields>
+    <fields>
         <label><!-- test destructive --></label>
         <name>test_destructive__c</name>
     </fields>
