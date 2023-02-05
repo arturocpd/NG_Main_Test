@@ -88,6 +88,10 @@
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>ControlledByParent</externalSharingModel>
     <fields>
+        <fullName>AdjustmentAmountScope</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
         <fullName>AdjustmentBasisReferenceId</fullName>
         <trackHistory>false</trackHistory>
         <type>Lookup</type>
@@ -96,6 +100,18 @@
         <fullName>AdjustmentCauseId</fullName>
         <trackHistory>false</trackHistory>
         <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>AdjustmentSource</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>AdjustmentType</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>AdjustmentValue</fullName>
+        <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>Amount</fullName>

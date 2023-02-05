@@ -98,6 +98,18 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>AdjustmentSource</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>AdjustmentType</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>AdjustmentValue</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
         <fullName>Description</fullName>
         <trackHistory>false</trackHistory>
     </fields>
@@ -112,6 +124,10 @@
         <fullName>OrderId</fullName>
         <trackHistory>false</trackHistory>
         <type>MasterDetail</type>
+    </fields>
+    <fields>
+        <fullName>Priority</fullName>
+        <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>RelatedAdjustmentGroupId</fullName>

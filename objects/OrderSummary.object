@@ -176,6 +176,9 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>SourceProcess</fullName>
+    </fields>
+    <fields>
         <fullName>Status</fullName>
         <type>Picklist</type>
     </fields>

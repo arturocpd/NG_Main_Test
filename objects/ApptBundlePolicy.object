@@ -143,7 +143,7 @@
     </fields>
     <fields>
         <fullName>ConstantTimeValue</fullName>
-        <inlineHelpText>Use this option only if Time Calculation by Bundle Duration Field is disabled. Enter the bundle’s total time as a constant value, in minutes.</inlineHelpText>
+        <inlineHelpText>Use this option only if Time Calculation by Bundle Duration Field is enabled. Enter the bundle’s total time as a constant value, in minutes.</inlineHelpText>
     </fields>
     <fields>
         <fullName>FilterCriteriaId</fullName>

@@ -90,4 +90,5 @@
     <tabs>Known_Issue__c</tabs>
     <tabs>Electronics__c</tabs>
     <uiType>Lightning</uiType>
+    <utilityBar>LightningSales_UtilityBar</utilityBar>
 </CustomApplication>

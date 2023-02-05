@@ -1,6 +1,7 @@
 {
   "appPageId" : "84d916c6-a530-462e-bbe3-cb9d61708c45",
   "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
   "id" : "98b723ca-f8a2-43d9-a33b-fcc16e32050a",
   "label" : "Topic Catalog",
   "regions" : [ {

@@ -400,6 +400,11 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
+        <fullName>GenderIdentity</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
         <fullName>GoodBad__c</fullName>
         <externalId>false</externalId>
         <label>GoodBad</label>
@@ -540,6 +545,11 @@
         <fullName>Phone</fullName>
         <encryptionScheme>None</encryptionScheme>
         <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>Pronouns</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
     </fields>
     <fields>
         <fullName>ReportsToId</fullName>

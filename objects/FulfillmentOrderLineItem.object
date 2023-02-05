@@ -125,6 +125,9 @@
         <type>Picklist</type>
     </fields>
     <fields>
+        <fullName>RejectedQuantity</fullName>
+    </fields>
+    <fields>
         <fullName>ReshipReason</fullName>
         <type>Picklist</type>
     </fields>

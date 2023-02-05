@@ -78,6 +78,12 @@
         <type>MasterDetail</type>
     </fields>
     <fields>
+        <fullName>DeliverToFirstName</fullName>
+    </fields>
+    <fields>
+        <fullName>DeliverToLastName</fullName>
+    </fields>
+    <fields>
         <fullName>DeliverToName</fullName>
     </fields>
     <fields>

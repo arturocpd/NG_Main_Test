@@ -116,43 +116,55 @@
     <enableFeeds>false</enableFeeds>
     <fields>
         <fullName>ActivityDate</fullName>
+        <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>CallDisposition</fullName>
+        <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>CallDurationInSeconds</fullName>
+        <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>CallObject</fullName>
+        <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>CallType</fullName>
+        <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>CompletedDateTime</fullName>
+        <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>CurrencyIsoCode</fullName>
+        <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>Description</fullName>
         <encryptionScheme>None</encryptionScheme>
+        <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>Email</fullName>
     </fields>
     <fields>
         <fullName>IsRecurrence</fullName>
+        <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>IsReminderSet</fullName>
+        <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>IsVisibleInSelfService</fullName>
+        <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>OwnerId</fullName>
+        <trackHistory>false</trackHistory>
         <type>Lookup</type>
     </fields>
     <fields>
@@ -160,21 +172,26 @@
     </fields>
     <fields>
         <fullName>Priority</fullName>
+        <trackHistory>false</trackHistory>
         <type>Picklist</type>
     </fields>
     <fields>
         <fullName>RecurrenceInterval</fullName>
+        <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>RecurrenceRegeneratedType</fullName>
+        <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>Status</fullName>
+        <trackHistory>false</trackHistory>
         <type>Picklist</type>
     </fields>
     <fields>
         <fullName>Subject</fullName>
         <encryptionScheme>None</encryptionScheme>
+        <trackHistory>false</trackHistory>
         <type>Picklist</type>
     </fields>
     <fields>
@@ -182,14 +199,17 @@
     </fields>
     <fields>
         <fullName>Type</fullName>
+        <trackHistory>false</trackHistory>
         <type>Picklist</type>
     </fields>
     <fields>
         <fullName>WhatId</fullName>
+        <trackHistory>false</trackHistory>
         <type>Lookup</type>
     </fields>
     <fields>
         <fullName>WhoId</fullName>
+        <trackHistory>false</trackHistory>
         <type>Lookup</type>
     </fields>
     <listViews>
@@ -383,6 +403,7 @@
         </filters>
         <label>ENCODED:{!FilterNames.Task_UnscheduledTasks}</label>
     </listViews>
+    <recordTypeTrackHistory>false</recordTypeTrackHistory>
     <recordTypes>
         <fullName>General</fullName>
         <active>true</active>

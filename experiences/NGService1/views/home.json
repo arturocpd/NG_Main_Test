@@ -1,6 +1,7 @@
 {
   "appPageId" : "cf3fe560-89f3-46c9-b79f-74a91998c7c7",
   "componentName" : "siteforce:sldsTwoCol84SidebarFeaturedLayout",
+  "dataProviders" : [ ],
   "id" : "54329f2f-20ad-407c-b203-4863fe05ffc4",
   "label" : "Home",
   "regions" : [ {

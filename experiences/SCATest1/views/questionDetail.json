@@ -1,6 +1,7 @@
 {
   "appPageId" : "1575c43d-82a3-4144-bfd6-806c198cd067",
   "componentName" : "siteforce:sldsTwoCol84Layout",
+  "dataProviders" : [ ],
   "id" : "ee4103d5-c1fc-434e-bf3b-7b9e9aaceac1",
   "label" : "Question Detail",
   "regions" : [ {
