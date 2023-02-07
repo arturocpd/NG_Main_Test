@@ -586,6 +586,10 @@
                 <behavior>Edit</behavior>
                 <field>test_destructive_4__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Case_AAA_deleteme__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>

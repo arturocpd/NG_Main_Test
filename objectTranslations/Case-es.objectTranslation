@@ -97,6 +97,10 @@
         <name>Case_AAA__c</name>
     </fields>
     <fields>
+        <label><!-- Case AAA deleteme --></label>
+        <name>Case_AAA_deleteme__c</name>
+    </fields>
+    <fields>
         <label>Caso bbb2</label>
         <name>Case_BBB__c</name>
     </fields>

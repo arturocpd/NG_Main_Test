@@ -1532,6 +1532,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Case.Case_AAA_deleteme__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Case.Case_BBB__c</field>
         <readable>true</readable>
     </fieldPermissions>
