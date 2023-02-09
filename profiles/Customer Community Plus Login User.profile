@@ -1711,6 +1711,11 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>Case.Destructive_full_profile_POC__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Case.Do_not_move_to_UAT__c</field>
         <readable>true</readable>
@@ -2232,6 +2237,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Case.poc_destructive_rollback_test__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Case.pruebapermisos__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -2243,6 +2253,16 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Case.rich__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Case.rollback_test__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Case.rollbacktest__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -2273,6 +2293,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Case.test_destructive__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Case.test_rollback__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>

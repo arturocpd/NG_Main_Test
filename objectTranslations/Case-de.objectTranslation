@@ -849,6 +849,10 @@
         <name>Destructive_changes_test__c</name>
     </fields>
     <fields>
+        <label><!-- Destructive full profile POC --></label>
+        <name>Destructive_full_profile_POC__c</name>
+    </fields>
+    <fields>
         <label><!-- Do not move to UAT --></label>
         <name>Do_not_move_to_UAT__c</name>
     </fields>
@@ -3801,6 +3805,10 @@
         <name>master_bug__c</name>
     </fields>
     <fields>
+        <label><!-- poc destructive rollback test --></label>
+        <name>poc_destructive_rollback_test__c</name>
+    </fields>
+    <fields>
         <label><!-- pruebapermisos --></label>
         <name>pruebapermisos__c</name>
     </fields>
@@ -3812,6 +3820,14 @@
     <fields>
         <label><!-- rich --></label>
         <name>rich__c</name>
+    </fields>
+    <fields>
+        <label><!-- rollback test --></label>
+        <name>rollback_test__c</name>
+    </fields>
+    <fields>
+        <label><!-- rollbacktest --></label>
+        <name>rollbacktest__c</name>
     </fields>
     <fields>
         <label><!-- test Schedule deployment --></label>
@@ -3836,6 +3852,10 @@
     <fields>
         <label><!-- test destructive --></label>
         <name>test_destructive__c</name>
+    </fields>
+    <fields>
+        <label><!-- test rollback --></label>
+        <name>test_rollback__c</name>
     </fields>
     <fields>
         <label><!-- validatecommit --></label>

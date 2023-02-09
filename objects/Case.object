@@ -324,7 +324,7 @@
     <fields>
         <fullName>BitCoin__c</fullName>
         <defaultValue>false</defaultValue>
-        <description>BitCoin description</description>
+        <description>Edit description</description>
         <externalId>false</externalId>
         <label>BitCoin</label>
         <trackFeedHistory>false</trackFeedHistory>
@@ -509,7 +509,8 @@
     </fields>
     <fields>
         <fullName>Case_BMW__c</fullName>
-        <defaultValue>false</defaultValue>
+        <defaultValue>true</defaultValue>
+        <description>Description</description>
         <externalId>false</externalId>
         <label>Case BMW</label>
         <trackFeedHistory>false</trackFeedHistory>
@@ -520,6 +521,7 @@
     <fields>
         <fullName>Case_EEE__c</fullName>
         <defaultValue>false</defaultValue>
+        <description>description</description>
         <externalId>false</externalId>
         <label>Case EEE</label>
         <trackFeedHistory>false</trackFeedHistory>
@@ -1439,6 +1441,16 @@
         <defaultValue>false</defaultValue>
         <externalId>false</externalId>
         <label>Destructive changes test</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Destructive_full_profile_POC__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Destructive full profile POC</label>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
@@ -5807,6 +5819,16 @@
         <type>Checkbox</type>
     </fields>
     <fields>
+        <fullName>poc_destructive_rollback_test__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>poc destructive rollback test</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>pruebapermisos__c</fullName>
         <defaultValue>false</defaultValue>
         <externalId>false</externalId>
@@ -5839,6 +5861,26 @@
         <trackTrending>false</trackTrending>
         <type>Html</type>
         <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>rollback_test__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>rollback test</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>rollbacktest__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>rollbacktest</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
     </fields>
     <fields>
         <fullName>test_Schedule_deployment__c</fullName>
@@ -5895,6 +5937,16 @@
         <defaultValue>false</defaultValue>
         <externalId>false</externalId>
         <label>test destructive</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>test_rollback__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>test rollback</label>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
