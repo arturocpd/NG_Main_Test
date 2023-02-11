@@ -767,6 +767,10 @@
         <name>Nitro__c</name>
     </fields>
     <fields>
+        <label><!-- POC final --></label>
+        <name>POC_final__c</name>
+    </fields>
+    <fields>
         <label><!-- Pckage field --></label>
         <name>Pckage_field__c</name>
     </fields>

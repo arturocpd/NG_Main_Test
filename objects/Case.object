@@ -324,7 +324,7 @@
     <fields>
         <fullName>BitCoin__c</fullName>
         <defaultValue>false</defaultValue>
-        <description>Edit description</description>
+        <description>Edit description POC Final</description>
         <externalId>false</externalId>
         <label>BitCoin</label>
         <trackFeedHistory>false</trackFeedHistory>
@@ -1777,6 +1777,16 @@
         <trackHistory>true</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>POC_final__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>POC final</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
     </fields>
     <fields>
         <fullName>ParentId</fullName>

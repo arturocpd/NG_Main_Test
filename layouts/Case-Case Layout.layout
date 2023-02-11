@@ -602,6 +602,10 @@
                 <behavior>Edit</behavior>
                 <field>rollbacktest__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>POC_final__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
