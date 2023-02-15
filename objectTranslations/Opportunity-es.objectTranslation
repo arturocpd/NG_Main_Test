@@ -73,6 +73,21 @@
         <name>TrackingNumber__c</name>
     </fields>
     <fields>
+        <label><!-- User 1 --></label>
+        <name>User_1__c</name>
+        <relationshipLabel><!-- Opportunities (User 1) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- User 2 --></label>
+        <name>User_2__c</name>
+        <relationshipLabel><!-- Opportunities (User 2) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- User 3 --></label>
+        <name>User_3__c</name>
+        <relationshipLabel><!-- Opportunities (User 3) --></relationshipLabel>
+    </fields>
+    <fields>
         <label><!-- xyz SGUID Opp --></label>
         <name>xyz_SGUID_Opp__c</name>
     </fields>
