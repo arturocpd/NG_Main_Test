@@ -731,12 +731,20 @@
         <name>Install_package__c</name>
     </fields>
     <fields>
+        <label><!-- JSdeleteme --></label>
+        <name>JSdeleteme__c</name>
+    </fields>
+    <fields>
         <label><!-- Jaguar --></label>
         <name>Jaguar__c</name>
     </fields>
     <fields>
         <label><!-- Job done --></label>
         <name>Job_done__c</name>
+    </fields>
+    <fields>
+        <label><!-- Jscb --></label>
+        <name>Jscb__c</name>
     </fields>
     <fields>
         <label><!-- KeepMe2 --></label>
@@ -765,6 +773,14 @@
     <fields>
         <label><!-- Nitro --></label>
         <name>Nitro__c</name>
+    </fields>
+    <fields>
+        <label><!-- POC Final 2 --></label>
+        <name>POC_Final_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- POC Final 3 --></label>
+        <name>POC_Final_3__c</name>
     </fields>
     <fields>
         <label><!-- POC final --></label>
@@ -3609,6 +3625,10 @@
     <fields>
         <label><!-- formula check --></label>
         <name>formula_check__c</name>
+    </fields>
+    <fields>
+        <label><!-- hack test --></label>
+        <name>hack_test__c</name>
     </fields>
     <fields>
         <label><!-- master bug --></label>
