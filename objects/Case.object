@@ -2729,6 +2729,16 @@
         <trackTrending>false</trackTrending>
     </fields>
     <fields>
+        <fullName>Snapshot_test__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Snapshot test</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>SourceId</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
@@ -5634,6 +5644,19 @@
         <type>Checkbox</type>
     </fields>
     <fields>
+        <fullName>Validate_commit__c</fullName>
+        <externalId>false</externalId>
+        <label>Validate commit</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>Version_8_1__c</fullName>
         <defaultValue>false</defaultValue>
         <externalId>false</externalId>
@@ -6079,6 +6102,18 @@
         <columns>CASES.ORIGIN</columns>
         <filterScope>Everything</filterScope>
         <label>Org_Case_Hierarchy</label>
+    </listViews>
+    <listViews>
+        <fullName>Snapshot_test_list_view</fullName>
+        <columns>CASES.CASE_NUMBER</columns>
+        <columns>NAME</columns>
+        <columns>CASES.SUBJECT</columns>
+        <columns>CASES.STATUS</columns>
+        <columns>CASES.PRIORITY</columns>
+        <columns>CASES.CREATED_DATE</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <filterScope>Mine</filterScope>
+        <label>Snapshot test list view</label>
     </listViews>
     <listViews>
         <fullName>Test_LV</fullName>

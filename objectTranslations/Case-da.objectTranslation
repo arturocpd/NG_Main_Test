@@ -1379,6 +1379,10 @@
         <name>Search__c</name>
     </fields>
     <fields>
+        <label><!-- Snapshot test --></label>
+        <name>Snapshot_test__c</name>
+    </fields>
+    <fields>
         <label><!-- Standard Checkbox --></label>
         <name>Standard_Checkbox__c</name>
     </fields>
@@ -3513,6 +3517,10 @@
     <fields>
         <label><!-- VS PS Test --></label>
         <name>VS_PS_Test__c</name>
+    </fields>
+    <fields>
+        <label><!-- Validate commit --></label>
+        <name>Validate_commit__c</name>
     </fields>
     <fields>
         <label><!-- Version 8.1 --></label>

@@ -2034,6 +2034,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Case.Snapshot_test__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Case.SourceId</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -2195,6 +2200,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Case.VS_PS_Test__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Case.Validate_commit__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
