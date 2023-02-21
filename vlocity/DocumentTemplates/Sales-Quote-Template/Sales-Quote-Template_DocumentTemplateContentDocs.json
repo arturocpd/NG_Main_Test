@@ -1,0 +1,32 @@
+[
+    {
+        "ContentDocumentId": {
+            "LatestPublishedVersion.ExternalDocumentInfo2": "9dae1a8d-e0b1-d451-ea15-a0ef250a52ba",
+            "LatestPublishedVersion.Title": "Unable to create environment variables.docx",
+            "LatestPublishedVersion.VersionNumber": "1",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "ContentDocument/Generated-853128981",
+            "VlocityRecordSObjectType": "ContentDocument"
+        },
+        "DocumentTemplate.GlobalKey": "Sales Quote Template/1/Copado/1671539528691",
+        "DocumentTemplateId": {
+            "GlobalKey": "Sales Quote Template/1/Copado/1671539528691",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "DocumentTemplate/Generated-1588475416",
+            "VlocityRecordSObjectType": "DocumentTemplate"
+        },
+        "FileStageType": "Original",
+        "LatestContentVersionId": {
+            "ExternalDocumentInfo2": "9dae1a8d-e0b1-d451-ea15-a0ef250a52ba",
+            "Title": "Unable to create environment variables.docx",
+            "VersionNumber": "1",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "VlocityRecordSourceKey:0684S000003eJQ3QAM",
+            "VlocityRecordSObjectType": "ContentVersion"
+        },
+        "Name": "Unable to create environment variables.docx",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "DocumentTemplateContentDoc",
+        "VlocityRecordSourceKey": "DocumentTemplateContentDoc/Generated268398258"
+    }
+]
