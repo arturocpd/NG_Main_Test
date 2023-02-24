@@ -630,6 +630,10 @@
                 <behavior>Edit</behavior>
                 <field>Snapshot_test__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>App_test__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>

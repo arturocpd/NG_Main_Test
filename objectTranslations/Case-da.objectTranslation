@@ -17,6 +17,10 @@
         <name>Admin_Checkbox__c</name>
     </fields>
     <fields>
+        <label><!-- App test --></label>
+        <name>App_test__c</name>
+    </fields>
+    <fields>
         <label><!-- Back Promote Field --></label>
         <name>Back_Promote_Field__c</name>
     </fields>
