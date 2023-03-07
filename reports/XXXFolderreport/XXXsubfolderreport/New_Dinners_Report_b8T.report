@@ -3,6 +3,9 @@
     <columns>
         <field>Dinner__c$Name</field>
     </columns>
+    <columns>
+        <field>Dinner__c$Id</field>
+    </columns>
     <currency>EUR</currency>
     <format>Tabular</format>
     <name>New Dinners Report</name>
