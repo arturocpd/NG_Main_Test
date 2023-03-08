@@ -3,7 +3,9 @@
     <doesAllowEditSaForCrew>false</doesAllowEditSaForCrew>
     <doesShareSaParentWoWithAr>false</doesShareSaParentWoWithAr>
     <doesShareSaWithAr>false</doesShareSaWithAr>
+    <enableBatchWindow>false</enableBatchWindow>
     <enableFloatingWorkOrder>false</enableFloatingWorkOrder>
+    <enablePopulateWorkOrderAddress>false</enablePopulateWorkOrderAddress>
     <enableWorkOrders>false</enableWorkOrders>
     <enableWorkPlansAutoGeneration>false</enableWorkPlansAutoGeneration>
     <enableWorkStepManualStatusUpdate>false</enableWorkStepManualStatusUpdate>

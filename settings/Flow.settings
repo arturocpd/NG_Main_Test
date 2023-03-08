@@ -12,6 +12,7 @@
     <enableFlowInterviewSharingEnabled>true</enableFlowInterviewSharingEnabled>
     <enableFlowNullPreviousValueFix>false</enableFlowNullPreviousValueFix>
     <enableFlowPauseEnabled>false</enableFlowPauseEnabled>
+    <enableFlowReactiveScreens>false</enableFlowReactiveScreens>
     <enableFlowUseApexExceptionEmail>false</enableFlowUseApexExceptionEmail>
     <enableFlowViaRestUsesUserCtxt>true</enableFlowViaRestUsesUserCtxt>
     <enableLightningRuntimeEnabled>false</enableLightningRuntimeEnabled>
@@ -21,5 +22,6 @@
     <isFlowApexContextRetired>false</isFlowApexContextRetired>
     <isFlowBlockAccessToSessionIDEnabled>false</isFlowBlockAccessToSessionIDEnabled>
     <isManageFlowRequiredForAutomationCharts>false</isManageFlowRequiredForAutomationCharts>
+    <isSupportRollbackOnErrorForApexInvocableActionsEnabled>false</isSupportRollbackOnErrorForApexInvocableActionsEnabled>
     <isTimeResumedInSameRunContext>false</isTimeResumedInSameRunContext>
 </FlowSettings>
