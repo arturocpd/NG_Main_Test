@@ -634,6 +634,10 @@
                 <behavior>Edit</behavior>
                 <field>App_test__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Rollback_fix_test__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
