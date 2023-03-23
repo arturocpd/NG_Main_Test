@@ -334,7 +334,7 @@
     <fields>
         <fullName>BitCoin__c</fullName>
         <defaultValue>false</defaultValue>
-        <description>Rollback test fix</description>
+        <description>Test rollback redeploy original deployment</description>
         <externalId>false</externalId>
         <label>BitCoin</label>
         <trackFeedHistory>false</trackFeedHistory>

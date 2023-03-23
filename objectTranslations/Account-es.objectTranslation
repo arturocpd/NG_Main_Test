@@ -534,6 +534,18 @@
         <name>Big__c</name>
     </fields>
     <fields>
+        <label><!-- BugTest1 --></label>
+        <name>BugTest1__c</name>
+    </fields>
+    <fields>
+        <label><!-- BugTest2 --></label>
+        <name>BugTest2__c</name>
+    </fields>
+    <fields>
+        <label><!-- BugTest --></label>
+        <name>BugTest__c</name>
+    </fields>
+    <fields>
         <label><!-- Customer Priority --></label>
         <name>CustomerPriority__c</name>
         <picklistValues>
