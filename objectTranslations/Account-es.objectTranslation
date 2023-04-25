@@ -670,6 +670,18 @@
         </picklistValues>
     </fields>
     <fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Active</masterLabel>
+            <translation><!-- Active --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inactive</masterLabel>
+            <translation><!-- Inactive --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
         <label><!-- SubTrade Channel --></label>
         <name>SubTrade_Channel__c</name>
         <picklistValues>

@@ -801,6 +801,30 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
+        <fullName>Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Status</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Active</fullName>
+                    <default>false</default>
+                    <label>Active</label>
+                </value>
+                <value>
+                    <fullName>Inactive</fullName>
+                    <default>false</default>
+                    <label>Inactive</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>SubTrade_Channel__c</fullName>
         <externalId>false</externalId>
         <label>SubTrade Channel</label>
@@ -1369,6 +1393,17 @@ Description Line 3</description>
             </values>
         </picklistValues>
         <picklistValues>
+            <picklist>Status__c</picklist>
+            <values>
+                <fullName>Active</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Inactive</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
             <picklist>SubTrade_Channel__c</picklist>
             <values>
                 <fullName>020</fullName>
@@ -1740,6 +1775,17 @@ Description Line 3</description>
             </values>
             <values>
                 <fullName>Wood</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status__c</picklist>
+            <values>
+                <fullName>Active</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Inactive</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -2139,6 +2185,17 @@ Description Line 3</description>
             </values>
         </picklistValues>
         <picklistValues>
+            <picklist>Status__c</picklist>
+            <values>
+                <fullName>Active</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Inactive</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
             <picklist>SubTrade_Channel__c</picklist>
             <values>
                 <fullName>020</fullName>
@@ -2530,6 +2587,17 @@ Description Line 3</description>
             </values>
         </picklistValues>
         <picklistValues>
+            <picklist>Status__c</picklist>
+            <values>
+                <fullName>Active</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Inactive</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
             <picklist>SubTrade_Channel__c</picklist>
             <values>
                 <fullName>020</fullName>
@@ -2911,6 +2979,17 @@ Description Line 3</description>
             </values>
         </picklistValues>
         <picklistValues>
+            <picklist>Status__c</picklist>
+            <values>
+                <fullName>Active</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Inactive</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
             <picklist>SubTrade_Channel__c</picklist>
             <values>
                 <fullName>020</fullName>
@@ -3279,6 +3358,17 @@ Description Line 3</description>
             </values>
             <values>
                 <fullName>Wood</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status__c</picklist>
+            <values>
+                <fullName>Active</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Inactive</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -3682,6 +3772,17 @@ Description Line 3</description>
             </values>
             <values>
                 <fullName>Wood</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status__c</picklist>
+            <values>
+                <fullName>Active</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Inactive</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
