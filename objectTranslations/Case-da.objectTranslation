@@ -9,6 +9,10 @@
         <name>AWS_Test__c</name>
     </fields>
     <fields>
+        <label><!-- Add Metadata --></label>
+        <name>Add_Metadata__c</name>
+    </fields>
+    <fields>
         <label><!-- Add metadata field --></label>
         <name>Add_metadata_field__c</name>
     </fields>
@@ -3425,6 +3429,34 @@
     <fields>
         <label><!-- TestAutonumber --></label>
         <name>TestAutonumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Test 14 Destrutive 1 --></label>
+        <name>Test_14_Destrutive_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Test 14 Destrutive 2 --></label>
+        <name>Test_14_Destrutive_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Test 14 Destrutive 3 --></label>
+        <name>Test_14_Destrutive_3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Test 14 Destrutive 4 --></label>
+        <name>Test_14_Destrutive_4__c</name>
+    </fields>
+    <fields>
+        <label><!-- Test 14 Destrutive 5 --></label>
+        <name>Test_14_Destrutive_5__c</name>
+    </fields>
+    <fields>
+        <label><!-- Test 14 Destrutive 6 --></label>
+        <name>Test_14_Destrutive_6__c</name>
+    </fields>
+    <fields>
+        <label><!-- Test 14 Destrutive 7 --></label>
+        <name>Test_14_Destrutive_7__c</name>
     </fields>
     <fields>
         <label><!-- Test 1 --></label>
