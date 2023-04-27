@@ -1403,6 +1403,10 @@
         </picklistValues>
     </fields>
     <fields>
+        <label><!-- Scheduled Test --></label>
+        <name>Scheduled_Test__c</name>
+    </fields>
+    <fields>
         <label><!-- Search --></label>
         <name>Search__c</name>
     </fields>
