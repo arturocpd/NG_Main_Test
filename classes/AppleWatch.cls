@@ -6,8 +6,9 @@ Public with sharing Class AppleWatch{
         t.Description = 'Send them one ASAP' ;
         t.Priority    = 'High' ;
         t.WhatId      = opp.Id;
+      //t.Activity_Custom_field_3__c = true;
         insert t;
-     /*Comment Dev1 Org FINAL*/
+     /*Comment to validate the commit*/
      /*Comment 2*/
    }
   }
