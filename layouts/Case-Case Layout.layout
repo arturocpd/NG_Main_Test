@@ -674,6 +674,10 @@
                 <behavior>Edit</behavior>
                 <field>Scheduled_Test__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>ABC__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>

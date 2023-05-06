@@ -5,6 +5,10 @@
         <name>Support_Field_Set</name>
     </fieldSets>
     <fields>
+        <label><!-- ABC --></label>
+        <name>ABC__c</name>
+    </fields>
+    <fields>
         <label><!-- AWS Test --></label>
         <name>AWS_Test__c</name>
     </fields>
