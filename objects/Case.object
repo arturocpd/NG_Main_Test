@@ -228,7 +228,7 @@
     <fields>
         <fullName>BitCoin__c</fullName>
         <defaultValue>false</defaultValue>
-        <description>Test Rollback fix</description>
+        <description>Test multiple user stories</description>
         <externalId>false</externalId>
         <label>BitCoin</label>
         <trackFeedHistory>false</trackFeedHistory>
