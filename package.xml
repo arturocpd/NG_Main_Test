@@ -8,6 +8,7 @@
         <members>Tabs1</members>
         <members>Test_Community_C</members>
         <members>Test_Community_Experience1</members>
+        <members>ardigital1</members>
         <name>ExperienceBundle</name>
     </types>
     <version>57.0</version>

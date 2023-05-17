@@ -152,4 +152,8 @@
         <name>standard__OMConsole</name>
         <type>CustomApplication</type>
     </appMenuItems>
+    <appMenuItems>
+        <name>ardigital</name>
+        <type>Network</type>
+    </appMenuItems>
 </AppMenu>
