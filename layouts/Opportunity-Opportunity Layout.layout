@@ -105,6 +105,10 @@
                 <behavior>Edit</behavior>
                 <field>CampaignId</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Required</behavior>
+                <field>ForecastCategoryName</field>
+            </layoutItems>
         </layoutColumns>
         <style>TwoColumnsTopToBottom</style>
     </layoutSections>
