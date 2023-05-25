@@ -8,6 +8,7 @@ public with sharing class spm_myType101 {
         }
     }
 
+    /**Rebase test - changes in Dev1 to generate conflict**/
     /**___CONFLICT_1___**/
 
     public static Account setDefaultBillingAddress(Account a){
