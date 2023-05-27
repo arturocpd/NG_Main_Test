@@ -29,7 +29,7 @@ public with sharing class spm_myType101Test {
         System.assertEquals('Madrid', acc.ShippingState, 'Default Shippingtate is Madrid');
         System.assertEquals('28023', acc.ShippingPostalCode, 'Default ShippingPostalCode is 28023');
     }
-
+/**Rollback test**/
     @isTest static void testDefaultPhone(){
         Account acc = new Account(Name = 'My Test Account');
         insert acc;

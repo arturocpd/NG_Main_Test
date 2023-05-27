@@ -9,6 +9,7 @@ public with sharing class spm_myType120 {
     }
 
     /**___CONFLICT_1___**/
+     /**Slack test**/
 
     public static Account setDefaultBillingAddress(Account a){
         a.billingstreet = 'Basauri, 6'; 

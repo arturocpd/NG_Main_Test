@@ -11,6 +11,7 @@ public with sharing class spm_myType100Test {
         acc = spm_myType100.setDefaultDescription(acc);
         System.assertNotEquals('Default description', acc.Description, 'When description is NOT null, it is NOT updated to Default description');
     }
+    /**Rollback test**/
 
     @isTest static void testDefaultBillingAddress(){
         Account acc = new Account(Name = 'My Test Account');
