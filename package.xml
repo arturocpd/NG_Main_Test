@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Case.ABC__c</members>
-        <members>Case.BitCoin__c</members>
+        <members>Case.Umit_test__c</members>
         <name>CustomField</name>
+    </types>
+    <types>
+        <members>umit_test</members>
+        <name>PermissionSet</name>
     </types>
     <version>57.0</version>
 </Package>
