@@ -10317,6 +10317,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Case.Umit_test__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Case.Unique_Code__c</field>
         <readable>false</readable>
     </fieldPermissions>

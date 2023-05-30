@@ -636,6 +636,10 @@
                 <behavior>Edit</behavior>
                 <field>ABC__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Umit_test__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>

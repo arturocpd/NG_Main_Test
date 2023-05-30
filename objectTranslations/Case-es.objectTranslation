@@ -3559,6 +3559,10 @@
         <name>US_CI_Track__c</name>
     </fields>
     <fields>
+        <label><!-- Umit test --></label>
+        <name>Umit_test__c</name>
+    </fields>
+    <fields>
         <label><!-- Unique Code --></label>
         <name>Unique_Code__c</name>
     </fields>
