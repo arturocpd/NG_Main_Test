@@ -181,6 +181,9 @@
             <type>TransferFailed</type>
         </conversationSystemDialogs>
         <entryDialog>Welcome</entryDialog>
+        <intentDisambiguationEnabled>false</intentDisambiguationEnabled>
+        <intentV3Enabled>false</intentV3Enabled>
+        <knowledgeFallbackEnabled>false</knowledgeFallbackEnabled>
         <mainMenuDialog>Main_Menu</mainMenuDialog>
         <nlpProviders>
             <language>en_US</language>
@@ -360,6 +363,9 @@
             <type>TransferFailed</type>
         </conversationSystemDialogs>
         <entryDialog>Welcome</entryDialog>
+        <intentDisambiguationEnabled>false</intentDisambiguationEnabled>
+        <intentV3Enabled>false</intentV3Enabled>
+        <knowledgeFallbackEnabled>false</knowledgeFallbackEnabled>
         <mainMenuDialog>Main_Menu</mainMenuDialog>
         <nlpProviders>
             <language>en_US</language>
@@ -539,6 +545,9 @@
             <type>TransferFailed</type>
         </conversationSystemDialogs>
         <entryDialog>Welcome</entryDialog>
+        <intentDisambiguationEnabled>false</intentDisambiguationEnabled>
+        <intentV3Enabled>false</intentV3Enabled>
+        <knowledgeFallbackEnabled>false</knowledgeFallbackEnabled>
         <mainMenuDialog>Main_Menu</mainMenuDialog>
         <nlpProviders>
             <language>en_US</language>
@@ -706,6 +715,9 @@
             <type>TransferFailed</type>
         </conversationSystemDialogs>
         <entryDialog>Welcome</entryDialog>
+        <intentDisambiguationEnabled>false</intentDisambiguationEnabled>
+        <intentV3Enabled>false</intentV3Enabled>
+        <knowledgeFallbackEnabled>false</knowledgeFallbackEnabled>
         <mainMenuDialog>Main_Menu</mainMenuDialog>
         <nlpProviders>
             <language>en_US</language>
@@ -873,6 +885,9 @@
             <type>TransferFailed</type>
         </conversationSystemDialogs>
         <entryDialog>Welcome</entryDialog>
+        <intentDisambiguationEnabled>false</intentDisambiguationEnabled>
+        <intentV3Enabled>false</intentV3Enabled>
+        <knowledgeFallbackEnabled>false</knowledgeFallbackEnabled>
         <mainMenuDialog>Main_Menu</mainMenuDialog>
         <nlpProviders>
             <language>en_US</language>
@@ -1040,6 +1055,9 @@
             <type>TransferFailed</type>
         </conversationSystemDialogs>
         <entryDialog>Welcome</entryDialog>
+        <intentDisambiguationEnabled>false</intentDisambiguationEnabled>
+        <intentV3Enabled>false</intentV3Enabled>
+        <knowledgeFallbackEnabled>false</knowledgeFallbackEnabled>
         <mainMenuDialog>Main_Menu</mainMenuDialog>
         <nlpProviders>
             <language>en_US</language>
@@ -1214,6 +1232,9 @@
             <label>Test</label>
         </conversationVariables>
         <entryDialog>Welcome</entryDialog>
+        <intentDisambiguationEnabled>false</intentDisambiguationEnabled>
+        <intentV3Enabled>false</intentV3Enabled>
+        <knowledgeFallbackEnabled>false</knowledgeFallbackEnabled>
         <mainMenuDialog>Main_Menu</mainMenuDialog>
         <nlpProviders>
             <language>en_US</language>
@@ -1381,6 +1402,9 @@
             <type>TransferFailed</type>
         </conversationSystemDialogs>
         <entryDialog>Welcome</entryDialog>
+        <intentDisambiguationEnabled>false</intentDisambiguationEnabled>
+        <intentV3Enabled>false</intentV3Enabled>
+        <knowledgeFallbackEnabled>false</knowledgeFallbackEnabled>
         <mainMenuDialog>Main_Menu</mainMenuDialog>
         <nlpProviders>
             <language>en_US</language>
@@ -1548,6 +1572,9 @@
             <type>TransferFailed</type>
         </conversationSystemDialogs>
         <entryDialog>Welcome</entryDialog>
+        <intentDisambiguationEnabled>false</intentDisambiguationEnabled>
+        <intentV3Enabled>false</intentV3Enabled>
+        <knowledgeFallbackEnabled>false</knowledgeFallbackEnabled>
         <mainMenuDialog>Main_Menu</mainMenuDialog>
         <nlpProviders>
             <language>en_US</language>
