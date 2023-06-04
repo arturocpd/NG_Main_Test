@@ -146,10 +146,6 @@
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
-        <fullName>ExclusivityType</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
         <fullName>IsMinItemCountRequired</fullName>
         <trackHistory>false</trackHistory>
     </fields>

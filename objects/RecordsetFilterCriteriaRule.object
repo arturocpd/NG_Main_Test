@@ -162,6 +162,14 @@
         <fullName>Type</fullName>
     </fields>
     <fields>
+        <fullName>UsageRateField</fullName>
+        <inlineHelpText>This field stores the daily usage rate of the asset. The unit for the usage rate must be per day.</inlineHelpText>
+    </fields>
+    <fields>
+        <fullName>UsageRateUnit</fullName>
+        <inlineHelpText>This enum value that define different options for Usage Rate Field.</inlineHelpText>
+    </fields>
+    <fields>
         <fullName>Value</fullName>
     </fields>
     <searchLayouts>

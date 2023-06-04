@@ -158,6 +158,9 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>PoDate</fullName>
+    </fields>
+    <fields>
         <fullName>PoNumber</fullName>
     </fields>
     <fields>
@@ -173,6 +176,10 @@
     </fields>
     <fields>
         <fullName>SalesStoreId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SourceOrderSummaryId</fullName>
         <type>Lookup</type>
     </fields>
     <fields>
@@ -198,6 +205,9 @@
         <fullName>TotalAdjDistTaxAmount</fullName>
     </fields>
     <fields>
+        <fullName>TotalAdjFeeAmtWithTax</fullName>
+    </fields>
+    <fields>
         <fullName>TotalAdjProductAmtWithTax</fullName>
     </fields>
     <fields>
@@ -205,6 +215,12 @@
     </fields>
     <fields>
         <fullName>TotalAdjustedDeliveryTaxAmount</fullName>
+    </fields>
+    <fields>
+        <fullName>TotalAdjustedFeeAmount</fullName>
+    </fields>
+    <fields>
+        <fullName>TotalAdjustedFeeTaxAmount</fullName>
     </fields>
     <fields>
         <fullName>TotalAdjustedProductAmount</fullName>
@@ -225,6 +241,33 @@
         <fullName>TotalDeliveryAdjDistTaxAmount</fullName>
     </fields>
     <fields>
+        <fullName>TotalDeliveryAmount</fullName>
+    </fields>
+    <fields>
+        <fullName>TotalDeliveryAmountWithTax</fullName>
+    </fields>
+    <fields>
+        <fullName>TotalDeliveryTaxAmount</fullName>
+    </fields>
+    <fields>
+        <fullName>TotalFeeAdjDistAmount</fullName>
+    </fields>
+    <fields>
+        <fullName>TotalFeeAdjDistAmtWithTax</fullName>
+    </fields>
+    <fields>
+        <fullName>TotalFeeAdjDistTaxAmount</fullName>
+    </fields>
+    <fields>
+        <fullName>TotalFeeAmount</fullName>
+    </fields>
+    <fields>
+        <fullName>TotalFeeAmountWithTax</fullName>
+    </fields>
+    <fields>
+        <fullName>TotalFeeTaxAmount</fullName>
+    </fields>
+    <fields>
         <fullName>TotalProductAdjDistAmount</fullName>
     </fields>
     <fields>
@@ -232,6 +275,15 @@
     </fields>
     <fields>
         <fullName>TotalProductAdjDistTaxAmount</fullName>
+    </fields>
+    <fields>
+        <fullName>TotalProductAmount</fullName>
+    </fields>
+    <fields>
+        <fullName>TotalProductAmountWithTax</fullName>
+    </fields>
+    <fields>
+        <fullName>TotalProductTaxAmount</fullName>
     </fields>
     <fields>
         <fullName>TotalTaxAmount</fullName>

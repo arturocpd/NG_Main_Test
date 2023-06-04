@@ -36,7 +36,7 @@
         <enableClickjackNonsetupUserHeaderless>false</enableClickjackNonsetupUserHeaderless>
         <enableClickjackSetup>true</enableClickjackSetup>
         <enableCoepHeader>false</enableCoepHeader>
-        <enableContentSniffingProtection>false</enableContentSniffingProtection>
+        <enableContentSniffingProtection>true</enableContentSniffingProtection>
         <enableCoopHeader>false</enableCoopHeader>
         <enableLightningLogin>true</enableLightningLogin>
         <enableLightningLoginOnlyWithUserPerm>false</enableLightningLoginOnlyWithUserPerm>

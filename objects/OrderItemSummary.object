@@ -141,10 +141,25 @@
         <fullName>QuantityAllocated</fullName>
     </fields>
     <fields>
+        <fullName>QuantityAvailableToCancel</fullName>
+    </fields>
+    <fields>
+        <fullName>QuantityAvailableToFulfill</fullName>
+    </fields>
+    <fields>
+        <fullName>QuantityAvailableToReship</fullName>
+    </fields>
+    <fields>
+        <fullName>QuantityAvailableToReturn</fullName>
+    </fields>
+    <fields>
         <fullName>QuantityCanceled</fullName>
     </fields>
     <fields>
         <fullName>QuantityFulfilled</fullName>
+    </fields>
+    <fields>
+        <fullName>QuantityNetOrdered</fullName>
     </fields>
     <fields>
         <fullName>QuantityOrdered</fullName>
