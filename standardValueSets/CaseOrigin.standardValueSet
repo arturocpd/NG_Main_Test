@@ -7,13 +7,13 @@
         <label>Phone</label>
     </standardValue>
     <standardValue>
-        <fullName>Email</fullName>
-        <default>false</default>
-        <label>Email</label>
-    </standardValue>
-    <standardValue>
         <fullName>WebPage</fullName>
         <default>false</default>
         <label>WebPage2</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Email</fullName>
+        <default>false</default>
+        <label>Email</label>
     </standardValue>
 </StandardValueSet>
