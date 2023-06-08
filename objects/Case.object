@@ -23,7 +23,7 @@
     <fields>
         <fullName>BitCoin__c</fullName>
         <defaultValue>false</defaultValue>
-        <description>Test multiple user stories</description>
+        <description>Rebase test -  value in Dev1 to generate conflict</description>
         <externalId>false</externalId>
         <label>BitCoin</label>
         <trackFeedHistory>false</trackFeedHistory>
