@@ -9817,6 +9817,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Case.Dev_field__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Case.Do_not_move_to_UAT__c</field>
         <readable>false</readable>
     </fieldPermissions>

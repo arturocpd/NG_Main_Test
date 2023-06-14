@@ -638,6 +638,10 @@
                 <behavior>Edit</behavior>
                 <field>Umit_test__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Dev_field__c</field>
+            </layoutItems>
         </layoutColumns>
         <style>OneColumn</style>
     </layoutSections>

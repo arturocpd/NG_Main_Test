@@ -687,6 +687,10 @@
         <name>Destructive_full_profile_POC__c</name>
     </fields>
     <fields>
+        <label><!-- Dev field --></label>
+        <name>Dev_field__c</name>
+    </fields>
+    <fields>
         <label><!-- Do not move to UAT --></label>
         <name>Do_not_move_to_UAT__c</name>
     </fields>
