@@ -635,27 +635,27 @@
         <name>Destructive_Test_10__c</name>
     </fields>
     <fields>
-        <label><!-- Destructive Test 1 --></label>
+        <label>Borra Test 1</label>
         <name>Destructive_Test_1__c</name>
     </fields>
     <fields>
-        <label><!-- Destructive Test 2 --></label>
+        <label>Borra Test 2</label>
         <name>Destructive_Test_2__c</name>
     </fields>
     <fields>
-        <label><!-- Destructive Test 3 --></label>
+        <label>Borra Test 3</label>
         <name>Destructive_Test_3__c</name>
     </fields>
     <fields>
-        <label><!-- Destructive Test 4 --></label>
+        <label>Borra Test 4</label>
         <name>Destructive_Test_4__c</name>
     </fields>
     <fields>
-        <label><!-- Destructive Test 5 --></label>
+        <label>Borra Test 5</label>
         <name>Destructive_Test_5__c</name>
     </fields>
     <fields>
-        <label><!-- Destructive Test 6 --></label>
+        <label>Borra Test 6</label>
         <name>Destructive_Test_6__c</name>
     </fields>
     <fields>
