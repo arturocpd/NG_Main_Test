@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>spm_myType100</members>
-        <members>spm_myType100Test</members>
+        <members>spm_myType555</members>
+        <members>spm_myType555Test</members>
         <name>ApexClass</name>
-    </types>
-    <types>
-        <members>Case.BitCoin__c</members>
-        <name>CustomField</name>
     </types>
     <version>57.0</version>
 </Package>
