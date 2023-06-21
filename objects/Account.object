@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>Victor_Acc_Autonumber__c</fullName>
+        <displayFormat>{00000}</displayFormat>
+        <externalId>false</externalId>
+        <label>Victor Acc Autonumber</label>
+        <type>AutoNumber</type>
+    </fields>
     <recordTypes>
         <fullName>Auto_Resolve_RT</fullName>
         <active>true</active>
