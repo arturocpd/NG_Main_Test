@@ -3,10 +3,6 @@
     <types>
         <members>spm_myType202</members>
         <members>spm_myType202Test</members>
-        <members>spm_myType203</members>
-        <members>spm_myType203Test</members>
-        <members>spm_myType204</members>
-        <members>spm_myType204Test</members>
         <name>ApexClass</name>
     </types>
     <version>58.0</version>
